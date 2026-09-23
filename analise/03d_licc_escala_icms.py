@@ -6,10 +6,10 @@ Entradas:
   dados/externos/siconfi_icms_es.csv            (analise/03c_siconfi_cultura_icms.py)
   dados/externos/siconfi_cultura_es_estado.csv  (idem)
   dados/externos/siconfi_cultura_municipios_es.csv (idem)
-  dados/licc/habilitados/habilitados-{2022..2026}.csv (transcrição oficial dos anexos da SECULT)
+  dados/processados/habilitados.csv (01_carregar.py: anexos da SECULT com os 4 valores suspeitos de R$ 500 como ausentes)
   dados/licc/oficial/captados-2025.csv          (anexo "RECURSO FINANCEIRO CAPTADO 2025")
-Tetos anuais: digitados abaixo COM a fonte de cada um; status "verificado" = lido no texto oficial;
-"[VERIFICAR]" = visto só em fonte secundária/busca.
+Tetos anuais: digitados abaixo COM a fonte de cada um; status "verificado" = lido no texto oficial (DIO-ES);
+"[VERIFICAR]" = visto só em fonte secundária/busca. O teto do exercício soma as portarias de ampliação.
 
 Saídas:
   dados/externos/licc_teto_vs_icms.csv
@@ -17,7 +17,6 @@ Saídas:
 """
 from __future__ import annotations
 
-import glob
 from pathlib import Path
 
 import pandas as pd
@@ -26,12 +25,13 @@ RAIZ = Path(__file__).resolve().parents[1]
 EXT = RAIZ / "dados" / "externos"
 
 TETOS = [
-    # ano, teto R$, fonte, status
+    # ano, teto R$ (soma da portaria inicial e das ampliações do exercício), fonte, status.
+    # Textos das portarias: notas/politica/fontes/portarias-*.md (recortes do DIO-ES publicados pela SECULT).
     (2022, 10_000_000, "Portaria SEFAZ nº 09-R, de 27/01/2022 (DIO-ES 28/01/2022); notas/politica/fontes/portarias-sefaz-secult-2022.md", "verificado"),
-    (2023, 15_000_000, "Resumo de busca (WebSearch, 2026-09-23): 'R$ 15 milhões ... assim como no ano de 2023'; ato da SEFAZ não lido", "[VERIFICAR]"),
-    (2024, 25_000_000, "SECULT, notícia 'Governo amplia para R$ 25 milhões...' (anúncio de 16/04/2024; teto inicial R$ 15 mi fixado pela SEFAZ); ato da SEFAZ de ampliação não lido", "verificado (notícia oficial); ato [VERIFICAR]"),
-    (2025, 25_000_000, "Portaria SEFAZ nº 01-R, de 07/01/2025, citada pela SECULT; soma do anexo 'RECURSO FINANCEIRO CAPTADO 2025' = R$ 25.000.000,00", "verificado (captado); portaria [VERIFICAR texto]"),
-    (2026, 25_000_000, "Portaria SEFAZ nº 02-R, de 08/01/2026, segundo jornaloalegrense.com.br (resultado de busca); ato não lido", "[VERIFICAR]"),
+    (2023, 15_000_000, "Portarias SEFAZ nº 05-R/2023 (R$ 10 mi), 43-R/2023 (+R$ 3,3 mi) e 52-R/2023 (+R$ 1,7 mi); notas/politica/fontes/portarias-teto-e-cotas-2023-2025.md", "verificado"),
+    (2024, 25_000_000, "Portarias SEFAZ nº 06-R/2024 (R$ 15 mi) e 41-R/2024 (+R$ 10 mi); notas/politica/fontes/portarias-teto-e-cotas-2023-2025.md", "verificado"),
+    (2025, 25_000_000, "Portaria SEFAZ nº 01-R, de 07/01/2025, sem ampliação listada pela SECULT; soma do anexo 'RECURSO FINANCEIRO CAPTADO 2025' = R$ 25.000.000,00; notas/politica/fontes/portarias-teto-e-cotas-2023-2025.md", "verificado"),
+    (2026, 31_000_000, "Portarias SEFAZ nº 02-R/2026 (R$ 25 mi) e 23-R/2026 (+R$ 6 mi); notas/politica/fontes/portarias-sefaz-teto-2026.md", "verificado"),
 ]
 
 CAB = ("# Fonte: {fonte}. Script: analise/03d_licc_escala_icms.py (2026-09-23)\n")
@@ -70,9 +70,9 @@ def escala() -> None:
 
 
 def habilitados() -> None:
-    fs = sorted(glob.glob(str(RAIZ / "dados" / "licc" / "habilitados" / "habilitados-*.csv")))
-    h = pd.concat([pd.read_csv(f).assign(ciclo=int(Path(f).stem[-4:])) for f in fs], ignore_index=True)
-    h["valor_autorizado"] = pd.to_numeric(h["valor_autorizado"], errors="coerce")
+    # Base padronizada pelo 01_carregar.py, a mesma do 03_descritivas.py: os quatro valores de R$ 500,00
+    # da p. 12 (01_valores_suspeitos.csv) ficam ausentes em vez de somar como R$ 500.
+    h = pd.read_csv(RAIZ / "dados" / "processados" / "habilitados.csv")
     g = (h.assign(enq=h["enquadramento"].fillna("(sem classificação publicada)"))
           .groupby(["ciclo", "enq"])
           .agg(n_projetos=("projeto", "count"), n_com_valor=("valor_autorizado", "count"),
@@ -85,7 +85,7 @@ def habilitados() -> None:
     # O ciclo de habilitação N capta, em regra, no ano seguinte (CLAUDE.md, regra 4); comparamos com o teto de N+1.
     g["teto_ano_seguinte"] = g["ciclo"].map(lambda c: teto.get(c + 1))
     with open(EXT / "licc_habilitados_por_cota.csv", "w", encoding="utf-8", newline="") as f:
-        f.write(CAB.format(fonte="dados/licc/habilitados/habilitados-{2022..2026}.csv (anexos oficiais SECULT); "
+        f.write(CAB.format(fonte="dados/processados/habilitados.csv (anexos oficiais SECULT padronizados por 01_carregar.py); "
                                  "enquadramento = cota do art. 18 como publicada pela SECULT; valor_autorizado = teto "
                                  "de captacao habilitado, nao captado"))
         g.to_csv(f, index=False)

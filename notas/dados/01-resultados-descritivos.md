@@ -51,12 +51,12 @@ Tabela: `03_anual.csv` (registros da seção de cada ciclo; a última linha usa 
 Leituras:
 
 - **A demanda habilitada supera o teto de renúncia em todos os ciclos com teto conhecido.** Tetos anuais
-  (`dados/externos/licc_teto_vs_icms.csv`, com a fonte de cada um): R$ 10 mi (2022, Portaria SEFAZ 09-R/2022,
-  conferida), R$ 15 mi (2023, [VERIFICAR]), R$ 25 mi (2024, ampliação anunciada pela SECULT; ato [VERIFICAR]),
-  R$ 25 mi (2025, captação somada = R$ 25.000.000,00), R$ 25 mi (2026, [VERIFICAR]). Como a captação de um
-  ciclo ocorre sobretudo no ano seguinte (§ 7), a comparação natural é com o teto do ano seguinte: a soma
-  autorizada dos ciclos 2022-2025 é 1,6 (2022: R$ 23,4 mi para R$ 15 mi), 1,8 (2023), 1,9 (2024) e 1,3 (2025)
-  vezes esse teto. Contra o teto do mesmo ano, o ciclo 2023 chega a 3,0 vezes. A comparação é indicativa, porque ciclo de habilitação não é ano de captação (regra 4 do
+  (`dados/externos/licc_teto_vs_icms.csv`; portarias da SEFAZ conferidas no DIO-ES em
+  `notas/politica/fontes/portarias-*.md`, somando as ampliações do exercício): R$ 10 mi (2022), R$ 15 mi (2023:
+  10 + 3,3 + 1,7), R$ 25 mi (2024: 15 + 10), R$ 25 mi (2025; captação somada = R$ 25.000.000,00), R$ 31 mi
+  (2026: 25 + 6). Como a captação de um ciclo ocorre sobretudo no ano seguinte (§ 7), a comparação natural é
+  com o teto do ano seguinte: a soma autorizada dos ciclos 2022-2025 é 1,6 (2022: R$ 23,4 mi para R$ 15 mi),
+  1,8 (2023), 1,9 (2024) e 1,1 (2025: R$ 33,5 mi para R$ 31 mi) vezes esse teto. Contra o teto do mesmo ano, o ciclo 2023 chega a 3,0 vezes. A comparação é indicativa, porque ciclo de habilitação não é ano de captação (regra 4 do
   `CLAUDE.md`; ver § 7), mas a ordem de grandeza não depende disso: **a LICC habilita mais do que pode
   pagar e o racionamento acontece na captação**, fora do controle da SECULT.
 - **O valor autorizado mediano sobe até encostar no teto por projeto** (R$ 368 mil em 2022; R$ 499,8 mil em 2025 e
@@ -134,15 +134,24 @@ Tabelas: `03_enquadramento_cobertura.csv`, `03_enquadramento_por_ciclo.csv`, `03
   | IV demais (50%) | 86, R$ 32,36 mi (69,3%) | 40, R$ 17,74 mi (53,0%) | 56, R$ 24,52 mi (64,7%) |
 
   (percentual sobre o autorizado do ciclo; 2024 com 120/123 valores).
-- **As reservas são sobre o teto (R$ 25 mi), não sobre a demanda.** Comparando o autorizado classificado
-  com a reserva em reais: cota I tem R$ 6,8 a 8,4 mi para R$ 7,5 mi reservados; cota II, R$ 1,5 a 2,8 mi
-  para R$ 2,5 mi; cota III, R$ 3,9 a 5,6 mi para R$ 2,5 mi; cota IV, R$ 17,7 a 32,4 mi para R$ 12,5 mi.
-  A demanda habilitada das cotas III e IV supera a reserva em todos os ciclos (cota III: 1,6 a 2,2 vezes os
-  R$ 2,5 mi); a da cota I fica abaixo da reserva em 2024 (R$ 7,25 mi) e 2026 (R$ 6,76 mi), e a da cota II em
-  2024 e 2025. Como 30-45% dos habilitados não captam (§ 2), mesmo uma demanda acima da reserva pode não
-  preenchê-la. Pelo § 1º do art. 18, o que excede as reservas I-III disputa a cota IV. Se as cotas mudam o
-  resultado depende da captação por cota, que não é publicada (o anexo de captados não traz cota; § 7) →
-  **indeterminado** (regra 3 do `CLAUDE.md`).
+- **As reservas são sobre o teto, não sobre a demanda.** Comparando o autorizado classificado em cada cota com a
+  reserva do teto do ano em que o ciclo capta (ciclo 2024 → teto 2025 de R$ 25 mi: reservas de R$ 7,5 / 2,5 /
+  2,5 / 12,5 mi; ciclo 2025 → teto 2026 de R$ 31 mi: R$ 9,3 / 3,1 / 3,1 / 15,5 mi; ciclo 2026 → teto 2027
+  desconhecido, referência R$ 31 mi):
+
+  | Cota | Ciclo 2024 (reserva) | Ciclo 2025 (reserva) | Ciclo 2026 (reserva ref.) |
+  | --- | ---: | ---: | ---: |
+  | I eventos calendarizados | 7,25 (7,5) | 8,41 (9,3) | 6,76 (9,3) |
+  | II planos plurianuais | 1,50 (2,5) | 1,77 (3,1) | 2,76 (3,1) |
+  | III fora da RMGV | 5,61 (2,5) | 5,57 (3,1) | 3,89 (3,1) |
+  | IV demais | 32,36 (12,5) | 17,74 (15,5) | 24,52 (15,5) |
+
+  (R$ mi). **A demanda habilitada das cotas I e II fica abaixo da reserva nos três ciclos; a das cotas III e IV,
+  acima.** Como 30-45% dos habilitados não captam (§ 2), a sobra das reservas I e II tende a ser maior do que a
+  tabela mostra; pelo § 2º do art. 18 ela pode ser remanejada a critério da SECULT, e pelo § 1º o que excede
+  as reservas I-III disputa a cota IV. Assim, a reserva que efetivamente amarra é a III (demanda de 1,3 a 2,2
+  vezes a reserva). Se as cotas mudam o resultado depende da captação por cota, que não é publicada (o anexo de
+  captados não traz cota; § 7) → **indeterminado** (regra 3 do `CLAUDE.md`).
 - **Coerência territorial da cota III.** A cota exige sede **e** execução fora da RMGV; a sede não é
   publicada. Dos projetos classificados na cota III, 0 de 17 (2024), 3 de 13 (2025) e 3 de 12 (2026)
   listam algum município da RMGV como local de execução, e 2 (2025) e 1 (2026) não têm município
@@ -281,7 +290,7 @@ Síntese do que os dados permitem afirmar, na linguagem da avaliação de desenh
 da seção 2.3 de `notas/disciplina/01-slides-e-guias.md`). Cada item diz o elo da teoria da mudança a que se
 refere.
 
-1. **Excesso de demanda e racionamento privado (insumo → produto).** Autorizado por ciclo de 1,3 a 1,9 vezes
+1. **Excesso de demanda e racionamento privado (insumo → produto).** Autorizado por ciclo de 1,1 a 1,9 vezes
    o teto do ano seguinte; em 2025 a captação esgotou o teto ao centavo (§ 1, § 7). Quem define os projetos financiados, entre
    os habilitados, são as empresas.
 2. **Atrito crescente na captação (produto).** 16% → 30% → 45% de expirados entre os resolvidos de 2022 a
@@ -329,7 +338,6 @@ causais):
 
 - Legenda oficial dos quatro estados da lista de habilitados; data de corte da versão de 10/09/2026.
 - Significado de "ANO X" (exercício de habilitação × ano de captação pretendida).
-- Tetos de 2023, 2024 (ato de ampliação) e 2026 na norma primária; 2025 conferido pela soma captada.
 - Cinco registros com autorizado > total e quatro valores de R$ 500,00 (p. 12 do PDF de habilitados).
 - Natureza jurídica e setor dos patrocinadores inferidos do nome, sem consulta ao CNPJ/CNAE.
 - Identidade do proponente por nome: fusões indevidas ou grafias não unificadas mudam a recorrência.
@@ -338,6 +346,3 @@ causais):
 - O anexo de captados cobre só 2025 e só quem captou; não há captação por projeto nos demais anos.
 - 15 dos 63 captadores de 2025 sem casamento exato com a lista de habilitados (6 ambíguos, 9 sem
   correspondência); o casamento secundário só entra em sensibilidade.
-- `03d_licc_escala_icms.py` lê os CSV brutos e inclui os quatro valores suspeitos de R$ 500 (diferença de
-  R$ 1.500 no autorizado de 2024 em relação a `03_anual.csv`); para o artigo valem os números do
-  `03_descritivas.py`.
