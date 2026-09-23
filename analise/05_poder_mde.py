@@ -2,7 +2,7 @@
 Efeito mínimo detectável (EMD/MDE) e tamanho amostral para a proposta de
 avaliação de impacto da LICC — conglomerados, covariadas, proporções e painel
 (diferenças em diferenças), conforme o material da disciplina e a literatura
-indicada na nota notas/disciplina/05-poder-validade-agregacao.md.
+reunida em notas/literatura/03-metodos-e-dados.md (§§ 1.6 e 3).
 
 Fontes das fórmulas (página do documento impresso; "PDF p." quando diferente):
 - Djimeu, E. W.; Houndolo, D.-G. (2016). 3ie Working Paper 26.

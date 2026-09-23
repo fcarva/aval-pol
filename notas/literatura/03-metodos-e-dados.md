@@ -1,8 +1,8 @@
 # Literatura de métodos e fontes de dados para a avaliação de impacto da LICC
 
 > Nota de trabalho (skill deep-research, modo *lit-review*, padrão "Policy
-> Analysis" de `references/methodology_patterns.md`). Status: EM CONSTRUÇÃO —
-> seções marcadas `[PENDENTE]` ainda não foram escritas.
+> Analysis" de `references/methodology_patterns.md`). Status: seções 0 a 5 completas (23/09/2026);
+> §§ 2-5 escritas em sessão sem acesso à Crossref, a partir das referências já verificadas no § 1.
 >
 > Regras desta nota: só entram referências cujo DOI (ou URL oficial) foi
 > conferido em 23/09/2026 na API do Crossref (`api.crossref.org/works/<DOI>`),
@@ -724,16 +724,102 @@ cujo DOI impresso não resolve.)
 
 ## 2. Quadro de fontes de dados
 
-[PENDENTE]
+| Fonte | Unidade e chave | Período | O que mede | Acesso | Uso no desenho |
+| --- | --- | --- | --- | --- | --- |
+| Lista de habilitados da SECULT (`dados/licc/habilitados/`) | projeto × ciclo; **sem CNPJ** do proponente | ciclos 2022-2026 | tratamento (habilitação), status, valor, cota (2024+), local | público (PDF) | define coortes e tratamento; listagem da população |
+| Anexo "Recurso financeiro captado" (`dados/licc/oficial/`) | projeto; CNPJ do **patrocinador** | 2025 | captação efetiva, patrocinador, valor | público (PDF) | intensidade do tratamento em 2025 |
+| Extratos do DIO-ES (DEC, art. 17; IN25, art. 49) | repasse; processo, proponente, patrocinador, valor, data | 2022-2026 | captação com data | público, disperso | reconstruir a captação de todos os anos |
+| Base de inscrições da SECULT (Mapa Cultural) | projeto; **CNPJ do proponente**, linha, cota, sede, datas | 2022-2026 | inscritos, inabilitados, arquivados | interno (pedido por LAI ou convênio) | chave para ligar às bases de resultado; grupo de comparação de inscritos não habilitados |
+| Relatórios de execução e prestação de contas (IN25, arts. 65-66) | projeto | 2022-2026 | estimativa de público, gratuidade, locais, contrapartidas executadas | interno | resultado de uso/acesso |
+| RAIS identificada | vínculo e estabelecimento; CNPJ, CNAE, município | anual, 2010-2024 [VERIFICAR último ano] | emprego formal, massa salarial, estabelecimentos | convênio com o MTE | resultado do proponente (emprego) e do município (emprego cultural por CNAE) |
+| RAIS pública (agregada) | município × CNAE | anual | emprego e estabelecimentos culturais | público (PDET) | resultado municipal (DiD escalonado) |
+| Cadastro CNPJ (Receita Federal, dados abertos) | CNPJ; CNAE, sede, data de abertura, situação, sócios | atual + histórico parcial | natureza jurídica, sobrevivência, sede, sócios comuns | público | classificar proponentes, apurar cota III e o art. 13 |
+| SICONFI/DCA (`dados/externos/siconfi_*`) | ente × ano | 2015-2025 | gasto com cultura (função 13), ICMS | público (API) | covariável e choque concorrente; escala da renúncia |
+| MUNIC/IBGE, bloco Cultura (`dados/externos/munic2021_*`) | município | 2021 (e edições anteriores com bloco Cultura [VERIFICAR anos]) | equipamentos, conselho, plano, fundo | público (API) | covariáveis pré-tratamento; heterogeneidade |
+| SIIC/IBGE (`dados/externos/siic_uf.csv`) | UF × ano | 2011-2024 | ocupação e empresas culturais | público (API) | resultado agregado (controle sintético ES × UFs) |
+| SALIC/MinC (`dados/externos/rouanet_*`) | projeto; CNPJ/CPF do proponente | 1993- | captação Rouanet | público (API) | viés de substituição (proponente capta pela Rouanet?) |
+| Transferências LAB/LPG/PNAB | ente × ano | 2020-2026 | fomento direto concorrente | público [VERIFICAR fonte consolidada] | controle de choques simultâneos |
+
+**Gargalo:** o identificador do proponente. Os anexos públicos não trazem CNPJ; a SECULT tem (a inscrição o
+exige, IN25, art. 19, I, "a"). Sem ele, só o desenho municipal é viável com dados públicos.
 
 ## 3. Recomendações: qual desenho cabe na LICC e por quê
 
-[PENDENTE]
+Critérios: regras operacionais da LICC como estão (`notas/disciplina/03-gertler.md`, § 11.1), dados
+existentes (§ 2), poder (tabelas `analise/tabelas/05_*`, `licc_emd_ilustrativo.csv`) e as lições da
+literatura (§ 1).
+
+**Fatos do desenho que decidem o método** (`notas/politica/01-desenho-legal.md`; `notas/dados/01-resultados-descritivos.md`):
+(i) a habilitação não usa nota nem corte → sem RD; (ii) a alocação entre habilitados é privada → seleção em
+não observáveis, PSM isolado não serve; (iii) nos ciclos 2022-2024 houve habilitados que não captaram
+(11, 34 e 50 expirados) → comparação natural dentro da oferta; (iv) desde maio de 2025 a CAP só recebe
+projeto com carta de intenção → nos ciclos 2025+ habilitado ≈ captou; (v) presença municipal com adoção
+escalonada: coortes de 39, 16, 3, 3 e 3 municípios em 2022-2026 e 14 municípios nunca presentes.
+
+**Desenho principal (D1): DiD com adoção escalonada no nível do proponente, ciclos 2022-2024.**
+- *Tratamento:* captar (status "Em execução" ou "Execução finalizada") entre os habilitados de um ciclo;
+  *comparação:* habilitados do mesmo ciclo cuja captação expirou, e, como "ainda não tratados", habilitados
+  de ciclos posteriores antes de captar.
+- *Resultados:* emprego formal e massa salarial do CNPJ do proponente (RAIS identificada), sobrevivência do
+  CNPJ, novos projetos culturais (SALIC, editais) — de 1 a 3 anos após a captação.
+- *Estimador:* Callaway e Sant'Anna (2021), com o DR-DiD de Sant'Anna e Zhao (2020) e covariáveis pré
+  (ciclo, cota, valor pedido, natureza, RMGV, histórico); estudo de evento; sensibilidade de Rambachan e
+  Roth (2023) a violações de tendências paralelas.
+- *Estimando:* ATT da captação para os projetos habilitados que captaram (EMPT, `notas/disciplina/01-slides-e-guias.md`, § 2.5).
+- *Poder:* 293 registros resolvidos em 2022-2024 (198 captaram, 95 expiraram): EMD de **0,35 DP** (poder
+  0,80, α = 0,05), subindo para 0,36-0,45 DP com correlação intraproponente de 0,05 a 0,5
+  (`05_poder_deff_proponente.csv`; 199 proponentes). Linha de base e covariáveis reduzem o EMD na proporção
+  de √(1 − R²) (McKenzie, 2012). Um ciclo isolado só detecta efeitos de 0,53-0,92 DP (`licc_emd_ilustrativo.csv`).
+- *Ameaças:* seleção pelo patrocinador em não observáveis variáveis no tempo (a principal); competição pelo
+  teto (SUTVA: o captado por um projeto falta a outro); substituição por outras fontes (Rouanet, editais);
+  cumprimento parcial (captação parcial = dose).
+
+**Desenho complementar (D2): DiD escalonado municipal.**
+- *Tratamento:* primeiro projeto habilitado/executado no município; *comparação:* ainda não tratados e os
+  14 nunca tratados (menores: mediana de 12 mil habitantes); *resultados:* emprego e estabelecimentos
+  culturais (RAIS pública por CNAE), com o SIIC/IBGE como referência para a classificação.
+- *Estimador:* Callaway-Sant'Anna ou imputação de Borusyak, Jaravel e Spiess (2024); inferência por *wild
+  cluster bootstrap* e aleatorização (MacKinnon e Webb, 2020) por haver só 78 clusters e coortes de 3.
+- *Poder:* com J = 78 e fração tratada de 0,25 a 0,5, o EMD fica entre **0,43 e 1,04 DP** do erro
+  idiossincrático, conforme o número de anos pré/pós e a autocorrelação (`05_poder_mde_municipal_did.csv`).
+  Como a coorte de 2022 tem 39 municípios, a maior parte da identificação vem de 2023 (16 municípios) em
+  diante — poder baixo. Serve para **descrever** heterogeneidade territorial e testar efeitos grandes.
+- *Ameaças:* choques simultâneos (LAB, LPG, PNAB), tratamento que liga e desliga (usar de Chaisemartin e
+  D'Haultfœuille, 2020), transbordamentos entre municípios vizinhos (Butts, 2021).
+
+**Desenho agregado (D3): controle sintético ou DiD sintético, ES × UFs.** Útil para a pergunta "a LICC mudou o
+setor cultural do estado?", mas a renúncia é 0,16% do ICMS e pequena diante da ocupação cultural (85 mil
+pessoas), então o efeito provável fica abaixo da volatilidade do indicador (Abadie, 2021) — e o *donor pool*
+tem outras leis estaduais via ICMS [VERIFICAR]. Complementar, com expectativa explícita de baixo poder.
+
+**Desenho prospectivo (D4): encorajamento aleatório à captação.** Sortear, entre os projetos com parecer
+favorável, quem recebe apoio ativo de aproximação com contribuintes de ICMS (rodadas com patrocinadores),
+sem mudar a regra de alocação. Estima o LATE da captação para os projetos "na margem". Ressalva: com teto
+vinculante, o encorajado capta no lugar de outro (SUTVA; desenho de saturação de Baird *et al.*, 2018).
+
+**Desenhos descartados:** RD na habilitação (sem nota de corte; o limiar de 35% é manipulável), PSM isolado
+(seleção em não observáveis), antes-depois e com-sem sem ajuste (contrafactuais falsos, Gertler *et al.*,
+2016).
+
+**Complemento qualitativo:** a teoria da mudança da LICC tem elos (escolha do patrocinador, execução das
+contrapartidas) que os dados administrativos não medem; análise de contribuição ou entrevistas com
+proponentes e patrocinadores (HM Treasury, 2026, via `notas/disciplina/04-itau-magenta-adb.md`).
 
 ## 4. Lista de referências (ABNT)
 
-[PENDENTE]
+As referências desta nota estão na seção 1, cada uma em formato ABNT (NBR 6023) com DOI e marca de
+verificação. Para o artigo, a seleção mínima é: Callaway e Sant'Anna (2021); Goodman-Bacon (2021); Roth
+*et al.* (2023); Rambachan e Roth (2023); Sant'Anna e Zhao (2020); Borusyak, Jaravel e Spiess (2024); Abadie
+(2021); Arkhangelsky *et al.* (2021); McKenzie (2012); Burlig, Preonas e Woerman (2020); Bloom (1995);
+Djimeu e Houndolo (2016); MacKinnon e Webb (2020); Gelman e Carlin (2014); Gertler *et al.* (2016).
 
 ## 5. Pendências e questões em aberto
 
-[PENDENTE]
+- Acesso à RAIS identificada (convênio) e à base de inscrições da SECULT com CNPJ: sem elas, D1 não é
+  executável; com dados públicos só D2 e D3.
+- σ, CCI e autocorrelação dos resultados escolhidos: hoje são hipóteses ilustrativas nos scripts de poder;
+  calibrar com a RAIS pré-2022 (placebos com datas falsas, Burlig, Preonas e Woerman, 2020).
+- Quais UFs têm lei estadual de incentivo via ICMS e desde quando (D3).
+- Série de captação por projeto para 2022-2024 (extratos do DIO) — hoje só 2025 está consolidado.
+- Semântica exata dos status da lista de habilitados e composição da lista a partir de maio de 2025
+  (`notas/politica/01-desenho-legal.md`, § 7).

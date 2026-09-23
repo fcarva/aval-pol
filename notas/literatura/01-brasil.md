@@ -4,7 +4,8 @@
 > Objetivo: sustentar a seção "breve revisão da literatura" do mini artigo sobre a LICC (Lei ES 11.246/2021).
 > Regra: só entram referências cuja existência foi CONFIRMADA (DOI resolvido em Crossref/OpenAlex, ou URL estável
 > de repositório/periódico/órgão). Onde algo não pôde ser confirmado: `[VERIFICAR]` com explicação.
-> Status: EM CONSTRUÇÃO (gravação incremental).
+> Status: seções 0 a 10 completas (23/09/2026). §§ 1-2 verificadas na Crossref/OpenAlex (sessão local);
+> §§ 3-7 escritas em sessão sem acesso à Crossref, com verificação por busca na web e marcas [VERIFICAR].
 
 ## 0. Protocolo de busca
 
@@ -185,32 +186,113 @@
 
 ## 3. Leis estaduais via ICMS e municipais (IPTU/ISS)
 
-(pendente)
+- **Família de instrumentos com 30 anos.** Durand, Gouveia e Berman (1997, item 1.1) já comparavam leis
+  federal, estaduais e municipais de incentivo nos anos 1990. Os estados usam o mesmo desenho básico (crédito
+  de ICMS por patrocínio a projeto credenciado), com diferenças de percentual, teto e contrapartida; exemplos
+  citados por páginas oficiais: ProAC (SP), Fazcultura (BA), leis de incentivo de MG, RS e MA
+  [VERIFICAR normas, anos de criação e se exigem contrapartida da empresa].
+- **Não se localizou avaliação acadêmica, descritiva ou causal, de lei estadual de incentivo via ICMS**
+  nesta rodada (busca na web, 23/09/2026; os resultados foram páginas de governo e de consultorias de
+  captação). A lacuna precisa ser confirmada em bases acadêmicas (SciELO, Portal de Periódicos CAPES,
+  Catálogo de Teses da CAPES) antes de ser afirmada no artigo [VERIFICAR].
+- **Relevância para o controle sintético:** se várias UFs têm leis estaduais semelhantes, o *donor pool* do
+  ES está "contaminado" (`notas/literatura/03-metodos-e-dados.md`, 1.2). O levantamento de quais UFs têm lei
+  ativa em 2015-2026 é pré-requisito do desenho D3.
 
 ## 4. Espírito Santo: LICC, Funcultura, SECULT, IJSN, UFES
 
-(pendente)
+- **A LICC é a primeira lei estadual de incentivo do ES.** A página oficial "Sobre a LICC" a descreve como
+  "iniciativa inédita no Estado" (SECULT, `https://secult.es.gov.br/sobre-a-licc`, lida só no resumo da busca
+  [VERIFICAR texto]). Antes dela, o fomento estadual era direto (Funcultura, editais).
+- **Nenhum estudo acadêmico sobre a LICC foi localizado** (busca "Lei de Incentivo à Cultura Capixaba" em
+  23/09/2026: só páginas da SECULT, do Mapa Cultural e notícias). O único esforço sistemático de dados
+  encontrado é o próprio `fcarva/licc.gov` (`notas/politica/02-licc-gov-sintese.md`).
+- **IJSN / SiMAPP**: o guia de avaliação do Governo do ES (`notas/disciplina/01-slides-e-guias.md`, GUIA)
+  dá o padrão local de avaliação ex ante e ex post; não há avaliação da LICC no SiMAPP [VERIFICAR no
+  repositório do IJSN].
+- **Implicação:** o artigo é, até onde se pôde verificar, a primeira avaliação de desenho da LICC; a
+  afirmação deve vir com a ressalva da busca não sistemática.
 
 ## 5. Federalismo cultural, Sistema Nacional de Cultura, CPF da cultura
 
-(pendente)
+- O "CPF da cultura" (Conselho, Plano e Fundo) é a condição de adesão ao Sistema Nacional de Cultura e ao
+  repasse fundo a fundo; no ES, metade dos municípios do interior não tem fundo e só 16% têm plano (MUNIC
+  2021; `notas/politica/03-contexto-problema.md`, § 1.3).
+- Calabre (2009, item 1.19) e Rubim (2007, item 1.18) dão a moldura histórica da estadualização e
+  municipalização da política cultural. A LICC é estadual e não passa pelos municípios: não depende do CPF
+  municipal, mas também não o fortalece.
+- **Ipea, "Descentralização e capacidades institucionais: lições da Lei Aldir Blanc"** (capítulo no
+  repositório do Ipea, `https://repositorio.ipea.gov.br/entities/publication/a419ef3f-73a5-46da-b4d9-b352ba3e6490`)
+  analisa a implementação da LAB como caso de capacidade institucional de estados e municípios
+  [VERIFICAR autores, livro, ano e páginas antes de citar].
 
 ## 6. Estudos quantitativos (econometria) sobre efeitos de incentivos culturais no Brasil
 
-(pendente)
+- Os trabalhos quantitativos localizados são **descritivos** (distribuição, concentração, séries):
+  Silva (2017, item 2.6), Earp e Estrella (2016, 1.12), Ficheira e Buarque de Hollanda (2019, 1.13),
+  Guimarães (2020, 1.10), Teixeira, Xavier e Faria (2024, 1.11, com testes de diferença de médias entre
+  municípios), Silva (2026, 1.20, com aprendizado de máquina para classificar patrocínios). Os estudos da
+  FGV (2.11) são de **insumo-produto**, sem contrafactual.
+- **Nenhuma estimativa causal** do efeito da Rouanet ou de lei estadual sobre produção, emprego ou acesso foi
+  localizada nas duas rodadas de busca. Silva (2017, p. 29) registra a falta de pesquisas empíricas sobre o
+  impacto no acesso da população.
+- **Implicação:** a literatura internacional de créditos ao cinema (`notas/literatura/02-internacional.md`,
+  § 5) é o melhor análogo causal disponível; no Brasil, a proposta do artigo não teria precedente direto.
 
 ## 7. Contraste: Lei Aldir Blanc e Lei Paulo Gustavo (fomento direto descentralizado)
 
-(pendente)
+- **Desenho oposto ao da LICC**: recurso federal transferido a estados e municípios, alocado por editais
+  públicos com critérios e cotas definidos pelo ente (Lima e Ortellado, 2013, item 1.16, situam esse modelo
+  perto do "público direto"). LAB (Lei 14.017/2020, emergencial), Lei Paulo Gustavo (LC 195/2022) e PNAB
+  (Lei 14.399/2022, permanente).
+- **Alcance municipal**: em 2021, 61,1% dos municípios brasileiros distribuíram recursos da LAB (IBGE,
+  MUNIC 2021, Agência de Notícias do IBGE, lida no resumo da busca [VERIFICAR]); no ES, 42 de 77 municípios
+  com resposta (54,5%; `dados/externos/munic2021_cultura_es_resumo.csv`).
+- **Escala no ES**: R$ 75,8 mi da Lei Paulo Gustavo (R$ 40,8 mi ao Funcultura e R$ 35,1 mi aos municípios;
+  Secom/Governo Federal [VERIFICAR]) — três anos de LICC em um único repasse.
+- **Para a avaliação:** LAB, LPG e PNAB são choques simultâneos à LICC, de intensidade diferente por
+  município, o que exige controlá-los no DiD municipal e escolher doadoras com cuidado no controle
+  sintético (`notas/literatura/03-metodos-e-dados.md`, 1.2).
 
 ## 8. Síntese: consensos e controvérsias
 
-(pendente)
+- **Consenso crítico** sobre o mecenato incentivado no Brasil: concentração territorial (Sudeste; capitais),
+  concentração em poucos patrocinadores e proponentes, lógica de marketing na escolha, decisão privada sobre
+  recurso público, controle voltado à conformidade e não a resultado (itens 1.4-1.11, 1.14, 1.15, 2.1-2.4).
+- **Contraponto empírico:** a concentração convive com uma cauda longa de projetos pequenos e financiadores
+  pulverizados (Silva, 2017, item 2.6); a pergunta de avaliação deve ser "para quem e com que efeito", não
+  só "quão concentrado".
+- **Controvérsia sobre o "impacto":** multiplicadores de insumo-produto (FGV, 2.11) × ausência de
+  contrafactual; o salto de R$ 1,59 para R$ 7,59 por mudança de método mostra a fragilidade desses números.
+- **Lacunas:** nenhuma avaliação causal de incentivo cultural no Brasil; nenhuma avaliação acadêmica de lei
+  estadual via ICMS; nenhum estudo sobre a LICC.
+- **O que a LICC reproduz e o que muda** em relação à Rouanet: reproduz a decisão privada e a concentração
+  (Vitória com 48% do valor atribuível da LICC e 76% da Rouanet no ES); muda na escala (estadual), no crédito
+  integral (sem contrapartida da empresa) e nas cotas do art. 18 (tentativa de direcionamento).
 
 ## 9. As 12-15 referências mais úteis para o artigo
 
-(pendente)
+1. Silva (2017), TD Ipea 2280 — distribuição do mecenato; "poucos aprovados captam".
+2. Dekker e Rodrigues (2019) — economia política da Rouanet; qual falha de mercado; adicionalidade.
+3. Costa, Medeiros e Bucco (2017) — concentração persistente de incentivadores e proponentes.
+4. Santos e Paulo (2014) — gasto tributário × gasto direto na cultura.
+5. Guimarães (2020) — captação mais concentrada que o PIB.
+6. Teixeira, Xavier e Faria (2024) — distribuição municipal da captação e porte dos municípios.
+7. Lima e Ortellado (2013) — três paradigmas de financiamento.
+8. Belem e Donadone (2013) — o "mercado de patrocínios" e a intermediação.
+9. Sarkovas (2005) — crítica "de dentro" à dedução integral.
+10. Michetti (2016) — institutos empresariais e definição privada do bem público.
+11. TCU, Acórdão 1.205/2014 — renúncias sem objetivos, indicadores e metas.
+12. TCU, Acórdão 191/2016 — adicionalidade (projetos com potencial lucrativo).
+13. FGV (2026) — o tipo de "impacto" que circula e por que não é causal.
+14. Rubim (2007) ou Calabre (2009) — moldura histórica.
 
 ## 10. Buscas sem resultado e pendências [VERIFICAR]
 
-(pendente)
+- Avaliações acadêmicas de leis estaduais via ICMS (ProAC, Fazcultura etc.) — busca na web sem resultado;
+  refazer em SciELO/CAPES.
+- Qualquer estudo sobre a LICC (artigo, TCC, dissertação na UFES) — sem resultado.
+- Capítulo do Ipea sobre a LAB e capacidades institucionais: autoria e referência completa.
+- Capítulo do CMAP sobre a Rouanet (item 2.10): autores e páginas.
+- Olivieri (2004), Calabre (2009) e Rubim (2007): paginação, ISBN e editora conferidos no catálogo.
+- Estudo FGV de 2018 (R$ 1,59 por R$ 1): relatório primário.
