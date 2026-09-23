@@ -117,7 +117,7 @@ def anual(h: pd.DataFrame, hd: pd.DataFrame) -> pd.DataFrame:
     return salvar(pd.DataFrame(linhas), "anual")
 
 
-def status(h: pd.DataFrame) -> pd.DataFrame:
+def status(h: pd.DataFrame, mun: pd.DataFrame) -> pd.DataFrame:
     tab = pd.crosstab(h["ciclo"], h["status"]).reindex(columns=list(STATUS_ROTULO), fill_value=0)
     tab["total"] = tab.sum(axis=1)
     tab["executados"] = tab["em_execucao"] + tab["concluido"]
@@ -146,7 +146,24 @@ def status(h: pd.DataFrame) -> pd.DataFrame:
           .assign(taxa_execucao=lambda x: x["executados"] / x["registros_resolvidos"]).reset_index())
     fx["nota"] = f"valor ausente em {int(g.loc[g['resolvido'], 'valor_autorizado'].isna().sum())} registros resolvidos"
     salvar(fx, "status_conversao_por_faixa_valor_2022_2024")
-    # Conversão RMGV x interior (só registros com município único)
+    # A mesma conversão por faixa DENTRO de cada ciclo: afasta a leitura de que o gradiente
+    # agregado seria só composição (ciclos com projetos menores e conversão diferente).
+    g["faixa_valor_ciclo"] = pd.cut(g["valor_autorizado"], [0, 400_000, 499_999.99, 500_000, 1_000_000],
+                                    labels=["até 400 mil", "400-500 mil (exclusive)", "exatamente 500 mil",
+                                            "acima de 500 mil"])
+    fxc = (g[g["resolvido"]].groupby(["ciclo", "faixa_valor_ciclo"], observed=False)
+           .agg(registros_resolvidos=("executado", "size"), executados=("executado", "sum"))
+           .assign(taxa_execucao=lambda x: x["executados"] / x["registros_resolvidos"]).reset_index())
+    salvar(fxc, "status_conversao_por_faixa_valor_e_ciclo")
+    # Conversão RMGV x interior (só registros com um único município do ES: é a única
+    # atribuição territorial sem rateio; os demais ficam fora, com a contagem declarada)
+    rm = set(mun.loc[mun["rmgv"], "cod_ibge"])
+    un = g[g["resolvido"] & g["cod_ibge_valor"].notna()].copy()
+    un["territorio"] = np.where(un["cod_ibge_valor"].isin(rm), "RMGV", "Interior")
+    ter = (un.groupby("territorio").agg(registros_resolvidos=("executado", "size"), executados=("executado", "sum"))
+           .assign(taxa_execucao=lambda x: x["executados"] / x["registros_resolvidos"]).reset_index())
+    ter["cobertura"] = f"{len(un)}/{int(g['resolvido'].sum())} registros resolvidos com município único"
+    salvar(ter, "status_conversao_rmgv_interior_2022_2024")
     return salvar(out, "status_por_ciclo")
 
 
@@ -516,7 +533,7 @@ def captados(c: pd.DataFrame, ap: pd.DataFrame, prop: pd.DataFrame, conc_prop: p
 def main() -> None:
     h, hd, pm, c, ap, prop, mun = carregar()
     anual(h, hd)
-    status(h)
+    status(h, mun)
     cotas(h, mun)
     bunching(h, hd)
     territorio(h, hd, pm, mun, c)
