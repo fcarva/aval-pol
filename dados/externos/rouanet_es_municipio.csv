@@ -1,0 +1,25 @@
+# Fonte: API SALIC/MinC https://api.salic.cultura.gov.br/api/v1/projetos, consulta 2026-09-23; mecanismo=Mecenato; valor_captado = acumulado do projeto ate a consulta, agregado por ano do PRONAC (ano_projeto); UF = campo UF do SALIC. Script: analise/03a_salic_rouanet_uf.py Recorte: UF=ES, anos 2019-2022.
+municipio,n_projetos,n_com_captacao,valor_captado
+Vitória,153,94,105486662.57
+Vila Velha,22,4,11828623.74
+Serra,14,8,11799965.8
+Castelo,4,2,4672775.0
+Rio de Janeiro,3,3,1824117.4900000002
+João Neiva,2,2,1168357.1400000001
+Anchieta,1,1,481304.03
+Fundão,2,1,449000.0
+Cachoeiro de Itapemirim,5,2,420149.16000000003
+Colatina,2,1,300000.0
+Baixo Guandu,2,2,241234.4
+Santa Maria de Jetibá,2,1,200000.0
+Linhares,4,1,175501.0
+São Mateus,3,1,140000.0
+Guarapari,1,1,131503.97
+Afonso Cláudio,1,1,7000.0
+Itaguaçu,1,1,2405.01
+Cariacica,3,0,0.0
+Muniz Freire,2,0,0.0
+Piúma,1,0,0.0
+Nova Venécia,1,0,0.0
+Viana,1,0,0.0
+Vargem Alta,2,0,0.0
