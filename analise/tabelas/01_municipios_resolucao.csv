@@ -1,0 +1,50 @@
+numero_processo,ciclo,municipio_fonte,municipio_reparado,municipios_es,locais_fora_es,locais_nao_resolvidos,tipo_local,nota_municipio
+2025-58RFR,2026,Montanha; Nova Venécia; Manguinhos; Cariacica; Viana; Guarapari,Montanha; Nova Venécia; Manguinhos; Cariacica; Viana; Guarapari,Nova Venécia; Cariacica; Guarapari; Montanha; Viana,,manguinhos (bairro/localidade não municipal),varios_municipios,
+2025-L9896,2026,a definir,a definir,,,a definir (local a definir),so_locais_nao_municipais,
+2025-CFX7G,2026,Linhares; São Paulo,Linhares; São Paulo,Linhares,São Paulo,,um_municipio_mais_outros_locais,
+2025-B7SJZ,2026,a definir,a definir,,,a definir (local a definir),so_locais_nao_municipais,
+2025-T178P,2026,Vila Velha Vila Velha; Flexal,Vila Velha Vila Velha; Flexal,Vila Velha,,flexal (bairro/localidade não municipal),um_municipio_mais_outros_locais,
+2025-CNFWC,2026,Terra Vermelha; Sao Torquatro; São Pedro; Itararé; Novo Horizonte; Feu Rosa; Colatina; Linhares; São Mateus; Aracruz; Guarapari; Cachoeiro,Terra Vermelha; Sao Torquatro; São Pedro; Itararé; Novo Horizonte; Feu Rosa; Colatina; Linhares; São Mateus; Aracruz; Guarapari; Cachoeiro,Vila Velha; São Mateus; Guarapari; Cachoeiro de Itapemirim; Colatina; Linhares; Aracruz,,terra vermelha (bairro/localidade não municipal); novo horizonte (bairro/localidade não municipal); sao pedro (ambíguo (distrito de Muniz Freire ou região administrativa de Vitória)); feu rosa (bairro/localidade não municipal); itarare (bairro/localidade não municipal),varios_municipios,
+2025-BNHCX,2026,a definir,a definir,,,a definir (local a definir),so_locais_nao_municipais,
+2025-SJQ9R,2026,a defnir,a defnir,,,a defnir (local a definir),so_locais_nao_municipais,
+2025-49GXP,2026,a definir Santa Maria de,a definir; Santa Maria de Jetibá,Santa Maria de Jetibá,,a definir (local a definir),um_municipio_mais_outros_locais,"transbordo 2025-49GXP->2024-454L8 ('Santa Maria de'+'Jetibá'='Santa Maria de Jetibá', papel A); "
+2024-454L8,2026,Jetibá; Afonso Claudio; Colatina; Alegre; Nova Venécia; Anchieta; São Mateus; Linhares; Cariacica; Cachoeiro de,Afonso Claudio; Colatina; Alegre; Nova Venécia; Anchieta; São Mateus; Linhares; Cariacica; Cachoeiro de Itapemirim,Cachoeiro de Itapemirim; Afonso Cláudio; Nova Venécia; São Mateus; Cariacica; Anchieta; Colatina; Linhares; Alegre,,,varios_municipios,"transbordo 2025-49GXP->2024-454L8 ('Santa Maria de'+'Jetibá'='Santa Maria de Jetibá', papel B); transbordo 2024-454L8->2025-SB2J8 ('Cachoeiro de'+'Itapemirim'='Cachoeiro de Itapemirim', papel A); "
+2025-SB2J8,2026,Itapemirim; Vila Velha Aracruz; Vitória,Vila Velha Aracruz; Vitória,Vila Velha; Aracruz; Vitória,,,varios_municipios,"transbordo 2024-454L8->2025-SB2J8 ('Cachoeiro de'+'Itapemirim'='Cachoeiro de Itapemirim', papel B); "
+2025-FXX9C,2025,,,,,,ausente,
+2025-QXK9H,2025,,,,,,ausente,
+2025-Z42VL,2025,,,,,,ausente,
+2025-L5ZGN,2025,,,,,,ausente,
+2025-FW5PL,2025,,,,,,ausente,
+2025-W3JHC,2025,,,,,,ausente,
+2025-688GH,2025,,,,,,ausente,
+2025-4V24B,2025,,,,,,ausente,
+2025-SB2J8,2025,,,,,,ausente,
+2025-DV11N,2025,,,,,,ausente,
+2025-49GXP,2025,,,,,,ausente,
+2025-VNDD9,2025,,,,,,ausente,
+2024-7NZLF,2025,,,,,,ausente,
+2024-74QM3,2025,,,,,,ausente,
+2024-454L8,2025,,,,,,ausente,
+2024-840C1,2025,,,,,,ausente,
+2024-L3MTX,2024,,,,,,ausente,
+2024-5GVJJ,2024,,,,,,ausente,
+2023-BWFJ7,2023,Vitória; Serra; Linhares; Patrimônio da Penha,Vitória; Serra; Linhares; Patrimônio da Penha,Linhares; Vitória; Serra,,patrimonio da penha (localidade não municipal),varios_municipios,
+2023-VSJGD,2023,Colatina; João Neiva; Pancas; Alegre; Cachoeiro; Guaçuí; região do caparaó,Colatina; João Neiva; Pancas; Alegre; Cachoeiro; Guaçuí; região do caparaó,João Neiva; Cachoeiro de Itapemirim; Colatina; Alegre; Guaçuí; Pancas,,regiao do caparao (região (não município)),varios_municipios,
+2022-VVS3B,2023,Vitória; Nova York - NY/EUA,Vitória; Nova York - NY/EUA,Vitória,Nova York - NY/EUA,,um_municipio_mais_outros_locais,
+2022-CR61F,2023,Cariacica; Espanha,Cariacica; Espanha,Cariacica,Espanha,,um_municipio_mais_outros_locais,
+2022-HH970,2023,Vitória; Guarapari; Cariacica; Linhares; Marechal,Vitória; Guarapari; Cariacica; Linhares; Marechal Floriano,Marechal Floriano; Cariacica; Guarapari; Linhares; Vitória,,,varios_municipios,"transbordo 2022-HH970->2023-MZ120 ('Marechal'+'Floriano'='Marechal Floriano', papel A); "
+2023-MZ120,2023,Floriano Santa Teresa,Santa Teresa,Santa Teresa,,,um_municipio,"transbordo 2022-HH970->2023-MZ120 ('Marechal'+'Floriano'='Marechal Floriano', papel B); "
+2022-GHF1N,2023,Mucurici; Ponto Belo; Montanha; Pinheiros; Santa Maria de Jetibá; Itaguaçu; Vila,Mucurici; Ponto Belo; Montanha; Pinheiros; Santa Maria de Jetibá; Itaguaçu; Vila Pavão,Santa Maria de Jetibá; Ponto Belo; Vila Pavão; Pinheiros; Itaguaçu; Montanha; Mucurici,,,varios_municipios,"transbordo 2022-GHF1N->2022-8S91R ('Vila'+'Pavão'='Vila Pavão', papel A); "
+2022-8S91R,2023,Pavão; Muqui. Vitória; Vila Velha,Muqui. Vitória; Vila Velha,Vila Velha; Vitória; Muqui,,,varios_municipios,"transbordo 2022-GHF1N->2022-8S91R ('Vila'+'Pavão'='Vila Pavão', papel B); "
+2022-MH6GF,2023,Santa Teresa; Colatina; Santa Maria do Jetibá; João Neiva; Santa,Santa Teresa; Colatina; Santa Maria do Jetibá; João Neiva; Santa Teresa,Santa Maria de Jetibá; Santa Teresa; João Neiva; Colatina,,,varios_municipios,"transbordo 2022-MH6GF->2022-61S2R ('Santa'+'Teresa'='Santa Teresa', papel A); "
+2022-61S2R,2023,Teresa Vitória; Santa Teresa,Vitória; Santa Teresa,Santa Teresa; Vitória,,,varios_municipios,"transbordo 2022-MH6GF->2022-61S2R ('Santa'+'Teresa'='Santa Teresa', papel B); "
+2022-JBZVN,2022,Muqui Iúna; Ibitirama; Irupi; Divino São,Muqui Iúna; Ibitirama; Irupi; Divino de São Lourenço,Divino de São Lourenço; Ibitirama; Irupi; Muqui; Iúna,,,varios_municipios,"transbordo 2022-JBZVN->2022-83B3M ('Divino São'+'Lourenço'='Divino de São Lourenço', papel A); "
+2022-83B3M,2022,Lourenço; Jaguaré; Vila Valério; Sooretama; São Mateus; Conceição da Barra; Venda Nova do Imigrante; Castelo; Conceição do Castelo; Santa,Jaguaré; Vila Valério; Sooretama; São Mateus; Conceição da Barra; Venda Nova do Imigrante; Castelo; Conceição do Castelo; Santa Maria de Jetibá,Venda Nova do Imigrante; Santa Maria de Jetibá; Conceição do Castelo; Conceição da Barra; Vila Valério; São Mateus; Sooretama; Castelo; Jaguaré,,,varios_municipios,"transbordo 2022-JBZVN->2022-83B3M ('Divino São'+'Lourenço'='Divino de São Lourenço', papel B); transbordo 2022-83B3M->2022-220W3 ('Santa'+'Maria'='Santa Maria de Jetibá', papel A); "
+2022-220W3,2022,Maria; Santa Teresa; Domingos Vargem Alta; Martins; Castelo; Cachoeiro Brejetuba. de Itapemirim; Caparaó; Marataízes,Santa Teresa; Domingos Martins; Vargem Alta; Castelo; Cachoeiro de Itapemirim; Brejetuba; Caparaó; Marataízes,Cachoeiro de Itapemirim; Domingos Martins; Santa Teresa; Vargem Alta; Marataízes; Brejetuba; Castelo,,caparao (região do Caparaó (não há município do ES com esse nome; o homônimo é de MG)),varios_municipios,"transbordo 2022-83B3M->2022-220W3 ('Santa'+'Maria'='Santa Maria de Jetibá', papel B); reescrita: linhas intercaladas na célula: 'Domingos … Martins' e 'Cachoeiro … de Itapemirim' + 'Brejetuba'; "
+2022-CP09H,2022,Vitória-ES; Vila Velha-ES; São Paulo,Vitória-ES; Vila Velha-ES; São Paulo,Vila Velha; Vitória,São Paulo,,varios_municipios,
+2022-9NT8C,2022,Vargem Alta; Castelo; Cachoeiro de Itapemirim; Caparaó e,Vargem Alta; Castelo; Cachoeiro de Itapemirim; Caparaó e,Cachoeiro de Itapemirim; Vargem Alta; Castelo,,caparao (região do Caparaó (não há município do ES com esse nome; o homônimo é de MG)),varios_municipios,
+2022-0PP25,2022,Vitória; Muqui; Castelo; Venda Nova; Domingos,Vitória; Muqui; Castelo; Venda Nova; Domingos Martins,Domingos Martins; Venda Nova do Imigrante; Castelo; Vitória; Muqui,,,varios_municipios,"transbordo 2022-0PP25->2022-KSSWD ('Domingos'+'Martins'='Domingos Martins', papel A); "
+2022-KSSWD,2022,Martins; Alegre Cariacica,Alegre Cariacica,Cariacica; Alegre,,,varios_municipios,"transbordo 2022-0PP25->2022-KSSWD ('Domingos'+'Martins'='Domingos Martins', papel B); "
+2022-Z91ZF,2022,Vitória; Costa Rica,Vitória; Costa Rica,Vitória,,costa rica (local não identificado (provavelmente fora do ES)),um_municipio_mais_outros_locais,
+2022-PHX83,2022,Domingos Martins; Venda Nova do Imigrante; Vargem,Domingos Martins; Venda Nova do Imigrante; Vargem Alta,Venda Nova do Imigrante; Domingos Martins; Vargem Alta,,,varios_municipios,"transbordo 2022-PHX83->2022-87D66 ('Vargem'+'Alta'='Vargem Alta', papel A); "
+2022-87D66,2022,Alta Vitória,Vitória,Vitória,,,um_municipio,"transbordo 2022-PHX83->2022-87D66 ('Vargem'+'Alta'='Vargem Alta', papel B); "

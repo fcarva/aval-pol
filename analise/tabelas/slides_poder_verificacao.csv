@@ -1,0 +1,14 @@
+exemplo,caso,parametros,valor_no_material,valor_recalculado
+Bolsa Capixaba (AMO p.26-29 [s.26]),Inseguranca alimentar,"n=1200; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.16,0.1617
+Bolsa Capixaba (AMO p.26-29 [s.26]),Inseguranca de renda,"n=1200; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.16,0.1617
+Bolsa Capixaba (AMO p.26-29 [s.26]),Qualidade de vida: dominio psicologico,"n=1200; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.16,0.1617
+Bolsa Capixaba (AMO p.26-29 [s.26]),Locus de controle,"n=1200; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.16,0.1617
+Bolsa Capixaba (AMO p.26-29 [s.26]),Gasto familiar per capita com alimentos,"n=996; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.18,0.1775
+Bolsa Capixaba (AMO p.26-29 [s.26]),Gasto familiar per capita com moradia,"n=1125; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.17,0.1671
+Bolsa Capixaba (AMO p.26-29 [s.26]),Renda familiar per capita,"n=1147; P=0,5; alfa=0,05; poder=0,80; sigma=1 (EMD em DP)",0.17,0.1654
+Bolsa Capixaba (AMO p.26-29 [s.26]),extremo da curva n=300,"P=0,5; alfa=0,05; poder=0,80; sigma=1",0.32,0.3235
+Bolsa Capixaba (AMO p.26-29 [s.26]),extremo da curva n=3000,"P=0,5; alfa=0,05; poder=0,80; sigma=1",0.1,0.1023
+WP26 7.1.1 (PDF p.30),"aprendizagem Kisumu, sem covariadas","t1=1,96; t2=0,84; sigma=2400; P=0,5; n=1000",425.7,425.0
+WP26 7.1.2 (PDF p.31),"aprendizagem Kisumu, R2=0,5","t1=1,96; t2=0,84; sigma=2400; P=0,5; n=1000; R2=0,5",301.0,300.5
+WP26 7.2.1 (PDF p.36),"farmer field schools, conglomerados","t1=2,58; t2=1,28; P=0,5; J=240; m=20; sigma=0,47; rho=0,037",0.0683,0.0683
+WP26 7.2.2 (PDF p.37),"farmer field schools, conglomerados, R2=0,4","t1=2,58; t2=1,28; P=0,5; J=240; m=20; sigma=0,47; rho=0,037; R2=0,4",0.053,0.0529

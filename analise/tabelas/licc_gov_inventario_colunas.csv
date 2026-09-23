@@ -1,0 +1,59 @@
+arquivo,linhas,coluna,preenchidas,distintos,exemplos
+dados/licc/habilitados/habilitados-2022.csv,69,numero_processo,69,69,2022-05G2G | 2022-05N9Z | 2022-0PP25 | 2022-1810C
+dados/licc/habilitados/habilitados-2022.csv,69,projeto,69,69,"""Mais Cultura Nas Escolas"" | 11º FECIM - Festival de TV e Cinema de Muqui | 1ª Etapa do Museu do Mosteiro Zen. | 24o Festival De Inverno Da Sanfona E Da Viola D"
+dados/licc/habilitados/habilitados-2022.csv,69,proponente,69,63,ASSOCIAÇÃO ALEF BET | Academia Lenira Borges Ltda | Acordes Centro De Música E Artes Ltda | Andaluz Producoes LTDA-ME
+dados/licc/habilitados/habilitados-2022.csv,69,municipio,69,38,Afonso Cláudio | Alegre; Guaçuí; Afonso Cláudio; Castelo; Cariacica; Itaguaçu; Montanha; Rio Novo do Sul; Viana; Serra; Vitória | Alta Vitória | Aracruz Vitória
+dados/licc/habilitados/habilitados-2022.csv,69,valor_autorizado,69,60,100000 | 107126.41 | 114625.44 | 115468.47
+dados/licc/habilitados/habilitados-2022.csv,69,valor_total,69,64,100000 | 107126.41 | 114625.44 | 115468.47
+dados/licc/habilitados/habilitados-2022.csv,69,status,69,2,captacao_expirada | concluido
+dados/licc/habilitados/habilitados-2022.csv,69,enquadramento,0,1,
+dados/licc/habilitados/habilitados-2022.csv,69,fonte_url,69,1,https://secult.es.gov.br/lista-de-projetos-habilitados
+dados/licc/habilitados/habilitados-2022.csv,69,fonte_pagina,69,3,24 | 25 | 26
+dados/licc/habilitados/habilitados-2023.csv,113,numero_processo,113,113,2022-0GW77 | 2022-0SN3K | 2022-1557P | 2022-185J7
+dados/licc/habilitados/habilitados-2023.csv,113,projeto,113,112,"""Caravana Pé na Estrada"" - 5ª Edição | 11° Festival de Música Erudita do Espírito Santo | 14ª Festa Folclórica de Santo Antônio do Muqui | 23º Festival Nacional"
+dados/licc/habilitados/habilitados-2023.csv,113,proponente,113,99,AGÊNCIA DE DESENVOLVIMENTO E INOVACAO SOCIOCULTURAL - ADECULT | ASSOCIAÇÃO ALEF BET | ASSOCIAÇÃO ARTISTICA E FOLCLORICA AFRO BRASILEIRA | ASSOCIAÇÃO FESTA DA CA
+dados/licc/habilitados/habilitados-2023.csv,113,municipio,113,50,Alegre | Anchieta | Aracruz | Aracruz Vitória
+dados/licc/habilitados/habilitados-2023.csv,113,valor_autorizado,112,90,118307.5 | 122241.66 | 125296.69 | 141034.48
+dados/licc/habilitados/habilitados-2023.csv,113,valor_total,112,102,1028150 | 1143000 | 1150000 | 118307.5
+dados/licc/habilitados/habilitados-2023.csv,113,status,113,3,captacao_expirada | concluido | em_execucao
+dados/licc/habilitados/habilitados-2023.csv,113,enquadramento,0,1,
+dados/licc/habilitados/habilitados-2023.csv,113,fonte_url,113,1,https://secult.es.gov.br/lista-de-projetos-habilitados
+dados/licc/habilitados/habilitados-2023.csv,113,fonte_pagina,113,7,18 | 19 | 20 | 21
+dados/licc/habilitados/habilitados-2024.csv,123,numero_processo,123,123,2022-08G6P | 2022-5KQ5X | 2023-0HB19 | 2023-0J1G1
+dados/licc/habilitados/habilitados-2024.csv,123,projeto,123,123,"""A Escola vai ao Teatro"" | ""Festival Manhágua” | ""MADALENA"" | ""Teatro vai à escola - De onde vem o dinheiro?"""
+dados/licc/habilitados/habilitados-2024.csv,123,proponente,123,107,1440. PRESS EDITORA E CONTEÚDO LTDA | 1440.Press Editora e Conteudo Ltda | 32.178.631 Fernanda de Oliveira Busato | ACERBES - Associação Cultural Esportiva e Re
+dados/licc/habilitados/habilitados-2024.csv,123,municipio,121,40,Afonso Cláudio | Anchieta | Aracruz | Aracruz; Cachoeiro de Itapemirim; Linhares
+dados/licc/habilitados/habilitados-2024.csv,123,valor_autorizado,123,88,100000 | 120340 | 126420 | 136375.69
+dados/licc/habilitados/habilitados-2024.csv,123,valor_total,122,101,120340 | 126420 | 136375.69 | 136397
+dados/licc/habilitados/habilitados-2024.csv,123,status,123,4,captacao_expirada | captando | concluido | em_execucao
+dados/licc/habilitados/habilitados-2024.csv,123,enquadramento,123,4,cota-continuados | cota-demais | cota-fora-rmgv | cota-pautados
+dados/licc/habilitados/habilitados-2024.csv,123,fonte_url,123,1,https://secult.es.gov.br/lista-de-projetos-habilitados
+dados/licc/habilitados/habilitados-2024.csv,123,fonte_pagina,123,8,11 | 12 | 13 | 14
+dados/licc/habilitados/habilitados-2025.csv,74,numero_processo,74,74,2024-454L8 | 2024-74QM3 | 2024-7NZLF | 2024-83FMM
+dados/licc/habilitados/habilitados-2025.csv,74,projeto,74,74,13ª Italia Unita - Festa da Imigração Italiana de Aracruz - Municipio de Guaraná | 13ª Semana Cultural Italiana de Jaguaré | 26ª Pomitafro | 26º Natal Luz no Si
+dados/licc/habilitados/habilitados-2025.csv,74,proponente,74,66,AMITAJ - Associação Do Movimento Italiano De Jaguaré | ASSOCIACAO COMERCIAL E EMPRESARIAL DE MUQUI - ACE MUQUI | ATROM PRODUCOES E CONSULTORIA LTDA | Acordes Ce
+dados/licc/habilitados/habilitados-2025.csv,74,municipio,58,30,Aracruz | Atílio Vivacqua | Cachoeiro de Itapemirim | Cachoeiro de Itapemirim; Mimoso do Sul
+dados/licc/habilitados/habilitados-2025.csv,74,valor_autorizado,74,46,100000 | 1000000 | 156924 | 159524.86
+dados/licc/habilitados/habilitados-2025.csv,74,valor_total,74,57,100000 | 1000000 | 1343872.22 | 1494900
+dados/licc/habilitados/habilitados-2025.csv,74,status,74,4,captacao_expirada | captando | concluido | em_execucao
+dados/licc/habilitados/habilitados-2025.csv,74,enquadramento,74,4,cota-continuados | cota-demais | cota-fora-rmgv | cota-pautados
+dados/licc/habilitados/habilitados-2025.csv,74,fonte_url,74,1,https://secult.es.gov.br/lista-de-projetos-habilitados
+dados/licc/habilitados/habilitados-2025.csv,74,fonte_pagina,74,5,10 | 11 | 7 | 8
+dados/licc/habilitados/habilitados-2026.csv,88,numero_processo,88,88,2024-454L8 | 2024-7NZLF | 2025-00C1Z | 2025-1BPCP
+dados/licc/habilitados/habilitados-2026.csv,88,projeto,88,88,"""Hq Tupi: A Lenda De Arariboia” | 14ª Itália Unita - Aracruz: Sua História Une Gerações: ""Sabores E Tradições Da Itália Dei Nostri Nonni"" | 2ª edição - Festival"
+dados/licc/habilitados/habilitados-2026.csv,88,proponente,88,85,23.331.720 Anderson Marta Valfre | Academia De Letras E Artes Da Cidade De Santa Teresa-Aleast | Alpha Empreendimentos LTDA ME. | Alpha Empreendimentos Ltda Me.
+dados/licc/habilitados/habilitados-2026.csv,88,municipio,88,45,(Vitória; Vila Velha; Serra; Cariacica | Afonso Cláudio | Aguia Branca; Nova Venecia; Pinheiros; São Gabriel da Palha | Aracruz
+dados/licc/habilitados/habilitados-2026.csv,88,valor_autorizado,88,47,117154.89 | 160462.66 | 161247.57 | 161282.5
+dados/licc/habilitados/habilitados-2026.csv,88,valor_total,88,61,1000000 | 1035300 | 1095300 | 126254.89
+dados/licc/habilitados/habilitados-2026.csv,88,status,88,3,captando | concluido | em_execucao
+dados/licc/habilitados/habilitados-2026.csv,88,enquadramento,88,4,cota-continuados | cota-demais | cota-fora-rmgv | cota-pautados
+dados/licc/habilitados/habilitados-2026.csv,88,fonte_url,88,1,https://secult.es.gov.br/lista-de-projetos-habilitados
+dados/licc/habilitados/habilitados-2026.csv,88,fonte_pagina,88,6,1 | 2 | 3 | 4
+dados/licc/oficial/captados-2025.csv,63,projeto,63,63,#EP10 - ENCONTRO DAS PRETAS 10 ANOS | 'Filarmônica de Mulheres do Espírito Santo: música e representatividade” | 10º Festival Nacional de Cinema Ambiental do Es
+dados/licc/oficial/captados-2025.csv,63,proponente,63,55,(Em análise na SEFAZ) Secretariado dos Imigrantes Friulanos de Aracruz-ES | ALPHA EMPREENDIMENTOS LTDA - GALPÃO DE IDEIAS | ASSOCIACAO AMIGOS DA JUSTICA CIDADAN
+dados/licc/oficial/captados-2025.csv,63,valor_autorizado,63,42,136375.69 | 136397 | 161912.01 | 163797.08
+dados/licc/oficial/captados-2025.csv,63,valor_captado,63,42,100832.97 | 136375.69 | 136397 | 150000
+dados/licc/oficial/captados-2025.csv,63,patrocinador,63,32,AMBEV S.A. CDD VITÓRIA | Antônio Auto Peças S/A | Comercial Devens LTDA; Oriundi Supermercados LTDA | Companhia de Gás do Espírito Santo – ES GÁS
+dados/licc/oficial/captados-2025.csv,63,aportes,63,55,00.827.783/0001-81|Kuruma Veiculos S.A|250000; 39.786.983/0001-79|VD Comercio de Veiculos LTDA|249999 | 00.827.783/0005-05|Kurumá Veiculos S.A|281690 | 00.827.7
+dados/licc/oficial/captados-2025.csv,63,fonte_url,63,1,https://secult.es.gov.br/Media/secult/LICC/RECURSO%20FINANCEIRO%20CAPTADO%20-%202025.pdf
+dados/licc/oficial/captados-2025.csv,63,fonte_pagina,63,5,1 | 2 | 3 | 4

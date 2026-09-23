@@ -1,0 +1,80 @@
+# Fonte: IBGE, MUNIC 2021 (Pesquisa de Informacoes Basicas Municipais), bloco Cultura, API servicodados.ibge.gov.br/api/v1/pesquisas/1/periodos/2021, consulta 2026-09-23; populacao: IBGE Censo 2022, SIDRA tabela 4709. Valores como publicados (Sim/Nao/Nao informou/quantidade). Script: analise/03b_ibge_cultura_es.py
+cod6,cod7,municipio_uf,pop_2022,municipio,plano_municipal_cultura,conselho_municipal_cultura,fundo_municipal_cultura,bibliotecas_publicas,museus,teatros_salas_espetaculo,centro_cultural,cinema,livrarias,galerias_arte,ponto_de_cultura,ponto_de_cultura_qtd,orcamento_cultura_executado_2020,distribuiu_lei_aldir_blanc,rmgv
+320010,3200102,Afonso Cláudio - ES,30684.0,Afonso Cláudio,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,até 10%,Sim,False
+320013,3200136,Águia Branca - ES,9711.0,Águia Branca,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,1,Sem orçamento previsto,Não,False
+320016,3200169,Água Doce do Norte - ES,12042.0,Água Doce do Norte,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,1,0,Não,False
+320020,3200201,Alegre - ES,29177.0,Alegre,Não,Sim,Sim,Sim,Não,Sim,Sim,Não,Sim,Não,Sim,10,de 41% a 50%,Sim,False
+320030,3200300,Alfredo Chaves - ES,13836.0,Alfredo Chaves,Não,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Não,Sim,1,até 10%,Sim,False
+320035,3200359,Alto Rio Novo - ES,7434.0,Alto Rio Novo,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,Sem orçamento previsto,Sim,False
+320040,3200409,Anchieta - ES,29984.0,Anchieta,Não,Sim,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,Mais de 90%,Sim,False
+320050,3200508,Apiacá - ES,7223.0,Apiacá,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,Não informou,False
+320060,3200607,Aracruz - ES,94765.0,Aracruz,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Sim,Não,-,de 11% a 20%,Não,False
+320070,3200706,Atílio Vivácqua - ES,10540.0,Atílio Vivácqua,Não,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Não,Sim,1,Sem orçamento previsto,Sim,False
+320080,3200805,Baixo Guandu - ES,30674.0,Baixo Guandu,Não,Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Sim,3,Mais de 90%,Não,False
+320090,3200904,Barra de São Francisco - ES,42498.0,Barra de São Francisco,Não,Sim,Não,Sim,Não,Não,Sim,Não,Não,Não,Sim,1,Sem orçamento previsto,Não,False
+320100,3201001,Boa Esperança - ES,13608.0,Boa Esperança,Não,Sim,Não,Sim,Não,Não,Sim,Não,Não,Não,Não,-,de 11% a 20%,Não,False
+320110,3201100,Bom Jesus do Norte - ES,10254.0,Bom Jesus do Norte,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,2,0,Não,False
+320115,3201159,Brejetuba - ES,12985.0,Brejetuba,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Não,-,Sem orçamento previsto,Não,False
+320120,3201209,Cachoeiro de Itapemirim - ES,185786.0,Cachoeiro de Itapemirim,Não,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não,-,de 41% a 50%,Sim,False
+320130,3201308,Cariacica - ES,353491.0,Cariacica,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,12,de 81% a 90%,Sim,True
+320140,3201407,Castelo - ES,36930.0,Castelo,Não,Sim,Sim,Sim,Não,Sim,Sim,Não,Não,Não,Não,-,Mais de 90%,Sim,False
+320150,3201506,Colatina - ES,120033.0,Colatina,Não,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,-,Mais de 90%,Sim,False
+320160,3201605,Conceição da Barra - ES,27458.0,Conceição da Barra,Não,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Sim,Sim,5,Mais de 90%,Sim,False
+320170,3201704,Conceição do Castelo - ES,11937.0,Conceição do Castelo,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,1,Sem orçamento previsto,Sim,False
+320180,3201803,Divino de São Lourenço - ES,5083.0,Divino de São Lourenço,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Sim,5,até 10%,Não,False
+320190,3201902,Domingos Martins - ES,35416.0,Domingos Martins,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,de 41% a 50%,Sim,False
+320200,3202009,Dores do Rio Preto - ES,6596.0,Dores do Rio Preto,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,de 31% a 40%,Não,False
+320210,3202108,Ecoporanga - ES,21992.0,Ecoporanga,"Sim, mas não é regulamentado por instrumento legal",Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320220,3202207,Fundão - ES,18014.0,Fundão,Não,Sim,Não,Sim,Não,Não,Sim,Não,Não,Não,Sim,1,Sem orçamento previsto,Sim,True
+320225,3202256,Governador Lindenberg - ES,11009.0,Governador Lindenberg,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,0,Não,False
+320230,3202306,Guaçuí - ES,29358.0,Guaçuí,Não,Sim,Sim,Sim,Sim,Sim,Não,Não,Sim,Sim,Sim,1,0,Sim,False
+320240,3202405,Guarapari - ES,124656.0,Guarapari,Não,Sim,Não,Sim,Não,Não,Não,Sim,Sim,Não,Sim,3,até 10%,Sim,True
+320245,3202454,Ibatiba - ES,25380.0,Ibatiba,Não,Sim,Não,Sim,Sim,Sim,Não,Não,Sim,Não,Não,-,Sem orçamento previsto,Sim,False
+320250,3202504,Ibiraçu - ES,11723.0,Ibiraçu,Não,Sim,Sim,Sim,Não,Sim,Sim,Não,Não,Não,Sim,1,até 10%,Sim,False
+320255,3202553,Ibitirama - ES,9520.0,Ibitirama,Em elaboração,Não,Não,Não,Não,Não,Não,Não,Não,Não,Não,-,0,Não,False
+320260,3202603,Iconha - ES,12326.0,Iconha,Em elaboração,Não,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Sim,2,Sem orçamento previsto,Sim,False
+320265,3202652,Irupi - ES,13710.0,Irupi,Não,Não,Não,Sim,Sim,Não,Sim,Não,Não,Não,Não,-,Sem orçamento previsto,Não,False
+320270,3202702,Itaguaçu - ES,13589.0,Itaguaçu,Em elaboração,Sim,Sim,Sim,Não,Sim,Não,Não,Sim,Não,Sim,5,Sem orçamento previsto,Não,False
+320280,3202801,Itapemirim - ES,39832.0,Itapemirim,"Sim, mas não é regulamentado por instrumento legal",Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,2,de 11% a 20%,Não,False
+320290,3202900,Itarana - ES,10597.0,Itarana,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320300,3203007,Iúna - ES,28590.0,Iúna,Não,Sim,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,-,Mais de 90%,Sim,False
+320305,3203056,Jaguaré - ES,28931.0,Jaguaré,Não,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,Mais de 90%,Não,False
+320310,3203106,Jerônimo Monteiro - ES,11575.0,Jerônimo Monteiro,Em elaboração,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,1,de 31% a 40%,Sim,False
+320313,3203130,João Neiva - ES,14079.0,João Neiva,Em elaboração,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Sim,8,Mais de 90%,Não,False
+320316,3203163,Laranja da Terra - ES,11094.0,Laranja da Terra,"Sim, por instrumento legal",Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320320,3203205,Linhares - ES,166786.0,Linhares,Não,Sim,Sim,Sim,Não,Sim,Sim,Sim,Sim,Não,Não,-,de 51% a 60%,Sim,False
+320330,3203304,Mantenópolis - ES,12770.0,Mantenópolis,Não,Sim,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320332,3203320,Marataízes - ES,41929.0,Marataízes,Não,Sim,Não,Sim,Não,Não,Não,Sim,Não,Não,Sim,10,de 11% a 20%,Sim,False
+320334,3203346,Marechal Floriano - ES,17641.0,Marechal Floriano,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Sim,3,Sem orçamento previsto,Sim,False
+320335,3203353,Marilândia - ES,12387.0,Marilândia,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,1,Sem orçamento previsto,Não,False
+320340,3203403,Mimoso do Sul - ES,24475.0,Mimoso do Sul,Em elaboração,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,Sem orçamento previsto,Sim,False
+320350,3203502,Montanha - ES,18900.0,Montanha,Não,Sim,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,-,Sem orçamento previsto,Sim,False
+320360,3203601,Mucurici - ES,5466.0,Mucurici,Não,Não,Não,Sim,Sim,Sim,Sim,Não,Não,Sim,Sim,1,de 21% a 30%,Não,False
+320370,3203700,Muniz Freire - ES,18153.0,Muniz Freire,Em elaboração,Sim,Sim,Não,Sim,Não,Sim,Não,Não,Não,Sim,1,0,Não,False
+320380,3203809,Muqui - ES,13745.0,Muqui,Não,Sim,Não,Sim,Não,Sim,Sim,Não,Não,Não,Não,-,de 31% a 40%,Sim,False
+320390,3203908,Nova Venécia - ES,49065.0,Nova Venécia,Em elaboração,Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,-,Mais de 90%,Sim,False
+320400,3204005,Pancas - ES,18893.0,Pancas,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,1,até 10%,Não,False
+320405,3204054,Pedro Canário - ES,21522.0,Pedro Canário,"Sim, por instrumento legal",Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,-,de 21% a 30%,Sim,False
+320410,3204104,Pinheiros - ES,23915.0,Pinheiros,Em elaboração,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,1,até 10%,Sim,False
+320420,3204203,Piúma - ES,22300.0,Piúma,Não,Sim,Não,Sim,Não,Não,Não,Sim,Sim,Não,Sim,6,de 81% a 90%,Sim,False
+320425,3204252,Ponto Belo - ES,6497.0,Ponto Belo,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,de 21% a 30%,Não,False
+320430,3204302,Presidente Kennedy - ES,13696.0,Presidente Kennedy,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,de 11% a 20%,Não,False
+320435,3204351,Rio Bananal - ES,19274.0,Rio Bananal,Em elaboração,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Não,-,Sem orçamento previsto,Não,False
+320440,3204401,Rio Novo do Sul - ES,11069.0,Rio Novo do Sul,Em elaboração,Não,Não,Sim,Não,Sim,Não,Não,Não,Não,Sim,1,Mais de 90%,Não,False
+320450,3204500,Santa Leopoldina - ES,13106.0,Santa Leopoldina,Não,Não,Não,Sim,Sim,Não,Não,Não,Não,Sim,Não,-,de 11% a 20%,Não,False
+320455,3204559,Santa Maria de Jetibá - ES,41636.0,Santa Maria de Jetibá,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,1,de 31% a 40%,Sim,False
+320460,3204609,Santa Teresa - ES,22808.0,Santa Teresa,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Não,Não,Sim,Sim,6,de 81% a 90%,Sim,False
+320465,3204658,São Domingos do Norte - ES,8589.0,São Domingos do Norte,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,-,Sem orçamento previsto,Sim,False
+320470,3204708,São Gabriel da Palha - ES,32252.0,São Gabriel da Palha,Não,Não,Sim,Sim,Não,Não,Sim,Não,Não,Não,Não,-,de 61% a 70%,Sim,False
+320480,3204807,São José do Calçado - ES,10878.0,São José do Calçado,Em elaboração,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320490,3204906,São Mateus - ES,123752.0,São Mateus,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Não,Sim,Sim,Não,Não,Sim,30,de 41% a 50%,Sim,False
+320495,3204955,São Roque do Canaã - ES,10886.0,São Roque do Canaã,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Não,False
+320500,3205002,Serra - ES,520653.0,Serra,Em elaboração,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,5,de 21% a 30%,Sim,True
+320501,3205010,Sooretama - ES,26502.0,Sooretama,Não,Não,Não,Não,Não,Não,Não,Não,Não,Não,Não,-,Sem orçamento previsto,Não,False
+320503,3205036,Vargem Alta - ES,19563.0,Vargem Alta,Em elaboração,Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Sim,2,de 21% a 30%,Não,False
+320506,3205069,Venda Nova do Imigrante - ES,23831.0,Venda Nova do Imigrante,Não,Sim,Sim,Sim,Não,Sim,Sim,Não,Não,Não,Sim,4,até 10%,Não,False
+320510,3205101,Viana - ES,73423.0,Viana,Não,Sim,Sim,Sim,Sim,Sim,Não,Não,Sim,Sim,Não,-,até 10%,Sim,True
+320515,3205150,Vila Pavão - ES,8911.0,Vila Pavão,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,1,de 21% a 30%,Sim,False
+320517,3205176,Vila Valério - ES,13728.0,Vila Valério,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Não,-,até 10%,Sim,False
+320520,3205200,Vila Velha - ES,467722.0,Vila Velha,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não,Sim,36,Mais de 90%,Sim,True
+320530,3205309,Vitória - ES,322869.0,Vitória,"Sim, por instrumento legal",Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Sim,Não,-,de 51% a 60%,Sim,True

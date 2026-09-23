@@ -1,0 +1,79 @@
+cod_ibge,nome,fonte_url
+3200102,Afonso Cláudio,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200201,Alegre,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200300,Alfredo Chaves,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200359,Alto Rio Novo,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200409,Anchieta,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200508,Apiacá,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200607,Aracruz,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200706,Atílio Vivácqua,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200805,Baixo Guandu,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200904,Barra de São Francisco,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201001,Boa Esperança,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201100,Bom Jesus do Norte,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201159,Brejetuba,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201209,Cachoeiro de Itapemirim,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201308,Cariacica,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201407,Castelo,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201506,Colatina,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201605,Conceição da Barra,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201704,Conceição do Castelo,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201803,Divino de São Lourenço,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3201902,Domingos Martins,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202009,Dores do Rio Preto,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202108,Ecoporanga,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202207,Fundão,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202256,Governador Lindenberg,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202405,Guarapari,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202306,Guaçuí,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202454,Ibatiba,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202504,Ibiraçu,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202553,Ibitirama,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202603,Iconha,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202652,Irupi,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202702,Itaguaçu,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202801,Itapemirim,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3202900,Itarana,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203007,Iúna,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203056,Jaguaré,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203106,Jerônimo Monteiro,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203130,João Neiva,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203163,Laranja da Terra,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203205,Linhares,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203304,Mantenópolis,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203320,Marataízes,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203346,Marechal Floriano,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203353,Marilândia,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203403,Mimoso do Sul,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203502,Montanha,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203601,Mucurici,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203700,Muniz Freire,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203809,Muqui,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3203908,Nova Venécia,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204005,Pancas,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204054,Pedro Canário,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204104,Pinheiros,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204203,Piúma,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204252,Ponto Belo,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204302,Presidente Kennedy,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204351,Rio Bananal,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204401,Rio Novo do Sul,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204500,Santa Leopoldina,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204559,Santa Maria de Jetibá,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204609,Santa Teresa,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205002,Serra,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205010,Sooretama,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204658,São Domingos do Norte,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204708,São Gabriel da Palha,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204807,São José do Calçado,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204906,São Mateus,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3204955,São Roque do Canaã,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205036,Vargem Alta,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205069,Venda Nova do Imigrante,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205101,Viana,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205150,Vila Pavão,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205176,Vila Valério,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205200,Vila Velha,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3205309,Vitória,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200169,Água Doce do Norte,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios
+3200136,Águia Branca,https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios

@@ -1,0 +1,6 @@
+ciclo,habilitados,soma_valor_autorizado,cobertura_valor_autorizado,concluido,em_execucao,captando,captacao_expirada,status_ausente,fonte
+2022,69,23347711.16,69,58,0,0,11,0,dados/licc/habilitados/habilitados-2022.csv
+2023,113,44293244.8,112,70,9,0,34,0,dados/licc/habilitados/habilitados-2023.csv
+2024,123,46717991.29,123,41,20,12,50,0,dados/licc/habilitados/habilitados-2024.csv
+2025,74,33485213.39,74,7,46,18,3,0,dados/licc/habilitados/habilitados-2025.csv
+2026,88,37922381.07,88,2,17,69,0,0,dados/licc/habilitados/habilitados-2026.csv

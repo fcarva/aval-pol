@@ -1,0 +1,999 @@
+=== 78163a4 2026-09-03 A lista de habilitados entra como dicionário, não como lote
+Município sai de 0% para 63% dos 63 projetos, e a cota do art. 18 passa a vir
+classificada pela própria SECULT em vez de deduzida. Território, medido pela
+primeira vez: os 7 municípios da RMGV ficam com R$ 9,5 mi e os 71 do interior
+com R$ 4,8 mi; 59 dos 78 não receberam nada.
+
+## Os dois anexos não recortam a mesma coisa
+
+O plano era mesclar os 74 habilitados de 2025 sobre os 63 que captaram. A
+premissa era falsa. "RECURSO FINANCEIRO CAPTADO 2025" é dinheiro captado no
+ano-calendário; "PROJETOS HABILITADOS - ANO 2025" é quem foi habilitado naquele
+ciclo e capta no seguinte. Medido: dos 63 que captaram em 2025, 30 estão na
+seção de habilitados de 2024, 14 na de 2023 e apenas 4 na de 2025.
+
+Mesclado como lote, o grafo saía com 115 projetos onde existem 63. A lista entra
+como **dicionário**: enriquece quem já está no grafo, nunca cria projeto — a
+mesma disciplina que já valia para o Mapa Cultural.
+
+O casamento é por título normalizado **exato**. Semelhança foi tentada e fundia
+projetos distintos: "Carna Barra - Carnaval da Barra do Jucu" com "Carna
+Surpresa 2024", "Boa Vista Carnaval Capixaba 2026" com o de 2025, e três pares
+dentro do próprio anexo de captados. Título que aparece em mais de um exercício
+fica de fora e é relatado.
+
+## Alocação de cota é piso, não total
+
+Com metade dos projetos classificados, a tela exibia "✗ 46,6%" — que se lê como
+"a SECULT furou a cota" quando o que há é meia leitura. É o erro do "1112%" de
+cabeça para baixo.
+
+A lógica passa a ser assimétrica, e é exata: piso acima da reserva prova o
+cumprimento mesmo com cobertura parcial, porque o que falta só pode somar; piso
+abaixo não prova nada enquanto houver projeto sem classificar. `atendida: false`
+exige cobertura completa, e o estado intermediário aparece como
+"indeterminado — 31 de 63 projetos classificados".
+
+## Multi-município: presença sim, dinheiro não
+
+Um projeto pode ser executado em vários municípios e o rateio não é publicado.
+A presença conta em todos os que a fonte nomeia; o valor só é atribuído quando
+ela nomeia um. A soma territorial fecha em R$ 14,4 mi, dentro do teto — contar o
+valor cheio em cada município somaria acima dele.
+
+## O leitor da lista
+
+`tools/anexos-secult/extrair.mjs` reescrito para o documento real: cinco
+exercícios numa lista contínua, ancorado no código de processo, com a coluna de
+objeto descartada porque sua prosa atravessa a fronteira entre registros. As
+cinco seções fecham com a quantidade declarada (88, 74, 123, 113, 69).
+
+Três defeitos que a extração revelou, e o que cada um ensinou:
+
+- a virada de exercício acontece no meio da página, então cabeçalho e âncora
+  precisam de uma única passada em ordem de `y` — em duas passadas a página
+  inteira caía na seção que fechasse por último, e a contagem total continuava
+  batendo, o que torna o defeito invisível para quem só soma;
+- banda de coluna aberta ao infinito engolia o número da página, e os
+  "enquadramentos desconhecidos" de 2022 e 2023 eram "18", "24", "26";
+- conferidor que prova a leitura bloqueia; divergência que descreve a fonte, não.
+  A lista traz `500.000.00` num projeto e um valor LICC R$ 100 acima do total
+  noutro, ambos conferidos na geometria crua. Banda torta falha em bloco; uma
+  linha em 113 é a fonte, e o valor daquele projeto fica ausente.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                                     |   52 +-
+ app/orcamento/page.tsx                        |   28 +-
+ data/graph.json                               | 1940 ++++++++++++++++++-------
+ data/oficial/habilitados/habilitados-2022.csv |   70 +
+ data/oficial/habilitados/habilitados-2023.csv |  114 ++
+ data/oficial/habilitados/habilitados-2024.csv |  124 ++
+ data/oficial/habilitados/habilitados-2025.csv |   75 +
+ data/oficial/habilitados/habilitados-2026.csv |   89 ++
+ data/stats.json                               |   28 +-
+ pipeline/build-graph.ts                       |   88 +-
+ pipeline/habilitados.ts                       |   59 +-
+ pipeline/ingest.ts                            |  105 +-
+ src/components/PainelOrcamento.tsx            |   17 +-
+ src/lib/indicadores.ts                        |   29 +-
+ src/types/graph.ts                            |   15 +
+ tools/anexos-secult/extrair.mjs               |  576 ++++----
+ 16 files changed, 2585 insertions(+), 824 deletions(-)
+=== a2cb13c 2026-09-03 Impede que um clone limpo troque dado real por demonstração
+`construirGrafo()` só tinha dois caminhos: `data/raw/licc-{ano}.json`, que é
+ignorado pelo git, ou o conjunto de demonstração. Num clone limpo o primeiro não
+existe, então `npm run build:graph` — comando que o próprio `CLAUDE.md` manda
+rodar depois de mexer em ontologia ou pipeline — **sobrescrevia** o
+`data/graph.json` versionado, trocando 63 projetos reais por dados fictícios sem
+dizer nada.
+
+Agora há um degrau no meio: havendo transcrição oficial versionada em
+`data/oficial/`, ela é a fonte. Conjunto de demonstração é último recurso, nunca
+preferência. Conferido escondendo `data/raw/` e reconstruindo: sai o mesmo grafo,
+pela mesma leitura de `captados-2025.csv`.
+
+## Nem toda norma que incide sobre a LICC a funda
+
+O teste acima revelou um segundo defeito. `licc-programa` declarava
+`fundamentos: FUNDAMENTOS.map((f) => f.id)` — todas as normas do array —, o que
+funcionava enquanto todas eram capixabas. Com a Lei federal nº 14.903/2024 no
+grafo, isso passou a emitir `fundamenta:licc-programa->lei-14903-2024`,
+afirmando que o Marco Regulatório do Fomento à Cultura institui o programa
+estadual. Ele não institui: incide sobre ele, e a página de indicadores existe
+justamente para mostrar essa tensão, não para dissolvê-la numa aresta falsa.
+
+`FundamentoLegal` ganha `esfera`, e o programa passa a usar
+`FUNDAMENTOS_DA_LICC` — as seis normas estaduais. A lei federal continua no
+grafo, com página própria e citada em `/indicadores`; só não funda mais o que
+não funda.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                      |   12 +
+ data/graph.json                | 8177 ++++++++++++++++++++--------------------
+ pipeline/build-graph.ts        |   23 +-
+ pipeline/seed/institucional.ts |    3 +-
+ src/ontology/legal.ts          |   29 +
+ 5 files changed, 4157 insertions(+), 4087 deletions(-)
+=== 9c19ea1 2026-09-03 Orçamento só existe onde entrou alguma coisa
+`propagarAgregados()` cria um acumulador zerado em cada nó para poder somar
+dentro dele, e o acumulador sobrevivia vazio: 101 nós saíam no artefato
+versionado com `autorizado: 0, captado: 0, anterior: {0, 0}` sem terem orçamento
+nenhum — 78 municípios, 9 segmentos, 7 normas, 5 órgãos, 1 edital e 1 pessoa.
+
+Contraria a regra central do projeto. `Orcamento.autorizado` e `captado` são
+opcionais em `src/types/graph.ts` exatamente para que "não publicado" não vire
+"R$ 0"; preenchê-los com zero desfazia no construtor a garantia que o tipo dá.
+E o zero não era neutro: município sem projeto não recebeu zero — a fonte não
+publica onde os projetos aconteceram, e a cobertura de município é 0%.
+
+Um passe final arranca o orçamento de quem não recebeu contribuição, no mesmo
+molde do conserto que já existia para `orcamento.cobertura`. O acumulador
+continua nascendo zerado, porque a soma precisa dele; o que não pode é
+sobreviver assim.
+
+**Patrocinador quase quebrou o conserto**: ele acumula pelo peso das arestas de
+patrocínio e nunca passa por `somar`, então uma regra baseada em cobertura o
+esvaziaria. Por isso a limpeza usa dois conjuntos explícitos — quem foi zerado e
+quem de fato recebeu — em vez de adivinhar pelo conteúdo. Os 28 patrocinadores
+mantêm seus valores.
+
+Também: em `/orcamento` a cota sem dado exibia a tarja "sem dado" e logo abaixo
+"R$ 0 de R$ 12.500.000" com a barra vazia, que se lê como "o Estado não destinou
+nada". Agora a tarja e o número contam a mesma coisa — a página diz quantos
+projetos não trazem o campo que classifica a cota.
+
+Nenhuma página exibe "R$ 0" e nenhuma perdeu número real. O resumo do
+`build:graph` sai idêntico: 63 projetos, R$ 25.000.000,00 captados, cotas sem
+dado, `{oficial: 535, derivado: 159, demonstracao: 0}`.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md               |   13 +
+ app/orcamento/page.tsx  |   47 +-
+ data/graph.json         | 1139 +++++------------------------------------------
+ pipeline/build-graph.ts |   30 +-
+ 4 files changed, 193 insertions(+), 1036 deletions(-)
+=== cd50850 2026-09-03 Separa "li a norma" de "consigo apurar o cumprimento"
+O limite de 3 projetos por proponente estava `verificado: false`, e a interface
+dizia corretamente que a lista descreve quem alcançou o número, não quem
+descumpriu a norma. Mas bastava alguém conferir a instrução normativa e virar o
+campo para `true` — o que o próprio `CLAUDE.md` mandava fazer — para a mesma
+lista virar acusação de descumprimento.
+
+Ela não pode virar. O parágrafo único soma no limite as pessoas jurídicas que
+tenham sócios ou dirigentes em comum, ainda que com CNPJs distintos, e o Quadro
+de Sócios e Administradores da Receita Federal não é consultável daqui. O grafo
+enxerga CNPJ isolado, não malha societária — antes e depois de a norma ser lida.
+
+São duas limitações independentes, e o modelo só representava uma. `RegraLICC`
+ganha `naoApuravel?: string`, que guarda a **razão** em vez de um booleano mudo,
+para a tela poder dizer o quê. Ausente significa "é apurável", no mesmo idioma
+do resto do projeto.
+
+Propaga para `QuemExecuta.limite` e para três estados na nota de `/indicadores`.
+Conferido forçando `verificado: true` num rascunho: a tela passa a dizer "não
+posso apurar o cumprimento" e a frase sem ressalva não aparece nenhuma vez.
+`/sobre` ganha a segunda tarja, separada da primeira de propósito.
+
+## Ontologia legal
+
+Duas normas novas, ambas `verificado: false`:
+
+- Lei Federal nº 14.903/2024, Marco Regulatório do Fomento à Cultura. Primeira
+  norma federal do grafo; ementa literal, recuperada da Câmara dos Deputados.
+- Decreto nº 5.035-R, de 15/12/2021, que regulamenta o incentivo fiscal e
+  prevê que a SECULT expeça as instruções normativas. Era o elo que faltava
+  entre a Lei 11.246/2021 e as INs.
+
+Três regras: a vedação ao fracionamento entre proponentes distintos, as sanções
+por descumprimento de diligência, e o parágrafo único no limite existente — cuja
+fonte sai de nenhuma URL para um endereço. As sanções entram como regra separada
+em vez de engordar a descrição da IN 2026: aquele registro está conferido, e
+`verificado` é por registro.
+
+A IN 2026 ganha número e data pela página da própria SECULT.
+
+`/indicadores` ganha, ao pé do indicador de quem executa, os dois desenhos de
+controle que não coincidem: o formalismo processual da instrução normativa
+estadual e a verificação por resultado cultural do marco federal. Declara norma,
+não motivo — os números medidos ficam intocados. A tarja ali segue a afirmação
+do bloco, não o `verificado` do fundamento: a IN 2026 está conferida na
+identidade, mas o que o bloco diz do conteúdo dela veio de compilação
+secundária, e herdar o selo mostraria um lado como checado.
+
+## Rede
+
+O `CLAUDE.md` registrava o egresso como bloqueio de cinco hosts nomeados. É
+permissão por allowlist: planalto, camara.leg.br, legisweb, sefaz.es.gov.br e o
+IBGE também respondem bloqueado. `firecrawl_search` passa, e é como o decreto e
+a identidade da IN 2026 foram achados — mas devolve trecho, não página, então
+audita identidade de norma e nunca promove nada a `verificado: true`.
+
+Nenhum valor financeiro muda: `data/stats.json` sai idêntico, e o grafo cresce
+só nos dois nós de norma.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                |  43 +++++++++++++++++---
+ app/indicadores/page.tsx |  88 +++++++++++++++++++++++++++++++++++++++--
+ app/sobre/page.tsx       |  19 +++++++++
+ data/graph.json          |  70 +++++++++++++++++++++++++++++++-
+ docs/ontologia.md        |  34 ++++++++++++----
+ src/lib/indicadores.ts   |  35 ++++++++++++----
+ src/ontology/legal.ts    | 101 ++++++++++++++++++++++++++++++++++++++++++++---
+ 7 files changed, 359 insertions(+), 31 deletions(-)
+=== acb3530 2026-09-02 Substitui o conjunto de demonstração pela LICC 2025 real
+O grafo passa a ser servido pelo anexo "RECURSO FINANCEIRO CAPTADO 2025" da
+SECULT: 63 projetos, 52 proponentes, 28 empresas em 95 termos de patrocínio,
+somando R$ 25.000.000,00 — o teto de renúncia inteiro, conferido contra os
+totais impressos no próprio documento. Não resta nenhum registro
+`demonstracao`, e a faixa de aviso some sozinha.
+
+## O rótulo é centralizado sobre o grupo de termos
+
+A leitura anterior atribuía cada termo à âncora mais próxima acima, e cinco
+projetos saíam com captado acima do autorizado — impossível. A causa estava no
+desenho da página: proponente, título e valor habilitado são impressos uma vez
+e centrados no intervalo das linhas de termo do projeto, então num grupo de
+três o primeiro termo fica ACIMA do próprio rótulo, e num grupo par o rótulo
+cai no vão entre as duas linhas centrais.
+
+A atribuição vira uma partição contígua que minimiza |y_rótulo − centro(grupo)|.
+Resíduo médio de 0,4pt sobre 63 projetos, pior caso 5,8pt.
+
+Dois defeitos vizinhos caíram junto:
+
+- o cabeçalho de coluna vazava para dentro do título ("TÍTULO DO PROJETO"
+  virou nome de projeto) porque a regra de moldura testava a linha inteira e
+  nenhuma sublinha do cabeçalho casa inteira com um nome de coluna;
+- o cabeçalho de cota carrega o teto da cota na banda do valor habilitado, e
+  como o guarda "linha com dinheiro nunca é moldura" vinha primeiro, a seção
+  virava um projeto fantasma de R$ 12,5 mi que roubava termo do vizinho.
+
+## Ausência não é `false`
+
+`Boolean(meta.pautado)` e `!rmgv.has(municipioId ?? "")` liam "a fonte não diz"
+como "não se enquadra" e "fica fora da região metropolitana". Com 63 projetos
+sem município publicado, o painel declarava 1112% de cumprimento de uma cota
+territorial que a fonte não permite avaliar.
+
+O classificador de cota passa a devolver `boolean | undefined`, e cota sem
+projeto classificável vira `atendida: null`, exibida como "sem dado" em vez de
+acusar a SECULT de furar a reserva.
+
+## Peso real na aresta `patrocina`
+
+O anexo publica o valor por termo com o CNPJ do estabelecimento, então o
+rateio entre patrocinadores deixa de ser desconhecido: a coluna `aportes`
+carrega `cnpj|nome|valor` e a aresta ganha peso aferido. Dois termos da mesma
+empresa viram uma aresta com a soma — foi o caso do "Carna Surpresa 2024", com
+dois aportes da Realmar por estabelecimentos diferentes.
+
+Com isso a concentração do capital sai de dado sintético: Gini 0,742, e a EDP
+Espírito Santo responde sozinha por 43,9% de toda a renúncia, em 25 dos 63
+projetos.
+
+## Também
+
+- `data/oficial/` é o lugar versionado das transcrições que passaram pelos
+  conferidores; `data/raw/` segue ignorado e completa o versionado.
+- A camada territorial migra do seed para `nosFixos`: os 78 municípios são
+  ontologia, não demonstração, e trocar o seed pelo anexo real fazia `/monitor`
+  listar zero municípios.
+- `arredondarDinheiro()` corta a cauda binária das somas antes de gravar o
+  artefato versionado. Razões não se arredondam.
+- A ressalva de abertura de `/indicadores` passa a ser condicionada à
+  cobertura: fixa, ela seguiria dizendo que os gráficos leem dado fictício
+  depois de os dados virarem reais.
+
+O anexo de 2026 usa outro desenho de página — o valor habilitado se repete em
+99 das 129 linhas de termo — e a ferramenta corretamente recusa gravá-lo.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                                |    87 +-
+ README.md                                |     6 +-
+ app/indicadores/page.tsx                 |    24 +-
+ app/orcamento/page.tsx                   |    10 +-
+ app/page.tsx                             |    13 +-
+ data/graph.json                          | 25291 ++++++++---------------------
+ data/oficial/captados-2025.csv           |    64 +
+ data/stats.json                          |    84 +-
+ docs/pipeline.md                         |    33 +-
+ pipeline/build-graph.ts                  |   106 +-
+ pipeline/habilitados.ts                  |   100 +-
+ pipeline/ingest.ts                       |    20 +-
+ pipeline/seed/institucional.ts           |    45 +
+ src/components/PainelOrcamento.tsx       |    23 +-
+ src/types/graph.ts                       |     6 +
+ tools/anexos-secult/README.md            |    38 +-
+ tools/anexos-secult/extrair-captados.mjs |   427 +-
+ 17 files changed, 7394 insertions(+), 18983 deletions(-)
+=== c757274 2026-09-02 Ferramenta de leitura dos anexos, e as quatro cotas do art. 18
+O Codespace tem rede aberta — sem proxy, `secult.es.gov.br` e
+`mapa.cultura.es.gov.br` respondem 200. Isso torna a coleta automatizável na
+máquina do usuário, e `tools/anexos-secult/` faz isso.
+
+A leitura é posicional, nunca por modelo de linguagem. Um modelo que arredonda
+valor ou pula linha produz em silêncio exatamente o erro que este projeto
+existe para não cometer. Aqui cada fragmento tem coordenada, as colunas vêm de
+bandas de x aferidas do próprio documento, e nada é inferido.
+
+Três conferidores, e cada um pegou algo que os outros não pegariam:
+
+  A contagem declarada no anexo ("Quantidade: 74"). Necessária e insuficiente:
+  no primeiro teste ela bateu, 5 de 5, com TODOS os valores truncados.
+
+  O formato de cada valor. Foi ele que pegou aquele caso: coluna estreita
+  fazia o texto quebrar em duas linhas físicas, cada pedaço caía num y
+  diferente, e `R$ 480.000,00` virava `R$ 4`.
+
+  O teto por projeto. Captar acima do autorizado é impossível, então quando
+  aparece é atribuição errada minha, não achado.
+
+Daí também a junção de continuação: linha sem conteúdo na coluna âncora é
+continuação da anterior. Sem isso um nome de projeto longo viraria dois
+registros — um com metade do nome, outro sem proponente, descartado em
+silêncio e sem quebrar a contagem.
+
+O filtro de moldura precisou de duas tentativas. A primeira cortava tudo acima
+do cabeçalho e derrubou 95 termos para 51, porque o cabeçalho se repete a cada
+seção de cota. A segunda testava a linha inteira contra palavras e levava o
+dinheiro junto: razão social como "GRÊMIO RECREATIVO CULTURAL ESPORTIVO" casava
+com CULTURAL, e a soma caiu de R$ 25.000.000,00 para R$ 22.760.248,92. Agora
+nada que carregue CNPJ ou valor é moldura.
+
+## O que o anexo de 2025 revelou
+
+Aplicado ao documento real: 95 termos de patrocínio, 81 projetos, 46 empresas,
+e a soma dos captados dá exatamente R$ 25.000.000,00 — batendo com os totais
+impressos. O teto de 2025 foi integralmente captado.
+
+O documento também transcreve o art. 18 da IN 01/2025, e ele corrige a
+ontologia. As cotas são QUATRO, não três:
+
+  I  - 30% eventos calendarizados com mais de 10 anos de existência
+  II - 10% planos plurianuais (formação continuada, equipamentos, corpos estáveis)
+  III- 10% fora da região metropolitana
+  IV - 50% os demais projetos
+
+A quarta faltava inteira. Sem ela as três somavam 50% e a outra metade do teto
+aparecia como se não tivesse destinação normativa. Os títulos das outras três
+também estavam imprecisos — "projetos pautados" não é o que a norma diz.
+
+## O que NÃO entrou, e por quê
+
+Os dados extraídos não foram importados. Em 5 dos 81 projetos a leitura produz
+captado acima do autorizado, porque o anexo lista um termo por linha e o termo
+que não repete título é ambíguo: pode ser segundo aporte do projeto acima ou
+primeiro de outro. Resolver isso exige olho humano no PDF.
+
+Publicar que uma escola de samba nomeada captou 24% acima do teto autorizado,
+com base num palpite geométrico, é precisamente o dano que a regra de
+proveniência deste projeto existe para impedir. A ferramenta sinaliza e recusa
+gravar; fica anotado nos próximos passos.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ .gitignore                               |   6 +
+ CLAUDE.md                                |  28 ++-
+ data/graph.json                          |   2 +-
+ data/stats.json                          |  25 ++-
+ docs/pipeline.md                         |  19 ++
+ pipeline/build-graph.ts                  |  14 +-
+ src/ontology/legal.ts                    |  39 ++--
+ tools/anexos-secult/README.md            |  85 +++++++++
+ tools/anexos-secult/baixar.mjs           | 130 +++++++++++++
+ tools/anexos-secult/extrair-captados.mjs | 304 +++++++++++++++++++++++++++++
+ tools/anexos-secult/extrair.mjs          | 316 +++++++++++++++++++++++++++++++
+ 11 files changed, 941 insertions(+), 27 deletions(-)
+=== 4d4d664 2026-09-02 Lê os habilitados em lotes, como a SECULT de fato publica
+Fui buscar os anexos reais. O host `secult.es.gov.br` está bloqueado pela
+política de egresso da organização — não só do contêiner: o WebFetch responde
+EGRESS_BLOCKED para ele igual ao curl. Não contornei. Mas o WebSearch, que
+funciona, localizou os documentos, e eles revelam que o importador estava
+modelando a fonte errado.
+
+Existem pelo menos seis listas de habilitados para o exercício de 2025, todas
+rotuladas "ANO 2025", com 28, 33, 35, 37, 41 e 74 projetos. Não são versões
+concorrentes do mesmo arquivo: a comissão julgadora da LICC é permanente, a
+habilitação acontece ao longo de todo o período de inscrição, e os anexos saem
+em lotes. Assumir um arquivo por exercício, como `carregarHabilitados` fazia,
+descartaria cinco deles em silêncio.
+
+Agora qualquer `data/raw/habilitados-{ano}*.csv` entra e os lotes se mesclam.
+
+Quando o mesmo projeto reaparece — habilitado em março sem valor de captação,
+republicado em agosto com — o lote novo **completa** o antigo campo a campo,
+em vez de vencer inteiro ou ser descartado. A primeira versão que escrevi
+mantinha a primeira aparição, e o teste mostrou o custo: a cobertura de valor
+captado ficava em 33% onde deveria ser 67%, porque o número publicado no lote
+seguinte era jogado fora por ordem de leitura.
+
+Onde dois anexos trazem valores diferentes para o mesmo campo, prevalece o mais
+recente e o desacordo é relatado nominalmente, com projeto e campo. Divergência
+entre anexos oficiais é achado, não ruído para engolir. `fonte_url` e
+`fonte_pagina` ficam de fora dessa checagem: lote diferente tem fonte diferente
+por construção, e flagrá-los enterraria o conflito que importa sob falso alarme.
+
+Patrocinadores se acumulam entre lotes em vez de substituir: um projeto pode
+ganhar aporte de mais empresas entre um anexo e o seguinte, e o segundo anexo
+não revoga o primeiro.
+
+As URLs dos seis anexos ficam registradas em docs/pipeline.md, com a contagem
+que cada um declara no cabeçalho — que serve de conferidor da transcrição: se
+o CSV render outro número, faltou linha.
+
+Verificação: três lotes sintéticos, um com projeto repetido de valor ausente
+(mesclou e a cobertura subiu), outro com valor divergente (reportado como
+desacordo). Ida e volta pelo CSV e ausência≠zero seguem passando.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                        |  16 +++++-
+ data/graph.json                  |   2 +-
+ docs/pipeline.md                 |  40 ++++++++++++-
+ pipeline/habilitados.ts          |  74 ++++++++++++++++++++++++
+ pipeline/importar-habilitados.ts |  19 ++++---
+ pipeline/ingest.ts               | 120 +++++++++++++++++++++++++++++++++------
+ 6 files changed, 241 insertions(+), 30 deletions(-)
+=== 04a8598 2026-09-02 Alinha os dados da LICC: lista oficial, cobertura medida e quatro indicadores
+O README promete responder "quem aprova, quem aporta, quem executa, o que se
+produz, onde chega, e sob qual norma". Medido no grafo, o projeto respondia
+uma dessas seis: 14 registros oficiais de andaime institucional e norma, 353
+de demonstração em tudo que carrega a história, 1.239 das 1.289 arestas
+sintéticas.
+
+O defeito que precisava sair primeiro
+
+  CONSULTA_PROJETOS não filtrava nada e ingest.ts carimbava cada resultado
+  como kind "projeto", proveniencia "oficial", com fundamento na Lei
+  11.246/2021. Rodar a coleta afirmaria que todo projeto cultural cadastrado
+  no Mapa Cultural do ES é incentivado pela LICC — pior que o conjunto de
+  demonstração, que ao menos se identifica como fictício e usa letras gregas.
+
+  Agora `project` da plataforma é só índice de enriquecimento: casa por nome
+  com a lista oficial e contribui URL, descrição e id. Nunca a existência,
+  nunca a base legal, nunca um valor. Sem a lista, a coleta produz zero
+  projetos e diz isso em voz alta.
+
+A lista de habilitados como fonte de primeira classe
+
+  O que a LICC publica está repartido por três acessos: a API dá editais,
+  agentes, espaços e eventos; as inscrições exigem JWT; e os valores e
+  patrocinadores só existem nos anexos da SECULT. A API dá o contexto e não dá
+  a substância, e nenhum ajuste de consulta resolve isso.
+
+  Daí data/raw/habilitados-{ano}.csv, lido por pipeline/habilitados.ts, com
+  molde versionado e esquema em docs/pipeline.md. Município e segmento se
+  resolvem pela ontologia; sem casamento o campo fica ausente e o nome vai
+  para o relatório. npm run importar:habilitados monta o grafo sem tocar a
+  rede — quem tem os anexos e não tem acesso à plataforma já produz um grafo
+  real.
+
+Ausência deixou de virar zero
+
+  Orcamento.autorizado e .captado viraram opcionais. Campo obrigatório forçava
+  0 no lugar da ausência, e "não publicado" se lia igual a "R$ 0" — a forma
+  mais silenciosa de mentir num painel financeiro. Os agregados somam só o que
+  existe e guardam orcamento.cobertura com quantos entraram na conta, porque
+  um total apurado sobre 40 de 82 projetos não é o mesmo número que sobre 82.
+
+  Linha sem fonte_url entra como demonstração, não como oficial: sem endereço
+  para conferir, o registro não pode se dizer oficial. Nada é descartado em
+  silêncio.
+
+Os quatro indicadores
+
+  src/lib/indicadores.ts, funções puras, cada uma devolvendo a Confianca junto
+  do dado e null sobre zero observações. Concentração do capital com Gini e
+  curva de Lorenz; desigualdade territorial com os 78 municípios, inclusive os
+  zerados; conversão de autorizado em captado, separando "captou zero" de "não
+  se sabe"; e o perfil de quem executa, carregando o verificado:false da regra
+  dos 3 projetos em vez de escondê-lo.
+
+  A página /indicadores abre com a cobertura campo a campo — é ela que diz o
+  que os números abaixo valem, e hoje a primeira linha marca 0 de 82 de fonte
+  oficial.
+
+Gráficos conferidos com validador, não no olho
+
+  A paleta medida do orçamento reprova como paleta de gráfico: acima da banda
+  de luminosidade, abaixo do piso de croma, e #c9b3fc com #ffb3c9 a ΔE 10,7 —
+  indistinguíveis mesmo com visão normal. Ela segue certa na rosca, onde as
+  fatias são largas e nomeadas no arco. Os gráficos novos usam
+  src/ontology/paleta-grafico.ts, aprovada nos dois temas, e formas que não
+  precisam de nove matizes. Todo gráfico tem tabela gêmea, legenda e balão.
+
+Duas armadilhas anotadas no CLAUDE.md: não importar valor de módulo
+"use client" para componente de servidor (as cores chegavam undefined e a
+legenda saía transparente), e a paleta de rosca não servir como paleta de
+marca fina.
+
+Verificação: ida e volta do seed pelo CSV sem perda nos 82 projetos; ausência
+preservada em toda a cadeia; soma das frações da concentração = 1,000000;
+78 municípios contabilizados; as 26 asserções anteriores seguem passando.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ .gitignore                             |   6 +-
+ CLAUDE.md                              |  34 +++
+ README.md                              |   2 +
+ app/entidade/[slug]/page.tsx           |  14 +-
+ app/indicadores/page.tsx               | 404 +++++++++++++++++++++++++++
+ data/graph.json                        | 336 ++++++++++++++++++++++-
+ data/raw/habilitados-exemplo.csv       |   5 +
+ data/stats.json                        |  11 +-
+ docs/pipeline.md                       | 104 +++++--
+ package.json                           |   1 +
+ pipeline/build-graph.ts                | 113 ++++++--
+ pipeline/habilitados.ts                | 487 +++++++++++++++++++++++++++++++++
+ pipeline/importar-habilitados.ts       |  68 +++++
+ pipeline/importar-patrocinadores.ts    |  34 +--
+ pipeline/ingest.ts                     | 221 ++++++++++-----
+ pipeline/seed/gerar.ts                 |   2 +-
+ src/components/Cabecalho.tsx           |   1 +
+ src/components/EntidadeVista.tsx       |   2 +-
+ src/components/Grafico.tsx             | 231 ++++++++++++++++
+ src/components/GraficosIndicadores.tsx | 333 ++++++++++++++++++++++
+ src/components/PainelOrcamento.tsx     |  58 ++++
+ src/lib/indicadores.ts                 | 445 ++++++++++++++++++++++++++++++
+ src/lib/text.ts                        |  36 +++
+ src/ontology/paleta-grafico.ts         |  50 ++++
+ src/types/graph.ts                     |  22 +-
+ 25 files changed, 2874 insertions(+), 146 deletions(-)
+=== 90244fa 2026-08-31 Corrige cor, interação e geometria contra o HTML real do CivLab
+A fidelidade ao SF Government Graph vinha de amostragem de pixels de uma
+gravação de tela. Funcionou para o fundo e para a proporção geral, mas errou
+em cor e em interação — e errou por um motivo que vale registrar: o pixel
+media o vértice *aceso*, que já é a cor misturada a 50% com o branco. Media-se
+o efeito e guardava-se como se fosse a causa.
+
+O HTML da home e o da página de departamento mostram a regra: uma cor por
+categoria, em três camadas.
+
+    <circle fill="var(--white)"/>
+    <circle fill="#f2686f" fill-opacity="0.5"/>
+    <circle stroke="#f2686f"/>
+
+Daí decorre o grosso deste commit.
+
+Paleta
+  As cinco cores reais entram por posição no anel (People→publico,
+  Elected→governanca, Commission→patrocinador, Advisory→proponente,
+  Department→projeto). `corPastel` deixa de ser dado — de nodes.ts, de
+  segmentos.ts, de NoPosicionado e do meta serializado — e vira regra de
+  desenho, porque um pastel guardado pode divergir da cor de que deriva.
+  O fundo #ebeae4 fica: foi amostrado do plano de fundo, não de um vértice.
+
+Rosca de orçamento
+  Três comportamentos que eu havia inventado saem. Hover não escurece mais
+  nada: apagar o resto para destacar um é uma decisão de leitura que o
+  original não toma, e some com o contexto que a rosca existe para dar.
+  Seleção passa a ser traço de 2 contra 1,5. O tooltip vira o do original —
+  bordado em #ccc, 4px de raio, 12px, z-index 1000, acompanhando o ponteiro.
+  Geometria absoluta do original (viewBox 800x750, raios 320/250,667/181,333)
+  para conferir contra a medida sem regra de três, e os nomes das linguagens
+  correm pelo próprio arco.
+
+Alocação
+  Filete de 2px na cor da categoria com o rótulo num tom escuro da mesma
+  família, no lugar do fundo tingido por intensidade. Quem diz onde o recurso
+  se concentra é a altura da faixa; tingir o fundo duplicava a codificação.
+
+Abas
+  Semântica Radix completa (role, data-state, aria-controls, aria-labelledby,
+  tabindex e navegação por setas) em Abas.tsx, extraído de Coluna.tsx para não
+  arrastar cliente para dentro dos componentes de servidor.
+
+Geometria do radial
+  Frações 0,444/0,629/0,815/1,0 sobre raio útil de 330,75, rótulo de anel 25px
+  para dentro em corpo 12, e as formas retangulares girando com a posição
+  angular — o losango variável do original.
+
+Glifos, superfícies e tipografia
+  Glifo.tsx reaproveita caminhoDaForma(), então forma no texto e forma no
+  grafo não podem divergir: é o mesmo código. Cartões em rounded-xl sem
+  sombra, grade minmax(400px,40%) com o canvas primeiro no celular, Inter
+  servida pelo próprio Next.
+
+Duas armadilhas pagas no caminho, anotadas no CLAUDE.md: pintar a aba inativa
+com papel-fundo faz o segmentado sumir sobre a tela, e sem shrink-0 a coluna
+rolável esmaga o controle a zero de altura — ele fica no DOM, acessível ao
+leitor de tela, invisível na tela.
+
+docs/referencia-civlab.md registra a medida e, ao fim, as divergências
+deliberadas com o motivo de cada uma.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                               |  29 ++-
+ README.md                               |  15 +-
+ app/globals.css                         |  35 ++--
+ app/layout.tsx                          |  14 +-
+ app/page.tsx                            |  38 ++--
+ data/graph.json                         |  11 +-
+ docs/ontologia.md                       |  48 +++--
+ docs/referencia-civlab.md               | 203 +++++++++++++++++++++
+ pipeline/ingest.ts                      |   2 +-
+ pipeline/seed/gerar.ts                  |   2 +-
+ src/components/Abas.tsx                 | 127 +++++++++++++
+ src/components/AlocacaoProporcional.tsx |  31 ++--
+ src/components/Cabecalho.tsx            |   2 +-
+ src/components/CanvasVisualizacao.tsx   |   2 +-
+ src/components/Coluna.tsx               |  56 +-----
+ src/components/EntidadeVista.tsx        |  39 ++--
+ src/components/Glifo.tsx                |  43 +++++
+ src/components/GrafoRadial.tsx          |  54 ++++--
+ src/components/HomeGrafo.tsx            |   6 +-
+ src/components/NoticiasEmProsa.tsx      |   8 +-
+ src/components/PainelOrcamento.tsx      |  10 +-
+ src/components/PainelSelecao.tsx        |  49 ++---
+ src/components/Sunburst.tsx             | 306 ++++++++++++++++++++------------
+ src/lib/radial.ts                       |  42 ++---
+ src/ontology/nodes.ts                   |  53 +++---
+ src/ontology/segmentos.ts               |  16 +-
+ 26 files changed, 864 insertions(+), 377 deletions(-)
+=== e86bade 2026-08-27 Reconstrói o painel de orçamento com a paleta e a dinâmica aferidas
+A rosca de orçamento passa a reproduzir o painel do SF Government Graph, com
+cores medidas em vez de estimadas e com a interação que troca a coluna
+esquerda ao clicar numa fatia.
+
+Paleta medida por varredura polar
+Os quadros da gravação foram convertidos em RGB cru e varridos em coordenadas
+polares, separando o anel interno do externo. Saíram seis matizes vívidos —
+#f8da84, #9cc2fc, #d1fe89, #f48d4a, #4cffb2, #8ae9f7 — bem mais saturados que
+os pastéis do grafo, porque fatia fina precisa continuar distinguível ao lado
+da vizinha.
+
+A varredura também revelou a regra que liga os dois anéis: o externo é o mesmo
+matiz do interno clareado em cerca de 32%. Foi assim que #f48d4a virou #f9b387.
+A função `clarear()` reproduz isso e confere com a medição a menos de três
+níveis por canal. Manter a relação, em vez de escolher duas cores soltas, é o
+que faz o olho ler o anel externo como detalhamento do interno.
+
+Clique que troca a coluna
+Clicar numa fatia deixa de navegar para outra página e passa a selecionar a
+entidade, trocando a coluna esquerda — que é a dinâmica do original. Vindo da
+rosca, o painel já abre na aba de orçamento. As abas foram alinhadas ao
+modelo: Notícias | Quem se conecta? | Orçamento, sem a "Visão geral" que não
+existe lá; descrição e fundamento legal subiram para o cartão de cabeçalho,
+onde o original os coloca. Aba sem conteúdo não aparece.
+
+Alocação estratificada
+A lista lateral escala a intensidade da cor pelo **maior valor da lista**, não
+pelo total. Com nove segmentos nenhum passa de ~17% do todo, e a escala sobre o
+total deixava todas as faixas igualmente pálidas — apagando justamente a
+comparação que a lista existe para mostrar. Passar o ponteiro numa faixa acende
+a fatia correspondente na rosca.
+
+Correção de cor entre as duas leituras
+A lista e a rosca atribuíam a paleta cada uma pela sua ordem de exibição, e as
+duas ordenam por valor sem garantia de chegar à mesma sequência: "Livro,
+Leitura e Literatura" aparecia âmbar na lista e verde na rosca. A cor passa a
+ser ancorada na identidade do segmento, pela ordem da ontologia.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ app/page.tsx                            |   6 ++
+ src/components/AlocacaoProporcional.tsx |  17 +++-
+ src/components/CanvasVisualizacao.tsx   |  23 +++--
+ src/components/HomeGrafo.tsx            |  43 +++++++--
+ src/components/PainelOrcamento.tsx      | 150 +++++++++++++++++++++++++++++++
+ src/components/PainelSelecao.tsx        | 135 +++++++++++++++-------------
+ src/components/Sunburst.tsx             | 151 +++++++++++++++++++-------------
+ src/ontology/paleta-orcamento.ts        |  76 ++++++++++++++++
+ 8 files changed, 462 insertions(+), 139 deletions(-)
+=== 4642fda 2026-08-27 Mescla o anel de segmentos com a setorização por linguagem
+Duas implementações da mesma ideia se cruzaram: 643e75d colocou os segmentos
+culturais como um anel próprio (`anel: 5`), e esta branch os usou para
+setorizar o anel dos projetos. Ambas queriam tornar música, teatro e
+audiovisual visíveis no grafo.
+
+Ficou a setorização, que foi a opção escolhida explicitamente quando as duas
+foram postas lado a lado: um quinto anel alonga a cadeia de responsabilização
+com um elo que não move recurso, enquanto a fatia nomeada no arco mostra a
+linguagem sem custo estrutural. Se a preferência for o anel, é reverter este
+trecho de nodes.ts e radial.ts — o resto do merge não depende disso.
+
+Preservado de 643e75d
+- `arestasFixas()` em seed/institucional.ts, que centraliza as arestas
+  institucionais com rótulo descritivo em cada uma — casa bem com os verbos
+  que esta branch passou a escrever sobre as linhas da cadeia.
+- `criarArestasFundamento()` em build-graph.ts, que deriva as arestas
+  `fundamenta` do campo `fundamentos` de cada nó.
+- `scrape-secult.ts` e `importar-patrocinadores.ts`, para quando a SECULT
+  publicar os valores de captação.
+- A página /orcamento mostrando contagem por segmento e município mesmo sem
+  dados financeiros.
+- AGENTS.md, gerado pelo `next dev`, agora importado ao fim do CLAUDE.md em
+  vez de substituí-lo: a versão remota tinha reduzido o arquivo a uma linha,
+  o que apagaria a memória de projeto.
+
+Correção
+Os scripts passaram a usar `--env-file-if-exists=.env`. Com `--env-file=.env`,
+`npm run build:graph` e `npm run ingest` abortavam com "node: .env: not found"
+em qualquer clone sem o arquivo — e o projeto precisa subir sem passo de setup.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+=== 13b1734 2026-08-27 Setoriza o anel por linguagem, adota a paleta aferida e pivota para 2025
+Rodada de aproximação ao CivLab a partir de fontes primárias: uma segunda
+gravação de tela, decodificada e lida quadro a quadro, e busca no índice do
+Firecrawl, que revelou a estrutura de URLs do SF Gov Graph (/elected,
+/commissions, /advisories, /departments, /topics).
+
+Linguagens culturais no grafo
+O anel externo deixa de distribuir os projetos uniformemente e passa a dividi-
+los em fatias contíguas por linguagem — música, artes cênicas, audiovisual,
+patrimônio —, cada uma nomeada ao longo do arco e com os projetos tingidos na
+sua cor. Era o pedido de tornar "música, arte, teatro" visíveis, resolvido sem
+criar um anel a mais: um anel novo alongaria a cadeia de responsabilização e
+devolveria o desenho à condição de taxonomia, que é justamente o que o fluxo
+do valor evita.
+
+Paleta aferida, não escolhida
+As cores saíram de contagem de pixels dos quadros: fundo #ebeae4, centro
+#f5ccba, anéis #f6c4cc, #e2c1f8 e #d2c9e5. Cada categoria passa a declarar cor
+(traço e texto) e corPastel (preenchimento), e em repouso o vértice é só
+contorno — o preenchimento entra quando ele acende, como no original.
+
+Arestas que se explicam
+A cadeia passa a escrever o verbo sobre a linha, no lugar do "appoints" do
+CivLab: "renúncia de ICMS" no elo que vai do patrocinador ao centro,
+"patrocina" nos que vão aos projetos, "propõe" e "enquadra" nos demais. O nome
+do vértice selecionado saiu de junto do símbolo e foi para o rodapé do canvas,
+onde continua legível quando o vértice está na borda.
+
+Exercício de 2025
+O padrão passa a ser o último ciclo fechado, com a Instrução Normativa nº
+001/2025 e a oportunidade 1878. A LICC 2026 só encerra inscrições em 30/06 e
+seus números seriam parciais — e número parcial sem aviso de que é parcial
+engana mais do que informa. normaDoExercicio(ano) resolve qual IN rege cada
+ano. O comentário que chamava os 82 projetos de "contagem oficial" foi
+corrigido: aquele número é de 2026 e serve só para calibrar ordem de grandeza.
+
+Edital e titular
+Duas categorias novas. O edital é a chamada pública do exercício: a SECULT
+publica (aresta `publica`) e os projetos são inscritos nela (`inscrito_em`) —
+a direção importa, porque quem escreve e submete o projeto é o proponente, não
+a Secretaria. A pessoa que ocupa o cargo passa a existir separada do órgão,
+como o CivLab separa Mayor de José Cisneros; o nome do titular em exercício
+não foi conferido em fonte primária, então o cargo entra sem atribuir nome.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md                      |   47 +-
+ README.md                      |   27 +-
+ app/globals.css                |   48 +-
+ data/graph.json                | 5469 ++++++++++++++++++++++------------------
+ docs/ontologia.md              |   41 +-
+ pipeline/build-graph.ts        |   12 +-
+ pipeline/ingest.ts             |   15 +-
+ pipeline/seed/gerar.ts         |   32 +-
+ pipeline/seed/institucional.ts |   72 +-
+ src/components/GrafoRadial.tsx |  217 +-
+ src/lib/radial.ts              |  220 +-
+ src/ontology/edges.ts          |   32 +
+ src/ontology/legal.ts          |   28 +-
+ src/ontology/nodes.ts          |   68 +-
+ src/ontology/segmentos.ts      |   30 +-
+ src/types/graph.ts             |   19 +-
+ 16 files changed, 3778 insertions(+), 2599 deletions(-)
+=== 643e75d 2026-08-26 Adiciona anel de segmentos culturais ao redor da população e arestas institucionais
+- Segmentos culturais (Música, Teatro, Audiovisual…) passam a ser renderizados
+  como halo concêntrico ao redor do nó central "População Capixaba", com tamanho
+  proporcional ao número de projetos em cada área (proxy de magnitude até a SECULT
+  publicar os valores de captação)
+- Arcos de bem público saem de cada segmento em direção ao centro, com espessura
+  e opacidade variando pelo peso relativo — análogo ao budget dos departments no
+  sfgov.civlab.org
+- Arestas institucionais fixas (nomeia, beneficia, regula) são agora injetadas
+  diretamente pelo build-graph.ts, independente de quando o ingest foi rodado
+- pipeline/scrape-secult.ts e pipeline/importar-patrocinadores.ts adicionados
+  para quando a SECULT publicar os resultados de captação
+- Página /orcamento mostra contagem de projetos por segmento e município mesmo
+  sem dados financeiros; banner informativo quando valores ainda não disponíveis
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+
+
+ AGENTS.md                           |      9 +
+ CLAUDE.md                           |    170 +-
+ app/orcamento/page.tsx              |    123 +-
+ data/graph.json                     | 266913 +++++++++++++++++++++++++++++++--
+ data/stats.json                     |     50 +-
+ package.json                        |      8 +-
+ pipeline/build-graph.ts             |     36 +
+ pipeline/importar-patrocinadores.ts |    210 +
+ pipeline/ingest.ts                  |     10 +-
+ pipeline/scrape-secult.ts           |    283 +
+ pipeline/seed/institucional.ts      |     23 +-
+ src/components/GrafoRadial.tsx      |    137 +-
+ src/lib/radial.ts                   |     80 +-
+ src/ontology/nodes.ts               |     10 +-
+ 14 files changed, 255965 insertions(+), 12097 deletions(-)
+=== 92e598d 2026-08-26 Adiciona CLAUDE.md e remove dependências não usadas
+O repositório não tinha memória de projeto: uma sessão nova abria fria e
+desfaria sem querer as decisões que sustentam o desenho. O CLAUDE.md registra
+o que não se descobre lendo o código.
+
+O que entrou
+- A regra de proveniência e o que ela implica para código novo: todo vértice
+  carimba origem, valor ausente nunca é estimado, e nomes fictícios usam letras
+  gregas de propósito.
+- Por que os anéis seguem o fluxo do valor e por que segmento e município
+  deliberadamente não ocupam anel — promovê-los devolve o desenho à condição de
+  taxonomia e desfaz a leitura do mecanismo.
+- Armadilhas já pagas: posições calculadas em vez de simuladas, next/dynamic não
+  encaminhando ref, escala de tamanho interna ao anel, o vão do sunburst que é
+  dado e não defeito.
+- Que o ingest falha com 403 neste ambiente por egresso bloqueado, que isso é
+  esperado, e que contornar a política não é opção.
+- Os próximos passos, com destaque para calibrar FRACAO_POR_ANEL contra a
+  medida do toolkit em vez da impressão visual que está lá hoje.
+
+Limpeza
+Remove zod, que nunca foi importada, e playwright da raiz, que sobrou dos
+testes de captura — o toolkit em tools/scrape-civlab instala o próprio, como o
+README dele já indica. Sete pacotes a menos, build e typecheck limpos.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ CLAUDE.md         | 169 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ package-lock.json |  60 +------------------
+ package.json      |   4 +-
+ 3 files changed, 171 insertions(+), 62 deletions(-)
+=== 84aeda1 2026-08-26 Cria o licc.gov — catálogo relacional em grafo da LICC
+Adapta a arquitetura do SF Government Graph do CivLab para a Lei de Incentivo
+à Cultura Capixaba, com dados do Mapa Cultural do Espírito Santo.
+
+O grafo segue o fluxo do valor, não uma taxonomia. Na LICC o Estado abre mão de
+ICMS para que a política exista, então o capixaba é financiador indireto e
+beneficiário final ao mesmo tempo — e é isso que os anéis desenham, do centro
+para fora: População → Aprovação e fomento → O capital → A execução → O bem
+público. Cada anel tem forma própria e clicar acende a cadeia de
+responsabilização: um patrocinador mostra a linha até o centro (o imposto que
+não entrou no caixa estadual), os projetos que bancou e os segmentos que
+priorizou.
+
+Interface
+- Grafo radial concêntrico em SVG, com posições calculadas em vez de simuladas:
+  determinístico, sem blob e sem vértices desconectados arremessados para fora
+  da tela. Escala de tamanho interna ao anel, para que projetos sejam
+  comparáveis entre si e não com o programa inteiro.
+- Sunburst de dois anéis para o orçamento, com arco cinza fechando o teto ainda
+  não captado — o vão é dado, não defeito de renderização.
+- Coluna-documento em cards flutuantes ao lado do canvas, com notícias em prosa,
+  entidades linkadas inline e notas de rodapé numeradas apontando a fonte.
+- Página de entidade com abas condicionais, posição por captação, variação sobre
+  o exercício anterior e alocação por altura proporcional.
+- Busca global sobre nome, sigla, nomes alternativos e descrição, com / e ⌘K.
+
+Dados
+- Cliente da API REST do Mapas Culturais conforme a documentação do repositório
+  oficial: gramática @select/@order/@limit/@page/@files e operadores EQ, LIKE,
+  AND, OR, BET e GEONEAR. Pagina, espaça as requisições e não retenta 4xx.
+- Consolidador que propaga agregados, calcula posição e variação anual e confere
+  as cotas de 30% (pautados), 10% (fora da RMGV) e 10% (continuados).
+- Camada territorial em /monitor, no espírito do Republic: espaços culturais,
+  agenda e agentes por município, alimentados por /api/space/find e
+  /api/event/find.
+
+Proveniência
+Todo registro carrega selo oficial, derivado ou demonstracao, e o selo aparece
+na interface. Empresas e proponentes fictícios usam letras gregas para não serem
+confundidos com agentes reais, e uma faixa fica visível em todas as páginas
+enquanto houver dado de demonstração. Onde a fonte não publica um valor, o campo
+fica ausente — nunca estimado. Os números oficiais (Lei 11.246/2021, teto de
+R$ 25 milhões da Portaria SEFAZ 01-R/2025, as cotas) trazem link para a fonte, e
+regras ainda não conferidas no texto normativo ficam marcadas como tal.
+
+Engenharia reversa
+tools/scrape-civlab/ mede a referência — raios dos anéis, contagem, forma,
+paleta e tokens de estilo. Roda na máquina de quem tem acesso, já que o egresso
+deste ambiente bloqueia civlab.org e api.firecrawl.dev. Cobre captura de rede,
+RSC flight chunks (o CivLab é App Router, onde __NEXT_DATA__ não existe) e
+Firecrawl opcional; pipeline/importar-referencia.ts converte a saída em
+docs/referencia-civlab.md.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_015CE6UPEGrorVRRDirqjN69
+
+
+ .gitignore                                |    15 +
+ README.md                                 |   182 +
+ app/api/budget/route.ts                   |    69 +
+ app/api/entities/[slug]/route.ts          |    15 +
+ app/api/entities/route.ts                 |    26 +
+ app/api/graph/route.ts                    |    54 +
+ app/api/monitor/route.ts                  |    19 +
+ app/api/news/route.ts                     |     9 +
+ app/api/search/route.ts                   |    10 +
+ app/api/stats/route.ts                    |     8 +
+ app/entidade/[slug]/page.tsx              |   170 +
+ app/globals.css                           |   133 +
+ app/icon.svg                              |     9 +
+ app/layout.tsx                            |    73 +
+ app/monitor/[municipio]/page.tsx          |   224 +
+ app/monitor/page.tsx                      |   119 +
+ app/municipios/page.tsx                   |   126 +
+ app/not-found.tsx                         |    30 +
+ app/noticias/page.tsx                     |    83 +
+ app/orcamento/page.tsx                    |   175 +
+ app/page.tsx                              |   226 +
+ app/segmentos/page.tsx                    |    94 +
+ app/sobre/page.tsx                        |   300 +
+ data/graph.json                           | 19609 ++++++++++++++++++++++++++++
+ data/stats.json                           |    54 +
+ docs/ontologia.md                         |   121 +
+ docs/pipeline.md                          |   112 +
+ docs/referencias.md                       |   115 +
+ next.config.ts                            |    11 +
+ package-lock.json                         |  2291 ++++
+ package.json                              |    36 +
+ pipeline/build-graph.ts                   |   304 +
+ pipeline/importar-referencia.ts           |   191 +
+ pipeline/ingest.ts                        |   321 +
+ pipeline/seed/gerar.ts                    |   444 +
+ pipeline/seed/institucional.ts            |   199 +
+ pipeline/seed/territorio.ts               |   127 +
+ pipeline/sources/mapas-culturais.ts       |   303 +
+ postcss.config.mjs                        |     7 +
+ src/components/AlocacaoProporcional.tsx   |    77 +
+ src/components/BarraExecucao.tsx          |    45 +
+ src/components/BuscaGlobal.tsx            |   203 +
+ src/components/Cabecalho.tsx              |    46 +
+ src/components/CanvasVisualizacao.tsx     |    92 +
+ src/components/Coluna.tsx                 |   169 +
+ src/components/EntidadeVista.tsx          |   320 +
+ src/components/GrafoRadial.tsx            |   298 +
+ src/components/HomeGrafo.tsx              |    44 +
+ src/components/NoticiasEmProsa.tsx        |   121 +
+ src/components/Pagina.tsx                 |    59 +
+ src/components/PainelSelecao.tsx          |   285 +
+ src/components/SeloProveniencia.tsx       |    38 +
+ src/components/Sunburst.tsx               |   208 +
+ src/lib/dados.ts                          |   316 +
+ src/lib/format.ts                         |   104 +
+ src/lib/radial.ts                         |   312 +
+ src/lib/text.ts                           |    21 +
+ src/ontology/edges.ts                     |   158 +
+ src/ontology/index.ts                     |     5 +
+ src/ontology/legal.ts                     |   180 +
+ src/ontology/municipios.ts                |   169 +
+ src/ontology/nodes.ts                     |   202 +
+ src/ontology/segmentos.ts                 |   161 +
+ src/types/graph.ts                        |   204 +
+ tools/scrape-civlab/README.md             |    84 +
+ tools/scrape-civlab/extrair-estilos.mjs   |   212 +
+ tools/scrape-civlab/extrair-topologia.mjs |   295 +
+ tsconfig.json                             |    47 +
+ 68 files changed, 30889 insertions(+)

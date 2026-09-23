@@ -1,0 +1,6 @@
+ciclo_habilitacao,n_projetos,n_proponentes_distintos_nome,n_com_valor_autorizado,valor_autorizado_soma,valor_autorizado_mediana,n_valor_autorizado_igual_500mil,n_valor_autorizado_acima_500mil,n_com_municipio,n_municipios_distintos_resolvidos,terr_so_rmgv,terr_so_interior,terr_misto,terr_indeterminado,terr_sem_municipio,status_concluido,status_em_execucao,status_captando,status_captacao_expirada,status_sem_dado,enq_cota_pautados,enq_cota_continuados,enq_cota_fora_rmgv,enq_cota_demais,enq_sem_dado
+2022,69,58,69,23347711.16,368109.12,9,0,69,36,36,13,5,15,0,58,0,0,11,0,0,0,0,0,69
+2023,113,93,112,44293244.8,482381.17,23,1,113,42,58,35,4,16,0,70,9,0,34,0,0,0,0,0,113
+2024,123,101,123,46717991.29,457000.0,30,1,121,31,84,31,4,2,2,41,20,12,50,0,16,4,17,86,0
+2025,74,62,74,33485213.39,499765.0,27,2,58,24,30,23,0,5,16,7,46,18,3,0,17,4,13,40,0
+2026,88,82,88,37922381.07,499558.62,36,3,88,41,39,21,10,18,0,2,17,69,0,0,14,6,12,56,0

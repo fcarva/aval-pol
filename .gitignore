@@ -1,0 +1,9 @@
+# Material da disciplina: protegido por direito autoral, não versionar
+*.pdf
+disciplina/txt/
+# Cópia de ferramenta de terceiros (CC BY-NC); instalada em .claude/skills
+ferramentas/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+~$*.docx

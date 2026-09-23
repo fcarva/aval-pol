@@ -1,0 +1,11 @@
+tipo,processo_A,processo_B,ciclo,fragmento_A,fragmento_B,resultado
+transbordo,2022-JBZVN,2022-83B3M,2022,Divino São,Lourenço,Divino de São Lourenço
+transbordo,2022-83B3M,2022-220W3,2022,Santa,Maria,Santa Maria de Jetibá
+transbordo,2022-0PP25,2022-KSSWD,2022,Domingos,Martins,Domingos Martins
+transbordo,2022-PHX83,2022-87D66,2022,Vargem,Alta,Vargem Alta
+transbordo,2022-HH970,2023-MZ120,2023,Marechal,Floriano,Marechal Floriano
+transbordo,2022-GHF1N,2022-8S91R,2023,Vila,Pavão,Vila Pavão
+transbordo,2022-MH6GF,2022-61S2R,2023,Santa,Teresa,Santa Teresa
+transbordo,2025-49GXP,2024-454L8,2026,Santa Maria de,Jetibá,Santa Maria de Jetibá
+transbordo,2024-454L8,2025-SB2J8,2026,Cachoeiro de,Itapemirim,Cachoeiro de Itapemirim
+reescrita,2022-220W3,,2022,Santa Teresa; Domingos Vargem Alta; Martins; Castelo; Cachoeiro Brejetuba. de Itapemirim; Caparaó; Marataízes,,Santa Teresa; Domingos Martins; Vargem Alta; Castelo; Cachoeiro de Itapemirim; Brejetuba; Caparaó; Marataízes
