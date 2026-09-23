@@ -26,6 +26,7 @@ Saídas (analise/tabelas/):
 - 05_poder_verificacao.csv          reprodução dos exemplos numéricos das fontes
 - 05_poder_mde_municipal_did.csv    cenários ilustrativos, painel municipal (J = 78)
 - 05_poder_deff_proponente.csv      projetos por proponente e efeito de desenho
+- 05_poder_d1_proponente.csv        EMD do desenho principal (D1) com covariadas e CCI
 - 05_poder_tipo_m.csv               razão de exagero e erro de sinal por poder
 
 Uso: python analise/05_poder_mde.py
@@ -376,10 +377,11 @@ def _norm(s: str) -> str:
         "ascii", "ignore").decode().upper().split())
 
 
-def deff_proponente() -> pd.DataFrame:
-    """Projetos por proponente nos ciclos 2022-2024 (status encerrados ou em
-    execução, mesmo recorte de analise/tabelas/licc_emd_ilustrativo.csv) e o
-    efeito de desenho implicado para CCIs hipotéticos."""
+def _base_proponentes() -> tuple:
+    """Habilitados resolvidos dos ciclos 2022-2024 (status encerrados ou em
+    execução, mesmo recorte de analise/tabelas/licc_emd_ilustrativo.csv):
+    devolve n, número de proponentes, projetos por proponente (média e CV),
+    maior carteira e a fração que captou."""
     fs = sorted(glob.glob(os.path.join(RAIZ, "dados", "licc", "habilitados",
                                        "habilitados-202[2-4].csv")))
     d = pd.concat([pd.read_csv(f) for f in fs], ignore_index=True)
@@ -391,6 +393,12 @@ def deff_proponente() -> pd.DataFrame:
     mbar = n / g
     cv = tam.std(ddof=0) / mbar
     P = (d["status"] != "captacao_expirada").mean()
+    return n, g, mbar, cv, int(tam.max()), P
+
+
+def deff_proponente() -> pd.DataFrame:
+    """Efeito de desenho implicado pelos projetos por proponente, para CCIs hipotéticos."""
+    n, g, mbar, cv, tmax, P = _base_proponentes()
     linhas = []
     for icc in (0.0, 0.05, 0.20, 0.50):
         de = efeito_desenho(mbar, icc)
@@ -398,7 +406,7 @@ def deff_proponente() -> pd.DataFrame:
         linhas.append({
             "projetos": n, "proponentes_nomes_normalizados": g,
             "m_medio": round(mbar, 3), "cv_tamanho": round(cv, 3),
-            "max_projetos_por_proponente": int(tam.max()),
+            "max_projetos_por_proponente": tmax,
             "P_captou": round(P, 4), "icc_hipotese": icc,
             "deff_m_medio": round(de, 3), "deff_com_cv": round(de_cv, 3),
             "n_efetivo": round(n / de_cv, 1),
@@ -406,6 +414,27 @@ def deff_proponente() -> pd.DataFrame:
             "MDE_dp_com_deff_cv": round(mde_simples(1.0, n, P) * math.sqrt(de_cv), 3),
             "fonte": "dados/licc/habilitados/habilitados-2022..2024.csv",
         })
+    return pd.DataFrame(linhas)
+
+
+def cenarios_d1() -> pd.DataFrame:
+    """EMD do desenho principal do artigo (D1: DiD no nível do projeto/proponente,
+    ciclos 2022-2024, captou × captação expirada), em DP do resultado.
+
+    Grade de HIPÓTESES: poder 0,80/0,90; R2 da linha de base e covariadas
+    0/0,3/0,5 (WP26 7.1.2; com resultado anual de emprego, a linha de base
+    tende a explicar boa parte da variância — McKenzie, 2012); CCI entre
+    projetos do mesmo proponente 0/0,2 (efeito de desenho com CV dos tamanhos).
+    """
+    n, g, mbar, cv, tmax, P = _base_proponentes()
+    linhas = []
+    for poder in (0.80, 0.90):
+        for r2 in (0.0, 0.3, 0.5):
+            for icc in (0.0, 0.2):
+                de = efeito_desenho(mbar, icc, cv)
+                linhas.append({"n_projetos": n, "proponentes": g, "P_captou": round(P, 4), "poder": poder,
+                               "R2_hipotese": r2, "icc_hipotese": icc, "deff": round(de, 3),
+                               "EMD_dp": round(mde_simples(1.0, n, P, R2=r2, poder=poder) * math.sqrt(de), 3)})
     return pd.DataFrame(linhas)
 
 
@@ -424,6 +453,7 @@ if __name__ == "__main__":
         "05_poder_verificacao.csv": verificacao(),
         "05_poder_mde_municipal_did.csv": cenarios_municipais(),
         "05_poder_deff_proponente.csv": deff_proponente(),
+        "05_poder_d1_proponente.csv": cenarios_d1(),
         "05_poder_tipo_m.csv": tabela_tipo_m(),
     }
     for nome, df in saidas.items():
