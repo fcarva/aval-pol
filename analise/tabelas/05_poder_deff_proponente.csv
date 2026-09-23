@@ -1,0 +1,5 @@
+projetos,proponentes_nomes_normalizados,m_medio,cv_tamanho,max_projetos_por_proponente,P_captou,icc_hipotese,deff_m_medio,deff_com_cv,n_efetivo,MDE_dp_sem_conglomerado,MDE_dp_com_deff_cv,fonte
+293,199,1.472,0.73,7,0.6758,0.0,1.0,1.0,293.0,0.35,0.35,dados/licc/habilitados/habilitados-2022..2024.csv
+293,199,1.472,0.73,7,0.6758,0.05,1.024,1.063,275.7,0.35,0.36,dados/licc/habilitados/habilitados-2022..2024.csv
+293,199,1.472,0.73,7,0.6758,0.2,1.094,1.251,234.2,0.35,0.391,dados/licc/habilitados/habilitados-2022..2024.csv
+293,199,1.472,0.73,7,0.6758,0.5,1.236,1.628,180.0,0.35,0.446,dados/licc/habilitados/habilitados-2022..2024.csv

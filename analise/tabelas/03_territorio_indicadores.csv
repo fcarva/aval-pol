@@ -1,0 +1,22 @@
+indicador,valor
+cobertura_valor_atribuivel,340/463 processos; 0.741 do valor autorizado conhecido
+gini_valor_78,0.8805223530568639
+gini_per_capita_78,0.8107734878386739
+gini_presenca_78,0.7479330193615908
+gini_populacao_78,0.6433794419558608
+gini_pib_78,0.7487670225240848
+theil_t_nao_ponderado_78,2.115354500274477
+theil_total,0.9119580441379306
+theil_entre_rmgv_interior,0.06295315055832088
+theil_dentro,0.8490048935796095
+pct_theil_entre_grupos,0.06903075307354756
+spearman_valor_pop_78,0.5683139595572779
+spearman_valor_pib_78,0.5463408283280184
+spearman_presenca_pop_78,0.6686603419374466
+spearman_percapita_pop_78,0.38863105893419914
+pearson_log_valor_log_pop_positivos,0.5458577672471155
+n_positivos,34
+elasticidade_ols_log_valor_log_pop_positivos,0.5826776384036715
+vitoria_share_valor,0.4808284195073274
+vitoria_share_pop,0.08421837634125881
+vitoria_share_presenca,0.3006802721088435

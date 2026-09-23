@@ -1,0 +1,6 @@
+faixa_valor,registros_resolvidos,executados,taxa_execucao,nota
+até 200 mil,52,27,0.5192307692307693,valor ausente em 4 registros resolvidos
+200-400 mil,72,39,0.5416666666666666,valor ausente em 4 registros resolvidos
+400-500 mil (exclusive),104,77,0.7403846153846154,valor ausente em 4 registros resolvidos
+exatamente 500 mil,59,49,0.8305084745762712,valor ausente em 4 registros resolvidos
+acima de 500 mil,2,2,1.0,valor ausente em 4 registros resolvidos

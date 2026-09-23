@@ -1,0 +1,27 @@
+cnpj_raiz,nome,variantes_nome,cnpjs_estabelecimento,termos,projetos,aportado,share,share_acumulado,setor_inferido,macrossetor,confianca_setor
+28152650,EDP Espírito Santo Distribuição de Energia S.A,EDP Espírito Santo Distribuição de Energia S.A,1,25,25,10975277.24,0.4390110896,0.4390110896,Distribuição de energia elétrica,Energia e gás (serviço regulado),alta
+00827783,Kurumá Veiculos S.A,Kuruma Veiculos S.A | Kuruma Veiculos S.A DECOLORES | Kuruma Veiculos S.A. | Kurumá Veiculos S.A,3,12,12,2955276.26,0.11821105039999999,0.55722214,Comércio de veículos,Comércio de veículos e autopeças,alta
+39786983,VD Comercio de Veiculos LTDA,VD Comercio de Veiculos LTDA,4,11,10,2600623.42,0.1040249368,0.6612470768,Comércio de veículos,Comércio de veículos e autopeças,alta
+03845717,Realmar Distribuidora Ltda,REALMAR DISTRIBUIDORA LTDA | Realmar Distribuidora Ltda,12,14,7,2165886.86,0.0866354744,0.7478825512,Distribuidora (ramo não declarado no nome),Comércio atacadista/distribuição,baixa
+07526557,AMBEV S.A. CDD VITÓRIA,AMBEV S.A. CDD VITÓRIA,1,2,2,1000000.0,0.04,0.7878825512000001,Bebidas (centro de distribuição),Indústria,alta
+34307295,Companhia de Gás do Espírito Santo – ES GÁS,Companhia de Gás do Espírito Santo – ES GÁS,1,2,2,989200.0,0.039568,0.8274505512000001,Distribuição de gás canalizado,Energia e gás (serviço regulado),alta
+06248349,Transportadora Associada de Gás - TAG,TRANSPORTADORA ASSOCIADA DE GAS S.A. - TAG | Transportadora Associada de Gás - TAG,1,2,2,980000.0,0.0392,0.8666505512000001,Transporte de gás natural (gasodutos),Energia e gás (serviço regulado),alta
+06955576,ITAPOA SUPERMERCADO LTDA,ITAPOA SUPERMERCADO LTDA,1,1,1,500000.0,0.02,0.8866505512000001,Supermercado,Varejo supermercadista,alta
+11277336,VM Comercio de Automoveis LTDA,VM Comercio de Automoveis LTDA,1,3,3,477000.0,0.01908,0.9057305512000001,Comércio de veículos,Comércio de veículos e autopeças,alta
+05069718,Perfil Alumínio do Brasil S/A,PERFIL ALUMINIO DO BRASIL S/A | Perfil Alumínio do Brasil S/A,1,3,3,419369.98,0.0167747992,0.9225053504000001,Perfis de alumínio,Indústria,média
+31731169,TUBOVAL COMERCIAL LTDA,TUBOVAL COMERCIAL LTDA,1,1,1,264403.77,0.010576150800000001,0.9330815012000001,Comercial (ramo não declarado no nome),Comércio atacadista/distribuição,baixa
+27340074,Antônio Auto Peças S/A,Antônio Auto Peças S/A,1,1,1,239751.08,0.009590043199999999,0.9426715444000001,Comércio de autopeças,Comércio de veículos e autopeças,alta
+27555390,Oriundi Supermercados LTDA,Oriundi Supermercados LTDA,2,2,2,200012.99,0.0080005196,0.9506720640000001,Supermercado,Varejo supermercadista,alta
+31759699,Comercial Devens LTDA,Comercial Devens LTDA,3,3,2,169920.08000000002,0.006796803200000001,0.9574688672000001,Comercial (ramo não declarado no nome),Comércio atacadista/distribuição,baixa
+31790710,Imetame Metalmecãnica LTDA,Imetame Metalmecãnica LTDA,1,1,1,150000.0,0.006,0.9634688672000001,Metalmecânica,Indústria,alta
+04023387,MÁRMORES E GRANITOS DO BRASIL S.A,MÁRMORES E GRANITOS DO BRASIL S.A,1,1,1,150000.0,0.006,0.9694688672000001,Mármores e granitos (rochas ornamentais),Indústria,alta
+71189278,Orletti Veículos e Peças LTDA,Orletti Veículos e Peças LTDA,1,1,1,136397.0,0.00545588,0.9749247472000001,Comércio de veículos e peças,Comércio de veículos e autopeças,alta
+04330073,AMT Trading LTDA,AMT Trading LTDA,1,1,1,130000.0,0.0052,0.9801247472000001,Trading (comércio exterior),Comércio atacadista/distribuição,média
+45901867,EV Comércio de Veículos LTDA,EV Comércio de Veículos LTDA,2,2,2,106855.55,0.004274222,0.9843989692000001,Comércio de veículos,Comércio de veículos e autopeças,alta
+08625038,Kubit Exportação e Importação de Café Ltda,Kubit Exportação e Importação de Café Ltda,1,1,1,89192.8,0.0035677120000000002,0.9879666812000001,Exportação e importação de café,Comércio atacadista/distribuição,alta
+03380787,L&A DISTRIBUIDORA DE ALIMENTOS E EMBALAGENS,L&A DISTRIBUIDORA DE ALIMENTOS E EMBALAGENS,1,1,1,80000.0,0.0032,0.9911666812000001,Distribuição de alimentos e embalagens,Comércio atacadista/distribuição,alta
+07548056,Distribuidora Mascote LTDA,Distribuidora Mascote LTDA,1,1,1,56524.73,0.0022609892,0.9934276704,Distribuidora (ramo não declarado no nome),Comércio atacadista/distribuição,baixa
+02689900,Distribuidora Pomar,Distribuidora Pomar,1,1,1,50000.0,0.002,0.9954276704,Distribuidora (ramo não declarado no nome),Comércio atacadista/distribuição,baixa
+31819139,A.S. Materiais de Construção Ltda,A.S. Materiais de Construção Ltda,1,1,1,50000.0,0.002,0.9974276704,Comércio de materiais de construção,Comércio atacadista/distribuição,média
+09492311,Mundo Distribuidora de Cosméticos LTDA,Mundo Distribuidora de Cosméticos LTDA,1,1,1,44308.24,0.0017723296,0.9992,Distribuição de cosméticos,Comércio atacadista/distribuição,alta
+22280114,ELIT DISTRIBUIDORA DE TINTAS E REVESTIMENTOS LTDA,ELIT DISTRIBUIDORA DE TINTAS E REVESTIMENTOS LTDA,1,1,1,20000.0,0.0008,1.0,Distribuição de tintas e revestimentos,Comércio atacadista/distribuição,alta

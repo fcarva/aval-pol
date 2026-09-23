@@ -1,0 +1,7 @@
+ordem,codigo,regra
+1,mei_ei,"CPF (11 dígitos) ou raiz de CNPJ no nome, ou a palavra MEI (razão social de MEI é nome + CPF)"
+2,empresa_sufixo,"sufixo LTDA, EIRELI, EPP, S/A ou ME no nome"
+3,osc,"associação, instituto, instituição, fundação, grêmio, sociedade, federação, academia de letras, centro cultural/de cultura/desportivo, circolo, colônia de pescadores, sindicato, mosteiro, convention bureau, secretariado, programa de promoção, agência de desenvolvimento"
+4,empresa_provavel,"termo comercial sem sufixo: produções, produtora, eventos, filmes, editora, estúdio/studio, comunicação, marketing, projetos, design, entretenimento, consultoria, serviços, empreendimentos, records, music, company, economia criativa, soluções, associados, press"
+5,grupo_artistico,"coletivo, grupo teatral, cia/companhia, bloco, movimento cultural (natureza não inferível)"
+6,indeterminado,nenhuma regra casou (inclui nomes de pessoa natural sem CPF — prováveis MEI/EI)

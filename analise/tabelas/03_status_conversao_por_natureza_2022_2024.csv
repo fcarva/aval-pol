@@ -1,0 +1,7 @@
+natureza_rotulo,registros_resolvidos,executados,taxa_execucao
+Associação/instituto/fundação e outras entidades associativas,107,80,0.7476635514018691
+Empresa (sufixo societário explícito),127,88,0.6929133858267716
+"Empresa provável (termo comercial, sem sufixo)",14,7,0.5
+Grupo/coletivo/companhia artística (natureza não inferível),13,7,0.5384615384615384
+Indeterminado (inclui nomes de pessoa natural sem CPF),7,5,0.7142857142857143
+MEI/empresário individual,25,11,0.44
