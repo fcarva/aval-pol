@@ -42,6 +42,7 @@ from _comum import (
     PROCESSADOS,
     TABELAS,
     distritos_ibge,
+    igual_centavo,
     municipios_ibge,
     normalizar,
 )
@@ -416,7 +417,7 @@ def casar_captados(c: pd.DataFrame, h: pd.DataFrame) -> tuple[pd.DataFrame, pd.D
     hh = h.assign(chave_proponente=h["proponente"].map(chave_proponente))
     for r in c[c["casamento"] == "sem_correspondencia"].itertuples():
         kp = chave_proponente(r.proponente)
-        cand = hh[(hh["chave_proponente"] == kp) & (np.isclose(hh["valor_autorizado"], r.valor_autorizado))]
+        cand = hh[(hh["chave_proponente"] == kp) & (igual_centavo(hh["valor_autorizado"], r.valor_autorizado))]
         diag.append({"id_captado": r.id_captado, "projeto_captados": r.projeto, "proponente": r.proponente,
                      "valor_autorizado": r.valor_autorizado, "n_candidatos": cand["numero_processo"].nunique(),
                      "candidatos": " | ".join(f"{p} [{t}] ciclo {cy}" for p, t, cy in

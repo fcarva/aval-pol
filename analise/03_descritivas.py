@@ -20,6 +20,7 @@ from _comum import (
     cr,
     gini,
     hhi,
+    igual_centavo,
     theil_t,
 )
 
@@ -109,7 +110,7 @@ def anual(h: pd.DataFrame, hd: pd.DataFrame) -> pd.DataFrame:
             "total_mediana": t.median(),
             "razao_n": len(ambos), "razao_agregada": ambos["valor_autorizado"].sum() / ambos["valor_total"].sum(),
             "razao_mediana": razao.median(),
-            "pct_razao_igual_1": float((np.isclose(ambos["valor_autorizado"], ambos["valor_total"])).mean()),
+            "pct_razao_igual_1": float((igual_centavo(ambos["valor_autorizado"], ambos["valor_total"])).mean()),
             "n_autorizado_maior_total": int((ambos["valor_autorizado"] > ambos["valor_total"] + 0.005).sum()),
             "municipio_valor_n": int(g["municipio_valor"].notna().sum()),
         })
@@ -186,12 +187,12 @@ def bunching(h: pd.DataFrame, hd: pd.DataFrame) -> pd.DataFrame:
         n = len(a)
         linhas.append({
             "ciclo": rot, "n_com_valor": n, "n_total": len(g),
-            "exatamente_500mil": int(np.isclose(a, TETO_GERAL).sum()),
+            "exatamente_500mil": int(igual_centavo(a, TETO_GERAL).sum()),
             "entre_490mil_e_500mil_excl": int(((a >= 490_000) & (a < TETO_GERAL - 0.005)).sum()),
             "entre_450mil_e_490mil": int(((a >= 450_000) & (a < 490_000)).sum()),
-            "exatamente_300mil": int(np.isclose(a, TETO_1A_EDICAO).sum()),
+            "exatamente_300mil": int(igual_centavo(a, TETO_1A_EDICAO).sum()),
             "acima_500mil": int((a > TETO_GERAL + 0.005).sum()),
-            "exatamente_1mi": int(np.isclose(a, TETO_ESPECIAL).sum()),
+            "exatamente_1mi": int(igual_centavo(a, TETO_ESPECIAL).sum()),
             "abaixo_300mil": int((a < TETO_1A_EDICAO - 0.005).sum()),
         })
     t = pd.DataFrame(linhas)
@@ -459,7 +460,7 @@ def captados(c: pd.DataFrame, ap: pd.DataFrame, prop: pd.DataFrame, conc_prop: p
         "razao_min": c["razao_captado"].min(), "razao_mediana_parciais": c.loc[c.captacao == "parcial", "razao_captado"].median(),
         "parciais_abaixo_35pct": int((c["razao_captado"] < 0.35).sum()),
         "captado_medio": c["valor_captado"].mean(), "captado_mediano": c["valor_captado"].median(),
-        "captado_exatamente_500mil": int(np.isclose(c["valor_captado"], TETO_GERAL).sum()),
+        "captado_exatamente_500mil": int(igual_centavo(c["valor_captado"], TETO_GERAL).sum()),
         "proponentes_distintos": c["chave_proponente"].nunique(),
         "termos": len(ap), "cnpjs_estabelecimento": ap["cnpj"].nunique(), "empresas_raiz_cnpj": ap["cnpj_raiz"].nunique(),
         "nomes_de_patrocinador_distintos": ap["patrocinador_nome"].nunique(),

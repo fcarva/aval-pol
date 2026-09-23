@@ -155,6 +155,15 @@ def cr(valores, k: int) -> float:
     return float(v[:k].sum() / v.sum()) if v.sum() > 0 else float("nan")
 
 
+def igual_centavo(a, b):
+    """Igualdade monetária ao centavo (|a − b| < R$ 0,005).
+
+    Não usar np.isclose com a tolerância padrão: rtol=1e-5 aceita ±R$ 5 em
+    R$ 500 mil e contaria R$ 499.999,84 como "exatamente o teto".
+    """
+    return np.isclose(a, b, rtol=0.0, atol=0.005)
+
+
 def cobertura(n_com: int, n_total: int) -> str:
     return f"{n_com}/{n_total} ({100 * n_com / n_total:.1f}%)" if n_total else "0/0"
 
