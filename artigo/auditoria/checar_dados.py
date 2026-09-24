@@ -454,6 +454,8 @@ CHECAGENS += [
      T + "09_reentrada_resumo.csv"),
     ("N43", "a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio",
      f"até {cota_completa(2025, 4)}, e a de 30%, até {cota_completa(2025, 1)}", T + "09_cotas_2025_2026.csv"),
+    ("N44", "e os 53 a 95 proponentes habilitados por ciclo",
+     f"os {int(comp07['proponentes'].min())} a {int(comp07['proponentes'].max())} proponentes", T7 + "composicao_por_ciclo.csv (2022-2026)"),
     ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
 ]
 

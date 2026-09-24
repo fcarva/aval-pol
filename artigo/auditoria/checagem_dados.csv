@@ -51,4 +51,5 @@ N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"só com os
 N41,CONFERE,são 463 processos e 467 registros,analise/tabelas/03_anual.csv; 07_funil_por_ciclo.csv,são 463 processos e 467 registros por ciclo
 N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)
 N43,CONFERE,"até 28 de janeiro, e a de 30%, até 20 de maio",analise/tabelas/09_cotas_2025_2026.csv,"a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio"
+N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
 N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor

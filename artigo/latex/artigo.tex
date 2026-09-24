@@ -63,8 +63,8 @@
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
-% Referências: alinhadas à esquerda, espaço simples, separadas por 4 pt (como no .docx)
-\newenvironment{referencias}{\raggedright\setlength{\parskip}{4pt}}{\par}
+% Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
+\newenvironment{referencias}{\raggedright\setlength{\parskip}{3pt}}{\par}
 \hypersetup{pdftitle={Quem escolhe o que o Estado financia? Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto}, pdflang={pt-BR}}
 
 \begin{document}
@@ -72,7 +72,7 @@
 \begin{center}
 {\large\bfseries Quem escolhe o que o Estado financia? Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto\par}
 \vspace{6pt}
-{[}Autor(a) 1{]} e {[}Autor(a) 2{]} --- PPGEco/UFES, PECO 5046-6046 Avaliação de Políticas Públicas\par
+Felipe Carvalho Souza Santos --- PPGEco/UFES, PECO 5046-6046 Avaliação de Políticas Públicas\par
 \vspace{3pt}
 Vitória, setembro de 2026\par
 \end{center}
@@ -142,17 +142,16 @@ SECULT no evento Cultura em Dados, em 2026 (SECULT, 2026d), e este artigo não t
 O artigo tem dois objetivos, definidos pela disciplina: avaliar o desenho da LICC \textbf{como ela
 está}, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho
 amostral, fontes de dados e cálculo de poder. A \hyperref[secao-2]{seção~2} caracteriza a política; a \hyperref[secao-3]{seção~3} revisa a
-literatura; a \hyperref[secao-4]{seção~4} reconstrói a teoria da mudança e audita suas premissas com os dados
-administrativos; a \hyperref[secao-5]{seção~5} transforma as premissas em perguntas de avaliação de impacto; a \hyperref[secao-6]{seção~6}
-conclui.
+literatura; a \hyperref[secao-4]{seção~4} reconstrói a teoria da mudança e audita suas premissas; a \hyperref[secao-5]{seção~5} transforma
+as premissas em perguntas de avaliação de impacto; a \hyperref[secao-6]{seção~6} conclui.
 
 \section{Caracterização da política}\label{secao-2}
 
 A LICC é um \textbf{gasto tributário com escolha privada}. O proponente, pessoa jurídica com
 finalidade cultural e sede no estado há dois anos, inscreve o projeto na SECULT. Se o projeto for
 habilitado, o proponente procura uma empresa contribuinte do ICMS que aceite patrocinar. A empresa
-deposita o valor numa conta do projeto e compensa até 100\% dele com o ICMS devido (ESPÍRITO SANTO,
-2021b, art. 10). Não há contrapartida financeira da empresa. O \hyperref[quadro-1]{Quadro~1} resume as regras.
+deposita o valor numa conta do projeto e compensa até 100\% dele com o ICMS devido, sem
+contrapartida financeira (ESPÍRITO SANTO, 2021b, art. 10). O \hyperref[quadro-1]{Quadro~1} resume as regras.
 
 \begingroup\footnotesize\renewcommand{\arraystretch}{1.15}
 \phantomsection\label{quadro-1}
@@ -202,13 +201,11 @@ os inscritos não habilitados nem qualquer indicador de resultado.
 \textbf{Despesa tributária com decisão privada.} A literatura de economia da cultura trata o
 incentivo fiscal como um subsídio em que o contribuinte decide a alocação e o Tesouro paga a conta.
 Feld, O'Hare e Schuster (1983) chamaram os contribuintes americanos de ``mecenas apesar de si
-mesmos''; Brooks (2004) mostra que, nos Estados Unidos, a renúncia supera muitas vezes o apoio
-federal direto às artes e serve a públicos diferentes. A justificativa econômica usual é de falha de
-mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem
-público ou meritório da cultura (THROSBY, 1994). O crédito de 100\% da LICC ocupa o extremo desse
-espectro: o doador não tem custo líquido algum. Sem custo, não há efeito-preço sobre o patrocínio, e
-restam duas margens a avaliar: a troca de fonte (da Rouanet ou da verba de marketing para o ICMS) e
-o efeito sobre o projeto.
+mesmos''. A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes
+ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem público ou meritório da cultura (THROSBY, 1994). O
+crédito de 100\% da LICC ocupa o extremo desse espectro: o doador não tem custo líquido algum. Sem
+custo, não há efeito-preço sobre o patrocínio, e restam duas margens: a troca de fonte (da Rouanet
+ou do marketing para o ICMS) e o efeito sobre o projeto.
 
 \textbf{A experiência brasileira com a Lei Rouanet.} A LICC reproduz o núcleo do mecenato federal,
 que acumula três décadas de crítica. Os estudos documentam concentração regional no Sudeste,
@@ -293,7 +290,7 @@ governança de renúncias do TCU (BRASIL, 2014).
 \textbf{Funil de atrito.} O funil mede, elo a elo, quantos beneficiários potenciais chegam ao fim da
 cadeia (WHITE; RAITZER, 2017). A \hyperref[tabela-1]{Tabela~1} mostra que ele se estreita justamente onde não há dado:
 antes da habilitação e depois da execução. Entre os 25.441 agentes cadastrados no Mapa Cultural e os
-cerca de 100 proponentes habilitados por ciclo, não se sabe quantos se inscreveram nem quantos foram
+53 a 95 proponentes habilitados por ciclo, não se sabe quantos se inscreveram nem quantos foram
 inabilitados. Nas etapas observadas, a maioria passa: 68\% dos habilitados de 2022-2024 com situação
 resolvida captaram.
 
@@ -367,12 +364,14 @@ comissão estão registradas como ``avaliação simplificada'', não como avalia
 projeto ``atende ou não'' e, ao final, sugere habilitação, inabilitação ou diligência (SECULT,
 2026f). A única pontuação do processo é a dos pareceristas, no edital que os credencia. A
 habilitação qualifica, mas não prioriza, e autoriza mais do que o teto financia. A escolha entre
-projetos considerados aptos passa, assim, à empresa e à fila de validação. Com o montante esgotado
-de 2023 a 2025, o que excedeu o teto ficou de fora pelo momento em que o termo chegou e foi
-validado, não por mérito. Os anexos de 2023 e 2024 listam os termos ``indeferidos por ultrapassar o
-montante''; o de 2025 não lista recusados, mas dá a data de recebimento de cada termo validado, e a
-cota de 50\% se completou com termos recebidos até 28 de janeiro, e a de 30\%, até 20 de maio
-(SECULT, 2026c). Nenhuma norma lida fixa a ordem de validação.
+projetos considerados aptos passa, assim, à empresa e à fila de validação. No Funcultura, fundo da
+própria SECULT, a seleção é comparativa (comissão julgadora de especialistas, selecionados e
+suplentes), e há oficinas de orientação à inscrição (IJSN, 2021). Com o montante esgotado de 2023 a
+2025, o que excedeu o teto ficou de fora pelo momento em que o termo chegou e foi validado, não por
+mérito. Os anexos de 2023 e 2024 listam os termos ``indeferidos por ultrapassar o montante''; o de
+2025 não lista recusados, mas dá a data de recebimento de cada termo validado, e a cota de 50\% se
+completou com termos recebidos até 28 de janeiro, e a de 30\%, até 20 de maio (SECULT, 2026c).
+Nenhuma norma lida fixa a ordem de validação.
 
 \textbf{Escolha da empresa.} Com crédito integral, a empresa escolhe o destino do ICMS que pagaria e
 fica com a marca; como o limite por patrocinador é uma fração do ICMS recolhido (\hyperref[quadro-1]{Quadro~1}), as
@@ -383,10 +382,10 @@ influência política (BERTRAND \emph{et al.}, 2020). Entre as companhias aberta
 chance de patrocinar cultura cresce com o porte da empresa e com a concentração do setor (ALCÂNTARA;
 BENEDICTO; SILVA, 2019). Das 26 empresas que patrocinaram em 2025, 13 também aparecem como
 incentivadoras da Lei Rouanet, e elas responderam por 86\% da renúncia daquele ano (BRASIL, 2026b).
-O fato admite duas leituras: um marketing cultural já estruturado, o ``mercado de patrocínios'' de
-Belem e Donadone (2013), ou a troca de fonte, que reduz a adicionalidade (H1b). A evidência sobre o
-destino é mista. Quando a busca de patrocinador passou para antes da comissão, a parcela da RMGV no
-valor habilitado atribuível a um município caiu de 74\% (ciclo 2024) para 57\% (2025). Projetos que
+Há duas leituras: marketing cultural já estruturado, o ``mercado de patrocínios'' de Belem e
+Donadone (2013), ou troca de fonte, que reduz a adicionalidade (H1b). A evidência sobre o destino é
+mista. Quando a busca de patrocinador passou para antes da comissão, a parcela da RMGV no valor
+habilitado atribuível a um município caiu de 74\% (ciclo 2024) para 57\% (2025). Projetos que
 pediram exatamente o teto de R\$ 500 mil captaram mais que os menores: 83\% contra 52\% dos que
 pediram até R\$ 200 mil, em 2022-2024. Esses fatos têm explicações que não dependem da marca: quem
 já tem patrocinador acertado pede o teto, e quem já captou tem rede e experiência. Daí a premissa
@@ -400,11 +399,10 @@ do valor entre os 78 municípios é 0,88, e a diferença entre RMGV e interior e
 desigualdade na decomposição de Theil. Por isso a reserva de 10\% para projetos fora da RMGV age
 sobre a menor parte dela.
 
-\textbf{Monitoramento.} O que a SECULT publica cobre insumos e produtos, mas não a entrada
-(inscritos e inabilitados) nem o resultado (público, gratuidade, contrapartidas executadas). Os dois
-indicadores que a teoria da mudança mais exige falham no critério SMART de ser mensurável. A lei já
-manda divulgar os benefícios, ``inclusive no Portal da Transparência do Estado'' (ESPÍRITO SANTO,
-2021a).
+\textbf{Monitoramento.} O que a SECULT publica cobre insumos e produtos, mas não os inscritos e
+inabilitados nem o resultado (público, gratuidade, contrapartidas executadas), os dois indicadores
+que a teoria da mudança mais exige e que falham no critério SMART de mensurabilidade. A lei já manda
+divulgar os benefícios, ``inclusive no Portal da Transparência do Estado'' (ESPÍRITO SANTO, 2021a).
 
 Em síntese, com o dado público nenhum elo aparece claramente rompido. Para desconcentrar o
 financiamento, algo na cadeia precisaria dirigir recursos para fora do circuito consolidado; nem a
@@ -448,8 +446,7 @@ O EMPT é o parâmetro indicado porque a participação é voluntária, do propo
 As regras de operação determinam o método (GERTLER \emph{et al.}, 2018). Com excesso de demanda,
 ciclos anuais e nenhum índice publicado com ponto de corte, cabem sorteio, promoção aleatória,
 diferenças em diferenças e diferenças em diferenças com pareamento. O sorteio mudaria a regra de
-alocação e fica fora do escopo; o racionamento no teto é o seu análogo natural. A escolha depende
-dos dados que a SECULT liberar (\hyperref[secao-5.3]{seção~5.3}).
+alocação e fica fora do escopo. A escolha depende dos dados que a SECULT liberar (\hyperref[secao-5.3]{seção~5.3}).
 
 \begin{itemize}
 \tightlist
@@ -654,10 +651,6 @@ BRASIL. Ministério da Cultura. \textbf{SALIC}: API de dados abertos (projetos e
 Lei Rouanet). Brasília: MinC, 2026b. Disponível em: \url{https://api.salic.cultura.gov.br/api/v1}.
 Acesso em: 24 set. 2026.
 
-BROOKS, A. C. In search of true public arts support. \textbf{Public Budgeting \& Finance}, v. 24,
-n.~2, p.~88-100, 2004. DOI:
-\href{https://doi.org/10.1111/j.0275-1100.2004.02402006.x}{10.1111/j.0275-1100.2004.02402006.x}.
-
 BUTTON, Patrick. Do tax incentives affect business location and economic development? Evidence from
 state film incentives. \textbf{Regional Science and Urban Economics}, v. 77, p.~315-339, 2019. DOI:
 \href{https://doi.org/10.1016/j.regsciurbeco.2019.06.002}{10.1016/j.regsciurbeco.2019.06.002}.
@@ -724,6 +717,11 @@ dados; períodos 2023 e 2024 publicados em 12 dez. 2025. Disponível em:
 
 IBGE. \textbf{Pesquisa de Informações Básicas Municipais -- MUNIC 2021}. Rio de Janeiro: IBGE, 2022.
 Dados consultados pela API de pesquisas do IBGE em 23 set. 2026.
+
+IJSN -- INSTITUTO JONES DOS SANTOS NEVES. \textbf{Funcultura 10 anos}: análise executiva do
+Funcultura/ES. Vitória: IJSN; SECULT, 2021. Disponível em:
+\url{https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/relatorios/Pesquisa_Funcultura.pdf}. Acesso
+em: 24 set. 2026.
 
 MAYNE, John. Useful theory of change models. \textbf{Canadian Journal of Program Evaluation}, v. 30,
 n.~2, p.~119-142, 2015. DOI: \href{https://doi.org/10.3138/cjpe.230}{10.3138/cjpe.230}.

@@ -108,8 +108,8 @@ PREAMBULO = r"""% !TEX program = xelatex
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
-% Referências: alinhadas à esquerda, espaço simples, separadas por 4 pt (como no .docx)
-\newenvironment{referencias}{\raggedright\setlength{\parskip}{4pt}}{\par}
+% Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
+\newenvironment{referencias}{\raggedright\setlength{\parskip}{3pt}}{\par}
 """
 
 
