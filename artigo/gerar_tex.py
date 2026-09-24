@@ -36,20 +36,28 @@ LIMITE_PAGINAS = 15
 
 PREAMBULO = r"""% !TEX program = xelatex
 % Gerado por artigo/gerar_tex.py a partir de artigo/rascunho-artigo.md. Não edite à mão:
-% altere o .md e rode `python artigo/gerar_tex.py --pdf`. Compila com XeLaTeX (ou LuaLaTeX);
-% no Overleaf, o arquivo latexmkrc desta pasta já seleciona o XeLaTeX.
+% altere o .md e rode `python artigo/gerar_tex.py --pdf`. Compila com XeLaTeX (recomendado),
+% LuaLaTeX ou pdfLaTeX; no Overleaf, o arquivo latexmkrc desta pasta já seleciona o XeLaTeX.
 \documentclass[12pt,a4paper]{article}
 \usepackage[top=3cm,bottom=2cm,left=3cm,right=2cm,headsep=0.8cm]{geometry}
+\usepackage{iftex}
 \usepackage{amsmath}
 \usepackage[brazilian]{babel}
-\usepackage{unicode-math}
-% Times New Roman 12, como pedem as instruções da disciplina. Onde ela não estiver instalada
-% (Overleaf, Linux), usa a TeX Gyre Termes, clone métrico da Times distribuído com o TeX Live.
-\IfFontExistsTF{Times New Roman}
-  {\setmainfont{Times New Roman}}
-  {\setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
-     ItalicFont=*-italic, BoldItalicFont=*-bolditalic]}
-\setmathfont{texgyretermes-math.otf}
+\ifPDFTeX
+  % pdfLaTeX: Times pelo newtx (ou pelo mathptmx, se o newtx não estiver instalado)
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{newtxtext.sty}{\usepackage{newtxtext,newtxmath}}{\usepackage{mathptmx}}
+\else
+  % XeLaTeX/LuaLaTeX: Times New Roman 12, como pedem as instruções da disciplina. Onde ela não
+  % estiver instalada (Overleaf, Linux), usa a TeX Gyre Termes, clone métrico da Times do TeX Live.
+  \usepackage{unicode-math}
+  \IfFontExistsTF{Times New Roman}
+    {\setmainfont{Times New Roman}}
+    {\setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+       ItalicFont=*-italic, BoldItalicFont=*-bolditalic]}
+  \setmathfont{texgyretermes-math.otf}
+\fi
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{calc}
