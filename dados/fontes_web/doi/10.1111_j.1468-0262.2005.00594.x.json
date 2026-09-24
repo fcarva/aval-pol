@@ -1,0 +1,69 @@
+{
+ "doi": "10.1111/j.1468-0262.2005.00594.x",
+ "coletado_utc": "2026-09-24T01:21:35Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Structural Equations, Treatment Effects, and Econometric Policy Evaluation1"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "James J.",
+    "family": "Heckman",
+    "name": null
+   },
+   {
+    "given": "Edward",
+    "family": "Vytlacil",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "The Econometric Society",
+  "type": "journal-article",
+  "volume": "73",
+  "issue": "3",
+  "page": "669-738",
+  "article_number": null,
+  "issued": [
+   [
+    2005,
+    5
+   ]
+  ],
+  "published_print": [
+   [
+    2005,
+    5
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1468-0262.2005.00594.x",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3121415235",
+  "title": "Structural Equations, Treatment Effects, and Econometric Policy Evaluation1",
+  "publication_year": 2005,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.1111/j.1468-0262.2005.00594.x",
+  "authorships": [
+   "James J. Heckman",
+   "Edward Vytlacil"
+  ],
+  "biblio": {
+   "volume": "73",
+   "issue": "3",
+   "first_page": "669",
+   "last_page": "738"
+  },
+  "cited_by_count": 1240,
+  "abstract": "This paper uses the marginal treatment effect (MTE) to unify the nonparametric literature on treatment effects with the econometric literature on structural estimation using a nonparametric analog of a policy invariant parameter; to generate a variety of treatment effects from a common semiparametric functional form; to organize the literature on alternative estimators; and to explore what policy questions commonly used estimators in the treatment effect literature answer. A fundamental asymmetry intrinsic to the method of instrumental variables (IV) is noted. Recent advances in IV estimation allow for heterogeneity in responses but not in choices, and the method breaks down when both choice and response equations are heterogeneous in a general way."
+ }
+}

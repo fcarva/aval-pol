@@ -1,0 +1,63 @@
+{
+ "doi": "10.1111/j.1468-0262.2004.00530.x",
+ "coletado_utc": "2026-09-24T01:21:38Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Statistical Treatment Rules for Heterogeneous Populations"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Charles F.",
+    "family": "Manski",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "The Econometric Society",
+  "type": "journal-article",
+  "volume": "72",
+  "issue": "4",
+  "page": "1221-1246",
+  "article_number": null,
+  "issued": [
+   [
+    2004,
+    7
+   ]
+  ],
+  "published_print": [
+   [
+    2004,
+    7
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1468-0262.2004.00530.x",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2141565644",
+  "title": "Statistical Treatment Rules for Heterogeneous Populations",
+  "publication_year": 2004,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.1111/j.1468-0262.2004.00530.x",
+  "authorships": [
+   "Charles F. Manski"
+  ],
+  "biblio": {
+   "volume": "72",
+   "issue": "4",
+   "first_page": "1221",
+   "last_page": "1246"
+  },
+  "cited_by_count": 425,
+  "abstract": "An important objective of empirical research on treatment response is to provide decision makers with information useful in choosing treatments. Manski (2000, 2002, 2003) showed how identification problems generate ambiguity about the identity of optimal treatment choices. This paper studies treatment choice using sample data. I consider a planner who must choose among alternative statistical treatment rules, these being functions that map observed covariates of population members and sample data on treatment response into a treatment allocation. I study the use of risk (Wald, 1950) to evaluate the performance of alternative rules and, more particularly, the minimax-regret criterion to choose a treatment rule. These concepts may also be used to choose a sample design. Wald's development of statistical decision theory directly confronts the problem of finite-sample inference without recourse to the approximations of asymptotic theory. However, it is computationally challenging to implement. The main original work of this paper is to studyimplementation using data from a classical randomized experiment. Analysis of a simple problem of evaluation of an innovation yields a concise description of the set of undominated treatment rules and tractable computation of the minimax-regret rule. Analysis of a more complex problem of treatment choice using covariate information yields computable bounds on the maximum regret of alternative conditionalempirical success rules, and consequent sufficient sample sizes for the beneficial use of covariate information. Numerical findings indicate that prevailing practices in the use of covariate information in treatment choiceare too conservative."
+ }
+}

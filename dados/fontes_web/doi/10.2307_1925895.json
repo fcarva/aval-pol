@@ -1,0 +1,63 @@
+{
+ "doi": "10.2307/1925895",
+ "coletado_utc": "2026-09-24T01:21:33Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The Pure Theory of Public Expenditure"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Paul A.",
+    "family": "Samuelson",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Review of Economics and Statistics"
+  ],
+  "publisher": "JSTOR",
+  "type": "journal-article",
+  "volume": "36",
+  "issue": "4",
+  "page": "387",
+  "article_number": null,
+  "issued": [
+   [
+    1954,
+    11
+   ]
+  ],
+  "published_print": [
+   [
+    1954,
+    11
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.2307/1925895",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1998819003",
+  "title": "The Pure Theory of Public Expenditure",
+  "publication_year": 1954,
+  "type": "article",
+  "source": "The Review of Economics and Statistics",
+  "landing_page_url": "https://doi.org/10.2307/1925895",
+  "authorships": [
+   "Paul Anthony Samuelson"
+  ],
+  "biblio": {
+   "volume": "36",
+   "issue": "4",
+   "first_page": "387",
+   "last_page": "387"
+  },
+  "cited_by_count": 7428,
+  "abstract": "On veut montrer la différence entre la ressource en eau qui est souvent traitée comme un bien commun (rivalité mais pas d’exclusion possible, donc obligation pour les ayant-droit de coopérer), et les services publics des pays développés, qui sont apparus d’abord comme des biens de club fermés, mais qui ont ensuite été ouverts à tous pour des raisons de santé publique dans le cadre de nos sociétés de liberté et d’égalité, mais moyennant paiement d’une facture. L’intensité capitalistique des infrastructures d’une part, et l’individualisme des citoyens de nos villes, ont fait de l’eau et plus tard de l’assainissement des services anonymes, utilisés en privé et consumérisés, même lorsque le service est fourni directement par la collectivité publique. Avoir l’eau du robinet paraît évident.Or non seulement il semble impossible de fournir des services en réseau aux villes du Sud, et en tout cas aux vastes périphéries qui s’y urbanisent de façon anarchique, mais dans les villes des pays développés, les services publics risquent aussi de rentrer en crise : les trois objectifs de durabilité (économie, environnement, équité) ne sont plus toujours compatibles entre eux depuis que la consommation d’eau baisse, surtout si la baisse est due à un phénomène de désaffection de consommateurs aisés qui investissent dans des technologies alternatives et laissent ceux qui n’ont pas les moyens de réduire leur consommation, face à des prix de l’eau plus élevés ou à des services dégradés.Il est donc temps de s’intéresser à la confrontation entre service public (avec ses quatre caractéristiques d’universalité, d’égalité, de continuité et de mutabilité) et gestion en bien commun, qui relève d’approches communautaires et subsidiaires, pour le meilleur ou pour le pire : aux vertus qu’on prête aux solidarités nouvelles proposés par le Commun, parfois même révolutionnaires, on peut opposer avec crainte les pratiques mafieuses de la gestion de l’eau en bien commun dans les quartiers de Mumbai. Et on en vient à poser la question : peut-on faire émerger une culture sociale du service public au Sud sans passer par la technologie des réseaux et des usines de traitement, familières ici, mais qui ne font pas confiance là-bas ?"
+ }
+}

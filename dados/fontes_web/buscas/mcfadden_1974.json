@@ -1,0 +1,243 @@
+{
+ "id": "mcfadden_1974",
+ "consulta": "McFadden Conditional logit analysis of qualitative choice behavior Frontiers in Econometrics 1974",
+ "coletado_utc": "2026-09-24T01:21:38Z",
+ "crossref": [
+  {
+   "doi": "10.3390/econometrics11010004",
+   "title": [
+    "Comparing the Conditional Logit Estimates and True Parameters under Preference Heterogeneity: A Simulated Discrete Choice Experiment"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Jumamyradov",
+    "Craig",
+    "Munkin",
+    "Greene"
+   ],
+   "container_title": [
+    "Econometrics"
+   ],
+   "publisher": "MDPI AG",
+   "issued": [
+    [
+     2023,
+     1,
+     25
+    ]
+   ],
+   "volume": "11",
+   "issue": "1",
+   "page": "4",
+   "isbn": null,
+   "score": 36.546074
+  },
+  {
+   "doi": "10.1007/978-3-319-65916-9_9",
+   "title": [
+    "Discrete Choice Models: Logit and Probit Analysis"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Dhrymes"
+   ],
+   "container_title": [
+    "Introductory Econometrics"
+   ],
+   "publisher": "Springer International Publishing",
+   "issued": [
+    [
+     2017
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "527-559",
+   "isbn": [
+    "9783319659145",
+    "9783319659169"
+   ],
+   "score": 35.415104
+  },
+  {
+   "doi": "10.1007/978-1-4612-6292-3_7",
+   "title": [
+    "Discrete Choice Models: Logit and Probit Analysis"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Dhrymes"
+   ],
+   "container_title": [
+    "Introductory Econometrics"
+   ],
+   "publisher": "Springer New York",
+   "issued": [
+    [
+     1978
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "324-352",
+   "isbn": [
+    "9781461262947",
+    "9781461262923"
+   ],
+   "score": 35.25151
+  },
+  {
+   "doi": "10.1016/0304-4076(87)90067-4",
+   "title": [
+    "Regression-based specification tests for the multinomial logit model"
+   ],
+   "type": "journal-article",
+   "author": [
+    "McFadden"
+   ],
+   "container_title": [
+    "Journal of Econometrics"
+   ],
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     1987,
+     1
+    ]
+   ],
+   "volume": "34",
+   "issue": "1-2",
+   "page": "63-82",
+   "isbn": null,
+   "score": 34.6419
+  },
+  {
+   "doi": "10.2139/ssrn.1441185",
+   "title": [
+    "On the Equivalence of Location Choice Models: Conditional Logit, Nested Logit and Poisson"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Schmidheiny",
+    "Brulhart"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2009
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 33.69156
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W2083833236",
+   "doi": "https://doi.org/10.1287/mksc.2.3.203",
+   "title": "A Logit Model of Brand Choice Calibrated on Scanner Data",
+   "publication_year": 1983,
+   "type": "article",
+   "source": "Marketing Science",
+   "authorships": [
+    "Peter M. Guadagni",
+    "John D. C. Little"
+   ],
+   "biblio": {
+    "volume": "2",
+    "issue": "3",
+    "first_page": "203",
+    "last_page": "238"
+   },
+   "abstract": "A multinomial logit model of brand choice, calibrated on 32 weeks of purchases of regular ground coffee by 100 households, shows high statistical signficance for the explanatory variables of brand loyalty, size loyalty, presence/absence of store promotion, regular shelf price and promotional price cut. The model is parsimonious in that the coefficients of these variables are modeled to be the same for all coffee brand-sizes. The calibrated model predicts remarkably well the share of purchases by brand-size in a hold-out sample of 100 households over the 32-week calibration period and a subsequent 20-week forecast period. The success of the model is attributed in part to the level of detail and completeness of the household panel data employed, which has been collected through optical scanning of the Universal Product Code in supermarkets. Three short-term market response measures are calculated from the model: regular (depromoted) price elasticity of share, percent increase in share for a promotion with a median price cut, and promotional price cut elasticity of share. Response varies across brand-sizes in a systematic way with large share brand-sizes showing less response in percentage terms but greater in absolute terms. On the basis of the model a quantitative picture emerges of groups of loyal customers who are relatively insensitive to marketing actions and a pool of switchers who are quite sensitive."
+  },
+  {
+   "id": "https://openalex.org/W1975776109",
+   "doi": "https://doi.org/10.2307/1912003",
+   "title": "Generalized Econometric Models with Selectivity",
+   "publication_year": 1983,
+   "type": "article",
+   "source": "Econometrica",
+   "authorships": [
+    "Lung-Fei Lee"
+   ],
+   "biblio": {
+    "volume": "51",
+    "issue": "2",
+    "first_page": "507",
+    "last_page": "507"
+   },
+   "abstract": "During the recent years, there is substantial interest in the econometric models with qualitative and censored dependent variables. The important contributions on these topics by Amemiya [1973J, McFadden [1973J and Heckman [1974J among others stimulate the recent"
+  },
+  {
+   "id": "https://openalex.org/W2096577823",
+   "doi": "https://doi.org/10.1257/aer.20130047",
+   "title": "Rational Inattention to Discrete Choices: A New Foundation for the Multinomial Logit Model",
+   "publication_year": 2015,
+   "type": "article",
+   "source": "American Economic Review",
+   "authorships": [
+    "Filip Matějka",
+    "Alisdair McKay"
+   ],
+   "biblio": {
+    "volume": "105",
+    "issue": "1",
+    "first_page": "272",
+    "last_page": "298"
+   },
+   "abstract": "Individuals must often choose among discrete actions with imperfect information about their payoffs. Before choosing, they have an opportunity to study the payoffs, but doing so is costly. This creates new choices such as the number of and types of questions to ask. We model these situations using the rational inattention approach to information frictions. We find that the decision maker's optimal strategy results in choosing probabilistically in line with a generalized multinomial logit model, which depends both on the actions' true payoffs as well as on prior beliefs. (JEL D11, D81, D83)"
+  },
+  {
+   "id": "https://openalex.org/W2745098867",
+   "doi": "https://doi.org/10.1093/pan/mpt024",
+   "title": "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments",
+   "publication_year": 2013,
+   "type": "article",
+   "source": "Political Analysis",
+   "authorships": [
+    "Jens Hainmueller",
+    "Daniel J. Hopkins",
+    "Teppei Yamamoto"
+   ],
+   "biblio": {
+    "volume": "22",
+    "issue": "1",
+    "first_page": "1",
+    "last_page": "30"
+   },
+   "abstract": "Survey experiments are a core tool for causal inference. Yet, the design of classical survey experiments prevents them from identifying which components of a multidimensional treatment are influential. Here, we show how conjoint analysis , an experimental design yet to be widely applied in political science, enables researchers to estimate the causal effects of multiple treatment components and assess several causal hypotheses simultaneously. In conjoint analysis, respondents score a set of alternatives, where each has randomly varied attributes. Here, we undertake a formal identification analysis to integrate conjoint analysis with the potential outcomes framework for causal inference. We propose a new causal estimand and show that it can be nonparametrically identified and easily estimated from conjoint data using a fully randomized design. The analysis enables us to propose diagnostic checks for the identification assumptions. We then demonstrate the value of these techniques through empirical applications to voter decision making and attitudes toward immigrants."
+  },
+  {
+   "id": "https://openalex.org/W2367707061",
+   "doi": "https://doi.org/10.1016/j.jval.2016.04.004",
+   "title": "Statistical Methods for the Analysis of Discrete Choice Experiments: A Report of the ISPOR Conjoint Analysis Good Research Practices Task Force",
+   "publication_year": 2016,
+   "type": "article",
+   "source": "Value in Health",
+   "authorships": [
+    "Brett Hauber",
+    "Juan Marcos González",
+    "Karin Groothuis‐Oudshoorn",
+    "Thomas J. Prior",
+    "Deborah Anne Marshall",
+    "Charles E. Cunningham",
+    "Maarten J. IJzerman",
+    "John F. P. Bridges"
+   ],
+   "biblio": {
+    "volume": "19",
+    "issue": "4",
+    "first_page": "300",
+    "last_page": "315"
+   },
+   "abstract": ""
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

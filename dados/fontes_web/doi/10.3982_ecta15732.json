@@ -1,0 +1,67 @@
+{
+ "doi": "10.3982/ECTA15732",
+ "coletado_utc": "2026-09-24T01:21:36Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Policy Learning With Observational Data"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Susan",
+    "family": "Athey",
+    "name": null
+   },
+   {
+    "given": "Stefan",
+    "family": "Wager",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "The Econometric Society",
+  "type": "journal-article",
+  "volume": "89",
+  "issue": "1",
+  "page": "133-161",
+  "article_number": null,
+  "issued": [
+   [
+    2021
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2021
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.3982/ecta15732",
+  "abstract": "<jats:p>In many areas, practitioners seek to use observational data to learn a treatment assignment policy that satisfies application‐specific constraints, such as budget, fairness, simplicity, or other functional form constraints. For example, policies may be restricted to take the form of decision trees based on a limited set of easily observable individual characteristics. We propose a new approach to this problem motivated by the theory of semiparametrically efficient estimation. Our method can be used to optimize either binary treatments or infinitesimal nudges to continuous treatments, and can leverage observational data where causal effects are identified using a variety of strategies, including selection on observables and instrumental variables. Given a doubly robust estimator of the causal effect of assigning everyone to treatment, we develop an algorithm for choosing whom to treat, and establish strong guarantees for the asymptotic utilitarian regret of the resulting policy.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3083006799",
+  "title": "Policy Learning With Observational Data",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.3982/ecta15732",
+  "authorships": [
+   "Susan Carleton Athey",
+   "Stefan Wager"
+  ],
+  "biblio": {
+   "volume": "89",
+   "issue": "1",
+   "first_page": "133",
+   "last_page": "161"
+  },
+  "cited_by_count": 3,
+  "abstract": "In many areas, practitioners seek to use observational data to learn a treatment assignment policy that satisfies application‐specific constraints, such as budget, fairness, simplicity, or other functional form constraints. For example, policies may be restricted to take the form of decision trees based on a limited set of easily observable individual characteristics. We propose a new approach to this problem motivated by the theory of semiparametrically efficient estimation. Our method can be used to optimize either binary treatments or infinitesimal nudges to continuous treatments, and can leverage observational data where causal effects are identified using a variety of strategies, including selection on observables and instrumental variables. Given a doubly robust estimator of the causal effect of assigning everyone to treatment, we develop an algorithm for choosing whom to treat, and establish strong guarantees for the asymptotic utilitarian regret of the resulting policy."
+ }
+}

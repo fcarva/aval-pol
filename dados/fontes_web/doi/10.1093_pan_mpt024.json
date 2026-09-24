@@ -1,0 +1,79 @@
+{
+ "doi": "10.1093/pan/mpt024",
+ "coletado_utc": "2026-09-24T01:21:32Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Jens",
+    "family": "Hainmueller",
+    "name": null
+   },
+   {
+    "given": "Daniel J.",
+    "family": "Hopkins",
+    "name": null
+   },
+   {
+    "given": "Teppei",
+    "family": "Yamamoto",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Political Analysis"
+  ],
+  "publisher": "Cambridge University Press (CUP)",
+  "type": "journal-article",
+  "volume": "22",
+  "issue": "1",
+  "page": "1-30",
+  "article_number": null,
+  "issued": [
+   [
+    2014
+   ]
+  ],
+  "published_print": [
+   [
+    2014
+   ]
+  ],
+  "published_online": [
+   [
+    2017,
+    1,
+    4
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/pan/mpt024",
+  "abstract": "<jats:p>\n                    Survey experiments are a core tool for causal inference. Yet, the design of classical survey experiments prevents them from identifying which components of a multidimensional treatment are influential. Here, we show how\n                    <jats:italic>conjoint analysis</jats:italic>\n                    , an experimental design yet to be widely applied in political science, enables researchers to estimate the causal effects of multiple treatment components and assess several causal hypotheses simultaneously. In conjoint analysis, respondents score a set of alternatives, where each has randomly varied attributes. Here, we undertake a formal identification analysis to integrate conjoint analysis with the potential outcomes framework for causal inference. We propose a new causal estimand and show that it can be nonparametrically identified and easily estimated from conjoint data using a fully randomized design. The analysis enables us to propose diagnostic checks for the identification assumptions. We then demonstrate the value of these techniques through empirical applications to voter decision making and attitudes toward immigrants.\n                  </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2745098867",
+  "title": "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments",
+  "publication_year": 2013,
+  "type": "article",
+  "source": "Political Analysis",
+  "landing_page_url": "https://doi.org/10.1093/pan/mpt024",
+  "authorships": [
+   "Jens Hainmueller",
+   "Daniel J. Hopkins",
+   "Teppei Yamamoto"
+  ],
+  "biblio": {
+   "volume": "22",
+   "issue": "1",
+   "first_page": "1",
+   "last_page": "30"
+  },
+  "cited_by_count": 2004,
+  "abstract": "Survey experiments are a core tool for causal inference. Yet, the design of classical survey experiments prevents them from identifying which components of a multidimensional treatment are influential. Here, we show how conjoint analysis , an experimental design yet to be widely applied in political science, enables researchers to estimate the causal effects of multiple treatment components and assess several causal hypotheses simultaneously. In conjoint analysis, respondents score a set of alternatives, where each has randomly varied attributes. Here, we undertake a formal identification analysis to integrate conjoint analysis with the potential outcomes framework for causal inference. We propose a new causal estimand and show that it can be nonparametrically identified and easily estimated from conjoint data using a fully randomized design. The analysis enables us to propose diagnostic checks for the identification assumptions. We then demonstrate the value of these techniques through empirical applications to voter decision making and attitudes toward immigrants."
+ }
+}
