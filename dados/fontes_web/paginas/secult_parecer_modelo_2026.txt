@@ -1,0 +1,79 @@
+# Fonte: https://secult.es.gov.br/media/2026/Parecer%20T%C3%A9cnico%20Cultural%20LICC%20modelo%20padr%C3%A3o.docx
+# Coletado (UTC): 2026-09-24T03:35:02Z
+# sha256 do original: 6aff6d49642a74d42379f5f35d7e8a356b2d6b1b080b12d1bfa90caa86a88214
+
+Da:
+ | NOME DO PARECERISTA
+ |
+À:
+ | Comissão de Avaliação Permanente - CAP
+ |
+Proponente:
+ | NOME DA EMPRESA PROPONENTE
+ |
+Inscrição na LICC 2022:
+ | COLOCAR O NÚMERO DA INSCRIÇÃO NO MAPA CULTURAL
+ |
+Projeto:
+ | TÍTULO DO PROJETO CULTURAL
+ |
+Carta de Intenção de Patrocínio:
+ | SIM OU NÃO
+ |
+CONTEXTUALIZAÇÃO
+Contextualizar o motivo da elaboração do parecer e o projeto de forma geral.
+É importante colocar informações como: nome do proponente, valor total do projeto, linha de financiamento, objetivo do projeto, etc. de forma resumida e objetiva.
+ANÁLISE
+Fazer uma análise geral da qualidade artística do projeto, colocar dados importantes para visualização da materialidade e exequibilidade do projeto.
+O Decreto Estadual nº 50-35-R, prevê, no artigo 14º, § 3º, as diretrizes que devem seguir os projetos culturais para que possam ser apreciados com a habilitação para captação de recursos através da LICC. Assim sendo, passo a analisá-los.
+I - QUALIDADE ARTÍSTICA DA PROPOSTA
+Discorrer sobre a qualidade artística da proposta, fundamentadamente, e indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+Verificar o atendimento à acessibilidade obrigatória, disposto nos Artigos 10 e 11 da IN..
+II - ATENDIMENTO AO INTERESSE PÚBLICO
+Discorrer sobre o atendimento ao interesse público, fundamentado no Decreto Estadual nº 5035-R (artigo 3º) e indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+III - EXPERIÊNCIA E CAPACIDADE TÉCNICA DO AGENTE CULTURAL E DA EQUIPE DE TRABALHO
+Discorrer sobre a experiência e capacidade técnica do agente cultural e da equipe de trabalho, de acordo com os currículos, portfólios, clipping e demais documentos que o proponente apresentar a título de comprovação de atuação, sua e de sua equipe.
+Importante comparar a função a ser desempenhada no projeto cultural e as funções comprovadas através de currículos e/ou portfólios.
+Documentos importantes a serem observados: ficha técnica do projeto, ficha artística, currículos, portfólio, clipping, e carta de anuência.
+No final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+IV - CLAREZA E CONCISÃO DAS INFORMAÇÕES
+Discorrer sobre a clareza e concisão das informações trazidas pelo proponente. Aqui é importante observar o que foi escrito no objeto do projeto, no detalhamento das ações do projeto e na justificativa do projeto.
+Verificar a (in)compatibilidade das informações trazidas e a planilha de custos.
+Verificar se existem informações conflitantes (data, local, quantidade, etc.).
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+V - VIABILIDADE TÉCNICA
+Discorrer sobre a viabilidade técnica do projeto: tempo de execução apropriado (cronograma simplificado de execução), local apropriado de realização do projeto, planilha de custos condizente com as ações previstas, experiência da equipe técnica, etc.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+VI - ADEQUAÇÃO DA PROPOSTA ORÇAMENTÁRIA AOS VALORES DE MERCADO
+Discorrer sobre a proposta orçamentária, observando todo o disposto nos art. 24 ao 34 da Instrução Normativa 001/26.
+Verificar se a planilha de custos apresentada é a mesma disponibilizada no site da secult.
+Verificar os valores colocados na planilha de custos com as referências apresentadas.
+Verificar se os valores estão condizentes com o praticado no mercado e com a complexidade do projeto.
+Verificar se o valor total destinado ao proponente não ultrapasse ⅓ do valor total do projeto (art. 27 da IN). Caso ultrapasse, verificar se o proponente apresentou justificativa para tanto.
+Verificar a adequação das despesas relacionadas a elaboração de projeto e captação de recursos dispostas no art. 28 da IN.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+ATENÇÃO: é indispensável que o parecerista analise item por item da planilha de custos.
+VII - ADEQUAÇÃO DO CRONOGRAMA DE EXECUÇÃO
+Discorrer sobre o cronograma de execução apresentado, a viabilidade de execução do cronograma proposto e se precisa ou não de ajuste.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+ VIII - ENQUADRAMENTO NOS PERCENTUAIS DE INCENTIVO AUTORIZADOS PELA LEGISLAÇÃO
+A Instrução Normativa Nº 001/2026 assim estabeleceu sobre limites do valor individual captado pela LICC:
+“Art. 14 Para os incisos I, II, III, IV, V e VI do artigo 9º, o valor captado na LICC  por projeto não poderá ser superior a R$500.000,00 (quinhentos mil reais).
+§ 1º No caso de planos plurianuais, conforme previsto no inciso III do artigo 9º, o teto de R$500.000,00 (quinhentos mil reais) refere-se a cada ano de execução.
+§ 2º No caso de projetos cujo objeto seja a realização de eventos na sua primeira edição, fica estabelecido que o limite de valor individual captado na LICC não poderá ser superior a R$300.000,00 (trezentos mil reais).
+Art. 15 Para o inciso V do artigo 9º, especificamente para projetos que necessitem de intervenção física (restauros e reformas, entre outros), o valor captado via LICC terá o limite de R$ 1.000.000,00 (um milhão de reais) por projeto.
+Art. 16 Para o inciso VI do artigo 9º, especificamente para projetos que envolvam produção de longa-metragem de ficção, animação, documentário e obra seriada, o valor captado na LICC por projeto poderá atingir o valor de até R$1.000.000,00 (um milhão de reais).
+§ 1º Para enquadramento no caput deste artigo, entende-se como produção de longa-metragem obra audiovisual com duração superior a 70 minutos com destinação ao mercado de salas de exibição;
+§ 2º Para enquadramento no caput deste artigo, entende-se como projetos de produção de obra seriada que, sob o mesmo título, seja produzida em capítulos ou episódios, com duração total superior a 70 minutos.
+Art. 17 Para projetos apresentados por agente cultural que seja Microempreendedor Individual (MEI) o limite máximo de financiamento através da LICC é de até duas vezes o limite de faturamento anual autorizado pelo órgão competente no ano de inscrição.”
+Tendo isso em mente, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+IX - ATENDIMENTO ÀS CONTRAPARTIDAS PREVISTAS EM REGULAMENTO DA SECULT
+Apontar as contrapartidas oferecidas pelo proponente e a relação ao artigo 36 da IN por ele apontada, discorrer sobre elas, avaliando a sua exequibilidade e se atendem, ou não, o previsto na IN.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+CONSIDERAÇÕES FINAIS
+Dar um panorama geral sobre o projeto e identificar a sugestão final aos membros da CAP quanto à habilitação, inabilitação ou listar diligências sugeridas para complementação de informações/documentos.
+RESPONSÁVEL PELO PARECER
+Vitória/ES,  Dia de Mês de Ano
+Nome Completo
+Parecerista – Lei de Incentivo à Cultura Capixaba (LICC)
+(assinado digitalmente)

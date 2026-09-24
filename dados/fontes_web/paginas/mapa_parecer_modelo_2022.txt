@@ -1,0 +1,76 @@
+# Fonte: https://mapa.cultura.es.gov.br/files/opportunity/378/parecer_t%C3%A9cnico_cultural_licc_-_modelo.docx
+# Coletado (UTC): 2026-09-24T03:35:04Z
+# sha256 do original: baf46e6c3f745a204d21891521cfba09007977e1f22d881aaa743c304c35bd9c
+
+Da:
+ | NOME DO PARECERISTA
+ |
+À:
+ | Comissão de Avaliação Permanente - CAP
+ |
+Proponente:
+ | NOME DA EMPRESA PROPONENTE
+ |
+Inscrição na LICC 2022:
+ | COLOCAR O NÚMERO DA INSCRIÇÃO NO MAPA CULTURAL
+ |
+Projeto:
+ | TÍTULO DO PROJETO CULTURAL
+ |
+Processo:
+ | COLOCAR O NÚMERO DO PROCESSO NO E-DOCS
+ |
+Carta de Intenção de Patrocínio:
+ | SIM OU NÃO
+ |
+CONTEXTUALIZAÇÃO
+Contextualizar o motivo da elaboração do parecer e o projeto de forma geral.
+É importante colocar informações como: nome do proponente, valor total do projeto, linha de financiamento, objetivo do projeto, etc. de forma resumida e objetiva.
+ANÁLISE
+Fazer uma análise geral da qualidade artística do projeto, colocar dados importantes para visualização da materialidade e exequibilidade do projeto.
+O Decreto Estadual nº 50-35-R, prevê, no artigo 14º, § 3º, as diretrizes que devem seguir os projetos culturais para que possam ser apreciados com a habilitação para captação de recursos através da LICC. Assim sendo, passo a analisá-los.
+I - QUALIDADE ARTÍSTICA DA PROPOSTA
+Discorrer sobre a qualidade artística da proposta, fundamentadamente, e indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+II - ATENDIMENTO AO INTERESSE PÚBLICO
+Discorrer sobre o atendimento ao interesse público, fundamentado no Decreto Estadual nº 5035-R (artigo 3º) e indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+III - EXPERIÊNCIA E CAPACIDADE TÉCNICA DO AGENTE CULTURAL E DA EQUIPE DE TRABALHO
+Discorrer sobre a experiência e capacidade técnica do agente cultural e da equipe de trabalho, de acordo com os currículos, portfólios, clipping e demais documentos que o proponente apresentar a título de comprovação de atuação, sua e de sua equipe.
+Importante comparar a função a ser desempenhada no projeto cultural e as funções comprovadas através de currículos e/ou portfólios.
+Documentos importantes a serem observados: ficha técnica do projeto, ficha artística, currículos, portfólio, clipping, e carta de anuência.
+No final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+IV - CLAREZA E CONCISÃO DAS INFORMAÇÕES
+Discorrer sobre a clareza e concisão das informações trazidas pelo proponente. Aqui é importante observar o que foi escrito no objeto do projeto, no detalhamento das ações do projeto e na justificativa do projeto.
+Verificar a (in)compatibilidade das informações trazidas e a planilha de custos.
+Verificar se existem informações conflitantes (data, local, quantidade, etc.).
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+V - VIABILIDADE TÉCNICA
+Discorrer sobre a viabilidade técnica do projeto: tempo de execução apropriado (cronograma simplificado de execução), local apropriado de realização do projeto, planilha de custos condizente com as ações previstas, experiência da equipe técnica, etc.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+VI - ADEQUAÇÃO DA PROPOSTA ORÇAMENTÁRIA AOS VALORES DE MERCADO
+Discorrer sobre a proposta orçamentária, observando todo o disposto nos art. 14 ao 27 da Instrução Normativa.
+Verificar se a planilha de custos apresentada é a mesma disponibilizada no site da secult.
+Verificar os valores colocados na planilha de custos com as referências apresentadas.
+Verificar se os valores estão condizentes com o praticado no mercado e com a complexidade do projeto.
+Verificar se o valor total destinado ao proponente não ultrapasse ⅓ do valor total do projeto (art. 17 da IN). Caso ultrapasse, verificar se o proponente apresentou justificativa para tanto.
+Verificar a adequação das despesas relacionadas a elaboração de projeto e captação de recursos dispostas no art. 18 da IN.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+VII - ADEQUAÇÃO DO CRONOGRAMA DE EXECUÇÃO
+Discorrer sobre o cronograma de execução apresentado, a viabilidade de execução do cronograma proposto e se precisa ou não de ajuste.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+ VIII - ENQUADRAMENTO NOS PERCENTUAIS DE INCENTIVO AUTORIZADOS PELA LEGISLAÇÃO
+A Instrução Normativa Nº 002/2022 assim estabeleceu sobre limites do valor individual captado pela LICC:
+Art. 8o Para os incisos I, II, III, IV e VI do artigo 7o, o valor individual captado na LICC de cada projeto cultural não poderá ser superior a 5% do valor total anual previsto no montante dos recursos destinados ao incentivo fiscal pela LICC definido em ato do Secretário da Secretaria Estadual da Fazenda (SEFAZ).
+O valor total anual do ano de 2022 foi previsto na Portaria da Sefaz Nº 09-R, De 27 De Janeiro De 2022, estabelecendo o limite de R$ 10.000.000,00, conforme segue:
+Art. 1o Fixar o montante de recursos disponíveis no ano de 2022 para o financiamento dos projetos culturais, em observância ao art. 4o do Decreto no 5.035-R, de 15 de dezembro de 2021, no valor de R$10.000.000,00 (dez milhões de reais).
+Tendo isso em mente, observar o limite disposto no artigo 8º ao 11 da IN, bem como o artigo 17.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+IX - ATENDIMENTO ÀS CONTRAPARTIDAS PREVISTAS EM REGULAMENTO DA SECULT
+Apontar as contrapartidas oferecidas pelo proponente e a relação ao artigo 27 da IN por ele apontada, discorrer sobre elas, avaliando a sua exequibilidade e se atendem, ou não, o previsto na IN.
+Ao final, indicar se o projeto atende ou não a esse aspecto, e quando couber sugerir pedido de diligência para complementação de informações/documentos.
+CONSIDERAÇÕES FINAIS
+Dar um panorama geral sobre o projeto e identificar a sugestão final aos membros da CAP quanto à habilitação, inabilitação ou listar diligências sugeridas para complementação de informações/documentos.
+RESPONSÁVEL PELO PARECER
+Vitória/ES, 18 de julho de 2022
+Nome Completo
+Parecerista – Lei de Incentivo à Cultura Capixaba (LICC)
+(assinado digitalmente)
