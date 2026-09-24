@@ -1,0 +1,813 @@
+# Fonte: https://secult.es.gov.br/media/LICC_2024/Instrucao%20Normativa%2001_2024%20_diario_oficial_2024-02-01.pdf
+# Coletado (UTC): 2026-09-24T00:47:32Z
+# sha256 do original: ee203efa215b1114a64ce0d45ee9d5409f63e77501c3e7d5c49b1f94322a1f79
+
+DIÁRIO OFICIAL DOS PODERES DO ESTADO                                             E X E C U T I V O
+
+56                                                                                                                        Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.
+            RESUMO DO CONTRATO Nº                                                                  Transporte Interestadual e Intermunicipal e de
+              2024.000003.47101.01                                                                 Comunicação - ICMS a recolher, nos termos da Lei
+Processo: 2023-ZC7G4                                                                               nº 11.246/21.
+Forma de Contratação: Inexigibilidade de Licitação,                                                Art. 3º O financiamento não será reembolsável,
+Art. 25 da Lei 8.666/93.                                                                           devendo o proponente/agente cultural destinar
+Contratante: SECRETARIA DE ESTADO DE                                                               integralmente os valores recebidos no cumprimento
+TRABALHO, ASSISTÊNCIA E DESENVOLVIMENTO                                                            do projeto cultural aprovado.
+SOCIAL - SETADES.                                                                                  Art. 4º A presente Instrução Normativa atende às
+Contratado: SINDICATO DAS EMPRESAS DE                                                              diretrizes do Plano Estadual de Cultura do ES, em
+TRANSPORTE        METROPOLITANO        DA     GRANDE                                               articulação com as diretrizes, estratégias e ações
+VITÓRIA - GVBUS                                                                                    que constituem o PEC-ES, em especial ao Capítulo
+CNPJ: 08.179.496/0001-14                                                                           III (Financiamento), que diz respeito ao estímulo
+Objeto: prestação de serviços de fornecimento de                                                   à diversificação dos mecanismos de financiamento
+créditos tarifários (carga/recarga) de vale transporte                                             para a cultura.
+de bilhetagem eletrônica (cartão magnético) para                                                   Art. 5º A presente instrução normativa baseia-se,
+utilização no Sistema TRANSCOL.                                                                    no que concerne ao interesse público, nos objetivos
+Valor anual estimado: R$ 142.560,00 (cento e                                                       previstos no artigo 3º do Decreto nº 5.035-R/21, a
+quarenta e dois mil quinhentos e sessenta reais).                                                  saber:
+Vigência: 60 (vinte e quatro) meses, a contar do
+dia subsequente ao da publicação.                                                                  I - incentivar o acesso da população capixaba à
+Nota de empenho: 2024NE00018                                                                       fruição e à produção de bens e serviços culturais;
+Gestor: Aurelio Simões Monteiro                                                                    II - reconhecer e valorizar a diversidade cultural,
+Junior                                                                                             étnica e regional do Espírito Santo;
+Mat: 2516136                                                                                       III - estimular a criação, a valorização e a difusão dos
+Suplente: Fernanda Orcelino Rosário                                                                bens, serviços e manifestações culturais do Espírito
+Mat: 3693767                                                                                       Santo;
+ID CidadES 2024.500E0600024.10.0001                                                                IV - apoiar a preservação e a promoção do patrimônio
+Vitória/ES, em 31 de janeiro de 2024                                                               cultural, material e imaterial, do Espírito Santo;
+                Cyntia Figueira Grillo                                                             V - promover o direito à memória por meio da
+   Secretária de Estado do Trabalho, Assistência e                                                 ampliação do acesso a museus, arquivos e coleções
+         Desenvolvimento Social - SETADES                                                          culturais;
+                                 Protocolo 1256742                                                 VI - desenvolver atividades que fortaleçam e articulem
+                                                                                                   as cadeias produtivas e os arranjos produtivos locais
+                                                                                                   da economia criativa;
+          Secretaria de Estado da Cultura - SECULT -                                               VII - estimular o intercâmbio e a circulação de bens,
+                                                                                                   serviços e conteúdos culturais do Espírito Santo;
+                                                                                                   VIII - fomentar a pesquisa, a crítica e a produção de
+   INSTRUÇÃO NORMATIVA Nº 001 DE 31 DE
+                                                                                                   conhecimento no campo da cultura, das linguagens
+            JANEIRO DE 2024.
+                                                                                                   artísticas e do patrimônio cultural;
+                                                                                                   IX - apoiar a capacitação e o aperfeiçoamento dos
+Dispõe sobre os procedimentos para cadastramento,
+                                                                                                   artistas, técnicos, gestores e demais trabalhadores
+inscrição do projeto, julgamento, captação de
+                                                                                                   das áreas da cultura;
+recursos, execução e prestação de contas de
+                                                                                                   X - contribuir para a implementação das ações do
+projetos culturais com financiamento indireto da Lei
+                                                                                                   Plano Estadual de Cultura do Espírito Santo e demais
+de Incentivo à Cultura Capixaba conforme previsto
+                                                                                                   políticas públicas de cultura nos territórios capixabas;
+na Lei Estadual nº 11.246/21 e pelo Decreto nº
+                                                                                                   XI - apoiar a ativação, reforma e manutenção de
+5.035-R, de 15 de dezembro de 2021.
+                                                                                                   espaços culturais que realizem atividades culturais
+                                                                                                   abertas ao público.
+O SECRETÁRIO DE ESTADO DA CULTURA, no uso
+das atribuições legais e considerando o disposto na
+                                                                                                   CAPÍTULO II
+Lei Estadual nº 11.246/21 e o art. 1º do Decreto nº
+                                                                                                   DA APRESENTAÇÃO DE PROJETOS
+5.035-R, de 15 de dezembro de 2021,
+                                                                                                   Art. 6º Poderão apresentar projetos culturais as
+RESOLVE:
+                                                                                                   pessoas jurídicas de direito privado, com ou sem
+                                                                                                   fins lucrativos, regularmente cadastradas como
+CAPÍTULO I
+                                                                                                   proponente/agente cultural na plataforma online
+DAS DISPOSIÇÕES PRELIMINARES
+                                                                                                   Mapa Cultural ES, por meio do endereço eletrônico
+Art. 1º O financiamento de projetos culturais por                                                  www.mapa.cultura.es.gov.br;
+meio da Lei de Incentivo à Cultura Capixaba - LICC                                                 §1º O proponente/agente cultural deverá ter
+nos termos dos arts. 5º-B, IX, da Lei nº 7.000, de 27                                              natureza ou finalidade cultural expressa em seus
+de dezembro de 2001, alterado pela Lei nº 11.246,                                                  atos constitutivos e sede comprovada no Estado do
+de 07 de abril de 2021, é regido pelo Decreto nº                                                   Espírito Santo há pelo menos 02 anos.
+5.035-R, de 15 de dezembro de 2021 e pela presente                                                 §2º Fica vedada a apresentação de projetos por
+Instrução Normativa e demais atos administrativos                                                  proponente nas situações descritas no artigo 6º
+publicados.                                                                                        Decreto nº 5.035-R/21.
+Art. 2º O financiamento de projetos culturais se
+dará de forma indireta, por meio do repasse de                                                     Art. 7º Os projetos culturais poderão ser
+empresas contribuintes no Estado do Espírito Santo                                                 apresentados nas seguintes linhas de financiamento:
+que poderão compensar o valor aplicado com o                                                       I - Linguagens artísticas:
+Imposto sobre Operações Relativas à Circulação                                                     a)      Artes  Cênicas:    teatro,   dança,   circo,
+de Mercadorias e sobre Prestações de Serviços de                                                   performance, ópera e outras manifestações
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+                                                                                     EXECUTIVO                                       DIÁRIO OFICIAL DOS PODERES DO ESTADO
+
+Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.                                                                                                                                     57
+congêneres;                                                                                        do entorno e do interior de monumentos naturais
+b)      Artes Visuais: artes plásticas, fotografia e                                               tombados na forma da lei nas instâncias federal,
+outras manifestações congêneres;                                                                   estadual e municipal, do patrimônio ecológico,
+c)      Música;                                                                                    paisagístico e unidades de conservação, se não
+d)      Literatura, livro e leitura.                                                               houver restrição.
+§1º Os projetos apresentados na linha de                                                           §5º Os projetos apresentados neste inciso podem
+financiamento acima indicada poderão ser destinados                                                contemplar diferentes ações, como aquisição,
+à produção de novos bens e serviços; ou que                                                        inventário, salvaguarda, preservação, restauração,
+promovam a fruição de bens, produtos e atividades                                                  difusão, construção e reforma, elaboração de
+culturais; ou, destinados à capacitação ou formação                                                projetos arquitetônicos, museográficos, expográficos
+artística; ou ainda, que promovam a difusão e                                                      e demais, além de ações de educação patrimonial,
+circulação de atividades artístico-culturais.                                                      ambiental e de ecoturismo de base comunitária.
+II - Outros segmentos da economia criativa:                                                        VI - Audiovisual
+a)      Cultura Digital, inovação e tecnologia;                                                    a)      Desenvolvimento de projeto de produção de
+b)      Jogos e aplicativos;                                                                       obra audiovisual;
+c)      Programas de rádio, podcasts, webséries e                                                  b)      Produção de obra audiovisual;
+outras manifestações congêneres;                                                                   c)      Finalização;
+d)      Design;                                                                                    d)      Distribuição/Comercialização        de    obra
+e)      Arquitetura e urbanismo;                                                                   audiovisual;
+f)      Gastronomia;                                                                               §6º Os projetos apresentados nesta linha de
+g)      Moda;                                                                                      financiamento poderão ser destinados à produção,
+h)      Artesanato                                                                                 distribuição e exibição de obras audiovisuais em
+§2º Os projetos apresentados neste inciso                                                          seus diferentes formatos; ou que promovam a
+destinam-se a estimular a economia solidária,                                                      fruição de bens, produtos e atividades culturais;
+promover a inovação e desenvolvimento, e/ou                                                        ou, destinados à capacitação ou formação no setor;
+incentivar a formalização das cadeias produtivas,                                                  ou ainda, que promovam a difusão e circulação de
+ampliação do mercado de trabalho, do emprego e da                                                  obras.
+geração de renda.                                                                                  §7º Considerando as diferentes fases que compõem
+III - Formatos especiais:                                                                          a produção de uma obra audiovisual, cada etapa
+a)      Planos anuais e plurianuais;                                                               acima listada poderá ser objeto dos projetos
+b)      Projetos de pesquisa;                                                                      apresentados neste inciso, de forma complementar
+c)      Projetos que promovam a manutenção de                                                      ou independente.
+corpos artísticos estáveis;                                                                        §8º Os projetos inscritos na linha VI de financiamento
+§ 3º Os projetos apresentados neste inciso                                                         poderão      prever   co-produção      nacionais    ou
+podem propor plano de execução de até 03 anos,                                                     internacionais, em projetos de produção audiovisual,
+ficando condicionado à apresentação de termos de                                                   observando as seguintes condições:
+compromissos de patrocínios anuais e prestação de                                                  I - No caso de coproduções em que a proponente
+contas periódicas.                                                                                 é majoritária, deverá ser encaminhado à Secult o
+IV - Patrimônio Imaterial, Povos e Comunidades                                                     orçamento redimensionado do projeto, que contemple
+Tradicionais e Culturas Tradicionais Populares.                                                    os recursos aportados pelo parceiro co-produtor,
+a)      Patrimônio      Imaterial    inventariado  ou                                              facultada à proponente a possibilidade de alterar o
+registrado na forma da lei nas instâncias federal,                                                 valor de rubricas constantes do orçamento original,
+estadual e municipal;                                                                              mediante apresentação de justificativa;
+b)      Saberes, celebrações e formas de expressão                                                 II - No caso de coproduções em que a proponente
+vinculados aos Povos e Comunidades Tradicionais,                                                   seja minoritária, as gravações da obra deverão ser
+incluindo comunidades tradicionais de matriz africana                                              realizadas no estado do Espírito Santo e deverá ser
+ou de terreiro, pescadores artesanais, quilombolas,                                                apresentada comprovação de que o co-produtor
+ciganos, indígenas, pomeranos, e demais povos                                                      majoritário já dispõe dos recursos adicionais
+auto-declarados pela OIT 169; outras Culturas                                                      necessários à integralização do orçamento do
+Tradicionais Populares;                                                                            projeto.
+c)      Territórios vitais para execução dos ritos e                                               § 9º Os projetos podem contemplar diferentes
+celebrações característicos das Culturas Tradicionais                                              linhas, linguagens e segmentos culturais de maneira
+Populares, como casas de reza e quitungos de                                                       integrada.
+farinha;
+§4º Os projetos apresentados neste inciso podem                                                    Seção I
+contemplar diferentes formatos, envolvendo ações                                                   DOS LIMITES DE FINANCIAMENTO
+de salvaguarda, reconhecimento, valorização e
+recuperação do patrimônio imaterial e simbólico                                                    Art. 8º Para os incisos I, II, III, IV e VI do artigo 7º,
+além de ações de educação patrimonial.                                                             o valor individual captado na LICC por projeto não
+V - Patrimônio material.                                                                           poderá ser superior a R$ 500.000,00 (quinhentos
+a)      Acervos culturais para finalidades públicas,                                               mil reais).
+além de bens móveis e imóveis integrados,                                                          Parágrafo único - No caso de planos plurianuais,
+componentes do patrimônio cultural reconhecidos na                                                 conforme previsto no inciso III do artigo 7º, o teto
+forma da lei, nas instâncias federal, estadual e/ou                                                de R$ 500.000,00 (quinhentos mil reais) refere-se a
+municipal;                                                                                         cada ano de execução.
+b)      Centros culturais, bibliotecas, museus,                                                    Art. 9º Para o inciso V do artigo 7º, especificamente
+arquivos, salas de cinema, casas de reza, quitungos                                                para projetos que necessitem de intervenção
+de farinha e outros espaços de interesse público                                                   física (restauros e reformas, entre outros), o valor
+com finalidade específica de fomento à cultura e ao                                                individual captado na LICC por projeto poderá atingir
+patrimônio cultural;                                                                               o valor de até R$ 1.000.000,00 (um milhão de reais)
+c)      Ações visando a preservação e proteção                                                     incentivados via LICC.
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+DIÁRIO OFICIAL DOS PODERES DO ESTADO                                             E X E C U T I V O
+
+58                                                                                                                        Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.
+Art. 10 Para o inciso VI do artigo 7º, especificamente                                             acordo com o ANEXO III desta Instrução Normativa,
+para projetos que envolvam produção de                                                             que também estará disponível no site da Secretaria
+longa-metragem de ficção, animação, documentário                                                   de Estado de Cultura;
+e obra seriada, o valor individual captado na LICC por                                             d)      Currículos e/ou portfólios de todos os
+projeto poderá atingir o valor de até R$ 1.000.000,00                                              membros da ficha técnica e ficha artística citados no
+(um milhão de reais) incentivados via LICC.                                                        Formulário de Inscrição;
+§ 1º Para enquadramento no caput deste artigo,                                                     e)      No caso de projetos culturais que envolvam
+entende-se como produção de longa-metragem:                                                        instalação de estruturas, deve ser apresentado o
+obra audiovisual com duração superior a 70 minutos                                                 mapa da área com os detalhamentos de localização
+com destinação ao mercado de salas de exibição;                                                    das instalações e equipamentos, incluindo ações de
+§ 2º Para enquadramento no caput deste artigo,                                                     acessibilidade.
+entende-se como Projetos de produção de obra                                                       f)      No caso de projetos que contemplem ações
+seriada que, sob o mesmo título, seja produzida em                                                 de capacitação ou formação, deve ser apresentado
+capítulos ou episódios, com duração total superior a                                               plano pedagógico, de acordo com o ANEXO IV desta
+70 minutos.                                                                                        Instrução Normativa, que também estará disponível
+                                                                                                   no site da Secretaria de Estado de Cultura;
+Art. 11 Para projetos apresentados por proponente/                                                 g)      Nos casos de       rodução de obra cultural
+agente cultural que seja Microempreendedor                                                         de caráter permanente e reprodutível, deve ser
+Individual (MEI) o limite máximo de financiamento                                                  apresentado plano de distribuição, de acordo com
+através da LICC é de até duas vezes o limite de                                                    o ANEXO V desta Instrução Normativa, que também
+faturamento anual autorizado pelo órgão competente                                                 estará disponível no site da Secretaria de Estado de
+no ano de inscrição.                                                                               Cultura;
+                                                                                                   h)      No caso de projetos que contemplem a venda
+Seção II                                                                                           de bens, produtos ou serviços, deve ser apresentado
+DA INSCRIÇÃO                                                                                       plano de comercialização, de acordo com o
+Art. 12 As inscrições poderão ser realizadas a                                                     ANEXO VI desta Instrução Normativa, que também
+partir do primeiro dia útil do mês de fevereiro ao                                                 estará disponível no site da Secretaria de Estado de
+último dia útil do mês de novembro de cada ano,                                                    Cultura;
+exclusivamente em plataforma on-line, através do                                                   i)      Nos casos de projetos que possuam a rubrica
+site Mapa Cultural, que poderá ser acessado em                                                     de elaboração de projeto na planilha de custos a
+http://www.secult.es.gov.br ou em www.mapa.                                                        ser financiados com recursos da LICC é necessário a
+cultura.es.gov.br, com a apresentação de todas as                                                  apresentação do contrato de elaboração de projeto;
+informações e documentações abaixo listadas:                                                       j)      Nos casos de projetos que envolvam obras e
+I - Do proponente/agente cultural:                                                                 serviços de arquitetura e engenharia, o proponente/
+a)      Comprovante atualizado de inscrição e                                                      agente cultural deverá apresentar memorial
+situação cadastral do CNPJ junto à Receita Federal;                                                descritivo dos serviços a serem realizados no
+b)      Cópia digitalizada do ato constitutivo, contrato                                           imóvel, de acordo com o ANEXO VII desta Instrução
+social ou estatuto onde esteja expressa a finalidade                                               Normativa.
+cultural, ou cópia digitalizada do registro comercial,                                             k)      Nos casos de projetos que envolvam reforma
+no caso de empresa individual e do Certificado de                                                  ou restauro de bens móveis ou imóveis tombados,
+Microempreendedor individual, no caso de MEI;                                                      o proponente/agente cultural deverá apresentar
+c)      Cópia do comprovante de endereço da sede                                                   autorização da instância responsável pelo
+social no Estado do Espírito Santo, do exercício atual                                             acautelamento do bem.
+(dos últimos 03 meses em relação a data de inscrição                                               l)      No caso de projetos que envolvam produção
+do projeto), em nome do proponente/agente cultural                                                 audiovisual, deve ser apresentado o roteiro ou
+(conta de água, energia, telefone, condomínio e                                                    proposta do documentário, com qualidade
+outros comprovantes que comprovem efetivamente a                                                   suficiente para a plena compreensão da obra, bem
+sede). Não serão aceitos comprovantes de endereço                                                  como a apresentação do argumento, nos casos em
+em nome de terceiros.                                                                              que couber.
+d)      Cópia digitalizada da ata de posse, ou ato de                                              m)      No caso de projetos que envolvam pesquisa,
+nomeação, ou eleição do representante legal, se for                                                deve ser apresentado pré-projeto descrevendo
+o caso;                                                                                            a metodologia, o cronograma de pesquisa e o
+e)      Cópia     digitalizada  de    documento       de                                           referencial teórico utilizado;
+identificação oficial com foto do representante legal                                              n)      No caso de projetos que contam com edição
+responsável;                                                                                       anterior realizada, deve ser apresentado relatório
+f)      Certidão de negativa de débitos junto à                                                    da atividade, material de divulgação e clipping
+Fazenda Estadual.                                                                                  da(s) edição(ões) anterior(es);
+II - Do projeto cultural:                                                                          o)      No caso de espaços que dependam de
+a)      Formulário de inscrição do projeto                                                         autorização de terceiros ou programação em
+cultural, preenchido pelo proponente/agente                                                        espaços públicos que não sejam de livre acesso,
+cultural, disponível no site do Mapa Cultural, de                                                  o proponente/agente cultural deve apresentar
+acordo com o ANEXO I desta Instrução Normativa,                                                    anuência ou documentação comprobatória que
+que também estará disponível no site da Secretaria                                                 demonstre o interesse dos responsáveis pelos
+de Estado de Cultura.                                                                              espaços.
+b)      Planilha de custos, preenchida pelo                                                        §1º No ato do preenchimento do formulário, o
+proponente/agente cultural, de acordo com o ANEXO                                                  proponente/agente cultural deverá selecionar        a
+II desta Instrução Normativa, que também estará                                                    linha de financiamento prioritária, de acordo com o
+disponível no site da Secretaria de Estado de Cultura;                                             disposto no art. 7º desta Instrução Normativa.
+c)      Carta de anuência, assinada de próprio                                                     §2º Documentos ilegíveis, incompletos, rasurados ou
+punho de todos os membros da ficha técnica e da                                                    sem identificação do signatário serão considerados
+ficha artística citados no formulário de inscrição, de                                             inválidos.
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+                                                                                     EXECUTIVO                                       DIÁRIO OFICIAL DOS PODERES DO ESTADO
+
+Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.                                                                                                                                     59
+Art. 13 Poderão ser indeferidas as inscrições em que                                               incentivados via LICC.
+caracterizar a serialização de projetos com pequenas                                               §1º Somente serão aceitos itens de custos
+variações do objeto, quando forem apresentadas                                                     indispensáveis para a realização do objeto do projeto.
+propostas idênticas e constatadas repetições dos                                                   §2° Não será aceito o mesmo item de custo com
+elementos de composição, tais como: itens de                                                       diferentes fontes de financiamento.
+despesas da planilha de custos, ficha técnica,                                                     §3º O limite previsto no inciso IV deste artigo poderá
+contrapartidas, detalhamento das ações, dentre                                                     ser majorado em casos excepcionais desde que
+outros.                                                                                            devidamente justificado.
+§1º O disposto no caput também se aplica a                                                         Art. 16 Os custos deverão estar respaldados em
+inscrições em que caracterizar a fragmentação de                                                   valores praticados no mercado e de acordo com
+projetos, onde são apresentados diferentes projetos                                                a dimensão do projeto, além de referenciado por
+que possam ser considerados complementares para                                                    tabelas de indicadores, pisos sindicais, tabelas de
+execução de um mesmo objeto.                                                                       órgão oficiais ou, no mínimo, 1 (um) orçamento
+§2º Excetuam-se do disposto no caput deste artigo                                                  devidamente assinado, atendendo aos princípios
+projetos que acontecem há mais de uma edição.                                                      da razoabilidade e economicidade que regem a
+Art. 14 A inscrição do projeto deverá ser                                                          Administração Pública.
+apresentada com, no mínimo, 120 (cento e vinte)                                                    §1º No caso de obra civil de qualquer natureza,
+dias de antecedência da data prevista para o início                                                os custos deverão estar respaldados em planilhas
+do cronograma apresentado, sendo possível prazo                                                    referenciais, tais como a planilha do Labor/UFES ou
+menor, em caráter extraordinário, desde que                                                        SINAPI/Caixa ou tabela de Referência de Preços e
+devidamente justificado.                                                                           Composição de Custos Unitários de Serviços para
+§ 1º Os projetos culturais apresentados acompanhados                                               Obras de Edificações, emitido pelo Departamento de
+de carta de intenção de patrocínio terão preferência                                               Estradas e Rodagens do Espírito Santo - DER/ES ou
+de tramitação sobre os demais projetos, devendo ser                                                valores referenciais de mercado.
+apresentados no prazo mínimo de até 90 (noventa)                                                   Art. 17 O proponente/agente cultural deve exercer
+dias antes da data prevista para primeira ação do                                                  função relevante no projeto.
+cronograma apresentado.                                                                            Art. 18 O proponente, como Pessoa Jurídica,
+§ 2º A tramitação depende da regularidade                                                          poderá receber até 1/3 dos recursos incentivados
+dos documentos apresentados, qualidade das                                                         como remuneração, incluindo os pagamentos
+informações e celeridade na resposta às notificações.                                              destinados à própria entidade e a cada um de seus
+A tramitação em tempo hábil, considerando a                                                        sócios, administradores, diretores, procuradores,
+antecedência prevista no presente artigo, é apenas                                                 empregados e colaboradores, por produtos e
+uma previsão.                                                                                      serviços.
+§ 3º No caso de envio incompleto ou insatisfatório de                                              Parágrafo único. O valor autorizado ao proponente
+informações ou de documentos em não conformidade                                                   poderá ser majorado em casos específicos,            a
+com o exigido, a SECULT poderá requerer o                                                          depender da natureza do objeto do projeto e desde
+complemento ou substituição, em diligência via                                                     que devidamente justificado pelo proponente/agente
+e-mail, que deverá ser respondida em até 10 dias                                                   cultural.
+corridos.                                                                                          Art. 19 É permitida a contratação de empresa para
+§ 4º Nos casos de descumprimento do prazo disposto                                                 captação de recursos, desde que seja pessoa jurídica,
+no § 3º deste artigo, a inscrição poderá ser indeferida                                            mediante formalização e apresentação do respectivo
+de ofício.                                                                                         contrato de prestação do serviço. A remuneração
+§ 5º No caso de não atendimento à diligência                                                       para este item é vedada ao proponente/agente
+solicitada, ou caso seja identificado novo envio                                                   cultural.
+incompleto ou insatisfatório de informações ou de                                                  Parágrafo único. O limite para a rubrica de
+documentos, a inscrição poderá ser indeferida.                                                     remuneração da atividade de captação de recursos é
+§ 6º A tramitação dos projetos que se encontram na                                                 de 10% sobre o valor total dos recursos incentivados,
+fase de contratação de pareceristas ou na fase de                                                  ficando limitado ao teto de R$50.000,00 (cinquenta
+avaliação pela Comissão de Avaliação Permanente                                                    mil reais), o que for menor.
+ficará suspensa nos meses de dezembro e janeiro,                                                   Art. 20 É permitida a contratação de empresa para
+considerando o encerramento do exercício fiscal e o                                                elaboração de projeto, desde que seja pessoa jurídica,
+recesso da Comissão.                                                                               mediante formalização e apresentação do respectivo
+                                                                                                   contrato de prestação do serviço. A remuneração
+Seção III                                                                                          para este item é vedada ao proponente/agente
+DA COMPOSIÇÃO DA PLANILHA DE CUSTOS                                                                cultural.
+                                                                                                   Parágrafo único. O limite para a rubrica de
+Art. 15 A planilha de custos do projeto deverá ser                                                 remuneração da atividade de elaboração de projetos
+detalhada com itens que expressem com clareza a                                                    é de 5% sobre o valor total dos recursos incentivados,
+natureza e a quantificação dos custos, observando o                                                ficando limitado ao teto de R$15.000,00 (quinze mil
+princípio da economicidade e atendendo às seguintes                                                reais), o que for menor.
+condições:                                                                                         Art. 21 As rubricas de passagens aéreas e de
+I - todos os custos previstos para a realização do                                                 hospedagem devem se referir a valores de classe
+projeto deverão ser informados;                                                                    econômica ou categoria padrão, salvo para pessoas
+II - todos os custos deverão estar devidamente                                                     com deficiência, mobilidade reduzida ou pessoa
+identificados, descrevendo a atividade e o valor                                                   idosa.
+unitário e total e a fonte de financiamento;                                                       Art. 22 A contratação de um mesmo fornecedor deve
+III - os custos deverão ser inseridos, exclusivamente                                              ser limitada a 05 (cinco) produtos ou serviços, salvo
+conforme os       grupos de despesas previstos na                                                  quando comprovado que há maior economicidade
+Planilha de custos disponibilizada no ANEXO II;                                                    na concentração, mediante cotação de preços de
+IV - Os custos destinados à remuneração da equipe                                                  dois outros fornecedores, ou que inexistem outros
+técnica não poderão exceder 30% dos recursos                                                       fornecedores no Espírito Santo, qualificados para
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+DIÁRIO OFICIAL DOS PODERES DO ESTADO                                             E X E C U T I V O
+
+60                                                                                                                        Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.
+atender à demanda.                                                                                 a)      Atividades     específicas     voltadas    para
+Parágrafo único. A contratação de fornecedores com                                                 capacitação, especialização ou aperfeiçoamento de
+recursos incentivados deverá priorizar os prestadores                                              artistas, técnicos e outros participantes da cadeia
+de serviço disponíveis no Espírito Santo, salvo                                                    criativa e artístico-cultural, residentes no estado;
+quando justificada a inexistência do fornecimento do                                               b)      Contratação, pela proponente, para tarefas
+produto ou serviço no estado.                                                                      pertinentes ao projeto de, no mínimo, dois estagiários
+Art. 23 Havendo previsão de comercialização de                                                     remunerados, devidamente matriculados em cursos
+ingressos ou outros serviços, bens e produtos                                                      técnicos ou de graduação de áreas afins à produção
+deverá ser informado o valor unitário estipulado para                                              audiovisual, para projetos que tenham como objeto
+venda, quantidade e o total previsto de arrecadação,                                               a produção audiovisual;
+devendo ser ofertados a preços populares, de modo                                                  c)      Atividades     específicas     voltadas    para
+acessível à população em geral.                                                                    valorização da produção artístico-cultural do Espírito
+§1º Os valores dos ingressos ao que se refere ao                                                   Santo;
+caput deste artigo não poderão exceder 5% (cinco                                                   d)      Promoção de ações voltadas para a
+por cento) do salário mínimo regional vigente,                                                     salvaguarda ou a promoção das culturas tradicionais
+respeitando os dispostos nas leis que asseguram o                                                  negras ou indígenas, valorizando e fortalecendo a
+pagamento de meia entrada.                                                                         identidade, a história, as tradições e as expressões
+§2º A limitação que se trata o §1º deste artigo se                                                 culturais dos diversos grupos e manifestações.
+refere à totalidade dos ingressos disponíveis, ainda                                               e)      Criação de indicadores e parâmetros
+que o projeto receba recursos de outras fontes.                                                    quantitativos e qualitativos para a descentralização
+§3º Deverá ser entregue diretamente à Biblioteca                                                   dos bens e serviços culturais promovidos ou
+Pública Estadual - BPES, o quantitativo de 10%                                                     apoiados, direta ou indiretamente, com recursos do
+da tiragem de publicações (exceto material de                                                      Estado e que ajudem a subsidiar as políticas, ações
+divulgação), autorizando a utilização do material                                                  e programas transversais da cultura.
+em equipamentos culturais do Estado, inclusive                                                     f)      Incentivar a formação de redes e sistemas
+com a permissão de empréstimo aos usuários                                                         setoriais nas diversas áreas do fazer cultural;
+desses equipamentos, doação das cópias a entes                                                     II - DEMOCRATIZAÇÃO DO ACESSO:
+da Administração Pública, para arquivo, inclusão em                                                a)      Projetos de acesso gratuito à população ou
+bancos de dados e outros.                                                                          a preços populares, que não ultrapassem 1% do
+Art. 24 A aquisição de bens permanentes será                                                       salário mínimo;
+permitida quando comprovadamente representar                                                       b)      Atividades previstas em equipamentos
+a opção de maior economicidade e constituir item                                                   públicos de cultura;
+indispensável à execução do objeto do projeto                                                      c)      Promoção de ações em parceria com a rede
+cultural, ficando o proponente responsável por                                                     pública de ensino;
+declarar a inexistência do equipamento similar à sua                                               d)      Realização de atividades em espaços abertos
+disposição.                                                                                        e de circulação, como praças e parques;
+Art. 25 Para projetos que necessitem de intervenção                                                e)      Descentralização da produção, contemplando
+física, a exemplo de restauros e reformas, o                                                       duas ou mais macrorregiões do Estado;
+proponente/agente cultural pode subcontratar                                                       f)      Realização de atividades nas periferias das
+prestadores de serviços para a execução das                                                        áreas metropolitanas;
+ações contidas no projeto, conforme métodos                                                        g)      Exibição pública e gratuita de acervos e
+e procedimentos usualmente utilizados pelo                                                         produção audiovisual;
+setor privado, tendo em vista sua autonomia no                                                     h)      Para publicações: realização de atividades de
+gerenciamento administrativo e financeiro dos                                                      promoção do livro e leitura.
+recursos do projeto.                                                                               III- AÇÕES AFIRMATIVAS:
+Parágrafo único. Cabe ao proponente/agente cultural                                                a)      Promoção de ações e/ou campanhas
+o encargo da escolha do fornecedor, a definição                                                    exclusivas voltadas à preservação ambiental e/ou
+de suas obrigações e o acompanhamento de suas                                                      consumo consciente, de forma a reduzir o impacto
+entregas, mantendo-se a responsabilidade do                                                        ambiental do projeto. Necessário a apresentação de
+proponente/agente cultural perante a Administração                                                 plano de execução das ações;
+Pública pela integral execução do objeto do projeto.                                               b)      Promoção de ações e/ou campanhas
+Art. 26 As retenções e os recolhimentos relativos                                                  exclusivas para garantir o respeito à diversidade
+a tributos que incidem sobre as contratações                                                       racial, religiosa e de gênero, com o objetivo de
+necessárias à execução do projeto cultural são de                                                  combater efetivamente o preconceito e discriminação.
+exclusiva responsabilidade do proponente/agente                                                    Necessário a apresentação de plano de execução das
+cultural.                                                                                          ações;
+                                                                                                   c)      Produto audiovisual dirigido e/ou roteirizado
+Seção IV                                                                                           por mulheres ou por pessoas pretas ou por pessoas
+DAS CONTRAPARTIDAS                                                                                 trans ou indígenas ou povos tradicionais.
+                                                                                                   IV - ASSISTÊNCIA SOCIAL E ACESSIBILIDADE:
+Art. 27 Entende-se como contrapartida a oferta de                                                  a)      Promoção de ações que visem a fruição
+ações que reforcem o caráter de interesse público                                                  de bens, produtos e serviços culturais a camadas
+dos projetos, objetivando com isso a mais ampla                                                    da população menos assistidas ou excluídas do
+democratização e maior descentralização do acesso                                                  exercício de seus direitos culturais por sua condição
+aos bens culturais resultantes.                                                                    socioeconômica e extrema vulnerabilidade;
+Art. 28 Devem constar obrigatoriamente, no                                                         b)      Ações que facilitem o livre acesso de idosos e
+planejamento das atividades, no mínimo 05 (cinco)                                                  pessoas com deficiência ou mobilidade reduzida e/ou
+das contrapartidas a seguir listadas:                                                              medidas de acessibilidade comunicacional (de modo
+I - VALORIZAÇÃO DA CULTURA LOCAL E FORMAÇÃO                                                        a diminuir barreiras na comunicação interpessoal,
+DE AGENTES CULTURAIS/ARRANJOS ECONOMIA                                                             escrita e virtual);
+CRIATIVA:                                                                                          c)      Contratação de pessoas com deficiência ou em
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+                                                                                     EXECUTIVO                                       DIÁRIO OFICIAL DOS PODERES DO ESTADO
+
+Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.                                                                                                                                     61
+situação de vulnerabilidade social como prestadores                                                V - Viabilidade técnica;
+de serviços;                                                                                       VI - Adequação da proposta orçamentária aos valores
+d)     Realizar, no mínimo, uma ação de capacitação,                                               de mercado;
+com duração mínima de 8 horas, em algum dos                                                        VII - Adequação do cronograma de execução;
+seguintes locais: unidades do sistema prisional,                                                   VIII - Enquadramento nos percentuais de incentivo
+unidades do Sistema Socioeducativo, unidades                                                       autorizados pela legislação e;
+públicas voltadas para recuperação da saúde física e                                               IX - Atendimento das contrapartidas previstas no
+mental, e/ou abrigos de crianças e idosos no estado;                                               artigo 28 desta instrução.
+e)     Promoção de parcerias e alianças com                                                        Parágrafo único. Nos casos em que a definição da ficha
+associações de bairro e/ou com coletivos que                                                       artística dependa de etapa posterior à elaboração
+promovam o bem estar social e dignidade humana,                                                    do projeto cultural (ex: festivais que selecionam os
+agregado ao projeto cultural.                                                                      artistas a se apresentarem por meio de inscrição),
+                                                                                                   e, portanto, não houver possibilidade da análise do
+§1º Projetos inseridos na linha VI de financiamento                                                disposto no inciso III deste artigo, será avaliado o
+disposta no art. 7º, que envolvam as etapas de                                                     formato de seleção adotado, em especial em sua
+produção e finalização de obra Audiovisual, deverão                                                transparência, abrangência e clareza de critérios.
+apresentar as seguintes contrapartidas obrigatórias,                                               Art. 32 Caberá à Comissão de Análise de Projetos
+que serão contabilizadas para o cálculo de 05 no                                                   - CAP - a deliberação sobre a habilitação, ou
+total:                                                                                             inabilitação dos projetos para captação.
+f)      Oferecimento    do    produto    audiovisual                                               §1º A avaliação de que trata o caput pode concluir
+financiado à TV pública do Espírito Santo para                                                     pelo acordo total, acordo parcial ou desacordo com o
+licenciamento não oneroso, sem exclusividade, com                                                  parecer da análise técnica.
+vigência após dois anos da emissão do Certificado                                                  §2º A CAP poderá solicitar informações, documentos
+de Produto Brasileiro (CPB). O proponente poderá                                                   adicionais e alterações ao proponente/agente cultural,
+solicitar prorrogação deste prazo, mediante                                                        em diligência via e-mail, que deverá ser respondida
+justificativa;                                                                                     em até 30 dias, sob pena de arquivamento. Também
+a)      Oferecimento    do    produto    audiovisual                                               poderá ser solicitado alterações - no texto ou planilha
+financiado à Midiateca Capixaba, para licenciamento                                                orçamentária - como condição para sua habilitação.
+não oneroso, sem exclusividade, com vigência após                                                  §3º Os extratos das atas das reuniões da CAP serão
+dois anos da emissão do Certificado de Produto                                                     publicados na página eletrônica da Secretaria de
+Brasileiro (CPB). O proponente poderá solicitar                                                    Estado de Cultura.
+prorrogação deste prazo, mediante justificativa;                                                   Art. 33 A deliberação da CAP será encaminhada
+                                                                                                   para homologação dos projetos habilitados e não
+§2º O proponente/agente cultural deve considerar                                                   habilitados pela LICC mediante publicação no Diário
+que é necessário detalhar a proposta de contrapartida                                              Oficial do Espírito Santo.
+suficiente, permitindo sua visualização e avaliação                                                §1º Caso o projeto seja inabilitado, o proponente/
+pela Comissão de Análise de Projetos - CAP, incluindo                                              agente     cultural   poderá     apresentar    recurso
+plano de atividades a serem realizadas e estratégias                                               administrativo, dirigido ao Secretário de Estado de
+para o alcance do público pretendido com as                                                        Cultura, no prazo de 10 dias, contados a partir do dia
+propostas.                                                                                         subsequente da data da publicação do resultado no
+                                                                                                   Diário Oficial do Espírito Santo.
+§3º Projetos inseridos nas linhas IV e V de                                                        §2º O recurso deverá ser protocolado na Secretaria
+financiamento dispostas no art. 7º não precisam                                                    de Estado de Cultura ou encaminhado via E-docs ao
+apresentar contrapartida.                                                                          Setor de Protocolo desta Secretaria.
+CAPÍTULO III                                                                                       §3º Para deliberar sobre o recurso administrativo
+DA ANÁLISE E JULGAMENTO                                                                            o Secretário de Estado de Cultura poderá solicitar
+                                                                                                   subsídios para a equipe técnica da Secretaria de
+Art. 29 A análise do projeto se dará em três etapas:                                               Estado de Cultura e para a CAP.
+I - verificação da documentação enviada pelo
+proponente/agente cultural;                                                                        CAPÍTULO IV
+II - análise técnica por meio de parecer;                                                          DA CAPTAÇÃO E REPASSE FINANCEIRO
+III - análise de mérito e deliberação realizada pela
+Comissão Avaliação Permanente - CAP.                                                               Art. 34 A autorização de captação é válida por
+Art. 30 A análise da documentação do proponente/                                                   01 (um) ano, a contar da data da publicação de
+agente cultural será realizada pela Gerência de                                                    habilitação no Diário Oficial do Estado, podendo ser
+Incentivo à Cultura.                                                                               prorrogada uma única vez, por mais 01 (um) ano,
+§1º Constatada alguma irregularidade sanável na                                                    mediante solicitação do proponente/agente cultural,
+documentação do proponente, a SECULT irá conceder                                                  desde que este esteja em situação regular cadastral
+prazo de 10 dias corridos para correção, sob pena de                                               junto à Secretaria de Estado de Cultura.
+arquivamento.                                                                                      §1º A solicitação de prorrogação do prazo de captação
+§2º Verificada a regularidade da documentação e                                                    prevista no caput somente tem eficácia se protocolada
+deferida a solicitação de cadastro, o projeto será                                                 com no mínimo 15 (quinze) dias de antecedência do
+encaminhado para a análise de mérito.                                                              término do prazo final de vigência prevista.
+Art. 31 Os projetos culturais cadastrados serão                                                    §2º O projeto poderá ter tantos patrocinadores
+analisados considerando os critérios previstos no                                                  quanto necessário para completar o valor total
+Decreto 5.035-R/21, a saber:                                                                       aprovado para execução.
+I - Qualidade artística do projeto;                                                                § 3º O prazo citado no caput deste artigo não se
+II - Atendimento ao interesse público;                                                             aplica aos projetos inscritos na linha de formatos
+III - Experiência e capacidade técnica do agente                                                   especiais, especificamente os que possuam planos
+cultural e da equipe de trabalho - técnica e artística;                                            plurianuais, podendo ter prazo de captação de até
+IV - Clareza e concisão das informações;                                                           03 anos.
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+DIÁRIO OFICIAL DOS PODERES DO ESTADO                                             E X E C U T I V O
+
+62                                                                                                                        Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.
+Art. 35 A empresa que possuir interesse em                                                         Art. 41 A partir do momento que a captação atingir
+patrocinar projeto devidamente habilitado, deverá                                                  50% do valor aprovado, o proponente/agente
+firmar o Termo de Compromisso de Patrocínio com o                                                  cultural poderá solicitar a liberação dos recursos, ou
+proponente/agente cultural, de acordo com o ANEXO                                                  a seu critério, solicitar readequação do projeto para
+VIII desta Instrução Normativa, que também estará                                                  o montante já captado.
+disponível no site da Secretaria de Estado de Cultura.                                             Parágrafo único. Caso opte por não readequar o projeto
+§1º O proponente/agente cultural será responsável                                                  para o valor já captado, é de inteira responsabilidade
+por encaminhar à Secretaria de Estado de Cultura,                                                  do proponente apresentar a prestação de contas de
+através do E-docs, uma via do Termo de Compromisso                                                 acordo com o objeto aprovado em sua integridade,
+de Patrocínio, devidamente preenchido e assinado                                                   assim como dos gastos de acordo com a planilha de
+pelas partes.                                                                                      custos aprovada.
+§2º Para que o projeto seja financiado com recursos
+via LICC é imprescindível que pelo menos 50% do                                                    CAPÍTULO VI
+recurso firmado através do Termos de Compromissos                                                  DA EXECUÇÃO DO PROJETO
+de Patrocínio estejam validados pela SEFAZ antes da
+data de realização do evento.                                                                      Art. 42 Fica estabelecido como prazo de execução
+Art. 36 Deverá ser arquivado o projeto que, ao                                                     do projeto o período de 01 (um) ano, contado a
+término do prazo de captação, não tiver apresentado                                                partir da autorização emitida pela SECULT para a
+uma ou mais manifestação de interesse de patrocínio                                                movimentação dos recursos captados pela LICC,
+que totalize o valor previsto de no mínimo 50% do                                                  podendo ser prorrogado por igual período, desde
+valor aprovado para captação.                                                                      que autorizado por esta Secretaria.
+Parágrafo único. No caso de arquivamento, por                                                      § 1º O cronograma de execução do projeto deve
+solicitação do proponente, e obtida a prévia                                                       estar alinhado com o prazo acima citado;
+aprovação do patrocinador, a Secretaria da Cultura                                                 § 2º O prazo acima citado não se aplica aos
+poderá permitir a transferência do saldo dos recursos                                              projetos inscritos na linha de formatos especiais,
+financeiros captados para conta corrente bancária                                                  especificamente os que possuam planos plurianuais,
+vinculada a outro projeto já aprovado.                                                             podendo ter prazo de execução de até 03 anos.
+Art. 37 Após a verificação de aptidão do patrocinador                                              § 3º Em caso fortuito, força maior, ou considerando
+pela Secretaria da Fazenda - SEFAZ, estando tudo em                                                a natureza do objeto do projeto, desde que
+conformidade com o previsto em lei, o proponente                                                   devidamente justificado pelo proponente/agente
+deve notificar a empresa patrocinadora para a                                                      cultural e aprovado pela SECULT, o prazo estabelecido
+realização do depósito financeiro, de acordo com                                                   no caput deste artigo poderá ser ampliado.
+cronograma de desembolso em seu projeto e após                                                     Art. 43 Durante a realização do projeto, o
+a abertura da conta corrente específica, isenta de                                                 proponente/agente cultural deverá:
+tarifas, para esta finalidade.                                                                     I.      Manter o perfil do projeto atualizado na aba
+Parágrafo único. A SECULT irá emitir o Termo de                                                    correspondente do Mapa Cultural com todas as
+Abertura de Conta Bancária, que será encaminhado                                                   atividades, para fins de alimentação do banco de
+ao proponente por E-docs, devendo o proponente/                                                    dados, acompanhamento e divulgação.
+agente cultural dirigir-se a uma das agências do                                                   II.     Incluir, em todo material de comunicação, as
+BANESTES e apresentar a documentação solicitada                                                    marcas que identificam o financiamento da LICC e o
+para abertura de conta bancária.                                                                   patrocínio da empresa nos bens, produtos e serviços
+Art. 38 Após a empresa patrocinadora realizar o                                                    culturais resultantes, conforme Manual de Identidade
+repasse do recurso ao proponente, a SECULT irá                                                     Visual disponibilizado pela SECULT;
+publicar extrato no Diário Oficial do Estado com                                                   III.    Informar, com antecedência mínima de
+nome do projeto, empresa patrocinadora e valor                                                     15 (quinze) dias, as datas, locais e nomes dos
+repassado.                                                                                         responsáveis pela execução de todas as ações
+Art. 39 Os recursos depositados na conta específica                                                previstas no projeto, através do envio das informações
+do projeto, enquanto não empregados em sua                                                         por e-mail;
+finalidade, deverão ser aplicados integralmente em                                                 IV.     Citar verbalmente o apoio do Governo do
+carteiras com CDB corrente de liquidez diária.                                                     Espírito Santo por meio da Secretaria da Cultura
+Art. 40 A conta vinculada ao projeto ficará bloqueada,                                             em todas as ocasiões de apresentação e divulgação
+cabendo à Secretaria de Estado de Cultura autorizar                                                do projeto, bem como em todas as entrevistas à
+a movimentação dos recursos captados, mediante                                                     imprensa.
+Termo de Autorização de Movimentação de conta
+bancária a ser expedida ao Banco Banestes.                                                         Parágrafo único. As obrigatoriedades acima listadas
+§1º Para liberação da movimentação da conta,                                                       devem ser cumpridas a partir da habilitação
+o proponente/agente cultural deve apresentar                                                       do projeto, nos eventos em que há expectativa
+solicitação à Secretaria de Estado de Cultura,                                                     de patrocínio ainda não firmado via Termo de
+através do E-docs, acompanhada dos respectivos                                                     Compromisso de Patrocínio.
+extratos bancários e de Certidão Negativa de Débitos                                               Art. 44 O projeto cultural será acompanhado pela
+ou Certidão Positiva com efeitos de Negativa,                                                      SECULT durante toda a execução, por meio das
+comprovando adimplência junto ao Governo do                                                        informações apresentadas pelo proponente/agente
+Estado do Espírito Santo.                                                                          cultural e demais informações disponíveis nos meios
+§2º Para a emissão do Termo de Autorização de                                                      de comunicação.
+movimentação pela SECULT, o proponente/agente                                                      §1º A fiscalização presencial poderá ser realizada
+cultural deverá comprovar, por meio de apresentação                                                por amostragem.
+de extrato bancário, que a captação atingiu, no                                                    §2º O proponente/agente cultural poderá ser
+mínimo, 50% do valor aprovado para o projeto.                                                      diligenciado sempre que se entender necessário,
+§3º A liberação da movimentação da conta somente                                                   podendo ser solicitados ajustes, informações e
+será autorizada pela SECULT, mediante a atualização                                                documentos adicionais.
+do cronograma de execução do projeto.                                                              § 3º Nos casos em que o proponente se omitir de
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+                                                                                     EXECUTIVO                                       DIÁRIO OFICIAL DOS PODERES DO ESTADO
+
+Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.                                                                                                                                     63
+cumprir o disposto no caput deste artigo e, mesmo                                                  CAPÍTULO VII
+notificado, se manter inerte, ficará sujeito à aplicação                                           DA PRESTAÇÃO DE CONTAS
+de sanções previstas no Art. 62 desta normativa.
+Art. 45 O proponente/agente cultural poderá                                                        Art. 52 Por meio da prestação de contas, o
+solicitar à SECULT as alterações no projeto                                                        proponente/agente       cultural   deve    comprovar
+aprovado relacionadas ao local de realização,                                                      inequivocamente a realização do objeto do projeto.
+programação, itens de custo e fontes                                                               Parágrafo único. Entende-se como objeto do projeto
+de financiamento, desde que devidamente                                                            cultural o conjunto de atividades, ações, etapas e
+justificadas, e no prazo mínimo de 21 (vinte e                                                     fases descritas nos formulários e demais documentos
+um) dias de antecedência da data prevista para                                                     apresentados pelo proponente/agente cultural e
+realização da ação a ser modificada.                                                               aprovadas pela Comissão de Avaliação Permanente -
+Parágrafo único. Para deferimento da solicitação                                                   CAP, como período e local de realização, contratações,
+de alterações, serão consideradas a exequibilidade                                                 bem como ações de comunicação, divulgação, uso
+e a razoabilidade em relação ao objeto do projeto                                                  correto da logomarca e alcance do público alvo do
+aprovado e a possibilidade de alcance dos resultados                                               projeto.
+previstos.                                                                                         Art. 53 A prestação de contas consiste na
+Art. 46 O proponente/agente cultural poderá ajustar                                                apresentação do Relatório de Execução junto
+os itens de custos aprovados, sem a necessidade de                                                 com o Relatório de Encerramento da Conta, o
+solicitação de readequação, no caso de acréscimo ou                                                qual deve ser apresentado pelo proponente/agente
+diminuição, de até 20% (vinte por cento) do valor                                                  cultural à SECULT no prazo de até 60 (sessenta)
+autorizado para execução de cada item de custo,                                                    dias contados da data final prevista para a etapa de
+desde que não haja alterações no valor total do                                                    pós-produção.
+projeto.                                                                                           §1º O prazo descrito no caput pode ser prorrogado
+§1º O proponente deverá informar a Gerência                                                        uma única vez, por até 30 (trinta) dias, desde que
+de Incentivo à Cultura, via E-docs, de qualquer                                                    o proponente/agente cultural apresente solicitação
+alteração, mesmo que dentro da margem de 20%,                                                      justificada antes do término do prazo estabelecido.
+para fins de acompanhamento.                                                                       §2º Os modelos de relatórios citados no caput deste
+§2º O caput do artigo não se aplica a itens de                                                     artigo estarão disponíveis nos ANEXOS IX e X desta
+remuneração da ficha técnica ou artística cujo                                                     Instrução Normativa, bem como no site da Secretaria
+beneficiário seja o proponente.                                                                    de Estado de Cultura.
+Art. 47 Durante a execução do projeto, o                                                           Art. 54 Para fins de análise da prestação de contas,
+proponente/agente cultural pode solicitar análise e                                                o proponente/agente cultural deverá apresentar os
+deliberação da SECULT para a utilização de saldos                                                  seguintes documentos:
+residuais e rendimentos de aplicação financeira para                                               I - Relatório de Execução, acompanhado de
+custear bens e serviços, com antecedência mínima                                                   documentos que evidenciem a execução da ação
+de 15 (quinze) dias da realização do fato gerador da                                               cultural, tais como:
+despesa, apresentando cópia do extrato bancário que                                                a) fotos;
+demonstre os rendimentos, desde que pertinentes à                                                  b) convites;
+execução do projeto.                                                                               c) DVDs, CDs, livros, revistas e catálogos;
+Art. 48 A movimentação da conta corrente vinculada                                                 d) relatório de venda de ingressos e borderôs,
+ao projeto deve ser realizada somente por meios                                                    quando houver;
+rastreáveis, de modo que possibilite a conferência de                                              e) lista de presença, declaração de estimativa de
+dados entre a movimentação bancária e o pagamento                                                  público, declaração de realização do espetáculo/
+realizado.                                                                                         evento assinada pelo responsável pelo espaço
+Parágrafo único. É vedada a realização de saques ou                                                hospedeiro;
+emissão de cheques para qualquer fim.                                                              f) comprovantes de embarque e hospedagem,
+Art. 49 Toda despesa com recursos incentivados                                                     quando houver;
+deverá ser acompanhada de um dos seguintes                                                         g) documentos referentes à comunicação da ação
+documentos:                                                                                        cultural, como release, clipping de mídia, folders,
+I - Nota Fiscal ou Cupom Fiscal, sempre que o                                                      registro fotográfico e audiovisual, cartazes e
+fornecedor ou prestador de serviço for pessoa                                                      panfletos, VT spot de rádio e sítios eletrônicos;
+jurídica;                                                                                          h) documentos referentes às ações de acessibilidade
+II - Nota Fiscal ou Recibo de Pagamento Autônomo                                                   e sustentabilidade;
+(RPA), para prestação de serviço de pessoa física;                                                 II - Relatório de Encerramento da Conta,
+III - Recibo simples até R$ 100,00 (cem) reais nos                                                 acompanhado dos seguintes documentos:
+casos de compras de bens;                                                                          a) conciliação bancária;
+IV - Contrato de Prestação de Serviços, quando for                                                 b) extrato bancário da conta corrente do projeto
+cabível.                                                                                           compreendendo todo o período entre a abertura e o
+Art. 50 Os recursos incentivados não podem ser                                                     encerramento da conta;
+utilizados para pagamento das seguintes despesas:                                                  c) termo de encerramento da conta corrente;
+I - remuneração, a qualquer título, de servidor                                                    d) comprovante de destinação de saldo residual ao
+público do quadro de pessoal ativo da Secretaria de                                                tesouro do Estado, quando houver.
+Estado de Cultura;                                                                                 Para fins de comprovação da execução financeira,
+II - aquisição de bebidas alcóolicas;                                                              quando observadas informações conflitantes, poderão
+III - instalação de camarotes, áreas VIP e similares;                                              ser solicitados comprovantes fiscais devidamente
+e                                                                                                  acompanhados dos respectivos comprovantes de
+IV - premiações.                                                                                   transferência bancária, DOC/TED/PIX, contendo:
+Art. 51 As despesas pagas com outras fontes de                                                     I - data de emissão dentro do período de execução
+financiamento que não sejam de origem da LICC                                                      financeira do projeto;
+deverão ser informadas no momento da prestação                                                     II - descrição dos serviços/produtos, com a referida
+de contas.                                                                                         discriminação dos valores unitários;
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+DIÁRIO OFICIAL DOS PODERES DO ESTADO                                             E X E C U T I V O
+
+64                                                                                                                        Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.
+III - referência direta ao projeto, registrando nome,                                              responsável e lhe determinar, se cabível, a adoção de
+número do processo e ano de realização;                                                            medidas necessárias à correção das impropriedades
+IV - Contrato de Prestação de Serviços referentes ao                                               ou faltas identificadas, e a aplicação de penalidade, de
+projeto, devendo ser apresentado, além do contrato                                                 modo a prevenir a ocorrência de outras semelhantes.
+devidamente assinado e cópia do documento de                                                       §3º Quando emitir relatório analítico decidindo
+identificação do contratado.                                                                       pela reprovação, a SECULT indicará aplicação das
+§1º Não são aceitos comprovantes de despesas                                                       penalidades cabíveis.
+que apresentem alterações, emendas ou rasuras                                                      §4º Considera-se desvio de finalidade, para fins
+que prejudiquem a clareza e/ou idoneidade do                                                       desta Instrução Normativa, qualquer atuação
+documento.                                                                                         que vise o afastamento do projeto do âmbito
+Art. 55 Os rendimentos de aplicação devem ser                                                      cultural e se concretize em predileções comerciais,
+reportados na prestação de contas como receita                                                     esportivas, empresariais, promocionais ou outras
+financeira, compondo o total de receitas do projeto,                                               que atentem contra os princípios e objetivos
+podendo ser utilizados para pagamento de tarifas                                                   propostos, podendo ser constatado em qualquer
+bancárias não isentas pelo Banco.                                                                  fase do projeto.
+Art. 56 Caso o total de despesas com o projeto seja                                                Art. 60 Nos casos em que a prestação de contas for
+inferior aos depósitos efetuados pelo patrocinador ou                                              aprovada com ressalva ou nos casos de reprovação,
+haja glosa de valores, os recursos financeiros devem                                               será assegurado ao proponente/agente cultural o
+ser destinados ao tesouro do Estado.                                                               contraditório e a ampla defesa.
+                                                                                                   Parágrafo único. A ocorrência de caso fortuito ou
+Seção V                                                                                            força maior impeditiva da execução do projeto afasta
+DA ANÁLISE DA PRESTAÇÃO DE CONTAS                                                                  a reprovação da prestação de contas, desde que
+                                                                                                   regularmente comprovada, podendo ser solicitadas
+Art. 57 A prestação de contas final será analisada                                                 adequações complementares ao projeto.
+pela SECULT, que emitirá relatório analítico sobre o                                               Art. 61 A prestação de contas somente será concluída
+cumprimento do objeto, sobre a correta aplicação                                                   após cumprimento integral de todas as pendências
+dos recursos e, se for o caso, poderá recomendar                                                   e saneadas todas as irregularidades apontadas,
+possível aplicação de penalidade conforme a                                                        cabendo, no caso de descumprimento, aplicação de
+gravidade das infrações.                                                                           sanções.
+Art. 58 Durante a análise da prestação de contas, a                                                Parágrafo único. A SECULT disponibilizará em seu
+SECULT pode solicitar ao proponente/agente cultural                                                endereço eletrônico as informações relacionadas às
+esclarecimentos ou documentação complementar,                                                      prestações de contas dos projetos executados pela
+por meio de diligências, as quais devem ser                                                        LICC.
+atendidas em até 15 (quinze) dias, podendo o prazo
+ser prorrogado uma única vez por igual período,                                                    CAPÍTULO VIII
+desde que apresentada justificativa pelo proponente/                                               DAS SANÇÕES
+agente cultural.
+Parágrafo único. O proponente/agente cultural que                                                  Art. 62 O proponente/agente cultural que não
+não atender à solicitação no prazo estipulado no                                                   prestar contas do projeto ou que tiver suas contas
+caput está sujeito às penalidades descritas nesta                                                  rejeitadas ficará sujeito aos seguintes procedimentos
+Instrução Normativa.                                                                               e sanções:
+Art. 59 A SECULT emitirá relatório analítico sobre a                                               I - Advertência;
+prestação de contas, decidindo pela:                                                               II - Devolução da importância recebida, com correção
+I - aprovação: no caso de projetos que apresentem                                                  monetária, a partir da autorização de movimentação
+cumprimento integral, regularidade na execução                                                     da conta, baseada na conversão do valor pela VRTE
+financeira, cumprimento dos prazos e obrigações                                                    (Valor de Referência do Tesouro Estadual) e juros de
+assumidas no plano de execução e, quando for o                                                     1% ao mês.
+caso, atendimento de todas as solicitações feitas                                                  III - suspensão temporária de apresentar projetos
+pela SECULT;                                                                                       na Lei de Incentivo à Cultura Capixaba pelo prazo de
+II - aprovação com ressalva: no caso de projetos                                                   até 02 (dois) anos.
+que apresentem irregularidades em quaisquer fases                                                  Parágrafo único.      As sanções e procedimentos
+da execução, desde que não tenham comprometido                                                     determinados      neste     artigo  serão    aplicadas
+o cumprimento do objeto cultural e a execução                                                      proporcionalmente à gravidade das infrações
+financeira, sujeitando o proponente/agente cultural                                                cometidas.
+a penalidades;                                                                                     Art. 63 A aplicação das sanções previstas nesta
+III - reprovação: no caso da não comprovação,                                                      Instrução Normativa será realizada pelo Secretário
+total ou parcial, da realização do objeto cultural                                                 Estadual de Cultura, por meio de notificação ao
+do projeto; quando comprovada a utilização                                                         responsável, decorrendo de recomendação do
+indevida dos recursos do projeto cultural; quando                                                  fiscal de execução ou parecer técnico da análise da
+houver omissão no dever de prestar contas (assim                                                   prestação de contas.
+considerado ultrapassado o prazo sem justificativa);                                               §1º O proponente/agente cultural responsabilizado
+quando comprovado o desvio de finalidade ou dano,                                                  poderá interpor recurso dirigido ao Secretário,
+prejuízo ao erário; ou quando não divulgar o apoio                                                 no prazo de 05 (cinco) dias contados a partir da
+institucional do Governo do Estado do Espírito Santo,                                              notificação da decisão de aplicação de sanção.
+bem como de seus símbolos e logotipos, conforme                                                    §2º No caso de parcial procedência ou improcedência
+manual de comunicação disponibilizado pela SECULT.                                                 do recurso, o proponente/agente cultural será
+§1º Quando emitir relatório analítico decidindo pela                                               notificado do julgamento, bem como do valor
+aprovação, a SECULT deve dar quitação ao responsável                                               definitivo a ser recolhido, se for o caso, dentro do
+por meio de Ofício enviado ao proponente.                                                          prazo de 15 (quinze) dias, ao tesouro do Estado.
+§2º Quando emitir relatório analítico decidindo pela                                               §3º Se após notificação, o proponente/agente
+aprovação com ressalva, a SECULT deve notificar o                                                  cultural descumprir o prazo estabelecido no parágrafo
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+                                                                                     EXECUTIVO                                       DIÁRIO OFICIAL DOS PODERES DO ESTADO
+
+Vitória (ES), quinta-feira, 01 de Fevereiro de 2024.                                                                                                                                     65
+anterior deste artigo a reprovação da prestação de                                                       Secretaria de Estado da Agricultura, Abastecimento,
+contas será automática, bem como a inclusão de seu
+                                                                                                                     Aquicultura e Pesca - SEAG -
+CNPJ no CADIN-ES e a devida inscrição em Dívida
+Ativa.
+                                                                                                    PORTARIA nº 024-S, de 30 de janeiro de 2024.
+CAPÍTULO IX
+                                                                                                   Designa servidores para exercer a função de Agente
+DAS DISPOSIÇÕES FINAIS
+                                                                                                   de Contratação e as respectivas Equipes de Apoio.
+Art. 64 Fica vedada a transferência de titularidade
+                                                                                                   O SECRETÁRIO DE ESTADO DA AGRICULTURA,
+de projetos para outra pessoa jurídica.
+                                                                                                   ABASTECIMENTO, AQUICULTURA E PESCA,
+Art. 65 Os prazos previstos nesta Instrução
+                                                                                                   no uso das atribuições que lhe confere o art. 98,
+Normativa serão contados em dias corridos.
+                                                                                                   inciso II, da Constituição Estadual, tendo em vista
+Art. 66 Todos os anexos apresentados pelo
+                                                                                                   a necessidade de designar Agentes de Contratação
+proponente/agente cultural deverão ser nomeados
+                                                                                                   e Equipe de Apoio, para condução dos processos
+de acordo com o seu conteúdo e devem estar em
+                                                                                                   de contratação do órgão, conforme disposto na
+formato PDF com tamanho máximo de 10MB.
+                                                                                                   Lei Federal nº 14.133/21 e no Decreto Estadual
+Art. 67 O proponente/agente cultural é responsável
+                                                                                                   5.352-R/2023, e
+por comunicar a qualquer tempo, sobre fato ou
+evento que venha a alterar seus dados cadastrais e
+                                                                                                   CONSIDERANDO ainda, os termos do OFÍCIO/
+a sua situação particular.
+                                                                                                   SEGER/      GABSEC/Nº279/2023      -    CIRCULAR,
+Art. 68 O proponente/agente cultural é responsável
+                                                                                                   e a respectiva Nota Técnica que trata sobre
+pela guarda e manutenção de toda documentação
+                                                                                                   orientações decorrentes da aplicação da Lei Federal
+referente ao projeto, devendo a documentação
+                                                                                                   nº 14.133/2021, onde orienta que os órgãos e
+original ser mantida em arquivo de boa ordem, à
+                                                                                                   entidades do Poder Executivo Estadual deverão
+disposição da SECULT e dos órgãos de controle
+                                                                                                   designar Agentes de Contratação e Equipe de
+interno e externo, pelo prazo de 10 (dez) anos.
+                                                                                                   Apoio para manter a condução dos procedimentos
+Art. 69 Fazem parte integrante desta Instrução
+                                                                                                   de contratação com base na NLLC, nos termos do
+Normativa os seguintes anexos:
+                                                                                                   Capítulo I do Decreto 5.352-R/2023,
+Anexo I -FORMULÁRIO DE INSCRIÇÃO
+Anexo II -PLANILHA DE CUSTOS
+                                                                                                   RESOLVE:
+Anexo III - CARTA DE ANUÊNCIA
+Anexo IV - PLANO PEDAGÓGICO
+                                                                                                   DESIGNAR, o servidor FABRICIO CALIARI BELO
+Anexo V - PLANO DE DISTRIBUIÇÃO
+                                                                                                   para exercer a função de Agente de Contratação.
+Anexo VI - PLANO DE COMERCIALIZAÇÃO
+Anexo VII - MEMORIAL DESCRITIVO DOS SERVIÇOS
+                                                                                                   Parágrafo Único. Na ausência ou impedimento do
+A SEREM REALIZADOS NO IMÓVEL
+                                                                                                   Agente de Contratação, fica designado o servidor
+Anexo VIII - TERMO DE COMPROMISSO DE
+                                                                                                   PATRICK SILVA RIBEIRO para exercer as
+PATROCÍNIO
+                                                                                                   respectivas funções.
+Anexo IX - RELATÓRIO DE EXECUÇÃO
+Anexo X -RELATÓRIO DE ENCERRAMENTO DE CONTA
+                                                                                                   Art. 2º Designar os servidores públicos abaixo para
+Art. 70 Essa Instrução Normativa entra em vigor na
+                                                                                                   exercerem a função de Equipe de Apoio:
+data de sua publicação no Diário Oficial do Estado,
+aplicando-se aos projetos apresentados a partir
+                                                                                                   I - EMELY PUFAL GUMS;
+desta data.
+                                                                                                   II - PATRICK SILVA RIBEIRO;
+                                                                                                   III - FILIPE BARBOSA MARTINS - Suplente;
+Vitória, 31 de Janeiro de 2024
+                                                                                                   IV - DIEGO DAVID MILLERI - Suplente;
+Fabricio Noronha Fernandes
+Secretário de Estado da Cultura
+                               Protocolo 1256636                                                   Art. 3º As atribuições dos Agentes de Contratação
+                                                                                                   estão descritas na Lei Federal nº 14.133/2021 e no
+Resumo do 3º Termo Aditivo ao Termo de                                                             Decreto Estadual 5.352-R/2023.
+Colaboração nº 010/2022
+                                                                                                   Art. 4º Os trabalhos da Equipe de Apoio serão
+Registro SIGEFES Nº 220702                                                                         coordenados pelo Agente de Contratação designado.
+Processo Nº 2022-B1W20
+Concedente: Secretaria de Estado da Cultura                                                        Art. 5º Esta Portaria entra em vigor na data de sua
+- SECULT.                                                                                          publicação.
+OSC: Associação Artística e Folclórica Afro Brasileira                                             Vitória, 30 de janeiro de 2024.
+- Artfol’afro.
+Cláusula Primeira - O presente termo tem por                                                       ENIO BERGOLI DA COSTA
+objetivo prorrogar a vigência estabelecida na                                                      Secretário de Estado da Agricultura, Abastecimento,
+Cláusula Sexta - Item 6.1 do Termo de Colaboração                                                  Aquicultura e Pesca
+e no seu aditivo posterior, a partir de 03.02.2024                                                                               Protocolo 1256648
+até 30.03.2024.
+Cláusula Segunda - Ficam mantidas todas as demais                                                   PORTARIA nº 025-S, de 30 de janeiro de 2024.
+cláusulas do Termo de Colaboração originário.
+                                                                                                   Designa servidores para exercer a função de Agente
+                 Vitória, 31 de janeiro de 2024.                                                   de Contratação e as respectivas Equipes de Apoio.
+                 Fabricio Noronha Fernandes
+                 Secretário de Estado da Cultura                                                   O SECRETÁRIO DE ESTADO DA AGRICULTURA,
+                                      Protocolo 1257188                                            ABASTECIMENTO, AQUICULTURA E PESCA,
+
+
+  Assinado digitalmente pelo DIO - DEPARTAMENTO DE IMPRENSA OFICIAL DO ESTADO DO ESPÍRITO SANTO Data: Quarta-feira, 31 de Janeiro de 2024 às 22:11:19 Código de Autenticação: 6360f00a
+
