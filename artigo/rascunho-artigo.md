@@ -95,7 +95,7 @@ Fonte: elaboração própria com base em SECULT (2026b; 2026c) e na API pública
 **Quadro 2 – Auditoria das premissas da teoria da mudança**
 
 | Elo | Premissa | Contexto real | Situação |
-|----------|-------------------------|--------------------------------------|------------|
+|----------|-------------------------|------------------------------------|--------------|
 | Entrada (H3) | Quem tem projeto de valor público consegue se inscrever | A inscrição exige CNPJ com finalidade cultural, sede em nome próprio e certidão estadual. 14 municípios do interior nunca tiveram projeto habilitado. Estreantes: 56 no ciclo 2024, 26 em 2025, 40 em 2026 | Indeterminado: sem inscritos |
 | Habilitação (H2a) | O mérito avaliado pela SECULT orienta quem é financiado | O parecer indica, por critério, se o projeto atende ou não, e a CAP decide só habilitar ou não, em fluxo contínuo; não há nota nem ordem de prioridade. Em 2022-2024, 95 de 293 habilitados expiraram sem captar | Não atendida |
 | Escolha (H1a) | A empresa escolhe pelo interesse público, também fora do circuito consolidado | Duas empresas somam metade da renúncia de 2025; energia e gás, 52%. Execução de 68% na RMGV e 63% no interior. Recorrentes captam mais (71% contra 57%) | Contestada |

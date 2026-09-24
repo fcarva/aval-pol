@@ -27,7 +27,7 @@ Avalia-se a política **como ela está**.
 | `ferramentas/academic-research-skills/` | Cópia do ARS (imbad0202); skills instaladas em `.claude/skills/` |
 | `notas/` | Sínteses: `disciplina/`, `politica/`, `literatura/`, `dados/`, `desenho/` |
 | `analise/` | Scripts Python, `tabelas/`, `figuras/` |
-| `artigo/` | Rascunhos do mini artigo e versão final |
+| `artigo/` | Mini artigo: `rascunho-artigo.md` é a fonte única do texto; `gerar_docx.py` gera o Word e `gerar_tex.py` gera `latex/artigo.tex` (XeLaTeX; `--pdf` compila e confere as 15 páginas); `auditoria/` confere dados e referências no .md |
 
 ## Regras herdadas do licc.gov — valem para o artigo
 

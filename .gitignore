@@ -7,3 +7,11 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 ~$*.docx
+# Auxiliares do LaTeX (artigo/latex/); o PDF compilado já cai em *.pdf
+artigo/latex/*.aux
+artigo/latex/*.log
+artigo/latex/*.fls
+artigo/latex/*.fdb_latexmk
+artigo/latex/*.out
+artigo/latex/*.xdv
+artigo/latex/*.synctex.gz
