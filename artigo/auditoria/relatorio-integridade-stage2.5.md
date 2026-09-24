@@ -147,7 +147,33 @@ feita. A redação corrigida diz o que foi localizado.
 
 Preenchido na conclusão da rodada 2.
 
-## 8. Rede: como as fontes foram recuperadas
+## 8. O que o repositório licc.gov acrescentou
+
+Clonado em 24/09/2026 (`fcarva/licc.gov`, ramo `claude/licc-cultura-dashboard-hfgv61`, 15 commits, último
+78163a4). A documentação já estava copiada em `licc-gov/` e sintetizada em
+`notas/politica/02-licc-gov-sintese.md`; o que era novo está no histórico do git e no código das ferramentas:
+
+- **Data da transcrição.** A lista de habilitados entrou no licc.gov em 03/09/2026 (commit 78163a4) e o anexo
+  de captados em 02/09/2026 (acb3530). A página da SECULT informa atualização da lista em 10/09/2026. A
+  referência do artigo dizia "Acesso em: 23 set. 2026" → corrigida para 3 set. 2026, com nota de que os
+  status podem ter mudado na versão de 10/09 (I-23).
+- **Lotes.** A SECULT publicou ao menos seis listas "ANO 2025" (28, 33, 35, 37, 41 e 74 projetos), porque a
+  comissão é permanente e habilita ao longo do ano (commit 4d4d664; `docs/pipeline.md`). Isso reforça que
+  "habilitado", na lista, é decisão da comissão — o que, pela instrução de 2025, ocorria depois de reunir
+  termos de compromisso de patrocínio; a página da instrução de 2024 também traz o modelo "Anexo VIII –
+  Termo de Compromisso de Patrocínio" (`dados/fontes_web/paginas/secult_in_2024.txt`). É evidência a favor da
+  segunda leitura de I-04 (grupo de comparação com patrocínio parcial), não prova.
+- **Empresas.** O licc.gov conta 28 "empresas"; esta análise conta 26 por raiz de CNPJ (46 estabelecimentos).
+  O artigo passa a declarar a definição (I-24).
+- **Cotas na captação (I-22, grave).** O leitor de captados do licc.gov (`tools/anexos-secult/extrair-captados.mjs`,
+  l. 147-170 e 408-434), aferido no próprio documento, registra que o anexo "RECURSO FINANCEIRO CAPTADO 2025" é
+  seccionado por cota (ex.: "IV - 50% serão destinados aos demais projetos. Valor: R$ 12.500.000,00") e imprime
+  um "Total Captado" por cota e um geral. Logo, em 2025 a captação por cota **é publicada**, e o artigo dizia
+  que o cumprimento das cotas "não é apurável com o que se publica" (C46, C61). Os §§ 1º e 2º do art. 18
+  (migração para a cota IV e remanejamento a critério da SECULT) impedem afirmar descumprimento, mas não
+  impedem medir quanto cada reserva captou.
+
+## 9. Rede: como as fontes foram recuperadas
 
 A sessão em nuvem só alcança o GitHub e os registros de pacotes; o Firecrawl ficou sem créditos. O relé
 `.github/workflows/buscar-fontes.yml` roda `analise/rede/buscar_fontes.py` num runner do GitHub Actions

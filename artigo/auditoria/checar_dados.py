@@ -63,6 +63,7 @@ deff = ler(TAB / "05_poder_deff_proponente.csv")
 mun_did = ler(TAB / "05_poder_mde_municipal_did.csv")
 ilustr = ler(TAB / "licc_emd_ilustrativo.csv")
 capt = ler(TAB / "licc_captados_2025_totais.csv").iloc[0]
+capt_res = ler(TAB / "03_captados_resumo.csv").set_index("indicador")["valor"]
 teto = ler(EXT / "licc_teto_vs_icms.csv").set_index("ano_teto")
 munic = ler(EXT / "munic2021_cultura_es_resumo.csv").set_index(["item", "grupo"])
 siic = ler(EXT / "siic_uf.csv")
@@ -191,15 +192,16 @@ CHECAGENS = [
     ("D28", "14 municípios do interior não tiveram nenhum projeto habilitado",
      f"{int(rmgv.loc['Interior', 'municipios_sem_presenca'])} municípios do interior"
      + ("" if rmgv.loc["RMGV", "municipios_sem_presenca"] == 0 else " [RMGV também]"), T + "03_territorio_rmgv_interior.csv"),
-    ("D29", "maior empresa (distribuidora de energia) | 26; 44% |",
+    ("D29", "Empresas (raiz do CNPJ); maior empresa (distribuidora de energia) | 26; 44% |",
      f"{int(float(patr['empresas']))}; {pct(float(patr['CR1']))}", T + "03_patrocinadores_concentracao.csv"),
     ("D30", "parcela de energia e gás | 2; 52% |",
      f"{int(float(patr['empresas_para_metade']))}; {pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}",
      T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
-    ("D31", "em 2025, 26 patrocinadores, dos quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",
-     f"{int(float(patr['empresas']))} patrocinadores, dos quais a distribuidora de energia respondeu por {pct(float(patr['CR1']))} da renúncia, "
-     f"e empresas de energia e gás, serviços regulados, por {pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}",
-     T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
+    ("D31", "em 2025, 26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",
+     f"{int(float(patr['empresas']))} empresas patrocinadoras ({int(capt_res['cnpjs_estabelecimento'])} estabelecimentos), das quais a distribuidora "
+     f"de energia respondeu por {pct(float(patr['CR1']))} da renúncia, e empresas de energia e gás, serviços regulados, por "
+     f"{pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}",
+     T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv; 03_captados_resumo.csv"),
     ("D32", "projetos com um único município de execução (74% do valor autorizado)",
      pct(float(str(terr["cobertura_valor_atribuivel"]).split(";")[1].split()[0])), T + "03_territorio_indicadores.csv"),
     ("D33", "o retrato territorial cobre 74% do valor",

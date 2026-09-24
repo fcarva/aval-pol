@@ -27,9 +27,9 @@ D25,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"entre os 78 mu
 D26,CONFERE,"é 0,88, acima do Gini da população (0,64) e do PIB (0,75)",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88, acima do Gini da população (0,64) e do PIB (0,75)"
 D27,CONFERE,14,analise/tabelas/03_territorio_rmgv_interior.csv,Municípios sem nenhum projeto habilitado em 2022-2026 | 14 |
 D28,CONFERE,14 municípios do interior,analise/tabelas/03_territorio_rmgv_interior.csv,14 municípios do interior não tiveram nenhum projeto habilitado
-D29,CONFERE,26; 44%,analise/tabelas/03_patrocinadores_concentracao.csv,maior empresa (distribuidora de energia) | 26; 44% |
+D29,CONFERE,26; 44%,analise/tabelas/03_patrocinadores_concentracao.csv,Empresas (raiz do CNPJ); maior empresa (distribuidora de energia) | 26; 44% |
 D30,CONFERE,2; 52%,analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,parcela de energia e gás | 2; 52% |
-D31,CONFERE,"26 patrocinadores, dos quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,"em 2025, 26 patrocinadores, dos quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%"
+D31,CONFERE,"26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv; 03_captados_resumo.csv,"em 2025, 26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%"
 D32,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,projetos com um único município de execução (74% do valor autorizado)
 D33,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,o retrato territorial cobre 74% do valor
 D34,CONFERE,78% contra 27% no ciclo 2024,analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv,78% contra 27% no ciclo 2024
