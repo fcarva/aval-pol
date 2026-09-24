@@ -1,7 +1,8 @@
 status,doi,referencia,problemas,titulo_fonte,periodico_fonte,ano_fonte,fonte
+VERIFIED,10.1108/JSMA-04-2018-0029,"ALCÂNTARA, Jessica Nunes de; BENEDICTO, Gideon Carvalho de; SILVA, Sabrina Soares da. Poss",,Possible key factors for Brazilian publicly traded companies to adopt a sponsorship strategy,Journal of Strategy and Management,2019,Crossref
 VERIFIED,10.1080/01621459.1996.10476902,"ANGRIST, Joshua D.; IMBENS, Guido W.; RUBIN, Donald B. Identification of causal effects us",,Identification of Causal Effects Using Instrumental Variables,Journal of the American Statistical Association,1996,Crossref
-sem_doi,,"BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, ",,,,,
 VERIFIED,10.1162/rest_a_00716,"BAIRD, Sarah; BOHREN, J. Aislinn; McINTOSH, Craig; ÖZLER, Berk. Optimal design of experime",,Optimal Design of Experiments in the Presence of Interference,The Review of Economics and Statistics,2018,Crossref
+sem_doi,,"BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, ",,,,,
 sem_doi,,"BAUMOL, William J.; BOWEN, William G. **Performing arts**: the economic dilemma. New York:",,,,,
 sem_doi,,"BELEM, Marcela Purini; DONADONE, Julio Cesar. A Lei Rouanet e a construção do ""mercado de ",,,,,
 VERIFIED,10.1257/aer.20180615,"BERTRAND, Marianne; BOMBARDINI, Matilde; FISMAN, Raymond; TREBBI, Francesco. Tax-exempt lo",,Tax-Exempt Lobbying: Corporate Philanthropy as a Tool for Political Influence,American Economic Review,2020,Crossref
@@ -13,6 +14,7 @@ sem_doi,,BRASIL. Secretaria do Tesouro Nacional. **SICONFI**: Declaração de Co
 sem_doi,,BRASIL. Ministério da Cultura. **SALIC**: API de dados abertos (projetos e incentivadores ,,,,,
 VERIFIED,10.1111/j.0275-1100.2004.02402006.x,"BROOKS, A. C. In search of true public arts support. **Public Budgeting & Finance**, v. 24",,In Search of True Public Arts Support,Public Budgeting & Finance,2004,Crossref
 VERIFIED,10.1016/j.regsciurbeco.2019.06.002,"BUTTON, Patrick. Do tax incentives affect business location and economic development? Evid",,Do tax incentives affect business location and economic development? Evidence from state film incentives,Regional Science and Urban Economics,2019,Crossref
+VERIFIED,10.1108/INMR-11-2020-0167,"COLOMBO, Daniel Gama e; CRUZ, Hélio Nogueira da. Impact assessment of innovation tax incen",,Impact assessment of innovation tax incentives in Brazil,Innovation & Management Review,2023,Crossref
 VERIFIED,10.1590/0034-7612162254,"COSTA, Camila Furlan da; MEDEIROS, Igor Baptista de Oliveira; BUCCO, Guilherme Brandelli. ",,O financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista,Revista de Administração Pública,2017,Crossref
 VERIFIED,10.1332/251569119X15675896589688,"DEKKER, Erwin; RODRIGUES, Ana Carolina. The political economy of Brazilian cultural policy",,The political economy of Brazilian cultural policy: a case study of the Rouanet Law,Journal of Public Finance and Public Choice,2019,Crossref
 VERIFIED,10.1080/19439342.2016.1244555,"DJIMEU, Eric W.; HOUNDOLO, Deo-Gracias. Power calculation for causal inference in social s",,Power calculation for causal inference in social science: sample size and minimum detectable effect determination,Journal of Development Effectiveness,2016,Crossref
@@ -50,4 +52,4 @@ VERIFIED,10.24302/drd.v14.5320,"TEIXEIRA, Lusvânio Carlos; XAVIER, Wescley Silv
 VERIFIED,10.1177/0275074016651958,"THOM, Michael. Lights, camera, but no action? Tax and economic development lessons from st",,"Lights, Camera, but No Action? Tax and Economic Development Lessons From State Motion Picture Incentive Programs",The American Review of Public Administration,2018,Crossref
 sem_doi,,"THROSBY, David. The production and consumption of the arts: a view of cultural economics. ",,,,,
 VERIFIED,10.22617/TCS179188-2,"WHITE, Howard; RAITZER, David A. **Impact evaluation of development interventions**: a pra",,Impact Evaluation of Development Interventions: A Practical Guide,,2017,Crossref
-doi_nao_coletado,10.1093/wbro/lky010,"WILLIAMS, Martin J. External validity and policy adaptation: from impact evaluation to pol",,,,,
+VERIFIED,10.1093/wbro/lky010,"WILLIAMS, Martin J. External validity and policy adaptation: from impact evaluation to pol",,External Validity and Policy Adaptation: From Impact Evaluation to Policy Design,The World Bank Research Observer,2020,Crossref

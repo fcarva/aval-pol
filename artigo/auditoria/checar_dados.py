@@ -202,9 +202,9 @@ CHECAGENS = [
     ("D64", "as reservas I e IV captaram exatamente o valor reservado",
      "exatamente" if all(abs(cota.loc[(2025, k), "captado_sobre_reservado"] - 1) < 1e-9 for k in ("I", "IV")) else "?",
      T + "03f_captados_por_cota.csv"),
-    ("D65", "a Portaria SEFAZ nº 09-R fixou R\\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\\$ 15 milhões disponíveis e R\\$ 11,5 milhões em termos validados",
-     f"fixou R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões; o anexo de captação de 2022 da SECULT informa R\\$ "
-     f"{num(anu.loc[2022, 'montante_declarado'] / 1e6)} milhões disponíveis e R\\$ {num(anu.loc[2022, 'total_validado'] / 1e6, 1)} milhões",
+    ("D65", "a Portaria SEFAZ nº 09-R fixou R\\$ 10 milhões, e o anexo de captação da SECULT informa R\\$ 15 milhões disponíveis (R\\$ 11,5 milhões validados)",
+     f"fixou R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões, e o anexo de captação da SECULT informa R\\$ "
+     f"{num(anu.loc[2022, 'montante_declarado'] / 1e6)} milhões disponíveis (R\\$ {num(anu.loc[2022, 'total_validado'] / 1e6, 1)} milhões",
      T + "03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv"),
     ("D16", "(2022; 2023; 2024) | 16%; 30%; 45% |",
      "; ".join(pct(S[c]["taxa_expiracao_sobre_resolvidos"]) for c in S), T + "03_status_por_ciclo.csv"),

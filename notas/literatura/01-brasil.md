@@ -296,3 +296,68 @@
 - Capítulo do CMAP sobre a Rouanet (item 2.10): autores e páginas.
 - Olivieri (2004), Calabre (2009) e Rubim (2007): paginação, ISBN e editora conferidos no catálogo.
 - Estudo FGV de 2018 (R$ 1,59 por R$ 1): relatório primário.
+
+## 11. Lista externa de bibliografia brasileira (24/09/2026)
+
+Os autores colaram uma seleção feita por outra ferramenta de busca, com 25 referências numeradas e uma síntese
+sobre "mecanismos da concentração em grandes patrocinadores". Conferimos os DOIs pelo relé
+(`dados/fontes_web/dois.txt` → `dados/fontes_web/doi/*.json`, Crossref e OpenAlex, com resumo).
+
+**Achados sobre a lista:**
+
+- **Circularidade.** O item que a lista põe em primeiro lugar, "Quem escolhe o que o Estado financia? Avaliação do
+  desenho da Lei de Incentivo à Cultura Capixaba…" (refs. 2, 7, 49, 50 e 60-63 da lista), é o **título deste
+  artigo**. A ferramenta leu o nosso rascunho e o devolveu como literatura. Não é fonte citável, e os números
+  atribuídos a ele (duas empresas com metade da renúncia de 2025, racionamento pela ordem de chegada) são nossos.
+- **Já no artigo:** Dekker e Rodrigues (2019), Costa, Medeiros e Bucco (2017), Belem e Donadone (2013), por
+  outra via (itens 1.5, 1.7, 1.8).
+- **Metadados divergentes** (Crossref/OpenAlex contra a lista):
+  - Colombo e Cruz: online 2021, v. 20, n. 1, 2023;
+  - Pontes de Araujo e Villarroya: online 2018, v. 26, n. 1, 2020;
+  - Pereira, Amaral e Silva e Brito: online 2023, v. 18, n. 2, 2025;
+  - Dias e Espírito Santo: 2023, não 2022;
+  - Albernaz: 2020, não 2023;
+  - Memória e Caminha: 2022, não 2021;
+  - Silva (2014) e Vaz (2018) têm título original em português;
+  - o item 11 (Rocha, 2022) traz só o DOI do fascículo (10.15448/1980-864X.2022.1) e fica não verificado;
+  - o item 59 (Zanghelini e Andrade, 2015) não tem DOI.
+- **A síntese de mecanismos** repete, em grande parte, a teoria da mudança deste artigo (delegação da escolha,
+  crédito integral, racionamento no teto), atribuindo-a ao nosso rascunho. Ela exagera em dois pontos:
+  - dá "confiança alta" ao que o artigo trata como premissa **contestada** (H1a);
+  - fala em "captura territorial" na LICC, mas a diferença RMGV × interior explica só 7% da desigualdade entre
+    municípios (Theil), e a parcela da RMGV caiu quando a busca de patrocinador passou para antes da comissão.
+
+**O que entrou no artigo** (três referências verificadas; a terceira saiu depois, por falta de espaço):
+
+| Referência | DOI | O que o resumo sustenta | Onde |
+| --- | --- | --- | --- |
+| Alcântara, Benedicto e Silva (2019), *Journal of Strategy and Management*, 12(4), 429-446 | 10.1108/JSMA-04-2018-0029 | Regressão logística com companhias abertas (Economatica): porte e concentração do setor se associam positivamente ao patrocínio cultural e esportivo. | §4.2, Escolha da empresa (H1a). Conversa com a LICC, onde energia e gás, setores regulados e concentrados, somam 52% da renúncia de 2025. |
+| Colombo e Cruz (2023), *Innovation & Management Review*, 20(1), 28-42 | 10.1108/INMR-11-2020-0167 | Lei do Bem avaliada com PSM e DiD na PINTEC 2008/2011 (13.706 empresas). Há efeito em gasto de P&D, pesquisadores e emprego; não há em gasto inovativo total, vendas de produtos novos nem receita. | §3, Evidência causal: precedente brasileiro de avaliação causal de gasto tributário. §5.2, H1b: o desenho DiD com pareamento. |
+| Santos, Juchem e Maduro (2017), *Journal of Physical Education*, 28(1), e2834 | 10.4025/jphyseduc.v28i1.2834 | Lei de Incentivo ao Esporte, 2007-2011: a lei manteve e ampliou a vantagem das regiões mais desenvolvidas. | Saiu para manter 15 páginas: repete o achado regional da Rouanet. Candidata se sobrar espaço. |
+
+Também está no artigo o **mecanismo de desenho** sugerido pela pergunta da lista: o limite por patrocinador é
+uma fração do ICMS recolhido (Dec. 5.035-R/2021, art. 10, § 1º). As maiores contribuintes têm, por isso,
+mais espaço para patrocinar (§4.2; ver `notas/politica/01-desenho-legal.md`, § 4).
+
+**Conferidas e não usadas.** Todas existem, com resumo lido.
+
+- *Tangenciais ao desenho da LICC:*
+  - Kaveski, Lopes e Beuren (2020): Lei do Bem e desempenho, regressão logística sem contrafactual;
+  - Memória e Caminha (2022): Lei do Bem e concentração regional.
+- *Moldura histórica, fora do espaço do mini artigo:*
+  - Pontes de Araujo e Villarroya (2020);
+  - Rubim e Rocha (2018);
+  - Silva (2014);
+  - Gomes e Zanetti (2022);
+  - Seoane (2017);
+  - Jesus e Kamlot (2017);
+  - Dias e Espírito Santo (2023);
+  - Albernaz (2020);
+  - Lopes e Sena (2026).
+- *Avaliação de políticas em geral, já coberta pelo material da disciplina:*
+  - Bonifácio e Motta (2021);
+  - Lima e Mendes (2021);
+  - Crumpton *et al.* (2016);
+  - Vaz (2018).
+- *Insumo-produto, sem contrafactual:*
+  - Pereira, Amaral e Silva e Brito (2025).
