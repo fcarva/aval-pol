@@ -1,0 +1,1499 @@
+{
+ "schema_version": "claim-registry/1.0",
+ "draft_raw_sha256": "97817ce68cbe07ed82db09412c607f8a44426175bd2428b19a978c5a10aa4ab8",
+ "claims": [
+  {
+   "claim_id": "C01",
+   "claim_text": "a política não declara problema, metas nem indicadores",
+   "draft_span": {
+    "start_byte": 758,
+    "end_byte": 814
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021a",
+    "esp2021b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "Resumo",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C02",
+   "claim_text": "que a demanda habilitada supera o teto anual de renúncia e o racionamento é feito pelas empresas patrocinadoras",
+   "draft_span": {
+    "start_byte": 816,
+    "end_byte": 929
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "Resumo",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C03",
+   "claim_text": "que a captação favorece projetos que pedem o teto por projeto, proponentes recorrentes e a Região Metropolitana da Grande Vitória, onde fica 67% do valor atribuível a um município",
+   "draft_span": {
+    "start_byte": 931,
+    "end_byte": 1116
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "Resumo",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C04",
+   "claim_text": "duas empresas respondem por metade da renúncia de 2025",
+   "draft_span": {
+    "start_byte": 1124,
+    "end_byte": 1179
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "Resumo",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C05",
+   "claim_text": "mostramos que o universo disponível detecta efeitos a partir de 0,25 a 0,45 desvio-padrão.",
+   "draft_span": {
+    "start_byte": 1368,
+    "end_byte": 1460
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "Resumo",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "numerical",
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C06",
+   "claim_text": "Em 2021, o Espírito Santo criou um mecanismo estadual de incentivo fiscal à cultura, descrito pela própria Secretaria da Cultura como iniciativa inédita no estado.",
+   "draft_span": {
+    "start_byte": 1621,
+    "end_byte": 1788
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C07",
+   "claim_text": "A Lei estadual nº 11.246/2021 incluiu na lei do ICMS um crédito presumido igual ao valor que o contribuinte destina a projetos culturais credenciados pela SECULT, com efeitos a partir de 2022 (ESPÍRITO SANTO, 2021a).",
+   "draft_span": {
+    "start_byte": 1789,
+    "end_byte": 2008
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C08",
+   "claim_text": "A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu depressa: o teto anual de renúncia passou de R\\$ 10 milhões em 2022 para R\\$ 31 milhões em 2026, e 463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos.",
+   "draft_span": {
+    "start_byte": 2009,
+    "end_byte": 2312
+   },
+   "claim_kinds": [
+    "quantitative",
+    "trend"
+   ],
+   "ref_slugs": [
+    "esp2021b",
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C09",
+   "claim_text": "Em 2025, 63 projetos captaram exatamente R\\$ 25.000.000,00, o teto do ano.",
+   "draft_span": {
+    "start_byte": 2313,
+    "end_byte": 2387
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C10",
+   "claim_text": "O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2023).",
+   "draft_span": {
+    "start_byte": 2873,
+    "end_byte": 3088
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "ibge2023"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C11",
+   "claim_text": "Em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da população do interior; metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal (IBGE, 2022).",
+   "draft_span": {
+    "start_byte": 3135,
+    "end_byte": 3404
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "ibge2022"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C12",
+   "claim_text": "Primeiro, é gasto público sem passar pelo orçamento: a renúncia equivale a 14% a 21% do gasto estadual direto na função cultura (Tabela 1).",
+   "draft_span": {
+    "start_byte": 3801,
+    "end_byte": 3946
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C13",
+   "claim_text": "Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que torna a política exposta às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019).",
+   "draft_span": {
+    "start_byte": 3947,
+    "end_byte": 4185
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "silva2017",
+    "dekker2019"
+   ],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C14",
+   "claim_text": "Terceiro, a política é nova, muda de regra a cada ano e nunca foi avaliada: não localizamos nenhum estudo sobre ela.",
+   "draft_span": {
+    "start_byte": 4186,
+    "end_byte": 4305
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "1 Introdução",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "disputed"
+   ]
+  },
+  {
+   "claim_id": "C15",
+   "claim_text": "O proponente, pessoa jurídica com finalidade cultural e sede no estado há dois anos, inscreve o projeto na SECULT.",
+   "draft_span": {
+    "start_byte": 4865,
+    "end_byte": 4981
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C16",
+   "claim_text": "A empresa deposita o valor numa conta do projeto e compensa até 100% dele com o ICMS devido (ESPÍRITO SANTO, 2021b, art. 10). Não há contrapartida financeira da empresa.",
+   "draft_span": {
+    "start_byte": 5088,
+    "end_byte": 5261
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C17",
+   "claim_text": "A segunda é a **instabilidade**: a SECULT edita uma instrução normativa por ano e, alegando esgotamento do teto, fechou as inscrições no meio de 2024 e alterou o fluxo de habilitação no meio de 2025.",
+   "draft_span": {
+    "start_byte": 7408,
+    "end_byte": 7614
+   },
+   "claim_kinds": [
+    "categorical",
+    "trend"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C18",
+   "claim_text": "Até maio de 2025, o parecer favorável gerava um certificado de aptidão e o proponente saía à procura de patrocinador.",
+   "draft_span": {
+    "start_byte": 7615,
+    "end_byte": 7737
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C18b",
+   "claim_text": "Desde então, o projeto só chega à comissão com uma carta de intenção de patrocínio (SECULT, 2025b).",
+   "draft_span": {
+    "start_byte": 7738,
+    "end_byte": 7844
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C19",
+   "claim_text": "A terceira é a **pouca informação publicada**: os anexos não trazem o CNPJ do proponente, a linha de financiamento, a sede, o rateio entre municípios, os inscritos não habilitados nem qualquer indicador de resultado.",
+   "draft_span": {
+    "start_byte": 7845,
+    "end_byte": 8067
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C20",
+   "claim_text": "Feld, O'Hare e Schuster (1983) chamaram os contribuintes americanos de \"mecenas apesar de si mesmos\"; Schuster (2006) sistematiza os instrumentos; Brooks (2004) mostra que, nos Estados Unidos, cada dólar de apoio federal direto às artes vem acompanhado de cerca de 14 dólares de renúncia, que servem a públicos diferentes.",
+   "draft_span": {
+    "start_byte": 8296,
+    "end_byte": 8623
+   },
+   "claim_kinds": [
+    "categorical",
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "feld1983",
+    "schuster2006",
+    "brooks2004"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C21",
+   "claim_text": "A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem público ou meritório da cultura (THROSBY, 1994).",
+   "draft_span": {
+    "start_byte": 8624,
+    "end_byte": 8817
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "baumol1966",
+    "throsby1994"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C22",
+   "claim_text": "Os estudos documentam concentração regional em São Paulo e no Rio de Janeiro, maior que a do PIB (SILVA, 2017; GUIMARÃES, 2020; TEIXEIRA; XAVIER; FARIA, 2024), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e a formação de um \"mercado de patrocínios\" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013).",
+   "draft_span": {
+    "start_byte": 9054,
+    "end_byte": 9428
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "silva2017",
+    "guimaraes2020",
+    "teixeira2024",
+    "costa2017",
+    "belem2013"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C23",
+   "claim_text": "Dekker e Rodrigues (2019) concluem que a lei beneficiou sobretudo projetos já bem-sucedidos e que não fica claro qual falha de mercado ela corrige.",
+   "draft_span": {
+    "start_byte": 9429,
+    "end_byte": 9578
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "dekker2019"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C24",
+   "claim_text": "O Tribunal de Contas da União recomendou que as renúncias tenham objetivos, indicadores e metas (BRASIL, 2014) e que não financiem projetos capazes de atrair investimento privado sem incentivo (BRASIL, 2016).",
+   "draft_span": {
+    "start_byte": 9579,
+    "end_byte": 9790
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "tcu2014",
+    "tcu2016"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C25",
+   "claim_text": "Silva (2017) oferece o contraponto: a concentração convive com uma cauda longa de projetos pequenos, e faltam estudos sobre o efeito no acesso da população.",
+   "draft_span": {
+    "start_byte": 9791,
+    "end_byte": 9951
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "silva2017"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C26",
+   "claim_text": "Os motivos das empresas vão além do mérito cultural: imagem, relações com a cadeia de fornecedores, *rent-seeking* e preferências dos gestores (O'HAGAN; HARVEY, 2000).",
+   "draft_span": {
+    "start_byte": 9952,
+    "end_byte": 10125
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "ohagan2000"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C27",
+   "claim_text": "Não localizamos avaliação causal de incentivo cultural no Brasil, nem avaliação acadêmica de leis estaduais de incentivo via ICMS.",
+   "draft_span": {
+    "start_byte": 10150,
+    "end_byte": 10286
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "disputed"
+   ]
+  },
+  {
+   "claim_id": "C28",
+   "claim_text": "As avaliações com adoção escalonada, variáveis instrumentais e controle sintético encontram efeitos pequenos e concentrados na atividade incentivada — mais filmagens de séries, pouco ou nenhum emprego adicional — e nenhum efeito macroeconômico (THOM, 2018; BUTTON, 2019; BRADBURY, 2020).",
+   "draft_span": {
+    "start_byte": 10415,
+    "end_byte": 10714
+   },
+   "claim_kinds": [
+    "categorical",
+    "causal"
+   ],
+   "ref_slugs": [
+    "thom2018",
+    "button2019",
+    "bradbury2020"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "causal"
+   ]
+  },
+  {
+   "claim_id": "C29",
+   "claim_text": "Grandes eventos culturais têm efeitos agregados modestos ou transitórios (GOMES; LIBRERO-CANO, 2018; BRONZINI; MOCETTI; MONGARDINI, 2020).",
+   "draft_span": {
+    "start_byte": 10715,
+    "end_byte": 10855
+   },
+   "claim_kinds": [
+    "causal"
+   ],
+   "ref_slugs": [
+    "gomes2018",
+    "bronzini2020"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "causal"
+   ]
+  },
+  {
+   "claim_id": "C30",
+   "claim_text": "Sobre a interação entre recurso público e privado, os resultados variam de leve *crowding-in* a independência (SMITH, 2007; BORGONOVI; O'HARE, 2004).",
+   "draft_span": {
+    "start_byte": 10856,
+    "end_byte": 11009
+   },
+   "claim_kinds": [
+    "causal"
+   ],
+   "ref_slugs": [
+    "smith2007",
+    "borgonovi2004"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "causal"
+   ]
+  },
+  {
+   "claim_id": "C31",
+   "claim_text": "E os desenhos críveis exploram candidatos não escolhidos como grupo de comparação: Gomes e Librero-Cano (2018) comparam cidades que sediaram a Capital Europeia da Cultura com cidades candidatas.",
+   "draft_span": {
+    "start_byte": 11090,
+    "end_byte": 11288
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "gomes2018"
+   ],
+   "writer_anchors": [],
+   "paper_section": "3 Revisão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C32",
+   "claim_text": "O decreto declara um objetivo de produto, \"estimular a realização de projetos culturais\", e lista onze finalidades de \"interesse público\" que um projeto deve atender, **uma ou mais**. Essas finalidades definem quem é elegível, não o que a política pretende alcançar (ESPÍRITO SANTO, 2021b, art. 3º).",
+   "draft_span": {
+    "start_byte": 16596,
+    "end_byte": 16905
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C33",
+   "claim_text": "Não há meta, magnitude esperada nem indicador, o que falha o critério de que programas declarem os resultados e a magnitude da contribuição esperada (BARROS; LIMA, 2017) e o padrão de governança de renúncias do TCU (BRASIL, 2014).",
+   "draft_span": {
+    "start_byte": 16906,
+    "end_byte": 17144
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "barros2017",
+    "tcu2014"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C34",
+   "claim_text": "O valor autorizado de cada ciclo foi de 1,1 a 1,9 vez o teto do ano em que o ciclo capta, e em 2025 a captação esgotou o teto ao centavo.",
+   "draft_span": {
+    "start_byte": 17225,
+    "end_byte": 17364
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C35",
+   "claim_text": "O excesso de demanda é racionado pelas empresas, não pela SECULT: entre 2022 e 2024, a fração de habilitados cujo prazo de captação expirou subiu de 16% para 45% à medida que a habilitação quase dobrou.",
+   "draft_span": {
+    "start_byte": 17365,
+    "end_byte": 17576
+   },
+   "claim_kinds": [
+    "quantitative",
+    "trend",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C36",
+   "claim_text": "Primeiro, a captação favorece projetos maiores: dentro de cada ciclo, projetos que pediram exatamente o teto de R\\$ 500 mil foram executados com mais frequência que os de até R\\$ 400 mil — 78% contra 27% no ciclo 2024 (Figura 1a).",
+   "draft_span": {
+    "start_byte": 17802,
+    "end_byte": 18038
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C37",
+   "claim_text": "A parcela de pedidos no teto exato triplicou entre 2022 e 2026, sinal de que o valor pedido responde à regra e não só ao custo do projeto.",
+   "draft_span": {
+    "start_byte": 18039,
+    "end_byte": 18180
+   },
+   "claim_kinds": [
+    "quantitative",
+    "trend",
+    "causal"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "causal"
+   ]
+  },
+  {
+   "claim_id": "C38",
+   "claim_text": "Segundo, a carteira se renova pouco: nos ciclos 2025 e 2026, mais da metade dos proponentes já tinha sido habilitada antes, e os 17% que aparecem em três ou mais ciclos ficam com 47% do valor.",
+   "draft_span": {
+    "start_byte": 18181,
+    "end_byte": 18375
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C39",
+   "claim_text": "Terceiro, o financiamento vem de poucas empresas: em 2025, 26 patrocinadores, dos quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%.",
+   "draft_span": {
+    "start_byte": 18376,
+    "end_byte": 18582
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C40",
+   "claim_text": "O limite por patrocinador, proporcional ao ICMS devido, dá aos grandes contribuintes mais espaço de patrocínio em valor absoluto.",
+   "draft_span": {
+    "start_byte": 18583,
+    "end_byte": 18715
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "esp2021b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C41",
+   "claim_text": "A RMGV tem 49% da população e fica com 67% do valor atribuível a um município; Vitória, com 8% da população, fica com 48% (Figura 1b).",
+   "draft_span": {
+    "start_byte": 18749,
+    "end_byte": 18890
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C42",
+   "claim_text": "O Gini do valor entre os 78 municípios é 0,88, acima do Gini da população (0,64) e do PIB (0,75), e 14 municípios do interior não tiveram nenhum projeto habilitado em cinco ciclos.",
+   "draft_span": {
+    "start_byte": 18891,
+    "end_byte": 19077
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C43",
+   "claim_text": "A reserva de 10% do teto para projetos fora da RMGV age sobre a menor parte dessa desigualdade: na decomposição de Theil, a diferença entre RMGV e interior explica só 7% do total, e o restante está dentro dos grupos.",
+   "draft_span": {
+    "start_byte": 19078,
+    "end_byte": 19299
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2025a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C44",
+   "claim_text": "O padrão é o inverso do gasto municipal direto com cultura, maior por habitante no interior (R\\$ 93) que na RMGV (R\\$ 59) em 2025.",
+   "draft_span": {
+    "start_byte": 19300,
+    "end_byte": 19432
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C45",
+   "claim_text": "A maior reserva do teto, 30%, vai a eventos com mais de dez anos de existência, justamente os de maior chance de financiamento sem incentivo — uma tensão com o critério do TCU (BRASIL, 2016) que é hipótese a testar, não descumprimento apurado.",
+   "draft_span": {
+    "start_byte": 19679,
+    "end_byte": 19930
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025a",
+    "tcu2016"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "disputed"
+   ]
+  },
+  {
+   "claim_id": "C46",
+   "claim_text": "O que a SECULT publica cobre insumos e produtos (valores autorizados, status, cota a partir de 2024, local de execução, captação de 2025). Não cobre resultados. As contrapartidas de acesso são escolhidas pelo proponente, conferidas projeto a projeto e nunca agregadas. A estimativa de público é autodeclarada. Não há chave que ligue proponentes a bases de emprego ou de outras fontes de fomento, e as regras mudaram três vezes em quatro anos. Pelas normas publicadas, também não é possível apurar se as cotas foram cumpridas.",
+   "draft_span": {
+    "start_byte": 19951,
+    "end_byte": 20491
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C47",
+   "claim_text": "A regressão descontínua não se aplica, porque a habilitação não usa pontuação nem nota de corte, e o único limiar numérico (35% de patrocínio comprometido) é escolhido pelos próprios interessados.",
+   "draft_span": {
+    "start_byte": 21858,
+    "end_byte": 22067
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C48",
+   "claim_text": "A janela se restringe a 2022-2024 porque, desde maio de 2025, a habilitação exige carta de intenção de patrocínio, e \"habilitado\" e \"captou\" quase se confundem.",
+   "draft_span": {
+    "start_byte": 22730,
+    "end_byte": 22895
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C49",
+   "claim_text": "Com tratamento em datas diferentes e efeitos possivelmente heterogêneos, a regressão de efeitos fixos de duas vias pode ponderar mal os efeitos (GOODMAN-BACON, 2021).",
+   "draft_span": {
+    "start_byte": 22897,
+    "end_byte": 23065
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "goodmanbacon2021"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C50",
+   "claim_text": "O estudo de evento testa tendências anteriores, e a análise de sensibilidade de Rambachan e Roth (2023) mostra quanto a conclusão resiste a violações das tendências paralelas.",
+   "draft_span": {
+    "start_byte": 23354,
+    "end_byte": 23535
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "rambachan2023"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C51",
+   "claim_text": "O primeiro é um **diferenças em diferenças municipal**, com a primeira presença de projeto no município como tratamento escalonado (coortes de 39, 16, 3, 3 e 3 municípios entre 2022 e 2026, e 14 nunca tratados) e emprego e estabelecimentos culturais da RAIS como resultado.",
+   "draft_span": {
+    "start_byte": 23690,
+    "end_byte": 23969
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C52",
+   "claim_text": "Isso não altera a regra de alocação e identifica o efeito para os projetos na margem da captação (ANGRIST; IMBENS; RUBIN, 1996), com a ressalva de que, sob teto vinculante, o encorajado pode captar no lugar de outro.",
+   "draft_span": {
+    "start_byte": 24315,
+    "end_byte": 24536
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "angrist1996"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C53",
+   "claim_text": "A população são os 305 projetos habilitados nos ciclos 2022-2024, dos quais 293 já tinham situação resolvida (198 captaram e 95 tiveram o prazo expirado), de 199 proponentes.",
+   "draft_span": {
+    "start_byte": 24585,
+    "end_byte": 24765
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.3 População",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C54",
+   "claim_text": "Os anexos publicados não trazem o CNPJ do proponente, mas a SECULT o tem, porque a inscrição o exige.",
+   "draft_span": {
+    "start_byte": 24915,
+    "end_byte": 25019
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.3 População",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C55",
+   "claim_text": "Usamos a fórmula do efeito mínimo detectável (EMD) do material da disciplina, com resultado contínuo em desvios-padrão (σ = 1), α = 5% bicaudal e poder de 80% (DJIMEU; HOUNDOLO, 2016):",
+   "draft_span": {
+    "start_byte": 26199,
+    "end_byte": 26390
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "djimeu2016"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C56",
+   "claim_text": "em que $n$ = 293 projetos, $P$ = 0,676 é a fração tratada, $R^2$ é a variância explicada pela linha de base e pelas covariáveis, e o último termo é o efeito do desenho por haver, em média, $\\bar m$ = 1,47 projeto por proponente com correlação intraproponente $\\rho$ (ajustado pela dispersão do tamanho das carteiras).",
+   "draft_span": {
+    "start_byte": 26507,
+    "end_byte": 26836
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C57",
+   "claim_text": "O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão, que a literatura trata como moderados.",
+   "draft_span": {
+    "start_byte": 27850,
+    "end_byte": 27978
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical",
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C58",
+   "claim_text": "Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes (GELMAN; CARLIN, 2014).",
+   "draft_span": {
+    "start_byte": 28336,
+    "end_byte": 28456
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "gelman2014"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C59",
+   "claim_text": "A avaliação do desenho, feita com os dados oficiais, indica que a premissa central, a de que as empresas escolheriam projetos alinhados aos objetivos públicos, se sustenta mal.",
+   "draft_span": {
+    "start_byte": 29886,
+    "end_byte": 30065
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "6 Conclusão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C60",
+   "claim_text": "A captação favorece projetos que pedem o teto, proponentes recorrentes e a capital, e concentra-se em poucos patrocinadores de serviços regulados.",
+   "draft_span": {
+    "start_byte": 30066,
+    "end_byte": 30215
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "6 Conclusão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C61",
+   "claim_text": "As reservas do art. 18 atuam sobre a menor parte da desigualdade territorial, e o cumprimento delas não é apurável com o que se publica.",
+   "draft_span": {
+    "start_byte": 30216,
+    "end_byte": 30355
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "secult2025a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "6 Conclusão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion"
+   ]
+  },
+  {
+   "claim_id": "C62",
+   "claim_text": "A proposta de avaliação de impacto aproveita a janela de 2022-2024, em que a habilitação precedia a busca por patrocinador, para comparar quem captou com quem não captou dentro do mesmo filtro de mérito.",
+   "draft_span": {
+    "start_byte": 30778,
+    "end_byte": 30987
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "6 Conclusão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "headline_conclusion",
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C63",
+   "claim_text": "A conversão habilitado-captou usa a situação publicada como aproximação, a natureza dos proponentes foi inferida do nome, e o retrato territorial cobre 74% do valor.",
+   "draft_span": {
+    "start_byte": 31177,
+    "end_byte": 31347
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "6 Conclusão",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C64",
+   "claim_text": "As regras da política determinam o método (GERTLER *et al.*, 2018).",
+   "draft_span": {
+    "start_byte": 21649,
+    "end_byte": 21718
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "gertler2018"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C65",
+   "claim_text": "A lógica é a dos candidatos não escolhidos de Gomes e Librero-Cano (2018): todos passaram pelo mesmo filtro de mérito.",
+   "draft_span": {
+    "start_byte": 22607,
+    "end_byte": 22729
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "gomes2018"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C66",
+   "claim_text": "Por isso usamos o estimador de Callaway e Sant'Anna (2021) na versão duplamente robusta (SANT'ANNA; ZHAO, 2020), condicionando em características anteriores à habilitação que afetam a captação: ciclo, cota, valor pedido, natureza jurídica, RMGV ou interior e histórico no SALIC.",
+   "draft_span": {
+    "start_byte": 23066,
+    "end_byte": 23353
+   },
+   "claim_kinds": [
+    "categorical"
+   ],
+   "ref_slugs": [
+    "callaway2021",
+    "santanna2020"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.2 Identificação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C67",
+   "claim_text": "| R² = 0,3, ρ = 0 | 0,29 | 0,34 |",
+   "draft_span": {
+    "start_byte": 27248,
+    "end_byte": 27283
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C68",
+   "claim_text": "| R² = 0,5, ρ = 0 | 0,25 | 0,29 |",
+   "draft_span": {
+    "start_byte": 27284,
+    "end_byte": 27319
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C69",
+   "claim_text": "| R² = 0,5, ρ = 0,2 | 0,28 | 0,32 |",
+   "draft_span": {
+    "start_byte": 27320,
+    "end_byte": 27357
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C70",
+   "claim_text": "No desenho municipal, o EMD está em desvios-padrão do erro idiossincrático, e a faixa depende de um a cinco anos antes e de um a quatro depois e da autocorrelação do resultado (MCKENZIE, 2012).",
+   "draft_span": {
+    "start_byte": 27650,
+    "end_byte": 27848
+   },
+   "claim_kinds": [
+    "quantitative",
+    "categorical"
+   ],
+   "ref_slugs": [
+    "mckenzie2012"
+   ],
+   "writer_anchors": [],
+   "paper_section": "5.4 Poder",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "methods_critical"
+   ]
+  },
+  {
+   "claim_id": "C71",
+   "claim_text": "| Patrocinadores (2025) | Empresas; maior empresa (distribuidora de energia) | 26; 44% |",
+   "draft_span": {
+    "start_byte": 15659,
+    "end_byte": 15747
+   },
+   "claim_kinds": [
+    "quantitative"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL",
+   "high_impact_basis": [
+    "numerical"
+   ]
+  },
+  {
+   "claim_id": "C72",
+   "claim_text": "Fonte: elaboração própria a partir das normas citadas (ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2025a; 2026a).",
+   "draft_span": {
+    "start_byte": 7130,
+    "end_byte": 7241
+   },
+   "claim_kinds": [
+    "other_factual"
+   ],
+   "ref_slugs": [
+    "esp2021a",
+    "esp2021b",
+    "secult2025a",
+    "secult2026a"
+   ],
+   "writer_anchors": [],
+   "paper_section": "2 Caracterização",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C73",
+   "claim_text": "Fonte: elaboração própria, com base em Gertler *et al.* (2018), White e Raitzer (2017) e nas normas do Quadro 1.",
+   "draft_span": {
+    "start_byte": 13692,
+    "end_byte": 13807
+   },
+   "claim_kinds": [
+    "other_factual"
+   ],
+   "ref_slugs": [
+    "gertler2018",
+    "white2017"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.1 Teoria da mudança",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C74",
+   "claim_text": "Fonte: elaboração própria com base em SECULT (2026b), portarias de teto da SEFAZ, IBGE e SICONFI.",
+   "draft_span": {
+    "start_byte": 15830,
+    "end_byte": 15930
+   },
+   "claim_kinds": [
+    "other_factual"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL"
+  },
+  {
+   "claim_id": "C75",
+   "claim_text": "Fonte: elaboração própria com base em SECULT (2026b) e IBGE.",
+   "draft_span": {
+    "start_byte": 16274,
+    "end_byte": 16337
+   },
+   "claim_kinds": [
+    "other_factual"
+   ],
+   "ref_slugs": [
+    "secult2026b"
+   ],
+   "writer_anchors": [],
+   "paper_section": "4.2 Avaliação",
+   "selection_tier": "ALL"
+  }
+ ]
+}

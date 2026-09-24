@@ -4,12 +4,12 @@ D02,CONFERE,67%,analise/tabelas/03_territorio_rmgv_interior.csv,onde fica 67% do
 D03,CONFERE,duas,analise/tabelas/03_patrocinadores_concentracao.csv,duas empresas respondem por metade da renúncia de 2025
 D04,CONFERE,"0,25 a 0,45",analise/tabelas/05_poder_d1_proponente.csv,"detecta efeitos a partir de 0,25 a 0,45 desvio-padrão"
 D05,CONFERE,R\$ 10 milhões em 2022 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 10 milhões em 2022 para R\$ 31 milhões em 2026
-D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado),analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado)
+D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões,analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões
 D07,CONFERE,"63 projetos captaram exatamente R\$ 25.000.000,00",analise/tabelas/licc_captados_2025_totais.csv,"63 projetos captaram exatamente R\$ 25.000.000,00"
 D08,CONFERE,"4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª",dados/externos/siic_uf.csv,"ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação"
 D09,CONFERE,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",dados/externos/munic2021_cultura_es_resumo.csv,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%"
 D10,CONFERE,metade dos municípios do interior não tinha fundo municipal de cultura e só 16%,dados/externos/munic2021_cultura_es_resumo.csv,metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal
-D11,CONFERE,14% a 21%,"dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)",o teto de renúncia equivale a 14% a 21% do gasto estadual direto
+D11,CONFERE,14% a 21%,"dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)",a renúncia equivale a 14% a 21% do gasto estadual direto
 D12,CONFERE,14% a 21%,dados/externos/licc_teto_vs_icms.csv,"| Teto / gasto estadual na função cultura, 2022-2025 | 14% a 21% |"
 D13,CONFERE,"0,16%",dados/externos/licc_teto_vs_icms.csv,"| Teto de 2025 / ICMS estadual de 2024 | 0,16% |"
 D14,CONFERE,"1,1 a 1,9",analise/tabelas/03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv (teto do ano seguinte),"ciclos 2022-2025 | 1,1 a 1,9 |"
@@ -50,11 +50,4 @@ D49,CONFERE,"| 0,28 | 0,32 |",analise/tabelas/05_poder_d1_proponente.csv,"| R² 
 D50,CONFERE,"| 0,53 a 0,58 | 0,62 a 0,67 |",analise/tabelas/licc_emd_ilustrativo.csv,"| Um ciclo isolado (2023 ou 2024), sem covariáveis | 0,53 a 0,58 | 0,62 a 0,67 |"
 D51,CONFERE,"| 0,43 a 1,04 |",analise/tabelas/05_poder_mde_municipal_did.csv,"| Municipal, 78 municípios, 25% a 50% tratados | 0,43 a 1,04 |"
 D52,CONFERE,"Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes",analise/tabelas/05_poder_tipo_m.csv,"Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes"
-D54,CONFERE,"71% dos projetos de proponentes já habilitados antes foram executados, contra 57%",analise/tabelas/03_status_conversao_recorrencia_2023_2024.csv,"71% dos projetos de proponentes já habilitados antes foram executados, contra 57% dos de estreantes"
-D55,CONFERE,(68% e 63%),analise/tabelas/03_status_conversao_rmgv_interior_2022_2024.csv,a taxa de execução pouco difere entre RMGV e interior (68% e 63%)
-D56,CONFERE,"(42 de 63), 61% do valor captado",analise/tabelas/03_captados_perfil_territorial.csv (casamento principal),"com um único município identificado (42 de 63), 61% do valor captado ficou na RMGV"
-D57,CONFERE,(69 dos 71 municípios do interior,analise/tabelas/03e_f13_municipal_rmgv_interior.csv,(69 dos 71 municípios do interior com dado no SICONFI)
-D58,CONFERE,(3 expirados em 56 resolvidos,analise/tabelas/03_status_por_ciclo.csv,(3 expirados em 56 resolvidos no ciclo 2025)
-D59,CONFERE,"$cv$ = 0,73",analise/tabelas/05_poder_deff_proponente.csv,"com coeficiente de variação $cv$ = 0,73 do tamanho das carteiras"
-D60,CONFERE,"| 0,39 |",analise/tabelas/05_poder_deff_proponente.csv (EMD com efeito de desenho ajustado por cv),"| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |"
 D53,CONFERE,"0,25 a 0,45",analise/tabelas/05_poder_d1_proponente.csv,"O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão"

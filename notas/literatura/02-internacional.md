@@ -228,8 +228,10 @@ a razão de exagero (tipo M) de um resultado "significativo" com poder baixo é 
   organizações (Hughes, Luksetich e Rooney, 2014).
 - **Evidência causal:** para créditos estaduais ao cinema, efeitos pequenos e concentrados na atividade
   incentivada, sem efeito macro (Thom, 2018; Button, 2019; Bradbury, 2020; Rickman e Wang, 2023); para
-  grandes eventos culturais, efeitos agregados modestos ou transitórios (Gomes e Librero-Cano, 2018;
-  Bronzini et al., 2020).
+  grandes eventos, resultados divergentes: PIB per capita 4,5% maior e persistente com a Capital Europeia da
+  Cultura (Gomes e Librero-Cano, 2018), valor adicionado só no curto prazo e emprego maior com o Jubileu de
+  2000 (Bronzini et al., 2020). [Corrigido na auditoria de 24/09/2026: a versão anterior dizia "efeitos
+  agregados modestos ou transitórios", o que contraria o resumo de Gomes e Librero-Cano.]
 - **Lacunas relevantes para a LICC:** (i) nenhuma avaliação causal localizada de crédito tributário de 100%
   para patrocínio cultural; (ii) nenhuma medida de substituição entre patrocínio incentivado e não
   incentivado; (iii) nenhuma avaliação de efeitos sobre acesso/público (e não só sobre atividade econômica).

@@ -210,13 +210,22 @@ def buscar_bibliografia(man: dict, forcar: bool) -> None:
         time.sleep(0.5)
 
 
-def html_para_texto(html: str) -> str:
+def html_para_texto(html: str, base: str = "") -> str:
+    """Texto da página e, no fim, a lista de links (para achar PDFs de normas na rodada seguinte)."""
+    from urllib.parse import urljoin
+
     from bs4 import BeautifulSoup
     s = BeautifulSoup(html, "html.parser")
+    links = []
+    for a in s.find_all("a", href=True):
+        rotulo = " ".join(a.get_text(" ").split())
+        href = urljoin(base, a["href"])
+        if href.startswith("http") and (rotulo, href) not in links:
+            links.append((rotulo, href))
     for t in s(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
         t.decompose()
-    texto = s.get_text("\n")
-    return re.sub(r"\n\s*\n+", "\n\n", texto).strip()
+    texto = re.sub(r"\n\s*\n+", "\n\n", s.get_text("\n")).strip()
+    return texto + "\n\n## Links da página\n" + "\n".join(f"- [{r}]({h})" for r, h in links)
 
 
 def buscar_paginas(man: dict, forcar: bool) -> None:
@@ -229,7 +238,11 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
     for p in pedidos:
         pid, url = p["id"].strip(), p["url"].strip()
         destino = PAG_DIR / f"{pid}.txt"
-        if not forcar and man.get(pid, {}).get("status") == "200" and destino.exists():
+        ja_tem = man.get(pid, {}).get("status") == "200" and destino.exists()
+        # página HTML coletada antes de o texto trazer a lista de links: coleta de novo uma vez
+        sem_links = ja_tem and "pdf" not in man[pid].get("content_type", "").lower() \
+            and "## Links da página" not in destino.read_text(encoding="utf-8")
+        if not forcar and ja_tem and not sem_links:
             continue
         r = get(url, allow_redirects=True)
         registro = {"id": pid, "url": url, "status": str(r.status_code) if r is not None else "erro",
@@ -244,7 +257,7 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
                                        text=True).stdout
             else:
                 r.encoding = r.encoding or r.apparent_encoding
-                texto = html_para_texto(r.text)
+                texto = html_para_texto(r.text, r.url)
             cab = f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n\n"
             destino.write_text(cab + texto, encoding="utf-8")
             registro["arquivo"] = str(destino.relative_to(RAIZ))

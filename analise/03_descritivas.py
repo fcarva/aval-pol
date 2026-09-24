@@ -164,6 +164,19 @@ def status(h: pd.DataFrame, mun: pd.DataFrame) -> pd.DataFrame:
            .assign(taxa_execucao=lambda x: x["executados"] / x["registros_resolvidos"]).reset_index())
     ter["cobertura"] = f"{len(un)}/{int(g['resolvido'].sum())} registros resolvidos com município único"
     salvar(ter, "status_conversao_rmgv_interior_2022_2024")
+    # Conversão por recorrência do proponente (ciclos 2023-2024: em 2022 ninguém tem ciclo anterior).
+    # Recorrente = proponente (chave_proponente) já presente em ciclo anterior da lista.
+    primeiro = h.groupby("chave_proponente")["ciclo"].min()
+    rc = g[g["resolvido"] & (g["ciclo"] >= 2023)].copy()
+    rc["proponente"] = np.where(rc["ciclo"] > rc["chave_proponente"].map(primeiro), "recorrente", "estreante")
+    rec = pd.concat([
+        rc.groupby(["ciclo", "proponente"]).agg(registros_resolvidos=("executado", "size"),
+                                                executados=("executado", "sum")).reset_index(),
+        rc.groupby("proponente").agg(registros_resolvidos=("executado", "size"), executados=("executado", "sum"))
+          .reset_index().assign(ciclo="2023-2024")])
+    rec["taxa_execucao"] = rec["executados"] / rec["registros_resolvidos"]
+    salvar(rec[["ciclo", "proponente", "registros_resolvidos", "executados", "taxa_execucao"]],
+           "status_conversao_recorrencia_2023_2024")
     return salvar(out, "status_por_ciclo")
 
 

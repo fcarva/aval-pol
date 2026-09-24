@@ -59,6 +59,7 @@ coorte = ler(TAB / "03_coortes_primeira_presenca_canonico.csv").set_index("prime
 f13m = ler(TAB / "03e_f13_municipal_rmgv_interior.csv")
 d1 = ler(TAB / "05_poder_d1_proponente.csv")
 tipo_m = ler(TAB / "05_poder_tipo_m.csv")
+deff = ler(TAB / "05_poder_deff_proponente.csv")
 mun_did = ler(TAB / "05_poder_mde_municipal_did.csv")
 ilustr = ler(TAB / "licc_emd_ilustrativo.csv")
 capt = ler(TAB / "licc_captados_2025_totais.csv").iloc[0]
@@ -100,6 +101,16 @@ def faixa_taxa(ciclo: int, fx: str) -> float:
     return float(faixa[(faixa.ciclo == ciclo) & (faixa.faixa_valor_ciclo == fx)]["taxa_execucao"].iloc[0])
 
 
+rec = ler(TAB / "03_status_conversao_recorrencia_2023_2024.csv")
+conv_ter = ler(TAB / "03_status_conversao_rmgv_interior_2022_2024.csv").set_index("territorio")
+capt_ter = ler(TAB / "03_captados_perfil_territorial.csv").iloc[0]
+f13_int = f13m[(f13m.ano == 2025) & (f13m.grupo == "Interior")].iloc[0]
+
+
+def conv_rec(tipo: str) -> float:
+    return float(rec[(rec.ciclo == "2023-2024") & (rec.proponente == tipo)]["taxa_execucao"].iloc[0])
+
+
 ES_SH, BR_SH, ES_RANK = siic_2024()
 RAZ = razao_autorizado_teto()
 F13_TETO = [teto.loc[a, "teto_sobre_f13_estado"] for a in range(2022, 2026)]
@@ -121,9 +132,9 @@ CHECAGENS = [
     ("D05", "passou de R\\$ 10 milhões em 2022 para R\\$ 31 milhões em 2026",
      f"R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões em 2022 para R\\$ {num(teto.loc[2026, 'teto_renuncia'] / 1e6)} milhões",
      "dados/externos/licc_teto_vs_icms.csv"),
-    ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões",
-     f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões",
-     T + "03_anual.csv"),
+    ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado)",
+     f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
+     f"nos cinco ciclos ({int(anual.loc[TOTAL, 'autorizado_n'])} com valor publicado)", T + "03_anual.csv"),
     ("D07", "63 projetos captaram exatamente R\\$ 25.000.000,00",
      f"{int(capt['projetos'])} projetos captaram exatamente R\\$ {int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
      T + "licc_captados_2025_totais.csv"),
@@ -138,7 +149,7 @@ CHECAGENS = [
      + f" dos municípios do interior não tinha fundo municipal de cultura e só "
        f"{pct(munic.loc[('plano_municipal_cultura', 'Interior'), 'pct_mun_sim_sobre_validos'])}",
      "dados/externos/munic2021_cultura_es_resumo.csv"),
-    ("D11", "a renúncia equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
+    ("D11", "o teto de renúncia equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
      "dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)"),
     ("D12", "| Teto / gasto estadual na função cultura, 2022-2025 | 14% a 21% |", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
      "dados/externos/licc_teto_vs_icms.csv"),
@@ -241,6 +252,25 @@ CHECAGENS = [
      f"Com poder de {pct(float(tipo_m.loc[tipo_m.efeito_verdadeiro_sobre_ep == 1.0, 'poder'].iloc[0]))}, a estimativa significativa "
      f"superestima em média o efeito verdadeiro {num(float(tipo_m.loc[tipo_m.efeito_verdadeiro_sobre_ep == 1.0, 'razao_exagero_tipo_M'].iloc[0]), 1)} vezes",
      T + "05_poder_tipo_m.csv"),
+    ("D54", "71% dos projetos de proponentes já habilitados antes foram executados, contra 57% dos de estreantes",
+     f"{pct(conv_rec('recorrente'))} dos projetos de proponentes já habilitados antes foram executados, contra {pct(conv_rec('estreante'))}",
+     T + "03_status_conversao_recorrencia_2023_2024.csv"),
+    ("D55", "a taxa de execução pouco difere entre RMGV e interior (68% e 63%)",
+     f"({pct(conv_ter.loc['RMGV', 'taxa_execucao'])} e {pct(conv_ter.loc['Interior', 'taxa_execucao'])})",
+     T + "03_status_conversao_rmgv_interior_2022_2024.csv"),
+    ("D56", "com um único município identificado (42 de 63), 61% do valor captado ficou na RMGV",
+     f"({int(capt_ter['com_municipio_unico'])} de {int(capt_ter['captados_total'])}), {pct(capt_ter['pct_captado_rmgv_entre_unicos'])} do valor captado",
+     T + "03_captados_perfil_territorial.csv (casamento principal)"),
+    ("D57", "(69 dos 71 municípios do interior com dado no SICONFI)",
+     f"({int(f13_int['municipios_com_valor'])} dos {int(f13_int['municipios'])} municípios do interior",
+     T + "03e_f13_municipal_rmgv_interior.csv"),
+    ("D58", "(3 expirados em 56 resolvidos no ciclo 2025)",
+     f"({int(status.loc[2025, 'captacao_expirada'])} expirados em {int(status.loc[2025, 'resolvidos'])} resolvidos",
+     T + "03_status_por_ciclo.csv"),
+    ("D59", "com coeficiente de variação $cv$ = 0,73 do tamanho das carteiras",
+     f"$cv$ = {num(float(deff.cv_tamanho.iloc[0]), 2)}", T + "05_poder_deff_proponente.csv"),
+    ("D60", "| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |",
+     f"| {num(float(deff.loc[deff.icc_hipotese == 0.2, 'MDE_dp_com_deff_cv'].iloc[0]), 2)} |", T + "05_poder_deff_proponente.csv (EMD com efeito de desenho ajustado por cv)"),
     ("D53", "O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão",
      f"{num(d1.EMD_dp.min(), 2)} a {num(d1.EMD_dp.max(), 2)}", T + "05_poder_d1_proponente.csv"),
 ]

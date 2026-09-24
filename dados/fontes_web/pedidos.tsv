@@ -20,3 +20,12 @@ sage_kim_vanryzin_2014	https://journals.sagepub.com/doi/abs/10.1177/089976401348
 ibge_siic_pagina	https://www.ibge.gov.br/estatisticas/multidominio/cultura-recreacao-e-esporte/9388-indicadores-culturais.html	edição do SIIC que traz a PNADC 2024 (referência IBGE do artigo)
 ibge_siic_periodos	https://servicodados.ibge.gov.br/api/v1/pesquisas/10092/periodos	períodos e datas de publicação do SIIC na API
 ibge_munic2021_periodos	https://servicodados.ibge.gov.br/api/v1/pesquisas/1/periodos	data de publicação da MUNIC 2021
+secult_in_2023	https://secult.es.gov.br/instrucao-normativa-licc-2023	IN 2023: fluxo certificado/CAP/habilitação (premissa do desenho 2022-2024)
+secult_cultura_em_dados_licc	https://secult.es.gov.br/cultura-em-dados-evento-apresenta-resultados-de-pesquisa-sobre-a-lei-de-incentivo-a-cultura-capixaba-licc-e-o-boletim-da-economia-criativa	IJSN/SECULT/FAPES: resultados preliminares da avaliação da LICC (jul./2026)
+secult_ijsn_estudo_impactos	https://secult.es.gov.br/secult-e-ijsn-divulgam-estudo-sobre-impactos-das-politicas-culturais-capixabas-durante-o-evento-cultura-em-dados	estudo IJSN sobre impactos das políticas culturais
+ijsn_simapp_estudos	https://ijsn.es.gov.br/projetos-especiais-simapp-estudos-e-pesquisas	projeto Análise Executiva da LICC
+ijsn_funcultura_10anos	https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/relatorios/Pesquisa_Funcultura.pdf	avaliação do Funcultura (política estadual similar)
+es_gov_aprimoramento_licc	https://www.es.gov.br/Noticia/secretaria-da-cultura-realiza-aprimoramento-da-lei-de-incentivo-a-cultura-capixaba-licc-em-dialogo-com-sociedade	audiências públicas de 2024
+fjp_leic_mg_2015	https://repositorio.fjp.mg.gov.br/items/467e0560-157b-4f14-8b4b-540d01528933	monografia FJP: efeitos da lei estadual de MG no interior
+scielo_inter_leic_mg	https://www.scielo.br/j/inter/a/Qxgmh663hc9XgjZrLg7FJ5P/	Interações 22(2), 2021: captação via LEIC-MG e equipamentos
+ipea_td2280_pdf	https://repositorio.ipea.gov.br/bitstream/11058/7523/1/td_2280.pdf	TD 2280 (Silva, 2017) em PDF: contexto das afirmações C22/C25
