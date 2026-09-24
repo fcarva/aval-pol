@@ -1,8 +1,8 @@
 # Fonte: http://repositorio.ipea.gov.br/handle/11058/7523
-# Coletado (UTC): 2026-09-24T00:29:57Z
-# sha256 do original: c0ac2f3719b17dd4a703ccf60b371ee5c2bc146da0bd88f76eac351d91e44c92
+# Coletado (UTC): 2026-09-24T00:44:13Z
+# sha256 do original: faf3f89907229cf7033236b9dd5b139209e5d577c6dff8fdeff6d0684bfb8f98
 
-DSpace
+Financiamento cultural no Brasil contemporâneo
 
 Portal do Governo Brasileiro
 
@@ -10,4 +10,137 @@ Atualize sua Barra de Governo
 
  Pular para o conteúdo principal
 
-Erro ao carregar item
+ Publicação:  
+Financiamento cultural no Brasil contemporâneo
+Carregando...
+Arquivos
+ td_2280.pdf 
+ (761.77 KB)
+ td_2280_versao0.pdf 
+ (793.53 KB)
+ td_2280_sumex.pdf 
+ (48.28 KB)
+Paginação 
+Primeira página
+Última página
+Data
+2017-03
+Data de publicação
+Data da Série
+Data do evento
+Data
+Data de defesa
+Data
+Edição
+Idioma
+por
+Cobertura espacial
+Brasil
+Cobertura temporal
+1995-2013
+País
+BR
+organization.page.location.country
+Tipo de evento
+Tipo
+Working paper
+Grau Acadêmico
+Fonte original
+ISBN
+ISSN
+DOI
+dARK
+item.page.project.ID
+item.page.project.productID
+Detentor dos direitos autorais
+Instituto de Pesquisa Econômica Aplicada (Ipea)
+Acesso à informação
+Acesso Aberto
+Termos de uso
+É permitida a reprodução deste texto e dos dados nele contidos, desde que citada a fonte. Reproduções para fins comerciais são proibidas.
+Titulo alternativo
+Texto para Discussão (TD) 2280 : Financiamento cultural no Brasil contemporâneo
+item.page.organization.alternative
+Variações no nome completo
+Autor(a)
+ Silva, Frederico Augusto Barbosa da 
+Orientador(a)
+Editor(a)
+Banca de defesa
+Organizador(a)
+Coordenador(a)
+Outras autorias
+Faz parte da série
+Palestrante / Mediador(a) / Debatedor(a)
+Resumo
+Este texto discute a dinâmica do financiamento cultural no governo federal brasileiro de 1995 a 2013. Descreve o contexto histórico e enfrenta alguns dos argumentos presentes no debate público sobre os princípios que podem justificar reformas na administração da cultura e a reconfiguração do modelo de financiamento das ações públicas na área. Além disso, enfrenta o debate destas ideias gerais à luz da pluralidade de critérios e instrumentos utilizados pela administração pública. A dialética entre as ideias gerais, os instrumentos e as práticas permite a delimitação mais precisa entre os paradigmas de financiamento ou modelos.
+Resumo traduzido
+This text discusses the dynamics of cultural funding in the Brazilian federal government from 1995 to 2013. It describes the historical context and faces some of the arguments present in the public debate on the principles that can justify reforms in the administration of culture and reconfiguration of the public stock financing model in the area. Moreover, it faces discussion of these general ideas in the light of the plurality of criteria and instruments used by the public administration. The dialectic between general ideas, tools and practices allows for more precise delimitation between the financing paradigms or models.
+organization.page.description
+Sobre o pesquisador
+Endereço de E-mail
+ORCID
+Lattes
+Google Scholar ID
+Web of Science ResearcherID
+Scopus ID
+Informações sobre o projeto
+project.page.project.productdescription
+Vocabulário Controlado do Ipea
+Programas de Financiamento
+, 
+Cultura
+, 
+Política Cultural
+Palavras-chave
+Financiamento de políticas públicas
+, 
+Políticas culturais
+, 
+Gastos culturais
+Palavras-chave traduzidas
+Citação
+URI
+ http://repositorio.ipea.gov.br/handle/11058/7523
+Aviso
+Notas
+Série / coleção
+Versão preliminar
+Versão final desta publicação
+Publicações relacionadas / semelhantes
+organization.page.relation.references
+Capítulo de livro
+Versão Primária
+Eventos
+Notícias
+ Página do item completo
+
+## Links da página
+- [Portal do Governo Brasileiro](http://brasil.gov.br)
+- [Atualize sua Barra de Governo](http://epwg.governoeletronico.gov.br/barra/atualize.html)
+- [](https://repositorio.ipea.gov.br/home)
+- [Comunidades & Coleções](https://repositorio.ipea.gov.br/community-list)
+- [Estatísticas](https://repositorio.ipea.gov.br/statistics/entities/publication/09fd46d8-0601-4086-ac8d-823f2dd18ed1)
+- [Novo usuário? Clique aqui para cadastrar.](https://repositorio.ipea.gov.br/register)
+- [Esqueceu sua senha?](https://repositorio.ipea.gov.br/forgot)
+- [Início](https://repositorio.ipea.gov.br/)
+- [Navegar por Tipo de Publicação](https://repositorio.ipea.gov.br/communities/06b7ec9d-e98d-40a2-89a9-ca05b2877411)
+- [Livros](https://repositorio.ipea.gov.br/collections/7b0cb6b0-3ec8-44ed-8a43-4853b7f1cc3e)
+- [td_2280.pdf (761.77 KB)](https://repositorio.ipea.gov.br/bitstreams/5d5f4cfd-5510-489e-94a3-29066123a1c2/download)
+- [td_2280_versao0.pdf (793.53 KB)](https://repositorio.ipea.gov.br/items/09fd46d8-0601-4086-ac8d-823f2dd18ed1/request-a-copy?bitstream=82f3bf99-4e57-4ec9-9bcb-9e9a69132b1b)
+- [td_2280_sumex.pdf (48.28 KB)](https://repositorio.ipea.gov.br/bitstreams/9db9ce51-21c3-4c75-95ae-44004e4ef982/download)
+- [2017-03](https://repositorio.ipea.gov.br/browse/dateissued?startsWith=2017-03)
+- [Working paper](https://repositorio.ipea.gov.br/browse/type?startsWith=Working%20paper)
+- [Silva, Frederico Augusto Barbosa da](https://repositorio.ipea.gov.br/browse/author?startsWith=Silva,%20Frederico%20Augusto%20Barbosa%20da)
+- [Programas de Financiamento](https://repositorio.ipea.gov.br/browse/vcipea?startsWith=Programas%20de%20Financiamento)
+- [Cultura](https://repositorio.ipea.gov.br/browse/vcipea?startsWith=Cultura)
+- [Política Cultural](https://repositorio.ipea.gov.br/browse/vcipea?startsWith=Pol%C3%ADtica%20Cultural)
+- [Financiamento de políticas públicas](https://repositorio.ipea.gov.br/browse/subject?startsWith=Financiamento%20de%20pol%C3%ADticas%20p%C3%BAblicas)
+- [Políticas culturais](https://repositorio.ipea.gov.br/browse/subject?startsWith=Pol%C3%ADticas%20culturais)
+- [Gastos culturais](https://repositorio.ipea.gov.br/browse/subject?startsWith=Gastos%20culturais)
+- [http://repositorio.ipea.gov.br/handle/11058/7523](http://repositorio.ipea.gov.br/handle/11058/7523)
+- [Página do item completo](https://repositorio.ipea.gov.br/entities/publication/09fd46d8-0601-4086-ac8d-823f2dd18ed1/full)
+- [](https://www.instagram.com/ipeaoficial/)
+- [](https://www.facebook.com/ipeaonline)
+- [](https://www.youtube.com/channel/UCvFF3APvKR3Oequ1wrJCJKQ)
+- [website accessibility](https://userway.org)

@@ -1,6 +1,6 @@
-# Fonte: https://secult.es.gov.br/sobre-a-licc
-# Coletado (UTC): 2026-09-24T00:43:44Z
-# sha256 do original: a3b4160120ddf14df49c51e0aac7c49e9b469d15ff34ab8e5b0bc7344bfcff1e
+# Fonte: https://secult.es.gov.br/instrucao-normativa-licc-2023
+# Coletado (UTC): 2026-09-24T00:44:31Z
+# sha256 do original: 07f75f0edb3476edd9ae2d819e4cd9e39d25d2c54abb087a1f05028a4cfaa5ea
 
 SECULT - Secretaria da Cultura
 
@@ -46,17 +46,245 @@ SECULT
 
 Secretaria da Cultura            
 
-A Lei de Incentivo à Cultura Capixaba - LICC, Lei nº 11.246 de 07/04/2021, que alterou a Lei nº 7.000/01, surgiu como mais uma forma de incentivo e fomento à cultura do Estado do Espírito Santo.
+                                INSTRUÇÃO NORMATIVA LICC - 2023
 
-Como iniciativa inédita no Estado, a norma permite que agentes e grupos culturais recebam patrocínio de empresas contribuintes do ICMS (Imposto sobre Circulação de Mercadorias e Serviços) e em contrapartida, tais empresas terão um crédito presumido, podendo abater do imposto a ser pago.
+Conteúdo
 
-Os projetos serão apresentados a SECULT, que após aprovação, permitirá que os proponentes procurem as empresas em busca de patrocínio. Caso a empresa demonstre interesse, o recurso será depositado diretamente ao proponente, que prestará contas ao final do projeto.
+Atualização
 
-Iniciativas de fomento cultural, estimulam a expansão da produção cultural, além de gerar trabalho e renda, fortalecendo a identidade capixaba.
+Formato
 
->>>Confira a cartilha de passo a passo da LICC
+Tamanho
 
-AQUI
+                                                            Portaria 05R- Montante LICC2023 -diario_oficial_2023-01-12_pag_65 (2)
+
+08/02/2023
+
+pdf
+
+                                                        6 MB
+
+Baixar
+
+                                                            Portaria SEFAZ nº43-R suplementação de credito 2023
+
+23/06/2023
+
+pdf
+
+                                                        232 KB
+
+Baixar
+
+                                                            Portaria SEFAZ nº52-R suplementação de credito 2023
+
+13/07/2023
+
+pdf
+
+                                                        216 KB
+
+Baixar
+
+                                                            Instrução Normativa 001_23 diario_oficial_2023-02-01
+
+01/02/2023
+
+pdf
+
+                                                        1 MB
+
+Baixar
+
+                                                            Anexo I -  Formulário de inscrição
+
+01/02/2023
+
+pdf
+
+                                                        141 KB
+
+Baixar
+
+                                                            Anexo II - Planilha de Custos
+
+01/02/2023
+
+pdf
+
+                                                        158 KB
+
+Baixar
+
+                                                            Anexo II - Planilha de Custos (1)
+
+06/02/2023
+
+xlsx
+
+                                                        22 KB
+
+Baixar
+
+                                                            Anexo III - Carta de Anuência de Bandas e Grupos
+
+01/02/2023
+
+pdf
+
+                                                        72 KB
+
+Baixar
+
+                                                            Anexo III - Carta de Anuência de Bandas e Grupos (1)
+
+06/02/2023
+
+docx
+
+                                                        1 MB
+
+Baixar
+
+                                                            Anexo IV - Plano Pedagógico
+
+01/02/2023
+
+pdf
+
+                                                        66 KB
+
+Baixar
+
+                                                            Anexo IV - Plano Pedagógico (1)
+
+06/02/2023
+
+docx
+
+                                                        343 KB
+
+Baixar
+
+                                                            Anexo V - Plano de Distribuição
+
+01/02/2023
+
+pdf
+
+                                                        54 KB
+
+Baixar
+
+                                                            Anexo V - Plano de Distribuição
+
+06/02/2023
+
+docx
+
+                                                        336 KB
+
+Baixar
+
+                                                            Anexo VI - Plano de Comercialização
+
+01/02/2023
+
+pdf
+
+                                                        66 KB
+
+Baixar
+
+                                                            Anexo VI - Plano de Comercialização (1)
+
+06/02/2023
+
+docx
+
+                                                        337 KB
+
+Baixar
+
+                                                            Anexo VII - Memorial descritivo dos serviços a serem realizados no imóvel
+
+01/02/2023
+
+pdf
+
+                                                        127 KB
+
+Baixar
+
+                                                            Anexo VII - Memorial descritivo dos serviços a serem realizados no imóvel
+
+06/02/2023
+
+docx
+
+                                                        42 KB
+
+Baixar
+
+                                                            Anexo VIII - Termo de Compromisso de Patrocínio
+
+01/02/2023
+
+pdf
+
+                                                        102 KB
+
+Baixar
+
+                                                            Anexo VIII - Termo de Compromisso de Patrocínio
+
+06/02/2023
+
+docx
+
+                                                        342 KB
+
+Baixar
+
+                                                            Anexo IX - Relatório de Encerramento de Conta
+
+01/02/2023
+
+pdf
+
+                                                        46 KB
+
+Baixar
+
+                                                            Anexo IX - Relatório de Encerramento de Conta (1)
+
+06/02/2023
+
+xlsx
+
+                                                        10 KB
+
+Baixar
+
+                                                            Anexo X - Relatório de Execução
+
+01/02/2023
+
+pdf
+
+                                                        87 KB
+
+Baixar
+
+                                                            Anexo X - Relatório de Execução (1)
+
+06/02/2023
+
+docx
+
+                                                        343 KB
+
+Baixar
 
 Secretaria da Cultura
 
@@ -94,7 +322,7 @@ PRODEST
 - [Editais de Chamamento](https://secult.es.gov.br/editaisdechamamento)
 - [PNAB – Política Nacional Aldir Blanc](https://secult.es.gov.br/pnab-politica-nacional-aldir-blanc)
 - [Página Principal](https://secult.es.gov.br/)
-- [Institucional](https://secult.es.gov.br/sobre-a-licc)
+- [Institucional](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Secretário](https://secult.es.gov.br/secretario)
 - [Organograma](https://secult.es.gov.br/organograma)
 - [Competências](https://secult.es.gov.br/institucional)
@@ -102,17 +330,17 @@ PRODEST
 - [Equipe](https://secult.es.gov.br/equipe)
 - [Horários de Funcionamento](https://secult.es.gov.br/horarios-de-funcionamento)
 - [Código de Ética da Secult](https://secult.es.gov.br/codigo-de-etica-da-secult)
-- [Contato](https://secult.es.gov.br/sobre-a-licc)
+- [Contato](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Horário e local de Atendimento](https://secult.es.gov.br/horario-de-atendimento-2)
 - [Agenda de Contatos](https://secult.es.gov.br/agenda-de-contatos)
 - [Perguntas Frequentes](https://secult.es.gov.br/duvidas-frequentes)
 - [Legislação](https://secult.es.gov.br/legislacao)
 - [Licitações](https://transparencia.es.gov.br/Compras?Filtro.TipoConsultaSelecionado=2&busca=1)
-- [Proteção de Dados](https://secult.es.gov.br/sobre-a-licc)
+- [Proteção de Dados](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Política Estadual de Privacidade](https://secult.es.gov.br/politica-estadual-de-privacidade)
 - [Contato do Encarregado](https://secult.es.gov.br/contato-do-encarregado)
 - [LGPD](https://secult.es.gov.br/lei-geral-de-protecao-de-dados-pessoais-lgpd)
-- [Espaços Culturais](https://secult.es.gov.br/sobre-a-licc)
+- [Espaços Culturais](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Parque Cultural Casa do Governador](https://secult.es.gov.br/parque-cultural-casa-do-governador)
 - [Galeria Homero Massena](https://secult.es.gov.br/galeria-homero-massena)
 - [Theatro Carlos Gomes](https://secult.es.gov.br/teatro-carlos-gomes)
@@ -124,10 +352,10 @@ PRODEST
 - [Museu do Colono](https://secult.es.gov.br/museu-do-colono)
 - [HUB ES+](https://secult.es.gov.br/hub-es)
 - [Legislação](https://secult.es.gov.br/legislacao-4)
-- [Mapa Cultural ES](https://secult.es.gov.br/sobre-a-licc)
+- [Mapa Cultural ES](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Acesso ao Mapa Cultural](https://mapa.cultura.es.gov.br/autenticacao/)
 - [Vídeos Tutoriais](https://secult.es.gov.br/Noticia/secult-divulga-videos-tutoriais-de-inscricao-para-o-mapa-cultural-es)
-- [Editais Funcultura](https://secult.es.gov.br/sobre-a-licc)
+- [Editais Funcultura](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Funcultura](https://secult.es.gov.br/funcultura-2)
 - [Lista de Projetos Contemplados](https://secult.es.gov.br/lista-de-projetos-selecionados)
 - [Lei e Decreto](https://secult.es.gov.br/decreto-e-lei-complementar)
@@ -150,7 +378,7 @@ PRODEST
 - [Edital para Comissão Julgadora](https://secult.es.gov.br/edital-de-selecao-de-profissionais-para-comissoes-julgadoras-do-funcultura)
 - [Publicação Funcultura 10 anos](https://secult.es.gov.br/publicacao-funcultura-10-anos)
 - [Parque das Esculturas](https://secult.es.gov.br/GrupodeArquivos/edital-de-selecao-de-propostas-artisticas-para-a-implementacao-do-parque-de-esculturas)
-- [Programa Fundo a Fundo da Cultura](https://secult.es.gov.br/sobre-a-licc)
+- [Programa Fundo a Fundo da Cultura](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Legislação Fundo a Fundo](https://secult.es.gov.br/legislacao-fundo-a-fundo)
 - [Minutas e Documentos](https://secult.es.gov.br/GrupodeArquivos/minutas-e-documentos-3)
 - [Manual de Orientação](https://secult.es.gov.br/GrupodeArquivos/manual-de-orientacao)
@@ -166,11 +394,11 @@ PRODEST
 - [Documentos](https://secult.es.gov.br/documentos)
 - [Resultados e Convocações](https://secult.es.gov.br/Noticia/secult-divulga-primeiros-resultados-dos-editais-2022-do-fundo-de-cultura-do-estado-do-espirito-santo)
 - [Cultura Viva](https://secult.es.gov.br/editais-cultura-viva)
-- [Lei de Incentivo à Cultura Capixaba (LICC)](https://secult.es.gov.br/sobre-a-licc)
+- [Lei de Incentivo à Cultura Capixaba (LICC)](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Inscrição no Mapa Cultural ES](https://mapa.cultura.es.gov.br/oportunidade/1878/#info)
 - [Sobre a LICC](https://secult.es.gov.br/Noticia/eventos-de-apresentacao-da-lei-de-incentivo-a-cultura-capixaba-licc-percorrem-estado)
 - [Cartilha](https://secult.es.gov.br/cartilha)
-- [Instrução Normativa](https://secult.es.gov.br/sobre-a-licc)
+- [Instrução Normativa](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [INSTRUÇÃO NORMATIVA LICC - 2022](https://secult.es.gov.br/instrucao-normativa)
 - [INSTRUÇÃO NORMATIVA LICC - 2023](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [INSTRUÇÃO NORMATIVA LICC - 2024](https://secult.es.gov.br/instrucao-normativa-licc-2024)
@@ -178,7 +406,7 @@ PRODEST
 - [INSTRUÇÃO NORMATIVA LICC - 2026](https://secult.es.gov.br/instrucao-normativa-licc-2026)
 - [Legislação](https://secult.es.gov.br/legislacao-licc)
 - [Tabelas referenciais](https://secult.es.gov.br/tabelas-referenciais)
-- [Comissão de Avaliação de Projetos – CAP](https://secult.es.gov.br/sobre-a-licc)
+- [Comissão de Avaliação de Projetos – CAP](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [CAP | 2022](https://secult.es.gov.br/GrupodeArquivos/comissao-de-avaliacao-de-projetos-cap)
 - [CAP | 2023](https://secult.es.gov.br/comissao-de-avaliacao-permanente-cap-2023)
 - [CAP | 2024](https://secult.es.gov.br/cap-2024)
@@ -192,7 +420,7 @@ PRODEST
 - [Lei Aldir Blanc](https://secult.es.gov.br/leialdirblanc)
 - [Manual de Identidade Visual](https://secult.es.gov.br/manual-de-identidade-visual)
 - [Comunicação de projetos](https://secult.es.gov.br/comunique-seu-projeto-3)
-- [Conselho Estadual de Cultura](https://secult.es.gov.br/sobre-a-licc)
+- [Conselho Estadual de Cultura](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Apresentação](https://secult.es.gov.br/conselho-estadual-de-cultura)
 - [Conselheiros](https://secult.es.gov.br/conselheiros)
 - [Resoluções](https://secult.es.gov.br/resolucoes)
@@ -201,7 +429,7 @@ PRODEST
 - [Eleições biênio 2020-2022](https://secult.es.gov.br/conselho-estadual-de-cultura-2-3)
 - [Eleições Biênio 2023 - 2025](https://secult.es.gov.br/eleicoes-bienio-2023-cec)
 - [Eleições Biênio 2025 - 2027](https://secult.es.gov.br/eleicoes-bienio-2025-2027-cec)
-- [Sistema Estadual de Cultura](https://secult.es.gov.br/sobre-a-licc)
+- [Sistema Estadual de Cultura](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Sistema Estadual de Cultura](https://secult.es.gov.br/sistema-estadual-de-cultura-2)
 - [4ª Conferência Estadual de Cultura](https://secult.es.gov.br/4a-conferencia-estadual-de-cultura)
 - [Conferências Estaduais de Cultura](https://secult.es.gov.br/publicacoes-2)
@@ -209,19 +437,19 @@ PRODEST
 - [Situação da Gestão Cultural dos Municípios](https://secult.es.gov.br/situacao-da-gestao-cultural-dos-municipios)
 - [Cartilha - Criação do Sistema Municipal de Cultura](https://secult.es.gov.br/Media/2018/Cartilha%20-%20Cria%C3%A7%C3%A3o%20do%20Sistema%20Municipal%20de%20Cultura-2%20(1).docx)
 - [Rede de Espaços Culturais do Espírito Santo](https://secult.es.gov.br/legislacao-4)
-- [Memória e Patrimônio](https://secult.es.gov.br/sobre-a-licc)
+- [Memória e Patrimônio](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Sítios Históricos](https://secult.es.gov.br/sitios-historicos-paisagens-seletas-no-espirito-santo)
 - [Tombamento](https://secult.es.gov.br/tombamento)
 - [Publicações | Patrimônio](https://secult.es.gov.br/publicacoes/patrimonio)
 - [Legislação | Tombamento](https://secult.es.gov.br/legislacao-6)
-- [Economia Criativa](https://secult.es.gov.br/sobre-a-licc)
+- [Economia Criativa](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Economia Criativa](https://secult.es.gov.br/economiacriativa)
 - [ES+Criativo](https://secult.es.gov.br/espirito-santo-criativo)
 - [Notícias](https://secult.es.gov.br/criativo)
 - [Publicações](https://secult.es.gov.br/publica-economia-criativa)
 - [Boletim de Economia Criativa](https://secult.es.gov.br/boletim-de-economia-criativa)
 - [Anexos](https://secult.es.gov.br/anexos)
-- [Orquestra Sinfônica do ES](https://secult.es.gov.br/sobre-a-licc)
+- [Orquestra Sinfônica do ES](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Apresentação](https://secult.es.gov.br/apresentacao)
 - [Maestro](https://secult.es.gov.br/maestros)
 - [Músicos - Ficha Técnica](https://secult.es.gov.br/musicos-ficha-tecnica)
@@ -229,19 +457,19 @@ PRODEST
 - [Edital de Processo Seletivo Simplificado](https://secult.es.gov.br/edital-de-processo-seletivo-simplificado-secult-n-001-2019)
 - [Seleção de OS](https://secult.es.gov.br/GrupodeArquivos/selecao-de-os)
 - [Edital Processo Seletivo 001/2023](https://secult.es.gov.br/edital-processo-seletivo-001-2023)
-- [Midiateca Capixaba](https://secult.es.gov.br/sobre-a-licc)
+- [Midiateca Capixaba](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Edital Juventudes Conectadas 2023](https://secult.es.gov.br/edital-juventudes-conectadas)
 - [Edital Juventudes Conectadas 2025](https://secult.es.gov.br/edital-juventudes-conectadas-2025)
 - [Serviços aos Cidadãos](https://conectacidadao.es.gov.br)
 - [Manual do Acesso Cidadão - E-docs](https://secult.es.gov.br/manual-do-acesso-cidadao\)
 - [Publicações](https://secult.es.gov.br/publicacoes)
 - [Gestão Documental](https://secult.es.gov.br/gestao-documental-2)
-- [Unidade Executora de Controle Interno (UECI)](https://secult.es.gov.br/sobre-a-licc)
+- [Unidade Executora de Controle Interno (UECI)](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Sobre a UECI/Secult](https://secult.es.gov.br/sobre-a-ueci-secult)
 - [Plano de Integridade](https://secult.es.gov.br/plano-de-integridade)
 - [Normas](https://secult.es.gov.br/normas)
 - [Tabela Referencial | Valores Remuneração Serviços Prestados 2018](https://secult.es.gov.br/tabela-referencial-valores-remuneracao-servicos-prestados-2018)
-- [Parcerias Lei 13.019/2014 – Convênios](https://secult.es.gov.br/sobre-a-licc)
+- [Parcerias Lei 13.019/2014 – Convênios](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Documentação para Celebração](https://secult.es.gov.br/documentacao-para-celebracao)
 - [Parcerias 2019](https://secult.es.gov.br/convenio-no-001-2019-munic-jaguare)
 - [Parcerias 2020](https://secult.es.gov.br/parcerias-2020)
@@ -254,7 +482,7 @@ PRODEST
 - [Fotos](https://secult.es.gov.br/fotos)
 - [Teletrabalho](https://secult.es.gov.br/teletrabalho-3)
 - [Plano Anual de Contratação](https://secult.es.gov.br/plano-anual-de-contratacao)
-- [Acesso à Informação](https://secult.es.gov.br/sobre-a-licc)
+- [Acesso à Informação](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [Ações e Programas](https://transparencia.es.gov.br/Orcamento/PPA)
 - [Contratos](https://transparencia.es.gov.br/Contratos?Filtro.TipoConsulta=1)
 - [Obras](https://transparencia.es.gov.br/Obras/ObrasGeral/Pesquisar?&filtrar)
@@ -265,11 +493,56 @@ PRODEST
 - [Relatórios da LAI](https://secult.es.gov.br/relatorios-da-lai)
 - [Ordem Cronológica de Pagamentos](https://secult.es.gov.br/ordem-cronologica-de-pagamentos)
 - [Serviço de Informação ao Cidadão (SIC)](https://secult.es.gov.br/servico-de-informacao-ao-cidadao-sic)
-- [Cultura Viva](https://secult.es.gov.br/sobre-a-licc)
+- [Cultura Viva](https://secult.es.gov.br/instrucao-normativa-licc-2023)
 - [](https://secult.es.gov.br/)
-- [AQUI](https://secult.es.gov.br/media/2022/Cartilha%20de%20Lançamento%20-%20Licc.pdf)
+- [Portaria 05R- Montante LICC2023 -diario_oficial_2023-01-12_pag_65 (2)](https://secult.es.gov.br/media/001/Portaria%2005R-%20Montante%20LICC2023%20-diario_oficial_2023-01-12_pag_65%20%282%29.pdf)
+- [Baixar](https://secult.es.gov.br/media/001/Portaria%2005R-%20Montante%20LICC2023%20-diario_oficial_2023-01-12_pag_65%20%282%29.pdf)
+- [Portaria SEFAZ nº43-R suplementação de credito 2023](https://secult.es.gov.br/media/PDF/2023/Portaria%20SEFAZ%20n%C2%BA43-R%20suplementa%C3%A7%C3%A3o%20de%20credito%202023.pdf)
+- [Baixar](https://secult.es.gov.br/media/PDF/2023/Portaria%20SEFAZ%20n%C2%BA43-R%20suplementa%C3%A7%C3%A3o%20de%20credito%202023.pdf)
+- [Portaria SEFAZ nº52-R suplementação de credito 2023](https://secult.es.gov.br/media/PDF/2023/Portaria%20SEFAZ%20n%C2%BA52-R%20suplementa%C3%A7%C3%A3o%20de%20credito%202023.pdf)
+- [Baixar](https://secult.es.gov.br/media/PDF/2023/Portaria%20SEFAZ%20n%C2%BA52-R%20suplementa%C3%A7%C3%A3o%20de%20credito%202023.pdf)
+- [Instrução Normativa 001_23 diario_oficial_2023-02-01](https://secult.es.gov.br/media/002/Instru%C3%A7%C3%A3o%20Normativa%20001_23%20diario_oficial_2023-02-01.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Instru%C3%A7%C3%A3o%20Normativa%20001_23%20diario_oficial_2023-02-01.pdf)
+- [Anexo I - Formulário de inscrição](https://secult.es.gov.br/media/002/Anexo%20I%20-%20%20Formul%C3%A1rio%20de%20inscri%C3%A7%C3%A3o.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20I%20-%20%20Formul%C3%A1rio%20de%20inscri%C3%A7%C3%A3o.pdf)
+- [Anexo II - Planilha de Custos](https://secult.es.gov.br/media/002/Anexo%20II%20-%20Planilha%20de%20Custos.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20II%20-%20Planilha%20de%20Custos.pdf)
+- [Anexo II - Planilha de Custos (1)](https://secult.es.gov.br/media/002/erika/Anexo%20II%20-%20Planilha%20de%20Custos%20%281%29.xlsx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20II%20-%20Planilha%20de%20Custos%20%281%29.xlsx)
+- [Anexo III - Carta de Anuência de Bandas e Grupos](https://secult.es.gov.br/media/002/Anexo%20III%20-%20Carta%20de%20Anu%C3%AAncia%20de%20Bandas%20e%20Grupos.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20III%20-%20Carta%20de%20Anu%C3%AAncia%20de%20Bandas%20e%20Grupos.pdf)
+- [Anexo III - Carta de Anuência de Bandas e Grupos (1)](https://secult.es.gov.br/media/002/erika/Anexo%20III%20-%20Carta%20de%20Anu%C3%AAncia%20de%20Bandas%20e%20Grupos%20%281%29.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20III%20-%20Carta%20de%20Anu%C3%AAncia%20de%20Bandas%20e%20Grupos%20%281%29.docx)
+- [Anexo IV - Plano Pedagógico](https://secult.es.gov.br/media/002/Anexo%20IV%20-%20Plano%20Pedag%C3%B3gico.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20IV%20-%20Plano%20Pedag%C3%B3gico.pdf)
+- [Anexo IV - Plano Pedagógico (1)](https://secult.es.gov.br/media/002/erika/Anexo%20IV%20-%20Plano%20Pedag%C3%B3gico%20%281%29.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20IV%20-%20Plano%20Pedag%C3%B3gico%20%281%29.docx)
+- [Anexo V - Plano de Distribuição](https://secult.es.gov.br/media/002/Anexo%20V%20-%20Plano%20de%20Distribui%C3%A7%C3%A3o.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20V%20-%20Plano%20de%20Distribui%C3%A7%C3%A3o.pdf)
+- [Anexo V - Plano de Distribuição](https://secult.es.gov.br/media/002/erika/Anexo%20V%20-%20Plano%20de%20Distribui%C3%A7%C3%A3o.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20V%20-%20Plano%20de%20Distribui%C3%A7%C3%A3o.docx)
+- [Anexo VI - Plano de Comercialização](https://secult.es.gov.br/media/002/Anexo%20VI%20-%20Plano%20de%20Comercializa%C3%A7%C3%A3o.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20VI%20-%20Plano%20de%20Comercializa%C3%A7%C3%A3o.pdf)
+- [Anexo VI - Plano de Comercialização (1)](https://secult.es.gov.br/media/002/erika/Anexo%20VI%20-%20Plano%20de%20Comercializa%C3%A7%C3%A3o%20%281%29.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20VI%20-%20Plano%20de%20Comercializa%C3%A7%C3%A3o%20%281%29.docx)
+- [Anexo VII - Memorial descritivo dos serviços a serem realizados no imóvel](https://secult.es.gov.br/media/002/Anexo%20VII%20-%20Memorial%20descritivo%20dos%20servi%C3%A7os%20a%20serem%20realizados%20no%20im%C3%B3vel.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20VII%20-%20Memorial%20descritivo%20dos%20servi%C3%A7os%20a%20serem%20realizados%20no%20im%C3%B3vel.pdf)
+- [Anexo VII - Memorial descritivo dos serviços a serem realizados no imóvel](https://secult.es.gov.br/media/002/erika/Anexo%20VII%20-%20Memorial%20descritivo%20dos%20servi%C3%A7os%20a%20serem%20realizados%20no%20im%C3%B3vel.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20VII%20-%20Memorial%20descritivo%20dos%20servi%C3%A7os%20a%20serem%20realizados%20no%20im%C3%B3vel.docx)
+- [Anexo VIII - Termo de Compromisso de Patrocínio](https://secult.es.gov.br/media/002/Anexo%20VIII%20-%20Termo%20de%20Compromisso%20de%20Patroc%C3%ADnio.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20VIII%20-%20Termo%20de%20Compromisso%20de%20Patroc%C3%ADnio.pdf)
+- [Anexo VIII - Termo de Compromisso de Patrocínio](https://secult.es.gov.br/media/002/erika/Anexo%20VIII%20-%20Termo%20de%20Compromisso%20de%20Patroc%C3%ADnio.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20VIII%20-%20Termo%20de%20Compromisso%20de%20Patroc%C3%ADnio.docx)
+- [Anexo IX - Relatório de Encerramento de Conta](https://secult.es.gov.br/media/002/Anexo%20IX%20-%20Relat%C3%B3rio%20de%20Encerramento%20de%20Conta.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20IX%20-%20Relat%C3%B3rio%20de%20Encerramento%20de%20Conta.pdf)
+- [Anexo IX - Relatório de Encerramento de Conta (1)](https://secult.es.gov.br/media/002/erika/Anexo%20IX%20-%20Relat%C3%B3rio%20de%20Encerramento%20de%20Conta%20%281%29.xlsx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20IX%20-%20Relat%C3%B3rio%20de%20Encerramento%20de%20Conta%20%281%29.xlsx)
+- [Anexo X - Relatório de Execução](https://secult.es.gov.br/media/002/Anexo%20X%20-%20Relat%C3%B3rio%20de%20Execu%C3%A7%C3%A3o.pdf)
+- [Baixar](https://secult.es.gov.br/media/002/Anexo%20X%20-%20Relat%C3%B3rio%20de%20Execu%C3%A7%C3%A3o.pdf)
+- [Anexo X - Relatório de Execução (1)](https://secult.es.gov.br/media/002/erika/Anexo%20X%20-%20Relat%C3%B3rio%20de%20Execu%C3%A7%C3%A3o%20%281%29.docx)
+- [Baixar](https://secult.es.gov.br/media/002/erika/Anexo%20X%20-%20Relat%C3%B3rio%20de%20Execu%C3%A7%C3%A3o%20%281%29.docx)
 - [](https://www.facebook.com/SecultES/?fref=ts)
 - [](https://www.instagram.com/secult.es)
 - [](https://www.youtube.com/user/Secultespiritosanto)
 - [PRODEST](https://www.prodest.es.gov.br/)
-- [](https://secult.es.gov.br/sobre-a-licc#top)
+- [](https://secult.es.gov.br/instrucao-normativa-licc-2023#top)

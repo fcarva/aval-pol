@@ -1,0 +1,1626 @@
+# Fonte: https://repositorio.ipea.gov.br/bitstream/11058/7523/1/td_2280.pdf
+# Coletado (UTC): 2026-09-24T00:45:00Z
+# sha256 do original: bbaf93e6386fe2dedbf92b247084f2d4925da2a15f0c2a610a69db5d38621af4
+
+      2280
+FINANCIAMENTO CULTURAL NO
+BRASIL CONTEMPORÂNEO
+
+
+
+
+Frederico Augusto Barbosa da Silva
+                                                                                          2280
+                                                                                            TEXTO PARA DISCUSSÃO
+                                                                                                    Brasília, março de 2017
+
+
+
+
+FINANCIAMENTO CULTURAL NO BRASIL CONTEMPORÂNEO
+
+Frederico Augusto Barbosa da Silva1
+
+
+
+
+1 Técnico de planejamento e pesquisa na Diretoria de Estudos e Políticas Sociais (Disoc) do Ipea.
+Governo Federal                                                                 Texto para
+Ministério do Planejamento, Desenvolvimento e Gestão                            Discussão
+Ministro interino Dyogo Henrique de Oliveira
+
+                                                               Publicação cujo objetivo é divulgar resultados de estudos
+                                                               direta ou indiretamente desenvolvidos pelo Ipea, os quais,
+                                                               por sua relevância, levam informações para profissionais
+                                                               especializados e estabelecem um espaço para sugestões.
+Fundação pública vinculada ao Ministério do Planejamento,
+Desenvolvimento e Gestão, o Ipea fornece suporte técnico       © Instituto de Pesquisa Econômica Aplicada – ipea 2017
+e institucional às ações governamentais – possibilitando
+a formulação de inúmeras políticas públicas e programas de     Texto para discussão / Instituto de Pesquisa Econômica
+desenvolvimento brasileiro – e disponibiliza, para a              Aplicada.- Brasília : Rio de Janeiro : Ipea , 1990-
+sociedade, pesquisas e estudos realizados por seus técnicos.
+                                                                   ISSN 1415-4765
+
+Presidente                                                          1.Brasil. 2.Aspectos Econômicos. 3.Aspectos Sociais.
+Ernesto Lozardo                                                I. Instituto de Pesquisa Econômica Aplicada.
+
+Diretor de Desenvolvimento Institucional, Substituto                                                     CDD 330.908
+Carlos Roberto Paiva da Silva
+Diretor de Estudos e Políticas do Estado,                      As opiniões emitidas nesta publicação são de exclusiva e
+das Instituições e da Democracia                               inteira responsabilidade dos autores, não exprimindo,
+João Alberto De Negri
+                                                               necessariamente, o ponto de vista do Instituto de Pesquisa
+Diretor de Estudos e Políticas                                 Econômica Aplicada ou do Ministério do Planejamento,
+Macroeconômicas
+                                                               Desenvolvimento e Gestão.
+José Ronaldo de Castro Souza Júnior
+Diretor de Estudos e Políticas Regionais,                      É permitida a reprodução deste texto e dos dados nele
+Urbanas e Ambientais
+Alexandre Xavier Ywata de Carvalho                             contidos, desde que citada a fonte. Reproduções para fins
+                                                               comerciais são proibidas.
+Diretora de Estudos e Políticas Setoriais de Inovação
+e Infraestrutura
+Fernanda De Negri
+Diretora de Estudos e Políticas Sociais
+Lenita Maria Turchi
+Diretor de Estudos e Relações Econômicas
+e Políticas Internacionais
+Sérgio Augusto de Abreu e Lima Florêncio Sobrinho
+Assessora-chefe de Imprensa e Comunicação
+Regina Alvarez
+Ouvidoria: http://www.ipea.gov.br/ouvidoria
+URL: http://www.ipea.gov.br
+
+
+
+
+                                                                                                                 JEL: Z18
+     SUMÁRIO
+
+
+
+SINOPSE
+
+
+ABSTRACT
+
+
+1 INTRODUÇÃO..........................................................................................................7
+
+
+2 O SISTEMA FEDERAL DE CULTURA E AS IDEIAS........................................................7
+
+
+3 O SFC COMO ELE É................................................................................................10
+
+
+4 O MECENATO PRIVADO.........................................................................................17
+
+
+5 CONSIDERAÇÕES FINAIS........................................................................................29
+
+
+REFERÊNCIAS...........................................................................................................34
+     RESUMO
+Este texto discute a dinâmica do financiamento cultural no governo federal brasileiro de
+1995 a 2013. Descreve o contexto histórico e enfrenta alguns dos argumentos presentes
+no debate público sobre os princípios que podem justificar reformas na administração
+da cultura e a reconfiguração do modelo de financiamento das ações públicas na área.
+Além disso, enfrenta o debate destas ideias gerais à luz da pluralidade de critérios e
+instrumentos utilizados pela administração pública. A dialética entre as ideias gerais, os
+instrumentos e as práticas permite a delimitação mais precisa entre os paradigmas de
+financiamento ou modelos.
+Palavras-chave: financiamento de políticas públicas; políticas culturais; gastos culturais.
+
+
+
+     ABSTRACT
+This text discusses the dynamics of cultural funding in the Brazilian federal gover-
+nment from 1995 to 2013. It describes the historical context and faces some of the
+arguments present in the public debate on the principles that can justify reforms in the
+administration of culture and reconfiguration of the stock financing model public in
+the area. Moreover, it faces discussion of these general ideas in the light of the plurality
+of criteria and instruments used by the public administration. The dialectic between
+general ideas, tools and practices allows for more precise delimitation between the
+financing paradigms or models.
+Keywords: financing of public policies; cultural policies; cultural spending.
+Texto para
+Discussão
+                Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+     1 INTRODUÇÃO
+
+O texto discute os sentidos do financiamento à cultura no governo federal de 1995 a 2013,
+sendo que a descrição da dinâmica dos dispêndios federais na área é quadro de fundo
+para explorar alguns dos significados atribuídos às políticas e ao financiamento cultural.
+
+       O trabalho faz uma breve contextualização e enfrenta alguns dos argumentos
+presentes na discussão pública no que se refere aos princípios que justificariam reformas
+na administração da cultura e a reconfiguração do modelo de financiamento de ações
+públicas na área. Além disso, debate estas ideias gerais à luz da pluralidade de critérios
+e instrumentos utilizados pela administração pública.
+
+       A exploração interpretativa da dialética entre ideias gerais, instrumentos e práti-
+cas permite a delimitação mais precisa entre paradigmas ou modelos de financiamento
+e até mesmo a recolocação dos termos do debate. Não há mais dúvidas, aparentemente,
+ou em termos das ideias gerais, de que dois são os modelos de financiamento cultural
+no Brasil. No primeiro deles, o financiamento seria realizado central e preponderante-
+mente pelo Estado e no segundo, pelo mercado.
+
+       Também não restam dúvidas de que todos os brasileiros têm direito à cultura e
+que a não realização desse direito é injusta, ou, pelo menos, imoral. As dúvidas surgem
+quando a prática política exige a seletividade, o uso de critérios e de instrumentos de
+política pública ou quando é necessário estabilizar os sentidos dos direitos culturais a
+que se tem direito, sua eficácia e suas condições de efetivação.
+
+
+     2 O SISTEMA FEDERAL DE CULTURA E AS IDEIAS
+
+A reflexão aqui presente parte de uma distinção importante. As políticas culturais envol-
+vem escolhas e demarcação de princípios, mas são as políticas públicas que as realizam, na
+forma de instituições setoriais (ministério, secretarias, fundações, associações, programas,
+projetos etc.), que acrescentam e mobilizam recursos materiais e cognitivos. As áreas
+de ação pública são também extensas: i) direitos autorais; ii) livro e leitura; iii) cinema
+e audiovisual; iv) patrimônio material e imaterial; v) museus; vi) artes e espetáculos,
+entre os quais a dança, o teatro e a música; vii) culturas populares; viii) comunidades
+tradicionais; e ix) circo, entre outros. Entretanto, uma parte do fazer cultural está
+fortemente relacionada com os mercados e as indústrias, fundamentalmente privados,
+
+
+
+
+                                                                                        7
+Brasília, março de 2017
+
+
+
+
+embora incentivados e regulados politicamente. Do lado da sociedade civil, que possui
+uma complexidade de atores atuantes na área cultural, os exemplos anteriores voltam
+rapidamente à memória, pois, além de serem áreas de atuação do poder público, são
+também fortemente ligados aos dinamismos dos mercados.
+
+       Considera-se aqui que a institucionalização de políticas culturais envolve recur-
+sos de diferentes tipos, e, apesar dos discursos agora comuns sobre a dimensão simbóli-
+ca e o conceito antropológico de cultura, o financiamento ainda é um dos componentes
+centrais que articula princípios gerais com os direitos. Não é possível imaginar uma
+forma única de financiamento que contemple a multiplicidade de problemas de cada
+uma das áreas culturais. Da mesma forma, é impensável simplificar a questão do finan-
+ciamento a modelos genéricos.1
+
+       O gráfico 1 mostra o comportamento dos recursos do Sistema Federal de Cultura
+(SFC) em cada uma das suas unidades orçamentárias. Destaquem-se no momento os
+três pontos a seguir:
+
+      •     o escopo do SFC abrange pesquisa – Casa de Rui Barbosa –; livro e leitura – biblio-
+            tecas, a ideia de sistema nacional de bibliotecas, inclusive a Biblioteca Nacional –;
+            ações de promoção da igualdade étnica – Fundação Palmares –; patrimônio material
+            e imaterial – Instituto do Patrimônio Histórico e Artístico Nacional (Iphan) –;
+            artes cênicas, teatro, dança, circo, artes plásticas e música – Fundação Nacional de
+            Artes (Funarte) –; cadeias audiovisuais e cinema – Agência Nacional do Cinema
+            (Ancine) –; e museus tradicionais e sociais – Instituto Brasileiro de Museus (Ibram).
+            Ainda existiram, ou existem, diversos programas no Ministério da Cultura (MinC)
+            – Arte, Cultura e Cidadania – Cultura Viva; Monumenta; Programa de Apoio ao
+            Desenvolvimento da Economia da Cultura (Prodec); Economia criativa, identidade
+            e diversidade, articulação institucional do Sistema Nacional de Cultura (SNC) etc.;
+      •     o crescimento dos recursos da unidade central do MinC está relacionado com vários
+            elementos importantes, entre os quais a redefinição dos papéis do ministério nas
+            articulações e no planejamento do Plano Nacional de Cultura (PNC) e do SNC,
+            bem como na condução de programas internamente, e não apenas nas instituições
+            vinculadas; e
+      •     o fortalecimento do FNC responde à parte das premissas de fortalecimento de
+            orçamentos públicos para a área, bem como à realização de dispêndios prioritários
+
+
+1. Para mais informações, ver Saravia (1999).
+
+
+
+
+8
+Texto para
+Discussão
+                            Financiamento Cultural no Brasil Contemporâneo
+ 2 2 8 0
+
+
+              para o MinC, a exemplo do cinema e audiovisual – volta-se a esta questão poste-
+              riormente –, do Mais Cultura e dos pontos de cultura. Um ponto salta à atenção
+              e mostra a perda de posição relativa do Iphan nos recursos federais. Entretanto,
+              deve-se ressaltar que o Ibram teve nascimento por cissiparidade em relação ao Iphan
+              e que uma parte das políticas patrimonialistas foi realizada com recursos externos do
+              Banco Interamericano de Desenvolvimento (BID), com contrapartidas do governo
+              federal, de estados e de municípios através do programa Monumenta 1997-2010.2
+       GRÁFICO 1
+       Comportamento dos recursos executados pelo SFC (1995-2013)
+       (Em R$)
+      1E+09
+900.000.000
+800.000.000
+700.000.000
+600.000.000
+500.000.000
+400.000.000
+300.000.000
+200.000.000
+100.000.000
+              0
+                   1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+                                                Ministério da Cultura                                  Casa de Rui Barbosa
+                                                Biblioteca nacional                                    Fundação Cultural Palmares
+                                                Iphan                                                  Funarte
+                                                Ancine                                                 Instituto Brasileiro de Museus
+                                                Fundo Nacional de Cultura
+
+       Fontes: Sistema Integrado de Administração Financeira do Governo Federal (Siafi); Sistema Integrado de Dados Orçamentários (Sidor).
+       Elaboração: Ipea/Disoc.
+
+
+
+
+      Dois são os conjuntos de ideias gerais associadas ao financiamento cultural. O
+primeiro relaciona problemas de sustentabilidade das atividades e ações culturais com
+o papel do Estado na indução, apoio e dinamização de processos de produção cultural.
+
+
+2. O Monumenta foi um programa do MinC cujo objetivo era conjugar a recuperação e a preservação do patrimônio histórico
+com desenvolvimento econômico e social. Atuou em cidades históricas protegidas pelo Iphan e tinha como estratégia a atu-
+ação integrada no âmbito dos municípios, agindo através de obras de restauração e recuperação dos bens tombados e das
+edificações localizadas nas áreas abrangidas pelo projeto. Também desenvolveu atividades de capacitação de mão de obra
+especializada em restauro, formação de agentes locais de cultura e turismo, promoção de atividades econômicas e programas
+educativos. Tinha financiamento do BID, apoio da Organização das Nações Unidas para a Educação, a Ciência e a Cultura
+(Unesco) e era orientado pela ideia de sustentabilidade do patrimônio. Era implementado a partir da assinatura de convênios
+entre MinC, prefeituras e/ou estados, e para seu acompanhamento e condução de ações foram formadas equipes compostas
+por técnicos do município ou do estado em conjunto com o Iphan e as unidades executoras de projeto (UEPs), que eram, por
+sua vez, coordenadas pela unidade central de gerenciamento (UCG). Para mais informações, ver Giannecchini (2014).
+
+
+
+
+                                                                                                                                             9
+Brasília, março de 2017
+
+
+
+
+Os mercados dariam conta de uma parte, mesmo sendo a mais potente em termos eco-
+nômicos, mas excluem e minimizam a diversidade ao monopolizar e capturar parte do
+fundo público para financiar as indústrias culturais e de comunicação de massas. Nesse
+conjunto, aparecem ideias de sustentabilidade relacionadas não apenas com parcerias,
+mas com a ideia de retorno econômico, a exemplo do Fundo Setorial do Audiovisual
+(FSA), que funciona no âmbito do Fundo Nacional de Cultura (FNC), do Monumen-
+ta e mesmo dos pontos de cultura, quando a ideia de sustentabilidade se associa com a
+ideia de redes, inclusive de economia solidária.
+
+       O segundo conjunto diz respeito à definição dos direitos culturais. Também aqui
+a descrição moral, política e ideológica a respeito da sociedade e da democracia que
+se deseja reaparecem. Além da democratização, ou seja, da intenção de oferecer opor-
+tunidades de acesso a bens e serviços culturais, alia-se a democracia cultural, isto é, a
+possibilidade de exercer as atividades e de participar de forma central das decisões de
+políticas culturais. As ideias mais extremas associam o direito cultural à desmercado-
+rização do fazer cultural, isto é, sendo a cultura um direito, suas múltiplas formas de
+exercício deveriam ser apoiadas pelo poder público. Na verdade, as áreas da cultura se
+ligam a estas ideias de formas muito densas e variadas.
+
+
+     3 O SFC COMO ELE É
+
+A descrição apresentada até aqui mostra como as ideias estão evidentemente emaranhadas
+em controvérsias carregadas de problemas conceituais, teóricos, políticos, morais, ideo-
+lógicos e práticos. Mas essas devem ser encaradas, se não para diminuir o grau de tensão
+ideológica que as envolve, ao menos para abrir uma descrição sistemática do que efetiva-
+mente constitui o modelo de financiamento das políticas culturais brasileiras e a respeito
+dos direitos que temos ao se dizer que temos direitos culturais. Esse é o objetivo aqui, qual
+seja, caracterizar e tentar apontar a dinâmica do financiamento público nos últimos anos.
+
+      No gráfico 2, podemos ver as mudanças nas participações relativas das unidades
+orçamentárias do SFC de 1995 até 2013. Pode-se constatar o aumento da participação
+do FNC e da [unidade orçamentária – UO] MinC, bem como a perda da posição rela-
+tiva do Iphan e a entrada em cena da Ancine e do Ibram.
+
+
+
+
+10
+Texto para
+Discussão
+                             Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+        GRÁFICO 2
+        Participação das unidades orçamentárias nos recursos executados pelo SFC
+        (1995-2013)¹
+100
+ 90
+ 80
+ 70
+ 60
+ 50
+ 40
+ 30
+ 20
+ 10
+  0
+      1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+                     Ministério da Cultura                             Casa de Rui Barbosa                                 Biblioteca nacional
+                     Fundação Cultural Palmares                        Iphan                                               Funarte
+                     Ancine                                            Instituto Brasileiro de Museus                      Fundo nacional de cultura
+
+        Fonte: Siafi/Sidor.
+        Elaboração: Ipea/Disoc.
+        Nota: ¹ O MinC é composto por sete entidades vinculadas, sendo quatro fundações (Cultural Palmares, Biblioteca Nacional, Nacional das Artes e Casa de Rui Barbosa), dois
+                institutos (Brasileiro de Museus, do Patrimônio Histórico e Artístico Nacional) e uma agência (Nacional do Cinema).
+
+
+
+
+       O aumento da participação do FNC tem diferentes explicações. A primeira des-
+sas relaciona-se com o fato de que o fundo passou a ser mediador entre as prioridades
+ministeriais (assinaladas pelos seus programas considerados mais importantes) e a so-
+ciedade. Os editais tiveram um papel fundamental aqui.
+
+       Antes, o fundo se baseava na ideia de livre demanda, ou seja, os projetos chega-
+vam ao MinC e então eram financiados com recursos orçamentários, especialmente do
+FNC. Depois de 2004, as críticas aos incentivos fiscais (genericamente à Lei Rouanet,
+como se o FNC não fizesse parte dela) eram acompanhadas da vontade de fortaleci-
+mento do fundo e dos seus orçamentos. O próprio fundo e as diretrizes que o orien-
+tariam na alocação de recursos deveriam ser resultado de discussões com a sociedade
+através de órgãos de participação. Embora as dinâmicas participativas e decisórias não
+estivessem – e ainda não estão – consolidadas, o FNC se fortaleceu em termos de re-
+cursos, passou a ser a âncora de políticas ministeriais (não mais de projetos de livre de-
+manda), a exemplo do Programa Mais Cultura e do Programa Cultura Viva, e ganhou
+novos recursos vinculados para o cinema e o audiovisual.
+
+      Portanto, operacionalmente, o financiamento público envolve desde o fundo
+perdido, passando por incentivos liberais (que não se resumem aos incentivos fiscais,
+
+
+
+                                                                                                                                                                    11
+Brasília, março de 2017
+
+
+
+
+nem aos gastos tributários indiretos), transferências com contrapartidas privadas, linhas
+de crédito com reembolso e diferentes formas de remuneração, fundos de investimento
+e compras governamentais, até outras modalidades e composições.
+
+      O financiamento privado, por sua vez, envolve um complexo sistema de financia-
+mento com recursos próprios das empresas ou de bancos, com incentivos fiscais públicos,
+fontes públicas e execução privada. Também aqui há muitas composições e variantes.3
+
+       Enfim, a delimitação típico-ideal do modelo de financiamento cultural como
+público ou privado tem uma função heurística, mas não descreve com precisão as fortes
+inter-relações entre o Estado, os mercados e os fenômenos culturais. Para simplificar a
+visualização dos dispêndios orçamentários do SFC, foi construído o gráfico 3.
+
+      GRÁFICO 3
+      Recursos financeiros executados do SFC (MinC) e FNC (1995-2013)
+2.500.000.000
+
+
+2.000.000.000
+
+
+1.500.000.000
+
+
+1.000.000.000
+
+
+ 500.000.000
+
+
+              0
+                    1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+                                                  Fundo Nacional de Cultura      MinC
+
+      Fonte: Siafi/Sidor.
+      Elaboração: Ipea/Disoc.
+
+
+
+
+       O gráfico 3 apresenta a tendência de crescimento e as oscilações dos dispêndios
+do sistema federal no período. Enfatiza-se o crescimento dos recursos do FNC. Como
+já se afirmou, o fortalecimento do FNC envolve a discussão participativa, embora esta
+premissa ainda não esteja consolidada nas práticas operacionais – e institucionais – das
+
+
+
+3. Para mais informações, ver Silva e Walczak (2014), em que são apontados os prêmios, a concessão de bolsas, os convê-
+nios, os contratos, o fomento de redes, o fomento a projetos etc. como modalidades de financiamento.
+
+
+
+
+12
+Texto para
+Discussão
+                             Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+diretrizes do fundo. Estas devem ser discutidas no âmbito do Conselho Nacional de
+Políticas Culturais (CNPC).
+
+      A estratégia global do Minc também significou o fortalecimento do FNC não
+apenas como meio de alocação do orçamento público, mas como meio de estreitamen-
+to das relações do Estado (especialmente do SFC) com a sociedade civil, a partir da
+discussão e definição de prioridades políticas. A tabela 1 apresenta o comportamento
+dos componentes dos dispêndios do governo federal (especialmente do SFC com foco
+no FNC) com cultura por grupo de natureza de despesa (GND).
+
+        TABELA 1
+        Dispêndios do SFC (MinC) e do FNC por GND (2013)
+                                                 Autorizado            Empenhado     Execução   Participação
+ MinC
+                                                    (R$)                  (R$)         (%)          (%)
+ Pessoal e encargos sociais                     505.650.472            481.179.799     95,2        21,1
+ Outras despesas correntes                    1.157.578.310            742.937.918     64,2        32,6
+ Investimentos                                1.078.491.055            654.779.628     60,7        28,7
+ Inversões financeiras                          615.482.525            400.058.650     65,0        17,6
+ Reserva de contingência                         30.568.253                      -        -            -
+ Total MinC                                   3.387.770.615          2.278.955.995     67,3       100,0
+ FNC                                                                                                   -
+ Outras despesas correntes                      340.585.585            190.101.415     55,8           8
+ Investimentos                                  135.302.918             35.072.226     25,9          1,5
+ Inversões financeiras                          615.392.525            400.000.000     65,0        17,6
+ Reserva de contingência                         30.568.253                      -        -            -
+ Total FNC                                    1.121.849.281            625.173.641     55,7        27,4
+ Participação FNC                                      33,1                   27,4        -            -
+        Fonte: Siafi/Sidor.
+        Elaboração: Ipea/Disoc.
+
+
+
+
+      Como se depreende da tabela 1, os gastos com pessoal e encargos são bastante
+reduzidos, aproximadamente 21% do total, sendo que as outras despesas correntes,
+nas quais se alocam inclusive gastos administrativos do dia a dia – além de gastos
+com transferências por convênios, bolsas, prêmios, fomento a projetos etc. –, somam
+32,6%. Investimentos estão em 28,7%, e as inversões financeiras são realizadas inte-
+gralmente pelas contribuições vinculadas ao audiovisual, pelo FSA, como se pode ver
+pelo percentual de 17,6% na parte de cima – SFC/MinC – e na de baixo – FNC.
+
+       Pode-se dizer que o FNC foi bastante fortalecido na política do período (gráfico 3),
+chegando a constituir 27,4% dos recursos totais em 2013. Esta tendência se vê na par-
+ticipação dos seus recursos autorizados, que correspondiam a 33% do total. Entretanto,
+
+
+                                                                                                       13
+Brasília, março de 2017
+
+
+
+
+embora a capacidade global de execução do SFC tenha sido baixa, de 67,3%, a do FNC
+foi menor, 55,7%. Assinale-se que parte dos recursos do FNC é realizada mediante
+editais conduzidos por secretarias finalísticas do MinC, a exemplo da Secretaria de Arti-
+culação Institucional (SAI), Secretaria da Cidadania e da Diversidade Cultural (SCDC)
+e Secretaria do Audiovisual (SAv).
+
+       Parte dos dispêndios do MinC estão fora do alcance da participação e das de-
+cisões alocativas da sociedade civil, pois são dispêndios com atividades-meio, e outras
+fazem parte das prioridades políticas e administrativas de cada uma das instituições
+do setor.4 A composição do financiamento envolve uma estrutura de gastos variados,
+desde os dispêndios administrativos, passando pelos gastos com pessoal e outros gastos
+de custeio, até transferências para estados, Distrito Federal, municípios, entidades pri-
+vadas – com ou sem fins lucrativos – e entidades internacionais.
+
+       Basta lembrar, por exemplo, do papel das compras governamentais de livros, das
+regras do FSA5 e das complexidades da execução da preservação do patrimônio histó-
+rico e arquitetônico urbano,6 além da atuação dos editais da Funarte, para desfazer a
+simplicidade dos modelos organizados em torno do Estado e do mercado. Exemplifi-
+quemos com o FSA, que é parte do FNC.
+
+      O FSA é composto pelos seguintes recursos vinculados recolhidos da atividade
+audiovisual: i) recursos de concessão e permissão ii) contribuição para o desenvolvi-
+mento da indústria do cinema nacional; iii) recursos próprios não financeiros; e iv)
+recursos próprios financeiros, taxas e multas pelo poder de polícia e Fundo de Fiscaliza-
+ção das Telecomunicações (Fistel). Estes recursos se prestam ao fomento e à administra-
+ção de recursos retornáveis, bem como à equalização de encargos financeiros incidentes
+nas operações de financiamento ao setor audiovisual – FSA (Lei no 11.437, de 28 de
+dezembro de 2006).7,8
+
+
+4. Previdência de inativos e pensionistas da União, operações especiais: sentenças judiciais, dívida externa, gestão da
+política de cultura, promoção da pesquisa e do desenvolvimento em ciência e tecnologia (C&T) e apoio administrativo.
+5. Para mais informações, ver Ipea (2014, p. 287-331).
+6. Para mais informações, ver Giannecchini (2014).
+7. Para mais informações, ver Santos e Coutinho (2012).
+8. Altera a destinação de receitas decorrentes da Contribuição para o Desenvolvimento da Indústria Cinematográfica
+Nacional (Condecine), criada pela Medida Provisória no 2.228-1, de 6 de setembro de 2001, visando ao financiamento de
+programas e projetos voltados para o desenvolvimento das atividades audiovisuais; altera a Medida Provisória no 2.228-1,
+de 6 de setembro de 2001, e a Lei no 8.685, de 20 de julho de 1993, prorrogando e instituindo mecanismos de fomento à
+atividade audiovisual; e dá outras providências.
+
+
+
+
+14
+Texto para
+Discussão
+                            Financiamento Cultural no Brasil Contemporâneo
+ 2 2 8 0
+
+
+      Portanto, é evidente que o retorno econômico e a ideia de sustentabilidade da
+indústria fazem as vezes de diretrizes estruturadoras das atividades do FSA. Entretanto,
+deve-se apontar para mais um elemento aqui, ou seja, o fato de os recursos vinculados
+destinarem-se ao setor audiovisual e de, certamente, a sua estrutura legal indicar a di-
+reção dos recursos para esta área, e não para outras atividades culturais. Estes não serão
+objeto de discussão por parte do CNPC e do seu pleno.
+
+       GRÁFICO 4
+       Composição do FNC por fonte (2013)
+       (Em %)
+                                                                    4,71        6,11
+                                                           1,87
+
+
+
+                                                                                              17,82
+
+
+
+
+                                         69,49
+
+
+
+
+   Recursos ordinários                           Contribuição de concursos de prognóstico      Contribuição para o Desenvolvimento
+                                                                                               da Indústria Cinematográfica Nacional
+   Recursos próprios não financeiros             Fundo de fiscalização das telecomunicações
+
+       Fonte: Siafi/Sidor.
+       Elaboração: Ipea/Disoc.
+
+
+
+
+      Em outras áreas de políticas públicas, a definição dos modelos de financiamento
+indica não apenas as fontes, mas também a presença de executores públicos ou priva-
+dos. Em geral, a delimitação do mix público-privado é muito complexa, pois este en-
+volve agentes públicos e privados, com recursos e capitais de diversos tipos, bem como
+lógicas econômicas, institucionais e sociais variadas. Um exemplo deste emaranhado
+são os “pontos de cultura”, em que os recursos do MinC podem ser apenas uma fração
+dos recursos totais das associações culturais; estas, por sua vez, podem receber recursos
+de empresas, doações internacionais e recursos de outros ministérios, além de poderem
+contar com recursos das comunidades onde estão inseridas.9
+
+
+9. Para mais informações, ver Silva e Ziviani (2011).
+
+
+
+
+                                                                                                                          15
+Brasília, março de 2017
+
+
+
+
+        TABELA 2
+        Dispêndios do SFC (MinC) e do FNC por modalidade de aplicação (2013)
+                                                                 FNC          SFC/MinC      FNC/SFC Composição FNC Composição SFC/MinC
+Modalidade de aplicação
+                                                                 (R$)           (R$)          (%)        (%)               (%)
+Transferências a estados e ao Distrito Federal                29.003.000       61.281.680    47,3         4,6               2,7
+Transferências a municípios                                   44.613.444      632.931.291     7,0         7,1              27,8
+Transferências a instituições privadas                        21.034.195       32.499.940    64,7         3,4               1,4
+Transferências a instituições privadas com fins lucrativos    34.441.520       45.530.390    75,6         5,5               2,0
+Transferências ao exterior                                     2.600.000       12.313.725    21,1         0,4               0,5
+Aplicações diretas                                           493.481.482    1.434.735.768    34,4        78,9              63,0
+Aplicações diretas a orgãos federais e entidades                        -      59.663.201       -           -               2,6
+Total                                                        625.173.641    2.278.955.995    27,4        100               100
+        Fonte: Siafi/Sidor.
+        Elaboração: Ipea/Disoc.
+
+
+
+
+       Não existe um padrão ou política de execução do fundo na direção de estados,
+Distrito Federal, municípios, instituições privadas etc.10 O que se pode dizer é que
+há uma regularidade no uso dos recursos na forma de aplicações diretas. Por parte do
+MinC, este padrão decorre dos gastos administrativos, com pessoal e aposentadorias; e,
+no conjunto, isto é, referindo-nos também ao FNC, as aplicações diretas predominam
+na execução de políticas, em decorrência da sua realização através de editais federais e
+de algumas execuções referentes ao fomento direto de projetos e ações. Seja como for,
+pode-se verificar a importância do FNC nas relações com outros níveis de governo e
+diretamente, com a sociedade, mesmo que através da mediação de editais que realizam
+diretrizes de ações prioritárias do MinC, de suas agências e órgãos conforme se verifica
+na Tabela 2. Quarenta e sete por cento das transferências para estados e para o Distrito
+Federal (R$ 29 milhões) vieram do FNC; R$ 44,6 milhões foram para os municípios;
+e R$ 55,4 milhões, para a sociedade civil (somando aquelas entidades com e sem fins
+lucrativos); ou seja, o FNC é responsável pela quase totalidade de recursos transferidos
+para estes tipos de entidades culturais (64,7% das transferências globais para entidades
+privadas sem fins lucrativos e 75,6% para aquelas com fins lucrativos).
+
+      Também é possível levantar a hipótese de que há um olhar direto do SFC para
+os municípios no processo de descentralização, tendo em vista o percentual de recursos
+transferidos para esta esfera de governo (27,8%), algo próximo de R$ 633 milhões.
+
+
+
+10. Por exemplo, em 2004 as transferências para estados e Distrito Federal foram de 2%; em 2008, de 26%; e em 2011,
+de 8,5%. O mesmo tipo de transferência oscilou menos no ministério ou SFC como um todo: 1,2%, 10,3% e 7,2% para os
+mesmos anos. As transferências privadas eram de 38,6% em 2004 e caíram para 3,9% em 2011, sendo que os comporta-
+mentos das transferências nos anos intermediários oscilaram muito. Essa aparente aleatoriedade segue o comportamento
+das transferências para os municípios.
+
+
+
+
+16
+Texto para
+Discussão
+                     Financiamento Cultural no Brasil Contemporâneo
+ 2 2 8 0
+
+
+       Como se vê, o uso do critério de compra de bens e serviços culturais11 para delimi-
+tar uma lógica de mercado e, por outro lado, associar o fundo público com os recursos
+não reembolsáveis na tentativa de definir um modelo com presença do Estado é muito
+simplista para descrever a estrutura de financiamento para a cultura. Inclusive, é preciso
+dizer, a seletividade estrutural da atuação estatal e as capturas privadas de recursos públi-
+cos não são tão incomuns, nem sempre são ilegais ou mesmo ilegítimas, muito menos
+injustas ou desnecessárias do ponto de vista do fortalecimento da diversidade cultural.
+
+
+      4 O MECENATO PRIVADO
+
+O conjunto de elementos discutidos até aqui já justificaria o uso de modelos de análise
+que reconhecessem as interdependências entre fontes públicas e privadas de recursos
+e, inclusive, já motivariam a produção de informações próprias à responsabilização,
+distribuição de riscos e de accountability dos vários agentes envolvidos no fomento e
+na implementação de ações de política pública. Não se trata apenas da necessidade de
+defender certa forma ou modelo de financiamento à luz de princípios, mas de reconhecer-
+-lhes a polimorfia.
+
+       Apesar disso, o uso daquele critério (compra de bens e serviços – associados
+às ideias de mercadorização ou desmercadorização da cultura) não deixa de ser uma
+estratégia particularmente habilidosa, pois permite realizar uma operação ideológica
+extrema, quer dizer, opor o Estado ao mercado, dividindo o campo entre defensores de
+certo uso republicano e democrático do fundo público (como se os conceitos tivessem
+um único sentido), quando os processos justificariam o uso do fundo público para
+desmercadorizar, e os liberais, supostamente sempre defensores das trocas fundadas no
+desejo de lucro, tendo como consequência a manutenção das distorções na forma de
+falhas de mercado, acúmulo de recursos e eventuais monopólios (como se estes fossem
+os objetivos únicos das correntes liberais) sobre a compra e a venda de produtos.
+
+       Todavia, pode-se dizer que a cultura guarda complexidades não redutíveis às ima-
+gens genéricas de um Estado bom, justo e equitativo e um mercado equalizador, homoge-
+neizador e excludente. Também não se reduz às imagens da cultura como processo, valioso
+em si, ou como produto, passível de compra e venda. A cultura é composta por cadeias de
+
+
+
+11. Para mais informações, ver Lima e Ortellado (2013).
+
+
+
+
+                                                                                     17
+Brasília, março de 2017
+
+
+
+
+valor, circuitos, eventos, equipamentos, ações culturais, redes, modos de vida etc. e guarda
+com as instâncias reguladoras (Estado, mercado e comunidades) relações densas.
+
+       Outro uso para a dicotomia produto e processo tem sido defendido e descontex-
+tualizado. A contraposição entre produto e processo como eixo para a caracterização do
+financiamento é ainda mais confusa do que a dicotomização entre o fundo estatal e o
+do mercado. O argumento tem sido utilizado para justificar a simplificação do processo
+de concorrência para recursos e nas prestações de contas. Entretanto, no caso da separa-
+ção entre produto e processo, é bastante difícil afirmar uma contraposição absoluta en-
+tre um e outro na prática social, seja do agente público, seja das empresas, seja de outros
+agentes culturais da sociedade civil. Aliás, as práticas de democratização e preservação
+da memória viva têm se mostrado bastante cuidadosas com o registro, a classificação, a
+preservação e a patrimonialização, mesmo de ações efêmeras. Afirmar a cultura como
+processo faz todo sentido. Os modos de fazer e conhecer são dinâmicos e carregados de
+historicidade. Outra coisa é misturar os usos dados aos conceitos de processo e produto
+para justificar a destinação de recursos sem critérios e métodos de accountability.
+
+       Seja como for, a ênfase em um ou em outro conceito – produto ou processo –
+tem a finalidade na gestão pública de estabelecer parâmetros avaliativos e de controle
+para o uso de recursos públicos ou privados. Evidentemente, todos os parâmetros têm
+alcances limitados e podem – bem como devem – ser questionados e criticados. Entre-
+tanto, o mais comum é que os gestores façam uso de elementos de ambos. Ademais,
+as atividades que, em geral, são vistas como processos podem ser perfeitamente consi-
+deradas como produtos. A resolução dos problemas relacionados com a prestação de
+contas e com a “desburocratização” dos instrumentos e métodos de políticas públicas
+não ganha muito com a confusão entre conceitos descritivos e normativos (ou simples-
+mente ideologizados).
+
+       Há, entretanto, um sentido interessante que se pode enfatizar. Ao acentuar os
+processos, toma-se o saber fazer como foco de análise e de ação pública. Esta posição
+é inteira e plausivelmente defensável. Talvez esta seja a posição mais próxima a que se
+pode chegar, dado o nível atual de reflexão, em relação à ideia de cultura como expe-
+riência social do cotidiano ou, como se queira, do sentido antropológico de cultura.
+O saber fazer pode ser, por exemplo, em caso extremo, contar uma estória, dançar, can-
+tar, tocar um instrumento, jogar etc. Estamos no âmbito do vivido, do processual e do
+dinâmico. No entanto, dada a complexidade do objeto das políticas de cultura, é difícil
+imaginar ou tomar a parte – uma orientação particular – pelo todo.
+
+
+
+18
+Texto para
+Discussão
+                      Financiamento Cultural no Brasil Contemporâneo
+ 2 2 8 0
+
+
+      Há ainda uma confusão entre os modelos de financiamento e o uso de editais.
+Tanto órgãos públicos quanto empresas usam editais; aliás, este recurso não é novo,
+nem inusitado, mas é prática recorrente administrativamente tanto no âmbito da cul-
+tura quanto em outras políticas setoriais. Entretanto, estas distinções têm seus usos.
+
+       O primeiro dos argumentos, mais uma vez, concentra-se em afirmar a fonte pú-
+blica orçamentária como única capaz de excluir a lógica do mercado. O segundo afirma
+serem os processos o componente mais importante nas atividades culturais – seria como
+se os bens, os espetáculos, as composições, os textos, os vídeos, os filmes, os DVDs, os
+CDs ou mesmo os roteiros não fizessem conjunto com os processos culturais. O terceiro
+argumento defende o uso de editais, como se estes fossem capazes, por si mesmos, de
+contornar capturas e realizar uma justa distribuição em nome do público. A presença ou
+não de editais não é diferencial lógico, mas ideológico. Acreditou-se, nos últimos anos,
+que a sua presença permitia conferir às políticas um sentido republicano, por contrapo-
+sição às escolhas de preferidos ou a favor da lógica arbitrária do balcão. Vejamos de for-
+ma mais aproximada qual é a gramática dos incentivos fiscais e algumas de suas caracte-
+rísticas em 2013.12 Também aqui são necessárias pequenas considerações introdutórias.
+
+       Os projetos apresentados para os incentivos fiscais não são objeto de restrições
+quanto ao mérito ou a outras questões substantivas por parte do MinC ou da Comis-
+são Nacional de Incentivos Culturais (Cnic). Mesmo assim, a estrutura administrativa
+mobiliza um grande esforço para a aprovação e a análise formal dos projetos. Em alguns
+anos do período, a taxa de projetos que captam recursos depois da aprovação pelo
+MinC/Cnic é sempre muito pequena (menos de 30%). A crítica mais veemente aos
+incentivos é que estes beneficiariam apenas o mercado; a segunda é que os recursos po-
+deriam ser decididos a partir de discussões políticas; e a terceira é que a concentração de
+recursos seja em nível territorial, de projetos ou financiadores beneficiados.13 Ver-se-á,
+ a partir da análise do comportamento dos projetos em 2013, que é necessária uma
+abordagem mais específica a respeito das três críticas. Provavelmente, serão necessários
+acompanhamento e avaliação que não levem em conta apenas ideias gerais. Enfrentar-
+-se-á primeiramente a crítica das três concentrações; em seguida, no acompanhamento
+de 2013, de forma exploratória e ainda insuficiente, a de que os incentivos beneficiam
+os mercados e de que seria necessária uma discussão política a respeito de critérios
+
+
+
+12. A esse respeito, ver Silva e Freitas Filho (2015).
+13. Para mais informações, ver Finageiv Filho (2014).
+
+
+
+
+                                                                                    19
+Brasília, março de 2017
+
+
+
+
+alocativos. Deve-se dizer, a princípio, que concordamos com estas assertivas e com os
+princípios ali expressos, mas que temos que encontrar melhores formulações sobre elas.
+
+      Por mecenato pode-se entender a prática de apoio a ações culturais através de
+recursos advindos de doação ou patrocínio. É por meio destes recursos econômicos que
+pessoas e empresas valorizam e enriquecem o patrimônio cultural coletivo. A caracterís-
+tica do mecenato é o aporte de recursos próprios à cultura em função do valor do bem
+cultural e econômico a ser apoiado ou em decorrência da associação da imagem pessoal
+ou da empresa. Inclusive, é possível afirmar que a cultura é bom negócio no sentido da
+construção de uma imagem para empresas que geram externalidades negativas – por
+exemplo, ao meio ambiente e à saúde. O gráfico 5 mostra que, mesmo com as críticas
+veementes, os incentivos fiscais proporcionaram recursos crescentes ao fazer cultural do
+período analisado. É verdade que há muitas oscilações com contração de recursos, o
+que acontece em momentos de menor dinamismo econômico ou de crises.
+
+     GRÁFICO 5
+     Comportamento dos incentivos fiscais¹ (1995-2013)
+     (Em R$)
+1.600.000.000,00
+
+
+1.400.000.000,00
+
+
+1.200.000.000,00
+
+1.000.000.000,00
+
+ 800.000.000,00
+
+ 600.000.000,00
+
+ 400.000.000,00
+
+ 200.000.000,00
+
+              0,00
+                         1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+     Fonte: Sistema de Apoio às Leis de Incentivo à Cultura (Salic)/MinC.
+     Elaboração: Ipea/Disoc.
+     Nota: ¹ Valores de dezembro de 2013.
+
+
+
+
+      Os gráficos 6 e 7 trazem aspectos pouco enfatizados em relação ao comportamen-
+to dos incentivos fiscais. Em primeiro lugar, observe-se o comportamento de aprovação
+de projetos pelo financiador. As empresas e as pessoas foram se tornando sensíveis aos
+projetos na cultura. De 267 projetos financiados em 1995, salta-se para 2.490 no ano
+
+
+
+
+20
+Texto para
+Discussão
+                           Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+seguinte, e o número não para de crescer ano a ano, chegando ao pico em 2010, com
+mais de 27 mil projetos financiados. O número cai para 16.875 em 2013, mas ainda é
+bastante significativo no quadro da dinamização do campo cultural.
+
+     GRÁFICO 6
+     Comportamento dos projetos incentivados – número de projetos (1995-2013)
+30.000
+                                                                                                                                           27.656
+
+                                                                                                                                                             25.081
+25.000                                                                                                                                              24.469
+
+
+                                                                                                                                  21.697
+                                                                                                                20.364
+20.000                                                                                                                   18.869
+                                                                                                       17.918
+                                                                                                                                                                      16.875
+
+
+15.000
+
+
+10.000
+                                                                                       7.802   8.164
+
+                                               5.916                   6.316   5.946
+                                                       5.634   5.664
+ 5.000                         3.702
+                                       4.027
+                   2.490
+
+           267
+    0
+         1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+     Fonte: Salic/MinC.
+     Elaboração: Ipea/Disoc.
+
+
+
+
+       Dois fatores concorrem para o aumento do número de projetos apoiados. Em
+primeiro lugar, evidentemente, a política do governo federal de não limitar os gastos
+tributários indiretos. O campo cultural, apesar dos critérios para apresentação, uso de
+recursos e prestação de contas, aprendeu a utilizar os incentivos fiscais e a responder aos
+controles burocráticos. Isso facilita o apoio e descomprime a administração, por esta
+ser seletiva em relação ao público que apresenta tais projetos e pelos recursos de acom-
+panhamento, que os próprios financiadores acabaram por desenvolver. Estes aspectos
+devem ser mais bem avaliados – tanto proponente quanto financiador são muito varia-
+dos em perfil, como veremos adiante –, mas a hipótese aqui levantada é plausível até
+serem desenvolvidos melhores instrumentos de julgamento.
+
+      Outro aspecto refere-se ao que se apresenta no gráfico 7, no qual se vê que,
+para além da generosidade do governo federal quanto aos tributos, é possível o maior
+atendimento dos projetos (maior número) em função de uma queda no seu tamanho
+médio: eram da ordem de R$ 147 mil em 1998 e chegaram a R$ 50 mil em 2010, com
+variações para cima nos anos seguintes.
+
+
+
+
+                                                                                                                                                               21
+Brasília, março de 2017
+
+
+
+
+     GRÁFICO 7
+     Comportamento dos incentivos fiscais¹ – média por projeto (1995-2013)
+     (Em R$)
+180.000
+
+          157.576
+160.000
+                              147.856
+                                        147.310
+                                                                     138.228
+140.000                                                                                                      133.585
+                    126.260                                                              123.894
+120.000                                                    116.974
+
+                                                                               107.007             105.198
+100.000
+                                                  86.909
+
+ 80.000                                                                                                                                                                           74.710
+                                                                                                                       68.673 67.559
+                                                                                                                                     67.165
+                                                                                                                                                                60.589
+ 60.000                                                                                                                                       56.637                     54.050
+                                                                                                                                                       50.342
+
+ 40.000
+
+ 20.000
+
+      -
+           1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013
+
+     Fonte: Salic/MinC.
+     Elaboração: Ipea/Disoc.
+     Nota: ¹ Valores de dezembro de 2013.
+
+
+
+
+      Essas hipóteses devem ser mais bem avaliadas, inclusive com levantamentos em-
+píricos de normas e orientações (que fogem ao escopo deste Texto para discussão) para
+se saber se a Cnic estabeleceu alguma normatização ou se o movimento de redução do
+tamanho médio dos projetos foi alguma estratégia dos editais das empresas ou simples-
+mente um movimento espontâneo do campo cultural.
+
+      Seja como for, podemos considerar dois aspectos: i) os aumentos constantes dos
+recursos incentivados indicam que as críticas genéricas a respeito dos conteúdos de
+mercado desta modalidade de financiamento não levaram aquelas críticas tão a sério a
+ponto de se tomarem medidas contrárias importantes; e ii) o número de projetos au-
+mentou de forma significativa no período, o que provavelmente responde aos desejos
+de recursos de artistas e agentes culturais.
+
+       Mas podemos deduzir algo sobre desconcentração e democratização do acesso
+aos recursos incentivados? Vamos devagar. Observemos as figuras 1 e 2 com a distri-
+buição dos projetos pelos municípios em montantes e número. Dos 5.565 municípios
+brasileiros, 823 receberam recursos para projetos culturais. A iniciativa não foi, eviden-
+temente, dos municípios, mas, em geral, da sociedade civil. Há casos de projetos ajusta-
+dos e negociados com o poder público, mesmo que depois apresentados por associações
+civis. São Paulo e Rio de Janeiro concentraram 65% dos recursos, que, somados àqueles
+
+
+22
+Texto para
+Discussão
+                           Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+destinados a Belo Horizonte e Porto Alegre, chegam a 75%. Vale ressaltar que muitos
+dos municípios onde se desenvolveram projetos apresentam ou valores pequenos no
+período, ou pequeno número de projetos.
+
+    FIGURA 1
+    Valores distribuídos pelos municípios brasileiros – incentivos fiscais (1995-2013)
+    (Em R$)
+
+
+
+
+    Fontes: Siafi; Sidor; Salic/MinC.
+    Elaboração: Ipea/Disoc.
+
+
+    FIGURA 2
+    Número de projetos distribuídos pelos municípios brasileiros – incentivos fiscais (1995-2013)
+
+
+
+
+    Fonte: Salic/MinC.
+    Elaboração: Ipea/Disoc.
+
+
+                                                                                         23
+Brasília, março de 2017
+
+
+
+
+      Entretanto, as médias por projeto são menores nessas cidades, ao menos relativa-
+mente aos projetos apresentados na maioria dos outros municípios. Mesmo mostrando
+a concentração de recursos em termos territoriais, esses dados indicam as possibilida-
+des – ainda que não existam políticas deliberadas, mas em decorrência da natureza dos
+projetos apresentados – da distributividade dos recursos entre os projetos do mesmo
+município, ponto ao qual voltaremos posteriormente.
+
+    FIGURA 3
+    Média de valor por projeto distribuído pelos municípios brasileiros – incentivos fiscais
+    (1995-2013)
+    (Em R$)
+
+
+
+
+    Fonte: Salic/MinC.
+    Elaboração: Ipea/Disoc.
+
+
+
+
+      O Rio de Janeiro é precedido por 108 municípios que possuem médias maiores
+por projeto, sendo São Paulo o 195o e Belo Horizonte, o 520o, o que mostra, de certa
+forma, um padrão de maior distribuição entre os projetos.
+
+      Enfim, a concentração de recursos é real, pelo menos em termos territoriais, e
+muitos municípios não foram beneficiados pelos recursos incentivados; entretanto, o
+número de projetos apresentados nos municípios concentradores de recursos mostra
+que há uma demanda estruturada por recursos. A presença de muitos municípios fora do
+
+
+
+
+24
+Texto para
+Discussão
+               Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+palco dos mercados dinâmicos e que apresentaram projetos vultosos mostra que a lógi-
+ca dos incentivos fiscais não é apenas uma lógica de mercado, do contrário, não teriam
+sido direcionados recursos médios significativos para projetos e municípios como
+Arari-MA, Curionópolis-PA, Ipiaú-BA, Ituberá-BA, Marabá-PA, Quedas do Iguaçu-PR,
+Rio Acima-MG, Curvelo-MG, Lençóis-BA, Congonhas-MG ou Paulínia-SP – para
+citar os possuidores de projetos com maiores médias.
+
+      Podemos lançar mais algumas hipóteses parciais: i) os projetos aprovados e fi-
+nanciados não se referem apenas aos grandes projetos do mercado; ii) a média dos
+projetos diminuiu; e iii) a distribuição dos recursos por um grande número tanto
+de projetos de pequeno porte quanto de projetos de grande vulto em municípios de
+baixo dinamismo e visibilidade do financiamento, em termos de retorno de imagem
+corporativa e econômica, mostra que nos incentivos fiscais convivem lógicas políticas
+e culturais complementares.
+
+       Aproximemo-nos mais do perfil dos proponentes. A lista a seguir (tabela 3)
+é dos trinta maiores proponentes do período, o que representa 21,47% do total. Aqui
+tem todo tipo de ator, de formato e inserção no campo cultural e no mercado cultural.
+A lista é encabeçada pelo Itaú Cultural e composta pela Fundação Roberto Marinho e
+pela Time for Fun (T4F). Ao mesmo tempo, verifica-se a presença da Orquestra Sinfônica
+Brasileira, do Museu de Arte Moderna (MAM), da TV Educativa, da Fundação Bienal de
+São Paulo, dos Amigos da Funarte, dos Amigos do Teatro Municipal do Rio de Janeiro e
+do Grupo Corpo.
+
+       Para extremar o argumento pode-se dizer que se tem lado a lado a T4F, empresa
+líder do mercado de entretenimento em escala mundial, e a Associação de Amigos da
+Funarte, sendo esta uma fundação parte do SFC/MinC. Ao olhar para a lista comple-
+ta, encontramos inúmeras surpresas do mesmo gênero, com fundações, universidades,
+museus, bibliotecas e institutos públicos ao lado de iniciativas culturais de todos os
+tipos, entre as quais enfatizamos a Orquestra Sinfônica Brasileira, o MAM, a Bienal de
+São Paulo, a Orquestra Pró-música do Rio de Janeiro, a Orquestra Sinfônica de São
+Paulo, a Funarte, o Teatro Municipal do Rio de Janeiro, a Fundação Iberê Camargo,
+Tomie Ohtake e a Pinacoteca Arte e Cultura.
+
+
+
+
+                                                                               25
+Brasília, março de 2017
+
+
+
+
+         TABELA 3
+         Os trinta maiores proponentes dos incentivos fiscais (1995-2013)
+ Proponente                                                                 Participação (%)
+ Instituto Itaú Cultural                                                          2,91
+ Fundação Roberto Marinho                                                         1,30
+ Fundação Orquestra Sinfônica Brasileira                                          1,22
+ T4F Entretenimento S.A.                                                          1,01
+ Museu de Arte Moderna de São Paulo                                               0,88
+ Fundação Padre Anchieta – Centro Paulista de Rádio e TV Educativas               0,84
+ Fundação Bienal de São Paulo                                                     0,83
+ Associação Orquestra Pró-Música do Rio de Janeiro                                0,80
+ Fundação Orquestra Sinfônica do Estado de São Paulo                              0,71
+ Associação Cultural da Funarte                                                   0,69
+ Divina Comédia Produções Artísticas Ltda.                                        0,67
+ Museu de Arte de São Paulo Assis Chateaubriand                                   0,66
+ Dançar Marketing Comunicações Ltda.                                              0,57
+ Associação de Amigos do Teatro Municipal do Rio de Janeiro                       0,56
+ Fundação Iberê Camargo                                                           0,56
+ Instituto Tomie Ohtake                                                           0,56
+ Associação Sociedade de Cultura Artística                                        0,54
+ Corpo Ltda.                                                                      0,53
+ Associação Pinacoteca Arte e Cultura (Apac)                                      0,49
+ Instituto Alfa de Cultura                                                        0,46
+ Mozarteum Brasileiro – Associação Cultural                                       0,44
+ Instituto Moreira Salles                                                         0,43
+ Associação de Amigos do Centro Cultural Banco do Brasil                          0,43
+ H Melillo Comunicação e Markenting Ltda.                                         0,40
+ Fundação Bienal de Artes Visuais do Mercosul                                     0,40
+ Aventura Entretenimento Ltda.                                                    0,40
+ Dell Arte Soluções Culturais Ltda.                                               0,40
+ Opus Assessoria e Promoções Artísticas Ltda.                                     0,38
+ Backstage Rio Empreendimentos e Produções Artísticas e Culturais Ltda.           0,38
+ Sociedade dos Amigos do MON – Museu Oscar Niemeyer                               0,34
+ Instituto Cultural Sérgio Magnani                                                0,34
+ Instituto Baccarelli                                                             0,33
+ Total                                                                           21,47
+         Fonte: Salic/MinC.
+         Elaboração: Ipea/Disoc.
+
+
+
+
+       Vejamos agora os trinta maiores financiadores do período. Destacam-se os ban-
+cos privados, sendo que o somatório de recursos das várias empresas com o mesmo
+nome e que atuam em segmentos diferenciados de mercado – a exemplo de bancos,
+leasings, financiadoras, seguros previdenciários, seguradoras, corretoras, capitalização
+etc. – colocaria a Petrobras na ponta, significando 14,08% dos recursos totais, em con-
+traposição a 2,92% do Itaú e 2,79% do Banco do Brasil.
+
+
+
+26
+Texto para
+Discussão
+                             Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+        TABELA 4
+        Os trinta maiores financiadores dos incentivos fiscais (1995-2013)
+                                                                              Participação
+ Financiador
+                                                                                   (%)
+ Petróleo Brasileiro S.A. (Petrobras)                                           12,73
+ Vale S.A.                                                                       3,86
+ Banco do Brasil S.A.                                                            2,79
+ Banco Nacional de Desenvolvimento Econômico e Social (BNDES)                    2,53
+ Centrais Elétricas Brasileiras S.A. (Eletrobras)                                2,07
+ Petrobras Distribuidora S.A.                                                    1,35
+ Bradesco Vida e Previdência S.A.                                                1,28
+ Cemig Distribuição S.A.                                                         1,10
+ Souza Cruz S.A.                                                                 0,91
+ Telecomunicações de São Paulo S.A.                                              0,86
+ Cielo S.A.                                                                      0,81
+ Empresa Brasileira de Correios e Telégrafos (ECT)                               0,74
+ Banco Itaú S.A.                                                                 0,70
+ Itaú Vida e Previdência S.A.                                                    0,67
+ Banco Bradesco Financiamentos S.A.                                              0,63
+ Banco Bradesco S.A.                                                             0,63
+ Fiat Automóveis S.A.                                                            0,61
+ Banco Itaucard S.A.                                                             0,59
+ Banco Itaú BBA S.A.                                                             0,57
+ Redecard S.A.                                                                   0,53
+ Cia Brasileira de Distribuição (CBD)                                            0,51
+ Vivo S.A.                                                                       0,51
+ Companhia Brasileira de Metalurgia e Mineração                                  0,51
+ Companhia Siderúrgica Nacional (CSN)                                            0,50
+ Companhia de Saneamento Básico do Estado de São Paulo (Sabesp)                  0,50
+ União de Bancos Brasileiros S.A. (Unibanco)                                     0,49
+ Telemar Norte Leste PCS S.A.                                                    0,43
+ Gerdau Açominas S.A.                                                            0,42
+ Tractebel Energia S.A.                                                          0,40
+ Volkswagen do Brasil Indústria de Veículos Automotores Ltda.                    0,40
+ AES Tietê S.A.                                                                  0,39
+ Cia. Itauleasing de Arrecadamento Mercantil                                     0,39
+                                                                                41,40
+        Fonte: Salic/MinC.
+        Elaboração: Ipea/Disoc.
+
+
+
+
+        Aqui a análise gera menor surpresa. Em primeiro lugar, aparecem as grandes em-
+presas do petróleo e de telefonia, os bancos públicos e privados, as empresas de cigarro
+etc. A melhoria da imagem corporativa dá a cor e o tom. O que se gostaria de enfatizar
+é o grande número de pequenos financiadores – a grande maioria composta por pessoas
+físicas e pequenas doações – que compõem os recursos dos projetos apresentados. Na ver-
+dade, o número de financiadores é muito vasto e pulverizado, como se verá em seguida.
+
+
+
+
+                                                                                             27
+Brasília, março de 2017
+
+
+
+
+      Ao reorganizarmos os dados para apontar os alcances e a extensão das ações
+apoiadas pelos instrumentos dos incentivos fiscais, temos as seguintes assertivas: i) mais
+de 10 mil proponentes apoiados – muitos se repetem todos os anos, especialmente os
+financiamentos de programações anuais de instituições culturais; ii) absorção de mon-
+tantes significativos em poucos projetos de maior valor, sendo que 2% dos proponentes
+absorveram 46% dos recursos incentivados; e iii) muitos são os projetos pequenos,
+sendo que 20% deles são de até R$ 10 mil e 62%, de até R$ 60 mil.
+
+       Podemos acompanhar o perfil dos projetos em 2013 para estabelecer uma fo-
+tografia e colorir a reflexão a respeito dos incentivos ficais. Em 2013, foram apoiados
+16.875 projetos por 11.296 financiadores. Na média, cada financiador apoia 1,5 pro-
+jeto, sendo que os recursos médios são da ordem de R$ 74,7 mil por projeto, como se
+pode perceber pela tabela 5, que apresenta as características mais gerais da modalidade
+incentivos fiscais da Lei Rouanet.
+
+       Do total, 41 financiadores (0,3% deles em 2013) apoiaram 1.250 projetos, ou
+seja, 7,5% do total de projetos apoiados; isto significou o apoio de poucas empresas
+a muitos projetos, médias altas por projeto em termos de valor; e, mais importante,
+41% dos recursos advindos dos gastos tributários indiretos em 2013 – referimo-nos
+aqui somente àqueles projetos de R$ 5 milhões ou mais. Do outro lado, têm-se 8.398
+apoiadores (74,3%) que apoiaram 54,6% dos projetos, mas que significaram 1,4% dos
+gastos tributários indiretos – no caso dos projetos que não ultrapassaram o valor de
+R$ 10 mil. Se tomarmos esta faixa (até R$ 10 mil) e a seguinte (de R$ 10 mil a R$ 150
+mil), temos 91% dos apoiadores, 72% dos projetos apoiados e 8% dos recursos totais.
+
+        TABELA 5
+        Projetos financiados nos incentivos fiscais (2013)
+Intervalo de valores                                                     Projetos    Média         Total de      Participação Média por
+                                                  Financiadores Projetos
+entre projetos                    Financiadores                          apoiados projeto/         projetos       por faixa    projeto
+                                                       (%)      apoiados
+(R$)                                                                       (%)    financiador        (R$)             (%)       (R$)
+Acima de 30.000.000                       3           0,03          211     1,3       70,3         103.387.970       8,2       489.990
+De 10.000.000 a 30.000.000               16           0,14          702     4,2       43,9         265.942.563      21,1       378.836
+De 5.000.000 a 10.000.000                22           0,19          337     2,0       15,3         154.961.681      12,3       459.827
+De 1.000.000 a 5.000.000               175            1,55        1.287     7,6        7,4         369.703.933      29,3       287.260
+De 300.000 a 1.000.000                 337            2,98        1.196     7,1        3,5         182.375.297      14,5       152.488
+De 150.000 a 300.000                   384            3,40          892     5,3        2,3          79.796.762       6,3        89.458
+De 10.000 a 150.000                   1.961          17,36        3.038    18,0        1,5          87.220.952       6,9        28.710
+
+Até 10.000                           8.398          74,34        9.212     54,6       1,1          17.342.794        1,4        1.883
+Total                              11.296             100       16.875     100        1,5       1.260.731.952       100       74.710
+        Fonte: Salic/MinC.
+        Elaboração: Ipea/Disoc.
+
+
+
+
+28
+Texto para
+Discussão
+                Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+      Esses argumentos e a tabela 5 apontam para sentidos complementares, a seguir
+especificados.
+     •   A presença de uma lógica de mercados concentrados: i) o uso de recursos públicos
+         é concentrado em poucos agentes culturais proponentes e financiadores, mesmo
+         quando estes (financiadores) são empresas públicas ou estatais e aqueles (proponen-
+         tes) produzam ações de interesse público. ii) o amplo acesso aos bens simbólicos
+         produzidos justificaria a presença dessa lógica, o que não impede sua problemati-
+         zação; e iii) são necessárias pesquisas empíricas que mostrem os impactos das ações
+         privadas no acesso da população a bens simbólicos.
+     •   A presença de uma lógica complementar, que, embora não possa rapidamente ser
+         descartada como de mercado, certamente tem consequências enquanto parte de
+         políticas públicas. A questão aqui é a pulverização das ações e suas consequências na
+         organização da cultura. É evidente a importância dessa lógica pelo simples fato da
+         sua capacidade de mobilização de recursos e agentes culturais em torno de projetos
+         e eventos. Mesmo que estes não tenham continuidade temporal, produzem grande
+         impacto na criatividade, na produção simbólica e nas redes de interdependências
+         culturais e econômicas.
+
+
+     5 CONSIDERAÇÕES FINAIS
+
+Deve-se dizer que a contraposição entre os modelos de financiamento tem forte justifi-
+cativa em ideias gerais, em cuja presença se podem organizar as escolhas públicas. Nada
+a dizer sobre os valores últimos que organizam essas ideias gerais, mas por eles podem-se
+ter simpatias inegáveis. A questão é se o sentido performático e o uso social e político que
+se podem atribuir as ideias gerais são seguidos por igual potência descritiva e analítica.
+Aparentemente, a resposta é não.
+
+      O primeiro conjunto de ideias afirma que o Estado deve financiar a cultura, pois
+os mercados minimizam as possibilidades do exercício da criatividade ao reduzirem
+a cultura a relações de trocas monetárias, ou seja, os bens culturais são trocados por
+dinheiro, sendo a cultura assim transformada em mercadoria. Quer dizer, o mercado
+reduz a cultura a conjuntos de bens que podem ser comprados. Algo no bem cultural
+não pode ser reduzido ao mercado, pois o próprio bem carrega ideologias e mesmo
+a identidade das comunidades nacionais e locais que os produzem. Esta posição dá
+margem, por exemplo, às políticas de exceção cultural, como no caso francês, com sua
+defesa dos bens audiovisuais nacionais contra a indústria cultural internacional. A outra
+posição é mais radical.
+
+
+                                                                                      29
+Brasília, março de 2017
+
+
+
+
+       Nessa, a diversidade cultural relaciona-se com processos sociais e políticos, por-
+tanto, não se liga, a não ser muito indiretamente, a bens ou produtos. Assim, as vin-
+culações da cultura com processos políticos identitários, de reconhecimento cultural e
+ao exercício da própria cultura impõem reconhecer que a esta se solda a ideia de igual
+respeito às estruturas valorativas, modos de vida ou linguagens, nas quais os grupos
+sociais escolheram viver ou trabalhar.
+
+      Mais ou menos radicais, as duas posições relativizam o papel dos mercados. Na pri-
+meira abordagem, há uma recusa ideológica global dos mercados; e no segundo, há uma
+descrição do mundo onde não há lugar determinante para a cultura material e para os
+bens. As duas descrições são relativamente ingênuas, não em um sentido qualquer, válido
+como o ideológico, mas especialmente do ponto de vista analítico, sobre as relações entre
+Estado, mercado e modos de vida (cultura); também são simplificadoras a respeito das
+relações do mundo da vida, ou seja, do cotidiano, com a economia.
+
+       Reconhecidas as diferentes posições sobre a matéria, pode-se dizer que o Estado,
+seja sua atuação realizada na forma de financiamento direto ou indireto, seja estimu-
+lando produtos ou processos, sempre estará incentivando a dinamização de mercados
+de bens culturais, independentemente se locais, regionais, nacionais ou transnacionais.
+Admita-se, por um lado, que o financiamento público se oriente para estimular tro-
+cas horizontais ou processos, e que mesmo assim estas trocas continuarão a ser, em
+grande parte, mediadas por materialidades ou bens. Admita-se, por outro lado, que o
+financiamento cultural se direcione ao reconhecimento da diversidade, então teremos
+de admitir ser esta expressa nos quadros da cultura material, e não apenas nas relações
+sociais fundadas em identidades descontextualizadas. As culturas e as identidades são, a
+uma só vez, materiais e simbólicas.
+
+       Em geral, apela-se para o conceito antropológico de cultura para justificar tanto
+a presença do Estado (já que os mercados são vilões do “achatamento, da homogenei-
+zação e do empobrecimento cultural”) quanto o foco das políticas públicas na questão
+da diversidade cultural. Nada mais equivocado. Já se mostrou que o sentido do con-
+ceito antropológico é seu uso, que já serviu a processos da administração colonial, para
+sedimentação de relações de classe, para formulações políticas contra-hegemônicas,
+para defesa de mercados etc. A cultura popular, produzida a partir da urbanização, da
+presença dos meios de comunicação de massa, do cinema industrial, da música pop,
+enfim, das indústrias culturais, também é cultura e gera culturas, quer se queira ou não,
+em sentido antropológico.
+
+
+
+30
+Texto para
+Discussão
+                Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+       O que o financiamento cultural brasileiro faz, na verdade – e o faz, pelo menos
+nos últimos anos, em nome dos direitos culturais e do conceito antropológico de cul-
+tura –, é focar públicos e delimitar um sentido de equidade. Inúmeros são os exemplos,
+a começar pelos programas Arte, Cultura e Cidadania – Cultura Viva e Mais Cultura,
+ambos com ações no campo audiovisual, da leitura, da cultura digital, das artes, da
+música, da cultura popular, dos pontos de memória etc. O que a política de financia-
+mento faz empiricamente, entretanto, não se reduz a este uso, como se percebeu com
+os exemplos da compra de livros, FSA, patrimônio e editais da Funarte, embora, muitas
+vezes, a ideia de equidade se associe a esta, mas com torções e adaptações conceituais.
+
+       Os incentivos fiscais, por sua vez, além de apoiarem instituições públicas, certa-
+mente apoiam inúmeras ações e atividades culturais das mais relevantes, podendo-se
+citar algumas das atividades financiadas pelo Banco do Brasil entre 2013 e 2014:
+     •   Elles: mulheres artistas na coleção do Centre Georges Pompidou;
+     •   Watch me move – O show da animação;
+     •   Plano anual do Instituto Tomie Ohtake;
+     •   Exposição de obras-primas do Renascimento italiano;
+     •   Plano Anual de Atividades da Orquestra Sinfônica do Estado de São Paulo (Osesp);
+     •   Exposição de Abraham Palatnik, o pioneiro da arte cinética no Centro Cultural
+         Banco do Brasil (CCBB);
+     •   Seleção Brasil em Cena, que objetiva revelar autores e atores de teatro;
+     •   Sexta edição do Programa Educativo Artes Visuais 2012-2013;
+     •   Todos os Sons – Domingo CCBB 2013;
+     •   Exposição de artes multimídia;
+     •   Décima segunda Mostra do Filme Livre (MFL); e
+     •   Cinesul 2013 – Festival Ibero-Americano de Cinema e Vídeo/20 Anos!
+      Esses são poucos exemplos que poderiam ser acrescidos por outros, tais quais
+apoios ao Instituto Inhotim, à Osesp, à Bienal de São Paulo, ao MAM, a festivais
+de dança, ao teatro, ao cinema etc., que são, sem sombra de dúvidas, da mais alta
+relevância cultural.
+
+      Antes, porém, de nos perguntarmos pelo direito cultural a que temos direito,
+poderíamos dizer que um uso possível a ser dado à ideia de que temos direitos culturais
+
+
+
+                                                                                    31
+Brasília, março de 2017
+
+
+
+
+é poder justificar o direcionamento de recursos a grupos, associações e comunidades
+que, sem a preocupação explícita por parte do fundo público e, portanto, das políticas
+públicas, não realizariam valores como democratização cultural, democracia cultural e,
+mais importante talvez, democracia no sentido de exercício da cidadania, quer dizer, de
+participação social nas decisões públicas.
+
+       Enfim, essa última frase contém parte dos sentidos do que se quer dizer aqui.
+A política cultural, para ser democrática e estar em conformidade com as gerações de
+direitos civis, sociais e políticos, deve corresponder a uma ampla institucionalização da
+participação, a qual tenha como objetivo desenvolver, distribuir e transmitir cultura às
+gerações futuras. Portanto, a construção de uma cultura política democrática é uma das
+peças das políticas culturais. Mas o que dizer das políticas públicas de cultura? Quais
+são seus instrumentos? Quais são seus recursos? Como delimitá-las, se assim for possí-
+vel, em relação a outras políticas com conteúdos culturais possivelmente evidentes à luz
+do diáfano, impreciso e incomensurável conceito antropológico, tais como habitação,
+transporte, educação, saúde, proteção da criança e do adolescente, políticas étnicas, de
+gênero, ambiental etc., para selecionar poucos exemplos de uma lista extensa? Final-
+mente, uma derradeira questão: Como elas se relacionam com as políticas culturais?
+
+       Uma sociedade moderna que tenha como objetivo a realização dos direitos à
+cultura dificilmente será capaz de excluir mercados dos processos alocativos, produtivos
+e distributivos. Nestas sociedades, há uma grande variedade de princípios morais; a
+maioria das pessoas concorda com muitos deles, ou pelo menos os tolera. E há outros
+sobre os quais há discordâncias mais ou menos radicais, mais ou menos razoáveis. Para
+nós, a homofobia, as formas de racismo e discriminação de gênero são exemplos de
+crenças particulares com as quais não se deve desejar conviver.
+
+        Muitas práticas culturais, entretanto, inclusive desenvolvidas na forma das artes e
+da criação estética, convivem com aquelas crenças e as estimulam como corretas e natu-
+rais. Esses são exemplos de práticas que podem ser incentivadas caso os critérios de po-
+lítica e de financiamento público se concentrem em conceitos de equidade funcional,
+ou seja, de renda, educação e exclusão de acesso a recursos públicos. Todos nós temos o
+direito à cultura, mas as instituições devem poder utilizar instrumentos e sanções para
+fazer cumprir tais direitos.
+
+
+
+
+32
+Texto para
+Discussão
+                Financiamento Cultural no Brasil Contemporâneo
+2 2 8 0
+
+
+       Assim como os instrumentos de política devem salvaguardar valores essenciais,
+devem poder impedir violências, corrupção e o florescimento de crenças culturais par-
+ticulares em contradição com aqueles valores. Não se afirma, com esses argumentos,
+o direito de punir ou a adesão a instrumentos legais reconhecidamente imprecisos e
+mesmo injustos, mas a necessidade de admitir a importância de alguns princípios res-
+tritivos como parte das políticas públicas. Algumas práticas das instituições públicas
+podem e devem ser restringidas, assim como práticas culturais de uso comum podem
+ser questionadas, a exemplo da misoginia, da homofobia, do racismo e de todo tipo de
+chauvinismo. De qualquer forma, o direito de sancionar e punir imoralidades deve ser
+usado com prudência, sobretudo na distribuição de recursos para a criatividade e para
+as atividades críticas.
+
+       O leitor deve estar se perguntando que papel esses elementos têm nas decisões de
+estruturação de políticas públicas culturais. À primeira vista, estamos questionando o
+papel do Estado como instância organizadora central dos fenômenos culturais e da rea-
+lização dos direitos. Em um segundo momento, estamos expondo a complexidade dos
+objetos de ação das políticas culturais e dizendo que a tipificação dos modelos de finan-
+ciamento entre público e privado é uma jogada político-ideológica interessante, mas
+incapaz de descrever os instrumentos tais como se estruturam. Por fim, concorda-se
+com a interpretação do direito à cultura como parte da cultura política democrática,
+mas se discorda da ideia de dissociá-la do acesso a bens e produtos. A cultura pode ser
+um conjunto de processos, mas estes são mediados por bens, portanto, não há como
+separar as materialidades do elemento simbólico.
+
+       Evidentemente, não se quer incorrer aqui em petição de princípios. Reconhece-
+mos a presença de práticas culturais cujo objetivo não é gerar um bem. Todavia, não é
+possível dizer que as distribuições materiais e o acesso a bens não se constituem, por um
+lado, em parte da cultura material e, por outro lado, em parte dos direitos mais amplos
+da cultura, especialmente relacionada ao acesso a conteúdos, já que estes se cristalizam
+em suportes materiais.
+
+      Finalmente, afirma-se indiretamente que os princípios de equidade são impor-
+tantes, mas insuficientes para desenhar políticas e que é necessário se pensar em critérios
+concretos e regras capazes de estimular o que se deseja fazer politicamente, amplifican-
+do a riqueza das produções simbólicas. Também é necessário limitar as possibilidades
+
+
+
+
+                                                                                    33
+Brasília, março de 2017
+
+
+
+
+de usar critérios particularistas como se universais o fossem, bem como é necessário
+fazer que as políticas sigam critérios restritivos a comportamentos equivocados, espe-
+cialmente do ponto de vista moral (a exemplo da homofobia e do racismo, como já se
+viu), e limitadores do pluralismo democrático.
+
+
+     REFERÊNCIAS
+
+
+FINAGEIV FILHO, V. Lei Rouanet: 23 anos de incentivo à cultura. TCC – Especialista em
+Gestão Pública– Escola Nacional de Administração Pública, Brasília, 2014. Disponível em:
+<https://goo.gl/tiatb6>.
+GIANNECCHINI, A. C. O Iphan e o Programa Monumenta: lições para a gestão do patri-
+mônio cultural. TCC – Especialista em Gestão Pública) – Escola Nacional de Administração
+Pública, Brasília, 2014. Disponível em: <https://goo.gl/nDrk96>.
+IPEA – INSTITUTO DE PESQUISA ECONÔMICA APLICADA. Políticas Sociais: acom-
+panhamento e análise, Brasília, n. 22, cap. 5, p. 287-331, 2014. Disponível em: <https://goo.
+gl/OQQHXD>.
+LIMA, L. P. B.; ORTELLADO, P. Da compra de produtos e serviços culturais ao direito de
+produzir cultura: análise de um paradigma emergente. Dados, Rio de Janeiro, v. 56, n. 2, p.
+351-382, 2013. Disponível em: <https://goo.gl/WnbcDa>.
+SANTOS, R.; COUTINHO, A. Políticas públicas e regulação do audiovisual. Curitiba:
+Editora CRV, 2012.
+SARAVIA, E. Que financiamento para que cultura? O apoio do setor público à atividade cul-
+tural. RAP, Rio de Janeiro, v. 33, n. 1, p. 89-119, jan./fev. 1999. Disponível em: <file:///C:/
+Users/t2366618/Downloads/7670-15726-1-PB.pdf>.
+SILVA, F. A. B.; WALCZAK, I. A. O redesenho do Programa Arte, Cultura e Cidadania –
+Cultura Viva: o último ato e a racionalidade dos processos decisórios nas políticas públicas.
+In: ENCONTRO INTERNACIONAL DE DIREITOS CULTURAIS, 3., 2014, Fortaleza,
+Ceará. Anais... Fortaleza: Unifor, 2014.
+SILVA, F. A. B.; ZIVIANI, P. (Orgs.). Cultura Viva: as práticas de pontos e pontões. Brasília:
+Ipea, 2011. Disponível em: <http://encurtador.com.br/epG79>.
+SILVA, F. A. B.; LABREA, V. V. (Orgs.). Linhas gerais de um planejamento participativo
+para o Programa Cultura Viva. Brasília: Ipea, 2014. Disponível em: <https://goo.gl/VCdt2Y>.
+SILVA, F. A. B.; FREITAS FILHO, R. Financiamento cultural: uma visão de princípios.
+Rio de Janeiro: Ipea, 2015. (Texto para Discussão, n. 2083). Disponível em: <https://goo.gl/
+l1MXmW>.
+
+
+
+
+34
+Ipea – Instituto de Pesquisa Econômica Aplicada
+
+
+EDITORIAL
+
+Coordenação
+Cláudio Passos de Oliveira
+
+Supervisão
+Everson da Silva Moura
+Reginaldo da Silva Domingos
+
+Revisão
+Clícia Silveira Rodrigues
+Idalina Barbara de Castro
+Leonardo Moreira Vallejo
+Marcelo Araujo de Sales Aguiar
+Marco Aurélio Dias Pires
+Olavo Mesquita de Carvalho
+Regina Marta de Aguiar
+Alessandra Farias da Silva (estagiária)
+Lilian de Lima Gonçalves (estagiária)
+Luiz Gustavo Campos de Araújo Souza (estagiário)
+Paulo Ubiratan Araujo Sobrinho (estagiário)
+Pedro Henrique Ximendes Aragão (estagiário)
+
+Editoração
+Bernar José Vieira
+Cristiano Ferreira de Araújo
+Daniella Silva Nogueira
+Danilo Leite de Macedo Tavares
+Jeovah Herculano Szervinsk Junior
+Leonardo Hideki Higa
+Herllyson da Silva Souza (estagiário)
+
+Capa
+Luís Cláudio Cardoso da Silva
+
+Projeto Gráfico
+Renato Rodrigues Bueno
+
+
+
+
+                                                     Livraria Ipea
+                                                     SBS – Quadra 1 - Bloco J - Ed. BNDES, Térreo.
+                                                     70076-900 – Brasília – DF
+The manuscripts in languages other than Portuguese
+published herein have not been proofread.            Fone: (61) 2026-5336
+                                                     Correio eletrônico: livraria@ipea.gov.br
+  Composto em adobe garamond pro 12/16 (texto)
+Frutiger 67 bold condensed (títulos, gráficos e tabelas)
+                     Brasília-DF
+ Missão do Ipea
+ Aprimorar as políticas públicas essenciais ao desenvolvimento brasileiro
+Missão
+ por meio do  Ipea e disseminação de conhecimentos e da assessoria
+          da produção
+Aprimorar   as suas
+ ao Estado nas políticas   públicas
+                     decisões         essenciais ao
+                              estratégicas.
+desenvolvimento brasileiro por meio da produção
+e disseminação de conhecimentos e da assessoria
+ao Estado nas suas decisões estratégicas.
+

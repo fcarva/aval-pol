@@ -1,6 +1,6 @@
 # Fonte: https://repositorio.ipea.gov.br/entities/publication/a419ef3f-73a5-46da-b4d9-b352ba3e6490
-# Coletado (UTC): 2026-09-24T00:29:53Z
-# sha256 do original: b9593d396afe03cd247bc95304780f7459b5ea07d2de3c5e9ea90838a513e792
+# Coletado (UTC): 2026-09-24T00:44:08Z
+# sha256 do original: 3169ed7f4f4bbd7933154b0e3d774d26d87617b5d893bea58bcd6a20c9846084
 
 Descentralização e capacidades institucionais : lições da Lei Aldir Blanc
 
@@ -136,3 +136,36 @@ Versão Primária
 Eventos
 Notícias
  Página do item completo
+
+## Links da página
+- [Portal do Governo Brasileiro](http://brasil.gov.br)
+- [Atualize sua Barra de Governo](http://epwg.governoeletronico.gov.br/barra/atualize.html)
+- [](https://repositorio.ipea.gov.br/home)
+- [Comunidades & Coleções](https://repositorio.ipea.gov.br/community-list)
+- [Estatísticas](https://repositorio.ipea.gov.br/statistics/entities/publication/a419ef3f-73a5-46da-b4d9-b352ba3e6490)
+- [Novo usuário? Clique aqui para cadastrar.](https://repositorio.ipea.gov.br/register)
+- [Esqueceu sua senha?](https://repositorio.ipea.gov.br/forgot)
+- [Início](https://repositorio.ipea.gov.br/)
+- [Navegar por Tipo de Publicação](https://repositorio.ipea.gov.br/communities/06b7ec9d-e98d-40a2-89a9-ca05b2877411)
+- [Capítulos de Livro](https://repositorio.ipea.gov.br/collections/23bfd1a1-f92d-48a5-b3c4-93c7e4d7d310)
+- [Cap8_Descentralizacao_e_capacidades_institucionais.pdf (842.29 KB)](https://repositorio.ipea.gov.br/bitstreams/5b765483-e56b-4683-8335-a2fe43fb3f2f/download)
+- [2026](https://repositorio.ipea.gov.br/browse/dateissued?startsWith=2026)
+- [Book part](https://repositorio.ipea.gov.br/browse/type?startsWith=Book%20part)
+- [https://dx.doi.org/10.38116/978-65-5635-093-6/capitulo8](https://dx.doi.org/10.38116/978-65-5635-093-6/capitulo8)
+- [Frederico Augusto Barbosa da Silva](https://repositorio.ipea.gov.br/entities/person/25892dbb-af54-4c44-b24e-0ad5cce8f4ed)
+- [Sá, Juliana Veloso de](https://repositorio.ipea.gov.br/browse/author?startsWith=S%C3%A1,%20Juliana%20Veloso%20de)
+- [Política Cultural](https://repositorio.ipea.gov.br/browse/vcipea?startsWith=Pol%C3%ADtica%20Cultural)
+- [Políticas Públicas](https://repositorio.ipea.gov.br/browse/vcipea?startsWith=Pol%C3%ADticas%20P%C3%BAblicas)
+- [Descentralização cultural](https://repositorio.ipea.gov.br/browse/subject?startsWith=Descentraliza%C3%A7%C3%A3o%20cultural)
+- [Capacidades institucionais](https://repositorio.ipea.gov.br/browse/subject?startsWith=Capacidades%20institucionais)
+- [Lei Aldir Blanc (LAB)](https://repositorio.ipea.gov.br/browse/subject?startsWith=Lei%20Aldir%20Blanc%20(LAB))
+- [Federalismo cultural](https://repositorio.ipea.gov.br/browse/subject?startsWith=Federalismo%20cultural)
+- [Financiamento da cultura](https://repositorio.ipea.gov.br/browse/subject?startsWith=Financiamento%20da%20cultura)
+- [https://repositorio.ipea.gov.br/handle/11058/20174](https://repositorio.ipea.gov.br/handle/11058/20174)
+- [Carregando...](https://repositorio.ipea.gov.br/entities/book/cfdee92e-049d-4d84-a534-a568f26a1e01)
+- [Trajetórias das políticas culturais : uma década de leituras a partir do Ipea](https://repositorio.ipea.gov.br/entities/book/cfdee92e-049d-4d84-a534-a568f26a1e01)
+- [Página do item completo](https://repositorio.ipea.gov.br/entities/publication/a419ef3f-73a5-46da-b4d9-b352ba3e6490/full)
+- [](https://www.instagram.com/ipeaoficial/)
+- [](https://www.facebook.com/ipeaonline)
+- [](https://www.youtube.com/channel/UCvFF3APvKR3Oequ1wrJCJKQ)
+- [website accessibility](https://userway.org)

@@ -1,6 +1,6 @@
 # Fonte: https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-a-estrutura-de-governanca-das-renuncias-tributarias
-# Coletado (UTC): 2026-09-24T00:29:59Z
-# sha256 do original: 447487675e50f40b06aa8ef4c2164bdcf00a8c57e1da7d20fdca10b685efbe87
+# Coletado (UTC): 2026-09-24T00:44:16Z
+# sha256 do original: bafe8eca5715f91710936710269abe8eb9c30777024f0512ab7682b50c1c347d
 
 TCU avalia a estrutura de governança das renúncias tributárias – Notícias | Portal TCU
 Pular para o conteúdo principal
@@ -108,3 +108,64 @@ Assinatura de Conteúdo
 Receba conteúdo sobre pautas, notícias, jurisprudência, processos e outros.
 Receba atualizações
 Missão: "Aprimorar a Administração Pública em benefício da sociedade por meio do controle externo."
+
+## Links da página
+- [Pular para o conteúdo principal](https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-a-estrutura-de-governanca-das-renuncias-tributarias#main-content)
+- [Acessibilidade](https://portal.tcu.gov.br/acessibilidade)
+- [Denuncie](https://representacaov2.apps.tcu.gov.br/denuncie)
+- [Transparência e prestação de contas](https://portal.tcu.gov.br/transparencia-e-prestacao-de-contas)
+- [](https://portal.tcu.gov.br/sobre-o-portal/acesso-a-informacao)
+- [Português Português](https://portal.tcu.gov.br/)
+- [English English](https://portal.tcu.gov.br/english)
+- [Español Español](https://portal.tcu.gov.br/espanol)
+- [Tribunal de Contas da União](https://portal.tcu.gov.br/)
+- [Acesso à Informação](https://portal.tcu.gov.br/sobre-o-portal/acesso-a-informacao)
+- [Pesquisa integrada](https://pesquisa.apps.tcu.gov.br)
+- [Início](https://portal.tcu.gov.br/)
+- [Imprensa](https://portal.tcu.gov.br/imprensa/)
+- [Notícias](https://portal.tcu.gov.br/imprensa/noticias)
+- [Acórdão 1205/2014 - Plenário](http://www.tcu.gov.br/Consultas/Juris/Docs/judoc/Acord/20140516/AC_1205_16_14_P.doc)
+- [Twitter](https://twitter.com/tcuoficial)
+- [Facebook](https://www.facebook.com/TCUoficial)
+- [aqui](http://portal2.tcu.gov.br/portal/page/portal/TCU/ouvidoria/sobre_ouvidoria)
+- [Minuto do TCU](https://portal.tcu.gov.br/imprensa/minuto-do-tcu)
+- [Voltar ao topo](https://portal.tcu.gov.br/imprensa/noticias/tcu-avalia-a-estrutura-de-governanca-das-renuncias-tributarias#top)
+- [Autoridades](https://portal.tcu.gov.br/autoridades)
+- [Boletim do Tribunal de Contas da União](https://portal.tcu.gov.br/btcu)
+- [Conheça o TCU](https://portal.tcu.gov.br/conheca-o-tcu)
+- [Instituto Serzedello Corrêa](https://portal.tcu.gov.br/instituto-serzedello-correa)
+- [Eventos institucionais](https://portal.tcu.gov.br/eventos-institucionais)
+- [Imprensa](https://portal.tcu.gov.br/imprensa)
+- [Ministério Público junto ao TCU](https://mp.tcu.gov.br/)
+- [Sustentabilidade](https://portal.tcu.gov.br/sustentabilidade)
+- [Apoio à Auditoria e Fiscalização](https://apoioauditoria.tcu.gov.br/)
+- [Áreas de atuação](https://portal.tcu.gov.br/areas-de-atuacao)
+- [Carta de Serviços](https://portal.tcu.gov.br/carta-de-servicos)
+- [Contas](https://portal.tcu.gov.br/contas)
+- [Governança](https://portal.tcu.gov.br/governanca)
+- [Painéis de Informações](https://portal.tcu.gov.br/paineis-de-informacoes)
+- [Planejamento e Gestão](https://portal.tcu.gov.br/planejamento-e-gestao)
+- [Publicações institucionais](https://portal.tcu.gov.br/publicacoes-institucionais)
+- [TCU e o Congresso Nacional](https://portal.tcu.gov.br/tcu-e-o-congresso-nacional)
+- [Jurisprudência](https://portal.tcu.gov.br/jurisprudencia)
+- [Sessões Colegiadas](https://portal.tcu.gov.br/sessoes)
+- [Acesso à informação](https://portal.tcu.gov.br/sobre-o-portal/acesso-a-informacao)
+- [Dúvidas processuais](https://portal.tcu.gov.br/duvidas-processuais)
+- [Ouvidoria](https://portal.tcu.gov.br/ouvidoria)
+- [TCU nos estados](https://contas.tcu.gov.br/ords/f?p=indicador:REPRESENTANTE_ESTADO)
+- [Aposentados](https://portal.tcu.gov.br/sobre-o-portal/aposentados)
+- [Lei Geral de Proteção de dados - LGPD](https://portal.tcu.gov.br/lgpd)
+- [Mapa do site](https://portal.tcu.gov.br/mapa-do-site)
+- [Termos de uso](https://portal.tcu.gov.br/termos-de-uso)
+- [Página dos Aposentados](https://casa.apps.tcu.gov.br/aposentados)
+- [Página dos Pensionistas](https://casa.apps.tcu.gov.br/pensionistas)
+- [Horários de atendimento e contatos](https://portal.tcu.gov.br/conheca-o-tcu/visite-o-tcu#enderecos-e-contatos)
+- [TCU Digital (acesso interno)](https://tcucloud.sharepoint.com/sites/TCUDigital)
+- [Receba atualizações](https://assinatura-conteudo.apps.tcu.gov.br/)
+- [](https://www.tiktok.com/@tcu_oficial)
+- [](https://www.youtube.com/user/TCUoficial)
+- [](https://twitter.com/TCUoficial)
+- [](http://www.facebook.com/TCUoficial)
+- [](https://www.linkedin.com/company/tribunal-de-contas-da-uniao/)
+- [](https://www.instagram.com/tcuoficial/)
+- [](https://www.flickr.com/photos/150778624@N04/albums)

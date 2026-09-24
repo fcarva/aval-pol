@@ -1,6 +1,6 @@
 # Fonte: https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761
-# Coletado (UTC): 2026-09-24T00:30:05Z
-# sha256 do original: 064e8abb96b65d56297fb98b5bc1f68a4bba59ae259113ed333e7639bfbbe59c
+# Coletado (UTC): 2026-09-24T00:44:20Z
+# sha256 do original: a9ea21959538617354ce2396b6933ee227e98d02a81b122293bc7aec8e822ea4
 
 A Lei Rouanet e a construção do “mercado de patrocínios culturais”
 							| Novos Rumos Sociológicos
@@ -81,3 +81,38 @@ DOI
 GOOGLE SCHOLAR
 
 PORTAL DE PERIÓDICOS UFPEL
+
+## Links da página
+- [Ir para o conteúdo principal](https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761#pkp_content_main)
+- [Ir para o menu de navegação principal](https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761#pkp_content_nav)
+- [Ir pro rodapé](https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761#pkp_content_footer)
+- [](https://periodicos.ufpel.edu.br/index.php/NORUS/index)
+- [Atual](https://periodicos.ufpel.edu.br/index.php/NORUS/issue/current)
+- [Arquivos](https://periodicos.ufpel.edu.br/index.php/NORUS/issue/archive)
+- [Notícias](https://periodicos.ufpel.edu.br/index.php/NORUS/announcement)
+- [Submissões](https://periodicos.ufpel.edu.br/index.php/NORUS/about/submissions)
+- [Sobre](https://periodicos.ufpel.edu.br/index.php/NORUS/about)
+- [Sobre a Revista](https://periodicos.ufpel.edu.br/index.php/NORUS/about)
+- [Equipe Editorial](https://periodicos.ufpel.edu.br/index.php/NORUS/about/editorialTeam)
+- [Conselho Editorial](https://periodicos.ufpel.edu.br/index.php/NORUS/sobre/conselhoeditorial)
+- [Declaração de Privacidade](https://periodicos.ufpel.edu.br/index.php/NORUS/about/privacy)
+- [Contato](https://periodicos.ufpel.edu.br/index.php/NORUS/about/contact)
+- [Buscar](https://periodicos.ufpel.edu.br/index.php/NORUS/search/search)
+- [](https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761)
+- [Cadastro](https://periodicos.ufpel.edu.br/index.php/NORUS/user/register)
+- [Acesso](https://periodicos.ufpel.edu.br/index.php/NORUS/login)
+- [Início](https://periodicos.ufpel.edu.br/index.php/NORUS/index)
+- [v. 1 n. 1 (2013): NORUS](https://periodicos.ufpel.edu.br/index.php/NORUS/issue/view/234)
+- [https://doi.org/10.15210/norus.v1i1.2761](https://doi.org/10.15210/norus.v1i1.2761)
+- [](https://periodicos.ufpel.edu.br/index.php/NORUS/issue/view/234)
+- [PDF](https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761/2479)
+- [](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+- [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+- [Enviar Submissão](https://periodicos.ufpel.edu.br/index.php/NORUS/about/submissions)
+- [Chamada de Artigos para Dossiê: “Feminicídios no Brasil e na América Latina - Perspectivas Críticas sobre a Violência Letal contra mulheres”](https://periodicos.ufpel.edu.br/index.php/NORUS/announcement/view/743)
+- [Chamada de Artigos para Dossiê: "Estudos socioculturais sobre o futebol"](https://periodicos.ufpel.edu.br/index.php/NORUS/announcement/view/730)
+- [](https://www.instagram.com/revistanorus/)
+- [DOI](https://www.doi.org/)
+- [GOOGLE SCHOLAR](https://scholar.google.com.br/)
+- [PORTAL DE PERIÓDICOS UFPEL](https://revistas.ufpel.edu.br/)
+- [](https://periodicos.ufpel.edu.br/index.php/NORUS/about/aboutThisPublishingSystem)
