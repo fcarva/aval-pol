@@ -49,3 +49,4 @@ secult_captados_2022_pdf	https://secult.es.gov.br/media/PDF/2023/RECURSO%20FINAN
 secult_captados_2023_pdf	https://secult.es.gov.br/media/2023/RECURSO%20FINANCEIRO%20CAPTADO%20-%202023.pdf	captação 2023 por cota e por projeto
 secult_captados_2024_pdf	https://secult.es.gov.br/media/2024/RECURSO%20FINANCEIRO%20CAPTADO%20-%202024%20%286%29.pdf	captação 2024 por cota e por projeto
 secult_captados_2025_v17_pdf	https://secult.es.gov.br/media/2025/RECURSO%20FINANCEIRO%20CAPTADO%20-%202025%20%2817%29.pdf	captação 2025, versão (17): comparar com a transcrição do licc.gov e ler o total por cota
+mapa_cultural_api_eventos	https://mapa.cultura.es.gov.br/api/event/find?@select=id,name,terms,classificacaoEtaria&@limit=5	API pública do Mapa Cultural ES: eventos com linguagem (teste de acesso)
