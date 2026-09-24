@@ -1,25 +1,46 @@
-# Fonte: API SALIC/MinC https://api.salic.cultura.gov.br/api/v1/projetos, consulta 2026-09-23; mecanismo=Mecenato; valor_captado = acumulado do projeto ate a consulta, agregado por ano do PRONAC (ano_projeto); UF = campo UF do SALIC. Script: analise/03a_salic_rouanet_uf.py Recorte: UF=ES, anos 2019-2022.
+# Fonte: API SALIC/MinC https://api.salic.cultura.gov.br/api/v1/projetos, consulta 2026-09-23; mecanismo=Mecenato; valor_captado = acumulado do projeto ate a consulta, agregado por ano do PRONAC (ano_projeto); UF = campo UF do SALIC. Script: analise/03a_salic_rouanet_uf.py Recorte: UF=ES, anos 2019-2025.
 municipio,n_projetos,n_com_captacao,valor_captado
-Vitória,153,94,105486662.57
-Vila Velha,22,4,11828623.74
-Serra,14,8,11799965.8
+Vitória,540,199,209979168.45
+Serra,97,27,26694661.71
+Vila Velha,102,23,16577263.16
 Castelo,4,2,4672775.0
+Linhares,40,13,3341664.4
+João Neiva,8,5,3236605.83
+Cachoeiro de Itapemirim,50,9,2615368.53
+Conceição da Barra,7,4,2583447.5
 Rio de Janeiro,3,3,1824117.4900000002
-João Neiva,2,2,1168357.1400000001
-Anchieta,1,1,481304.03
-Fundão,2,1,449000.0
-Cachoeiro de Itapemirim,5,2,420149.16000000003
-Colatina,2,1,300000.0
-Baixo Guandu,2,2,241234.4
-Santa Maria de Jetibá,2,1,200000.0
-Linhares,4,1,175501.0
-São Mateus,3,1,140000.0
-Guarapari,1,1,131503.97
-Afonso Cláudio,1,1,7000.0
+São Gabriel da Palha,3,1,1200000.0
+Brasília,2,1,1166028.17
+Ibiraçu,7,3,832845.86
+Colatina,12,5,747220.0
+Cariacica,42,2,740000.0
+Guarapari,12,4,510618.7
+Baixo Guandu,7,4,486234.4
+Anchieta,14,1,481304.03
+Fundão,6,1,449000.0
+Afonso Cláudio,6,2,257160.67
+Aracruz,7,1,250038.63
+Iúna,6,1,250000.0
+Domingos Martins,4,1,245971.75
+Piúma,3,1,200000.0
+Santa Maria de Jetibá,3,1,200000.0
+Nova Venécia,6,2,174000.0
+São Mateus,9,1,140000.0
+Pinheiros,1,1,139789.1
+Ecoporanga,3,3,80003.0
 Itaguaçu,1,1,2405.01
-Cariacica,3,0,0.0
-Muniz Freire,2,0,0.0
-Piúma,1,0,0.0
-Nova Venécia,1,0,0.0
-Viana,1,0,0.0
-Vargem Alta,2,0,0.0
+Alegre,1,0,0.0
+Divino de São Lourenço,1,0,0.0
+Muniz Freire,10,0,0.0
+Marataízes,13,0,0.0
+Iconha,1,0,0.0
+Montanha,1,0,0.0
+Marechal Floriano,2,0,0.0
+Muqui,1,0,0.0
+Ponto Belo,1,0,0.0
+Santa Teresa,3,0,0.0
+VITORIA,2,0,0.0
+Venda Nova do Imigrante,2,0,0.0
+Vargem Alta,4,0,0.0
+Vila Pavão,4,0,0.0
+Viana,4,0,0.0
