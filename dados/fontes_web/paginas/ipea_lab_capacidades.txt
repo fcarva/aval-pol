@@ -1,0 +1,138 @@
+# Fonte: https://repositorio.ipea.gov.br/entities/publication/a419ef3f-73a5-46da-b4d9-b352ba3e6490
+# Coletado (UTC): 2026-09-24T00:29:53Z
+# sha256 do original: b9593d396afe03cd247bc95304780f7459b5ea07d2de3c5e9ea90838a513e792
+
+Descentralização e capacidades institucionais : lições da Lei Aldir Blanc
+
+Portal do Governo Brasileiro
+
+Atualize sua Barra de Governo
+
+ Pular para o conteúdo principal
+
+ Publicação:  
+Descentralização e capacidades institucionais : lições da Lei Aldir Blanc
+Carregando...
+Arquivos
+ Cap8_Descentralizacao_e_capacidades_institucionais.pdf 
+ (842.29 KB)
+Paginação 
+Primeira página
+425
+Última página
+480
+Data
+2026
+Data de publicação
+Data da Série
+Data do evento
+Data
+Data de defesa
+Data
+Edição
+Idioma
+por
+Cobertura espacial
+Brasil
+Cobertura temporal
+País
+BR
+organization.page.location.country
+Tipo de evento
+Tipo
+Book part
+Grau Acadêmico
+Fonte original
+ISBN
+ISSN
+DOI
+ https://dx.doi.org/10.38116/978-65-5635-093-6/capitulo8
+dARK
+item.page.project.ID
+item.page.project.productID
+Detentor dos direitos autorais
+Instituto de Pequisa Econômica Aplicada
+Acesso à informação
+Acesso Aberto
+Termos de uso
+É permitida a reprodução deste texto e dos dados nele contidos, desde que citada a fonte. Reproduções para fins comerciais são proibidas.
+Titulo alternativo
+item.page.organization.alternative
+Variações no nome completo
+Autor(a)
+Frederico Augusto Barbosa da Silva
+ Sá, Juliana Veloso de 
+Orientador(a)
+Editor(a)
+Banca de defesa
+Organizador(a)
+Coordenador(a)
+Outras autorias
+Faz parte da série
+Palestrante / Mediador(a) / Debatedor(a)
+Resumo
+O capítulo analisa os desafios da descentralização das políticas culturais no Brasil, utilizando a implementação da Lei Aldir Blanc (LAB) como um estudo de caso sobre as capacidades institucionais de estados e municípios. Os autores discutem como a transferência de R$ 3 bilhões da União para os entes federados durante a pandemia de COVID-19 recolocou na agenda pública a urgência de institucionalizar o Sistema Nacional de Cultura (SNC). O texto destaca a heterogeneidade das estruturas administrativas locais, revelando que municípios com trajetórias prévias de adesão ao SNC e com conselhos e fundos de cultura ativos apresentaram melhor desempenho na execução dos recursos. Por fim, defende que a consolidação de um federalismo cultural exige não apenas repasses financeiros, mas o fortalecimento de capacidades técnicas, transparência orçamentária e coordenação federativa para garantir a efetividade dos direitos culturais.
+Resumo traduzido
+organization.page.description
+Sobre o pesquisador
+Endereço de E-mail
+ORCID
+Lattes
+Google Scholar ID
+Web of Science ResearcherID
+Scopus ID
+Informações sobre o projeto
+project.page.project.productdescription
+Vocabulário Controlado do Ipea
+Política Cultural
+, 
+Políticas Públicas
+Palavras-chave
+Descentralização cultural
+, 
+Capacidades institucionais
+, 
+Lei Aldir Blanc (LAB)
+, 
+Federalismo cultural
+, 
+Financiamento da cultura
+Palavras-chave traduzidas
+Citação
+SILVA, Frederico Augusto Barbosa da; SÁ, Juliana Veloso de. Descentralização e capacidades institucionais: lições da Lei Aldir Blanc. In: SILVA, Frederico Augusto Barbosa da; ZIVIANI, Paula (org.). Trajetórias das políticas culturais: uma década de leituras a partir do Ipea. Brasília: Ipea, 2026. p. 425-480. DOI: https://dx.doi.org/10.38116/978-65-5635-093-6/capitulo8
+URI
+ https://repositorio.ipea.gov.br/handle/11058/20174
+Aviso
+Notas
+Série / coleção
+Versão preliminar
+Versão final desta publicação
+Publicações relacionadas / semelhantes
+organization.page.relation.references
+Capítulo de livro
+Carregando...
+Item type:
+Livro
+, 
+Trajetórias das políticas culturais : uma década de leituras a partir do Ipea
+ (
+Ipea
+, 
+2026
+) 
+Frederico Augusto Barbosa da Silva
+; 
+Ziviani, Paula
+; 
+Diretoria de Estudos e Políticas Sociais - DISOC
+; 
+Frederico Augusto Barbosa da Silva
+; 
+Paula Ziviani
+Mostrar mais
+Reúne estudos produzidos pelo Instituto de Pesquisa Econômica Aplicada (Ipea entre 2015 e 2024), oferecendo uma análise crítica e sistematizada da evolução das políticas públicas de cultura no Brasil. A coletânea examina os principais marcos institucionais, normativos e orçamentários do setor cultural, abordando temas como financiamento público, federalismo cultural, participação social, mercado de trabalho da cultura e os impactos da pandemia de covid-19. Os capítulos discutem os processos de consolidação, desmonte e reconstrução das políticas culturais no período recente, com destaque para instrumentos como o Sistema Nacional de Cultura, o Plano Nacional de Cultura e a Lei Aldir Blanc. A obra articula análises quantitativas e qualitativas, combinando acompanhamento institucional, avaliação de políticas públicas e reflexão teórica sobre desenvolvimento cultural, multiculturalismo e interculturalidade. Ao evidenciar tensões entre discurso normativo e práticas institucionais, o livro contribui para o debate acadêmico e técnico sobre a construção de uma política cultural democrática, descentralizada e participativa, constituindo referência para pesquisadores, gestores públicos e formuladores de políticas culturais no Brasil.
+Mostrar mais
+Versão Primária
+Eventos
+Notícias
+ Página do item completo
