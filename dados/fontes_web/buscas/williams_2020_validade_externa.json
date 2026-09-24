@@ -1,0 +1,139 @@
+{
+ "id": "williams_2020_validade_externa",
+ "consulta": "Williams External validity and policy adaptation: from impact evaluation to policy design World Bank Research Observer 2020",
+ "coletado_utc": "2026-09-24T03:33:22Z",
+ "crossref": [
+  {
+   "doi": "10.1093/wbro/lky010",
+   "title": [
+    "External Validity and Policy Adaptation: From Impact Evaluation to Policy Design"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Williams"
+   ],
+   "container_title": [
+    "The World Bank Research Observer"
+   ],
+   "publisher": "Oxford University Press (OUP)",
+   "issued": [
+    [
+     2019,
+     8,
+     1
+    ]
+   ],
+   "volume": "35",
+   "issue": "2",
+   "page": "158-191",
+   "isbn": null,
+   "score": 85.70815
+  },
+  {
+   "doi": "10.1596/36809",
+   "title": [
+    "External Validity and Policy Adaptation: From Impact Evaluation to Policy Design"
+   ],
+   "type": "book",
+   "author": [
+    "Williams"
+   ],
+   "container_title": null,
+   "publisher": "Published by Oxford University Press on behalf of the World Bank",
+   "issued": [
+    [
+     2020,
+     7
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 75.34796
+  },
+  {
+   "doi": "10.1093/wbro/lkx005",
+   "title": [
+    "Generalization in the Tropics – Development Policy, Randomized Controlled Trials, and External Validity"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Peters",
+    "Langbein",
+    "Roberts"
+   ],
+   "container_title": [
+    "The World Bank Research Observer"
+   ],
+   "publisher": "Oxford University Press (OUP)",
+   "issued": [
+    [
+     2018,
+     2,
+     1
+    ]
+   ],
+   "volume": "33",
+   "issue": "1",
+   "page": "34-64",
+   "isbn": null,
+   "score": 46.10421
+  },
+  {
+   "doi": "10.1016/j.worlddev.2019.104833",
+   "title": [
+    "Beyond ‘context matters’: Context and external validity in impact evaluation"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Williams"
+   ],
+   "container_title": [
+    "World Development"
+   ],
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2020,
+     3
+    ]
+   ],
+   "volume": "127",
+   "issue": null,
+   "page": "104833",
+   "isbn": null,
+   "score": 45.04345
+  },
+  {
+   "doi": "10.1093/wbro/lkp018",
+   "title": [
+    "Higher Food Prices in Sub-Saharan Africa: Poverty Impact and Policy Responses"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Wodon",
+    "Zaman"
+   ],
+   "container_title": [
+    "The World Bank Research Observer"
+   ],
+   "publisher": "Oxford University Press (OUP)",
+   "issued": [
+    [
+     2009,
+     11,
+     11
+    ]
+   ],
+   "volume": "25",
+   "issue": "1",
+   "page": "157-176",
+   "isbn": null,
+   "score": 43.316265
+  }
+ ],
+ "openalex": [],
+ "crossref_status": 200,
+ "openalex_status": null
+}
