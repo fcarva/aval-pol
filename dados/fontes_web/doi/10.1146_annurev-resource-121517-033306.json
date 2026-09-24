@@ -1,0 +1,71 @@
+{
+ "doi": "10.1146/annurev-resource-121517-033306",
+ "coletado_utc": "2026-09-24T19:51:11Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Regression Discontinuity in Time: Considerations for Empirical Applications"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Catherine",
+    "family": "Hausman",
+    "name": null
+   },
+   {
+    "given": "David S.",
+    "family": "Rapson",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Annual Review of Resource Economics"
+  ],
+  "publisher": "Annual Reviews",
+  "type": "journal-article",
+  "volume": "10",
+  "issue": "1",
+  "page": "533-552",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    10,
+    5
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    10,
+    5
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1146/annurev-resource-121517-033306",
+  "abstract": "<jats:p>Recent empirical work in several economic fields, particularly environmental and energy economics, has adapted the regression discontinuity (RD) framework to applications where time is the running variable and treatment begins at a particular threshold in time. In this guide for practitioners, we discuss several features of this regression discontinuity in time framework that differ from the more standard cross-sectional RD framework. First, many applications (particularly in environmental economics) lack cross-sectional variation and are estimated using observations far from the temporal threshold. This common empirical practice is hard to square with the assumptions of a cross-sectional RD, which is conceptualized for an estimation bandwidth shrinking even as the sample size increases. Second, estimates may be biased if the time-series properties of the data are ignored (for instance, in the presence of an autoregressive process), or more generally if short-run and long-run effects differ. Finally, tests for sorting or bunching near the threshold are often irrelevant, making the framework closer to an event study than a regression discontinuity design. Based on these features and motivated by hypothetical examples using air quality data, we offer suggestions for the empirical researcher wishing to use the RD in time framework.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2891819831",
+  "title": "Regression Discontinuity in Time: Considerations for Empirical Applications",
+  "publication_year": 2018,
+  "type": "review",
+  "source": "Annual Review of Resource Economics",
+  "landing_page_url": "https://doi.org/10.1146/annurev-resource-121517-033306",
+  "authorships": [
+   "Catherine Hausman",
+   "David S. Rapson"
+  ],
+  "biblio": {
+   "volume": "10",
+   "issue": "1",
+   "first_page": "533",
+   "last_page": "552"
+  },
+  "cited_by_count": 539,
+  "abstract": "Recent empirical work in several economic fields, particularly environmental and energy economics, has adapted the regression discontinuity (RD) framework to applications where time is the running variable and treatment begins at a particular threshold in time. In this guide for practitioners, we discuss several features of this regression discontinuity in time framework that differ from the more standard cross-sectional RD framework. First, many applications (particularly in environmental economics) lack cross-sectional variation and are estimated using observations far from the temporal threshold. This common empirical practice is hard to square with the assumptions of a cross-sectional RD, which is conceptualized for an estimation bandwidth shrinking even as the sample size increases. Second, estimates may be biased if the time-series properties of the data are ignored (for instance, in the presence of an autoregressive process), or more generally if short-run and long-run effects differ. Finally, tests for sorting or bunching near the threshold are often irrelevant, making the framework closer to an event study than a regression discontinuity design. Based on these features and motivated by hypothetical examples using air quality data, we offer suggestions for the empirical researcher wishing to use the RD in time framework."
+ }
+}

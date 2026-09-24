@@ -1,0 +1,89 @@
+{
+ "doi": "10.1093/restud/rdy034",
+ "coletado_utc": "2026-09-24T19:51:12Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Public R&amp;D Investments and Private-sector Patenting: Evidence from NIH Funding Rules"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Pierre",
+    "family": "Azoulay",
+    "name": null
+   },
+   {
+    "given": "Joshua S",
+    "family": "Graff Zivin",
+    "name": null
+   },
+   {
+    "given": "Danielle",
+    "family": "Li",
+    "name": null
+   },
+   {
+    "given": "Bhaven N",
+    "family": "Sampat",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Review of Economic Studies"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "86",
+  "issue": "1",
+  "page": "117-152",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    6,
+    15
+   ]
+  ],
+  "published_print": [
+   [
+    2019,
+    1,
+    1
+   ]
+  ],
+  "published_online": [
+   [
+    2018,
+    6,
+    15
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/restud/rdy034",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2112392944",
+  "title": "Public R&D Investments and Private-sector Patenting: Evidence from NIH Funding Rules",
+  "publication_year": 2018,
+  "type": "article",
+  "source": "The Review of Economic Studies",
+  "landing_page_url": "https://doi.org/10.1093/restud/rdy034",
+  "authorships": [
+   "Pierre Azoulay",
+   "Joshua Graff Zivin",
+   "Danielle Li",
+   "Bhaven N. Sampat"
+  ],
+  "biblio": {
+   "volume": "86",
+   "issue": "1",
+   "first_page": "117",
+   "last_page": "152"
+  },
+  "cited_by_count": 293,
+  "abstract": "We quantify the impact of scientific grant funding at the National Institutes of Health (NIH) on patenting by pharmaceutical and biotechnology firms. Our paper makes two contributions. First, we use newly constructed bibliometric data to develop a method for flexibly linking specific grant expenditures to private-sector innovations. Second, we take advantage of idiosyncratic rigidities in the rules governing NIH peer review to generate exogenous variation in funding across research areas. Our results show that NIH funding spurs the development of private-sector patents: a $10 million boost in NIH funding leads to a net increase of 2.3 patents. Though valuing patents is difficult, we report a range of estimates for the private value of these patents using different approaches."
+ }
+}

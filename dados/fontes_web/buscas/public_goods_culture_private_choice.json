@@ -1,0 +1,225 @@
+{
+ "id": "public_goods_culture_private_choice",
+ "consulta": "private provision of public goods corporate sponsorship arts crowding out",
+ "coletado_utc": "2026-09-24T19:51:19Z",
+ "crossref": [
+  {
+   "doi": "10.2139/ssrn.284157",
+   "title": [
+    "Spilling Over and Crowding Out: The Effects of Public Sector/Private Sector Convergence and Competition, in the Provision of Public Goods"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Barrowclough"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2001
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 50.54395
+  },
+  {
+   "doi": "10.1177/109114219802600503",
+   "title": [
+    "Public Sector Crowding Out of Private Provision of Public Goods: the Influence of Differences in Production Costs"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Coates"
+   ],
+   "container_title": [
+    "Public Finance Review"
+   ],
+   "publisher": "SAGE Publications",
+   "issued": [
+    [
+     1998,
+     9
+    ]
+   ],
+   "volume": "26",
+   "issue": "5",
+   "page": "460-479",
+   "isbn": null,
+   "score": 46.277035
+  },
+  {
+   "doi": "10.1111/j.1468-2478.2010.00631.x",
+   "title": [
+    "The Private Provision of Public Goods: Corporate Commitments and the United Nations Global Compact1"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Bernhagen",
+    "Mitchell"
+   ],
+   "container_title": [
+    "International Studies Quarterly"
+   ],
+   "publisher": "Oxford University Press (OUP)",
+   "issued": [
+    [
+     2010,
+     12
+    ]
+   ],
+   "volume": "54",
+   "issue": "4",
+   "page": "1175-1187",
+   "isbn": null,
+   "score": 43.552498
+  },
+  {
+   "doi": "10.2139/ssrn.1143772",
+   "title": [
+    "Altruism and Crowding Out in the Provision of Public Goods: Cross-Country Evidence from Blood Donations"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Png"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2008
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 43.214268
+  },
+  {
+   "doi": "10.2139/ssrn.4449118",
+   "title": [
+    "In or Out? Crowding Effects in Public Goods with Private Gifts: Evidence from Crowdfunding"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Bernard",
+    "Gazel"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2023
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 42.93498
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W2077759446",
+   "doi": "https://doi.org/10.1257/jep.14.3.95",
+   "title": "The Economics of Sports Facilities and Their Communities",
+   "publication_year": 2000,
+   "type": "article",
+   "source": "The Journal of Economic Perspectives",
+   "authorships": [
+    "John J. Siegfried",
+    "Andrew Zimbalist"
+   ],
+   "biblio": {
+    "volume": "14",
+    "issue": "3",
+    "first_page": "95",
+    "last_page": "114"
+   },
+   "abstract": "Since the 1950s, taxpayers have been the primary investors in stadia built for the use of privately-owned professional sports teams. Team owners have argued that sports facilities boost local economic activity; however, economic reasoning and empirical evidence suggest the opposite. Public support for stadia is also driven by demand for community image, and owners of sports teams supply a scarce input into image enhancement--participation in the major league--for which they have been able to extract monopoly rents from dispersed taxpayers. We suggest reforms to dissipate the monopoly sports leagues exercise when negotiating with host communities for their teams."
+  },
+  {
+   "id": "https://openalex.org/W2168036651",
+   "doi": "https://doi.org/10.1093/jopart/mus010",
+   "title": "Nonprofit Sector Growth and Density: Testing Theories of Government Support",
+   "publication_year": 2012,
+   "type": "article",
+   "source": "Journal of Public Administration Research and Theory",
+   "authorships": [
+    "Jesse D. Lecy",
+    "David M. Van Slyke"
+   ],
+   "biblio": {
+    "volume": "23",
+    "issue": "1",
+    "first_page": "189",
+    "last_page": "214"
+   },
+   "abstract": "Theories of nonprofit density have assumed a variety of dispositions toward the state, including opposition, suspicion, indifference, and mutual dependence. In this article, we conduct the first large-scale simultaneous empirical test of the two most prominent nonprofit theories: government failure theory and interdependence theory. The former characterizes nonprofit activities as substitute or oppositional to state programs, accounting for the limitations and failures of government-provided services and more reflective of the heterogeneity of demand for services. The latter emphasizes the more complementary and collaborative nature of nonprofit activities, focusing on the overlapping agendas of nonprofits and the state and the mutual dependency that arises from partnership. The theories are difficult to test empirically because both predict the same relationship between state capacity and the size of the nonprofit sector, albeit for theoretically distinct reasons. A true joint test requires the separation of government support from private support for nonprofits. Using a newly constructed panel dataset in which we separate out nonprofit revenue sources normally agglomerated in the Internal Revenue Service 990 data, we examine the empirical merits of both theories to answer the question of whether human service nonprofit organizations thrive when government fails or when government collaborates. Our findings suggest that government funding has a more favorable effect on nonprofit density than private donations. The findings raise several policy and management implications that need evaluation."
+  },
+  {
+   "id": "https://openalex.org/W3197919668",
+   "doi": "https://doi.org/10.16997/book60",
+   "title": "The Public Service Media and Public Service Internet Manifesto",
+   "publication_year": 2021,
+   "type": "book",
+   "source": "University of Westminster Press eBooks",
+   "authorships": [
+    "Fuchs, Christian 1976-",
+    "Unterberger, Klaus"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "This book presents the collectively authored Public Service Media and Public Service Internet Manifesto and accompanying materials.The Internet and the media landscape are broken. The dominant commercial Internet platforms endanger democracy. They have created a communications landscape overwhelmed by surveillance, advertising, fake news, hate speech, conspiracy theories, and algorithmic politics. Commercial Internet platforms have harmed citizens, users, everyday life, and society. Democracy and digital democracy require Public Service Media. A democracy-enhancing Internet requires Public Service Media becoming Public Service Internet platforms – an Internet of the public, by the public, and for the public; an Internet that advances instead of threatens democracy and the public sphere. The Public Service Internet is based on Internet platforms operated by a variety of Public Service Media, taking the public service remit into the digital age. The Public Service Internet provides opportunities for public debate, participation, and the advancement of social cohesion. Accompanying the Manifesto are materials that informed its creation: Christian Fuchs’ report of the results of the Public Service Media/Internet Survey, the written version of Graham Murdock’s online talk on public service media today, and a summary of an ecomitee.com discussion of the Manifesto’s foundations. The Manifesto can be signed by visiting http://bit.ly/signPSManifesto"
+  },
+  {
+   "id": "https://openalex.org/W1969639777",
+   "doi": "https://doi.org/10.1057/jibs.2014.38",
+   "title": "Institutions and social entrepreneurship: The role of institutional voids, institutional support, and institutional configurations",
+   "publication_year": 2014,
+   "type": "article",
+   "source": "Journal of International Business Studies",
+   "authorships": [
+    "Ute Stephan",
+    "Lorraine Marie Uhlaner",
+    "Chris Stride"
+   ],
+   "biblio": {
+    "volume": "46",
+    "issue": "3",
+    "first_page": "308",
+    "last_page": "331"
+   },
+   "abstract": "We develop the institutional configuration perspective to understand which national contexts facilitate social entrepreneurship (SE). We confirm joint effects on SE of formal regulatory (government activism), informal cognitive (postmaterialist cultural values), and informal normative (socially supportive cultural norms, or weak-tie social capital) institutions in a multilevel study of 106,484 individuals in 26 nations. We test opposing propositions from the institutional void and institutional support perspectives. Our results underscore the importance of resource support from both formal and informal institutions, and highlight motivational supply side influences on SE. They advocate greater consideration of institutional configurations in institutional theory and comparative entrepreneurship research."
+  },
+  {
+   "id": "https://openalex.org/W2182449241",
+   "doi": "https://doi.org/10.1016/j.tourman.2015.03.007",
+   "title": "Progress and prospects for event tourism research",
+   "publication_year": 2015,
+   "type": "article",
+   "source": "Tourism Management",
+   "authorships": [
+    "Donald Getz",
+    "Stephen John Page"
+   ],
+   "biblio": {
+    "volume": "52",
+    "issue": null,
+    "first_page": "593",
+    "last_page": "631"
+   },
+   "abstract": "This paper examines event tourism as a field of study and area of professional practice updating the previous review article published in 2008. In this substantially extended review, a deeper analysis of the field's evolution and development is presented, charting the growth of the literature, focussing both chronologically and thematically A framework for understanding and creating knowledge about events and tourism is presented, forming the basis which signposts established research themes and concepts and outlines future directions for research. In addition, the review article focuses on constraining and propelling forces, ontological advances, contributions from key journals, and emerging themes and issues. It also presents a roadmap for research activity in event tourism."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

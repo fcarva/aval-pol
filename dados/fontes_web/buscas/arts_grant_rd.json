@@ -1,0 +1,340 @@
+{
+ "id": "arts_grant_rd",
+ "consulta": "regression discontinuity arts council grants effect on cultural organizations",
+ "coletado_utc": "2026-09-24T19:51:12Z",
+ "crossref": [
+  {
+   "doi": "10.4324/9781003263654-12",
+   "title": [
+    "Strategic Thinking in Arts and Cultural Organizations"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Foster"
+   ],
+   "container_title": [
+    "Arts and Cultural Leadership"
+   ],
+   "publisher": "Routledge",
+   "issued": [
+    [
+     2022,
+     8,
+     25
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "171-184",
+   "isbn": [
+    "9781003263654"
+   ],
+   "score": 30.389019
+  },
+  {
+   "doi": "10.4324/9781003263654-4",
+   "title": [
+    "Redefining Sustainability for Arts and Cultural Organizations"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Foster"
+   ],
+   "container_title": [
+    "Arts and Cultural Leadership"
+   ],
+   "publisher": "Routledge",
+   "issued": [
+    [
+     2022,
+     8,
+     25
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "29-51",
+   "isbn": [
+    "9781003263654"
+   ],
+   "score": 30.348183
+  },
+  {
+   "doi": "10.4324/9781003263654-9",
+   "title": [
+    "Foundational Documents for Arts and Cultural Organizations"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Foster"
+   ],
+   "container_title": [
+    "Arts and Cultural Leadership"
+   ],
+   "publisher": "Routledge",
+   "issued": [
+    [
+     2022,
+     8,
+     25
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "113-145",
+   "isbn": [
+    "9781003263654"
+   ],
+   "score": 30.312954
+  },
+  {
+   "doi": "10.64628/aa.hgg46w3d9",
+   "title": [
+    "Do Plantoids Dream of Electric Arts Council Grants?"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Potts"
+   ],
+   "container_title": null,
+   "publisher": "The Conversation",
+   "issued": [
+    [
+     2015,
+     12,
+     13
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 30.075531
+  },
+  {
+   "doi": "10.4324/9781003263654-5",
+   "title": [
+    "Upbuilding, Rewilding, and Regeneration for Arts and Cultural Organizations"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Foster"
+   ],
+   "container_title": [
+    "Arts and Cultural Leadership"
+   ],
+   "publisher": "Routledge",
+   "issued": [
+    [
+     2022,
+     8,
+     25
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "52-62",
+   "isbn": [
+    "9781003263654"
+   ],
+   "score": 29.840569
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W4299636043",
+   "doi": "https://doi.org/10.1017/s0940739106060218",
+   "title": "Convention on the Protection and Promotion of the Diversity of Cultural Expressions",
+   "publication_year": 2006,
+   "type": "article",
+   "source": "International Journal of Cultural Property",
+   "authorships": [],
+   "biblio": {
+    "volume": "13",
+    "issue": "4",
+    "first_page": "377",
+    "last_page": "391"
+   },
+   "abstract": "Significant documents of record recently produced and dealing with cultural property, heritage and related issues will be printed annually in the final issue (No. 4) of each numbered volume. Documents considered for publication may be national, regional, or international instruments and codes. Inquiries or suggestions regarding documentary materials may be addressed to the Chronicles Editor, Kurt Siehr, at 〈siehr@mpipriv-hh.mpg.de〉 or the Editor, Alexander Bauer, at 〈culturalproperty@cambridge.org〉."
+  },
+  {
+   "id": "https://openalex.org/W2937808429",
+   "doi": "https://doi.org/10.1016/j.respol.2019.04.001",
+   "title": "Knowledge to money: Assessing the business performance effects of publicly-funded R&D grants",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "Research Policy",
+   "authorships": [
+    "Enrico Vanino",
+    "Stephen Roper",
+    "Bettina Becker"
+   ],
+   "biblio": {
+    "volume": "48",
+    "issue": "7",
+    "first_page": "1714",
+    "last_page": "1737"
+   },
+   "abstract": "UK Research Councils (UKRCs) spend around £3bn pa supporting R&D and innovation. We provide a comprehensive assessment of these grants on the performance of participating UK firms, using data on all projects funded by UKRCs over the 2004–2016 period and applying a propensity score matching approach. We exploit the richness of the data available in the Gateway to Research database by investigating the heterogeneous effect of these projects across several novel directions which have not been explored before. We find a positive effect on the employment and turnover growth of participating firms, both in the short and in the medium term. Exploring impacts across different types of firms we find stronger performance impacts for firms in R&D intensive industries and for smaller and less productive firms. We also consider how impacts vary depending on the characteristics of the funded research projects in terms of partners characteristics, receipt of other research grants and grant value. Finally, we focus on the different sources of grants, analysing in particular the evolution in the funding strategy of Innovate UK. Our results have implications for the extent and targeting of future Research Council funding both in the UK and elsewhere."
+  },
+  {
+   "id": "https://openalex.org/W2078854215",
+   "doi": "https://doi.org/10.1002/tea.21066",
+   "title": "Teaching science from cultural points of intersection",
+   "publication_year": 2012,
+   "type": "article",
+   "source": "Journal of Research in Science Teaching",
+   "authorships": [
+    "Bruna Irene Grimberg",
+    "Edith S. Gummer"
+   ],
+   "biblio": {
+    "volume": "50",
+    "issue": "1",
+    "first_page": "12",
+    "last_page": "32"
+   },
+   "abstract": "Abstract This study focuses on a professional development program for science teachers near or on American Indian reservations in Montana. This program was framed by culturally relevant pedagogy premises and was characterized by instructional strategies and content foci resulting from the intersection between three cultures: tribal, science teaching, and science. The study employs a quasi‐experimental design and quantitative methods to examine the impact of the program on teachers' practice and beliefs, and to determine the relationship between student‐centered equity‐focused instruction and students' science test score gains. Results of the analyses indicate that after 2 years in the program teachers changed their teaching practices and beliefs about their ability to teach science and to implement equitable instruction in a way that positively impacted students' performance. Using a multiple regression analysis it was found that gains in teacher beliefs about their ability to implement equitable strategies and the increase of teaching strategies that prompt students to make connections between science and their real‐life issues significantly explained the 36.7% of the variance of student science test scores gains in treatment classrooms. No significant changes in beliefs or teaching strategies were found for comparison teachers. The results obtained from this study contribute to the identification of characteristics of a professional development program that positively impacted the science teaching of American Indian students. © 2012 Wiley Periodicals, Inc. J Res Sci Teach 50:12–32, 2013"
+  },
+  {
+   "id": "https://openalex.org/W2899742633",
+   "doi": "https://doi.org/10.1016/s0140-6736(18)31891-9",
+   "title": "Global, regional, and national age-sex-specific mortality and life expectancy, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+   "publication_year": 2018,
+   "type": "article",
+   "source": "The Lancet",
+   "authorships": [
+    "Daniel Dicker",
+    "Grant Nguyen",
+    "Degu Abate",
+    "Kalkidan Hassen Abate",
+    "Solomón Mequanente Abay",
+    "Cristiana Abbafati",
+    "Nooshin Abbasi",
+    "Hedayat Abbastabar",
+    "Foad Abd-Allah",
+    "Jemal Abdela",
+    "Ahmed Abdelalim",
+    "Omar Mohammed Abdel-Rahman",
+    "Alireza Abdi",
+    "Ibrahim Abdollahpour",
+    "Rizwan Suliankatchi Abdulkader",
+    "Ahmed Abdulahi Abdurahman",
+    "Haftom Temesgen Abebe",
+    "Molla Abebe",
+    "Abebe Zegeye",
+    "Teshome Abuka Abebo",
+    "Victor Aboyans",
+    "Haftom Niguse Abraha",
+    "Aklilu Roba Abrham",
+    "Laith Jamal Abu-Raddad",
+    "Niveen ME Abu-Rmeileh",
+    "Manfred Accrombessi",
+    "Pawan Acharya",
+    "Oladimeji Adebayo",
+    "Isaac Akinkunmi Adedeji",
+    "Rufus Adesoji Adedoyin",
+    "Victor Adekanmbi",
+    "Olatunji Adetokunboh",
+    "Beyene Meressa Adhena",
+    "Tara Ballav Adhikari",
+    "Mina G Adib",
+    "Arsène Kouablan Adou",
+    "José Carmelo Adsuar",
+    "Mohsen Afarideh",
+    "Ashkan Afshin",
+    "Gina Agarwal",
+    "Rakesh Aggarwal",
+    "Sargis A. Aghayan",
+    "Sutapa Agrawal",
+    "Anurag Agrawal",
+    "Mehdi Ahmadi",
+    "Alireza Ahmadi",
+    "Hamid Ahmadieh",
+    "Mohamed Lemine Cheikh Brahim Ahmed",
+    "Sayem Ahmed",
+    "Muktar Beshir Ahmed",
+    "Amani Nidhal Aichour",
+    "Ibtihel Aichour",
+    "Miloud Taki Eddine Aichour",
+    "A. S. Akanda",
+    "Mohammad Esmaeil Akbari",
+    "Mohammed Akibu",
+    "Rufus Akinyemi",
+    "Tomi Akinyemiju",
+    "Nadia Akseer",
+    "Fares Alahdab",
+    "Ziyad Al‐Aly",
+    "Khurshid Alam",
+    "Animut Alebel",
+    "Alicia V Aleman",
+    "Kefyalew Addis Alene",
+    "Ayman A. Al-Eyadhy",
+    "Raghib Ali",
+    "Mehran Alijanzadeh",
+    "Reza Alizadeh‐Navaei",
+    "Syed Mohamed Aljunid",
+    "Ala’a Alkerwi",
+    "François Alla",
+    "Peter Allebeck",
+    "Christine A. Allen",
+    "Jordi Alonso",
+    "Rajaa Mohammad Al-Raddadi",
+    "Ubai Alsharif",
+    "Khalid A Altirkawi",
+    "Nelson Alvis‐Guzmán",
+    "Azmeraw T. Amare",
+    "Erfan Amini",
+    "Walid Ammar",
+    "Yaw Ampem Amoako",
+    "Nahla Hamed Anber",
+    "Cătălina Liliana Andrei",
+    "Sofia N. Androudi",
+    "Megbaru Debalkie Animut",
+    "Mina Anjomshoa",
+    "Degefaye Zelalem Anlay",
+    "Hossein Ansari",
+    "Ansariadi Ansariadi",
+    "Mustafa Geleto Ansha",
+    "Carl Abelardo T. Antonio",
+    "Seth Christopher Yaw Appiah",
+    "Olatunde Aremu",
+    "Habtamu Abera Areri",
+    "Johan Ärnlöv",
+    "Megha Arora",
+    "Al Artaman",
+    "Krishna K Aryal"
+   ],
+   "biblio": {
+    "volume": "392",
+    "issue": "10159",
+    "first_page": "1684",
+    "last_page": "1735"
+   },
+   "abstract": "BACKGROUND: Assessments of age-specific mortality and life expectancy have been done by the UN Population Division, Department of Economics and Social Affairs (UNPOP), the United States Census Bureau, WHO, and as part of previous iterations of the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD). Previous iterations of the GBD used population estimates from UNPOP, which were not derived in a way that was internally consistent with the estimates of the numbers of deaths in the GBD. The present iteration of the GBD, GBD 2017, improves on previous assessments and provides timely estimates of the mortality experience of populations globally. METHODS: The GBD uses all available data to produce estimates of mortality rates between 1950 and 2017 for 23 age groups, both sexes, and 918 locations, including 195 countries and territories and subnational locations for 16 countries. Data used include vital registration systems, sample registration systems, household surveys (complete birth histories, summary birth histories, sibling histories), censuses (summary birth histories, household deaths), and Demographic Surveillance Sites. In total, this analysis used 8259 data sources. Estimates of the probability of death between birth and the age of 5 years and between ages 15 and 60 years are generated and then input into a model life table system to produce complete life tables for all locations and years. Fatal discontinuities and mortality due to HIV/AIDS are analysed separately and then incorporated into the estimation. We analyse the relationship between age-specific mortality and development status using the Socio-demographic Index, a composite measure based on fertility under the age of 25 years, education, and income. There are four main methodological improvements in GBD 2017 compared with GBD 2016: 622 additional data sources have been incorporated; new estimates of population, generated by the GBD study, are used; statistical methods used in different components of the analysis have been further standardised and improved; and the analysis has been extended backwards in time by two decades to start in 1950. FINDINGS: Globally, 18·7% (95% uncertainty interval 18·4-19·0) of deaths were registered in 1950 and that proportion has been steadily increasing since, with 58·8% (58·2-59·3) of all deaths being registered in 2015. At the global level, between 1950 and 2017, life expectancy increased from 48·1 years (46·5-49·6) to 70·5 years (70·1-70·8) for men and from 52·9 years (51·7-54·0) to 75·6 years (75·3-75·9) for women. Despite this overall progress, there remains substantial variation in life expectancy at birth in 2017, which ranges from 49·1 years (46·5-51·7) for men in the Central African Republic to 87·6 years (86·9-88·1) among women in Singapore. The greatest progress across age groups was for children younger than 5 years; under-5 mortality dropped from 216·0 deaths (196·3-238·1) per 1000 livebirths in 1950 to 38·9 deaths (35·6-42·83) per 1000 livebirths in 2017, with huge reductions across countries. Nevertheless, there were still 5·4 million (5·2-5·6) deaths among children younger than 5 years in the world in 2017. Progress has been less pronounced and more variable for adults, especially for adult males, who had stagnant or increasing mortality rates in several countries. The gap between male and female life expectancy between 1950 and 2017, while relatively stable at the global level, shows distinctive patterns across super-regions and has consistently been the largest in central Europe, eastern Europe, and central Asia, and smallest in south Asia. Performance was also variable across countries and time in observed mortality rates compared with those expected on the basis of development. INTERPRETATION: This analysis of age-sex-specific mortality shows that there are remarkably complex patterns in population mortality across countries. The findings of this study highlight global successes, such as the large decline in under-5 mortality, which reflects significant local, national, and global commitment and investment over several decades. However, they also bring attention to mortality patterns that are a cause for concern, particularly among adult men and, to a lesser extent, women, whose mortality rates have stagnated in many countries over the time period of this study, and in some cases are increasing. FUNDING: Bill & Melinda Gates Foundation."
+  },
+  {
+   "id": "https://openalex.org/W1981455444",
+   "doi": "https://doi.org/10.1371/journal.pone.0089642",
+   "title": "The Musicality of Non-Musicians: An Index for Assessing Musical Sophistication in the General Population",
+   "publication_year": 2014,
+   "type": "article",
+   "source": "PLoS ONE",
+   "authorships": [
+    "Daniel Müllensiefen",
+    "Bruno Gingras",
+    "Jason Jiri Musil",
+    "Lauren M. Stewart"
+   ],
+   "biblio": {
+    "volume": "9",
+    "issue": "2",
+    "first_page": "e89642",
+    "last_page": "e89642"
+   },
+   "abstract": "Musical skills and expertise vary greatly in Western societies. Individuals can differ in their repertoire of musical behaviours as well as in the level of skill they display for any single musical behaviour. The types of musical behaviours we refer to here are broad, ranging from performance on an instrument and listening expertise, to the ability to employ music in functional settings or to communicate about music. In this paper, we first describe the concept of 'musical sophistication' which can be used to describe the multi-faceted nature of musical expertise. Next, we develop a novel measurement instrument, the Goldsmiths Musical Sophistication Index (Gold-MSI) to assess self-reported musical skills and behaviours on multiple dimensions in the general population using a large Internet sample (n = 147,636). Thirdly, we report results from several lab studies, demonstrating that the Gold-MSI possesses good psychometric properties, and that self-reported musical sophistication is associated with performance on two listening tasks. Finally, we identify occupation, occupational status, age, gender, and wealth as the main socio-demographic factors associated with musical sophistication. Results are discussed in terms of theoretical accounts of implicit and statistical music learning and with regard to social conditions of sophisticated musical engagement."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

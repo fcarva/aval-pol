@@ -1,0 +1,65 @@
+{
+ "doi": "10.1257/app.20150421",
+ "coletado_utc": "2026-09-24T19:51:11Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Expertise versus Bias in Evaluation: Evidence from the NIH"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Danielle",
+    "family": "Li",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Journal: Applied Economics"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "9",
+  "issue": "2",
+  "page": "60-92",
+  "article_number": null,
+  "issued": [
+   [
+    2017,
+    4,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    4,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/app.20150421",
+  "abstract": "<jats:p> Evaluators with expertise in a particular field may have an informational advantage in separating good projects from bad. At the same time, they may also have personal preferences that impact their objectivity. This paper examines these issues in the context of peer review at the US National Institutes of Health. I show that evaluators are both better informed and more biased about the quality of projects in their own area. On net, the benefits of expertise weakly dominate the costs of bias. As such, policies designed to limit bias by seeking impartial evaluators may reduce the quality of funding decisions. (JEL D82, H51, I10, I23, O38) </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2110054659",
+  "title": "Expertise versus Bias in Evaluation: Evidence from the NIH",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "American Economic Journal Applied Economics",
+  "landing_page_url": "https://doi.org/10.1257/app.20150421",
+  "authorships": [
+   "Danielle Li"
+  ],
+  "biblio": {
+   "volume": "9",
+   "issue": "2",
+   "first_page": "60",
+   "last_page": "92"
+  },
+  "cited_by_count": 176,
+  "abstract": "Evaluators with expertise in a particular field may have an informational advantage in separating good projects from bad. At the same time, they may also have personal preferences that impact their objectivity. This paper examines these issues in the context of peer review at the US National Institutes of Health. I show that evaluators are both better informed and more biased about the quality of projects in their own area. On net, the benefits of expertise weakly dominate the costs of bias. As such, policies designed to limit bias by seeking impartial evaluators may reduce the quality of funding decisions. (JEL D82, H51, I10, I23, O38)"
+ }
+}
