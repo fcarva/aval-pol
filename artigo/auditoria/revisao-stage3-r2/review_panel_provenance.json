@@ -1,0 +1,76 @@
+{
+  "axes": {
+    "blind_to_peer_outputs": false,
+    "fresh_context": false,
+    "human_distinct": false,
+    "model_family_distinct": false,
+    "provider_distinct": false,
+    "role_separated": true
+  },
+  "contract_id": "reviewer/reviewer_full/v2",
+  "contract_sha256": "e9712090d2469fea15a37b8e22d4e137afbcb2bf38d5789939c5df56738ef7af",
+  "correlated_error_disclosure": {
+    "reason": "same_model_family",
+    "required": true,
+    "text": "All model-executed review seats used one model family; role separation does not remove correlated-error risk."
+  },
+  "execution_topology_sha256": "01b42136e6f2e7057edc23c226aaa429db82f00012fbf7670fe8d3d2e41f106b",
+  "fresh_context_scope": "within_panel_attempt_only",
+  "independence_claim": "not_computed_from_personas",
+  "mode": "reviewer_full",
+  "normalized_manifest_sha256": "d5c5004b831d7d0d2e0764a099f763f1830b22fddb52db27d9aece659d2fa1c0",
+  "panel_id": "aval-pol-licc-stage3-r2",
+  "schema_version": "review-panel-provenance/1.0",
+  "seats": [
+    {
+      "actor_type": "model",
+      "context_id": "session_01XEaG1GvUXhdfnXot6AtJxa:turno-stage3-r2",
+      "human_reviewer_id": null,
+      "model_family": "claude",
+      "peer_outputs_visible": true,
+      "provider": "anthropic",
+      "role_id": "aval-pol-stage3-r2:eic",
+      "seat_id": "EIC"
+    },
+    {
+      "actor_type": "model",
+      "context_id": "session_01XEaG1GvUXhdfnXot6AtJxa:turno-stage3-r2",
+      "human_reviewer_id": null,
+      "model_family": "claude",
+      "peer_outputs_visible": true,
+      "provider": "anthropic",
+      "role_id": "aval-pol-stage3-r2:methodology",
+      "seat_id": "R1"
+    },
+    {
+      "actor_type": "model",
+      "context_id": "session_01XEaG1GvUXhdfnXot6AtJxa:turno-stage3-r2",
+      "human_reviewer_id": null,
+      "model_family": "claude",
+      "peer_outputs_visible": true,
+      "provider": "anthropic",
+      "role_id": "aval-pol-stage3-r2:domain",
+      "seat_id": "R2"
+    },
+    {
+      "actor_type": "model",
+      "context_id": "session_01XEaG1GvUXhdfnXot6AtJxa:turno-stage3-r2",
+      "human_reviewer_id": null,
+      "model_family": "claude",
+      "peer_outputs_visible": true,
+      "provider": "anthropic",
+      "role_id": "aval-pol-stage3-r2:perspective",
+      "seat_id": "R3"
+    },
+    {
+      "actor_type": "model",
+      "context_id": "session_01XEaG1GvUXhdfnXot6AtJxa:turno-stage3-r2",
+      "human_reviewer_id": null,
+      "model_family": "claude",
+      "peer_outputs_visible": true,
+      "provider": "anthropic",
+      "role_id": "aval-pol-stage3-r2:devils_advocate",
+      "seat_id": "DA"
+    }
+  ]
+}
