@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/event/find?@select=id,name,terms,classificacaoEtaria&@limit=5
+# Coletado (UTC): 2026-09-24T01:22:02Z
+# sha256 do original: 6b0b67418fbd1aa60ac55bc25a93d575f6360c533a1c4a9524798a485c4076ea
+
+[{"id":2,"name":"Amplid\u00e3o","classificacaoEtaria":"Livre","terms":{"tag":[],"linguagem":["Dan\u00e7a"]},"@entityType":"event"},{"id":3,"name":"Pocar Festival de Cultura","classificacaoEtaria":"Livre","terms":{"tag":[],"linguagem":["Artes Integradas"]},"@entityType":"event"},{"id":5,"name":"Lan\u00e7amento do livro Da Sem\u00e2ntica do Corpo ao Gesto da Palavra","classificacaoEtaria":"Livre","terms":{"tag":["professor Arthur Ara\u00fajo UFES","lan\u00e7manto livro Leitura Fina Sebo Livraria e Editora","lan\u00e7amento livro Da Sem\u00e2ntica do Cor\u00e7o ao Gesto da Palavra"],"linguagem":["Livro e Literatura"]},"@entityType":"event"},{"id":7,"name":"Festival Panela de Barro Ver\u00e3o","classificacaoEtaria":"Livre","terms":{"tag":[],"linguagem":["Outros"]},"@entityType":"event"},{"id":8,"name":"Encontro Estadual de Tran\u00e7adeiras 2021","classificacaoEtaria":"Livre","terms":{"tag":[],"linguagem":["Exposi\u00e7\u00e3o"]},"@entityType":"event"}]
+
+## Links da página
