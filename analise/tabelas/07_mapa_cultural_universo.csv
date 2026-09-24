@@ -1,0 +1,4 @@
+recorte,agentes,fonte,nota
+todos,25441,dados/fontes_web/paginas/mapa_api_agentes_contagem.txt,"cadastro não é elegibilidade: a inscrição na LICC exige CNPJ (IN 001/2025, art. 19)"
+individual (type=1),22849,dados/fontes_web/paginas/mapa_api_agentes_contagem_individual.txt,"cadastro não é elegibilidade: a inscrição na LICC exige CNPJ (IN 001/2025, art. 19)"
+coletivo (type=2),2592,dados/fontes_web/paginas/mapa_api_agentes_contagem_coletivo.txt,"cadastro não é elegibilidade: a inscrição na LICC exige CNPJ (IN 001/2025, art. 19)"

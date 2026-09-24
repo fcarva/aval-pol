@@ -5,7 +5,7 @@ se o arranjo em que o Estado define o cardápio (habilitação) e a empresa esco
 onde a população, principal beneficiária, mais ganha. Exemplo: parte da população frequenta batalhas de rima, que
 não são financiadas, enquanto a distribuidora de energia põe a marca em música de concerto.
 
-Continuação: `03-hipoteses-e-estimandos.md` organiza estes estimandos em torno das hipóteses H1–H3 dos autores.
+Continuação: `03-teoria-da-mudanca-e-hipoteses.md` organiza estes estimandos em torno das hipóteses H1–H3 dos autores.
 
 Escopo: avaliar a política **como ela está**. As "alocações de referência" abaixo são contrafactuais analíticos para
 medir a distância entre o que é financiado e o que geraria mais valor público; não são proposta de novo mecanismo

@@ -1,6 +1,6 @@
 """
 07 — Evidência descritiva e poder estatístico para as hipóteses dos autores sobre a LICC
-(notas/desenho/03-hipoteses-e-estimandos.md):
+(notas/desenho/03-teoria-da-mudanca-e-hipoteses.md):
 
   H1  a coordenação centralizada (habilitação) + escolha privada favorece empresas que usam o crédito como
       orçamento de marketing;
@@ -24,6 +24,8 @@ Saídas (analise/tabelas/):
   07_rouanet_es_composicao.csv      mesma recorrência entre proponentes do ES na Rouanet (comparação)
   07_mudanca_regime.csv             variação 2024 → 2025-2026 na LICC e na Rouanet-ES (descritivo)
   07_poder_hipoteses.csv            EMD dos desenhos propostos para H1-H3
+  07_mapa_cultural_universo.csv     agentes cadastrados no Mapa Cultural ES (topo do funil de H3)
+  07_patrocinadores_na_rouanet.csv  patrocinadores LICC 2025 que também aparecem como incentivadores no SALIC (H1)
 Uso: python analise/07_hipoteses_h1_h3.py
 """
 from __future__ import annotations
@@ -207,6 +209,56 @@ def tabela_poder(fun: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(linhas)
 
 
+def _json_da_pagina(nome: str):
+    """Corpo JSON de uma página coletada pelo relé (dados/fontes_web/paginas/<nome>.txt), ou None."""
+    arq = RAIZ / "dados" / "fontes_web" / "paginas" / f"{nome}.txt"
+    if not arq.exists():
+        return None
+    t = arq.read_text(encoding="utf-8")
+    t = t[:t.rfind("## Links da página")] if "## Links da página" in t else t
+    corpo = "\n".join(l for l in t.splitlines() if not l.startswith("#")).strip()  # tira o cabeçalho do relé
+    try:
+        return json.loads(corpo)
+    except json.JSONDecodeError:
+        return None
+
+
+def mapa_cultural_universo() -> pd.DataFrame:
+    """Contagens da API pública do Mapa Cultural ES (@count=1), coletadas pelo relé em 24/09/2026."""
+    linhas = []
+    for nome, recorte in [("mapa_api_agentes_contagem", "todos"),
+                          ("mapa_api_agentes_contagem_individual", "individual (type=1)"),
+                          ("mapa_api_agentes_contagem_coletivo", "coletivo (type=2)")]:
+        v = _json_da_pagina(nome)
+        linhas.append({"recorte": recorte, "agentes": v if isinstance(v, int) else np.nan,
+                       "fonte": f"dados/fontes_web/paginas/{nome}.txt",
+                       "nota": "cadastro não é elegibilidade: a inscrição na LICC exige CNPJ (IN 001/2025, art. 19)"})
+    return pd.DataFrame(linhas)
+
+
+def patrocinadores_na_rouanet() -> pd.DataFrame:
+    """CNPJs que patrocinaram pela LICC em 2025 consultados no SALIC (/incentivadores?cgccpf=). total_doado é o
+    acumulado de todos os anos; a série por ano exige o endpoint de doações (não coletado)."""
+    a = pd.read_csv(RAIZ / "dados" / "processados" / "aportes_2025.csv", dtype={"cnpj_raiz": str})
+    a["cnpj_num"] = a["cnpj"].str.replace(r"\D", "", regex=True)
+    lic = a.groupby("cnpj_num").agg(patrocinador=("patrocinador_nome", "first"), cnpj_raiz=("cnpj_raiz", "first"),
+                                     aportado_licc_2025=("valor", "sum")).reset_index()
+    man = pd.read_csv(RAIZ / "dados" / "fontes_web" / "manifesto.csv")
+    linhas = []
+    for _, r in lic.iterrows():
+        nome = f"salic_incentivador_{r['cnpj_num']}"
+        st = man.loc[man["id"] == nome, "status"]
+        j = _json_da_pagina(nome)
+        inc = (j or {}).get("_embedded", {}).get("incentivadores", []) if isinstance(j, dict) else []
+        linhas.append({"cnpj": r["cnpj_num"], "cnpj_raiz": r["cnpj_raiz"], "patrocinador": r["patrocinador"],
+                       "aportado_licc_2025": r["aportado_licc_2025"],
+                       "consultado_no_salic": nome in set(man["id"]),
+                       "status_http": st.iloc[0] if len(st) else np.nan,
+                       "incentivador_rouanet": bool(inc),
+                       "total_doado_rouanet_acumulado": sum(i.get("total_doado") or 0 for i in inc) if inc else np.nan})
+    return pd.DataFrame(linhas)
+
+
 def main() -> None:
     h = carregar()
     fun = funil_por_ciclo(h)
@@ -221,10 +273,18 @@ def main() -> None:
     mud.to_csv(TAB / "07_mudanca_regime.csv", index=False)
     pw = tabela_poder(fun)
     pw.to_csv(TAB / "07_poder_hipoteses.csv", index=False)
+    mapa = mapa_cultural_universo()
+    mapa.to_csv(TAB / "07_mapa_cultural_universo.csv", index=False)
+    rou_pat = patrocinadores_na_rouanet()
+    rou_pat.to_csv(TAB / "07_patrocinadores_na_rouanet.csv", index=False)
     with pd.option_context("display.width", 200, "display.max_columns", 20, "display.precision", 3):
         for nome, df in [("funil por ciclo", fun), ("captação anual", cap), ("composição", comp),
                          ("Rouanet-ES", rou), ("mudança de regime", mud)]:
             print(f"\n== {nome}\n{df.to_string(index=False)}")
+        print("\n== Mapa Cultural\n" + mapa[["recorte", "agentes"]].to_string(index=False))
+        emp = rou_pat.groupby("cnpj_raiz")["incentivador_rouanet"].any()
+        print(f"\n== patrocinadores LICC 2025 no SALIC: {int(rou_pat['incentivador_rouanet'].sum())} de "
+              f"{len(rou_pat)} CNPJs; {int(emp.sum())} de {len(emp)} empresas (raiz)")
         print("\n== poder\n" + pw.groupby(["desenho"])["emd_pontos"].agg(["min", "max"]).to_string())
 
 
