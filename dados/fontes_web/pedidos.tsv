@@ -120,3 +120,6 @@ mapa_api_avaliacao_config_1878	https://mapa.cultura.es.gov.br/api/evaluationMeth
 secult_parecer_modelo_2026	https://secult.es.gov.br/media/2026/Parecer%20T%C3%A9cnico%20Cultural%20LICC%20modelo%20padr%C3%A3o.docx	H2a: modelo de parecer técnico (há nota por critério?)
 mapa_parecer_modelo_2022	https://mapa.cultura.es.gov.br/files/opportunity/378/parecer_t%C3%A9cnico_cultural_licc_-_modelo.docx	H2a: modelo de parecer técnico de 2022
 secult_edital_pareceristas_2025	https://secult.es.gov.br/media/2025/EDITAL_DE_CREDENCIAMENTO_N_0012025.pdf	H2a: edital de credenciamento de pareceristas 2025 (instruções do parecer)
+mapa_api_agentes_campos_amostra	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,type,En_Municipio,En_Estado,documento,cnpj,cpf&@limit=5	RV-5: quais campos do agente são públicos (município; CNPJ?)
+mapa_api_coletivos_municipio	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,En_Municipio,En_Estado&type=EQ(2)&@limit=5000	RV-5: agentes coletivos por município (cadastro de H3)
+mapa_api_individuais_municipio	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,En_Municipio,En_Estado&type=EQ(1)&@limit=30000	RV-5: agentes individuais por município (cadastro de H3)
