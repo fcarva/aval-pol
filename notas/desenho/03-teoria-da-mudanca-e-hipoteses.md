@@ -379,16 +379,19 @@ nota nem ranking" e apoiava H2a na razão "habilita 1,1 a 1,9 vez o que o teto p
 - Na plataforma Mapas Culturais, as notas por critério ficam no método técnico [VERIFICAR na documentação da
   plataforma o que o método simplificado registra].
 
-**3. O que falta ver.** O parecer é escrito num modelo próprio, o "Parecer Técnico Cultural LICC – modelo padrão"
-(.docx, anexo ao edital de pareceristas de 2022 e à página de 2026). Se o modelo tiver nota por critério, a nota
-existe no processo, mas:
+**3. O modelo de parecer (resolvido em 24/09/2026).** O relé leu o "Parecer Técnico Cultural LICC – modelo padrão" de
+2026 (`dados/fontes_web/paginas/secult_parecer_modelo_2026.txt`) e o de 2022 (`mapa_parecer_modelo_2022.txt`).
 
-- não é publicada (a lista de habilitados não traz nota);
-- não ordena o financiamento (quem recebe entre os habilitados é decidido pela empresa e pela fila da SEFAZ).
+- Nos nove critérios, o parecerista discorre sobre o critério e "indica se o projeto atende ou não a esse aspecto".
+  Quando cabe, sugere diligência.
+- Nas considerações finais, sugere à CAP "habilitação, inabilitação ou [...] diligências".
+- **Não há nota, peso, escala nem pontuação mínima para projetos.**
+- A pontuação que existe é a dos **pareceristas**: no edital de credenciamento de 2025, o parecerista precisa de ao
+  menos 20 pontos por experiência e formação (item 6.7). A ordem de classificação dos pareceristas define a
+  distribuição dos projetos entre eles (item 5.12; `secult_edital_pareceristas_2025.txt`).
 
-Pedidos ao relé: `secult_parecer_modelo_2026`, `mapa_parecer_modelo_2022`, `secult_edital_pareceristas_2025` (o relé
-passou a converter .docx em texto). Se houver nota com ponto de corte, a regressão descontínua na habilitação vira
-candidata (Gertler: índice contínuo, corte, sem manipulação), e a nota vira dado a pedir por LAI.
+Consequência: sem nota não há ponto de corte, e a regressão descontínua na habilitação não é candidata. H2a fica
+descritiva (associação entre o que o parecer registrou e a captação, com os pareceres obtidos por LAI).
 
 **4. A razão 1,1-1,9 era frágil.** Ela divide o valor autorizado de um ciclo pelo teto do ano seguinte. Com o teto
 do mesmo ano, a razão vai a 1,3-3,0. Um ciclo capta ao longo de até dois anos: dos 63 projetos que captaram em 2025,
