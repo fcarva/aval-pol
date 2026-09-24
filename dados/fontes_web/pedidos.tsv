@@ -50,3 +50,10 @@ secult_captados_2023_pdf	https://secult.es.gov.br/media/2023/RECURSO%20FINANCEIR
 secult_captados_2024_pdf	https://secult.es.gov.br/media/2024/RECURSO%20FINANCEIRO%20CAPTADO%20-%202024%20%286%29.pdf	captação 2024 por cota e por projeto
 secult_captados_2025_v17_pdf	https://secult.es.gov.br/media/2025/RECURSO%20FINANCEIRO%20CAPTADO%20-%202025%20%2817%29.pdf	captação 2025, versão (17): comparar com a transcrição do licc.gov e ler o total por cota
 mapa_cultural_api_eventos	https://mapa.cultura.es.gov.br/api/event/find?@select=id,name,terms,classificacaoEtaria&@limit=5	API pública do Mapa Cultural ES: eventos com linguagem (teste de acesso)
+salic_api_incentivadores_es	https://api.salic.cultura.gov.br/api/v1/incentivadores?uf=ES&limit=100&format=json	H1: incentivadores da Rouanet no ES por CNPJ (substituição Rouanet × LICC)
+mapa_api_oportunidade_1878	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,registrationFrom,registrationTo,status,shortDescription&id=EQ(1878)	H3: oportunidade LICC 2025 (datas, campos públicos)
+mapa_api_inscricoes_1878	https://mapa.cultura.es.gov.br/api/registration/find?@select=id,status&opportunity=EQ(1878)&@limit=5	H3: inscrições da LICC 2025 são públicas? (licc.gov diz que exigem JWT)
+mapa_api_agentes_amostra	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,name,terms,type&@limit=5	H3: agentes culturais com área de atuação (elegíveis que não se inscrevem)
+secult_lote_2025_74	https://secult.es.gov.br/Media/Secult/2024_2/LISTA%20DE%20PROJETOS%20HABILITADOS.pdf	H3: lote de habilitados ANO 2025 (74), para datar a habilitação antes/depois da Portaria 062-S
+secult_lote_2025_41	https://secult.es.gov.br/Media/Secult/2025/LISTA%20DE%20PROJETOS%20HABILITADOS%20.pdf	H3: lote de habilitados ANO 2025 (41)
+secult_noticia_apresentacoes_licc	https://secult.es.gov.br/Not%C3%ADcia/eventos-de-apresentacao-da-lei-de-incentivo-a-cultura-capixaba-licc-percorrem-estado	H3: municípios que receberam apresentações da LICC (divulgação reduz atrito?)
