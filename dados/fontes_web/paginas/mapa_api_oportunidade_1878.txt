@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,registrationFrom,registrationTo,status,shortDescription&id=EQ(1878)
+# Coletado (UTC): 2026-09-24T01:36:05Z
+# sha256 do original: 55128b0317df506e0f4557006983f0aac7b9decacfc88b3ad48f58e99cdc5bf1
+
+[{"id":1878,"name":" INSCRI\u00c7\u00d5ES ENCERRADAS - LEI DE INCENTIVO \u00c0 CULTURA CAPIXABA - LICC - 2025 - APENAS PARA RETORNO DE DILIG\u00caNCIAS SOLICITADAS POR E-MAIL","shortDescription":"Etapa de inscri\u00e7\u00e3o para habilita\u00e7\u00e3o de projeto cultural que tem como objetivo capta\u00e7\u00e3o de patroc\u00ednio atrav\u00e9s da Lei de Incentivo \u00e0 Cultura Capixaba (LICC), previsto no art. 5\u00ba-B, IX, da Lei n\u00ba 7.000\/2001, que concede cr\u00e9dito presumido do ICMS correspondente ao valor do imposto destinado pelas empresas contribuintes a projetos culturais credenciados pela Secretaria de Estado da Cultura do Esp\u00edrito.","registrationFrom":{"date":"2025-02-02 00:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"registrationTo":{"date":"2025-12-31 18:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"status":1,"@entityType":"opportunity"}]
+
+## Links da página

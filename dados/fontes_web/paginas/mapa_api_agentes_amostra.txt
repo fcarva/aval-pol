@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/agent/find?@select=id,name,terms,type&@limit=5
+# Coletado (UTC): 2026-09-24T01:36:09Z
+# sha256 do original: e68b03b24ff8bd777c85622eae616857167c73c85313ed7b72c12c28711c8a09
+
+[{"id":1,"name":"SECRETARIA DA CULTURA (SECULT) - ES","terms":{"tag":["secretaria da cultura","secult","esp\u00edrito santo"],"area":["Gest\u00e3o Cultural"],"funcao":[],"etnia":[]},"type":{"id":2,"name":"Coletivo"},"@entityType":"agent"},{"id":2,"name":"Marianne Malini","terms":{"tag":[],"area":["Artes Circenses"],"funcao":[],"etnia":[]},"type":{"id":1,"name":"Individual"},"@entityType":"agent"},{"id":3,"name":"Rafa Chaves","terms":{"tag":[],"area":["Cultura Digital"],"funcao":[],"etnia":[]},"type":{"id":1,"name":"Individual"},"@entityType":"agent"},{"id":4,"name":"Bruno Magrini                  ","terms":{"tag":[],"area":["Gastronomia"],"funcao":[],"etnia":[]},"type":{"id":1,"name":"Individual"},"@entityType":"agent"},{"id":5,"name":"Rayssa Mendes ","terms":{"tag":[],"area":["Antropologia","Audiovisual e M\u00eddias Interativas","Cultura Digital","Dan\u00e7a","Economia Criativa e da Cultura","Cultura e Educa\u00e7\u00e3o","Hist\u00f3ria","Literatura","Cultura, Meio Ambiente e Sustentabilidade","Sociologia"],"funcao":["Outra"],"etnia":[]},"type":{"id":1,"name":"Individual"},"@entityType":"agent"}]
+
+## Links da página
