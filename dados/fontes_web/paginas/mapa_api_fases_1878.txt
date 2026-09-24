@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,parent,registrationFrom,registrationTo,evaluationMethodConfiguration&parent=EQ(1878)
+# Coletado (UTC): 2026-09-24T02:26:51Z
+# sha256 do original: 4dbc523674cb120f5aa1fac0f76d1e291025ec6b72a90278f77446fbe2af8137
+
+[{"id":1879,"name":"Publica\u00e7\u00e3o final do resultado","registrationFrom":null,"registrationTo":null,"parent":1878,"evaluationMethodConfiguration":[],"@entityType":"opportunity"},{"id":1896,"name":"Parecerista","registrationFrom":{"date":"2025-02-02 00:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"registrationTo":{"date":"2026-07-01 18:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"parent":1878,"evaluationMethodConfiguration":933,"@entityType":"opportunity"},{"id":1897,"name":"Comiss\u00e3o de Avalia\u00e7\u00e3o Permanente (CAP)","registrationFrom":{"date":"2025-02-02 00:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"registrationTo":{"date":"2026-07-01 18:00:00.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"parent":1878,"evaluationMethodConfiguration":934,"@entityType":"opportunity"}]
+
+## Links da página
