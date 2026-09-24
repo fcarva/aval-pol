@@ -109,7 +109,40 @@ def conferir(ref: str) -> dict:
     return linha
 
 
+def chave(ref: str) -> tuple[str, str]:
+    """(sobrenome ou entidade do primeiro autor, ano com sufixo) de uma referência."""
+    autor = re.split(r"[,.(–]", ref, 1)[0].strip()
+    autor = {"SECULT": "SECULT", "ESPÍRITO SANTO": "ESPÍRITO SANTO"}.get(autor, autor)
+    base = re.split(r"Disponível em|DOI:|Acesso em|Dados consultados|Base de dados", ref)[0]
+    anos = re.findall(r"(\[20\d-\]|\b(?:19|20)\d\d[a-z]?\b)", base)
+    ano = next((a for a in anos if re.search(r"(?:19|20)\d\d[a-z]$|\[", a)), None) or (anos[-1] if anos else "")
+    return norm(autor), ano
+
+
+def cruzamento() -> list[str]:
+    """Citação sem referência e referência sem citação (sobrenome do 1º autor + ano)."""
+    texto = ART.read_text(encoding="utf-8")
+    corpo = texto.split("# Referências", 1)[0]
+    problemas = []
+    for ref in referencias():
+        autor, ano = chave(ref)
+        ano_base = re.sub(r"[a-z]$", "", ano)
+        ano_corpo = ano if ano.startswith("[") else ano_base
+        padrao = re.escape(ano) if re.search(r"[a-z]$|\[", ano) else re.escape(ano_base)
+        achou = any(norm(autor) in norm(corpo[max(0, m.start() - 120):m.end()])
+                    for m in re.finditer(padrao, corpo))
+        if not achou and ano and re.search(r"[a-z]$", ano):
+            # "2021a; 2021b" e "(ESPÍRITO SANTO, 2021a; 2021b)": o sufixo pode vir isolado
+            achou = any(norm(autor) in norm(corpo[max(0, m.start() - 200):m.end()])
+                        for m in re.finditer(re.escape(ano_base) + ano[-1], corpo))
+        if not achou:
+            problemas.append(f"referência sem citação no texto: {autor.upper()} ({ano_corpo})")
+    return problemas
+
+
 def main() -> int:
+    for p in cruzamento():
+        print("[CRUZAMENTO]", p)
     linhas = [conferir(r) for r in referencias()]
     campos = ["status", "doi", "referencia", "problemas", "titulo_fonte", "periodico_fonte", "ano_fonte", "fonte"]
     with SAIDA.open("w", encoding="utf-8", newline="") as f:
