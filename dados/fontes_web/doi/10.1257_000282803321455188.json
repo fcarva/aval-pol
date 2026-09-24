@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/000282803321455188",
+ "coletado_utc": "2026-09-24T00:27:19Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The Economic Costs of Conflict: A Case Study of the Basque Country"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Alberto",
+    "family": "Abadie",
+    "name": null
+   },
+   {
+    "given": "Javier",
+    "family": "Gardeazabal",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Review"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "93",
+  "issue": "1",
+  "page": "113-132",
+  "article_number": null,
+  "issued": [
+   [
+    2003,
+    2,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2003,
+    2,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/000282803321455188",
+  "abstract": "<jats:p>This article investigates the economic effects of conflict, using the terrorist conflict in the Basque Country as a case study. We find that, after the outbreak of terrorism in the late 1960's, per capita GDP in the Basque Country declined about 10 percentage points relative to a synthetic control region without terrorism. In addition, we use the 1998–1999 truce as a natural experiment. We find that stocks of firms with a significant part of their business in the Basque Country showed a positive relative performance when truce became credible, and a negative relative performance at the end of the cease-fire.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2171656257",
+  "title": "The Economic Costs of Conflict: A Case Study of the Basque Country",
+  "publication_year": 2003,
+  "type": "article",
+  "source": "American Economic Review",
+  "landing_page_url": "https://doi.org/10.1257/000282803321455188",
+  "authorships": [
+   "Alberto Abadie",
+   "Javier Gardeazábal"
+  ],
+  "biblio": {
+   "volume": "93",
+   "issue": "1",
+   "first_page": "113",
+   "last_page": "132"
+  },
+  "cited_by_count": 4638,
+  "abstract": "This article investigates the economic effects of conflict, using the terrorist conflict in the Basque Country as a case study. We find that, after the outbreak of terrorism in the late 1960's, per capita GDP in the Basque Country declined about 10 percentage points relative to a synthetic control region without terrorism. In addition, we use the 1998–1999 truce as a natural experiment. We find that stocks of firms with a significant part of their business in the Basque Country showed a positive relative performance when truce became credible, and a negative relative performance at the end of the cease-fire."
+ }
+}

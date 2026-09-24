@@ -1,0 +1,71 @@
+{
+ "doi": "10.1080/10286632.2025.2454580",
+ "coletado_utc": "2026-09-24T00:26:54Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Corporate sponsorship as cultural policy: tax incentives in Brazilian contemporary art"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Sara R.",
+    "family": "de Andrade Silva",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "International Journal of Cultural Policy"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "32",
+  "issue": "3",
+  "page": "359-376",
+  "article_number": null,
+  "issued": [
+   [
+    2025,
+    1,
+    22
+   ]
+  ],
+  "published_print": [
+   [
+    2026,
+    4,
+    16
+   ]
+  ],
+  "published_online": [
+   [
+    2025,
+    1,
+    22
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/10286632.2025.2454580",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4406778394",
+  "title": "Corporate sponsorship as cultural policy: tax incentives in Brazilian contemporary art",
+  "publication_year": 2025,
+  "type": "article",
+  "source": "International Journal of Cultural Policy",
+  "landing_page_url": "https://doi.org/10.1080/10286632.2025.2454580",
+  "authorships": [
+   "Sara Raquel de Andrade Silva"
+  ],
+  "biblio": {
+   "volume": "32",
+   "issue": "3",
+   "first_page": "359",
+   "last_page": "376"
+  },
+  "cited_by_count": 2,
+  "abstract": "Unprecedented corporate intervention and the withdrawal of government support from the arts and culture characterized the 1980s. Driven by the Thatcher and Reagan administrations, which promoted corporate patronage and art sponsorship, this trend shaped cultural policies worldwide and was adopted by numerous countries. Following this global movement, Brazil introduced tax incentives in the early 1990s to encourage private companies to fund cultural events and institutions. While the literature on Brazilian cultural tax incentives is extensive, researchers have overlooked the connection between these incentives and the country’s artistic production fields. Drawing on data from the past decade of cultural funding and applying Natural Language Processing and machine learning techniques to isolate sponsorship patterns related to contemporary art, this paper examines the financial landscape of Brazil’s contemporary art circuit. The findings reveal that inequalities in resource distribution for contemporary art sponsorship exceed those in other fields, such as music and theater, highlighting the highly institutionalized nature of contemporary art, its reliance on corporate sponsorship, and the substantial costs associated with its production."
+ }
+}

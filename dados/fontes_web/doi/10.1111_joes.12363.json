@@ -1,0 +1,118 @@
+{
+ "doi": "10.1111/joes.12363",
+ "coletado_utc": "2026-09-24T00:27:06Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "REPORTING GUIDELINES FOR META‐ANALYSIS IN ECONOMICS"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Tomáš",
+    "family": "Havránek",
+    "name": null
+   },
+   {
+    "given": "T. D.",
+    "family": "Stanley",
+    "name": null
+   },
+   {
+    "given": "Hristos",
+    "family": "Doucouliagos",
+    "name": null
+   },
+   {
+    "given": "Pedro",
+    "family": "Bom",
+    "name": null
+   },
+   {
+    "given": "Jerome",
+    "family": "Geyer‐Klingeberg",
+    "name": null
+   },
+   {
+    "given": "Ichiro",
+    "family": "Iwasaki",
+    "name": null
+   },
+   {
+    "given": "W. Robert",
+    "family": "Reed",
+    "name": null
+   },
+   {
+    "given": "Katja",
+    "family": "Rost",
+    "name": null
+   },
+   {
+    "given": "R. C. M.",
+    "family": "van Aert",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Surveys"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "34",
+  "issue": "3",
+  "page": "469-475",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    3,
+    9
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    7
+   ]
+  ],
+  "published_online": [
+   [
+    2020,
+    3,
+    9
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/joes.12363",
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Meta‐analysis has become the conventional approach to synthesizing the results of empirical economics research. To further improve the transparency and replicability of the reported results and to raise the quality of meta‐analyses, the Meta‐Analysis of Economics Research Network has updated the reporting guidelines that were published by this Journal in 2013. Future meta‐analyses in economics will be expected to follow these updated guidelines or give valid reasons why a meta‐analysis should deviate from them.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3012139536",
+  "title": "REPORTING GUIDELINES FOR META‐ANALYSIS IN ECONOMICS",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Journal of Economic Surveys",
+  "landing_page_url": "https://doi.org/10.1111/joes.12363",
+  "authorships": [
+   "Tomáš Havránek",
+   "T. D. Stanley",
+   "Hristos Doucouliagos",
+   "Pedro R. D. Bom",
+   "Jerome Geyer‐Klingeberg",
+   "Ichiro Iwasaki",
+   "W. Robert Reed",
+   "Katja Rost",
+   "Robbie C. M. van Aert"
+  ],
+  "biblio": {
+   "volume": "34",
+   "issue": "3",
+   "first_page": "469",
+   "last_page": "475"
+  },
+  "cited_by_count": 282,
+  "abstract": "Abstract Meta‐analysis has become the conventional approach to synthesizing the results of empirical economics research. To further improve the transparency and replicability of the reported results and to raise the quality of meta‐analyses, the Meta‐Analysis of Economics Research Network has updated the reporting guidelines that were published by this Journal in 2013. Future meta‐analyses in economics will be expected to follow these updated guidelines or give valid reasons why a meta‐analysis should deviate from them."
+ }
+}

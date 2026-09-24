@@ -1,0 +1,81 @@
+{
+ "doi": "10.1287/mnsc.2023.4928",
+ "coletado_utc": "2026-09-24T00:27:25Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Optimal Experimental Design for Staggered Rollouts"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Ruoxuan",
+    "family": "Xiong",
+    "name": null
+   },
+   {
+    "given": "Susan",
+    "family": "Athey",
+    "name": null
+   },
+   {
+    "given": "Mohsen",
+    "family": "Bayati",
+    "name": null
+   },
+   {
+    "given": "Guido",
+    "family": "Imbens",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Management Science"
+  ],
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article",
+  "volume": "70",
+  "issue": "8",
+  "page": "5317-5336",
+  "article_number": null,
+  "issued": [
+   [
+    2024,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2024,
+    8
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1287/mnsc.2023.4928",
+  "abstract": "<jats:p> In this paper, we study the design and analysis of experiments conducted on a set of units over multiple time periods in which the starting time of the treatment may vary by unit. The design problem involves selecting an initial treatment time for each unit in order to most precisely estimate both the instantaneous and cumulative effects of the treatment. We first consider nonadaptive experiments, in which all treatment assignment decisions are made prior to the start of the experiment. For this case, we show that the optimization problem is generally NP-hard, and we propose a near-optimal solution. Under this solution, the fraction entering treatment each period is initially low, then high, and finally low again. Next, we study an adaptive experimental design problem, in which both the decision to continue the experiment and treatment assignment decisions are updated after each period’s data are collected. For the adaptive case, we propose a new algorithm, the precision-guided adaptive experiment algorithm, which addresses the challenges at both the design stage and the stage of estimating treatment effects, ensuring valid post-experiment inference, accounting for the adaptive nature of the design. Using realistic settings, we demonstrate that our proposed solutions can reduce the opportunity cost of the experiments by more than 50%, compared with static design benchmarks. </jats:p><jats:p> This paper was accepted by George Shanthikumar, data science. </jats:p><jats:p> Funding: S. Athey and G. Imbens were supported by the Office of Naval Research [Grant N00014-19-1-2468]. M. Bayati was supported by the National Science Foundation [Grant CMMI 1554140]. </jats:p><jats:p> Supplemental Material: The e-companion and data are available at https://doi.org/10.1287/mnsc.2023.4928 . </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3123145038",
+  "title": "Optimal Experimental Design for Staggered Rollouts",
+  "publication_year": 2023,
+  "type": "article",
+  "source": "Management Science",
+  "landing_page_url": "https://doi.org/10.1287/mnsc.2023.4928",
+  "authorships": [
+   "Ruoxuan Xiong",
+   "Susan Carleton Athey",
+   "Mohsen Bayati",
+   "Guido W. Imbens"
+  ],
+  "biblio": {
+   "volume": "70",
+   "issue": "8",
+   "first_page": "5317",
+   "last_page": "5336"
+  },
+  "cited_by_count": 10,
+  "abstract": "In this paper, we study the design and analysis of experiments conducted on a set of units over multiple time periods in which the starting time of the treatment may vary by unit. The design problem involves selecting an initial treatment time for each unit in order to most precisely estimate both the instantaneous and cumulative effects of the treatment. We first consider nonadaptive experiments, in which all treatment assignment decisions are made prior to the start of the experiment. For this case, we show that the optimization problem is generally NP-hard, and we propose a near-optimal solution. Under this solution, the fraction entering treatment each period is initially low, then high, and finally low again. Next, we study an adaptive experimental design problem, in which both the decision to continue the experiment and treatment assignment decisions are updated after each period’s data are collected. For the adaptive case, we propose a new algorithm, the precision-guided adaptive experiment algorithm, which addresses the challenges at both the design stage and the stage of estimating treatment effects, ensuring valid post-experiment inference, accounting for the adaptive nature of the design. Using realistic settings, we demonstrate that our proposed solutions can reduce the opportunity cost of the experiments by more than 50%, compared with static design benchmarks. This paper was accepted by George Shanthikumar, data science. Funding: S. Athey and G. Imbens were supported by the Office of Naval Research [Grant N00014-19-1-2468]. M. Bayati was supported by the National Science Foundation [Grant CMMI 1554140]. Supplemental Material: The e-companion and data are available at https://doi.org/10.1287/mnsc.2023.4928 ."
+ }
+}

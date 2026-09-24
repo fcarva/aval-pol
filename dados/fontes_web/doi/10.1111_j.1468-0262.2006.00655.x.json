@@ -1,0 +1,69 @@
+{
+ "doi": "10.1111/j.1468-0262.2006.00655.x",
+ "coletado_utc": "2026-09-24T00:27:05Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Large Sample Properties of Matching Estimators for Average Treatment Effects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Alberto",
+    "family": "Abadie",
+    "name": null
+   },
+   {
+    "given": "Guido W.",
+    "family": "Imbens",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "The Econometric Society",
+  "type": "journal-article",
+  "volume": "74",
+  "issue": "1",
+  "page": "235-267",
+  "article_number": null,
+  "issued": [
+   [
+    2006,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2006,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1468-0262.2006.00655.x",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2171443468",
+  "title": "Large Sample Properties of Matching Estimators for Average Treatment Effects",
+  "publication_year": 2005,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.1111/j.1468-0262.2006.00655.x",
+  "authorships": [
+   "Alberto Abadie",
+   "Guido W. Imbens"
+  ],
+  "biblio": {
+   "volume": "74",
+   "issue": "1",
+   "first_page": "235",
+   "last_page": "267"
+  },
+  "cited_by_count": 2973,
+  "abstract": "Matching estimators for average treatment effects are widely used in evaluation research despite the fact that their large sample properties have not been established in many cases. The absence of formal results in this area may be partly due to the fact that standard asymptotic expansions do not apply to matching estimators with a fixed number of matches because such estimators are highly nonsmooth functionals of the data. In this article we develop new methods for analyzing the large sample properties of matching estimators and establish a number of new results. We focus on matching with replacement with a fixed number of matches. First, we show that matching estimators are not N1/2-consistent in general and describe conditions under which matching estimators do attain N1/2-consistency. Second, we show that even in settings where matching estimators are N1/2-consistent, simple matching estimators with a fixed number of matches do not attain the semiparametric efficiency bound. Third, we provide a consistent estimator for the large sample variance that does not require consistent nonparametric estimation of unknown functions. Software for implementing these methods is available in Matlab, Stata, and R."
+ }
+}

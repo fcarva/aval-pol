@@ -1,0 +1,231 @@
+{
+ "id": "feld_ohare_schuster_1983",
+ "consulta": "Feld O'Hare Schuster Patrons despite themselves taxpayers and arts policy 1983",
+ "coletado_utc": "2026-09-24T00:27:55Z",
+ "crossref": [
+  {
+   "doi": "10.2307/1288714",
+   "title": [
+    "Patrons despite Themselves: Taxpayers and Arts Policy"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Feld",
+    "O'Hare",
+    "Schuster"
+   ],
+   "container_title": [
+    "Michigan Law Review"
+   ],
+   "publisher": "JSTOR",
+   "issued": [
+    [
+     1984,
+     2
+    ]
+   ],
+   "volume": "82",
+   "issue": "4",
+   "page": "1062",
+   "isbn": null,
+   "score": 73.53768
+  },
+  {
+   "doi": "10.2307/3323910",
+   "title": [
+    "Patrons despite Themselves: Taxpayers and Arts Policy"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Schuck",
+    "Feld",
+    "O'Hare",
+    "Schuster"
+   ],
+   "container_title": [
+    "Journal of Policy Analysis and Management"
+   ],
+   "publisher": "JSTOR",
+   "issued": [
+    [
+     1984
+    ]
+   ],
+   "volume": "4",
+   "issue": "1",
+   "page": "142",
+   "isbn": null,
+   "score": 68.530266
+  },
+  {
+   "doi": "10.1007/s10824-008-9081-z",
+   "title": [
+    "Arts policy research for the next 25 years: a trajectory after Patrons Despite Themselves"
+   ],
+   "type": "journal-article",
+   "author": [
+    "O’Hare"
+   ],
+   "container_title": [
+    "Journal of Cultural Economics"
+   ],
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2008,
+     11,
+     13
+    ]
+   ],
+   "volume": "32",
+   "issue": "4",
+   "page": "281-291",
+   "isbn": null,
+   "score": 40.763653
+  },
+  {
+   "doi": "10.2308/jata-6149473",
+   "title": [
+    "Patrons Despite themselves (Book)."
+   ],
+   "type": "journal-article",
+   "author": [
+    "Kozub",
+    "Harmelink"
+   ],
+   "container_title": [
+    "Journal of the American Taxation Association"
+   ],
+   "publisher": "American Accounting Association",
+   "issued": [
+    [
+     1984,
+     3,
+     1
+    ]
+   ],
+   "volume": "5",
+   "issue": "2",
+   "page": "86-87",
+   "isbn": null,
+   "score": 32.822063
+  },
+  {
+   "doi": "10.2307/j.ctt22zmcdj.10",
+   "title": [
+    "THE HARE WAYS OF IDENTIFYING THEMSELVES"
+   ],
+   "type": "book-chapter",
+   "author": [],
+   "container_title": [
+    "Hare Indians and their world"
+   ],
+   "publisher": "Canadian Museum of History",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "20-28",
+   "isbn": null,
+   "score": 28.242641
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W1511178141",
+   "doi": "https://doi.org/10.3386/w3379",
+   "title": "Tax Policy Toward Art Museums",
+   "publication_year": 1990,
+   "type": "report",
+   "source": "National Bureau of Economic Research",
+   "authorships": [
+    "Don Fullerton"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "Although art museums do not pay any substantial taxes, they are greatly affected by various U.S. tax rules. The individual receives a deduction for donations of art to museums, the estate gets a deduction for bequests, and the corporation gets a deduction for charitable gifts. Art museums also are not taxed on investment income or on some related business activities. This paper reviews the logic for these rules and discusses their economic effects. In combination, this set of tax provisions is found to have a tax expenditure that is larger than direct federal expenditures on art museums in the U.S. The amount of this tax expenditure or implicit subsidy has been falling in recent years because of reductions in the marginal personal income tax rates at which individuals deduct gifts. High income taxpayers are found to be the most responsive to marginal tax rates, and they also tend to give the largest amounts to the arts. Therefore the level of the top personal marginal tax rate is particularly important to art museums. Simulations here suggest that the personal marginal rate reduction in the Tax Reform Act of 1986 could reduce gifts to the arts by as much as 24 percent."
+  },
+  {
+   "id": "https://openalex.org/W2921683392",
+   "doi": "https://doi.org/10.5604/01.3001.0013.0636",
+   "title": "Policy versus Philanthropy: Between Public and Private Funding of the Arts",
+   "publication_year": 2018,
+   "type": "article",
+   "source": "Edukacja Ekonomistów i Menedżerów",
+   "authorships": [
+    "Kamila Lewandowska"
+   ],
+   "biblio": {
+    "volume": "50",
+    "issue": "4",
+    "first_page": "97",
+    "last_page": "111"
+   },
+   "abstract": "The aim of this paper is to analyse the relations between arts and business in the international context. It centres on two topics: firstly, the impact of the public arts funding systems on private support and, secondly, the current transitions in the relationship between arts and business that lead to the development of new forms of cooperation. The first part of the article compares systems of arts funding in different countries, mostly in Europe and the USA. The second part focuses on the definition of ‘partnership’, that is, the new paradigm in arts and business relations and describes its manifestations in real life."
+  },
+  {
+   "id": "https://openalex.org/W3122444104",
+   "doi": null,
+   "title": "The Paradox of Access Justice, and Its Application to Mandatory Arbitration",
+   "publication_year": 2016,
+   "type": "article",
+   "source": "eYLS (Yale Law School)",
+   "authorships": [
+    "Omri Ben‐Shahar"
+   ],
+   "biblio": {
+    "volume": "83",
+    "issue": "4",
+    "first_page": "1755",
+    "last_page": null
+   },
+   "abstract": "Access justice is one of the most appealing and least contentious regulatory techniques in law's repertoire.It aspires to give people equal opportunity to utilize certain primary goods, and it does so by assuring openness-that access to these goods is not allocated by markets and is not tilted in favor of wealth or privilege.But access justice often fails to meet its egalitarian aspirations, because groups that are not the intended targets of the intervention deploy access and its benefits disproportionately.Paradoxically, access justice often benefits various elites while paid for directly by taxpayers and indirectly by weaker groups.This Article brings to light this unintended and regressive cross-subsidy created by policies of access to information, compensation, insurance, accommodations, and more.It then examines in detail a specific contemporary access justice paradox-consumers' access to courts and the impact of mandatory arbitration agreements that limit such access.This Article demonstrates that access to courts is a franchise of the elite and of little value to weak consumers.Nevertheless, it considers whether contractual waivers of access to courts hurt weak consumers by foreclosing effective access through class-action representatives.This concern has theoretical merit, but it, too, is limited in ways that are often unappreciated."
+  },
+  {
+   "id": "https://openalex.org/W3124718347",
+   "doi": "https://doi.org/10.1007/s10824-017-9307-z",
+   "title": "Fiscal and Economic Aspects of Book Consumption in the European Union",
+   "publication_year": 2017,
+   "type": "article",
+   "source": "EUR Research Repository (Erasmus University Rotterdam)",
+   "authorships": [
+    "Navarrete Hernandez, Trilce",
+    "Borowiecki, K"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "One of the available and yet controversial tools in cultural policy at the national level is the reduction of VAT rates for cultural goods and services. We document the standard and reduced VAT rates in EU-28 countries in the period from 1993 to 2013 and explore the underlying determinants. We further introduce a simple theoretical framework to explain how reduced fiscal rates are expected to decrease prices and increase quantities of the consumed cultural goods and services. We then estimate quantitatively that a decrease in the VAT rate for books by one percentage point is associated with an economically significant drop in the price by 2.6%. Finally, we show the positive effect of a fiscal rate reduction on the book expenditure, where a one percentage point decrease in the VAT rate for books leads to an increase in expenditure by 2.7%."
+  },
+  {
+   "id": "https://openalex.org/W2273875890",
+   "doi": null,
+   "title": "National Funding for the Arts and Internal Revenue Code § 501(c)(3)",
+   "publication_year": 2010,
+   "type": "article",
+   "source": "Scholorship Repository - Florida State University College of Law (Florida State University)",
+   "authorships": [
+    "Micah Burch"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "EXPENDITURE ANALYSIS, JCX-37-08 (May 12, 2008) (calling for a revised tax expenditure taxonomy that would explicitly include the concept of a \"tax subsidy\" for specific tax provisions that diverge from one of tax law's identifiable general rules and that collect less revenue than such general rule).This Article focuses on the federal income tax subsidy resulting from the tax exemption granted to certain qualifying arts organizations and the attendant deductibility by donors of charitable contributions (referred to herein as the \"tax subsidy\") to such organizations.While these two components of the tax subsidy are analytically and legally separate and distinct, they are at times discussed collectively (or interchangeably) for the purposes of this Article.Of course, many governmental policies could be accurately described as indirect subsidies for the arts, including upholding law and order, providing for economic prosperity, participating in and encouraging free international trade, enforcing copyright and other intellectual property laws, and the like.Other forms of indirect subsidies (including tax-based subsidies via other provisions of the federal income, estate, property, and other tax regimes) are not discussed in detail.2. In 2006, the most recent year for which reliable statistics are available, private donations made up 43% of nonprofit arts organizations' funding, or $13.5 billion.NATIONAL ENDOWMENT FOR THE ARTS, HOW THE UNITED STATES FUNDS THE ARTS, 1, 18 (2d ed., 2007).Public direct support accounts for 13%, or $4 billion.Id. at 1, 3.However, about $1 billion of this public support is for cultural, rather than arts, organizations, meaning that direct governmental funding for the arts from all levels of government totaled around $3 billion.Id. at 10.This amounts to approximately 10% of the total revenue for nonprofit arts organizations in the U.S., and the National Endowment for the Art's (NEA) annual support equals less than 1% of such revenue.Id.Of that total, $12.5 billion was contributed to organizations in the arts, culture, and humanities.CTR.ON PHILANTHROPY AT IND.U., supra, at 12-13 (total private charitable contributions by all U.S. donors in 2006 totaled $295 billion (approximately 2.2% of GDP), three-quarters of which came from individuals).Forgone federal income tax revenue with respect to these contributions to arts organizations is approximately $3 billion-or roughly the same amount as all direct governmental support for the arts combined-assuming a blended average tax rate of 30%.See NATIONAL ENDOWMENT FOR THE ARTS, HOW THE UNITED STATES FUNDS THE ARTS, supra, at 1. Professor Cowen, in one of the few works to elaborate on the importance of the tax subsidy for the arts, has observed that \"[t]he tax system provides the most significant arts subsidy in the United States.\"TYLER COWEN, GOOD & PLENTY: THE CREATIVE SUCCESSES OF AMERICAN ARTS FUNDING, 33 (2006); see also J."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

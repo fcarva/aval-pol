@@ -1,0 +1,73 @@
+{
+ "doi": "10.3368/jhr.50.2.317",
+ "coletado_utc": "2026-09-24T00:27:44Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "A Practitioner’s Guide to Cluster-Robust Inference"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "A.",
+    "family": "Colin Cameron",
+    "name": null
+   },
+   {
+    "given": "Douglas L.",
+    "family": "Miller",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Human Resources"
+  ],
+  "publisher": "University of Wisconsin Press",
+  "type": "journal-article",
+  "volume": "50",
+  "issue": "2",
+  "page": "317-372",
+  "article_number": null,
+  "issued": [
+   [
+    2015
+   ]
+  ],
+  "published_print": [
+   [
+    2015
+   ]
+  ],
+  "published_online": [
+   [
+    2015,
+    4,
+    28
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.3368/jhr.50.2.317",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2118836230",
+  "title": "A Practitioner’s Guide to Cluster-Robust Inference",
+  "publication_year": 2015,
+  "type": "article",
+  "source": "The Journal of Human Resources",
+  "landing_page_url": "https://doi.org/10.3368/jhr.50.2.317",
+  "authorships": [
+   "A. Colin Cameron",
+   "Douglas L. Miller"
+  ],
+  "biblio": {
+   "volume": "50",
+   "issue": "2",
+   "first_page": "317",
+   "last_page": "372"
+  },
+  "cited_by_count": 4901,
+  "abstract": "We consider statistical inference for regression when data are grouped into clusters, with regression model errors independent across clusters but correlated within clusters. Examples include data on individuals with clustering on village or region or other category such as industry, and state-year differences-in-differences studies with clustering on state. In such settings default standard errors can greatly overstate estimator precision. Instead, if the number of clusters is large, statistical inference after OLS should be based on cluster-robust standard errors. We outline the basic method as well as many complications that can arise in practice. These include cluster-specific fixed efects, few clusters, multi-way clustering, and estimators other than OLS."
+ }
+}

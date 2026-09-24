@@ -1,0 +1,83 @@
+{
+ "doi": "10.1080/01621459.2019.1635480",
+ "coletado_utc": "2026-09-24T00:26:52Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Simple Local Polynomial Density Estimators"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Matias D.",
+    "family": "Cattaneo",
+    "name": null
+   },
+   {
+    "given": "Michael",
+    "family": "Jansson",
+    "name": null
+   },
+   {
+    "given": "Xinwei",
+    "family": "Ma",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of the American Statistical Association"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "115",
+  "issue": "531",
+  "page": "1449-1455",
+  "article_number": null,
+  "issued": [
+   [
+    2019,
+    7,
+    22
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    7,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2019,
+    7,
+    22
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/01621459.2019.1635480",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2955861062",
+  "title": "Simple Local Polynomial Density Estimators",
+  "publication_year": 2019,
+  "type": "article",
+  "source": "Journal of the American Statistical Association",
+  "landing_page_url": "https://doi.org/10.1080/01621459.2019.1635480",
+  "authorships": [
+   "Matias D. Cattaneo",
+   "Michael Jansson",
+   "Xinwei Ma"
+  ],
+  "biblio": {
+   "volume": "115",
+   "issue": "531",
+   "first_page": "1449",
+   "last_page": "1455"
+  },
+  "cited_by_count": 695,
+  "abstract": "This article introduces an intuitive and easy-to-implement nonparametric density estimator based on local polynomial techniques. The estimator is fully boundary adaptive and automatic, but does not require prebinning or any other transformation of the data. We study the main asymptotic properties of the estimator, and use these results to provide principled estimation, inference, and bandwidth selection methods. As a substantive application of our results, we develop a novel discontinuity in density testing procedure, an important problem in regression discontinuity designs and other program evaluation settings. An illustrative empirical application is given. Two companion Stata and R software packages are provided."
+ }
+}

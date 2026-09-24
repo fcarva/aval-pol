@@ -1,0 +1,75 @@
+{
+ "doi": "10.1016/S1573-4471(07)04061-2",
+ "coletado_utc": "2026-09-24T00:26:31Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Chapter 61 Using Randomization in Development Economics Research: A Toolkit"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Esther",
+    "family": "Duflo",
+    "name": null
+   },
+   {
+    "given": "Rachel",
+    "family": "Glennerster",
+    "name": null
+   },
+   {
+    "given": "Michael",
+    "family": "Kremer",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Handbook of Development Economics"
+  ],
+  "publisher": "Elsevier",
+  "type": "book-chapter",
+  "volume": null,
+  "issue": null,
+  "page": "3895-3962",
+  "article_number": null,
+  "issued": [
+   [
+    2007
+   ]
+  ],
+  "published_print": [
+   [
+    2007
+   ]
+  ],
+  "published_online": null,
+  "isbn": [
+   "9780444531001"
+  ],
+  "url": "https://doi.org/10.1016/s1573-4471(07)04061-2",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1594558933",
+  "title": "Chapter 61 Using Randomization in Development Economics Research: A Toolkit",
+  "publication_year": 2007,
+  "type": "book-chapter",
+  "source": "Handbook of development economics",
+  "landing_page_url": "https://doi.org/10.1016/s1573-4471(07)04061-2",
+  "authorships": [
+   "Esther Duflo",
+   "Rachel Glennerster",
+   "Michael R. Kremer"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": "3895",
+   "last_page": "3962"
+  },
+  "cited_by_count": 552,
+  "abstract": ""
+ }
+}

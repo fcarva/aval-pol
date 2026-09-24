@@ -1,0 +1,75 @@
+{
+ "doi": "10.1016/j.jfineco.2022.01.004",
+ "coletado_utc": "2026-09-24T00:26:44Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "How much should we trust staggered difference-in-differences estimates?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Andrew C.",
+    "family": "Baker",
+    "name": null
+   },
+   {
+    "given": "David F.",
+    "family": "Larcker",
+    "name": null
+   },
+   {
+    "given": "Charles C.Y.",
+    "family": "Wang",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Financial Economics"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "144",
+  "issue": "2",
+  "page": "370-395",
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    5
+   ]
+  ],
+  "published_print": [
+   [
+    2022,
+    5
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.jfineco.2022.01.004",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4283387379",
+  "title": "How much should we trust staggered difference-in-differences estimates?",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "Journal of Financial Economics",
+  "landing_page_url": "https://doi.org/10.1016/j.jfineco.2022.01.004",
+  "authorships": [
+   "Andrew Charles Baker",
+   "David F. Larcker",
+   "Charles C. Y. Wang"
+  ],
+  "biblio": {
+   "volume": "144",
+   "issue": "2",
+   "first_page": "370",
+   "last_page": "395"
+  },
+  "cited_by_count": 3213,
+  "abstract": "We explain when and how staggered difference-in-differences regression estimators, commonly applied to assess the impact of policy changes, are biased. These biases are likely to be relevant for a large portion of research settings in finance, accounting, and law that rely on staggered treatment timing, and can result in Type-I and Type-II errors. We summarize three alternative estimators developed in the econometrics and applied literature for addressing these biases, including their differences and tradeoffs. We apply these estimators to re-examine prior published results and show, in many cases, the alternative causal estimates or inferences differ substantially from prior papers."
+ }
+}

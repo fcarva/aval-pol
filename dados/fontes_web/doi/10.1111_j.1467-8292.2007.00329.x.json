@@ -1,0 +1,69 @@
+{
+ "doi": "10.1111/j.1467-8292.2007.00329.x",
+ "coletado_utc": "2026-09-24T00:27:04Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "THE IMPACT OF GOVERNMENT FUNDING ON PRIVATE CONTRIBUTIONS TO NONPROFIT PERFORMING ARTS ORGANIZATIONS"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Thomas More",
+    "family": "Smith",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Annals of Public and Cooperative Economics"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "78",
+  "issue": "1",
+  "page": "137-160",
+  "article_number": null,
+  "issued": [
+   [
+    2007,
+    3
+   ]
+  ],
+  "published_print": [
+   [
+    2007,
+    3
+   ]
+  ],
+  "published_online": [
+   [
+    2007,
+    3,
+    5
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1467-8292.2007.00329.x",
+  "abstract": "<jats:p><jats:bold>ABSTRACT</jats:bold><jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#fn15\"><jats:bold>**</jats:bold></jats:ext-link><jats:bold>: </jats:bold>  <jats:italic>This paper tests the crowding‐out hypothesis for a balanced panel of nonprofit performing arts organizations between 1998 and 2003. This research uses a number of model specifications and estimating techniques to appropriately capture the relationship between government grants and private donations. Under alternative specifications, the relationship between government grants and private donations suggests crowding‐in between $0.14 and $1.15. The crowd‐in relationship does change according to art type: symphony orchestras and music companies experience a modest crowd‐in while dance and ballet companies experience a small crowd‐out. Although the crowd‐in falls to zero under the strictest condition, there is a lack of evidence of crowd‐out for nonprofit performing arts organizations as a group.</jats:italic> </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2064028181",
+  "title": "THE IMPACT OF GOVERNMENT FUNDING ON PRIVATE CONTRIBUTIONS TO NONPROFIT PERFORMING ARTS ORGANIZATIONS",
+  "publication_year": 2007,
+  "type": "article",
+  "source": "Annals of Public and Cooperative Economics",
+  "landing_page_url": "https://doi.org/10.1111/j.1467-8292.2007.00329.x",
+  "authorships": [
+   "Thomas More Smith"
+  ],
+  "biblio": {
+   "volume": "78",
+   "issue": "1",
+   "first_page": "137",
+   "last_page": "160"
+  },
+  "cited_by_count": 54,
+  "abstract": "ABSTRACT ** : This paper tests the crowding‐out hypothesis for a balanced panel of nonprofit performing arts organizations between 1998 and 2003. This research uses a number of model specifications and estimating techniques to appropriately capture the relationship between government grants and private donations. Under alternative specifications, the relationship between government grants and private donations suggests crowding‐in between $0.14 and $1.15. The crowd‐in relationship does change according to art type: symphony orchestras and music companies experience a modest crowd‐in while dance and ballet companies experience a small crowd‐out. Although the crowd‐in falls to zero under the strictest condition, there is a lack of evidence of crowd‐out for nonprofit performing arts organizations as a group."
+ }
+}

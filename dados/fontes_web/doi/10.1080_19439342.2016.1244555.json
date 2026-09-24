@@ -1,0 +1,75 @@
+{
+ "doi": "10.1080/19439342.2016.1244555",
+ "coletado_utc": "2026-09-24T00:26:55Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Power calculation for causal inference in social science: sample size and minimum detectable effect determination"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Eric W.",
+    "family": "Djimeu",
+    "name": null
+   },
+   {
+    "given": "Deo-Gracias",
+    "family": "Houndolo",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Development Effectiveness"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "8",
+  "issue": "4",
+  "page": "508-527",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    10
+   ]
+  ],
+  "published_print": [
+   [
+    2016,
+    10
+   ]
+  ],
+  "published_online": [
+   [
+    2016,
+    10,
+    27
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/19439342.2016.1244555",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2542504730",
+  "title": "Power calculation for causal inference in social science: sample size and minimum detectable effect determination",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "Journal of Development Effectiveness",
+  "landing_page_url": "https://doi.org/10.1080/19439342.2016.1244555",
+  "authorships": [
+   "Eric W. Djimeu",
+   "Deo-Gracias Houndolo"
+  ],
+  "biblio": {
+   "volume": "8",
+   "issue": "4",
+   "first_page": "508",
+   "last_page": "527"
+  },
+  "cited_by_count": 39,
+  "abstract": "This paper presents the statistical concepts used in power calculations for experimental design. It provides detailed definitions of parameters used to perform power calculations, useful rules of thumb and different approaches that can be used when performing power calculations. The authors draw from real-world examples to calculate statistical power for individual and cluster randomised controlled trials. This paper provides formulae for sample size determination and minimum detectable effect (MDE) associated with a given statistical power. The paper is accompanied by the sample size and MDE calculator©, a free online tool that allows users to work with the formulae presented in Section 4."
+ }
+}

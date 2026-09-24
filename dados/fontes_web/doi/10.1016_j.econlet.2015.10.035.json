@@ -1,0 +1,69 @@
+{
+ "doi": "10.1016/j.econlet.2015.10.035",
+ "coletado_utc": "2026-09-24T00:26:33Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Difference-in-differences techniques for spatial data: Local autocorrelation and spatial interaction"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Michael S.",
+    "family": "Delgado",
+    "name": null
+   },
+   {
+    "given": "Raymond J.G.M.",
+    "family": "Florax",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Economics Letters"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "137",
+  "issue": null,
+  "page": "123-126",
+  "article_number": null,
+  "issued": [
+   [
+    2015,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    12
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.econlet.2015.10.035",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3122746033",
+  "title": "Difference-in-differences techniques for spatial data: Local autocorrelation and spatial interaction",
+  "publication_year": 2015,
+  "type": "article",
+  "source": "Economics Letters",
+  "landing_page_url": "https://doi.org/10.1016/j.econlet.2015.10.035",
+  "authorships": [
+   "Michael S. Delgado",
+   "Raymond J.G.M. Florax"
+  ],
+  "biblio": {
+   "volume": "137",
+   "issue": null,
+   "first_page": "123",
+   "last_page": "126"
+  },
+  "cited_by_count": 193,
+  "abstract": ""
+ }
+}

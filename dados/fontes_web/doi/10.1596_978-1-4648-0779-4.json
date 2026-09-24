@@ -1,0 +1,95 @@
+{
+ "doi": "10.1596/978-1-4648-0779-4",
+ "coletado_utc": "2026-09-24T00:27:34Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Impact Evaluation in Practice, Second Edition"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Paul J.",
+    "family": "Gertler",
+    "name": null
+   },
+   {
+    "given": "Sebastian",
+    "family": "Martinez",
+    "name": null
+   },
+   {
+    "given": "Patrick",
+    "family": "Premand",
+    "name": null
+   },
+   {
+    "given": "Laura B.",
+    "family": "Rawlings",
+    "name": null
+   },
+   {
+    "given": "Christel M. J.",
+    "family": "Vermeersch",
+    "name": null
+   }
+  ],
+  "container_title": [],
+  "publisher": "Washington, DC:  Inter-American Development Bank and World Bank",
+  "type": "book",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    9,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2016,
+    9,
+    13
+   ]
+  ],
+  "published_online": [
+   [
+    2016,
+    9,
+    12
+   ]
+  ],
+  "isbn": [
+   "9781464807794"
+  ],
+  "url": "https://doi.org/10.1596/978-1-4648-0779-4",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2522057813",
+  "title": "Impact Evaluation in Practice, Second Edition",
+  "publication_year": 2016,
+  "type": "book",
+  "source": "Washington, DC: Inter-American Development Bank and World Bank eBooks",
+  "landing_page_url": "https://doi.org/10.1596/978-1-4648-0779-4",
+  "authorships": [
+   "Paul Gertler",
+   "Sebastián Espinoza Martínez",
+   "Patrick Prémand",
+   "Laura B. Rawlings",
+   "Christel M. J. Vermeersch"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 402,
+  "abstract": "The second edition of the Impact Evaluation in Practice handbook is a comprehensive and accessible introduction to impact evaluation for policy makers and development practitioners. First published in 2011, it has been used widely across the development and academic communities. The book incorporates real-world examples to present practical guidelines for designing and implementing impact evaluations. Readers will gain an understanding of impact evaluations and the best ways to use them to design evidence-based policies and programs. \\n \\nThe updated version covers the newest techniques for evaluating programs and includes state-of-the-art implementation advice, as well as an expanded set of examples and case studies that draw on recent development challenges. It also includes new material on research ethics and partnerships to conduct impact evaluation. \\n \\nThe handbook is divided into four sections: Part One discusses what to evaluate and why; Part Two presents the main impact evaluation methods; Part Three addresses how to manage impact evaluations; Part Four reviews impact evaluation sampling and data collection. Case studies illustrate different applications of impact evaluations. \\n \\nThe book links to complementary instructional material available online, including an applied case as well as questions and answers. The updated second edition will be a valuable resource for the international development community, universities, and policy makers looking to build better evidence around what works in development."
+ }
+}

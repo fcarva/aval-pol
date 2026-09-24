@@ -1,0 +1,71 @@
+{
+ "doi": "10.9771/pcr.v9i1.15208",
+ "coletado_utc": "2026-09-24T00:27:52Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Evolução do Mecenato no Brasil: os valores movimentados através da Lei Rouanet despidos do véu da inflação (1996-2014)"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Fabio De Silos Sá",
+    "family": "Earp",
+    "name": null
+   },
+   {
+    "given": "Luiz Manoel",
+    "family": "Estrella",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Políticas Culturais em Revista"
+  ],
+  "publisher": "Universidade Federal da Bahia",
+  "type": "journal-article",
+  "volume": "9",
+  "issue": "1",
+  "page": "315",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    1,
+    16
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2016,
+    1,
+    16
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.9771/pcr.v9i1.15208",
+  "abstract": "<jats:p>O objetivo deste artigo é apresentar os montantes monetários movimentados para investimento em cultura no Brasil através da Lei Rouanet, ao longo de um período de 18 anos, em valores reais, livres da distorção causada pela inflação. Este trabalho se justifica pois, infelizmente, é muito comum que nos estudos sobre a área da cultura sejam feitas comparações espúrias entre valores tornados tecnicamente incomparáveis pela variação dos  preços. Espera-se que estas séries possam ajudar a corrigir este equívoco.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2577734586",
+  "title": "Evolução do Mecenato no Brasil: os valores movimentados através da Lei Rouanet despidos do véu da inflação (1996-2014)",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "Políticas Culturais em Revista",
+  "landing_page_url": "https://doi.org/10.9771/pcr.v9i1.15208",
+  "authorships": [
+   "Fabio de Silos Sá Earp",
+   "Luiz Manoel Estrella"
+  ],
+  "biblio": {
+   "volume": "9",
+   "issue": "1",
+   "first_page": "315",
+   "last_page": "315"
+  },
+  "cited_by_count": 3,
+  "abstract": "O objetivo deste artigo é apresentar os montantes monetários movimentados para investimento em cultura no Brasil através da Lei Rouanet, ao longo de um período de 18 anos, em valores reais, livres da distorção causada pela inflação. Este trabalho se justifica pois, infelizmente, é muito comum que nos estudos sobre a área da cultura sejam feitas comparações espúrias entre valores tornados tecnicamente incomparáveis pela variação dos preços. Espera-se que estas séries possam ajudar a corrigir este equívoco."
+ }
+}

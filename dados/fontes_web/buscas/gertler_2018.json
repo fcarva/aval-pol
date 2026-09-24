@@ -1,0 +1,161 @@
+{
+ "id": "gertler_2018",
+ "consulta": "Avaliacao de impacto na pratica segunda edicao Gertler Martinez Premand Rawlings Vermeersch 2018",
+ "coletado_utc": "2026-09-24T00:28:57Z",
+ "crossref": [
+  {
+   "doi": "10.1596/978-1-4648-0888-3",
+   "title": [
+    "La evaluación de impacto en la práctica, Segunda edición"
+   ],
+   "type": "monograph",
+   "author": [
+    "Gertler",
+    "Martinez",
+    "Premand",
+    "Rawlings",
+    "Vermeersch"
+   ],
+   "container_title": null,
+   "publisher": "The World Bank",
+   "issued": [
+    [
+     2017,
+     1,
+     24
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9781464808883",
+    "9781464809897"
+   ],
+   "score": 79.98703
+  },
+  {
+   "doi": "10.1596/978-0-8213-8681-1",
+   "title": [
+    "La evaluación de impacto en la práctica"
+   ],
+   "type": "monograph",
+   "author": [
+    "Gertler",
+    "Martinez",
+    "Premand",
+    "Rawlings",
+    "Vermeersch"
+   ],
+   "container_title": null,
+   "publisher": "The World Bank",
+   "issued": [
+    [
+     2011,
+     6,
+     13
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9780821386811",
+    "9780821395851"
+   ],
+   "score": 70.99739
+  },
+  {
+   "doi": "10.18235/0006529",
+   "title": [
+    "Impact Evaluation in Practice: Second Edition"
+   ],
+   "type": "report",
+   "author": [
+    "Gertler",
+    "Martinez",
+    "Rawlings",
+    "Premand",
+    "Vermeersch"
+   ],
+   "container_title": null,
+   "publisher": "Inter-American Development Bank",
+   "issued": [
+    [
+     2016,
+     9,
+     13
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 62.68378
+  },
+  {
+   "doi": "10.1596/978-1-4648-0779-4",
+   "title": [
+    "Impact Evaluation in Practice, Second Edition"
+   ],
+   "type": "book",
+   "author": [
+    "Gertler",
+    "Martinez",
+    "Premand",
+    "Rawlings",
+    "Vermeersch"
+   ],
+   "container_title": null,
+   "publisher": "Washington, DC:  Inter-American Development Bank and World Bank",
+   "issued": [
+    [
+     2016,
+     9,
+     12
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9781464807794"
+   ],
+   "score": 61.637962
+  },
+  {
+   "doi": "10.1596/978-0-8213-8541-8",
+   "title": [
+    "Impact Evaluation in Practice"
+   ],
+   "type": "monograph",
+   "author": [
+    "Gertler",
+    "Martinez",
+    "Premand",
+    "Rawlings",
+    "Vermeersch"
+   ],
+   "container_title": null,
+   "publisher": "The World Bank",
+   "issued": [
+    [
+     2010,
+     12,
+     13
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9780821385418",
+    "9780821385937"
+   ],
+   "score": 61.603592
+  }
+ ],
+ "openalex": [],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

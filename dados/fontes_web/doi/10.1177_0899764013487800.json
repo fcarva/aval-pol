@@ -1,0 +1,78 @@
+{
+ "doi": "10.1177/0899764013487800",
+ "coletado_utc": "2026-09-24T00:27:16Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Impact of Government Funding on Donations to Arts Organizations"
+  ],
+  "subtitle": [
+   "A Survey Experiment"
+  ],
+  "author": [
+   {
+    "given": "Mirae",
+    "family": "Kim",
+    "name": null
+   },
+   {
+    "given": "Gregg G.",
+    "family": "Van Ryzin",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Nonprofit and Voluntary Sector Quarterly"
+  ],
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "volume": "43",
+  "issue": "5",
+  "page": "910-925",
+  "article_number": null,
+  "issued": [
+   [
+    2013,
+    5,
+    21
+   ]
+  ],
+  "published_print": [
+   [
+    2014,
+    10
+   ]
+  ],
+  "published_online": [
+   [
+    2013,
+    5,
+    21
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1177/0899764013487800",
+  "abstract": "<jats:p>Many nonprofits rely on private donations and government grants, but it is still unclear how these sources of funding may interact or even influence each other. To examine the behavioral aspect of the crowding-out hypothesis, we conducted an online survey experiment ( n = 562) to test if government funding of a hypothetical nonprofit would influence donations. Our results show that a nonprofit with government funding, compared to an identical hypothetical organization without government funding, received 25% less in average donations (US$35 vs. US$47) and was about half as likely (21% vs. 38%) to receive all the money in a forced-choice scenario. However, the crowding-out effect of government funding appears much weaker for those who are arts patrons or who have previously contributed to the arts. Interestingly, this crowding-out effect seems insensitive to the amount of government funding and to labeling the government funding as coming from a prestigious source (e.g., National Endowment for the Arts [NEA]).</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2106789899",
+  "title": "Impact of Government Funding on Donations to Arts Organizations",
+  "publication_year": 2013,
+  "type": "article",
+  "source": "Nonprofit and Voluntary Sector Quarterly",
+  "landing_page_url": "https://doi.org/10.1177/0899764013487800",
+  "authorships": [
+   "Mirae Kim",
+   "Gregg G. Van Ryzin"
+  ],
+  "biblio": {
+   "volume": "43",
+   "issue": "5",
+   "first_page": "910",
+   "last_page": "925"
+  },
+  "cited_by_count": 48,
+  "abstract": "Many nonprofits rely on private donations and government grants, but it is still unclear how these sources of funding may interact or even influence each other. To examine the behavioral aspect of the crowding-out hypothesis, we conducted an online survey experiment ( n = 562) to test if government funding of a hypothetical nonprofit would influence donations. Our results show that a nonprofit with government funding, compared to an identical hypothetical organization without government funding, received 25% less in average donations (US$35 vs. US$47) and was about half as likely (21% vs. 38%) to receive all the money in a forced-choice scenario. However, the crowding-out effect of government funding appears much weaker for those who are arts patrons or who have previously contributed to the arts. Interestingly, this crowding-out effect seems insensitive to the amount of government funding and to labeling the government funding as coming from a prestigious source (e.g., National Endowment for the Arts [NEA])."
+ }
+}

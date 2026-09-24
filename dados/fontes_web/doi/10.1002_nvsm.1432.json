@@ -1,0 +1,70 @@
+{
+ "doi": "10.1002/nvsm.1432",
+ "coletado_utc": "2026-09-24T00:26:29Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Understanding the decision‐making processes for arts sponsorship"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Kate",
+    "family": "Daellenbach",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "International Journal of Nonprofit and Voluntary Sector Marketing"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "17",
+  "issue": "4",
+  "page": "363-374",
+  "article_number": null,
+  "issued": [
+   [
+    2012,
+    9,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2012,
+    11
+   ]
+  ],
+  "published_online": [
+   [
+    2012,
+    9,
+    12
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1002/nvsm.1432",
+  "abstract": "<jats:p><jats:list list-type=\"bullet\"><jats:list-item><jats:p>Corporate support is a significant revenue stream for non‐profit organisations, yet little is known of the actual decision paths companies take when making these decisions and what characterises these paths. This study seeks to develop a greater understanding of decision processes for companies considering sponsorship of the arts. A multiple‐case study approach was taken, with participants from arts organisations and paired sponsoring companies, resulting in the finding of three decision paths: one characterised as high‐level and intuitive, one as driven at a lower‐level, and a third initially instigated by a third party. Analysis of these paths highlights the importance of existing relationships as well as a ‘fit’ between both parties. In addition, the company's orientation towards more commercial or philanthropic goals is found to be a key element determining the path taken, and the role of individual informed intuition is highlighted as crucial in moving decisions forward. This study extends knowledge in sponsorship and corporate philanthropy, into a decision making and arts sponsorship context. The findings also offer a useful perspective for non‐profit arts managers as they pitch their event to the business sector.</jats:p></jats:list-item></jats:list></jats:p><jats:p>Copyright © 2012 John Wiley &amp; Sons, Ltd.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1579178924",
+  "title": "Understanding the decision‐making processes for arts sponsorship",
+  "publication_year": 2012,
+  "type": "article",
+  "source": "International Journal of Nonprofit and Voluntary Sector Marketing",
+  "landing_page_url": "https://doi.org/10.1002/nvsm.1432",
+  "authorships": [
+   "Kate Daellenbach"
+  ],
+  "biblio": {
+   "volume": "17",
+   "issue": "4",
+   "first_page": "363",
+   "last_page": "374"
+  },
+  "cited_by_count": 18,
+  "abstract": "Corporate support is a significant revenue stream for non‐profit organisations, yet little is known of the actual decision paths companies take when making these decisions and what characterises these paths. This study seeks to develop a greater understanding of decision processes for companies considering sponsorship of the arts. A multiple‐case study approach was taken, with participants from arts organisations and paired sponsoring companies, resulting in the finding of three decision paths: one characterised as high‐level and intuitive, one as driven at a lower‐level, and a third initially instigated by a third party. Analysis of these paths highlights the importance of existing relationships as well as a ‘fit’ between both parties. In addition, the company's orientation towards more commercial or philanthropic goals is found to be a key element determining the path taken, and the role of individual informed intuition is highlighted as crucial in moving decisions forward. This study extends knowledge in sponsorship and corporate philanthropy, into a decision making and arts sponsorship context. The findings also offer a useful perspective for non‐profit arts managers as they pitch their event to the business sector. Copyright © 2012 John Wiley & Sons, Ltd."
+ }
+}

@@ -1,0 +1,107 @@
+doi,crossref_status,openalex_status,titulo,ano,periodico,volume,numero,paginas,autores,tem_resumo
+10.1002/jae.2508,200,200,Wild Bootstrap Inference for Wildly Different Cluster Sizes,2016,Journal of Applied Econometrics,32,2,233-254,MacKinnon; Webb,True
+10.1002/jae.2969,200,200,Fast and reliable jackknife and bootstrap methods for cluster‐robust inference,2023,Journal of Applied Econometrics,38,5,671-694,MacKinnon; Nielsen; Webb,True
+10.1002/nml.21102,200,200,Crowding-Out and Fundraising Efforts,2014,Nonprofit Management and Leadership,24,4,445-464,Hughes; Luksetich; Rooney,True
+10.1002/nvsm.1432,200,200,Understanding the decision‐making processes for arts sponsorship,2012,International Journal of Nonprofit and Voluntary Sector Marketing,17,4,363-374,Daellenbach,True
+10.1007/s10824-016-9281-x,200,200,Evaluating three decades of the European Capital of Culture programme: a difference-in-differences approach,2016,Journal of Cultural Economics,42,1,57-73,Gomes; Librero-Cano,False
+10.1016/S1573-4471(07)04061-2,200,200,Chapter 61 Using Randomization in Development Economics Research: A Toolkit,2007,Handbook of Development Economics,,,3895-3962,Duflo; Glennerster; Kremer,False
+10.1016/j.cct.2006.05.007,200,200,Design and analysis of stepped wedge cluster randomized trials,2007,Contemporary Clinical Trials,28,2,182-191,Hussey; Hughes,False
+10.1016/j.ecolecon.2025.108884,200,200,Do payments for environmental services impact forest cover? An evaluation of the reflorestar program,2026,Ecological Economics,242,,108884,P. Bucher; N. L. Seixas,False
+10.1016/j.econlet.2015.10.035,200,200,Difference-in-differences techniques for spatial data: Local autocorrelation and spatial interaction,2015,Economics Letters,137,,123-126,Delgado; Florax,False
+10.1016/j.jdeveco.2012.01.002,200,200,Beyond baseline and follow-up: The case for more T in experiments,2012,Journal of Development Economics,99,2,210-221,McKenzie,False
+10.1016/j.jdeveco.2020.102458,200,200,Panel data and experimental design,2020,Journal of Development Economics,144,,102458,Burlig; Preonas; Woerman,False
+10.1016/j.jeconom.2004.04.011,200,200,Does matching overcome LaLonde's critique of nonexperimental estimators?,2005,Journal of Econometrics,125,1-2,305-353,A. Smith; E. Todd,False
+10.1016/j.jeconom.2007.05.001,200,200,Regression discontinuity designs: A guide to practice,2008,Journal of Econometrics,142,2,615-635,Imbens; Lemieux,False
+10.1016/j.jeconom.2007.05.005,200,200,Manipulation of the running variable in the regression discontinuity design: A density test,2008,Journal of Econometrics,142,2,698-714,McCrary,False
+10.1016/j.jeconom.2020.04.024,200,200,Randomization inference for difference-in-differences with few treated clusters,2020,Journal of Econometrics,218,2,435-450,MacKinnon; Webb,False
+10.1016/j.jeconom.2020.06.003,200,200,Doubly robust difference-in-differences estimators,2020,Journal of Econometrics,219,1,101-122,Sant’Anna; Zhao,False
+10.1016/j.jeconom.2020.09.006,200,200,Estimating dynamic treatment effects in event studies with heterogeneous treatment effects,2021,Journal of Econometrics,225,2,175-199,Sun; Abraham,False
+10.1016/j.jeconom.2020.10.012,200,200,Design-based analysis in Difference-In-Differences settings with staggered adoption,2022,Journal of Econometrics,226,1,62-79,Athey; Imbens,True
+10.1016/j.jeconom.2020.12.001,200,200,Difference-in-Differences with multiple time periods,2021,Journal of Econometrics,225,2,200-230,Callaway; Sant’Anna,False
+10.1016/j.jeconom.2021.03.014,200,200,Difference-in-differences with variation in treatment timing,2021,Journal of Econometrics,225,2,254-277,Goodman-Bacon,False
+10.1016/j.jeconom.2022.04.001,200,200,Cluster-robust inference: A guide to empirical practice,2023,Journal of Econometrics,232,2,272-299,MacKinnon; Nielsen; Webb,True
+10.1016/j.jeconom.2023.03.008,200,200,What’s trending in difference-in-differences? A synthesis of the recent econometrics literature,2023,Journal of Econometrics,235,2,2218-2244,Roth; Sant’Anna; Bilinski; Poe,False
+10.1016/j.jfineco.2022.01.004,200,200,How much should we trust staggered difference-in-differences estimates?,2022,Journal of Financial Economics,144,2,370-395,Baker; Larcker; Wang,True
+10.1016/j.jpubeco.2024.105123,200,200,Teacher-led innovations to improve education outcomes: Experimental evidence from Brazil,2024,Journal of Public Economics,234,,105123,Piza; Zwager; Ruzzante; Dantas; Loureiro,False
+10.1016/j.regsciurbeco.2019.06.002,200,200,Do tax incentives affect business location and economic development? Evidence from state film incentives,2019,Regional Science and Urban Economics,77,,315-339,Button,False
+10.1017/9781009441896,200,200,A Practical Introduction to Regression Discontinuity Designs,2024,Cambridge University Press eBooks,,,,Cattaneo; Idrobo; Titiunik,True
+10.1017/9781108684606,200,200,A Practical Introduction to Regression Discontinuity Designs,2019,Cambridge University Press eBooks,,,,Cattaneo; Idrobo; Titiunik,True
+10.1023/A:1007653328733,200,200,Why Do Companies Sponsor Arts Events? Some Evidence and a Proposed Classification,2000,Journal of Cultural Economics,24,3,205-224,O'Hagan; Harvey,False
+10.1023/B:JCEC.0000009823.76834.64,200,200,The Impact of the National Endowment for the Arts in the United States: Institutional and Sectoral Effects on Private Funding,2004,Journal of Cultural Economics,28,1,21-36,Borgonovi; O'Hare,False
+10.1037/1082-989X.2.2.173,200,200,Statistical analysis and optimal design for cluster randomized trials.,1997,Psychological Methods,2,2,173-185,Raudenbush,False
+10.1080/01621459.1996.10476902,200,200,Identification of Causal Effects Using Instrumental Variables,1996,Journal of the American Statistical Association,91,434,444-455,Angrist; Imbens; Rubin,True
+10.1080/01621459.2019.1635480,200,200,Simple Local Polynomial Density Estimators,2019,Journal of the American Statistical Association,115,531,1449-1455,Cattaneo; Jansson; Ma,True
+10.1080/01621459.2021.1929245,200,200,The Augmented Synthetic Control Method,2021,Journal of the American Statistical Association,116,536,1789-1803,Ben-Michael; Feller; Rothstein,True
+10.1080/07350015.2019.1668795,200,200,A Framework for Separating Individual-Level Treatment Effects From Spillover Effects,2019,Journal of Business &amp; Economic Statistics,39,2,422-436,Huber; Steinmayr,True
+10.1080/10286632.2025.2454580,200,200,Corporate sponsorship as cultural policy: tax incentives in Brazilian contemporary art,2025,International Journal of Cultural Policy,32,3,359-376,de Andrade Silva,True
+10.1080/19439342.2016.1244555,200,200,Power calculation for causal inference in social science: sample size and minimum detectable effect determination,2016,Journal of Development Effectiveness,8,4,508-527,Djimeu; Houndolo,True
+10.1093/biomet/70.1.41,200,200,The central role of the propensity score in observational studies for causal effects,1983,Biometrika,70,1,41-55,ROSENBAUM; RUBIN,True
+10.1093/ectj/utac017,200,200,Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey,2022,The Econometrics Journal,26,3,C1-C30,de Chaisemartin; D’Haultfœuille,True
+10.1093/restud/rdad018,200,200,A More Credible Approach to Parallel Trends,2023,Review of Economic Studies,90,5,2555-2591,Rambachan; Roth,True
+10.1093/restud/rdae007,200,200,Revisiting Event-Study Designs: Robust and Efficient Estimation,2024,Review of Economic Studies,91,6,3253-3285,Borusyak; Jaravel; Spiess,True
+10.1108/AFR-10-2018-0087,200,200,Can credit help small family farming? Evidence from Brazil,2019,Agricultural Finance Review,80,2,212-230,Maia; Eusébio; da Silveira,True
+10.1111/ajps.12116,200,200,Comparative Politics and the Synthetic Control Method,2014,American Journal of Political Science,59,2,495-510,Abadie; Diamond; Hainmueller,True
+10.1111/coep.12443,200,200,DO MOVIE PRODUCTION INCENTIVES GENERATE ECONOMIC DEVELOPMENT?,2019,Contemporary Economic Policy,38,2,327-342,Bradbury,True
+10.1111/ectj.12107,200,200,The wild bootstrap for few (treated) clusters,2018,The Econometrics Journal,21,2,114-135,MacKinnon; Webb,True
+10.1111/j.0275-1100.2004.02402006.x,200,200,In Search of True Public Arts Support,2004,Public Budgeting &amp; Finance,24,2,88-100,Brooks,True
+10.1111/j.1467-6419.2007.00527.x,200,200,SOME PRACTICAL GUIDANCE FOR THE IMPLEMENTATION OF PROPENSITY SCORE MATCHING,2008,Journal of Economic Surveys,22,1,31-72,Caliendo; Kopeinig,True
+10.1111/j.1467-8292.2007.00329.x,200,200,THE IMPACT OF GOVERNMENT FUNDING ON PRIVATE CONTRIBUTIONS TO NONPROFIT PERFORMING ARTS ORGANIZATIONS,2007,Annals of Public and Cooperative Economics,78,1,137-160,Smith,True
+10.1111/j.1468-0262.2004.00481.x,200,200,Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities,2004,Econometrica,72,1,159-217,Miguel; Kremer,True
+10.1111/j.1468-0262.2006.00655.x,200,200,Large Sample Properties of Matching Estimators for Average Treatment Effects,2006,Econometrica,74,1,235-267,Abadie; Imbens,True
+10.1111/joes.12363,200,200,REPORTING GUIDELINES FOR META‐ANALYSIS IN ECONOMICS,2020,Journal of Economic Surveys,34,3,469-475,Havránek; Stanley; Doucouliagos; Bom; Geyer‐Klingeberg; Iwasaki; Reed; Rost; van Aert,True
+10.1111/joes.12692,200,200,Identification of Spatial Spillovers: Do's and Don'ts,2025,Journal of Economic Surveys,39,5,2152-2173,Debarsy; Le Gallo,True
+10.1111/jors.12485,200,200,The economic effects of big events: Evidence from the great jubilee 2000 in Rome,2020,Journal of Regional Science,60,4,801-822,Bronzini; Mocetti; Mongardini,True
+10.1111/pirs.12728,200,200,Creating and maintaining film clusters: Synthetic control method analysis of the enactment and repeal of US state film incentives,2023,Papers in Regional Science,102,2,363-393,Rickman; Wang,True
+10.1162/003355304772839588,200,200,How Much Should We Trust Differences-In-Differences Estimates?,2004,The Quarterly Journal of Economics,119,1,249-275,Bertrand; Duflo; Mullainathan,True
+10.1162/003465304323023651,200,200,Nonparametric Estimation of Average Treatment Effects Under Exogeneity: A Review,2004,Review of Economics and Statistics,86,1,4-29,Imbens,True
+10.1162/REST_a_00049,200,200,Inference with “Difference in Differences” with a Small Number of Policy Changes,2011,Review of Economics and Statistics,93,1,113-125,Conley; Taber,True
+10.1162/rest.90.3.414,200,200,Bootstrap-Based Improvements for Inference with Clustered Errors,2008,Review of Economics and Statistics,90,3,414-427,Cameron; Gelbach; Miller,True
+10.1162/rest_a_00716,200,200,Optimal Design of Experiments in the Presence of Interference,2018,The Review of Economics and Statistics,100,5,844-860,Baird; Bohren; McIntosh; Özler,True
+10.1162/rest_a_00759,200,200,Inference in Differences-in-Differences with Few Treated Groups and Heteroskedasticity,2019,The Review of Economics and Statistics,101,3,452-467,Ferman; Pinto,True
+10.1177/0193841X9501900504,200,200,Minimum Detectable Effects,1995,Evaluation Review,19,5,547-556,Bloom,True
+10.1177/0275074016651958,200,200,"Lights, Camera, but No Action? Tax and Economic Development Lessons From State Motion Picture Incentive Programs",2016,The American Review of Public Administration,48,1,33-51,Thom,True
+10.1177/0899764013487800,200,200,Impact of Government Funding on Donations to Arts Organizations,2013,Nonprofit and Voluntary Sector Quarterly,43,5,910-925,Kim; Van Ryzin,True
+10.1177/1536867X19830877,200,200,Fast and wild: Bootstrap inference in Stata using boottest,2019,The Stata Journal: Promoting communications on statistics and Stata,19,1,4-60,Roodman; Nielsen; MacKinnon; Webb,True
+10.1177/1745691614551642,200,200,Beyond Power Calculations,2014,Perspectives on Psychological Science,9,6,641-651,Gelman; Carlin,True
+10.1198/jasa.2009.ap08746,200,200,Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program,2010,Journal of the American Statistical Association,105,490,493-505,Abadie; Diamond; Hainmueller,True
+10.1257/000282803321455188,200,200,The Economic Costs of Conflict: A Case Study of the Basque Country,2003,American Economic Review,93,1,113-132,Abadie; Gardeazabal,True
+10.1257/aer.20181169,200,200,Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects,2020,American Economic Review,110,9,2964-2996,de Chaisemartin; D’Haultfœuille,True
+10.1257/aer.20190159,200,200,Synthetic Difference-in-Differences,2021,American Economic Review,111,12,4088-4118,Arkhangelsky; Athey; Hirshberg; Imbens; Wager,True
+10.1257/jel.20191450,200,200,"Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",2021,Journal of Economic Literature,59,2,391-425,Abadie,True
+10.1257/jel.47.1.5,200,200,Recent Developments in the Econometrics of Program Evaluation,2009,Journal of Economic Literature,47,1,5-86,Imbens; Wooldridge,True
+10.1257/jel.48.2.281,200,200,Regression Discontinuity Designs in Economics,2010,Journal of Economic Literature,48,2,281-355,Lee; Lemieux,True
+10.1257/jep.31.2.3,200,200,The State of Applied Econometrics: Causality and Policy Evaluation,2017,Journal of Economic Perspectives,31,2,3-32,Athey; Imbens,True
+10.1287/mnsc.2023.4928,200,200,Optimal Experimental Design for Staggered Rollouts,2024,Management Science,70,8,5317-5336,Xiong; Athey; Bayati; Imbens,True
+10.1332/251569119X15675896589688,200,200,The political economy of Brazilian cultural policy: a case study of the Rouanet Law,2019,Journal of Public Finance and Public Choice,34,2,149-171,Dekker; Carolina Rodrigues,True
+10.1348/000711010X502733,200,200,How to do a meta‐analysis,2010,British Journal of Mathematical and Statistical Psychology,63,3,665-694,Field; Gillett,True
+10.1371/journal.pone.0132590,200,200,Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation,2015,PLOS ONE,10,7,e0132590,Sills; Herrera; Kirkpatrick; Brandão; Dickson; Hall; Pattanayak; Shoch; Vedoveto; Young; Pfaff,True
+10.15210/norus.v1i1.2761,404,200,A Lei Rouanet e a construção do “mercado de patrocínios culturais”,2013,LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas),1,1,,Marcela Purini Belém; Júlio César Donadone,True
+10.1590/0034-7612162254,200,200,O financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista,2017,Revista de Administração Pública,51,4,509-527,Costa; Medeiros; Bucco,True
+10.1590/S0011-52582013000200004,200,200,Da compra de produtos e serviços culturais ao direito de produzir cultura: análise de um paradigma emergente,2013,Dados,56,2,351-382,Lima; Ortellado,True
+10.1590/S0034-75901997000400005,200,200,Patrocínio empresarial e incentivos fiscais a cultura no Brasil: análise de uma experiência recente,1997,Revista de Administração de Empresas,37,4,38-44,Durand; Gouveia; Berman,True
+10.1590/S0102-88392001000200011,200,200,DIMENSÕES DA CULTURA E POLÍTICAS PÚBLICAS,2001,São Paulo em Perspectiva,15,2,73-83,BOTELHO,True
+10.1590/S0103-20702003000200007,200,200,A política cultural: regulação estatal e mecenato privado,2003,Tempo Social,15,2,,Arruda,True
+10.1590/S0103-49792016000300007,200,200,A DEFINIÇÃO PRIVADA DO BEM PÚBLICO: a atuação de institutos empresariais na esfera da cultura,2016,Caderno CRH,29,78,513-534,Michetti,True
+10.1596/978-1-4648-0779-4,200,200,"Impact Evaluation in Practice, Second Edition",2016,"Washington, DC: Inter-American Development Bank and World Bank eBooks",,,,Gertler; Martinez; Premand; Rawlings; Vermeersch,True
+10.1596/978-1-4648-0889-0,404,404,,,,,,,,False
+10.17310/ntj.2009.1.03,200,200,Does the NEA Crowd Out Private Charitable Contributions to the Arts?,2009,National Tax Journal,62,1,57-75,Dokko,True
+10.18764/2178-2865.v18n1p111-124,200,200,GASTOS TRIBUTÁRIOS E RECURSOS ORÇAMENTÁRIOS NAS POLÍTICAS CULTURAIS,2014,Revista Políticas Públicas,18,1,111,Santos; Paulo,True
+10.2139/ssrn.3313990,200,200,The Entangled Political Economy of Brazilian Cultural Policy: A Case-Study of the Rouanet Law,2019,SSRN Electronic Journal,,,,Dekker; Rodrigues,True
+10.21783/rei.v5i2.314,200,200,A QUALIDADE DO GASTO TRIBUTÁRIO E A UTILIZAÇÃO DAS POLÍTICAS DE RENÚNCIA FISCAL NA CULTURA,2019,REI - REVISTA ESTUDOS INSTITUCIONAIS,5,2,486-507,Pimentel,True
+10.22617/TCS179188-2,200,200,Impact Evaluation of Development Interventions: A Practical Guide,2017,,,,,,True
+10.2307/2951620,200,200,Identification and Estimation of Local Average Treatment Effects,1994,Econometrica,62,2,467,Imbens; Angrist,True
+10.2307/2971733,200,200,Matching As An Econometric Evaluation Estimator: Evidence from Evaluating a Job Training Programme,1997,The Review of Economic Studies,64,4,605-654,Heckman; Ichimura; Todd,True
+10.24302/drd.v14.5320,200,200,Distribuição geográfica de projetos culturais com captação de recursos via Lei Rouanet,2024,DRd - Desenvolvimento Regional em debate,14,,556-578,Teixeira; Xavier; Faria,True
+10.3102/10769986211070625,200,200,Statistical Power for Estimating Treatment Effects Using Difference-in-Differences and Comparative Interrupted Time Series Estimators With Variation in Treatment Timing,2022,Journal of Educational and Behavioral Statistics,47,4,367-405,Schochet,True
+10.3138/cjpe.31122,200,200,Theory of Change Analysis: Building Robust Theories of Change,2017,Canadian Journal of Program Evaluation,32,2,155-173,Mayne,True
+10.3368/jhr.50.2.317,200,200,A Practitioner’s Guide to Cluster-Robust Inference,2015,Journal of Human Resources,50,2,317-372,Colin Cameron; Miller,True
+10.3368/jhr.57.3.0917-9064R2,200,200,Long-Run Impacts of Intergovernmental Transfers,2020,Journal of Human Resources,57,3,868-917,Filho; Litschig,True
+10.3386/w32117,200,200,Difference-in-differences with a Continuous Treatment,2024,National Bureau of Economic Research,,,,Callaway; Goodman-Bacon; Sant'Anna,True
+10.38116/td2715,200,200,TD 2715 - Mercado de trabalho da cultura: considerações sobre a meta 11 do Plano Nacional de Cultura (PNC),2022,Texto para Discussão,,,1-53,Silva; Ziviani,True
+10.3982/ECTA11757,200,200,Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs,2014,Econometrica,82,6,2295-2326,Calonico; Cattaneo; Titiunik,True
+10.48550/arXiv.2105.03737,404,200,Difference-in-Differences Estimation with Spatial Spillovers,2021,RePEc: Research Papers in Economics,,,,Kyle Butts,True
+10.5102/rbpp.v7i1.4351,200,200,FINANCIAMENTO CULTURAL NO BRASIL CONTEMPORÂNEO,2017,Revista Brasileira de Políticas Públicas,7,1,,Barbosa da Silva,True
+10.52780/res.v30i3.20239,200,200,"Folha de S.Paulo, lei rouanet e o mercado de patrocínios culturais incentivados",2025,Estudos de Sociologia,,,1123-1150,Lopes; Barreiros,True
+10.5433/2176-6665.2020v25n2p412,200,200,"Concentração cultural: Por que podemos dizer que, no Brasil, o investimento na cultura está mais concentrado que o PIB?",2020,Mediações - Revista de Ciências Sociais,25,2,412,Guimarães,True
+10.9771/pcr.v11i1.25343,200,200,"Política Cultural por meio do incentivo fiscal, 26 anos de caminhada: retrato da captação global e setorial no campo das humanidades",2019,Políticas Culturais em Revista,11,1,255-277,Ficheira; Buarque de Hollanda,True
+10.9771/pcr.v9i1.15208,200,200,Evolução do Mecenato no Brasil: os valores movimentados através da Lei Rouanet despidos do véu da inflação (1996-2014),2016,Políticas Culturais em Revista,9,1,315,Earp; Estrella,True

@@ -1,0 +1,83 @@
+{
+ "doi": "10.1093/restud/rdae007",
+ "coletado_utc": "2026-09-24T00:26:58Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Revisiting Event-Study Designs: Robust and Efficient Estimation"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Kirill",
+    "family": "Borusyak",
+    "name": null
+   },
+   {
+    "given": "Xavier",
+    "family": "Jaravel",
+    "name": null
+   },
+   {
+    "given": "Jann",
+    "family": "Spiess",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Review of Economic Studies"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "91",
+  "issue": "6",
+  "page": "3253-3285",
+  "article_number": null,
+  "issued": [
+   [
+    2024,
+    2,
+    6
+   ]
+  ],
+  "published_print": [
+   [
+    2024,
+    11,
+    8
+   ]
+  ],
+  "published_online": [
+   [
+    2024,
+    2,
+    6
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/restud/rdae007",
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We develop a framework for difference-in-differences designs with staggered treatment adoption and heterogeneous causal effects. We show that conventional regression-based estimators fail to provide unbiased estimates of relevant estimands absent strong restrictions on treatment-effect homogeneity. We then derive the efficient estimator addressing this challenge, which takes an intuitive “imputation” form when treatment-effect heterogeneity is unrestricted. We characterize the asymptotic behaviour of the estimator, propose tools for inference, and develop tests for identifying assumptions. Our method applies with time-varying controls, in triple-difference designs, and with certain non-binary treatments. We show the practical relevance of our results in a simulation study and an application. Studying the consumption response to tax rebates in the U.S., we find that the notional marginal propensity to consume is between 8 and 11% in the first quarter—about half as large as benchmark estimates used to calibrate macroeconomic models—and predominantly occurs in the first month after the rebate.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3196836501",
+  "title": "Revisiting Event-Study Designs: Robust and Efficient Estimation",
+  "publication_year": 2024,
+  "type": "article",
+  "source": "The Review of Economic Studies",
+  "landing_page_url": "https://doi.org/10.1093/restud/rdae007",
+  "authorships": [
+   "Kirill Borusyak",
+   "Xavier Jaravel",
+   "Jann Spiess"
+  ],
+  "biblio": {
+   "volume": "91",
+   "issue": "6",
+   "first_page": "3253",
+   "last_page": "3285"
+  },
+  "cited_by_count": 2092,
+  "abstract": "Abstract We develop a framework for difference-in-differences designs with staggered treatment adoption and heterogeneous causal effects. We show that conventional regression-based estimators fail to provide unbiased estimates of relevant estimands absent strong restrictions on treatment-effect homogeneity. We then derive the efficient estimator addressing this challenge, which takes an intuitive “imputation” form when treatment-effect heterogeneity is unrestricted. We characterize the asymptotic behaviour of the estimator, propose tools for inference, and develop tests for identifying assumptions. Our method applies with time-varying controls, in triple-difference designs, and with certain non-binary treatments. We show the practical relevance of our results in a simulation study and an application. Studying the consumption response to tax rebates in the U.S., we find that the notional marginal propensity to consume is between 8 and 11% in the first quarter—about half as large as benchmark estimates used to calibrate macroeconomic models—and predominantly occurs in the first month after the rebate."
+ }
+}

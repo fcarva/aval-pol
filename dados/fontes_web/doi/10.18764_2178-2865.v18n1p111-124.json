@@ -1,0 +1,71 @@
+{
+ "doi": "10.18764/2178-2865.v18n1p111-124",
+ "coletado_utc": "2026-09-24T00:27:37Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "GASTOS TRIBUTÁRIOS E RECURSOS ORÇAMENTÁRIOS NAS POLÍTICAS CULTURAIS"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Eduardo Gomor dos",
+    "family": "Santos",
+    "name": null
+   },
+   {
+    "given": "Carla Beatriz de",
+    "family": "Paulo",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista Políticas Públicas"
+  ],
+  "publisher": "Universidade Federal do Maranhao",
+  "type": "journal-article",
+  "volume": "18",
+  "issue": "1",
+  "page": "111",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    8,
+    5
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2014,
+    8,
+    5
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.18764/2178-2865.v18n1p111-124",
+  "abstract": "<jats:p>Este trabalho analisa a disponibilização de recursos públicos para as políticas culturais no Brasil. O estudo parte de uma relação intrínseca entre cultura e política, entre formas de ver, viver e pensar o mundo e suas consequências políticas, identificando uma relação umbilical entre cultura e hegemonia em sociedades de classes. Analisa as leis de incentivo via renúncia fiscal, notadamente o mecenato, que apresentam valores anuais próximos ao do orçamento do próprio Ministério da Cultura; e o Programa Cultura Viva, que significou uma importante mudança na lógica da intervenção estatal na temática cultural. Conclui que as leis de incentivo perdem em controle democrático e reproduzem desigualdades regionais, com alta concentração de recursos em São Paulo e no Rio de Janeiro, servindo como instrumento de marketing para grandes corporações. O Programa Cultura Viva, por outro lado, apresenta distribuição mais equitativa de recursos, mas ainda tem orçamento irrisório comparado aos valores captados pelas leis de incentivo.Palavras-chave: Políticas culturais; hegemonia; fundo público; leis de incentivo; Programa Cultura VivaTAX EXPENDITURES AND BUDGETARY RESOURCES ON CULTURAL POLICIESAbstract: This paper analyses the availability of public resources for Brazilian cultural policies. The study comes from an intrinsic relation between culture and politics, between ways of seeing, living and thinking the world and its political consequences, identifying the umbilical link between culture and hegemony in classes societies. Analyses laws based on tax waiver, specifically patronage, which presented annual values similar to the Ministry of Culture budget itself; and Living Culture Program, which represented a significant change in State intervention in cultural themes. It concludes that incentive laws mean losses in democratic control and also reproduce regional inequalities, with higher resources concentration in São Paulo and Rio de Janeiro, acting as marketing tool for large corporations. Living Culture Program, on the other hand, presents a more equality public resources distribution, but is still contemplated with a derisive budget compared to incentive laws.Keywords: Cultural Policies, hegemony, public resources, incentive laws, Living Culture Program.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1778100932",
+  "title": "GASTOS TRIBUTÁRIOS E RECURSOS ORÇAMENTÁRIOS NAS POLÍTICAS CULTURAIS",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "Revista de Políticas Públicas",
+  "landing_page_url": "https://doi.org/10.18764/2178-2865.v18n1p111-124",
+  "authorships": [
+   "Eduardo Gomor dos Santos",
+   "Carla Beatriz de Paulo"
+  ],
+  "biblio": {
+   "volume": "18",
+   "issue": "1",
+   "first_page": "111",
+   "last_page": "111"
+  },
+  "cited_by_count": 1,
+  "abstract": "Este trabalho analisa a disponibilização de recursos públicos para as políticas culturais no Brasil. O estudo parte de uma relação intrínseca entre cultura e política, entre formas de ver, viver e pensar o mundo e suas consequências políticas, identificando uma relação umbilical entre cultura e hegemonia em sociedades de classes. Analisa as leis de incentivo via renúncia fiscal, notadamente o mecenato, que apresentam valores anuais próximos ao do orçamento do próprio Ministério da Cultura; e o Programa Cultura Viva, que significou uma importante mudança na lógica da intervenção estatal na temática cultural. Conclui que as leis de incentivo perdem em controle democrático e reproduzem desigualdades regionais, com alta concentração de recursos em São Paulo e no Rio de Janeiro, servindo como instrumento de marketing para grandes corporações. O Programa Cultura Viva, por outro lado, apresenta distribuição mais equitativa de recursos, mas ainda tem orçamento irrisório comparado aos valores captados pelas leis de incentivo.Palavras-chave: Políticas culturais; hegemonia; fundo público; leis de incentivo; Programa Cultura VivaTAX EXPENDITURES AND BUDGETARY RESOURCES ON CULTURAL POLICIESAbstract: This paper analyses the availability of public resources for Brazilian cultural policies. The study comes from an intrinsic relation between culture and politics, between ways of seeing, living and thinking the world and its political consequences, identifying the umbilical link between culture and hegemony in classes societies. Analyses laws based on tax waiver, specifically patronage, which presented annual values similar to the Ministry of Culture budget itself; and Living Culture Program, which represented a significant change in State intervention in cultural themes. It concludes that incentive laws mean losses in democratic control and also reproduce regional inequalities, with higher resources concentration in São Paulo and Rio de Janeiro, acting as marketing tool for large corporations. Living Culture Program, on the other hand, presents a more equality public resources distribution, but is still contemplated with a derisive budget compared to incentive laws.Keywords: Cultural Policies, hegemony, public resources, incentive laws, Living Culture Program."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "doi": "10.2307/2971733",
+ "coletado_utc": "2026-09-24T00:27:41Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Matching As An Econometric Evaluation Estimator: Evidence from Evaluating a Job Training Programme"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "J. J.",
+    "family": "Heckman",
+    "name": null
+   },
+   {
+    "given": "H.",
+    "family": "Ichimura",
+    "name": null
+   },
+   {
+    "given": "P. E.",
+    "family": "Todd",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Review of Economic Studies"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "64",
+  "issue": "4",
+  "page": "605-654",
+  "article_number": null,
+  "issued": [
+   [
+    1997,
+    10,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    1997,
+    10,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.2307/2971733",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2066735350",
+  "title": "Matching As An Econometric Evaluation Estimator: Evidence from Evaluating a Job Training Programme",
+  "publication_year": 1997,
+  "type": "article",
+  "source": "The Review of Economic Studies",
+  "landing_page_url": "https://doi.org/10.2307/2971733",
+  "authorships": [
+   "James J. Heckman",
+   "Hidehiko Ichimura",
+   "Petra Todd"
+  ],
+  "biblio": {
+   "volume": "64",
+   "issue": "4",
+   "first_page": "605",
+   "last_page": "654"
+  },
+  "cited_by_count": 5599,
+  "abstract": "This paper considers whether it is possible to devise a nonexperimental procedure for evaluating a prototypical job training programme. Using rich nonexperimental data, we examine the performance of a two-stage evaluation methodology that (a) estimates the probability that a person participates in a programme and (b) uses the estimated probability in extensions of the classical method of matching. We decompose the conventional measure of programme evaluation bias into several components and find that bias due to selection on unobservables, commonly called selection bias in econometrics, is empirically less important than other components, although it is still a sizeable fraction of the estimated programme impact. Matching methods applied to comparison groups located in the same labour markets as participants and administered the same questionnaire eliminate much of the bias as conventionally measured, but the remaining bias is a considerable fraction of experimentally-determined programme impact estimates. We test and reject the identifying assumptions that justify the classical method of matching. We present a nonparametric conditional difference-in-differences extension of the method of matching that is consistent with the classical index-sufficient sample selection model and is not rejected by our tests of identifying assumptions. This estimator is effective in eliminating bias, especially when it is due to temporally-invariant omitted variables."
+ }
+}

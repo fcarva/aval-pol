@@ -1,0 +1,76 @@
+{
+ "doi": "10.1002/jae.2508",
+ "coletado_utc": "2026-09-24T00:26:26Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Wild Bootstrap Inference for Wildly Different Cluster Sizes"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "James G.",
+    "family": "MacKinnon",
+    "name": null
+   },
+   {
+    "given": "Matthew D.",
+    "family": "Webb",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Applied Econometrics"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "32",
+  "issue": "2",
+  "page": "233-254",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    2,
+    21
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    3
+   ]
+  ],
+  "published_online": [
+   [
+    2016,
+    2,
+    21
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1002/jae.2508",
+  "abstract": "<jats:title>Summary</jats:title>\n                  <jats:p>\n                    The cluster robust variance estimator (CRVE) relies on the number of clusters being sufficiently large. Monte Carlo evidence suggests that the ‘rule of 42’ is not true for unbalanced clusters. Rejection frequencies are higher for datasets with 50 clusters proportional to US state populations than with 50 balanced clusters. Using critical values based on the wild cluster bootstrap performs much better. However, this procedure fails when a small number of clusters is treated. We explain why CRVE\n                    <jats:italic>t</jats:italic>\n                     statistics and the wild bootstrap fail in this case, study the ‘effective number’ of clusters and simulate placebo laws with dummy variable regressors. Copyright © 2016 John Wiley &amp; Sons, Ltd.\n                  </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W94208768",
+  "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "Journal of Applied Econometrics",
+  "landing_page_url": "https://doi.org/10.1002/jae.2508",
+  "authorships": [
+   "James G. MacKinnon",
+   "Matthew D. Webb"
+  ],
+  "biblio": {
+   "volume": "32",
+   "issue": "2",
+   "first_page": "233",
+   "last_page": "254"
+  },
+  "cited_by_count": 432,
+  "abstract": "Summary The cluster robust variance estimator (CRVE) relies on the number of clusters being sufficiently large. Monte Carlo evidence suggests that the ‘rule of 42’ is not true for unbalanced clusters. Rejection frequencies are higher for datasets with 50 clusters proportional to US state populations than with 50 balanced clusters. Using critical values based on the wild cluster bootstrap performs much better. However, this procedure fails when a small number of clusters is treated. We explain why CRVE t statistics and the wild bootstrap fail in this case, study the ‘effective number’ of clusters and simulate placebo laws with dummy variable regressors. Copyright © 2016 John Wiley & Sons, Ltd."
+ }
+}

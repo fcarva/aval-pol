@@ -1,0 +1,76 @@
+{
+ "doi": "10.3368/jhr.57.3.0917-9064R2",
+ "coletado_utc": "2026-09-24T00:27:45Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Long-Run Impacts of Intergovernmental Transfers"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Irineu de Carvalho",
+    "family": "Filho",
+    "name": null
+   },
+   {
+    "given": "Stephan",
+    "family": "Litschig",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Human Resources"
+  ],
+  "publisher": "University of Wisconsin Press",
+  "type": "journal-article",
+  "volume": "57",
+  "issue": "3",
+  "page": "868-917",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    5,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2022,
+    5
+   ]
+  ],
+  "published_online": [
+   [
+    2020,
+    5,
+    12
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.3368/jhr.57.3.0917-9064r2",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2262229535",
+  "title": "Long-Run Impacts of Intergovernmental Transfers",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "The Journal of Human Resources",
+  "landing_page_url": "https://doi.org/10.3368/jhr.57.3.0917-9064r2",
+  "authorships": [
+   "Irineu de Carvalho Filho",
+   "Stephan Litschig"
+  ],
+  "biblio": {
+   "volume": "57",
+   "issue": "3",
+   "first_page": "868",
+   "last_page": "917"
+  },
+  "cited_by_count": 3,
+  "abstract": "This paper provides regression discontinuity evidence on long-run impacts of a temporary increase in federal transfers to local governments in Brazil.Revenues and expenditures in treatment communities increased by about 20 percent during a 4-year period in the early 1980s.Previously established schooling and literacy gains of school-age cohorts as well as reduced poverty in the community overall as of 1991 are generally attenuated but persist in 2000.Children and adolescents born after the funding boost show gains of about 0.06 to 0.10 standard deviation across the entire score distribution of two nationwide exams at the end of the 2000s."
+ }
+}

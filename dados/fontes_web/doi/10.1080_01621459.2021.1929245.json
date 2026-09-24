@@ -1,0 +1,83 @@
+{
+ "doi": "10.1080/01621459.2021.1929245",
+ "coletado_utc": "2026-09-24T00:26:52Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The Augmented Synthetic Control Method"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Eli",
+    "family": "Ben-Michael",
+    "name": null
+   },
+   {
+    "given": "Avi",
+    "family": "Feller",
+    "name": null
+   },
+   {
+    "given": "Jesse",
+    "family": "Rothstein",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of the American Statistical Association"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "116",
+  "issue": "536",
+  "page": "1789-1803",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    7,
+    29
+   ]
+  ],
+  "published_print": [
+   [
+    2021,
+    10,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2021,
+    7,
+    29
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/01621459.2021.1929245",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3123564515",
+  "title": "The Augmented Synthetic Control Method",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Journal of the American Statistical Association",
+  "landing_page_url": "https://doi.org/10.1080/01621459.2021.1929245",
+  "authorships": [
+   "Eli Ben‐Michael",
+   "Avi Feller",
+   "Jesse Rothstein"
+  ],
+  "biblio": {
+   "volume": "116",
+   "issue": "536",
+   "first_page": "1789",
+   "last_page": "1803"
+  },
+  "cited_by_count": 0,
+  "abstract": "The synthetic control method (SCM) is a popular approach for estimating the impact of a treatment on a single unit in panel data settings. The “synthetic control” is a weighted average of control units that balances the treated unit’s pretreatment outcomes and other covariates as closely as possible. A critical feature of the original proposal is to use SCM only when the fit on pretreatment outcomes is excellent. We propose Augmented SCM as an extension of SCM to settings where such pretreatment fit is infeasible. Analogous to bias correction for inexact matching, augmented SCM uses an outcome model to estimate the bias due to imperfect pretreatment fit and then de-biases the original SCM estimate. Our main proposal, which uses ridge regression as the outcome model, directly controls pretreatment fit while minimizing extrapolation from the convex hull. This estimator can also be expressed as a solution to a modified synthetic controls problem that allows negative weights on some donor units. We bound the estimation error of this approach under different data-generating processes, including a linear factor model, and show how regularization helps to avoid over-fitting to noise. We demonstrate gains from Augmented SCM with extensive simulation studies and apply this framework to estimate the impact of the 2012 Kansas tax cuts on economic growth. We implement the proposed method in the new augsynth R package."
+ }
+}

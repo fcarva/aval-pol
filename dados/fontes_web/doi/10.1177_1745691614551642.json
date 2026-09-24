@@ -1,0 +1,77 @@
+{
+ "doi": "10.1177/1745691614551642",
+ "coletado_utc": "2026-09-24T00:27:18Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Beyond Power Calculations"
+  ],
+  "subtitle": [
+   "Assessing Type S (Sign) and Type M (Magnitude) Errors"
+  ],
+  "author": [
+   {
+    "given": "Andrew",
+    "family": "Gelman",
+    "name": null
+   },
+   {
+    "given": "John",
+    "family": "Carlin",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Perspectives on Psychological Science"
+  ],
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "volume": "9",
+  "issue": "6",
+  "page": "641-651",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    11
+   ]
+  ],
+  "published_print": [
+   [
+    2014,
+    11
+   ]
+  ],
+  "published_online": [
+   [
+    2014,
+    11,
+    17
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1177/1745691614551642",
+  "abstract": "<jats:p>Statistical power analysis provides the conventional approach to assess error rates when designing a research study. However, power analysis is flawed in that a narrow emphasis on statistical significance is placed as the primary focus of study design. In noisy, small-sample settings, statistically significant results can often be misleading. To help researchers address this problem in the context of their own studies, we recommend design calculations in which (a) the probability of an estimate being in the wrong direction ( Type S [ sign] error) and (b) the factor by which the magnitude of an effect might be overestimated ( Type M [ magnitude] error or exaggeration ratio) are estimated. We illustrate with examples from recent published research and discuss the largest challenge in a design calculation: coming up with reasonable estimates of plausible effect sizes based on external information.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2119303750",
+  "title": "Beyond Power Calculations",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "Perspectives on Psychological Science",
+  "landing_page_url": "https://doi.org/10.1177/1745691614551642",
+  "authorships": [
+   "Andrew Gelman",
+   "John B. Carlin"
+  ],
+  "biblio": {
+   "volume": "9",
+   "issue": "6",
+   "first_page": "641",
+   "last_page": "651"
+  },
+  "cited_by_count": 1410,
+  "abstract": "Statistical power analysis provides the conventional approach to assess error rates when designing a research study. However, power analysis is flawed in that a narrow emphasis on statistical significance is placed as the primary focus of study design. In noisy, small-sample settings, statistically significant results can often be misleading. To help researchers address this problem in the context of their own studies, we recommend design calculations in which (a) the probability of an estimate being in the wrong direction (Type S [sign] error) and (b) the factor by which the magnitude of an effect might be overestimated (Type M [magnitude] error or exaggeration ratio) are estimated. We illustrate with examples from recent published research and discuss the largest challenge in a design calculation: coming up with reasonable estimates of plausible effect sizes based on external information."
+ }
+}

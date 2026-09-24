@@ -1,0 +1,238 @@
+{
+ "id": "schuster_2006",
+ "consulta": "Schuster Tax incentives in cultural policy Handbook of the Economics of Art and Culture 2006",
+ "coletado_utc": "2026-09-24T00:27:59Z",
+ "crossref": [
+  {
+   "doi": "10.1016/s1574-0676(06)01036-2",
+   "title": [
+    "Chapter 36 Tax Incentives in Cultural Policy"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Schuster"
+   ],
+   "container_title": [
+    "Handbook of the Economics of Art and Culture"
+   ],
+   "publisher": "Elsevier",
+   "issued": [
+    [
+     2006
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1253-1298",
+   "isbn": [
+    "9780444508706"
+   ],
+   "score": 68.19339
+  },
+  {
+   "doi": "10.1016/s1574-0676(06)01035-0",
+   "title": [
+    "Chapter 35 Cultural Policy: An American View"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Netzer"
+   ],
+   "container_title": [
+    "Handbook of the Economics of Art and Culture"
+   ],
+   "publisher": "Elsevier",
+   "issued": [
+    [
+     2006
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1223-1251",
+   "isbn": null,
+   "score": 42.64869
+  },
+  {
+   "doi": "10.4337/9780857931009.00014",
+   "title": [
+    "Tax incentives for cultural heritage conservation"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Revelli"
+   ],
+   "container_title": [
+    "Handbook on the Economics of Cultural Heritage"
+   ],
+   "publisher": "Edward Elgar Publishing",
+   "issued": [
+    [
+     2013,
+     7,
+     30
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9780857931009",
+    "9780857930996"
+   ],
+   "score": 41.083694
+  },
+  {
+   "doi": "10.1016/s1574-0676(06)01028-3",
+   "title": [
+    "Chapter 28 Cultural Heritage: Economic Analysis and Public Policy"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Rizzo",
+    "Throsby"
+   ],
+   "container_title": [
+    "Handbook of the Economics of Art and Culture"
+   ],
+   "publisher": "Elsevier",
+   "issued": [
+    [
+     2006
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "983-1016",
+   "isbn": [
+    "9780444508706"
+   ],
+   "score": 39.92889
+  },
+  {
+   "doi": "10.1016/s1574-0676(06)01034-9",
+   "title": [
+    "Chapter 34 The Making of Cultural Policy: A European Perspective"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "van der Ploeg"
+   ],
+   "container_title": [
+    "Handbook of the Economics of Art and Culture"
+   ],
+   "publisher": "Elsevier",
+   "issued": [
+    [
+     2006
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1183-1221",
+   "isbn": [
+    "9780444508706"
+   ],
+   "score": 39.47173
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W4294628862",
+   "doi": "https://doi.org/10.1017/s0140525x22002023",
+   "title": "The i-frame and the s-frame: How focusing on individual-level solutions has led behavioral public policy astray",
+   "publication_year": 2022,
+   "type": "article",
+   "source": "Behavioral and Brain Sciences",
+   "authorships": [
+    "Nick Chater",
+    "George F. Loewenstein"
+   ],
+   "biblio": {
+    "volume": "46",
+    "issue": null,
+    "first_page": "e147",
+    "last_page": "e147"
+   },
+   "abstract": "An influential line of thinking in behavioral science, to which the two authors have long subscribed, is that many of society's most pressing problems can be addressed cheaply and effectively at the level of the individual, without modifying the system in which the individual operates. We now believe this was a mistake, along with, we suspect, many colleagues in both the academic and policy communities. Results from such interventions have been disappointingly modest. But more importantly, they have guided many (though by no means all) behavioral scientists to frame policy problems in individual, not systemic, terms: To adopt what we call the \"i-frame,\" rather than the \"s-frame.\" The difference may be more consequential than i-frame advocates have realized, by deflecting attention and support away from s-frame policies. Indeed, highlighting the i-frame is a long-established objective of corporate opponents of concerted systemic action such as regulation and taxation. We illustrate our argument briefly for six policy problems, and in depth with the examples of climate change, obesity, retirement savings, and pollution from plastic waste. We argue that the most important way in which behavioral scientists can contribute to public policy is by employing their skills to develop and implement value-creating system-level change."
+  },
+  {
+   "id": "https://openalex.org/W2143389784",
+   "doi": "https://doi.org/10.1177/0899764010380927",
+   "title": "A Literature Review of Empirical Studies of Philanthropy",
+   "publication_year": 2010,
+   "type": "article",
+   "source": "Nonprofit and Voluntary Sector Quarterly",
+   "authorships": [
+    "René Bekkers",
+    "Pamala Wiepking"
+   ],
+   "biblio": {
+    "volume": "40",
+    "issue": "5",
+    "first_page": "924",
+    "last_page": "973"
+   },
+   "abstract": "The authors present an overview of the academic literature on charitable giving based on a literature review of more than 500 articles. They structure their review around the central question of why people donate money to charitable organizations. They identify eight mechanisms as the most important forces that drive charitable giving: (a) awareness of need; (b) solicitation; (c) costs and benefits; (d) altruism; (e) reputation; (f) psychological benefits; (g) values; (h) efficacy. These mechanisms can provide a basic theoretical framework for future research explaining charitable giving."
+  },
+  {
+   "id": "https://openalex.org/W2005946175",
+   "doi": "https://doi.org/10.2139/ssrn.901247",
+   "title": "What Shapes Attitudes Toward Paying Taxes? Evidence from Multicultural European Countries",
+   "publication_year": 2006,
+   "type": "preprint",
+   "source": "SSRN Electronic Journal",
+   "authorships": [
+    "Benno Torgler",
+    "Friedrich Georg SCHNEIDER"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W2289312534",
+   "doi": "https://doi.org/10.1098/rstb.2015.0192",
+   "title": "Innovation in the collective brain",
+   "publication_year": 2016,
+   "type": "article",
+   "source": "Philosophical Transactions of the Royal Society B Biological Sciences",
+   "authorships": [
+    "Michael Muthukrishna",
+    "Joseph Henrich"
+   ],
+   "biblio": {
+    "volume": "371",
+    "issue": "1690",
+    "first_page": "20150192",
+    "last_page": "20150192"
+   },
+   "abstract": "Innovation is often assumed to be the work of a talented few, whose products are passed on to the masses. Here, we argue that innovations are instead an emergent property of our species' cultural learning abilities, applied within our societies and social networks. Our societies and social networks act as collective brains. We outline how many human brains, which evolved primarily for the acquisition of culture, together beget a collective brain. Within these collective brains, the three main sources of innovation are serendipity, recombination and incremental improvement. We argue that rates of innovation are heavily influenced by (i) sociality, (ii) transmission fidelity, and (iii) cultural variance. We discuss some of the forces that affect these factors. These factors can also shape each other. For example, we provide preliminary evidence that transmission efficiency is affected by sociality--languages with more speakers are more efficient. We argue that collective brains can make each of their constituent cultural brains more innovative. This perspective sheds light on traits, such as IQ, that have been implicated in innovation. A collective brain perspective can help us understand otherwise puzzling findings in the IQ literature, including group differences, heritability differences and the dramatic increase in IQ test scores over time."
+  },
+  {
+   "id": "https://openalex.org/W4226385226",
+   "doi": "https://doi.org/10.2139/ssrn.4046264",
+   "title": "The i-Frame and the s-Frame: How Focusing on Individual-Level Solutions Has Led Behavioral Public Policy Astray",
+   "publication_year": 2022,
+   "type": "preprint",
+   "source": "SSRN Electronic Journal",
+   "authorships": [
+    "Nick Chater",
+    "George F. Loewenstein"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": ""
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/jep.31.2.3",
+ "coletado_utc": "2026-09-24T00:27:24Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The State of Applied Econometrics: Causality and Policy Evaluation"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Susan",
+    "family": "Athey",
+    "name": null
+   },
+   {
+    "given": "Guido W.",
+    "family": "Imbens",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Perspectives"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "31",
+  "issue": "2",
+  "page": "3-32",
+  "article_number": null,
+  "issued": [
+   [
+    2017,
+    5,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    5,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/jep.31.2.3",
+  "abstract": "<jats:p>In this paper, we discuss recent developments in econometrics that we view as important for empirical researchers working on policy evaluation questions. We focus on three main areas, in each case, highlighting recommendations for applied work. First, we discuss new research on identification strategies in program evaluation, with particular focus on synthetic control methods, regression discontinuity, external validity, and the causal interpretation of regression methods. Second, we discuss various forms of supplementary analyses, including placebo analyses as well as sensitivity and robustness analyses, intended to make the identification strategies more credible. Third, we discuss some implications of recent advances in machine learning methods for causal effects, including methods to adjust for differences between treated and control units in high-dimensional settings, and methods for identifying and estimating heterogenous treatment effects.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2467288387",
+  "title": "The State of Applied Econometrics: Causality and Policy Evaluation",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "The Journal of Economic Perspectives",
+  "landing_page_url": "https://doi.org/10.1257/jep.31.2.3",
+  "authorships": [
+   "Susan Carleton Athey",
+   "Guido W. Imbens"
+  ],
+  "biblio": {
+   "volume": "31",
+   "issue": "2",
+   "first_page": "3",
+   "last_page": "32"
+  },
+  "cited_by_count": 201,
+  "abstract": "In this paper, we discuss recent developments in econometrics that we view as important for empirical researchers working on policy evaluation questions. We focus on three main areas, in each case, highlighting recommendations for applied work. First, we discuss new research on identification strategies in program evaluation, with particular focus on synthetic control methods, regression discontinuity, external validity, and the causal interpretation of regression methods. Second, we discuss various forms of supplementary analyses, including placebo analyses as well as sensitivity and robustness analyses, intended to make the identification strategies more credible. Third, we discuss some implications of recent advances in machine learning methods for causal effects, including methods to adjust for differences between treated and control units in high-dimensional settings, and methods for identifying and estimating heterogenous treatment effects."
+ }
+}

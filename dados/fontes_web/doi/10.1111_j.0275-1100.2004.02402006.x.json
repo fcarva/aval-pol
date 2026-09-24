@@ -1,0 +1,70 @@
+{
+ "doi": "10.1111/j.0275-1100.2004.02402006.x",
+ "coletado_utc": "2026-09-24T00:27:02Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "In Search of True Public Arts Support"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Arthur C.",
+    "family": "Brooks",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Public Budgeting &amp; Finance"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "24",
+  "issue": "2",
+  "page": "88-100",
+  "article_number": null,
+  "issued": [
+   [
+    2004,
+    5,
+    4
+   ]
+  ],
+  "published_print": [
+   [
+    2004,
+    6
+   ]
+  ],
+  "published_online": [
+   [
+    2004,
+    5,
+    4
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.0275-1100.2004.02402006.x",
+  "abstract": "<jats:p>Most of the debate over government arts support focuses on direct subsidies to nonprofit arts organizations. In this article, however, I show that a much larger amount of public sector money comes from indirect aid, in the form of tax revenues forgone on tax‐deductible contributions by individuals. Specifically, every dollar in direct federal arts funding is accompanied by about $14 in indirect aid. Analysis of the 1996 General Social Survey shows that private givers and supporters of direct government aid fit different demographic profiles, meaning that direct and indirect funding owe to distinct constituencies. These findings lead to a number of implications for nonprofit and public arts managers.</jats:p><jats:p>\n<jats:disp-quote content-type=\"quotation\"><jats:p>It is sometime proper for the state to encourage and protect dishonorable but useful professions, without those who exercise them being more highly considered for that.</jats:p><jats:p>Jean‐Jacques Rousseau<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#fn1\"><jats:sup>1</jats:sup></jats:ext-link></jats:p></jats:disp-quote>\n</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2083075728",
+  "title": "In Search of True Public Arts Support",
+  "publication_year": 2004,
+  "type": "article",
+  "source": "Public Budgeting &amp Finance",
+  "landing_page_url": "https://doi.org/10.1111/j.0275-1100.2004.02402006.x",
+  "authorships": [
+   "Arthur C. Brooks"
+  ],
+  "biblio": {
+   "volume": "24",
+   "issue": "2",
+   "first_page": "88",
+   "last_page": "100"
+  },
+  "cited_by_count": 3,
+  "abstract": "Most of the debate over government arts support focuses on direct subsidies to nonprofit arts organizations. In this article, however, I show that a much larger amount of public sector money comes from indirect aid, in the form of tax revenues forgone on tax‐deductible contributions by individuals. Specifically, every dollar in direct federal arts funding is accompanied by about $14 in indirect aid. Analysis of the 1996 General Social Survey shows that private givers and supporters of direct government aid fit different demographic profiles, meaning that direct and indirect funding owe to distinct constituencies. These findings lead to a number of implications for nonprofit and public arts managers. It is sometime proper for the state to encourage and protect dishonorable but useful professions, without those who exercise them being more highly considered for that. Jean‐Jacques Rousseau 1"
+ }
+}

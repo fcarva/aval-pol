@@ -1,0 +1,69 @@
+{
+ "doi": "10.1016/j.cct.2006.05.007",
+ "coletado_utc": "2026-09-24T00:26:31Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Design and analysis of stepped wedge cluster randomized trials"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Michael A.",
+    "family": "Hussey",
+    "name": null
+   },
+   {
+    "given": "James P.",
+    "family": "Hughes",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Contemporary Clinical Trials"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "28",
+  "issue": "2",
+  "page": "182-191",
+  "article_number": null,
+  "issued": [
+   [
+    2007,
+    2
+   ]
+  ],
+  "published_print": [
+   [
+    2007,
+    2
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.cct.2006.05.007",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2032039690",
+  "title": "Design and analysis of stepped wedge cluster randomized trials",
+  "publication_year": 2006,
+  "type": "article",
+  "source": "Contemporary Clinical Trials",
+  "landing_page_url": "https://doi.org/10.1016/j.cct.2006.05.007",
+  "authorships": [
+   "Michael A. Hussey",
+   "James P. Hughes"
+  ],
+  "biblio": {
+   "volume": "28",
+   "issue": "2",
+   "first_page": "182",
+   "last_page": "191"
+  },
+  "cited_by_count": 1484,
+  "abstract": ""
+ }
+}

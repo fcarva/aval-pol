@@ -1,0 +1,76 @@
+{
+ "doi": "10.1007/s10824-016-9281-x",
+ "coletado_utc": "2026-09-24T00:26:30Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Evaluating three decades of the European Capital of Culture programme: a difference-in-differences approach"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Pedro",
+    "family": "Gomes",
+    "name": null
+   },
+   {
+    "given": "Alejandro",
+    "family": "Librero-Cano",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Cultural Economics"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "volume": "42",
+  "issue": "1",
+  "page": "57-73",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    9,
+    27
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2016,
+    9,
+    27
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s10824-016-9281-x",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2525913744",
+  "title": "Evaluating three decades of the European Capital of Culture programme: a difference-in-differences approach",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "Journal of Cultural Economics",
+  "landing_page_url": "https://doi.org/10.1007/s10824-016-9281-x",
+  "authorships": [
+   "Pedro Gomes",
+   "Alejandro Librero-Cano"
+  ],
+  "biblio": {
+   "volume": "42",
+   "issue": "1",
+   "first_page": "57",
+   "last_page": "73"
+  },
+  "cited_by_count": 37,
+  "abstract": ""
+ }
+}

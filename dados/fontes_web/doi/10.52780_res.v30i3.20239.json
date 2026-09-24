@@ -1,0 +1,73 @@
+{
+ "doi": "10.52780/res.v30i3.20239",
+ "coletado_utc": "2026-09-24T00:27:50Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Folha de S.Paulo, lei rouanet e o mercado de patrocínios culturais incentivados"
+  ],
+  "subtitle": [
+   "uma análise a partir da sociologia econômica"
+  ],
+  "author": [
+   {
+    "given": "Rafaela  Araújo",
+    "family": "Lopes",
+    "name": null
+   },
+   {
+    "given": "Bruno Costa",
+    "family": "Barreiros",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Estudos de Sociologia"
+  ],
+  "publisher": "UNESP - Universidade Estadual Paulista",
+  "type": "journal-article",
+  "volume": null,
+  "issue": null,
+  "page": "1123-1150",
+  "article_number": null,
+  "issued": [
+   [
+    2025,
+    12,
+    28
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2025,
+    12,
+    28
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.52780/res.v30i3.20239",
+  "abstract": "<jats:p>Embora seja reconhecida a relevância das investigações sobre a Lei Rouanet na perspectiva de política pública, poucas pesquisas têm se debruçado sobre o mercado de patrocínios culturais incentivados. Partindo dos aportes da sociologia econômica, o artigo apresenta uma análise dos contextos políticos, culturais e econômicos, bem como das tendências discursivas que influenciam e caracterizam este mercado, a partir de um corpus formado por 863 matérias publicadas na Folha de São Paulo no período entre 2013 e 2023. A análise aborda as estratégias publicitárias na Folha e o papel do Estado, a emergência de uma agenda política conservadora e as disputas em torno da Lei Rouanet, a transformação discursiva e a relevância do ideário da sustentabilidade nas mudanças da concepção de controle. A pesquisa mostra, sobretudo, como o mercado estudado, após sobreviver a ataques simbólicos intensos, renova a sua legitimidade a partir das ideias de sustentabilidade e de economia criativa.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W7171701163",
+  "title": "Folha de S.Paulo, lei rouanet e o mercado de patrocínios culturais incentivados",
+  "publication_year": 2025,
+  "type": "article",
+  "source": "Estudos de Sociologia",
+  "landing_page_url": "https://doi.org/10.52780/res.v30i3.20239",
+  "authorships": [
+   "Rafaela Araújo Lopes",
+   "Bruno Costa Barreiros"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": "1123",
+   "last_page": "1150"
+  },
+  "cited_by_count": 0,
+  "abstract": "Embora seja reconhecida a relevância das investigações sobre a Lei Rouanet na perspectiva de política pública, poucas pesquisas têm se debruçado sobre o mercado de patrocínios culturais incentivados. Partindo dos aportes da sociologia econômica, o artigo apresenta uma análise dos contextos políticos, culturais e econômicos, bem como das tendências discursivas que influenciam e caracterizam este mercado, a partir de um corpus formado por 863 matérias publicadas na Folha de São Paulo no período entre 2013 e 2023. A análise aborda as estratégias publicitárias na Folha e o papel do Estado, a emergência de uma agenda política conservadora e as disputas em torno da Lei Rouanet, a transformação discursiva e a relevância do ideário da sustentabilidade nas mudanças da concepção de controle. A pesquisa mostra, sobretudo, como o mercado estudado, após sobreviver a ataques simbólicos intensos, renova a sua legitimidade a partir das ideias de sustentabilidade e de economia criativa."
+ }
+}

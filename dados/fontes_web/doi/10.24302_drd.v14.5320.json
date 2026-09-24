@@ -1,0 +1,77 @@
+{
+ "doi": "10.24302/drd.v14.5320",
+ "coletado_utc": "2026-09-24T00:27:42Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Distribuição geográfica de projetos culturais com captação de recursos via Lei Rouanet"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Lusvanio Carlos",
+    "family": "Teixeira",
+    "name": null
+   },
+   {
+    "given": "Wescley Silva",
+    "family": "Xavier",
+    "name": null
+   },
+   {
+    "given": "Evandro Rodrigues de",
+    "family": "Faria",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "DRd - Desenvolvimento Regional em debate"
+  ],
+  "publisher": "Universidade do Contestado - UnC",
+  "type": "journal-article",
+  "volume": "14",
+  "issue": null,
+  "page": "556-578",
+  "article_number": null,
+  "issued": [
+   [
+    2024,
+    8,
+    26
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2024,
+    8,
+    26
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.24302/drd.v14.5320",
+  "abstract": "<jats:p>A Lei Rouanet é uma das principais fontes de recursos para a cultura no Brasil, e permite que contribuintes de imposto de renda decidam quais projetos culturais apoiar, o que teoricamente poderia representar uma forma de democratizar a cultura no país. No entanto, essa prerrogativa empresarial também levanta questionamentos sobre a concentração de recursos em determinadas regiões e produções culturais, considerando os interesses do capital privado. O objetivo deste artigo foi investigar se a Lei Rouanet representa um instrumento de democratização na produção e no consumo da cultura, sobretudo em termos de distribuição geográfica dos recursos. Partindo de uma abordagem quantitativa, realizou-se uma descrição da distribuição geográfica dos recursos e uma análise comparativa entre os grupos de municípios que possuíam e que não possuíam projetos com captação de recursos desta lei, utilizando-se o teste de Kolmogorov-Smirnov e o de Wilcoxon Mann-Whitney. Acerca dos resultados, constatou-se a existência de concentração de recursos na região Sudeste, e pela análise comparativa percebeu-se que os recursos da Lei Rouanet estão presentes em municípios com maior porte populacional e maior Produto Interno Bruto. Concluiu-se que na forma de funcionamento da lei e pelo histórico de concentrações, esta representa um instrumento com dificuldades de democratizar os recursos em termos geográficos, atendendo mais interesses do mercado do que interesses públicos.\nPalavras-chave: Políticas Culturais. Cultura. Financiamento à Cultura. Incentivo Fiscal.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4401904697",
+  "title": "Distribuição geográfica de projetos culturais com captação de recursos via Lei Rouanet",
+  "publication_year": 2024,
+  "type": "article",
+  "source": "DRd - Desenvolvimento Regional em debate",
+  "landing_page_url": "https://doi.org/10.24302/drd.v14.5320",
+  "authorships": [
+   "Lusvânio Carlos Teixeira",
+   "Wescley Silva Xavier",
+   "Evandro Rodrigues de Faria"
+  ],
+  "biblio": {
+   "volume": "14",
+   "issue": null,
+   "first_page": "556",
+   "last_page": "578"
+  },
+  "cited_by_count": 0,
+  "abstract": "A Lei Rouanet é uma das principais fontes de recursos para a cultura no Brasil, e permite que contribuintes de imposto de renda decidam quais projetos culturais apoiar, o que teoricamente poderia representar uma forma de democratizar a cultura no país. No entanto, essa prerrogativa empresarial também levanta questionamentos sobre a concentração de recursos em determinadas regiões e produções culturais, considerando os interesses do capital privado. O objetivo deste artigo foi investigar se a Lei Rouanet representa um instrumento de democratização na produção e no consumo da cultura, sobretudo em termos de distribuição geográfica dos recursos. Partindo de uma abordagem quantitativa, realizou-se uma descrição da distribuição geográfica dos recursos e uma análise comparativa entre os grupos de municípios que possuíam e que não possuíam projetos com captação de recursos desta lei, utilizando-se o teste de Kolmogorov-Smirnov e o de Wilcoxon Mann-Whitney. Acerca dos resultados, constatou-se a existência de concentração de recursos na região Sudeste, e pela análise comparativa percebeu-se que os recursos da Lei Rouanet estão presentes em municípios com maior porte populacional e maior Produto Interno Bruto. Concluiu-se que na forma de funcionamento da lei e pelo histórico de concentrações, esta representa um instrumento com dificuldades de democratizar os recursos em termos geográficos, atendendo mais interesses do mercado do que interesses públicos. Palavras-chave: Políticas Culturais. Cultura. Financiamento à Cultura. Incentivo Fiscal."
+ }
+}

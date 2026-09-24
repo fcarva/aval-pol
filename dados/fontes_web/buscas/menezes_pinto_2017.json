@@ -1,0 +1,124 @@
+{
+ "id": "menezes_pinto_2017",
+ "consulta": "Avaliacao economica de projetos sociais Menezes Filho Pinto Fundacao Itau Social 2017",
+ "coletado_utc": "2026-09-24T00:28:23Z",
+ "crossref": [
+  {
+   "doi": "10.53809/ts_iss_2023_n.4_174-189",
+   "title": [
+    "CLDS’s Project management: Quality management    plan methodologies for social services"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Pinto",
+    "Pinto"
+   ],
+   "container_title": [
+    "Revista Temas Sociais"
+   ],
+   "publisher": "Universidade Lusofona",
+   "issued": [
+    [
+     2023,
+     8
+    ]
+   ],
+   "volume": null,
+   "issue": "4",
+   "page": "174-189",
+   "isbn": null,
+   "score": 36.152466
+  },
+  {
+   "doi": "10.71190/2022-11pdpetro-72880",
+   "title": [
+    "AVALIACAO TECNICA E ECONOMICA DO USO DE ENERGIA GEOTERMICA NOS ANDES COLOMBIANOS"
+   ],
+   "type": "proceedings-article",
+   "author": [],
+   "container_title": [
+    "Anais do 11º PdPetro"
+   ],
+   "publisher": "ABPG",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 34.468494
+  },
+  {
+   "doi": "10.11606/t.16.1990.tde-20251107-111148",
+   "title": [
+    "Realimentacao de projetos arquitetonicos : avaliacao pos-uso (apu), instituto de quimica usp/sp"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Simões"
+   ],
+   "container_title": null,
+   "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 34.144108
+  },
+  {
+   "doi": "10.71190/2017-9pdpetro-72020",
+   "title": [
+    "[REVISO 390806290820178554] SIMULACAO DE UMA UNIDADE DE EXTRACAO DE BTX NO ASPEN PLUS E AVALIACAO DA VIABILIDADE ECONOMICA PRELIMINAR"
+   ],
+   "type": "proceedings-article",
+   "author": [],
+   "container_title": [
+    "Anais do 9º PdPetro"
+   ],
+   "publisher": "ABPG",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 32.612213
+  },
+  {
+   "doi": "10.47749/t/unicamp.1985.48651",
+   "title": [
+    "Governo Geisel"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Percival Alves Pinto"
+   ],
+   "container_title": null,
+   "publisher": "Universidade Estadual de Campinas",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 32.252842
+  }
+ ],
+ "openalex": [],
+ "crossref_status": 200,
+ "openalex_status": null
+}

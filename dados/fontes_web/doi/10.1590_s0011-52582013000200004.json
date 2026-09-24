@@ -1,0 +1,69 @@
+{
+ "doi": "10.1590/S0011-52582013000200004",
+ "coletado_utc": "2026-09-24T00:27:30Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Da compra de produtos e serviços culturais ao direito de produzir cultura: análise de um paradigma emergente"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Luciana",
+    "family": "Lima",
+    "name": null
+   },
+   {
+    "given": "Pablo",
+    "family": "Ortellado",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Dados"
+  ],
+  "publisher": "FapUNIFESP (SciELO)",
+  "type": "journal-article",
+  "volume": "56",
+  "issue": "2",
+  "page": "351-382",
+  "article_number": null,
+  "issued": [
+   [
+    2013,
+    6
+   ]
+  ],
+  "published_print": [
+   [
+    2013,
+    6
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1590/s0011-52582013000200004",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2064788707",
+  "title": "Da compra de produtos e serviços culturais ao direito de produzir cultura: análise de um paradigma emergente",
+  "publication_year": 2013,
+  "type": "article",
+  "source": "Dados",
+  "landing_page_url": "https://doi.org/10.1590/s0011-52582013000200004",
+  "authorships": [
+   "Luciana de Lima",
+   "Pablo Ortellado"
+  ],
+  "biblio": {
+   "volume": "56",
+   "issue": "2",
+   "first_page": "351",
+   "last_page": "382"
+  },
+  "cited_by_count": 13,
+  "abstract": "O financiamento das atividades culturais tem dois paradigmas clássicos: o financiamento público e o mercantil.O primeiro consiste na ação direta do estado ou no financiamento com recursos estatais de práticas culturais da sociedade civil; o segundo ancora-se na tradição liberal ou neoliberal, cuja mais recente expressão são as correntes dominantes da economia criativa.A partir de uma revisão teórica e da análise de duas políticas brasileiras -o programa Cultura Viva e a Lei de Fomento ao Teatro da cidade de São Paulo -argumentamos que essas experiências constituem a gênese de um terceiro paradigma que identificamos e desenvolvemos.Esse paradigma não busca financiar produtos culturais, mas o processo de produção cultural e se orienta assim para a constituição de um direito social: o direito de produzir cultura.Inicialmente discutimos de maneira esquemática os argumentos e críticas historicamente utilizados no debate pelo estabelecimento de políticas de financiamento público da cultura, sobretudo na modalidade editais públicos.Em seguida apresentamos os argumentos e críticas relativos ao financiamento mercantil da cultura.Mostramos que, embo-351 * Agradecemos aos pareceristas da revista Dados pelas sugestões que permitiram o aprimoramento deste artigo.Agradecemos também a todos os que participaram das discussões públicas e da mobilização política pela inserção do Bolsa-Cultura nos programas de governo dos candidatos a prefeito de São Paulo em 2012.Finalmente, agradecemos ao professor Ricardo Musse pelo apoio e à atual administração da Secretaria Municipal de Cultura de São Paulo pela disposição em implementar o programa."
+ }
+}

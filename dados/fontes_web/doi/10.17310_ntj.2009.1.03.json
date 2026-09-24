@@ -1,0 +1,65 @@
+{
+ "doi": "10.17310/ntj.2009.1.03",
+ "coletado_utc": "2026-09-24T00:27:37Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Does the NEA Crowd Out Private Charitable Contributions to the Arts?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Jane K.",
+    "family": "Dokko",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "National Tax Journal"
+  ],
+  "publisher": "University of Chicago Press",
+  "type": "journal-article",
+  "volume": "62",
+  "issue": "1",
+  "page": "57-75",
+  "article_number": null,
+  "issued": [
+   [
+    2009,
+    3,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2009,
+    3,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.17310/ntj.2009.1.03",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2146040890",
+  "title": "Does the NEA Crowd Out Private Charitable Contributions to the Arts?",
+  "publication_year": 2009,
+  "type": "article",
+  "source": "National Tax Journal",
+  "landing_page_url": "https://doi.org/10.17310/ntj.2009.1.03",
+  "authorships": [
+   "Jane K. Dokko"
+  ],
+  "biblio": {
+   "volume": "62",
+   "issue": "1",
+   "first_page": "57",
+   "last_page": "75"
+  },
+  "cited_by_count": 23,
+  "abstract": "This paper investigates the mechanism by which the federal government's funding of the arts through the National Endowment for the Arts (NEA) displaces private charitable contributions to non-profit arts organizations. I estimate that private charitable contributions to arts organizations increased by 50 to 60 cents due to a major funding cut to the NEA during the mid-1990s. These increases, however, also coincided with, on average, a 25 cent increase in fund-raising expenditures by arts organizations for every dollar decrease in government grants. The estimate of crowding out found in this paper is relatively large, particularly for a study using a micro-data set. I argue that an appropriate interpretation of an estimate of a crowding-out parameter, in general, depends crucially on the context."
+ }
+}

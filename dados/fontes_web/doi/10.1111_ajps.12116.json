@@ -1,0 +1,84 @@
+{
+ "doi": "10.1111/ajps.12116",
+ "coletado_utc": "2026-09-24T00:27:00Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Comparative Politics and the Synthetic Control Method"
+  ],
+  "subtitle": [
+   "COMPARATIVE POLITICS AND THE SYNTHETIC CONTROL METHOD"
+  ],
+  "author": [
+   {
+    "given": "Alberto",
+    "family": "Abadie",
+    "name": null
+   },
+   {
+    "given": "Alexis",
+    "family": "Diamond",
+    "name": null
+   },
+   {
+    "given": "Jens",
+    "family": "Hainmueller",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Journal of Political Science"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "59",
+  "issue": "2",
+  "page": "495-510",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    4,
+    23
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2014,
+    4,
+    23
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/ajps.12116",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2331253396",
+  "title": "Comparative Politics and the Synthetic Control Method",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "American Journal of Political Science",
+  "landing_page_url": "https://doi.org/10.1111/ajps.12116",
+  "authorships": [
+   "Alberto Abadie",
+   "Alexis Diamond",
+   "Jens Hainmueller"
+  ],
+  "biblio": {
+   "volume": "59",
+   "issue": "2",
+   "first_page": "495",
+   "last_page": "510"
+  },
+  "cited_by_count": 2412,
+  "abstract": "In recent years, a widespread consensus has emerged about the necessity of establishing bridges between quantitative and qualitative approaches to empirical research in political science. In this article, we discuss the use of the synthetic control method as a way to bridge the quantitative/qualitative divide in comparative politics. The synthetic control method provides a systematic way to choose comparison units in comparative case studies. This systematization opens the door to precise quantitative inference in small-sample comparative studies, without precluding the application of qualitative approaches. Borrowing the expression from Sidney Tarrow, the synthetic control method allows researchers to put “qualitative flesh on quantitative bones.” We illustrate the main ideas behind the synthetic control method by estimating the economic impact of the 1990 German reunification on West Germany."
+ }
+}

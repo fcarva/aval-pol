@@ -1,0 +1,81 @@
+{
+ "doi": "10.1016/j.jeconom.2023.03.008",
+ "coletado_utc": "2026-09-24T00:26:43Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "What’s trending in difference-in-differences? A synthesis of the recent econometrics literature"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Jonathan",
+    "family": "Roth",
+    "name": null
+   },
+   {
+    "given": "Pedro H.C.",
+    "family": "Sant’Anna",
+    "name": null
+   },
+   {
+    "given": "Alyssa",
+    "family": "Bilinski",
+    "name": null
+   },
+   {
+    "given": "John",
+    "family": "Poe",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Econometrics"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "235",
+  "issue": "2",
+  "page": "2218-2244",
+  "article_number": null,
+  "issued": [
+   [
+    2023,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2023,
+    8
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.jeconom.2023.03.008",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4367396771",
+  "title": "What’s trending in difference-in-differences? A synthesis of the recent econometrics literature",
+  "publication_year": 2023,
+  "type": "article",
+  "source": "Journal of Econometrics",
+  "landing_page_url": "https://doi.org/10.1016/j.jeconom.2023.03.008",
+  "authorships": [
+   "Jonathan P. Roth",
+   "Pedro H. C. Sant’Anna",
+   "Alyssa Bilinski",
+   "John Poe"
+  ],
+  "biblio": {
+   "volume": "235",
+   "issue": "2",
+   "first_page": "2218",
+   "last_page": "2244"
+  },
+  "cited_by_count": 1930,
+  "abstract": ""
+ }
+}

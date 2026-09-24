@@ -1,0 +1,75 @@
+{
+ "doi": "10.1348/000711010X502733",
+ "coletado_utc": "2026-09-24T00:27:26Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "How to do a meta‐analysis"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Andy P.",
+    "family": "Field",
+    "name": null
+   },
+   {
+    "given": "Raphael",
+    "family": "Gillett",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "British Journal of Mathematical and Statistical Psychology"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "63",
+  "issue": "3",
+  "page": "665-694",
+  "article_number": null,
+  "issued": [
+   [
+    2010,
+    11
+   ]
+  ],
+  "published_print": [
+   [
+    2010,
+    11
+   ]
+  ],
+  "published_online": [
+   [
+    2010,
+    12,
+    24
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1348/000711010x502733",
+  "abstract": "<jats:p>Meta‐analysis is a statistical tool for estimating the mean and variance of underlying population effects from a collection of empirical studies addressing ostensibly the same research question. Meta‐analysis has become an increasing popular and valuable tool in psychological research, and major review articles typically employ these methods. This article describes the process of conducting meta‐analysis: selecting articles, developing inclusion criteria, calculating effect sizes, conducting the actual analysis (including information on how to do the analysis on popular computer packages such as IBM SPSS and R) and estimating the effects of publication bias. Guidance is also given on how to write up a meta‐analysis.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2094667953",
+  "title": "How to do a meta‐analysis",
+  "publication_year": 2010,
+  "type": "article",
+  "source": "British Journal of Mathematical and Statistical Psychology",
+  "landing_page_url": "https://doi.org/10.1348/000711010x502733",
+  "authorships": [
+   "Andy Peter Field",
+   "Raphael Gillett"
+  ],
+  "biblio": {
+   "volume": "63",
+   "issue": "3",
+   "first_page": "665",
+   "last_page": "694"
+  },
+  "cited_by_count": 1160,
+  "abstract": "Meta-analysis is a statistical tool for estimating the mean and variance of underlying population effects from a collection of empirical studies addressing ostensibly the same research question. Meta-analysis has become an increasing popular and valuable tool in psychological research, and major review articles typically employ these methods. This article describes the process of conducting meta-analysis: selecting articles, developing inclusion criteria, calculating effect sizes, conducting the actual analysis (including information on how to do the analysis on popular computer packages such as IBM SPSS and R) and estimating the effects of publication bias. Guidance is also given on how to write up a meta-analysis."
+ }
+}

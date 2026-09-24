@@ -1,0 +1,75 @@
+{
+ "doi": "10.1162/rest.90.3.414",
+ "coletado_utc": "2026-09-24T00:27:12Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Bootstrap-Based Improvements for Inference with Clustered Errors"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "A. Colin",
+    "family": "Cameron",
+    "name": null
+   },
+   {
+    "given": "Jonah B.",
+    "family": "Gelbach",
+    "name": null
+   },
+   {
+    "given": "Douglas L.",
+    "family": "Miller",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Review of Economics and Statistics"
+  ],
+  "publisher": "MIT Press",
+  "type": "journal-article",
+  "volume": "90",
+  "issue": "3",
+  "page": "414-427",
+  "article_number": null,
+  "issued": [
+   [
+    2008,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2008,
+    8
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1162/rest.90.3.414",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3122178585",
+  "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
+  "publication_year": 2008,
+  "type": "article",
+  "source": "The Review of Economics and Statistics",
+  "landing_page_url": "https://doi.org/10.1162/rest.90.3.414",
+  "authorships": [
+   "A. Colin Cameron",
+   "Jonah B. Gelbach",
+   "Douglas L. Miller"
+  ],
+  "biblio": {
+   "volume": "90",
+   "issue": "3",
+   "first_page": "414",
+   "last_page": "427"
+  },
+  "cited_by_count": 4255,
+  "abstract": "Researchers have increasingly realized the need to account for within-group dependence in estimating standard errors of regression parameter estimates. The usual solution is to calculate cluster-robust standard errors that permit heteroskedasticity and within-cluster error correlation, but presume that the number of clusters is large. Standard asymptotic tests can over-reject, however, with few (five to thirty) clusters. We investigate inference using cluster bootstrap-t procedures that provide asymptotic refinement. These procedures are evaluated using Monte Carlos, including the example of Bertrand, Duflo, and Mullainathan (2004). Rejection rates of 10% using standard methods can be reduced to the nominal size of 5% using our methods."
+ }
+}

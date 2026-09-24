@@ -1,0 +1,247 @@
+{
+ "id": "brooks_2004",
+ "consulta": "Brooks In search of true public arts support Public Budgeting and Finance 2004",
+ "coletado_utc": "2026-09-24T00:29:05Z",
+ "crossref": [
+  {
+   "doi": "10.1111/j.0275-1100.2004.02402006.x",
+   "title": [
+    "In Search of True Public Arts Support"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Brooks"
+   ],
+   "container_title": [
+    "Public Budgeting &amp; Finance"
+   ],
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2004,
+     5,
+     4
+    ]
+   ],
+   "volume": "24",
+   "issue": "2",
+   "page": "88-100",
+   "isbn": null,
+   "score": 79.73148
+  },
+  {
+   "doi": "10.1111/pbaf.2004.24.issue-2",
+   "title": null,
+   "type": "journal-issue",
+   "author": [],
+   "container_title": [
+    "Public Budgeting &amp; Finance"
+   ],
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2004,
+     6
+    ]
+   ],
+   "volume": "24",
+   "issue": "2",
+   "page": null,
+   "isbn": null,
+   "score": 47.029633
+  },
+  {
+   "doi": "10.1111/pbaf.2004.24.issue-4",
+   "title": null,
+   "type": "journal-issue",
+   "author": [],
+   "container_title": [
+    "Public Budgeting &amp; Finance"
+   ],
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2004,
+     12
+    ]
+   ],
+   "volume": "24",
+   "issue": "4",
+   "page": null,
+   "isbn": null,
+   "score": 47.008865
+  },
+  {
+   "doi": "10.1111/pbaf.2004.24.issue-1",
+   "title": null,
+   "type": "journal-issue",
+   "author": [],
+   "container_title": [
+    "Public Budgeting &amp; Finance"
+   ],
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2004,
+     3
+    ]
+   ],
+   "volume": "24",
+   "issue": "1",
+   "page": null,
+   "isbn": null,
+   "score": 46.81224
+  },
+  {
+   "doi": "10.1111/pbaf.2004.24.issue-3",
+   "title": null,
+   "type": "journal-issue",
+   "author": [],
+   "container_title": [
+    "Public Budgeting &amp; Finance"
+   ],
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2004,
+     9
+    ]
+   ],
+   "volume": "24",
+   "issue": "3",
+   "page": null,
+   "isbn": null,
+   "score": 46.786453
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W1945197361",
+   "doi": "https://doi.org/10.1086/517897",
+   "title": "Rankings and Reactivity: How Public Measures Recreate Social Worlds",
+   "publication_year": 2007,
+   "type": "article",
+   "source": "American Journal of Sociology",
+   "authorships": [
+    "Wendy Nelson Espeland",
+    "Michael Sauder"
+   ],
+   "biblio": {
+    "volume": "113",
+    "issue": "1",
+    "first_page": "1",
+    "last_page": "40"
+   },
+   "abstract": "Recently, there has been a proliferation of measures responding to demands for accountability and transparency. Using the example of media rankings of law schools, this article argues that the methodological concept of reactivity - the idea that people change their behavior in reaction to being evaluated, observed, or measured- offers a useful lens for disclosing how these measures effect change. A framework is proposed for investigating the consequences, both intended and unintended, of public measures. The article first identifies two mechanisms, self-fulfilling prophecy and commensuration, that induce reactivity and then distinguishes patterns of effects produced by reactivity. This approach demonstrates how these increasingly fateful public measures change expectations and permeate institutions, suggesting why it is important for scholars to investigate the impact of these measures more systematically."
+  },
+  {
+   "id": "https://openalex.org/W2969625533",
+   "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+   "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "International Journal of Information Management",
+   "authorships": [
+    "Yogesh Kumar Dwivedi",
+    "Laurie Hughes",
+    "Elvira Ismagilova",
+    "Gert Aarts",
+    "Crispin R. Coombs",
+    "Tom Crick",
+    "Yanqing Duan",
+    "Rohita Dwivedi",
+    "John Steven Edwards",
+    "Aled Eirug",
+    "Vassilis Galanos",
+    "P. Vigneswara Ilavarasan",
+    "Marijn Janssen",
+    "Paul Jones",
+    "Arpan Kumar Kar",
+    "Hatice Kizgin",
+    "Bianca Kronemann",
+    "Banita Lal",
+    "Biagio Lucini",
+    "Rony Medaglia",
+    "Kenneth Le Meunier‐FitzHugh",
+    "Leslie Caroline Le Meunier-FitzHugh",
+    "Santosh Kumar Misra",
+    "Emmanuel Mogaji",
+    "Sujeet Kumar Sharma",
+    "Jang Bahadur Singh",
+    "Vishnupriya Raghavan",
+    "Ramakrishnan Raman",
+    "Nripendra Pratap Rana",
+    "Spyridon Samothrakis",
+    "Jak Spencer",
+    "Kuttimani Tamilmani",
+    "Annie Tubadji",
+    "Paul Walton",
+    "Michael David Williams"
+   ],
+   "biblio": {
+    "volume": "57",
+    "issue": null,
+    "first_page": "101994",
+    "last_page": "101994"
+   },
+   "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development."
+  },
+  {
+   "id": "https://openalex.org/W162845786",
+   "doi": "https://doi.org/10.2139/ssrn.895099",
+   "title": "Attendance and Public Participation in the Performing Arts: A Review of the Empirical Literature",
+   "publication_year": 2006,
+   "type": "preprint",
+   "source": "SSRN Electronic Journal",
+   "authorships": [
+    "Bruce Alan Seaman"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W1523268234",
+   "doi": "https://doi.org/10.1016/j.jue.2013.05.002",
+   "title": "The effect of public sector employment on local labour markets",
+   "publication_year": 2013,
+   "type": "article",
+   "source": "Journal of Urban Economics",
+   "authorships": [
+    "Giulia Faggio",
+    "Henry G. Overman"
+   ],
+   "biblio": {
+    "volume": "79",
+    "issue": null,
+    "first_page": "91",
+    "last_page": "107"
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W2161109224",
+   "doi": "https://doi.org/10.1257/jep.13.1.13",
+   "title": "Subsidies, Hierarchy and Peers: The Awkward Economics of Higher Education",
+   "publication_year": 1999,
+   "type": "article",
+   "source": "The Journal of Economic Perspectives",
+   "authorships": [
+    "Gordon C. Winston"
+   ],
+   "biblio": {
+    "volume": "13",
+    "issue": "1",
+    "first_page": "13",
+    "last_page": "36"
+   },
+   "abstract": "Higher education is an industry where markets don't clear, prices on average cover less than a third of production costs, the resulting student subsidies are given in strikingly different amounts by different schools, creating a sharply hierarchical market. And an input important to production can be bought only from the firm's own customers. This paper describes the resulting structure of costs, prices, subsidies, and hierarchy using an augmented theory of nonprofits and 1995 national data to show their magnitudes and suggest their often significant implications. Public intuition and economic models of firms, industries, and welfare often yield distorted understanding and dubious public policies."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

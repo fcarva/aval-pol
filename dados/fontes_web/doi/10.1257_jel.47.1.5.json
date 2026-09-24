@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/jel.47.1.5",
+ "coletado_utc": "2026-09-24T00:27:22Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Recent Developments in the Econometrics of Program Evaluation"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Guido W",
+    "family": "Imbens",
+    "name": null
+   },
+   {
+    "given": "Jeffrey M",
+    "family": "Wooldridge",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Literature"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "47",
+  "issue": "1",
+  "page": "5-86",
+  "article_number": null,
+  "issued": [
+   [
+    2009,
+    3,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2009,
+    3,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/jel.47.1.5",
+  "abstract": "<jats:p>Many empirical questions in economics and other social sciences depend on causal effects of programs or policies. In the last two decades, much research has been done on the econometric and statistical analysis of such causal effects. This recent theoretical literature has built on, and combined features of, earlier work in both the statistics and econometrics literatures. It has by now reached a level of maturity that makes it an important tool in many areas of empirical research in economics, including labor economics, public finance, development economics, industrial organization, and other areas of empirical microeconomics. In this review, we discuss some of the recent developments. We focus primarily on practical issues for empirical researchers, as well as provide a historical overview of the area and give references to more technical research.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3121385028",
+  "title": "Recent Developments in the Econometrics of Program Evaluation",
+  "publication_year": 2009,
+  "type": "article",
+  "source": "Journal of Economic Literature",
+  "landing_page_url": "https://doi.org/10.1257/jel.47.1.5",
+  "authorships": [
+   "Guido W. Imbens",
+   "Jeffrey M. Wooldridge"
+  ],
+  "biblio": {
+   "volume": "47",
+   "issue": "1",
+   "first_page": "5",
+   "last_page": "86"
+  },
+  "cited_by_count": 5014,
+  "abstract": "Many empirical questions in economics and other social sciences depend on causal effects of programs or policies. In the last two decades, much research has been done on the econometric and statistical analysis of such causal effects. This recent theoretical literature has built on, and combined features of, earlier work in both the statistics and econometrics literatures. It has by now reached a level of maturity that makes it an important tool in many areas of empirical research in economics, including labor economics, public finance, development economics, industrial organization, and other areas of empirical microeconomics. In this review, we discuss some of the recent developments. We focus primarily on practical issues for empirical researchers, as well as provide a historical overview of the area and give references to more technical research."
+ }
+}

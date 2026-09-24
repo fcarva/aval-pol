@@ -1,0 +1,71 @@
+{
+ "doi": "10.38116/td2715",
+ "coletado_utc": "2026-09-24T00:27:47Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "TD 2715 - Mercado de trabalho da cultura: considerações sobre a meta 11 do Plano Nacional de Cultura (PNC)"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Frederico A. B. da",
+    "family": "Silva",
+    "name": null
+   },
+   {
+    "given": "Paula",
+    "family": "Ziviani",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Texto para Discussão"
+  ],
+  "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA",
+  "type": "journal-article",
+  "volume": null,
+  "issue": null,
+  "page": "1-53",
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    1,
+    4
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2022,
+    1,
+    4
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.38116/td2715",
+  "abstract": "<jats:p>O texto contribui com a discussão da Meta 11 do Plano Nacional de Cultura, que propõe o aumento do emprego formal do setor cultural, apoiada na Relação Anual de Informações Sociais (Rais). Aborda-se o mercado de trabalho cultural a partir da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua), por abranger a informalidade, dinâmica não abarcada pela Rais.  Parte-se do estudo sobre o mercado de trabalho da cultura, suas características e contrapontos em relação às transformações no mundo do trabalho contemporâneo, bem como as relações de emprego da sociedade salarial e suas possíveis associações com a estruturação do trabalho artístico e cultural. Analisam-se os dados a partir da reflexão acerca da informalidade e precarização em comparação com as singularidades do mundo do trabalho da cultura e das artes, no qual prevalece a dinâmica do trabalho em rede, flexibilidade, liberdade e organização por projetos. Somam-se considerações a respeito das limitações e alcances das bases de dados para capturar os dinamismos reais do mercado de trabalho cultural.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4312815097",
+  "title": "TD 2715 - Mercado de trabalho da cultura: considerações sobre a meta 11 do Plano Nacional de Cultura (PNC)",
+  "publication_year": 2022,
+  "type": "article",
+  "source": null,
+  "landing_page_url": "https://doi.org/10.38116/td2715",
+  "authorships": [
+   "Frederico Augusto Barbosa da Silva",
+   "Paula Ziviani"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": "1",
+   "last_page": "53"
+  },
+  "cited_by_count": 2,
+  "abstract": "O texto contribui com a discussão da Meta 11 do Plano Nacional de Cultura, que propõe o aumento do emprego formal do setor cultural, apoiada na Relação Anual de Informações Sociais (Rais). Aborda-se o mercado de trabalho cultural a partir da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua), por abranger a informalidade, dinâmica não abarcada pela Rais. Parte-se do estudo sobre o mercado de trabalho da cultura, suas características e contrapontos em relação às transformações no mundo do trabalho contemporâneo, bem como as relações de emprego da sociedade salarial e suas possíveis associações com a estruturação do trabalho artístico e cultural. Analisam-se os dados a partir da reflexão acerca da informalidade e precarização em comparação com as singularidades do mundo do trabalho da cultura e das artes, no qual prevalece a dinâmica do trabalho em rede, flexibilidade, liberdade e organização por projetos. Somam-se considerações a respeito das limitações e alcances das bases de dados para capturar os dinamismos reais do mercado de trabalho cultural."
+ }
+}

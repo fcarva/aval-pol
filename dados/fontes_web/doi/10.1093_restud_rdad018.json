@@ -1,0 +1,77 @@
+{
+ "doi": "10.1093/restud/rdad018",
+ "coletado_utc": "2026-09-24T00:26:57Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "A More Credible Approach to Parallel Trends"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Ashesh",
+    "family": "Rambachan",
+    "name": null
+   },
+   {
+    "given": "Jonathan",
+    "family": "Roth",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Review of Economic Studies"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "90",
+  "issue": "5",
+  "page": "2555-2591",
+  "article_number": null,
+  "issued": [
+   [
+    2023,
+    2,
+    15
+   ]
+  ],
+  "published_print": [
+   [
+    2023,
+    9,
+    5
+   ]
+  ],
+  "published_online": [
+   [
+    2023,
+    2,
+    15
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/restud/rdad018",
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends (“pre-trends”). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4320855218",
+  "title": "A More Credible Approach to Parallel Trends",
+  "publication_year": 2023,
+  "type": "article",
+  "source": "The Review of Economic Studies",
+  "landing_page_url": "https://doi.org/10.1093/restud/rdad018",
+  "authorships": [
+   "Ashesh Rambachan",
+   "Jonathan P. Roth"
+  ],
+  "biblio": {
+   "volume": "90",
+   "issue": "5",
+   "first_page": "2555",
+   "last_page": "2591"
+  },
+  "cited_by_count": 1427,
+  "abstract": "Abstract This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends (“pre-trends”). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption."
+ }
+}

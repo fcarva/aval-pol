@@ -1,0 +1,230 @@
+{
+ "id": "barros_lima_2017",
+ "consulta": "Barros Lima Avaliacao de impacto de programas sociais por que para que e quando fazer",
+ "coletado_utc": "2026-09-24T00:28:06Z",
+ "crossref": [
+  {
+   "doi": "10.1590/s1413-35552007000600001",
+   "title": [
+    "Registro de ensaios clínicos: quando e por que fazer?"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Peccin"
+   ],
+   "container_title": [
+    "Revista Brasileira de Fisioterapia"
+   ],
+   "publisher": "FapUNIFESP (SciELO)",
+   "issued": [
+    [
+     2007,
+     12
+    ]
+   ],
+   "volume": "11",
+   "issue": "6",
+   "page": "v-vi",
+   "isbn": null,
+   "score": 54.393566
+  },
+  {
+   "doi": "10.21011/apn.2016.0404",
+   "title": [
+    "O Açúcar que Comes Quando Bebes: Impacto de uma Estratégia de Consciencialização"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Lima"
+   ],
+   "container_title": [
+    "Acta Portuguesa de Nutrição"
+   ],
+   "publisher": "Portuguese Association of Nutritionists",
+   "issued": [
+    [
+     2016,
+     3
+    ]
+   ],
+   "volume": "04",
+   "issue": null,
+   "page": "18-22",
+   "isbn": null,
+   "score": 51.062603
+  },
+  {
+   "doi": "10.48021/978-65-270-6355-1",
+   "title": [
+    "Imunidades Prisionais e Prerrogativas de Foro no Brasil: o que fazer quando são as autoridades que cometem crimes?"
+   ],
+   "type": "edited-book",
+   "author": [
+    "XAVIER JUNIOR"
+   ],
+   "container_title": null,
+   "publisher": "Dialética",
+   "issued": [
+    [
+     2025
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9786527063551"
+   ],
+   "score": 50.72778
+  },
+  {
+   "doi": "10.31819/9783964560360-009",
+   "title": [
+    "CÓMO PARTÍ DE PAITA POR TIERRA PARA LIMA, QUE SON DOSCIENTAS LEGUAS LAS QUE HAY"
+   ],
+   "type": "book-chapter",
+   "author": [],
+   "container_title": [
+    "Viaje por el Nuevo Mundo"
+   ],
+   "publisher": "Iberoamericana Vervuert",
+   "issued": [
+    [
+     2010,
+     12,
+     31
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "105-108",
+   "isbn": null,
+   "score": 50.51373
+  },
+  {
+   "doi": "10.48075/kgfc9372",
+   "title": [
+    "O que fazer quando não há o que fazer? Arte, política e subjetividade"
+   ],
+   "type": "edited-book",
+   "author": [
+    "Yanzer Portela",
+    "Cardoso"
+   ],
+   "container_title": null,
+   "publisher": "Edunioeste",
+   "issued": [
+    [
+     2024
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9786587438771"
+   ],
+   "score": 50.330692
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W2969898784",
+   "doi": "https://doi.org/10.1590/s1414-40772020000300005",
+   "title": "Avaliação de Políticas Públicas para a Educação Superior: o caso do Programa Universidade para Todos (PROUNI)",
+   "publication_year": 2020,
+   "type": "article",
+   "source": "Avaliação Revista da Avaliação da Educação Superior (Campinas)",
+   "authorships": [
+    "Wagner Bandeira Andriola",
+    "José Liberato Barrozo Filho"
+   ],
+   "biblio": {
+    "volume": "25",
+    "issue": "3",
+    "first_page": "594",
+    "last_page": "621"
+   },
+   "abstract": "O Programa Universidade para Todos (PROUNI) configura-se como Política Pública, de natureza afirmativa, para facilitar o acesso ao Ensino Superior de camadas sociais com menores oportunidades educacionais, econômicas e culturais. Delineou-se pesquisa para se obter indícios dos resultados do PROUNI e, assim, permitir sua valoração. Tal atividade se aproxima da ideia de avaliação do tipo ex post-facto, cuja função é prestar esclarecimento à sociedade da sua relevância ou proporcionar social accountability. Para tal, foram desenvolvidos dois estudos para comparar usuários com não usuários do PROUNI em cinco distintos atributos: (i) tempo médio de formação, (ii) qualidade do aprendizado, (iii) impacto institucional oriundo da formação discente, (iv) nível de satisfação com a formação e (v) nível de empregabilidade. No primeiro estudo empregaram-se dados secundários de 924 alunos egressos de cursos de graduação, enquanto o segundo estudo usou dados primários decorrentes do uso de um Questionário Voltado aos Egressos (QVE) em uma amostra de 88 ex-alunos. Resultados da análise comparativa entre usuários e não usuários do PROUNI através dos Testes ANOVA e Qui-Quadrado demonstraram que: (i) usuários apresentaram maior Qualidade de Aprendizado do que não usuários [F = 13,749; p < 0,01]; (ii) usuários apresentaram maior Impacto Institucional do que não usuários [F = 4,528; p < 0,01]; (iii) usuários apresentaram menor Tempo de Formação do que não usuários [F = 12,055 (p < 0,01]; (iv) usuários demonstraram satisfação com a formação recebida e reconheceram a eficácia desta ante exigências profissionais do mercado de trabalho, não tendo sido detectada diferença significativa com não usuários [χ2(1; 86) = 0,67; p > 0,01); (v) usuários demonstraram desejo de inserirem-se imediatamente no mercado de trabalho, para gerar renda para as respectivas famílias, ao contrário dos não usuários [χ2 (1; 86) = 6,64; p < 0,05]."
+  },
+  {
+   "id": "https://openalex.org/W2992576390",
+   "doi": "https://doi.org/10.5216/rpp.v22.54448",
+   "title": "Barreiras à prática de atividades físicas no lazer de brasileiros: revisão sistematizada",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "Pensar a Prática",
+   "authorships": [
+    "Valéria Rieger Vieira",
+    "Da Silva"
+   ],
+   "biblio": {
+    "volume": "22",
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "A prática de atividade física se configura como importante fator para a redução das Doenças Crônicas não Transmissíveis, porém dados evidenciam que parte considerável da população brasileira se encontra fisicamente inativa. A adesão ao estilo de vida pautado no baixo envolvimento com atividades físicas pode estar relacionada a diferentes fatores que agem como barreiras (ambientais, sociais, físicas e comportamentais). O objetivo foi analisar os fatores limitadores e impeditivos (barreiras) à prática de atividades físicas no lazer de brasileiros. Trata-se de uma pesquisa de revisão de literatura sistemática, com abordagem qualitativa, do tipo longitudinal. Foram realizadas buscas nas bases do Lilacs, Scielo, PubMed, MedLine e Google acadêmico, com delimitação do período (2005-2018), estratificando os resultados por faixa etária (adolescentes, adultos e idosos). Entre os adolescentes as principais barreiras identificadas foram o clima inadequado, a falta de companhia, as limitações físicas e a falta de interesse em praticar; entre os adultos o clima inadequado, a falta de companhia, o cansaço físico e falta de interesse em praticar; e entre os idosos o ambiente insuficientemente seguro, a falta de companhia, as limitações físicas e o medo de se lesionar."
+  },
+  {
+   "id": "https://openalex.org/W3019520523",
+   "doi": "https://doi.org/10.5216/ree.v21.53278",
+   "title": "Aplicativos móveis em saúde: caracterização da produção científica da enfermagem brasileira",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "Revista Eletrônica de Enfermagem",
+   "authorships": [
+    "Camila Santos Pires Lima",
+    "Sayonara de Fátima Faria Barbosa"
+   ],
+   "biblio": {
+    "volume": "21",
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "O uso de dispositivos móveis por enfermeiros é crescente na área da saúde. Estudo bibliométrico que identificou o desenvolvimento de aplicativos móveis na produção científica brasileira stricto sensu na enfermagem por meio de buscas no Catálogo de teses e dissertações da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Amostra com 24 estudos, sendo 19 dissertações de mestrado e 5 teses de doutorado. Temas variados, com predominância de estudos em terapia intensiva, saúde do adulto e idoso e ainda sistematização da assistência de enfermagem. Das produções, 16 (66,7%) tiveram foco assistencial, seis (25%) com foco educacional e duas (8,3%) com foco na gestão. Foi possível identificar que a enfermagem brasileira está avançando cientificamente no campo da tecnologia móvel e apropriando-se desse recurso para produzir aplicativos que trazem resultados que fortalecem a prática assistencial, a educação e a gestão em saúde, apesar de escasso em relação ao contexto de produção internacional."
+  },
+  {
+   "id": "https://openalex.org/W4385641915",
+   "doi": "https://doi.org/10.1590/1980-53575326cdmm",
+   "title": "A atuação de nutricionistas no PNAE e seus efeitos sobre o desempenho escolar",
+   "publication_year": 2023,
+   "type": "article",
+   "source": "Estudos Econômicos (São Paulo)",
+   "authorships": [
+    "Caroline de Deus",
+    "Maria Micheliana da Costa Silva"
+   ],
+   "biblio": {
+    "volume": "53",
+    "issue": "2",
+    "first_page": "411",
+    "last_page": "455"
+   },
+   "abstract": "Resumo A insegurança alimentar pode ser prejudicial ao desenvolvimento intelectual infantil, influenciando de forma negativa o desempenho escolar. Uma das maneiras de atenuá-la é por meio da alimentação escolar. Nesse sentido, este estudo analisou o efeito da atuação dos profissionais de nutrição nas escolas do Programa Nacional de Alimentação Escolar ( PNAE), como forma de promover a alimentação saudável, sobre o desempenho escolar, medido pelas notas de proficiência dos alunos do 5º ano no exame do SAEB (Sistema de Avaliação da Educação Básica) de 2019. Para tanto, utilizou-se a abordagem do Local Average Treatment Effects (LATE), uma vez que há endogeneidade no componente do programa. Os resultados foram positivos, evidenciando que a atuação de nutricionistas como responsáveis técnicos do programa aumenta, em média, 12,3 e 36,84 pontos as notas nos testes de português e matemática, respectivamente. As evidências encontradas mostram a importância do PNAE e do papel do nutricionista no desempenho escolar, já que a inserção desse profissional promove uma alimentação escolar saudável e essa pode contribuir para o desenvolvimento cognitivo infantil. Destaca-se o maior impacto da atuação dos nutricionistas do PNAE em alunos com nível socioeconômico mais baixo, sugerindo que ela gerou maior ganho para classe socioeconômica com alunos mais vulneráveis."
+  },
+  {
+   "id": "https://openalex.org/W2992551889",
+   "doi": "https://doi.org/10.1590/0104-4060.66134",
+   "title": "Socialização, profissionalização e trabalho de professores iniciantes",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "Educar em Revista",
+   "authorships": [
+    "Maria Isabel de Almeida",
+    "Selma Garrido Pimenta",
+    "José Cerchi Fusari"
+   ],
+   "biblio": {
+    "volume": "35",
+    "issue": "78",
+    "first_page": "187",
+    "last_page": "206"
+   },
+   "abstract": "RESUMO O presente artigo tem como ponto de partida a indagação acerca de como os modos de inserção profissional de professores iniciantes repercutem na vida desses profissionais. Para buscar respostas a essa indagação, investigou-se as formas como se processa a inserção de licenciados egressos de uma universidade pública como professores nos sistemas escolares públicos do estado de São Paulo. Foram entrevistados 20 professores iniciantes, de distintas áreas de conhecimento que estavam atuando em escolas públicas nos primeiros cinco anos após a formatura. Tomou-se como categorias de análise socialização profissional, profissionalização docente e trabalho docente. O texto busca compreender as formas de ingresso no magistério, o aprender da profissão, relação com os parceiros de trabalho, formas de aproximação com o ambiente profissional, inserção em escolas do sistema público, condições de exercício da docência, motivação para ingresso e permanência na profissão, dificuldades e expectativas quanto ao futuro profissional. Os dados qualitativos, obtidos nas entrevistas semiestruturadas, foram analisados na confluência com a literatura sobre o tema e à luz da concepção crítico-dialética, o que permitiu evidenciar a complexidade e as contradições dos processos de socialização e profissionalização, bem como do trabalho docente."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

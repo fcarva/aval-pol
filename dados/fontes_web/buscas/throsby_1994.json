@@ -1,0 +1,237 @@
+{
+ "id": "throsby_1994",
+ "consulta": "Throsby The production and consumption of the arts a view of cultural economics 1994",
+ "coletado_utc": "2026-09-24T00:27:57Z",
+ "crossref": [
+  {
+   "doi": "10.1007/978-94-011-1140-9_6",
+   "title": [
+    "A Work-Preference Model of Artist Behaviour"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Throsby"
+   ],
+   "container_title": [
+    "Cultural Economics And Cultural Policies"
+   ],
+   "publisher": "Springer Netherlands",
+   "issued": [
+    [
+     1994
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "69-80",
+   "isbn": [
+    "9789401044998",
+    "9789401111409"
+   ],
+   "score": 37.39381
+  },
+  {
+   "doi": "10.1007/bf01080230",
+   "title": [
+    "Book review"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Throsby"
+   ],
+   "container_title": [
+    "Journal of Cultural Economics"
+   ],
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     1994
+    ]
+   ],
+   "volume": "18",
+   "issue": "3",
+   "page": "251-253",
+   "isbn": null,
+   "score": 35.11383
+  },
+  {
+   "doi": "10.1007/978-94-011-1140-9_12",
+   "title": [
+    "The Design and Operation of Public Funding of the Arts: An Economist’s View"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Peacock"
+   ],
+   "container_title": [
+    "Cultural Economics And Cultural Policies"
+   ],
+   "publisher": "Springer Netherlands",
+   "issued": [
+    [
+     1994
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "167-184",
+   "isbn": [
+    "9789401044998",
+    "9789401111409"
+   ],
+   "score": 35.007843
+  },
+  {
+   "doi": "10.1023/b:jcec.0000038056.05044.32",
+   "title": [
+    "Hans Abbing, Why Are Artists Poor? The Exceptional Economy of the Arts"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Throsby"
+   ],
+   "container_title": [
+    "Journal of Cultural Economics"
+   ],
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2004,
+     8
+    ]
+   ],
+   "volume": "28",
+   "issue": "3",
+   "page": "239-241",
+   "isbn": null,
+   "score": 34.560093
+  },
+  {
+   "doi": "10.4337/9780857930576.00029",
+   "title": [
+    "Cultural Statistics"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Throsby"
+   ],
+   "container_title": [
+    "A Handbook of Cultural Economics, Second Edition"
+   ],
+   "publisher": "Edward Elgar Publishing",
+   "issued": [
+    [
+     2011,
+     6,
+     30
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": [
+    "9780857930576",
+    "9781848448872"
+   ],
+   "score": 33.56553
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W1487748043",
+   "doi": "https://doi.org/10.1080/10286630500067739",
+   "title": "Cultural industries and public policy",
+   "publication_year": 2005,
+   "type": "article",
+   "source": "International Journal of Cultural Policy",
+   "authorships": [
+    "Andy C. Pratt"
+   ],
+   "biblio": {
+    "volume": "11",
+    "issue": "1",
+    "first_page": "31",
+    "last_page": "44"
+   },
+   "abstract": "This article re‐imagines the space of the cultural industries and their governance. It is divided into three parts. In the first, questions of definition are reviewed. In the second part, cultural policies (and by default cultural industries policies) are examined in order to disclose the key concepts of culture that they are based upon. The final section, on governance, develops an argument that seeks to open up a space where the hybrid nature of cultural production can be addressed by policy."
+  },
+  {
+   "id": "https://openalex.org/W2765084630",
+   "doi": "https://doi.org/10.3390/su9101882",
+   "title": "The Role of Cultural Heritage in Sustainable Development: Multidimensional Indicators as Decision-Making Tool",
+   "publication_year": 2017,
+   "type": "article",
+   "source": "Sustainability",
+   "authorships": [
+    "Francesca Nocca"
+   ],
+   "biblio": {
+    "volume": "9",
+    "issue": "10",
+    "first_page": "1882",
+    "last_page": "1882"
+   },
+   "abstract": "The concept of sustainable development has been the main topic of many international conferences. Although many discussions are related to the role of cultural heritage in sustainable development, they develop only on theoretical level. The answer to the main question, that is if the cultural landscape can play a role in sustainable development, could be positive only if we are able to produce empirical evidence about its contribution to improve economic, social, and environmental productivity of the city. It is necessary to produce empirical evidence to demonstrate that cultural heritage conservation/valorization is an investment and not a cost. To date, there are few researches about the indicators that are able to support the relationship between cultural heritage conservation/regeneration and sustainable development. This paper intends to go beyond this limit and approach this issue in operational terms. It is focused on the role that cultural heritage can play in the sustainable development framework. An assessment framework that is able to capture the multidimensional benefits of cultural landscape conservation/valorization is proposed here starting from the analysis of 40 case studies of culture-led regeneration projects. A matrix of multidimensional indicators (divided into nine categories) about the impacts produced by these 40 cultural heritage conservation/valorization projects and its critical analysis is here proposed, mainly focusing the attention on the double relationship between the tourism sector and climate change. Although the analyses often refer to sustainability, it is not concretely addressed because there is an imbalance among the dimensions: in most cases, only the economic component is highlighted, leaving out the social and environmental dimensions. Furthermore, the impacts related to cultural-led projects are mainly interpreted in terms of tourism and real estate impacts."
+  },
+  {
+   "id": "https://openalex.org/W2121608839",
+   "doi": "https://doi.org/10.59656/a-ad4919.001",
+   "title": "A New Framework for Building Participation in the Arts",
+   "publication_year": 2001,
+   "type": "report",
+   "source": null,
+   "authorships": [
+    "Kevin Finbarr McCarthy",
+    "Kimberly Jinnett"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "RAND’s landmark study explores why people become involved in the arts and how arts organizations can influence their participation."
+  },
+  {
+   "id": "https://openalex.org/W2028341402",
+   "doi": "https://doi.org/10.1007/s10290-009-0030-5",
+   "title": "Bilateral trade of cultural goods",
+   "publication_year": 2009,
+   "type": "article",
+   "source": "HAL (Le Centre pour la Communication Scientifique Directe)",
+   "authorships": [
+    "Anne‐Célia Disdier",
+    "Sílvio Hong Tiing Tai",
+    "Lionel Fontagné",
+    "Thierry Mayer"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W4301722560",
+   "doi": "https://doi.org/10.26530/oapen_459486",
+   "title": "Re-Visioning Arts and Cultural Policy: Current Impasses and Future Directions",
+   "publication_year": 2007,
+   "type": "book",
+   "source": "ANU Press eBooks",
+   "authorships": [
+    "Jennifer Craik"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "In this monograph, Jennifer Craik undertakes a critical and historical analysis of the main imperatives of arts and cultural policy in Australia. With forensic skill she examines the financial and policy instruments commonly relied upon in this much contested and diverse area of public policy. Craik uses her analysis of past and current policy responses as a platform for articulating future options. This is a valuable work for cultural professionals and administrators, art historians and, indeed, anyone with an abiding interest in the management of the nation’s cultural estate."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

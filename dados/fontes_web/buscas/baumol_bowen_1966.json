@@ -1,0 +1,232 @@
+{
+ "id": "baumol_bowen_1966",
+ "consulta": "Baumol Bowen Performing arts the economic dilemma 1966 Twentieth Century Fund",
+ "coletado_utc": "2026-09-24T00:27:53Z",
+ "crossref": [
+  {
+   "doi": "10.1017/s0770451800055287",
+   "title": [
+    "W.J. Baumol and W.G. Bowen Performing Arts. The Economic Dilemma. A study of Problems common to Theater, Opera, Music and Dance. New York, The Twentieth Century Fund, 1966, XVI p. 582 p.,$ 7.50."
+   ],
+   "type": "journal-article",
+   "author": [],
+   "container_title": [
+    "Recherches économiques de Louvain"
+   ],
+   "publisher": "CAIRN",
+   "issued": [
+    [
+     1971,
+     10
+    ]
+   ],
+   "volume": "37",
+   "issue": "3",
+   "page": "232-232",
+   "isbn": null,
+   "score": 61.84207
+  },
+  {
+   "doi": "10.2307/2552173",
+   "title": [
+    "Performing Arts: The Economic Dilemma."
+   ],
+   "type": "journal-article",
+   "author": [
+    "Peacock",
+    "Baumol",
+    "Bowen"
+   ],
+   "container_title": [
+    "Economica"
+   ],
+   "publisher": "JSTOR",
+   "issued": [
+    [
+     1968,
+     2
+    ]
+   ],
+   "volume": "35",
+   "issue": "137",
+   "page": "100",
+   "isbn": null,
+   "score": 54.512234
+  },
+  {
+   "doi": "10.2307/2923329",
+   "title": [
+    "Performing Arts: The Economic Dilemma"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Moody",
+    "Baumol",
+    "Bowen"
+   ],
+   "container_title": [
+    "American Literature"
+   ],
+   "publisher": "JSTOR",
+   "issued": [
+    [
+     1967,
+     11
+    ]
+   ],
+   "volume": "39",
+   "issue": "3",
+   "page": "432",
+   "isbn": null,
+   "score": 53.95011
+  },
+  {
+   "doi": "10.2307/3205259",
+   "title": [
+    "Performing Arts: The Economic Dilemma"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Hobgood",
+    "Baumol",
+    "Bowen"
+   ],
+   "container_title": [
+    "Educational Theatre Journal"
+   ],
+   "publisher": "JSTOR",
+   "issued": [
+    [
+     1967,
+     10
+    ]
+   ],
+   "volume": "19",
+   "issue": "3",
+   "page": "408",
+   "isbn": null,
+   "score": 51.823986
+  },
+  {
+   "doi": "10.2307/836438",
+   "title": [
+    "The Performing Arts: The Economic Dilemma"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Kristl",
+    "Baumol",
+    "Bowen"
+   ],
+   "container_title": [
+    "International Review of the Aesthetics and Sociology of Music"
+   ],
+   "publisher": "Croatian Academy of Sciences and Arts",
+   "issued": [
+    [
+     1973,
+     6
+    ]
+   ],
+   "volume": "4",
+   "issue": "1",
+   "page": "137",
+   "isbn": null,
+   "score": 45.060883
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W4296072779",
+   "doi": "https://doi.org/10.1017/s0770451800055287",
+   "title": "W.J. Baumol and W.G. Bowen Performing Arts. The Economic Dilemma. A study of Problems common to Theater, Opera, Music and Dance. New York, The Twentieth Century Fund, 1966, XVI p. 582 p.,$ 7.50.",
+   "publication_year": 1971,
+   "type": "article",
+   "source": "Recherches économiques de Louvain",
+   "authorships": [],
+   "biblio": {
+    "volume": "37",
+    "issue": "3",
+    "first_page": "232",
+    "last_page": "232"
+   },
+   "abstract": "W.J. Baumol and W.G. Bowen Performing Arts. The Economic Dilemma. A study of Problems common to Theater, Opera, Music and Dance. New York, The Twentieth Century Fund, 1966, XVI p. 582 p.,$ 7.50. - Volume 37 Issue 3"
+  },
+  {
+   "id": "https://openalex.org/W118400120",
+   "doi": "https://doi.org/10.2307/796089",
+   "title": "The Role of Nonprofit Enterprise",
+   "publication_year": 1980,
+   "type": "article",
+   "source": "The Yale Law Journal",
+   "authorships": [
+    "Henry B. Hansmann"
+   ],
+   "biblio": {
+    "volume": "89",
+    "issue": "5",
+    "first_page": "835",
+    "last_page": "835"
+   },
+   "abstract": "Private nonprofit institutions account for a sizable and growing share of our nation's economic activity. The sectors in which these institutions are most common-education, research, health care, the media, and the arts-are vital elements in the modern economy. Moreover, these are sectors that present particularly pressing and difficult problems of public policy. The existing literature in law and economics, however, has largely overlooked nonprofit institutions; while we are reasonably well supplied with positive and normative perspectives on both profit-seeking and governmental organizations, to date there has been extraordinarily little effort to understand the role of nonprofits."
+  },
+  {
+   "id": "https://openalex.org/W162845786",
+   "doi": "https://doi.org/10.2139/ssrn.895099",
+   "title": "Attendance and Public Participation in the Performing Arts: A Review of the Empirical Literature",
+   "publication_year": 2006,
+   "type": "preprint",
+   "source": "SSRN Electronic Journal",
+   "authorships": [
+    "Bruce Alan Seaman"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W2626873431",
+   "doi": "https://doi.org/10.6082/apse1-fmm97",
+   "title": "Arts Education in America: What the declines mean for arts participation",
+   "publication_year": 2011,
+   "type": "article",
+   "source": "Knowledge@UChicago (University of Chicago)",
+   "authorships": [
+    "Nick Rabkin",
+    "E. C. Hedberg"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "57"
+   },
+   "abstract": "In June 2009, the Cultural Policy Center and NORC were awarded two of five competitive research grants from the National Endowment for the Arts to examine and interpret data from the 2008 Survey of Public Participation in the Arts and previous SPPA surveys (1982, 1992, 2002). Nick Rabkin headed a project investigating the relationship among arts learning (both past and current), overall educational attainment, and all forms of arts participation. Vince Welch, a senior statistician at NORC, headed the project on \"Race, Ethnicity, and Arts Participation.\" The projects resulted in monographs that speak to a broad group of scholars and cultural practitioners. Rabkin's monograph, co-authored with E.C. Hedberg and published in February 2011, received attention in the Los Angeles Times and was cited in a report by the President's Committee on the Arts and the Humanities titled \"Reinvesting in Arts Education.\""
+  },
+  {
+   "id": "https://openalex.org/W2989726834",
+   "doi": "https://doi.org/10.1007/s00191-019-00649-4",
+   "title": "The rise of the “service economy” in the second half of the twentieth century and its energetic contingencies",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "Journal of Evolutionary Economics",
+   "authorships": [
+    "Ulrich Witt",
+    "C. J. Gross"
+   ],
+   "biblio": {
+    "volume": "30",
+    "issue": "2",
+    "first_page": "231",
+    "last_page": "246"
+   },
+   "abstract": "Abstract The characteristic of the “service economy” is the rise to dominance of the service sector in terms of employment and value added shares. We track this rise during the second half of the twentieth century for the U.S., more precisely the period from 1970 to 2005. Following seminal work by Baumol (1967) the rise is often attributed to growing productivity differentials between the economic sectors. The causes of the productivity differentials are, however, controversial. Inspired by Georgescu-Roegen’s (1971) evolutionary approach to production theory, the present paper explores whether differences in the energetic features of the sectors’ production technologies contribute to the growing sectorial productivity differentials. For the data for our period of analysis it turns out that a close relationship indeed exists between the sectors’ incentives for substituting relatively cheap energy for ever more expensive labor and their labor productivity gains. In highly energy-dependent sectors an increasing energy/labor ratio has been driving productivity growth while this was not the case in the service sector. The paper closes with a short discussion of what the finding may imply for the future of the service economy."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/jel.48.2.281",
+ "coletado_utc": "2026-09-24T00:27:23Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Regression Discontinuity Designs in Economics"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "David S",
+    "family": "Lee",
+    "name": null
+   },
+   {
+    "given": "Thomas",
+    "family": "Lemieux",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Literature"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "48",
+  "issue": "2",
+  "page": "281-355",
+  "article_number": null,
+  "issued": [
+   [
+    2010,
+    6,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2010,
+    6,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/jel.48.2.281",
+  "abstract": "<jats:p>This paper provides an introduction and “user guide” to Regression Discontinuity (RD) designs for empirical researchers. It presents the basic theory behind the research design, details when RD is likely to be valid or invalid given economic incentives, explains why it is considered a “quasi-experimental” design, and summarizes different ways (with their advantages and disadvantages) of estimating RD designs and the limitations of interpreting these estimates. Concepts are discussed using examples drawn from the growing body of empirical research using RD. (JEL C21, C31)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3121492802",
+  "title": "Regression Discontinuity Designs in Economics",
+  "publication_year": 2010,
+  "type": "article",
+  "source": "Journal of Economic Literature",
+  "landing_page_url": "https://doi.org/10.1257/jel.48.2.281",
+  "authorships": [
+   "David Stephen Lee",
+   "Thomas Lemieux"
+  ],
+  "biblio": {
+   "volume": "48",
+   "issue": "2",
+   "first_page": "281",
+   "last_page": "355"
+  },
+  "cited_by_count": 66,
+  "abstract": "This paper provides an introduction and “user guide” to Regression Discontinuity (RD) designs for empirical researchers. It presents the basic theory behind the research design, details when RD is likely to be valid or invalid given economic incentives, explains why it is considered a “quasi-experimental” design, and summarizes different ways (with their advantages and disadvantages) of estimating RD designs and the limitations of interpreting these estimates. Concepts are discussed using examples drawn from the growing body of empirical research using RD. (JEL C21, C31)"
+ }
+}

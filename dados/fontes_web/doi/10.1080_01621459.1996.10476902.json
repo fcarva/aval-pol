@@ -1,0 +1,75 @@
+{
+ "doi": "10.1080/01621459.1996.10476902",
+ "coletado_utc": "2026-09-24T00:26:51Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Identification of Causal Effects Using Instrumental Variables"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Joshua D.",
+    "family": "Angrist",
+    "name": null
+   },
+   {
+    "given": "Guido W.",
+    "family": "Imbens",
+    "name": null
+   },
+   {
+    "given": "Donald B.",
+    "family": "Rubin",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of the American Statistical Association"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "91",
+  "issue": "434",
+  "page": "444-455",
+  "article_number": null,
+  "issued": [
+   [
+    1996,
+    6
+   ]
+  ],
+  "published_print": [
+   [
+    1996,
+    6
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1080/01621459.1996.10476902",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3124658416",
+  "title": "Identification of Causal Effects Using Instrumental Variables",
+  "publication_year": 1996,
+  "type": "article",
+  "source": "Journal of the American Statistical Association",
+  "landing_page_url": "https://doi.org/10.1080/01621459.1996.10476902",
+  "authorships": [
+   "Joshua D. Angrist",
+   "Guido W. Imbens",
+   "Donald B. Rubin"
+  ],
+  "biblio": {
+   "volume": "91",
+   "issue": "434",
+   "first_page": "444",
+   "last_page": "455"
+  },
+  "cited_by_count": 4281,
+  "abstract": "We outline a framework for causal inference in settings where assignment to a binary treatment is ignorable, but compliance with the assignment is not perfect so that the receipt of treatment is nonignorable. To address the problems associated with comparing subjects by the ignorable assignment—an “intention-to-treat analysis”—we make use of instrumental variables, which have long been used by economists in the context of regression models with constant treatment effects. We show that the instrumental variables (IV) estimand can be embedded within the Rubin Causal Model (RCM) and that under some simple and easily interpretable assumptions, the IV estimand is the average causal effect for a subgroup of units, the compliers. Without these assumptions, the IV estimand is simply the ratio of intention-to-treat causal estimands with no interpretation as an average causal effect. The advantages of embedding the IV approach in the RCM are that it clarifies the nature of critical assumptions needed for a causal interpretation, and moreover allows us to consider sensitivity of the results to deviations from key assumptions in a straightforward manner. We apply our analysis to estimate the effect of veteran status in the Vietnam era on mortality, using the lottery number that assigned priority for the draft as an instrument, and we use our results to investigate the sensitivity of the conclusions to critical assumptions."
+ }
+}

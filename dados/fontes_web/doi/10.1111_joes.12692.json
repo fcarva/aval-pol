@@ -1,0 +1,76 @@
+{
+ "doi": "10.1111/joes.12692",
+ "coletado_utc": "2026-09-24T00:27:07Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Identification of Spatial Spillovers: Do's and Don'ts"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Nicolas",
+    "family": "Debarsy",
+    "name": null
+   },
+   {
+    "given": "Julie",
+    "family": "Le Gallo",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Surveys"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "39",
+  "issue": "5",
+  "page": "2152-2173",
+  "article_number": null,
+  "issued": [
+   [
+    2025,
+    3,
+    11
+   ]
+  ],
+  "published_print": [
+   [
+    2025,
+    12
+   ]
+  ],
+  "published_online": [
+   [
+    2025,
+    3,
+    11
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/joes.12692",
+  "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The notion of spatial spillovers has been widely used in applied spatial econometrics. In this paper, we consider how they can be identified in both structural and causal reduced‐form models. First, discussing the various threats to identification in structural models, we point out that the typical estimation framework proposed in the applied spatial econometric literature boils down to considering spatial spillovers as a side‐effect of a data‐driven chosen specification. We also discuss the limits of blindly relying on interaction matrices purely based on geography to identify the source and content of spillovers. Then, we present reduced forms impact evaluation models for spatial data and show that the current spatial versions of usual impact evaluation models are not fully satisfactory when considering the identification issue. Finally, we propose a set of recommendations for applied articles aimed at identifying spatial spillovers.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4408382175",
+  "title": "Identification of Spatial Spillovers: Do's and Don'ts",
+  "publication_year": 2025,
+  "type": "article",
+  "source": "Journal of Economic Surveys",
+  "landing_page_url": "https://doi.org/10.1111/joes.12692",
+  "authorships": [
+   "Nicolas Debarsy",
+   "Julie Le Gallo"
+  ],
+  "biblio": {
+   "volume": "39",
+   "issue": "5",
+   "first_page": "2152",
+   "last_page": "2173"
+  },
+  "cited_by_count": 21,
+  "abstract": "ABSTRACT The notion of spatial spillovers has been widely used in applied spatial econometrics. In this paper, we consider how they can be identified in both structural and causal reduced‐form models. First, discussing the various threats to identification in structural models, we point out that the typical estimation framework proposed in the applied spatial econometric literature boils down to considering spatial spillovers as a side‐effect of a data‐driven chosen specification. We also discuss the limits of blindly relying on interaction matrices purely based on geography to identify the source and content of spillovers. Then, we present reduced forms impact evaluation models for spatial data and show that the current spatial versions of usual impact evaluation models are not fully satisfactory when considering the identification issue. Finally, we propose a set of recommendations for applied articles aimed at identifying spatial spillovers."
+ }
+}

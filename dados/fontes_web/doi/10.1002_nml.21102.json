@@ -1,0 +1,84 @@
+{
+ "doi": "10.1002/nml.21102",
+ "coletado_utc": "2026-09-24T00:26:28Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Crowding-Out and Fundraising Efforts"
+  ],
+  "subtitle": [
+   "The Impact of Government Grants on Symphony Orchestras"
+  ],
+  "author": [
+   {
+    "given": "Patricia",
+    "family": "Hughes",
+    "name": null
+   },
+   {
+    "given": "William",
+    "family": "Luksetich",
+    "name": null
+   },
+   {
+    "given": "Patrick",
+    "family": "Rooney",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Nonprofit Management and Leadership"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "24",
+  "issue": "4",
+  "page": "445-464",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    4,
+    17
+   ]
+  ],
+  "published_print": [
+   [
+    2014,
+    6
+   ]
+  ],
+  "published_online": [
+   [
+    2014,
+    4,
+    17
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1002/nml.21102",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1543813559",
+  "title": "Crowding-Out and Fundraising Efforts",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "Nonprofit Management and Leadership",
+  "landing_page_url": "https://doi.org/10.1002/nml.21102",
+  "authorships": [
+   "Patricia Hughes",
+   "William A. Luksetich",
+   "Patrick Michael Rooney"
+  ],
+  "biblio": {
+   "volume": "24",
+   "issue": "4",
+   "first_page": "445",
+   "last_page": "464"
+  },
+  "cited_by_count": 35,
+  "abstract": "The crowding-out of private donations by government grants is an integral element in designing an efficient method of financing nonprofit activity. This article looks at elements of crowd-out, both the direct impact on donors and the indirect impact caused by the response of nonprofits. We include both theoretical and empirical analyses of the reactions by donors and nonprofits to an increase in government funding based on data from the League of American Orchestras’ annual reports from 2004 to 2007. To combat indirect crowd-out, renewed emphasis should be placed on grant design; for direct crowd-out, theories of collective action are appropriate."
+ }
+}

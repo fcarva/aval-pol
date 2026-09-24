@@ -1,0 +1,77 @@
+{
+ "doi": "10.1111/ectj.12107",
+ "coletado_utc": "2026-09-24T00:27:01Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The wild bootstrap for few (treated) clusters"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "James G.",
+    "family": "MacKinnon",
+    "name": null
+   },
+   {
+    "given": "Matthew D.",
+    "family": "Webb",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Econometrics Journal"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "21",
+  "issue": "2",
+  "page": "114-135",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    5,
+    6
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    6,
+    1
+   ]
+  ],
+  "published_online": [
+   [
+    2018,
+    5,
+    6
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/ectj.12107",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2770073130",
+  "title": "The wild bootstrap for few (treated) clusters",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "Econometrics Journal",
+  "landing_page_url": "https://doi.org/10.1111/ectj.12107",
+  "authorships": [
+   "James G. MacKinnon",
+   "Matthew D. Webb"
+  ],
+  "biblio": {
+   "volume": "21",
+   "issue": "2",
+   "first_page": "114",
+   "last_page": "135"
+  },
+  "cited_by_count": 285,
+  "abstract": "Inference based on cluster‐robust standard errors in linear regression models, using either the Student's t‐distribution or the wild cluster bootstrap, is known to fail when the number of treated clusters is very small. We propose a family of new procedures called the subcluster wild bootstrap, which includes the ordinary wild bootstrap as a limiting case. In the case of pure treatment models, where all observations within clusters are either treated or not, the latter procedure can work remarkably well. The key requirement is that all cluster sizes, regardless of treatment, should be similar. Unfortunately, the analogue of this requirement is not likely to hold for difference‐in‐differences regressions. Our theoretical results are supported by extensive simulations and an empirical example."
+ }
+}

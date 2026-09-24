@@ -1,0 +1,69 @@
+{
+ "doi": "10.1016/j.jeconom.2020.12.001",
+ "coletado_utc": "2026-09-24T00:26:41Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Difference-in-Differences with multiple time periods"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Brantly",
+    "family": "Callaway",
+    "name": null
+   },
+   {
+    "given": "Pedro H.C.",
+    "family": "Sant’Anna",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Econometrics"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "225",
+  "issue": "2",
+  "page": "200-230",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2021,
+    12
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.jeconom.2020.12.001",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3113269512",
+  "title": "Difference-in-Differences with multiple time periods",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Journal of Econometrics",
+  "landing_page_url": "https://doi.org/10.1016/j.jeconom.2020.12.001",
+  "authorships": [
+   "Brantly Callaway",
+   "Pedro H. C. Sant’Anna"
+  ],
+  "biblio": {
+   "volume": "225",
+   "issue": "2",
+   "first_page": "200",
+   "last_page": "230"
+  },
+  "cited_by_count": 1420,
+  "abstract": ""
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "doi": "10.1257/jel.20191450",
+ "coletado_utc": "2026-09-24T00:27:22Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Alberto",
+    "family": "Abadie",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Literature"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "59",
+  "issue": "2",
+  "page": "391-425",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    6,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2021,
+    6,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/jel.20191450",
+  "abstract": "<jats:p>Probably because of their interpretability and transparent nature, synthetic controls have become widely applied in empirical research in economics and the social sciences. This article aims to provide practical guidance to researchers employing synthetic control methods. The article starts with an overview and an introduction to synthetic control estimation. The main sections discuss the advantages of the synthetic control framework as a research design, and describe the settings where synthetic controls provide reliable estimates and those where they may fail. The article closes with a discussion of recent extensions, related methods, and avenues for future research. (JEL B41, C32, C54, E23, F15, O47)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3169407454",
+  "title": "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Journal of Economic Literature",
+  "landing_page_url": "https://doi.org/10.1257/jel.20191450",
+  "authorships": [
+   "Alberto Abadie"
+  ],
+  "biblio": {
+   "volume": "59",
+   "issue": "2",
+   "first_page": "391",
+   "last_page": "425"
+  },
+  "cited_by_count": 1499,
+  "abstract": "Probably because of their interpretability and transparent nature, synthetic controls have become widely applied in empirical research in economics and the social sciences. This article aims to provide practical guidance to researchers employing synthetic control methods. The article starts with an overview and an introduction to synthetic control estimation. The main sections discuss the advantages of the synthetic control framework as a research design, and describe the settings where synthetic controls provide reliable estimates and those where they may fail. The article closes with a discussion of recent extensions, related methods, and avenues for future research. (JEL B41, C32, C54, E23, F15, O47)"
+ }
+}

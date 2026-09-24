@@ -1,0 +1,82 @@
+{
+ "doi": "10.1111/jors.12485",
+ "coletado_utc": "2026-09-24T00:27:08Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The economic effects of big events: Evidence from the great jubilee 2000 in Rome"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Raffaello",
+    "family": "Bronzini",
+    "name": null
+   },
+   {
+    "given": "Sauro",
+    "family": "Mocetti",
+    "name": null
+   },
+   {
+    "given": "Matteo",
+    "family": "Mongardini",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Regional Science"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "60",
+  "issue": "4",
+  "page": "801-822",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    2,
+    4
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    9
+   ]
+  ],
+  "published_online": [
+   [
+    2020,
+    2,
+    4
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/jors.12485",
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>This paper assesses the short‐ and long‐term economic impact of the 2000 Great Jubilee, the foremost Catholic event occurring every 25 years, on the city of Rome's economy. By applying the synthetic control approach, we find that the value added per capita increases slightly in the short term, whereas in the long term it is not significantly different from what it would have been if Rome had not hosted the Jubilee. However, we do find a significant effect on the employment rate. Consistent with these findings, we document a shift of the local economy toward less productive sectors, such as construction and services requiring lower skills, and an overall productivity loss with respect to the counterfactual scenario. The investment in infrastructure, facilities, and urban refurbishment did not significantly increase housing prices in the long term, with the exception of peripheral residential areas, which experienced an appreciation.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2924030054",
+  "title": "The economic effects of big events: Evidence from the great jubilee 2000 in Rome",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Journal of Regional Science",
+  "landing_page_url": "https://doi.org/10.1111/jors.12485",
+  "authorships": [
+   "Raffaello Bronzini",
+   "Sauro Mocetti",
+   "Matteo Mongardini"
+  ],
+  "biblio": {
+   "volume": "60",
+   "issue": "4",
+   "first_page": "801",
+   "last_page": "822"
+  },
+  "cited_by_count": 41,
+  "abstract": "Abstract This paper assesses the short‐ and long‐term economic impact of the 2000 Great Jubilee, the foremost Catholic event occurring every 25 years, on the city of Rome's economy. By applying the synthetic control approach, we find that the value added per capita increases slightly in the short term, whereas in the long term it is not significantly different from what it would have been if Rome had not hosted the Jubilee. However, we do find a significant effect on the employment rate. Consistent with these findings, we document a shift of the local economy toward less productive sectors, such as construction and services requiring lower skills, and an overall productivity loss with respect to the counterfactual scenario. The investment in infrastructure, facilities, and urban refurbishment did not significantly increase housing prices in the long term, with the exception of peripheral residential areas, which experienced an appreciation."
+ }
+}

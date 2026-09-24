@@ -1,0 +1,70 @@
+{
+ "doi": "10.1111/coep.12443",
+ "coletado_utc": "2026-09-24T00:27:01Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "DO MOVIE PRODUCTION INCENTIVES GENERATE ECONOMIC DEVELOPMENT?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "John Charles",
+    "family": "Bradbury",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Contemporary Economic Policy"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "38",
+  "issue": "2",
+  "page": "327-342",
+  "article_number": null,
+  "issued": [
+   [
+    2019,
+    8,
+    22
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    4
+   ]
+  ],
+  "published_online": [
+   [
+    2019,
+    8,
+    22
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/coep.12443",
+  "abstract": "<jats:p>Movie production incentives (MPIs) are a popular economic development strategy employed by U.S. states. Film subsidies are intended to encourage external investment into a nascent industry that spills over onto complementary industries to generate economic growth through a multiplier. Despite their widespread use, the positive impact of MPIs on state economies has not been documented, and several states have halted their MPI programs due to high costs and questionable efficacy. This study exploits the staggered implementation, suspension, and elimination of film incentive programs across states to estimate the macroeconomic impact of MPIs. Instrumental variable estimates that permit causal inference do not support the hypothesized positive impacts of film incentives on state economies. (<jats:italic>JEL</jats:italic> H25, H71, L82, R11, R38, Z11, Z18)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2895042396",
+  "title": "DO MOVIE PRODUCTION INCENTIVES GENERATE ECONOMIC DEVELOPMENT?",
+  "publication_year": 2019,
+  "type": "article",
+  "source": "Contemporary Economic Policy",
+  "landing_page_url": "https://doi.org/10.1111/coep.12443",
+  "authorships": [
+   "John Charles Bradbury"
+  ],
+  "biblio": {
+   "volume": "38",
+   "issue": "2",
+   "first_page": "327",
+   "last_page": "342"
+  },
+  "cited_by_count": 13,
+  "abstract": "Movie production incentives (MPIs) are a popular economic development strategy employed by U.S. states. Film subsidies are intended to encourage external investment into a nascent industry that spills over onto complementary industries to generate economic growth through a multiplier. Despite their widespread use, the positive impact of MPIs on state economies has not been documented, and several states have halted their MPI programs due to high costs and questionable efficacy. This study exploits the staggered implementation, suspension, and elimination of film incentive programs across states to estimate the macroeconomic impact of MPIs. Instrumental variable estimates that permit causal inference do not support the hypothesized positive impacts of film incentives on state economies. (JEL H25, H71, L82, R11, R38, Z11, Z18)"
+ }
+}

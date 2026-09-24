@@ -1,0 +1,63 @@
+{
+ "doi": "10.1016/j.jeconom.2007.05.005",
+ "coletado_utc": "2026-09-24T00:26:37Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Manipulation of the running variable in the regression discontinuity design: A density test"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Justin",
+    "family": "McCrary",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Econometrics"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "volume": "142",
+  "issue": "2",
+  "page": "698-714",
+  "article_number": null,
+  "issued": [
+   [
+    2008,
+    2
+   ]
+  ],
+  "published_print": [
+   [
+    2008,
+    2
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.jeconom.2007.05.005",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3123265974",
+  "title": "Manipulation of the running variable in the regression discontinuity design: A density test",
+  "publication_year": 2007,
+  "type": "article",
+  "source": "Journal of Econometrics",
+  "landing_page_url": "https://doi.org/10.1016/j.jeconom.2007.05.005",
+  "authorships": [
+   "Justin McCrary"
+  ],
+  "biblio": {
+   "volume": "142",
+   "issue": "2",
+   "first_page": "698",
+   "last_page": "714"
+  },
+  "cited_by_count": 4,
+  "abstract": ""
+ }
+}

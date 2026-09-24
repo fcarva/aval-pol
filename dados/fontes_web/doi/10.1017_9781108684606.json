@@ -1,0 +1,86 @@
+{
+ "doi": "10.1017/9781108684606",
+ "coletado_utc": "2026-09-24T00:26:48Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "A Practical Introduction to Regression Discontinuity Designs"
+  ],
+  "subtitle": [
+   "Foundations"
+  ],
+  "author": [
+   {
+    "given": "Matias D.",
+    "family": "Cattaneo",
+    "name": null
+   },
+   {
+    "given": "Nicolás",
+    "family": "Idrobo",
+    "name": null
+   },
+   {
+    "given": "Rocío",
+    "family": "Titiunik",
+    "name": null
+   }
+  ],
+  "container_title": [],
+  "publisher": "Cambridge University Press",
+  "type": "monograph",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2019,
+    11,
+    16
+   ]
+  ],
+  "published_print": [
+   [
+    2019,
+    11,
+    30
+   ]
+  ],
+  "published_online": [
+   [
+    2019,
+    11,
+    16
+   ]
+  ],
+  "isbn": [
+   "9781108684606",
+   "9781108710206"
+  ],
+  "url": "https://doi.org/10.1017/9781108684606",
+  "abstract": "<jats:p>In this Element and its accompanying second Element, A Practical Introduction to Regression Discontinuity Designs: Extensions, Matias Cattaneo, Nicolás  Idrobo, and Rocıìo Titiunik provide an accessible and practical guide for the analysis and interpretation of regression discontinuity (RD) designs that encourages the use of a common set of practices and facilitates the accumulation of RD-based empirical evidence. In this Element, the authors discuss the foundations of the canonical Sharp RD design, which has the following features: (i) the score is continuously distributed and has only one dimension, (ii) there is only one cutoff, and (iii) compliance with the treatment assignment is perfect. In the second Element, the authors discuss practical and conceptual extensions to this basic RD setup.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3098283733",
+  "title": "A Practical Introduction to Regression Discontinuity Designs",
+  "publication_year": 2019,
+  "type": "book",
+  "source": "Cambridge University Press eBooks",
+  "landing_page_url": "https://doi.org/10.1017/9781108684606",
+  "authorships": [
+   "Matias D. Cattaneo",
+   "Nicolás Idrobo",
+   "Rocío Titiunik"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 543,
+  "abstract": "In this Element and its accompanying second Element, A Practical Introduction to Regression Discontinuity Designs: Extensions, Matias Cattaneo, Nicolás Idrobo, and Rocıìo Titiunik provide an accessible and practical guide for the analysis and interpretation of regression discontinuity (RD) designs that encourages the use of a common set of practices and facilitates the accumulation of RD-based empirical evidence. In this Element, the authors discuss the foundations of the canonical Sharp RD design, which has the following features: (i) the score is continuously distributed and has only one dimension, (ii) there is only one cutoff, and (iii) compliance with the treatment assignment is perfect. In the second Element, the authors discuss practical and conceptual extensions to this basic RD setup."
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "doi": "10.48550/arXiv.2105.03737",
+ "coletado_utc": "2026-09-24T00:27:48Z",
+ "crossref_status": 404,
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3160505792",
+  "title": "Difference-in-Differences Estimation with Spatial Spillovers",
+  "publication_year": 2021,
+  "type": "preprint",
+  "source": "RePEc: Research Papers in Economics",
+  "landing_page_url": "http://arxiv.org/pdf/2105.03737",
+  "authorships": [
+   "Kyle Butts"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 47,
+  "abstract": "Empirical work often uses treatment assigned following geographic boundaries. When the effects of treatment cross over borders, classical difference-in-differences estimation produces biased estimates for the average treatment effect. In this paper, I introduce a potential outcomes framework to model spillover effects and decompose the estimate's bias in two parts: (1) the control group no longer identifies the counterfactual trend because their outcomes are affected by treatment and (2) changes in treated units' outcomes reflect the effect of their own treatment status and the effect from the treatment status of 'close' units. I propose conditions for non-parametric identification that can remove both sources of bias and semi-parametrically estimate the spillover effects themselves including in settings with staggered treatment timing. To highlight the importance of spillover effects, I revisit analyses of three place-based interventions."
+ }
+}

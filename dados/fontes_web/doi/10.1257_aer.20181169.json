@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/aer.20181169",
+ "coletado_utc": "2026-09-24T00:27:20Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Clément",
+    "family": "de Chaisemartin",
+    "name": null
+   },
+   {
+    "given": "Xavier",
+    "family": "D’Haultfœuille",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Review"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "110",
+  "issue": "9",
+  "page": "2964-2996",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    9,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    9,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/aer.20181169",
+  "abstract": "<jats:p>Linear regressions with period and group fixed effects are widely used to estimate treatment effects. We show that they estimate weighted sums of the average treatment effects (ATE ) in each group and period, with weights that may be negative. Due to the negative weights, the linear regression coefficient may for instance be negative while all the ATEs are positive. We propose another estimator that solves this issue. In the two applications we revisit, it is significantly different from the linear regression estimator. (JEL C21, C23, D72, J31, J51, L82)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2979586175",
+  "title": "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "American Economic Review",
+  "landing_page_url": "https://doi.org/10.1257/aer.20181169",
+  "authorships": [
+   "Clément de Chaisemartin",
+   "Xavier D’Haultfœuille"
+  ],
+  "biblio": {
+   "volume": "110",
+   "issue": "9",
+   "first_page": "2964",
+   "last_page": "2996"
+  },
+  "cited_by_count": 5007,
+  "abstract": "Linear regressions with period and group fixed effects are widely used to estimate treatment effects. We show that they estimate weighted sums of the average treatment effects (ATE ) in each group and period, with weights that may be negative. Due to the negative weights, the linear regression coefficient may for instance be negative while all the ATEs are positive. We propose another estimator that solves this issue. In the two applications we revisit, it is significantly different from the linear regression estimator. (JEL C21, C23, D72, J31, J51, L82)"
+ }
+}

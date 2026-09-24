@@ -1,0 +1,69 @@
+{
+ "doi": "10.1111/j.1468-0262.2004.00481.x",
+ "coletado_utc": "2026-09-24T00:27:05Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Edward",
+    "family": "Miguel",
+    "name": null
+   },
+   {
+    "given": "Michael",
+    "family": "Kremer",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "The Econometric Society",
+  "type": "journal-article",
+  "volume": "72",
+  "issue": "1",
+  "page": "159-217",
+  "article_number": null,
+  "issued": [
+   [
+    2004,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2004,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1468-0262.2004.00481.x",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2104972618",
+  "title": "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities",
+  "publication_year": 2003,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.1111/j.1468-0262.2004.00481.x",
+  "authorships": [
+   "Edward A. Miguel",
+   "Michael R. Kremer"
+  ],
+  "biblio": {
+   "volume": "72",
+   "issue": "1",
+   "first_page": "159",
+   "last_page": "217"
+  },
+  "cited_by_count": 2302,
+  "abstract": "Intestinal helminths—including hookworm, roundworm, whipworm, and schistosomiasis—infect more than one-quarter of the world's population. Studies in which medical treatment is randomized at the individual level potentially doubly underestimate the benefits of treatment, missing externality benefits to the comparison group from reduced disease transmission, and therefore also underestimating benefits for the treatment group. We evaluate a Kenyan project in which school-based mass treatment with deworming drugs was randomly phased into schools, rather than to individuals, allowing estimation of overall program effects. The program reduced school absenteeism in treatment schools by one-quarter, and was far cheaper than alternative ways of boosting school participation. Deworming substantially improved health and school participation among untreated children in both treatment schools and neighboring schools, and these externalities are large enough to justify fully subsidizing treatment. Yet we do not find evidence that deworming improved academic test scores."
+ }
+}

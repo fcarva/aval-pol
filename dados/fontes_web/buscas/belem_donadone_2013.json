@@ -1,0 +1,137 @@
+{
+ "id": "belem_donadone_2013",
+ "consulta": "Belem Donadone A Lei Rouanet e a construcao do mercado de patrocinios culturais NORUS 2013",
+ "coletado_utc": "2026-09-24T00:29:04Z",
+ "crossref": [
+  {
+   "doi": "10.52780/res.v30i3.20239",
+   "title": [
+    "Folha de S.Paulo, lei rouanet e o mercado de patrocínios culturais incentivados"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Lopes",
+    "Barreiros"
+   ],
+   "container_title": [
+    "Estudos de Sociologia"
+   ],
+   "publisher": "UNESP - Universidade Estadual Paulista",
+   "issued": [
+    [
+     2025,
+     12,
+     28
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1123-1150",
+   "isbn": null,
+   "score": 39.762165
+  },
+  {
+   "doi": "10.47749/t/unicamp.2010.782385",
+   "title": [
+    "Políticas públicas culturais, mediações e cidadania"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Nunes Saddi"
+   ],
+   "container_title": null,
+   "publisher": "Universidade Estadual de Campinas",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 36.974876
+  },
+  {
+   "doi": "10.15210/norus.v2i2.5795",
+   "title": [
+    "A transformação do controle corporativo"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Matsuda",
+    "Donadone"
+   ],
+   "container_title": [
+    "Novos Rumos Sociológicos"
+   ],
+   "publisher": "Universidade Federal de Pelotas",
+   "issued": [
+    [
+     2015,
+     7,
+     13
+    ]
+   ],
+   "volume": "2",
+   "issue": "2",
+   "page": null,
+   "isbn": null,
+   "score": 36.73116
+  },
+  {
+   "doi": "10.29327/713307",
+   "title": [
+    "BRANDING NOS MOVIMENTOS CULTURAIS: A CONSTRUCAO DA MARCA DO MOVIMENTO MANGUEBEAT"
+   ],
+   "type": "posted-content",
+   "author": [
+    "SOUZA"
+   ],
+   "container_title": null,
+   "publisher": "Even3",
+   "issued": [
+    [
+     2020,
+     3,
+     10
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 35.57169
+  },
+  {
+   "doi": "10.15210/norus.v9i15.19113",
+   "title": [
+    "Internacionalização, financeirização e transformações organizacionais : O estudo  do Grupo Gerdau como entendimento de ação politica dos empresários brasileiros."
+   ],
+   "type": "journal-article",
+   "author": [
+    "Ambiel",
+    "Donadone"
+   ],
+   "container_title": [
+    "Novos Rumos Sociológicos"
+   ],
+   "publisher": "Universidade Federal de Pelotas",
+   "issued": [
+    [
+     2021,
+     9,
+     2
+    ]
+   ],
+   "volume": "9",
+   "issue": "15",
+   "page": "412-445",
+   "isbn": null,
+   "score": 33.972645
+  }
+ ],
+ "openalex": [],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

@@ -1,0 +1,69 @@
+{
+ "doi": "10.1023/B:JCEC.0000009823.76834.64",
+ "coletado_utc": "2026-09-24T00:26:49Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The Impact of the National Endowment for the Arts in the United States: Institutional and Sectoral Effects on Private Funding"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Francesca",
+    "family": "Borgonovi",
+    "name": null
+   },
+   {
+    "given": "Michael",
+    "family": "O'Hare",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Cultural Economics"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "volume": "28",
+  "issue": "1",
+  "page": "21-36",
+  "article_number": null,
+  "issued": [
+   [
+    2004,
+    2
+   ]
+  ],
+  "published_print": [
+   [
+    2004,
+    2
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1023/b:jcec.0000009823.76834.64",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1977229704",
+  "title": "The Impact of the National Endowment for the Arts in the United States: Institutional and Sectoral Effects on Private Funding",
+  "publication_year": 2003,
+  "type": "article",
+  "source": "Journal of Cultural Economics",
+  "landing_page_url": "https://doi.org/10.1023/b:jcec.0000009823.76834.64",
+  "authorships": [
+   "Francesca Borgonovi",
+   "Michael O’Hare"
+  ],
+  "biblio": {
+   "volume": "28",
+   "issue": "1",
+   "first_page": "21",
+   "last_page": "36"
+  },
+  "cited_by_count": 33,
+  "abstract": ""
+ }
+}

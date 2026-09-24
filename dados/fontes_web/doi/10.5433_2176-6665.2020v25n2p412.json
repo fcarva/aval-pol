@@ -1,0 +1,65 @@
+{
+ "doi": "10.5433/2176-6665.2020v25n2p412",
+ "coletado_utc": "2026-09-24T00:27:50Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Concentração cultural: Por que podemos dizer que, no Brasil, o investimento na cultura está mais concentrado que o PIB?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Bruno Costa",
+    "family": "Guimarães",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Mediações - Revista de Ciências Sociais"
+  ],
+  "publisher": "Universidade Estadual de Londrina",
+  "type": "journal-article",
+  "volume": "25",
+  "issue": "2",
+  "page": "412",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    8,
+    25
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2020,
+    8,
+    25
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.5433/2176-6665.2020v25n2p412",
+  "abstract": "<jats:p>No Brasil, quando falamos sobre desigualdade, costumamos associar o termo à má distribuição de renda entre a população ou então ao desequilíbrio de riquezas entre certas regiões e estado. Um tipo de desigualdade, porém, é constantemente negligenciado: a desigualdade de investimento na cultura. Este artigo busca apresentar ao leitor o caráter concentrador da Lei Rouanet que, baseada na lógica mercantilista, privilegia de forma desequilibrada as metrópoles Rio e São Paulo no fomento de projetos culturais.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3083777856",
+  "title": "Concentração cultural: Por que podemos dizer que, no Brasil, o investimento na cultura está mais concentrado que o PIB?",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Mediações Revista de Ciências Sociais",
+  "landing_page_url": "https://doi.org/10.5433/2176-6665.2020v25n2p412",
+  "authorships": [
+   "Bruno Costa Guimarães"
+  ],
+  "biblio": {
+   "volume": "25",
+   "issue": "2",
+   "first_page": "412",
+   "last_page": "412"
+  },
+  "cited_by_count": 3,
+  "abstract": "No Brasil, quando falamos sobre desigualdade, costumamos associar o termo à má distribuição de renda entre a população ou então ao desequilíbrio de riquezas entre certas regiões e estado. Um tipo de desigualdade, porém, é constantemente negligenciado: a desigualdade de investimento na cultura. Este artigo busca apresentar ao leitor o caráter concentrador da Lei Rouanet que, baseada na lógica mercantilista, privilegia de forma desequilibrada as metrópoles Rio e São Paulo no fomento de projetos culturais."
+ }
+}

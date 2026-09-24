@@ -1,0 +1,71 @@
+{
+ "doi": "10.1177/0193841X9501900504",
+ "coletado_utc": "2026-09-24T00:27:14Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Minimum Detectable Effects"
+  ],
+  "subtitle": [
+   "A Simple Way to Report the Statistical Power of Experimental Designs"
+  ],
+  "author": [
+   {
+    "given": "Howard S.",
+    "family": "Bloom",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Evaluation Review"
+  ],
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "volume": "19",
+  "issue": "5",
+  "page": "547-556",
+  "article_number": null,
+  "issued": [
+   [
+    1995,
+    10
+   ]
+  ],
+  "published_print": [
+   [
+    1995,
+    10
+   ]
+  ],
+  "published_online": [
+   [
+    1995,
+    10,
+    1
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1177/0193841x9501900504",
+  "abstract": "<jats:p>This article describes a simple way to assess the statistical power of experimental designs. The approach presented is based on the concept of a minimum detectable effect, which, intuitively, is the smallest true impact that an experiment has a good chance of detecting. The article illustrates how to compute minimum detectable effects and how to apply this concept to the assessment of alternative experimental designs. Applications to impact estimators for both continuous and binary outcome measures are considered</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2053520781",
+  "title": "Minimum Detectable Effects",
+  "publication_year": 1995,
+  "type": "article",
+  "source": "Evaluation Review",
+  "landing_page_url": "https://doi.org/10.1177/0193841x9501900504",
+  "authorships": [
+   "Howard S. Bloom"
+  ],
+  "biblio": {
+   "volume": "19",
+   "issue": "5",
+   "first_page": "547",
+   "last_page": "556"
+  },
+  "cited_by_count": 288,
+  "abstract": "This article describes a simple way to assess the statistical power of experimental designs. The approach presented is based on the concept of a minimum detectable effect, which, intuitively, is the smallest true impact that an experiment has a good chance of detecting. The article illustrates how to compute minimum detectable effects and how to apply this concept to the assessment of alternative experimental designs. Applications to impact estimators for both continuous and binary outcome measures are considered"
+ }
+}

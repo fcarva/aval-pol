@@ -1,0 +1,75 @@
+{
+ "doi": "10.1590/0034-7612162254",
+ "coletado_utc": "2026-09-24T00:27:29Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "O financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Camila Furlan da",
+    "family": "Costa",
+    "name": null
+   },
+   {
+    "given": "Igor Baptista de Oliveira",
+    "family": "Medeiros",
+    "name": null
+   },
+   {
+    "given": "Guilherme Brandelli",
+    "family": "Bucco",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista de Administração Pública"
+  ],
+  "publisher": "FapUNIFESP (SciELO)",
+  "type": "journal-article",
+  "volume": "51",
+  "issue": "4",
+  "page": "509-527",
+  "article_number": null,
+  "issued": [
+   [
+    2017,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    8
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1590/0034-7612162254",
+  "abstract": "<jats:p>Resumo Este artigo analisa o financiamento público da cultura no Brasil, a partir de um estudo longitudinal quantitativo dos projetos aprovados pelo Ministério da Cultura entre 2003 e 2015, com base teórica na categoria de renda monopolista oriunda da economia política. Os resultados evidenciaram que, mesmo com a modificação na concepção de cultura no plano governamental, há concentração de incentivadores e de proponentes que utilizam a Lei de Incentivo à Cultura (LIC) para a obtenção de recursos no fomento a projetos. Concluímos que a política pública de financiamento da cultura continua transferindo para o mercado a decisão de quais projetos serão financiados. O mercado, por sua vez, tende à geração de renda monopolista, por meio do uso do recurso público para a promoção de projetos culturais que interessam à imagem organizacional sob o monopólio de poucas produtoras e fundações.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2594909602",
+  "title": "O financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "Revista de Administração Pública",
+  "landing_page_url": "https://doi.org/10.1590/0034-7612162254",
+  "authorships": [
+   "Camila Furlan da Costa",
+   "Igor Baptista de Oliveira Medeiros",
+   "Guilherme Brandelli Bucco"
+  ],
+  "biblio": {
+   "volume": "51",
+   "issue": "4",
+   "first_page": "509",
+   "last_page": "527"
+  },
+  "cited_by_count": 8,
+  "abstract": "Resumo Este artigo analisa o financiamento público da cultura no Brasil, a partir de um estudo longitudinal quantitativo dos projetos aprovados pelo Ministério da Cultura entre 2003 e 2015, com base teórica na categoria de renda monopolista oriunda da economia política. Os resultados evidenciaram que, mesmo com a modificação na concepção de cultura no plano governamental, há concentração de incentivadores e de proponentes que utilizam a Lei de Incentivo à Cultura (LIC) para a obtenção de recursos no fomento a projetos. Concluímos que a política pública de financiamento da cultura continua transferindo para o mercado a decisão de quais projetos serão financiados. O mercado, por sua vez, tende à geração de renda monopolista, por meio do uso do recurso público para a promoção de projetos culturais que interessam à imagem organizacional sob o monopólio de poucas produtoras e fundações."
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "doi": "10.1111/j.1467-6419.2007.00527.x",
+ "coletado_utc": "2026-09-24T00:27:03Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "SOME PRACTICAL GUIDANCE FOR THE IMPLEMENTATION OF PROPENSITY SCORE MATCHING"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Marco",
+    "family": "Caliendo",
+    "name": null
+   },
+   {
+    "given": "Sabine",
+    "family": "Kopeinig",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Surveys"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "22",
+  "issue": "1",
+  "page": "31-72",
+  "article_number": null,
+  "issued": [
+   [
+    2008,
+    1,
+    31
+   ]
+  ],
+  "published_print": [
+   [
+    2008,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2008,
+    1,
+    31
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/j.1467-6419.2007.00527.x",
+  "abstract": "<jats:p>\n                    <jats:bold>Abstract</jats:bold>\n                    Propensity score matching (PSM) has become a popular approach to estimate causal treatment effects. It is widely applied when evaluating labour market policies, but empirical examples can be found in very diverse fields of study. Once the researcher has decided to use PSM, he is confronted with a lot of questions regarding its implementation. To begin with, a first decision has to be made concerning the estimation of the propensity score. Following that one has to decide which matching algorithm to choose and determine the region of common support. Subsequently, the matching quality has to be assessed and treatment effects and their standard errors have to be estimated. Furthermore, questions like ‘what to do if there is choice‐based sampling?’ or ‘when to measure effects?’ can be important in empirical studies. Finally, one might also want to test the sensitivity of estimated treatment effects with respect to unobserved heterogeneity or failure of the common support condition. Each implementation step involves a lot of decisions and different approaches can be thought of. The aim of this paper is to discuss these implementation issues and give some guidance to researchers who want to use PSM for evaluation purposes.\n                  </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2159805452",
+  "title": "SOME PRACTICAL GUIDANCE FOR THE IMPLEMENTATION OF PROPENSITY SCORE MATCHING",
+  "publication_year": 2008,
+  "type": "article",
+  "source": "Journal of Economic Surveys",
+  "landing_page_url": "https://doi.org/10.1111/j.1467-6419.2007.00527.x",
+  "authorships": [
+   "Marco Caliendo",
+   "Sabine Kopeinig"
+  ],
+  "biblio": {
+   "volume": "22",
+   "issue": "1",
+   "first_page": "31",
+   "last_page": "72"
+  },
+  "cited_by_count": 6303,
+  "abstract": "Abstract Propensity score matching (PSM) has become a popular approach to estimate causal treatment effects. It is widely applied when evaluating labour market policies, but empirical examples can be found in very diverse fields of study. Once the researcher has decided to use PSM, he is confronted with a lot of questions regarding its implementation. To begin with, a first decision has to be made concerning the estimation of the propensity score. Following that one has to decide which matching algorithm to choose and determine the region of common support. Subsequently, the matching quality has to be assessed and treatment effects and their standard errors have to be estimated. Furthermore, questions like ‘what to do if there is choice‐based sampling?’ or ‘when to measure effects?’ can be important in empirical studies. Finally, one might also want to test the sensitivity of estimated treatment effects with respect to unobserved heterogeneity or failure of the common support condition. Each implementation step involves a lot of decisions and different approaches can be thought of. The aim of this paper is to discuss these implementation issues and give some guidance to researchers who want to use PSM for evaluation purposes."
+ }
+}

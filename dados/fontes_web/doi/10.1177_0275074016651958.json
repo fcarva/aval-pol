@@ -1,0 +1,70 @@
+{
+ "doi": "10.1177/0275074016651958",
+ "coletado_utc": "2026-09-24T00:27:15Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Lights, Camera, but No Action? Tax and Economic Development Lessons From State Motion Picture Incentive Programs"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Michael",
+    "family": "Thom",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The American Review of Public Administration"
+  ],
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "volume": "48",
+  "issue": "1",
+  "page": "33-51",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    6,
+    5
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    1
+   ]
+  ],
+  "published_online": [
+   [
+    2016,
+    6,
+    5
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1177/0275074016651958",
+  "abstract": "<jats:p>Despite mixed results, state government use of targeted economic development programs has escalated. This study evaluates the impact of motion picture incentive programs, an array of tax incentives employed by over 40 states to entice film and television productions out of California and New York, on labor and economic conditions from 1998 through 2013. Results suggest that sales and lodging tax waivers had no effect on any of four different economic indicators. Transferable tax credits had a small, sustained effect on motion picture employment levels but no effect on wages. Refundable tax credits had no employment effect and only a temporary wage effect. Neither credit affected gross state product or motion picture industry concentration. Incentive spending also had no influence. These findings demonstrate the heterogeneous impacts of different incentives offered under a single program and should inform future economic development policy design.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2412937133",
+  "title": "Lights, Camera, but No Action? Tax and Economic Development Lessons From State Motion Picture Incentive Programs",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "The American Review of Public Administration",
+  "landing_page_url": "https://doi.org/10.1177/0275074016651958",
+  "authorships": [
+   "Michael Thom"
+  ],
+  "biblio": {
+   "volume": "48",
+   "issue": "1",
+   "first_page": "33",
+   "last_page": "51"
+  },
+  "cited_by_count": 87,
+  "abstract": "Despite mixed results, state government use of targeted economic development programs has escalated. This study evaluates the impact of motion picture incentive programs, an array of tax incentives employed by over 40 states to entice film and television productions out of California and New York, on labor and economic conditions from 1998 through 2013. Results suggest that sales and lodging tax waivers had no effect on any of four different economic indicators. Transferable tax credits had a small, sustained effect on motion picture employment levels but no effect on wages. Refundable tax credits had no employment effect and only a temporary wage effect. Neither credit affected gross state product or motion picture industry concentration. Incentive spending also had no influence. These findings demonstrate the heterogeneous impacts of different incentives offered under a single program and should inform future economic development policy design."
+ }
+}

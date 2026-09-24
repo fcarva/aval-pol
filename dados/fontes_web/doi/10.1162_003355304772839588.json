@@ -1,0 +1,77 @@
+{
+ "doi": "10.1162/003355304772839588",
+ "coletado_utc": "2026-09-24T00:27:10Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "How Much Should We Trust Differences-In-Differences Estimates?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "M.",
+    "family": "Bertrand",
+    "name": null
+   },
+   {
+    "given": "E.",
+    "family": "Duflo",
+    "name": null
+   },
+   {
+    "given": "S.",
+    "family": "Mullainathan",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Quarterly Journal of Economics"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "119",
+  "issue": "1",
+  "page": "249-275",
+  "article_number": null,
+  "issued": [
+   [
+    2004,
+    2,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2004,
+    2,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1162/003355304772839588",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2096684396",
+  "title": "How Much Should We Trust Differences-In-Differences Estimates?",
+  "publication_year": 2004,
+  "type": "article",
+  "source": "The Quarterly Journal of Economics",
+  "landing_page_url": "https://doi.org/10.1162/003355304772839588",
+  "authorships": [
+   "M. Bertrand",
+   "Esther Duflo",
+   "Sendhil Mullainathan"
+  ],
+  "biblio": {
+   "volume": "119",
+   "issue": "1",
+   "first_page": "249",
+   "last_page": "275"
+  },
+  "cited_by_count": 10904,
+  "abstract": "Most papers that employ Differences-in-Differences estimation (DD) use many years of data and focus on serially correlated outcomes but ignore that the resulting standard errors are inconsistent. To illustrate the severity of this issue, we randomly generate placebo laws in state-level data on female wages from the Current Population Survey. For each law, we use OLS to compute the DD estimate of its “effect” as well as the standard error of this estimate. These conventional DD standard errors severely understate the standard deviation of the estimators: we find an “effect” significant at the 5 percent level for up to 45 percent of the placebo interventions. We use Monte Carlo simulations to investigate how well existing methods help solve this problem. Econometric corrections that place a specific parametric form on the time-series process do not perform well. Bootstrap (taking into account the autocorrelation of the data) works well when the number of states is large enough. Two corrections based on asymptotic approximation of the variance-covariance matrix work well for moderate numbers of states and one correction that collapses the time series information into a “pre”- and “post”-period and explicitly takes into account the effective sample size works well even for small numbers of states."
+ }
+}

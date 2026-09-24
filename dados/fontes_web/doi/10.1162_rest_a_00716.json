@@ -1,0 +1,81 @@
+{
+ "doi": "10.1162/rest_a_00716",
+ "coletado_utc": "2026-09-24T00:27:13Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Optimal Design of Experiments in the Presence of Interference"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Sarah",
+    "family": "Baird",
+    "name": null
+   },
+   {
+    "given": "J. Aislinn",
+    "family": "Bohren",
+    "name": null
+   },
+   {
+    "given": "Craig",
+    "family": "McIntosh",
+    "name": null
+   },
+   {
+    "given": "Berk",
+    "family": "Özler",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Review of Economics and Statistics"
+  ],
+  "publisher": "MIT Press",
+  "type": "journal-article",
+  "volume": "100",
+  "issue": "5",
+  "page": "844-860",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    12
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1162/rest_a_00716",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2581418816",
+  "title": "Optimal Design of Experiments in the Presence of Interference",
+  "publication_year": 2018,
+  "type": "article",
+  "source": "The Review of Economics and Statistics",
+  "landing_page_url": "https://doi.org/10.1162/rest_a_00716",
+  "authorships": [
+   "Sarah Baird",
+   "J. Aislinn Bohren",
+   "Craig McIntosh",
+   "Berk Özler"
+  ],
+  "biblio": {
+   "volume": "100",
+   "issue": "5",
+   "first_page": "844",
+   "last_page": "860"
+  },
+  "cited_by_count": 163,
+  "abstract": "Abstract We formalize the optimal design of experiments when there is interference between units, that is, an individual’s outcome depends on the outcomes of others in her group. We focus on randomized saturation designs, two-stage experiments that first randomize treatment saturation of a group, then individual treatment assignment. We map the potential outcomes framework with partial interference to a regression model with clustered errors, calculate standard errors of randomized saturation designs, and derive analytical insights about the optimal design. We show that the power to detect average treatment effects declines precisely with the ability to identify novel treatment and spillover effects."
+ }
+}

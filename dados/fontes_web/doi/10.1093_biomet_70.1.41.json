@@ -1,0 +1,67 @@
+{
+ "doi": "10.1093/biomet/70.1.41",
+ "coletado_utc": "2026-09-24T00:26:56Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The central role of the propensity score in observational studies for causal effects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "PAUL R.",
+    "family": "ROSENBAUM",
+    "name": null
+   },
+   {
+    "given": "DONALD B.",
+    "family": "RUBIN",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Biometrika"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "70",
+  "issue": "1",
+  "page": "41-55",
+  "article_number": null,
+  "issued": [
+   [
+    1983
+   ]
+  ],
+  "published_print": [
+   [
+    1983
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1093/biomet/70.1.41",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2150291618",
+  "title": "The central role of the propensity score in observational studies for causal effects",
+  "publication_year": 1983,
+  "type": "article",
+  "source": "Biometrika",
+  "landing_page_url": "https://doi.org/10.1093/biomet/70.1.41",
+  "authorships": [
+   "Paul R. Rosenbaum",
+   "Donald B. Rubin"
+  ],
+  "biblio": {
+   "volume": "70",
+   "issue": "1",
+   "first_page": "41",
+   "last_page": "55"
+  },
+  "cited_by_count": 31603,
+  "abstract": "The propensity score is the conditional probability of assignment to a particular treatment given a vector of observed covariates. Both large and small sample theory show that adjustment for the scalar propensity score is sufficient to remove bias due to all observed covariates. Applications include: (i) matched sampling on the univariate propensity score, which is a generalization of discriminant matching, (ii) multivariate adjustment by subclassification on the propensity score where the same subclasses are used to estimate treatment effects for all outcome variables and in all subpopulations, and (iii) visual representation of multivariate covariance adjustment by a two- dimensional plot."
+ }
+}

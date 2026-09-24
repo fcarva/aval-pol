@@ -1,0 +1,73 @@
+{
+ "doi": "10.3386/w32117",
+ "coletado_utc": "2026-09-24T00:27:46Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Difference-in-differences with a Continuous Treatment"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Brantly",
+    "family": "Callaway",
+    "name": null
+   },
+   {
+    "given": "Andrew",
+    "family": "Goodman-Bacon",
+    "name": null
+   },
+   {
+    "given": "Pedro",
+    "family": "Sant'Anna",
+    "name": null
+   }
+  ],
+  "container_title": [],
+  "publisher": "National Bureau of Economic Research",
+  "type": "report",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2024,
+    2
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2024,
+    2
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.3386/w32117",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4392145544",
+  "title": "Difference-in-differences with a Continuous Treatment",
+  "publication_year": 2024,
+  "type": "report",
+  "source": "National Bureau of Economic Research",
+  "landing_page_url": "https://doi.org/10.3386/w32117",
+  "authorships": [
+   "Brantly Callaway",
+   "Andrew Goodman-Bacon",
+   "Pedro H. C. Sant’Anna"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 165,
+  "abstract": "This paper analyzes difference-in-differences designs with a continuous treatment.We show that treatment effect on the treated-type parameters can be identified under a generalized parallel trends assumption that is similar to the binary treatment setup.However, interpreting differences in these parameters across different values of the treatment can be particularly challenging due to selection bias that is not ruled out by the parallel trends assumption.We discuss alternative, typically stronger, assumptions that alleviate these challenges.We also provide a variety of treatment effect decomposition results, highlighting that parameters associated with popular linear two-way fixed-effect (TWFE) specifications can be hard to interpret, even when there are only two time periods.We introduce alternative estimation procedures that do not suffer from these TWFE drawbacks, and show in an application that they can lead to different conclusions."
+ }
+}

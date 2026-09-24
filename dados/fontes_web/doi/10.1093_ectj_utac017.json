@@ -1,0 +1,77 @@
+{
+ "doi": "10.1093/ectj/utac017",
+ "coletado_utc": "2026-09-24T00:26:56Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Clément",
+    "family": "de Chaisemartin",
+    "name": null
+   },
+   {
+    "given": "Xavier",
+    "family": "D’Haultfœuille",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The Econometrics Journal"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "26",
+  "issue": "3",
+  "page": "C1-C30",
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    6,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2023,
+    9,
+    20
+   ]
+  ],
+  "published_online": [
+   [
+    2022,
+    6,
+    8
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/ectj/utac017",
+  "abstract": "<jats:title>Summary</jats:title>\n                  <jats:p>Linear regressions with period and group fixed effects are widely used to estimate policie’s effects: 26 of the 100 most cited papers published by the American Economic Review from 2015 to 2019 estimate such regressions. It has recently been shown that those regressions may produce misleading estimates if the policy’s effect is heterogeneous between groups or over time, as is often the case. This survey reviews a fast-growing literature that documents this issue and that proposes alternative estimators robust to heterogeneous effects. We use those alternative estimators to revisit Wolfers (2006a).</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4293198822",
+  "title": "Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "Econometrics Journal",
+  "landing_page_url": "https://doi.org/10.1093/ectj/utac017",
+  "authorships": [
+   "Clément de Chaisemartin",
+   "Xavier D’Haultfœuille"
+  ],
+  "biblio": {
+   "volume": "26",
+   "issue": "3",
+   "first_page": "C1",
+   "last_page": "C30"
+  },
+  "cited_by_count": 530,
+  "abstract": "Summary Linear regressions with period and group fixed effects are widely used to estimate policie’s effects: 26 of the 100 most cited papers published by the American Economic Review from 2015 to 2019 estimate such regressions. It has recently been shown that those regressions may produce misleading estimates if the policy’s effect is heterogeneous between groups or over time, as is often the case. This survey reviews a fast-growing literature that documents this issue and that proposes alternative estimators robust to heterogeneous effects. We use those alternative estimators to revisit Wolfers (2006a)."
+ }
+}

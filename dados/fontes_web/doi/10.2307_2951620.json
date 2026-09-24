@@ -1,0 +1,69 @@
+{
+ "doi": "10.2307/2951620",
+ "coletado_utc": "2026-09-24T00:27:40Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Identification and Estimation of Local Average Treatment Effects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Guido W.",
+    "family": "Imbens",
+    "name": null
+   },
+   {
+    "given": "Joshua D.",
+    "family": "Angrist",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Econometrica"
+  ],
+  "publisher": "JSTOR",
+  "type": "journal-article",
+  "volume": "62",
+  "issue": "2",
+  "page": "467",
+  "article_number": null,
+  "issued": [
+   [
+    1994,
+    3
+   ]
+  ],
+  "published_print": [
+   [
+    1994,
+    3
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.2307/2951620",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2104780889",
+  "title": "Identification and Estimation of Local Average Treatment Effects",
+  "publication_year": 1994,
+  "type": "article",
+  "source": "Econometrica",
+  "landing_page_url": "https://doi.org/10.2307/2951620",
+  "authorships": [
+   "Guido W. Imbens",
+   "Joshua D. Angrist"
+  ],
+  "biblio": {
+   "volume": "62",
+   "issue": "2",
+   "first_page": "467",
+   "last_page": "467"
+  },
+  "cited_by_count": 4183,
+  "abstract": "We investigate conditions sufficient for identification of average treatment effects using instrumental variables. First we show that the existence of valid instruments is not sufficient to identify any meaningful average treatment effect. We then establish that the combination of an instrument and a condition on the relation between the instrument and the participation status is sufficient for identification of a local average treatment effect for those who can be induced to change their participation status by changing the value of the instrument. Finally we derive the probability limit of the standard IV estimator under these conditions. It is seen to be a weighted average of local average treatment effects."
+ }
+}

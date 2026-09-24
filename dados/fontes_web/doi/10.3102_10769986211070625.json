@@ -1,0 +1,70 @@
+{
+ "doi": "10.3102/10769986211070625",
+ "coletado_utc": "2026-09-24T00:27:43Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Statistical Power for Estimating Treatment Effects Using Difference-in-Differences and Comparative Interrupted Time Series Estimators With Variation in Treatment Timing"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Peter Z.",
+    "family": "Schochet",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Educational and Behavioral Statistics"
+  ],
+  "publisher": "American Educational Research Association (AERA)",
+  "type": "journal-article",
+  "volume": "47",
+  "issue": "4",
+  "page": "367-405",
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    2,
+    8
+   ]
+  ],
+  "published_print": [
+   [
+    2022,
+    8
+   ]
+  ],
+  "published_online": [
+   [
+    2022,
+    2,
+    8
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.3102/10769986211070625",
+  "abstract": "<jats:p>This article develops new closed-form variance expressions for power analyses for commonly used difference-in-differences (DID) and comparative interrupted time series (CITS) panel data estimators. The main contribution is to incorporate variation in treatment timing into the analysis. The power formulas also account for other key design features that arise in practice: autocorrelated errors, unequal measurement intervals, and clustering due to the unit of treatment assignment. We consider power formulas for both cross-sectional and longitudinal models and allow for covariates. An illustrative power analysis provides guidance on appropriate sample sizes. The key finding is that accounting for treatment timing increases required sample sizes. Further, DID estimators have considerably more power than standard CITS and ITS estimators. An available Shiny R dashboard performs the sample size calculations for the considered estimators.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4210887940",
+  "title": "Statistical Power for Estimating Treatment Effects Using Difference-in-Differences and Comparative Interrupted Time Series Estimators With Variation in Treatment Timing",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "Journal of Educational and Behavioral Statistics",
+  "landing_page_url": "https://doi.org/10.3102/10769986211070625",
+  "authorships": [
+   "Peter Z. Schochet"
+  ],
+  "biblio": {
+   "volume": "47",
+   "issue": "4",
+   "first_page": "367",
+   "last_page": "405"
+  },
+  "cited_by_count": 16,
+  "abstract": "This article develops new closed-form variance expressions for power analyses for commonly used difference-in-differences (DID) and comparative interrupted time series (CITS) panel data estimators. The main contribution is to incorporate variation in treatment timing into the analysis. The power formulas also account for other key design features that arise in practice: autocorrelated errors, unequal measurement intervals, and clustering due to the unit of treatment assignment. We consider power formulas for both cross-sectional and longitudinal models and allow for covariates. An illustrative power analysis provides guidance on appropriate sample sizes. The key finding is that accounting for treatment timing increases required sample sizes. Further, DID estimators have considerably more power than standard CITS and ITS estimators. An available Shiny R dashboard performs the sample size calculations for the considered estimators."
+ }
+}
