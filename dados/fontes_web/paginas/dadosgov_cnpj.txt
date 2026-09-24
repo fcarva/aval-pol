@@ -1,0 +1,7 @@
+# Fonte: https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj
+# Coletado (UTC): 2026-09-24T19:55:54Z
+# sha256 do original: 0f0d9a071a79dc6bf4617f5a2ff26ac0985be719deb69e3044c3c7531c1e1ef4
+
+Portal de Dados Abertos
+
+## Links da página
