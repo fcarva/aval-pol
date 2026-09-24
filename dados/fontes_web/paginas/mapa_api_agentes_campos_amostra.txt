@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/agent/find?@select=id,type,En_Municipio,En_Estado,documento,cnpj,cpf&@limit=5
+# Coletado (UTC): 2026-09-24T15:22:43Z
+# sha256 do original: 0bcfa31cf0049e2e3a91bdd0e1710d432ba0475e00793c5af2dbeb61f3accea7
+
+[{"id":1,"En_Municipio":null,"En_Estado":null,"type":{"id":2,"name":"Coletivo"},"documento":null,"cnpj":null,"cpf":null,"@entityType":"agent"},{"id":2,"En_Municipio":"Vila Velha","En_Estado":"ES","type":{"id":1,"name":"Individual"},"documento":null,"cnpj":null,"cpf":null,"@entityType":"agent"},{"id":3,"En_Municipio":"Vit\u00f3ria","En_Estado":"ES","type":{"id":1,"name":"Individual"},"documento":null,"cnpj":null,"cpf":null,"@entityType":"agent"},{"id":4,"type":{"id":1,"name":"Individual"},"documento":null,"cnpj":null,"cpf":null,"En_Municipio":null,"En_Estado":null,"@entityType":"agent"},{"id":5,"En_Municipio":"Vit\u00f3ria","En_Estado":"ES","type":{"id":1,"name":"Individual"},"documento":null,"cnpj":null,"cpf":null,"@entityType":"agent"}]
+
+## Links da página
