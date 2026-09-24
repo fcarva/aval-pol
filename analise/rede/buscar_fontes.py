@@ -7,15 +7,19 @@ Crossref, OpenAlex, SECULT, SALIC e demais fontes oficiais ficam bloqueados. O w
 Entradas (editadas à mão e versionadas):
   dados/fontes_web/dois.txt        um DOI por linha → metadados da Crossref e do OpenAlex
   dados/fontes_web/pedidos.tsv     id<TAB>url<TAB>nota → página (HTML → texto; PDF → texto via pdftotext)
+  dados/fontes_web/buscas.tsv      id<TAB>consulta → busca bibliográfica na Crossref e no OpenAlex (referências sem DOI)
   dados/fontes_web/salic_anos.txt  anos AA do SALIC (ex.: 23) → roda analise/03a_salic_rouanet_uf.py
 
 Saídas:
   dados/fontes_web/doi/<slug>.json        metadados essenciais da Crossref e do OpenAlex (com resumo)
   dados/fontes_web/doi_resumo.csv         uma linha por DOI: status nas duas bases, título, ano, periódico
   dados/fontes_web/paginas/<id>.txt       texto da página ou do PDF (o PDF em si não é versionado)
+  dados/fontes_web/buscas/<id>.json       até 5 candidatos da Crossref e 5 do OpenAlex por consulta
   dados/fontes_web/manifesto.csv          id, url, status HTTP, tipo, bytes, sha256, data da coleta (UTC)
 
 Idempotente: o que já está no manifesto com status 200 não é buscado de novo (use --forcar).
+Etapas: --etapa refs (DOIs, buscas e páginas), --etapa salic, ou as duas (padrão). O workflow roda
+as etapas separadas e faz um commit depois de cada uma, para o SALIC (lento) não segurar o resto.
 Não envia e-mail nem identificação pessoal às APIs; o User-Agent aponta para o repositório.
 """
 from __future__ import annotations
@@ -160,6 +164,52 @@ def buscar_dois(man: dict, forcar: bool) -> None:
           f"OpenAlex 200: {sum(l['openalex_status'] == 200 for l in linhas)}")
 
 
+def buscar_bibliografia(man: dict, forcar: bool) -> None:
+    arq = BASE / "buscas.tsv"
+    if not arq.exists():
+        return
+    destino_dir = BASE / "buscas"
+    destino_dir.mkdir(parents=True, exist_ok=True)
+    with arq.open(encoding="utf-8") as f:
+        pedidos = [r for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE) if r.get("id") and not r["id"].startswith("#")]
+    for p in pedidos:
+        bid, consulta = p["id"].strip(), p["consulta"].strip()
+        chave, destino = f"busca:{bid}", destino_dir / f"{bid}.json"
+        if not forcar and man.get(chave, {}).get("status") == "200" and destino.exists():
+            continue
+        dados = {"id": bid, "consulta": consulta, "coletado_utc": agora(), "crossref": [], "openalex": []}
+        rc = get("https://api.crossref.org/works", params={"query.bibliographic": consulta, "rows": 5})
+        dados["crossref_status"] = rc.status_code if rc is not None else None
+        if rc is not None and rc.status_code == 200:
+            for it in rc.json().get("message", {}).get("items", []):
+                dados["crossref"].append({
+                    "doi": it.get("DOI"), "title": it.get("title"), "type": it.get("type"),
+                    "author": [a.get("family") or a.get("name") for a in it.get("author", [])],
+                    "container_title": it.get("container-title"), "publisher": it.get("publisher"),
+                    "issued": it.get("issued", {}).get("date-parts"), "volume": it.get("volume"),
+                    "issue": it.get("issue"), "page": it.get("page"), "isbn": it.get("ISBN"),
+                    "score": it.get("score")})
+        ro = get("https://api.openalex.org/works", params={"search": consulta, "per-page": 5})
+        dados["openalex_status"] = ro.status_code if ro is not None else None
+        if ro is not None and ro.status_code == 200:
+            for w in ro.json().get("results", []):
+                loc = (w.get("primary_location") or {})
+                dados["openalex"].append({
+                    "id": w.get("id"), "doi": w.get("doi"), "title": w.get("title"),
+                    "publication_year": w.get("publication_year"), "type": w.get("type"),
+                    "source": (loc.get("source") or {}).get("display_name"),
+                    "authorships": [a.get("author", {}).get("display_name") for a in w.get("authorships", [])],
+                    "biblio": w.get("biblio"), "abstract": resumo_openalex(w.get("abstract_inverted_index"))})
+        texto = json.dumps(dados, ensure_ascii=False, indent=1)
+        destino.write_text(texto, encoding="utf-8")
+        man[chave] = {"id": chave, "url": consulta, "status": str(dados["crossref_status"] or dados["openalex_status"] or ""),
+                      "content_type": "application/json", "bytes": str(len(texto.encode())),
+                      "sha256": hashlib.sha256(texto.encode()).hexdigest(), "coletado_utc": dados["coletado_utc"],
+                      "arquivo": str(destino.relative_to(RAIZ))}
+        print(f"{chave}: crossref {dados['crossref_status']}, openalex {dados['openalex_status']}")
+        time.sleep(0.5)
+
+
 def html_para_texto(html: str) -> str:
     from bs4 import BeautifulSoup
     s = BeautifulSoup(html, "html.parser")
@@ -214,12 +264,18 @@ def rodar_salic() -> None:
 
 def main() -> None:
     forcar = "--forcar" in sys.argv
+    etapa = sys.argv[sys.argv.index("--etapa") + 1] if "--etapa" in sys.argv else "tudo"
     BASE.mkdir(parents=True, exist_ok=True)
-    man = ler_manifesto()
-    buscar_dois(man, forcar)
-    buscar_paginas(man, forcar)
-    gravar_manifesto(man)
-    rodar_salic()
+    if etapa in ("refs", "tudo"):
+        man = ler_manifesto()
+        buscar_dois(man, forcar)
+        gravar_manifesto(man)
+        buscar_bibliografia(man, forcar)
+        gravar_manifesto(man)
+        buscar_paginas(man, forcar)
+        gravar_manifesto(man)
+    if etapa in ("salic", "tudo"):
+        rodar_salic()
 
 
 if __name__ == "__main__":

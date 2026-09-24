@@ -222,7 +222,8 @@ atribuído a processo com um único município do ES (340 de 463 processos; 74,1
 - **Adoção e presença por ciclo (resolvedor canônico, `01_carregar.py`):** municípios com ao menos um
   projeto habilitado por ciclo: 39 (2022), 45 (2023), 31 (2024), 32 (2025), 42 (2026). Primeira presença
   (coorte): 39 em 2022, 16 em 2023, 3 em 2024, 3 em 2025, 3 em 2026; **14 municípios nunca aparecem** em
-  2022-2026, todos no interior, com população mediana de 12,4 mil habitantes (`03_populacao_por_coorte.csv`).
+  2022-2026, todos no interior, com população mediana de 12,4 mil habitantes
+  (`03_coortes_primeira_presenca_canonico.csv`, gerada por `03_descritivas.py`).
   *Sensibilidade:* o resolvedor mais simples de `03_metodos_presenca_municipal.py` (sem reparo de
   transbordamento de célula) dá 39/44/31/31/43 municípios por ciclo e coortes 39/15/3/4/3, com os mesmos 14
   nunca presentes. Para o artigo vale o canônico.

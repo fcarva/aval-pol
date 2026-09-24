@@ -1,0 +1,273 @@
+"""Confere cada número do artigo contra a tabela que o produz (auditoria ARS, Stage 2.5, Fase C).
+
+Para cada afirmação numérica de artigo/rascunho-artigo.md há uma linha em CHECAGENS com:
+  - o trecho literal do artigo (precisa existir no texto: se o texto mudar, a checagem acusa);
+  - a função que recalcula o valor a partir de analise/tabelas/ ou dados/externos/;
+  - a formatação usada no texto (vírgula decimal, arredondamento meio-para-cima).
+A checagem passa quando o valor recalculado e formatado aparece dentro do trecho.
+
+Saída: artigo/auditoria/checagem_dados.csv (id, status, exibido, recalculado, fonte, trecho).
+Uso:   python artigo/auditoria/checar_dados.py      (código de saída 1 se algo divergir)
+"""
+from __future__ import annotations
+
+import csv
+import sys
+from decimal import ROUND_HALF_UP, Decimal
+from pathlib import Path
+
+import pandas as pd
+
+RAIZ = Path(__file__).resolve().parents[2]
+ART = RAIZ / "artigo" / "rascunho-artigo.md"
+TAB = RAIZ / "analise" / "tabelas"
+EXT = RAIZ / "dados" / "externos"
+SAIDA = Path(__file__).with_name("checagem_dados.csv")
+TOTAL = "2022-2026 (processos distintos)"
+
+
+def ler(caminho: Path) -> pd.DataFrame:
+    return pd.read_csv(caminho, comment="#")
+
+
+def arred(x: float, casas: int) -> str:
+    q = Decimal(1).scaleb(-casas)
+    return str(Decimal(repr(float(x))).quantize(q, rounding=ROUND_HALF_UP)).replace(".", ",")
+
+
+def pct(x: float, casas: int = 0) -> str:
+    return arred(100 * x, casas) + "%"
+
+
+def num(x: float, casas: int = 0) -> str:
+    return arred(x, casas)
+
+
+# ---------------------------------------------------------------- tabelas de origem
+anual = ler(TAB / "03_anual.csv").set_index("ciclo")
+status = ler(TAB / "03_status_por_ciclo.csv").set_index("ciclo")
+bunch = ler(TAB / "03_bunching_teto.csv").set_index("ciclo")
+prop = ler(TAB / "03_proponentes_por_ciclo.csv").set_index("ciclo")
+recor = ler(TAB / "03_proponentes_recorrencia.csv")
+terr = ler(TAB / "03_territorio_indicadores.csv").set_index("indicador")["valor"]
+rmgv = ler(TAB / "03_territorio_rmgv_interior.csv").set_index("grupo")
+muni = ler(TAB / "03_municipios.csv").set_index("municipio")
+patr = ler(TAB / "03_patrocinadores_concentracao.csv").set_index("indicador")["valor"]
+macro = ler(TAB / "03_patrocinadores_macrossetor.csv").set_index("macrossetor")
+faixa = ler(TAB / "03_status_conversao_por_faixa_valor_e_ciclo.csv")
+coorte = ler(TAB / "03_coortes_primeira_presenca_canonico.csv").set_index("primeiro_ciclo")
+f13m = ler(TAB / "03e_f13_municipal_rmgv_interior.csv")
+d1 = ler(TAB / "05_poder_d1_proponente.csv")
+tipo_m = ler(TAB / "05_poder_tipo_m.csv")
+mun_did = ler(TAB / "05_poder_mde_municipal_did.csv")
+ilustr = ler(TAB / "licc_emd_ilustrativo.csv")
+capt = ler(TAB / "licc_captados_2025_totais.csv").iloc[0]
+teto = ler(EXT / "licc_teto_vs_icms.csv").set_index("ano_teto")
+munic = ler(EXT / "munic2021_cultura_es_resumo.csv").set_index(["item", "grupo"])
+siic = ler(EXT / "siic_uf.csv")
+
+
+def siic_2024() -> tuple[float, float, int]:
+    o = siic[siic.indicador == "ocupados_setor_cultural_pnadc"].pivot(index="localidade", columns="ano", values="valor")[2024]
+    t = siic[siic.indicador == "ocupados_14mais_pnadc"].pivot(index="localidade", columns="ano", values="valor")[2024]
+    sh = (o / t).sort_values(ascending=False)
+    return float(sh["ES"]), float(o.sum() / t.sum()), list(sh.index).index("ES") + 1
+
+
+def d1_emd(r2: float, icc: float, poder: float) -> float:
+    s = d1[(d1.R2_hipotese == r2) & (d1.icc_hipotese == icc) & (d1.poder == poder)]
+    return float(s["EMD_dp"].iloc[0])
+
+
+def ilustr_emd(recorte: str, poder: float) -> float:
+    return float(ilustr[(ilustr.recorte == recorte) & (ilustr.poder == poder)]["emd_dp"].iloc[0])
+
+
+def f13(ano: int, grupo: str) -> float:
+    return float(f13m[(f13m.ano == ano) & (f13m.grupo == grupo)]["f13_per_capita"].iloc[0])
+
+
+def razao_autorizado_teto() -> list[float]:
+    # soma autorizada do ciclo / teto do ano seguinte (ano em que o ciclo capta)
+    return [anual.loc[str(c), "autorizado_total"] / teto.loc[c + 1, "teto_renuncia"] for c in range(2022, 2026)]
+
+
+def recorrentes(col: str) -> float:
+    return float(recor.loc[recor.n_ciclos >= 3, col].sum())
+
+
+def faixa_taxa(ciclo: int, fx: str) -> float:
+    return float(faixa[(faixa.ciclo == ciclo) & (faixa.faixa_valor_ciclo == fx)]["taxa_execucao"].iloc[0])
+
+
+ES_SH, BR_SH, ES_RANK = siic_2024()
+RAZ = razao_autorizado_teto()
+F13_TETO = [teto.loc[a, "teto_sobre_f13_estado"] for a in range(2022, 2026)]
+S = {c: status.loc[c] for c in (2022, 2023, 2024)}
+N_RES = sum(S[c]["resolvidos"] for c in S)
+N_EXE = sum(S[c]["executados"] for c in S)
+N_EXP = sum(S[c]["captacao_expirada"] for c in S)
+N_PROP = int(d1["proponentes"].iloc[0])
+
+T = "analise/tabelas/"
+# (id, trecho literal do artigo, valor formatado recalculado, fonte)
+CHECAGENS = [
+    ("D01", "anexos oficiais de 463 projetos habilitados", str(int(anual.loc[TOTAL, "processos"])), T + "03_anual.csv"),
+    ("D02", "onde fica 67% do valor atribuível", pct(rmgv.loc["RMGV", "share_autorizado_atribuivel"]), T + "03_territorio_rmgv_interior.csv"),
+    ("D03", "duas empresas respondem por metade da renúncia de 2025",
+     {2: "duas"}.get(int(float(patr["empresas_para_metade"])), "?"), T + "03_patrocinadores_concentracao.csv"),
+    ("D04", "detecta efeitos a partir de 0,25 a 0,45 desvio-padrão",
+     f"{num(d1.EMD_dp.min(), 2)} a {num(d1.EMD_dp.max(), 2)}", T + "05_poder_d1_proponente.csv"),
+    ("D05", "passou de R\\$ 10 milhões em 2022 para R\\$ 31 milhões em 2026",
+     f"R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões em 2022 para R\\$ {num(teto.loc[2026, 'teto_renuncia'] / 1e6)} milhões",
+     "dados/externos/licc_teto_vs_icms.csv"),
+    ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões",
+     f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões",
+     T + "03_anual.csv"),
+    ("D07", "63 projetos captaram exatamente R\\$ 25.000.000,00",
+     f"{int(capt['projetos'])} projetos captaram exatamente R\\$ {int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
+     T + "licc_captados_2025_totais.csv"),
+    ("D08", "ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação",
+     f"{pct(ES_SH, 1)} dos trabalhadores do ES, contra {pct(BR_SH, 1)} no país, a {ES_RANK}ª", "dados/externos/siic_uf.csv"),
+    ("D09", "95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",
+     f"{pct(munic.loc[('cinema', 'RMGV'), 'pct_pop_em_mun_com_sim'])} da população da Região Metropolitana da Grande Vitória (RMGV) "
+     f"vivia em município com cinema, contra {pct(munic.loc[('cinema', 'Interior'), 'pct_pop_em_mun_com_sim'])}",
+     "dados/externos/munic2021_cultura_es_resumo.csv"),
+    ("D10", "metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal",
+     ("metade" if abs(munic.loc[("fundo_municipal_cultura", "Interior"), "pct_mun_sim_sobre_validos"] - 0.5) < 0.01 else "?")
+     + f" dos municípios do interior não tinha fundo municipal de cultura e só "
+       f"{pct(munic.loc[('plano_municipal_cultura', 'Interior'), 'pct_mun_sim_sobre_validos'])}",
+     "dados/externos/munic2021_cultura_es_resumo.csv"),
+    ("D11", "a renúncia equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
+     "dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)"),
+    ("D12", "| Teto / gasto estadual na função cultura, 2022-2025 | 14% a 21% |", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
+     "dados/externos/licc_teto_vs_icms.csv"),
+    ("D13", "| Teto de 2025 / ICMS estadual de 2024 | 0,16% |", pct(teto.loc[2025, "teto_sobre_icms_estadual_base"], 2),
+     "dados/externos/licc_teto_vs_icms.csv"),
+    ("D14", "ciclos 2022-2025 | 1,1 a 1,9 |", f"{num(min(RAZ), 1)} a {num(max(RAZ), 1)}",
+     T + "03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv (teto do ano seguinte)"),
+    ("D15", "| Captado em 2025 / teto de 2025 | 100% (R\\$ 25,0 mi) |",
+     f"{pct(capt['soma_valor_captado'] / teto.loc[2025, 'teto_renuncia'])} (R\\$ {num(capt['soma_valor_captado'] / 1e6, 1)} mi)",
+     T + "licc_captados_2025_totais.csv"),
+    ("D16", "(2022; 2023; 2024) | 16%; 30%; 45% |",
+     "; ".join(pct(S[c]["taxa_expiracao_sobre_resolvidos"]) for c in S), T + "03_status_por_ciclo.csv"),
+    ("D17", "(2022 → 2026) | 13% → 41% |",
+     f"{pct(bunch.loc['2022', 'pct_exatamente_500mil'])} → {pct(bunch.loc['2026', 'pct_exatamente_500mil'])}", T + "03_bunching_teto.csv"),
+    ("D18", "(2025; 2026) | 63%; 51% |",
+     f"{pct(prop.loc['2025', 'pct_proponentes_ja_vistos_em_ciclo_anterior'])}; {pct(prop.loc['2026', 'pct_proponentes_ja_vistos_em_ciclo_anterior'])}",
+     T + "03_proponentes_por_ciclo.csv"),
+    ("D19", "parcela dos proponentes e do valor | 17%; 47% |",
+     f"{pct(recorrentes('pct_proponentes'))}; {pct(recorrentes('pct_autorizado'))}", T + "03_proponentes_recorrencia.csv"),
+    ("D20", "os 17% que aparecem em três ou mais ciclos ficam com 47% do valor",
+     f"os {pct(recorrentes('pct_proponentes'))} que aparecem em três ou mais ciclos ficam com {pct(recorrentes('pct_autorizado'))}",
+     T + "03_proponentes_recorrencia.csv"),
+    ("D21", "| Parcela da RMGV: população; valor atribuível | 49%; 67% |",
+     f"{pct(rmgv.loc['RMGV', 'share_pop_censo2022'])}; {pct(rmgv.loc['RMGV', 'share_autorizado_atribuivel'])}",
+     T + "03_territorio_rmgv_interior.csv"),
+    ("D22", "A RMGV tem 49% da população e fica com 67% do valor",
+     f"{pct(rmgv.loc['RMGV', 'share_pop_censo2022'])} da população e fica com {pct(rmgv.loc['RMGV', 'share_autorizado_atribuivel'])}",
+     T + "03_territorio_rmgv_interior.csv"),
+    ("D23", "| Vitória: população; valor atribuível | 8%; 48% |",
+     f"{pct(muni.loc['Vitória', 'share_pop'])}; {pct(muni.loc['Vitória', 'share_valor'])}", T + "03_municipios.csv"),
+    ("D24", "Vitória, com 8% da população, fica com 48%",
+     f"{pct(muni.loc['Vitória', 'share_pop'])} da população, fica com {pct(muni.loc['Vitória', 'share_valor'])}", T + "03_municipios.csv"),
+    ("D25", "entre os 78 municípios | 0,88 |", num(float(terr["gini_valor_78"]), 2), T + "03_territorio_indicadores.csv"),
+    ("D26", "O Gini do valor entre os 78 municípios é 0,88, acima do Gini da população (0,64) e do PIB (0,75)",
+     f"é {num(float(terr['gini_valor_78']), 2)}, acima do Gini da população ({num(float(terr['gini_populacao_78']), 2)}) "
+     f"e do PIB ({num(float(terr['gini_pib_78']), 2)})", T + "03_territorio_indicadores.csv"),
+    ("D27", "Municípios sem nenhum projeto habilitado em 2022-2026 | 14 |", str(int(rmgv.loc["ES", "municipios_sem_presenca"])),
+     T + "03_territorio_rmgv_interior.csv"),
+    ("D28", "14 municípios do interior não tiveram nenhum projeto habilitado",
+     f"{int(rmgv.loc['Interior', 'municipios_sem_presenca'])} municípios do interior"
+     + ("" if rmgv.loc["RMGV", "municipios_sem_presenca"] == 0 else " [RMGV também]"), T + "03_territorio_rmgv_interior.csv"),
+    ("D29", "maior empresa (distribuidora de energia) | 26; 44% |",
+     f"{int(float(patr['empresas']))}; {pct(float(patr['CR1']))}", T + "03_patrocinadores_concentracao.csv"),
+    ("D30", "parcela de energia e gás | 2; 52% |",
+     f"{int(float(patr['empresas_para_metade']))}; {pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}",
+     T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
+    ("D31", "em 2025, 26 patrocinadores, dos quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",
+     f"{int(float(patr['empresas']))} patrocinadores, dos quais a distribuidora de energia respondeu por {pct(float(patr['CR1']))} da renúncia, "
+     f"e empresas de energia e gás, serviços regulados, por {pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}",
+     T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
+    ("D32", "projetos com um único município de execução (74% do valor autorizado)",
+     pct(float(str(terr["cobertura_valor_atribuivel"]).split(";")[1].split()[0])), T + "03_territorio_indicadores.csv"),
+    ("D33", "o retrato territorial cobre 74% do valor",
+     pct(float(str(terr["cobertura_valor_atribuivel"]).split(";")[1].split()[0])), T + "03_territorio_indicadores.csv"),
+    ("D34", "78% contra 27% no ciclo 2024",
+     f"{pct(faixa_taxa(2024, 'exatamente 500 mil'))} contra {pct(faixa_taxa(2024, 'até 400 mil'))} no ciclo 2024",
+     T + "03_status_conversao_por_faixa_valor_e_ciclo.csv"),
+    ("D35", "A parcela de pedidos no teto exato triplicou entre 2022 e 2026",
+     "triplicou" if round(bunch.loc["2026", "pct_exatamente_500mil"] / bunch.loc["2022", "pct_exatamente_500mil"]) == 3 else "?",
+     T + "03_bunching_teto.csv"),
+    ("D36", "subiu de 16% para 45% à medida que a habilitação quase dobrou",
+     f"subiu de {pct(S[2022]['taxa_expiracao_sobre_resolvidos'])} para {pct(S[2024]['taxa_expiracao_sobre_resolvidos'])} "
+     + ("à medida que a habilitação quase dobrou" if 1.7 <= S[2024]["total"] / S[2022]["total"] < 2 else "?"),
+     T + "03_status_por_ciclo.csv"),
+    ("D37", "a diferença entre RMGV e interior explica só 7% do total", f"explica só {pct(float(terr['pct_theil_entre_grupos']))}",
+     T + "03_territorio_indicadores.csv"),
+    ("D38", "maior por habitante no interior (R\\$ 93) que na RMGV (R\\$ 59) em 2025",
+     f"interior (R\\$ {num(f13(2025, 'Interior'))}) que na RMGV (R\\$ {num(f13(2025, 'RMGV'))}) em 2025",
+     T + "03e_f13_municipal_rmgv_interior.csv"),
+    ("D39", "O valor autorizado de cada ciclo foi de 1,1 a 1,9 vez o teto", f"{num(min(RAZ), 1)} a {num(max(RAZ), 1)} vez",
+     T + "03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv"),
+    ("D41", "coortes de 39, 16, 3, 3 e 3 municípios entre 2022 e 2026, e 14 nunca tratados",
+     "coortes de " + ", ".join(str(int(coorte.loc[str(c), "municipios"])) for c in range(2022, 2026))
+     + f" e {int(coorte.loc['2026', 'municipios'])} municípios entre 2022 e 2026, e {int(coorte.loc['nunca (2022-2026)', 'municipios'])} nunca",
+     T + "03_coortes_primeira_presenca_canonico.csv"),
+    ("D42", "A população são os 305 projetos habilitados nos ciclos 2022-2024, dos quais 293 já tinham situação resolvida (198 captaram e 95 tiveram o prazo expirado), de 199 proponentes",
+     f"os {int(sum(S[c]['total'] for c in S))} projetos habilitados nos ciclos 2022-2024, dos quais {int(N_RES)} já tinham situação "
+     f"resolvida ({int(N_EXE)} captaram e {int(N_EXP)} tiveram o prazo expirado), de {N_PROP} proponentes",
+     T + "03_status_por_ciclo.csv; 05_poder_d1_proponente.csv"),
+    ("D43", "em que $n$ = 293 projetos, $P$ = 0,676 é a fração tratada",
+     f"$n$ = {int(d1.n_projetos.iloc[0])} projetos, $P$ = {num(N_EXE / N_RES, 3)}", T + "05_poder_d1_proponente.csv"),
+    ("D44", "$\\bar m$ = 1,47 projeto por proponente", f"$\\bar m$ = {num(N_RES / N_PROP, 2)}", T + "05_poder_d1_proponente.csv"),
+    ("D45", "| Sem covariáveis, sem correlação intraproponente | 0,35 | 0,41 |",
+     f"| {num(d1_emd(0, 0, .8), 2)} | {num(d1_emd(0, 0, .9), 2)} |", T + "05_poder_d1_proponente.csv"),
+    ("D46", "| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |", f"| {num(d1_emd(0, .2, .8), 2)} | {num(d1_emd(0, .2, .9), 2)} |",
+     T + "05_poder_d1_proponente.csv"),
+    ("D47", "| R² = 0,3, ρ = 0 | 0,29 | 0,34 |", f"| {num(d1_emd(.3, 0, .8), 2)} | {num(d1_emd(.3, 0, .9), 2)} |",
+     T + "05_poder_d1_proponente.csv"),
+    ("D48", "| R² = 0,5, ρ = 0 | 0,25 | 0,29 |", f"| {num(d1_emd(.5, 0, .8), 2)} | {num(d1_emd(.5, 0, .9), 2)} |",
+     T + "05_poder_d1_proponente.csv"),
+    ("D49", "| R² = 0,5, ρ = 0,2 | 0,28 | 0,32 |", f"| {num(d1_emd(.5, .2, .8), 2)} | {num(d1_emd(.5, .2, .9), 2)} |",
+     T + "05_poder_d1_proponente.csv"),
+    ("D50", "| Um ciclo isolado (2023 ou 2024), sem covariáveis | 0,53 a 0,58 | 0,62 a 0,67 |",
+     f"| {num(ilustr_emd('ciclo 2024', .8), 2)} a {num(ilustr_emd('ciclo 2023', .8), 2)} | "
+     f"{num(ilustr_emd('ciclo 2024', .9), 2)} a {num(ilustr_emd('ciclo 2023', .9), 2)} |", T + "licc_emd_ilustrativo.csv"),
+    ("D51", "| Municipal, 78 municípios, 25% a 50% tratados | 0,43 a 1,04 |",
+     f"| {num(mun_did.MDE_em_dp_idiossincratico_SCR.min(), 2)} a {num(mun_did.MDE_em_dp_idiossincratico_SCR.max(), 2)} |",
+     T + "05_poder_mde_municipal_did.csv"),
+    ("D52", "Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes",
+     f"Com poder de {pct(float(tipo_m.loc[tipo_m.efeito_verdadeiro_sobre_ep == 1.0, 'poder'].iloc[0]))}, a estimativa significativa "
+     f"superestima em média o efeito verdadeiro {num(float(tipo_m.loc[tipo_m.efeito_verdadeiro_sobre_ep == 1.0, 'razao_exagero_tipo_M'].iloc[0]), 1)} vezes",
+     T + "05_poder_tipo_m.csv"),
+    ("D53", "O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão",
+     f"{num(d1.EMD_dp.min(), 2)} a {num(d1.EMD_dp.max(), 2)}", T + "05_poder_d1_proponente.csv"),
+]
+
+
+def main() -> int:
+    texto = ART.read_text(encoding="utf-8")
+    linhas, falhas = [], 0
+    for cid, trecho, recalc, fonte in CHECAGENS:
+        if trecho not in texto:
+            st = "TRECHO_AUSENTE"
+        elif recalc in trecho:
+            st = "CONFERE"
+        else:
+            st = "DIVERGE"
+        falhas += st != "CONFERE"
+        linhas.append({"id": cid, "status": st, "recalculado": recalc, "fonte": fonte, "trecho": trecho})
+    with SAIDA.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["id", "status", "recalculado", "fonte", "trecho"])
+        w.writeheader()
+        w.writerows(linhas)
+    for l in linhas:
+        if l["status"] != "CONFERE":
+            print(f"{l['id']} {l['status']}: recalculado «{l['recalculado']}» | texto «{l['trecho']}»")
+    print(f"{len(linhas) - falhas}/{len(linhas)} checagens conferem → {SAIDA.relative_to(RAIZ)}")
+    return 1 if falhas else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

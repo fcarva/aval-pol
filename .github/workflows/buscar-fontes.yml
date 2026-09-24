@@ -13,6 +13,7 @@ on:
       - "dados/fontes_web/dois.txt"
       - "dados/fontes_web/pedidos.tsv"
       - "dados/fontes_web/salic_anos.txt"
+      - "dados/fontes_web/buscas.tsv"
       - "analise/rede/**"
       - ".github/workflows/buscar-fontes.yml"
   workflow_dispatch:
@@ -47,21 +48,18 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
           pip install -q requests pandas numpy beautifulsoup4
 
-      - name: Buscar
-        run: python analise/rede/buscar_fontes.py ${{ inputs.forcar && '--forcar' || '' }}
+      - name: Buscar referências e páginas
+        run: python analise/rede/buscar_fontes.py --etapa refs ${{ inputs.forcar && '--forcar' || '' }}
 
-      - name: Devolver por commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dados/fontes_web dados/externos
-          if git diff --cached --quiet; then
-            echo "Nada novo."
-            exit 0
-          fi
-          git commit -q -m "buscar-fontes: resultado da coleta (${GITHUB_RUN_ID})"
-          for i in 1 2 3; do
-            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
-            sleep 5
-          done
-          exit 1
+      - name: Devolver referências e páginas por commit
+        if: always()
+        run: bash analise/rede/devolver.sh "referências e páginas"
+
+      - name: SALIC (lento; não segura o resto)
+        timeout-minutes: 60
+        continue-on-error: true
+        run: python analise/rede/buscar_fontes.py --etapa salic
+
+      - name: Devolver SALIC por commit
+        if: always()
+        run: bash analise/rede/devolver.sh "SALIC"

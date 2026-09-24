@@ -297,6 +297,18 @@ def territorio(h: pd.DataFrame, hd: pd.DataFrame, pm: pd.DataFrame, mun: pd.Data
         })
     por_ciclo = salvar(pd.DataFrame(linhas), "territorio_por_ciclo")
 
+    # coortes de primeira presença (tratamento escalonado do desenho municipal, seção 5.2 do artigo)
+    prim = pc.groupby("cod_ibge")["ciclo"].min()
+    coortes = mun[["cod_ibge", "municipio", "rmgv", "pop_censo2022"]].copy()
+    coortes["primeiro_ciclo"] = coortes["cod_ibge"].map(prim)
+    resumo = (coortes.assign(primeiro_ciclo=coortes["primeiro_ciclo"].map(
+                  lambda x: "nunca (2022-2026)" if pd.isna(x) else str(int(x))))
+              .groupby("primeiro_ciclo")
+              .agg(municipios=("cod_ibge", "size"), municipios_rmgv=("rmgv", "sum"),
+                   pop_mediana=("pop_censo2022", "median"))
+              .reset_index())
+    salvar(resumo, "coortes_primeira_presenca_canonico")
+
     # resumo agregado 2022-2026
     grp = np.where(m["rmgv"], "RMGV", "Interior")
     res = []

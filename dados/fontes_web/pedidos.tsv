@@ -17,3 +17,6 @@ tcu_acordao_191_2016	https://portal.tcu.gov.br/imprensa/noticias/captacao-de-rec
 norus_belem_donadone	https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761	Belem e Donadone (2013)
 sciencedirect_schuster_2006	https://www.sciencedirect.com/science/chapter/handbook/abs/pii/S1574067606010362	DOI do capítulo de Schuster (2006)
 sage_kim_vanryzin_2014	https://journals.sagepub.com/doi/abs/10.1177/0899764013487800	sinal do efeito (resumo)
+ibge_siic_pagina	https://www.ibge.gov.br/estatisticas/multidominio/cultura-recreacao-e-esporte/9388-indicadores-culturais.html	edição do SIIC que traz a PNADC 2024 (referência IBGE do artigo)
+ibge_siic_periodos	https://servicodados.ibge.gov.br/api/v1/pesquisas/10092/periodos	períodos e datas de publicação do SIIC na API
+ibge_munic2021_periodos	https://servicodados.ibge.gov.br/api/v1/pesquisas/1/periodos	data de publicação da MUNIC 2021
