@@ -1,0 +1,29 @@
+recorte,linguagem,resolvidos,executados,taxa_execucao
+todos,audiovisual,19,12,0.631578947368421
+todos,formação e oficinas,15,13,0.8666666666666667
+todos,"hip-hop, rap e cultura urbana",4,4,1.0
+todos,literatura e livro,4,3,0.75
+todos,música erudita e coral,18,14,0.7777777777777778
+todos,música popular e festivais,50,41,0.82
+todos,não classificado,107,58,0.5420560747663551
+todos,patrimônio e memória,14,8,0.5714285714285714
+todos,"teatro, dança e circo",16,11,0.6875
+todos,tradição popular e festas,46,34,0.7391304347826086
+RMGV,audiovisual,11,7,0.6363636363636364
+RMGV,formação e oficinas,7,6,0.8571428571428571
+RMGV,"hip-hop, rap e cultura urbana",2,2,1.0
+RMGV,literatura e livro,3,3,1.0
+RMGV,música erudita e coral,14,11,0.7857142857142857
+RMGV,música popular e festivais,26,21,0.8076923076923077
+RMGV,não classificado,54,27,0.5
+RMGV,patrimônio e memória,7,5,0.7142857142857143
+RMGV,"teatro, dança e circo",6,3,0.5
+RMGV,tradição popular e festas,21,17,0.8095238095238095
+Interior,audiovisual,3,1,0.3333333333333333
+Interior,formação e oficinas,2,1,0.5
+Interior,música erudita e coral,1,1,1.0
+Interior,música popular e festivais,14,13,0.9285714285714286
+Interior,não classificado,25,13,0.52
+Interior,patrimônio e memória,6,3,0.5
+Interior,"teatro, dança e circo",4,3,0.75
+Interior,tradição popular e festas,21,13,0.6190476190476191
