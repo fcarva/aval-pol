@@ -123,3 +123,9 @@ secult_edital_pareceristas_2025	https://secult.es.gov.br/media/2025/EDITAL_DE_CR
 mapa_api_agentes_campos_amostra	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,type,En_Municipio,En_Estado,documento,cnpj,cpf&@limit=5	RV-5: quais campos do agente são públicos (município; CNPJ?)
 mapa_api_coletivos_municipio	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,En_Municipio,En_Estado&type=EQ(2)&@limit=5000	RV-5: agentes coletivos por município (cadastro de H3)
 mapa_api_individuais_municipio	https://mapa.cultura.es.gov.br/api/agent/find?@select=id,En_Municipio,En_Estado&type=EQ(1)&@limit=30000	RV-5: agentes individuais por município (cadastro de H3)
+mapa_api_fases_metodo_tipo	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,evaluationMethodConfiguration.{id,type}&id=IN(1434,1435,1896,1897,2373,2374)	H2a: tipo do método de avaliação das fases Parecerista e CAP (2024-2026); arquiva a consulta citada como SECULT (2026e)
+mapa_api_metodos_avaliacao	https://mapa.cultura.es.gov.br/api/evaluationMethodConfiguration/find?@select=id,type,opportunity&id=IN(748,749,933,934,1092,1093)	H2a: mesmos métodos pela entidade evaluationMethodConfiguration
+planalto_ctn_compilado	https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm	LAI/sigilo fiscal: CTN art. 198, § 3º, IV (benefício tributário a pessoa jurídica fora do sigilo)
+planalto_lc_187_2021	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm	LAI/sigilo fiscal: LC 187/2021, que incluiu o inciso IV no § 3º do art. 198 do CTN
+receita_dados_publicos_cnpj	https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj	Porte: dados abertos do CNPJ (porte, abertura, CNAE, município)
+dadosgov_cnpj	https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj	Porte: conjunto de dados do CNPJ no portal dados.gov.br

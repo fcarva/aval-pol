@@ -1,0 +1,76 @@
+id,ano,descricao,esperado,obtido,status,fonte
+P1,2022,URL do .txt = URL do manifesto do relé,https://secult.es.gov.br/media/PDF/2023/RECURSO%20FINANCEIRO%20CAPTADO%20-%202022.pdf,https://secult.es.gov.br/media/PDF/2023/RECURSO%20FINANCEIRO%20CAPTADO%20-%202022.pdf,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+P2,2022,sha256 do PDF no .txt = manifesto,67945f574cec16f23fb4458e13ccc5e0c82a67ca918a8f6a44be15d160c0886e,67945f574cec16f23fb4458e13ccc5e0c82a67ca918a8f6a44be15d160c0886e,confere,dados/fontes_web/manifesto.csv
+P1,2023,URL do .txt = URL do manifesto do relé,https://secult.es.gov.br/media/2023/RECURSO%20FINANCEIRO%20CAPTADO%20-%202023.pdf,https://secult.es.gov.br/media/2023/RECURSO%20FINANCEIRO%20CAPTADO%20-%202023.pdf,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+P2,2023,sha256 do PDF no .txt = manifesto,3a790deed8e01b95f3677e366eb9c5c09ba2d58fd86af84cd20d8a8024da8aac,3a790deed8e01b95f3677e366eb9c5c09ba2d58fd86af84cd20d8a8024da8aac,confere,dados/fontes_web/manifesto.csv
+P1,2024,URL do .txt = URL do manifesto do relé,https://secult.es.gov.br/media/2024/RECURSO%20FINANCEIRO%20CAPTADO%20-%202024%20%286%29.pdf,https://secult.es.gov.br/media/2024/RECURSO%20FINANCEIRO%20CAPTADO%20-%202024%20%286%29.pdf,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+P2,2024,sha256 do PDF no .txt = manifesto,19286bb60560325dedd49612321321a343a7ca751700975aa1198ccbc196f49b,19286bb60560325dedd49612321321a343a7ca751700975aa1198ccbc196f49b,confere,dados/fontes_web/manifesto.csv
+P1,2025,URL do .txt = URL do manifesto do relé,https://secult.es.gov.br/media/2025/RECURSO%20FINANCEIRO%20CAPTADO%20-%202025%20%2817%29.pdf,https://secult.es.gov.br/media/2025/RECURSO%20FINANCEIRO%20CAPTADO%20-%202025%20%2817%29.pdf,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+P2,2025,sha256 do PDF no .txt = manifesto,1e0ac02d4b026691384f0f80bc343cc6beb02547b9083b67bbd8f83b1421fcda,1e0ac02d4b026691384f0f80bc343cc6beb02547b9083b67bbd8f83b1421fcda,confere,dados/fontes_web/manifesto.csv
+P1,2026,URL do .txt = URL do manifesto do relé,https://secult.es.gov.br/media/2026/RECURSO%20FINANCEIRO%20CAPTADO%20-%202026-2.pdf,https://secult.es.gov.br/media/2026/RECURSO%20FINANCEIRO%20CAPTADO%20-%202026-2.pdf,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+P2,2026,sha256 do PDF no .txt = manifesto,1d9e507814910e443f35fc2560a1600f0d36e63d4563e5ecb5ccb61140199879,1d9e507814910e443f35fc2560a1600f0d36e63d4563e5ecb5ccb61140199879,confere,dados/fontes_web/manifesto.csv
+L1,2022,nenhum R$ fora das colunas previstas (leitura completa),0,0,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+L2,2022,todo termo tem CNPJ de 14 dígitos (na linha ou na vizinha),47,47,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+A1,2022,ano do montante impresso = ano do anexo,2022,2022,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+B1,2022,total impresso = soma dos termos recalculada,11539241.07,11539241.07,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+E1,2022,soma da coluna 'valor total captado' (por projeto) = soma dos termos,11539241.07,11539241.07,confere,dados/fontes_web/paginas/secult_captados_2022_pdf.txt
+L1,2023,nenhum R$ fora das colunas previstas (leitura completa),0,0,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+L2,2023,todo termo tem CNPJ de 14 dígitos (na linha ou na vizinha),71,71,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+A1,2023,ano do montante impresso = ano do anexo,2023,2023,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+B1,2023,total impresso = soma dos termos recalculada,15000000.00,15000000.00,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+A2,2023,montante impresso = teto das portarias SEFAZ,15000000,15000000.00,confere,dados/externos/licc_teto_vs_icms.csv
+C1,2023,soma dos termos = montante (esgotou ao centavo),15000000.00,15000000.00,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+X1,2023,03f: montante_declarado = montante impresso,15000000.00,15000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+X2,2023,03f: total_validado = soma dos termos,15000000.00,15000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+E1,2023,soma da coluna 'valor total captado' (por projeto) = soma dos termos,15000000.00,15000000.00,confere,dados/fontes_web/paginas/secult_captados_2023_pdf.txt
+L1,2024,nenhum R$ fora das colunas previstas (leitura completa),0,0,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+L2,2024,todo termo tem CNPJ de 14 dígitos (na linha ou na vizinha),109,109,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+A1,2024,ano do montante impresso = ano do anexo,2024,2024,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+B1,2024,total impresso = soma dos termos recalculada,25000000.00,25000000.00,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+A2,2024,montante impresso = teto das portarias SEFAZ,25000000,25000000.00,confere,dados/externos/licc_teto_vs_icms.csv
+C1,2024,soma dos termos = montante (esgotou ao centavo),25000000.00,25000000.00,confere,dados/fontes_web/paginas/secult_captados_2024_pdf.txt
+X1,2024,03f: montante_declarado = montante impresso,25000000.00,25000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+X2,2024,03f: total_validado = soma dos termos,25000000.00,25000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+L1,2025,nenhum R$ fora das colunas previstas (leitura completa),0,0,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+L2,2025,todo termo tem CNPJ de 14 dígitos (na linha ou na vizinha),95,95,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+A1,2025,ano do montante impresso = ano do anexo,2025,2025,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+B1,2025,total impresso = soma dos termos recalculada,25000000.00,25000000.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+A2,2025,montante impresso = teto das portarias SEFAZ,25000000,25000000.00,confere,dados/externos/licc_teto_vs_icms.csv
+C1,2025,soma dos termos = montante (esgotou ao centavo),25000000.00,25000000.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+X1,2025,03f: montante_declarado = montante impresso,25000000.00,25000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+X2,2025,03f: total_validado = soma dos termos,25000000.00,25000000.00,confere,analise/tabelas/03f_captacao_anual_secult.csv
+F1,2025,cota I: 'Total Captado' impresso = soma dos termos da cota,7500000.00,7500000.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+F1,2025,cota II: 'Total Captado' impresso = soma dos termos da cota,2329896.00,2329896.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+F1,2025,cota III: 'Total Captado' impresso = soma dos termos da cota,2670104.00,2670104.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+F1,2025,cota IV: 'Total Captado' impresso = soma dos termos da cota,12500000.00,12500000.00,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+L1,2026,nenhum R$ fora das colunas previstas (leitura completa),0,0,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+L2,2026,todo termo tem CNPJ de 14 dígitos (na linha ou na vizinha),120,120,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+A1,2026,ano do montante impresso = ano do anexo,2026,2026,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+B1,2026,total impresso = soma dos termos recalculada,31512958.04,31512958.04,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+F1,2026,cota I: 'Total Captado' impresso = soma dos termos da cota,9701559.88,9701559.88,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+F1,2026,cota II: 'Total Captado' impresso = soma dos termos da cota,3086410.50,3086410.50,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+F1,2026,cota III: 'Total Captado' impresso = soma dos termos da cota,3132610.32,3132610.32,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+F1,2026,cota IV: 'Total Captado' impresso = soma dos termos da cota,15592377.34,15592377.34,confere,dados/fontes_web/paginas/secult_captados_2026_pdf.txt
+G1,2025,projetos no anexo (valores na coluna 'valor habilitado'),63,63,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+G2,2025,termos no anexo,95,95,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+T1,2025,licc_captados_2025_totais.csv: projetos = anexo,63,63,confere,analise/tabelas/licc_captados_2025_totais.csv
+T2,2025,licc_captados_2025_totais.csv: soma captada = anexo,25000000.00,25000000.00,confere,analise/tabelas/licc_captados_2025_totais.csv
+T3,2025,licc_captados_2025_totais.csv: soma habilitada = anexo,27802174.47,27802174.47,confere,analise/tabelas/licc_captados_2025_totais.csv
+T4,2025,transcrição licc.gov: linhas (projetos) = anexo,63,63,confere,dados/licc/oficial/captados-2025.csv
+T5,2025,transcrição licc.gov: projetos distintos (título) = linhas,63,63,confere,dados/licc/oficial/captados-2025.csv
+T6,2025,transcrição licc.gov: soma de valor_captado = anexo,25000000.00,25000000.00,confere,dados/licc/oficial/captados-2025.csv
+T7,2025,transcrição licc.gov: valores habilitados (multiconjunto) = anexo,True,True,confere,dados/licc/oficial/captados-2025.csv
+T8,2025,"transcrição licc.gov: termos (CNPJ, valor) = anexo, um a um",True,True,confere,dados/licc/oficial/captados-2025.csv
+T9,2025,transcrição licc.gov: soma dos aportes de cada projeto = valor_captado,63,63,confere,dados/licc/oficial/captados-2025.csv
+T10,2025,captados_2025.csv: linhas = anexo,63,63,confere,dados/processados/captados_2025.csv
+T11,2025,captados_2025.csv: soma de valor_captado = anexo,25000000.00,25000000.00,confere,dados/processados/captados_2025.csv
+T12,2025,"aportes_2025.csv: termos (CNPJ, valor) = anexo, um a um",True,True,confere,dados/processados/aportes_2025.csv
+T13,2025,aportes_2025.csv: projetos distintos (id_captado) = anexo,63,63,confere,dados/processados/aportes_2025.csv
+T14,2025,"09_cotas_2025_2026.csv: cota I, soma lida = auditoria",7500000.00,7500000.00,confere,analise/tabelas/09_cotas_2025_2026.csv
+T14,2025,"09_cotas_2025_2026.csv: cota II, soma lida = auditoria",2329896.00,2329896.00,confere,analise/tabelas/09_cotas_2025_2026.csv
+T14,2025,"09_cotas_2025_2026.csv: cota III, soma lida = auditoria",2670104.00,2670104.00,confere,analise/tabelas/09_cotas_2025_2026.csv
+T14,2025,"09_cotas_2025_2026.csv: cota IV, soma lida = auditoria",12500000.00,12500000.00,confere,analise/tabelas/09_cotas_2025_2026.csv
+H1,2025,marcas 'Em análise' no anexo = projetos marcados na transcrição,1,1,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+H2,2025,termos do projeto em análise estão junto da marca no anexo,True,True,confere,dados/fontes_web/paginas/secult_captados_2025_v17_pdf.txt
+H3,2025,soma dos termos do projeto em análise = valor_captado transcrito,356135.99,356135.99,confere,dados/licc/oficial/captados-2025.csv
+M1,-,a frase auditada está no artigo,True,True,confere,artigo/rascunho-artigo.md
