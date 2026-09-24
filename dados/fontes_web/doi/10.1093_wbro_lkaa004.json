@@ -1,0 +1,89 @@
+{
+ "doi": "10.1093/wbro/lkaa004",
+ "coletado_utc": "2026-09-24T03:30:27Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Can Jobs Programs Build Peace?"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Tilman",
+    "family": "Brück",
+    "name": null
+   },
+   {
+    "given": "Neil T N",
+    "family": "Ferguson",
+    "name": null
+   },
+   {
+    "given": "Valeria",
+    "family": "Izzi",
+    "name": null
+   },
+   {
+    "given": "Wolfgang",
+    "family": "Stojetz",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "The World Bank Research Observer"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "36",
+  "issue": "2",
+  "page": "234-259",
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    9,
+    30
+   ]
+  ],
+  "published_print": [
+   [
+    2021,
+    7,
+    22
+   ]
+  ],
+  "published_online": [
+   [
+    2020,
+    9,
+    30
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/wbro/lkaa004",
+  "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>In the last decade, well over $10 billion has been spent on employment programs designed to contribute to peace and stability. Despite the outlay, whether these programs perform, and how they do so, remain open questions. This study conducts three reviews to derive the status quo of knowledge. First, it draws on academic literature on the microfoundations of instability to distill testable theories of how employment programs could affect stability at the micro level. Second, it analyses academic and grey literature that directly evaluates the impacts of employment programs on peace-related outcomes. Third, it conducts a systematic review of program-based learning from over 400 interventions. This study finds good theoretical reasons to believe that employment programs could contribute to peace. However, only very limited evidence exists on overall impacts on peace or on the pathways underlying the theories of change. At the program level, the review finds strong evidence that contributions to peace and stability are often simply assumed to have occurred. This provides a major challenge for the justification of continued spending on jobs for peace programs. Instead, systematic and rigorous learning on the impacts of jobs for peace programs needs to be scaled up urgently.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3097908123",
+  "title": "Can Jobs Programs Build Peace?",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "The World Bank Research Observer",
+  "landing_page_url": "https://doi.org/10.1093/wbro/lkaa004",
+  "authorships": [
+   "Tilman Brück",
+   "Neil T. N. Ferguson",
+   "Valeria Izzi",
+   "Wolfgang Stojetz"
+  ],
+  "biblio": {
+   "volume": "36",
+   "issue": "2",
+   "first_page": "234",
+   "last_page": "259"
+  },
+  "cited_by_count": 8,
+  "abstract": "Abstract In the last decade, well over $10 billion has been spent on employment programs designed to contribute to peace and stability. Despite the outlay, whether these programs perform, and how they do so, remain open questions. This study conducts three reviews to derive the status quo of knowledge. First, it draws on academic literature on the microfoundations of instability to distill testable theories of how employment programs could affect stability at the micro level. Second, it analyses academic and grey literature that directly evaluates the impacts of employment programs on peace-related outcomes. Third, it conducts a systematic review of program-based learning from over 400 interventions. This study finds good theoretical reasons to believe that employment programs could contribute to peace. However, only very limited evidence exists on overall impacts on peace or on the pathways underlying the theories of change. At the program level, the review finds strong evidence that contributions to peace and stability are often simply assumed to have occurred. This provides a major challenge for the justification of continued spending on jobs for peace programs. Instead, systematic and rigorous learning on the impacts of jobs for peace programs needs to be scaled up urgently."
+ }
+}
