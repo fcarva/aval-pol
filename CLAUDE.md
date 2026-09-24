@@ -65,6 +65,11 @@ Avalia-se a política **como ela está**.
 
 Nesta máquina a rede funciona (secult.es.gov.br, mapa.cultura.es.gov.br,
 servicodados.ibge.gov.br, api.openalex.org, transparencia.es.gov.br respondem).
-`www3.al.es.gov.br` não respondeu. Leia fontes online com WebFetch/firecrawl;
+`www3.al.es.gov.br` não respondeu.
+
+Na sessão em nuvem a rede fica restrita ao GitHub e aos registros de pacotes. Para buscar fontes, edite
+`dados/fontes_web/dois.txt` (DOIs), `buscas.tsv` (busca bibliográfica), `pedidos.tsv` (páginas e PDFs) ou
+`salic_anos.txt` e faça push: o workflow `.github/workflows/buscar-fontes.yml` coleta num runner com rede
+aberta e devolve o resultado por commit em `dados/fontes_web/` (ver `analise/rede/buscar_fontes.py`). Leia fontes online com WebFetch/firecrawl;
 APIs JSON (IBGE, OpenAlex, Crossref) podem ser consultadas e as tabelas
 derivadas salvas em `dados/`.

@@ -60,6 +60,8 @@ f13m = ler(TAB / "03e_f13_municipal_rmgv_interior.csv")
 d1 = ler(TAB / "05_poder_d1_proponente.csv")
 tipo_m = ler(TAB / "05_poder_tipo_m.csv")
 deff = ler(TAB / "05_poder_deff_proponente.csv")
+anu = ler(TAB / "03f_captacao_anual_secult.csv").set_index("ano_captacao")
+cota = ler(TAB / "03f_captados_por_cota.csv").dropna(subset=["cota"]).set_index(["ano_captacao", "cota"])
 mun_did = ler(TAB / "05_poder_mde_municipal_did.csv")
 ilustr = ler(TAB / "licc_emd_ilustrativo.csv")
 capt = ler(TAB / "licc_captados_2025_totais.csv").iloc[0]
@@ -115,6 +117,7 @@ def conv_rec(tipo: str) -> float:
 ES_SH, BR_SH, ES_RANK = siic_2024()
 RAZ = razao_autorizado_teto()
 F13_TETO = [teto.loc[a, "teto_sobre_f13_estado"] for a in range(2022, 2026)]
+F13_EF = [anu.loc[a, "validado_sobre_f13_estado"] for a in range(2022, 2026)]
 S = {c: status.loc[c] for c in (2022, 2023, 2024)}
 N_RES = sum(S[c]["resolvidos"] for c in S)
 N_EXE = sum(S[c]["executados"] for c in S)
@@ -130,13 +133,13 @@ CHECAGENS = [
      {2: "duas"}.get(int(float(patr["empresas_para_metade"])), "?"), T + "03_patrocinadores_concentracao.csv"),
     ("D04", "detecta efeitos a partir de 0,25 a 0,45 desvio-padrão",
      f"{num(d1.EMD_dp.min(), 2)} a {num(d1.EMD_dp.max(), 2)}", T + "05_poder_d1_proponente.csv"),
-    ("D05", "passou de R\\$ 10 milhões em 2022 para R\\$ 31 milhões em 2026",
-     f"R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões em 2022 para R\\$ {num(teto.loc[2026, 'teto_renuncia'] / 1e6)} milhões",
+    ("D05", "passou de R\\$ 15 milhões em 2023 para R\\$ 31 milhões em 2026",
+     f"R\\$ {num(teto.loc[2023, 'teto_renuncia'] / 1e6)} milhões em 2023 para R\\$ {num(teto.loc[2026, 'teto_renuncia'] / 1e6)} milhões",
      "dados/externos/licc_teto_vs_icms.csv"),
     ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado)",
      f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
      f"nos cinco ciclos ({int(anual.loc[TOTAL, 'autorizado_n'])} com valor publicado)", T + "03_anual.csv"),
-    ("D07", "63 projetos captaram exatamente R\\$ 25.000.000,00",
+    ("D07", "em 2025, 63 projetos captaram exatamente R\\$ 25.000.000,00",
      f"{int(capt['projetos'])} projetos captaram exatamente R\\$ {int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
      T + "licc_captados_2025_totais.csv"),
     ("D08", "ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação",
@@ -150,17 +153,31 @@ CHECAGENS = [
      + f" dos municípios do interior não tinha fundo municipal de cultura e só "
        f"{pct(munic.loc[('plano_municipal_cultura', 'Interior'), 'pct_mun_sim_sobre_validos'])}",
      "dados/externos/munic2021_cultura_es_resumo.csv"),
-    ("D11", "o teto de renúncia equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
-     "dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)"),
-    ("D12", "| Teto / gasto estadual na função cultura, 2022-2025 | 14% a 21% |", f"{pct(min(F13_TETO))} a {pct(max(F13_TETO))}",
-     "dados/externos/licc_teto_vs_icms.csv"),
+    ("D11", "a renúncia efetiva equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_EF))} a {pct(max(F13_EF))}",
+     T + "03f_captacao_anual_secult.csv (validado_sobre_f13_estado, 2022-2025)"),
+    ("D12", "| | Renúncia efetiva / gasto estadual na função cultura, 2022-2025 | 14% a 21% |", f"{pct(min(F13_EF))} a {pct(max(F13_EF))}",
+     T + "03f_captacao_anual_secult.csv"),
     ("D13", "| Teto de 2025 / ICMS estadual de 2024 | 0,16% |", pct(teto.loc[2025, "teto_sobre_icms_estadual_base"], 2),
      "dados/externos/licc_teto_vs_icms.csv"),
     ("D14", "ciclos 2022-2025 | 1,1 a 1,9 |", f"{num(min(RAZ), 1)} a {num(max(RAZ), 1)}",
      T + "03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv (teto do ano seguinte)"),
-    ("D15", "| Captado em 2025 / teto de 2025 | 100% (R\\$ 25,0 mi) |",
-     f"{pct(capt['soma_valor_captado'] / teto.loc[2025, 'teto_renuncia'])} (R\\$ {num(capt['soma_valor_captado'] / 1e6, 1)} mi)",
-     T + "licc_captados_2025_totais.csv"),
+    ("D15", "| | Captado / montante do ano (2023; 2024; 2025) | 100%; 100%; 100% |",
+     "; ".join(pct(anu.loc[a, "total_validado"] / anu.loc[a, "montante_declarado"]) for a in (2023, 2024, 2025)),
+     T + "03f_captacao_anual_secult.csv"),
+    ("D61", "| | Termos de patrocínio indeferidos por exceder o montante / montante (2023; 2024) | 28%; 35% |",
+     "; ".join(pct(anu.loc[a, "indeferido_sobre_montante"]) for a in (2023, 2024)), T + "03f_captacao_anual_secult.csv"),
+    ("D62", "termos de patrocínio que somavam 28% e 35% dele",
+     " e ".join(pct(anu.loc[a, "indeferido_sobre_montante"]) for a in (2023, 2024)), T + "03f_captacao_anual_secult.csv"),
+    ("D63", "a de planos plurianuais 93% e a de projetos fora da RMGV 107%",
+     f"plurianuais {pct(cota.loc[(2025, 'II'), 'captado_sobre_reservado'])} e a de projetos fora da RMGV {pct(cota.loc[(2025, 'III'), 'captado_sobre_reservado'])}",
+     T + "03f_captados_por_cota.csv"),
+    ("D64", "as reservas I e IV captaram exatamente o valor reservado",
+     "exatamente" if all(abs(cota.loc[(2025, k), "captado_sobre_reservado"] - 1) < 1e-9 for k in ("I", "IV")) else "?",
+     T + "03f_captados_por_cota.csv"),
+    ("D65", "a Portaria SEFAZ nº 09-R fixou R\\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\\$ 15 milhões disponíveis e R\\$ 11,5 milhões em termos validados",
+     f"fixou R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões; o anexo de captação de 2022 da SECULT informa R\\$ "
+     f"{num(anu.loc[2022, 'montante_declarado'] / 1e6)} milhões disponíveis e R\\$ {num(anu.loc[2022, 'total_validado'] / 1e6, 1)} milhões",
+     T + "03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv"),
     ("D16", "(2022; 2023; 2024) | 16%; 30%; 45% |",
      "; ".join(pct(S[c]["taxa_expiracao_sobre_resolvidos"]) for c in S), T + "03_status_por_ciclo.csv"),
     ("D17", "(2022 → 2026) | 13% → 41% |",

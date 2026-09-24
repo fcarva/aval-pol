@@ -347,3 +347,25 @@ avaliação de impacto isso significa **coortes com regras diferentes** e um "tr
   patrocinador, teto, cotas, crédito integral. Desenhos que só acrescentam informação ou encorajamento
   (promoção aleatória de contato com patrocinadores; `notas/disciplina/03-gertler.md`, § 11.3) são
   compatíveis.
+
+## Atualização da auditoria de 24/09/2026 (resolve pendências desta nota)
+
+Fontes obtidas pelo relé `buscar-fontes` (texto em `dados/fontes_web/paginas/`, URL e sha256 em
+`dados/fontes_web/manifesto.csv`); detalhes em `artigo/auditoria/relatorio-integridade-stage2.5.md`.
+
+- **Instruções 001/2023 e 001/2024** (DIO de 1º/02 de cada ano; `secult_in_2023_pdf.txt`,
+  `secult_in_2024_pdf.txt`): a CAP delibera a habilitação "para captação" (art. 32), homologada no DIO
+  (art. 33); a autorização de captação vale 1 ano da publicação, prorrogável uma vez (art. 34 em 2024); a
+  empresa firma termo de compromisso com "projeto devidamente habilitado" (art. 35); é arquivado o projeto
+  que termina o prazo sem manifestações de patrocínio de ao menos 50% do valor aprovado (art. 36); com 50%
+  captados, pode pedir a liberação (art. 41 em 2024). Logo, em 2023-2024 a habilitação precedia a busca por
+  patrocinador, e "prazo de captação expirado" = arquivado sem 50% de compromissos. A IN de 2022 segue não lida.
+- **Anexos "Recurso financeiro captado" de 2022 a 2026** existem (página
+  https://secult.es.gov.br/recursos-financeiros-captados). Montante declarado: 2022 R$ 15 mi (a Portaria
+  09-R fixou R$ 10 mi; ampliação não localizada [VERIFICAR]); 2023 R$ 15 mi; 2024 e 2025 R$ 25 mi. Captação
+  validada: 2022 R$ 11,54 mi; 2023, 2024 e 2025 exatamente o montante. Termos indeferidos por ultrapassar o
+  montante: 2023 R$ 4,18 mi (impresso); 2024 R$ 8,80 mi (soma de 22 termos). Por cota (anexos de 2025 e
+  2026): tabela `analise/tabelas/03f_captados_por_cota.csv`.
+- **Lista de habilitados**: a transcrição do licc.gov é de 03/09/2026; a SECULT atualizou o PDF em 10/09/2026
+  (`lista-de-projetos-habilitados-15.pdf`), com as mesmas quantidades declaradas para 2022-2025 e os mesmos
+  98 expirados.

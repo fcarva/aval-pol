@@ -2,1139 +2,1364 @@
   "candidate_unregistered_count": 0,
   "candidates": [
     {
-      "candidate_id": "CAND-B1789-2008-2d6f4a5a55b6",
+      "candidate_id": "CAND-B1658-1842-1ac4620fc92f",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 2008,
+      "end_byte": 1842,
+      "line": 15,
+      "matched_claim_ids": [
+        "C06"
+      ],
+      "sentence_index": 1,
+      "start_byte": 1658,
+      "text": "Em 2021, o Espírito Santo criou um mecanismo estadual de incentivo fiscal à cultura, descrito pela própria Secretaria da Cultura como iniciativa inédita no estado (SECULT, [202-]).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 1840,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C06"
+          ],
+          "start_byte": 1834,
+          "text": "[202-]",
+          "trigger_id": "TRIG-B1834-1840-cd5b96b34734"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B1843-2062-2d6f4a5a55b6",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 2062,
       "line": 15,
       "matched_claim_ids": [
         "C07"
       ],
       "sentence_index": 2,
-      "start_byte": 1789,
+      "start_byte": 1843,
       "text": "A Lei estadual nº 11.246/2021 incluiu na lei do ICMS um crédito presumido igual ao valor que o contribuinte destina a projetos culturais credenciados pela SECULT, com efeitos a partir de 2022 (ESPÍRITO SANTO, 2021a).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 2007,
+          "end_byte": 2061,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C07"
           ],
-          "start_byte": 1983,
+          "start_byte": 2037,
           "text": "(ESPÍRITO SANTO, 2021a)",
-          "trigger_id": "TRIG-B1983-2007-b3b17b13efd0"
+          "trigger_id": "TRIG-B2037-2061-b3b17b13efd0"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B2009-2312-eb9190c42adb",
+      "candidate_id": "CAND-B2063-2407-0759bd6bec07",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 2312,
+      "end_byte": 2407,
       "line": 15,
       "matched_claim_ids": [
         "C08"
       ],
       "sentence_index": 3,
-      "start_byte": 2009,
-      "text": "A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu depressa: o teto anual de renúncia passou de R\\$ 10 milhões em 2022 para R\\$ 31 milhões em 2026, e 463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos.",
+      "start_byte": 2063,
+      "text": "A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu depressa: o montante anual de renúncia passou de R\\$ 15 milhões em 2023 para R\\$ 31 milhões em 2026,[^teto2022] e 463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 2126,
+          "end_byte": 2180,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C08"
           ],
-          "start_byte": 2102,
+          "start_byte": 2156,
           "text": "(ESPÍRITO SANTO, 2021b)",
-          "trigger_id": "TRIG-B2102-2126-9c084caac2af"
+          "trigger_id": "TRIG-B2156-2180-9c084caac2af"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B2873-3088-70e3a9808c3b",
+      "candidate_id": "CAND-B3576-3791-92c08500c222",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 3088,
-      "line": 19,
+      "end_byte": 3791,
+      "line": 21,
       "matched_claim_ids": [
         "C10"
       ],
       "sentence_index": 3,
-      "start_byte": 2873,
-      "text": "O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2023).",
+      "start_byte": 3576,
+      "text": "O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2025).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 3087,
+          "end_byte": 3790,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C10"
           ],
-          "start_byte": 3075,
-          "text": "(IBGE, 2023)",
-          "trigger_id": "TRIG-B3075-3087-475d0b4b82b0"
+          "start_byte": 3778,
+          "text": "(IBGE, 2025)",
+          "trigger_id": "TRIG-B3778-3790-812a2ded909b"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B3135-3404-4d10401b9f2a",
+      "candidate_id": "CAND-B3838-4107-4d10401b9f2a",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 3404,
-      "line": 19,
+      "end_byte": 4107,
+      "line": 21,
       "matched_claim_ids": [
         "C11"
       ],
       "sentence_index": 5,
-      "start_byte": 3135,
+      "start_byte": 3838,
       "text": "Em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da população do interior; metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal (IBGE, 2022).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 3403,
+          "end_byte": 4106,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C11"
           ],
-          "start_byte": 3391,
+          "start_byte": 4094,
           "text": "(IBGE, 2022)",
-          "trigger_id": "TRIG-B3391-3403-0b4cbec60048"
+          "trigger_id": "TRIG-B4094-4106-0b4cbec60048"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B3947-4185-9cbcd76f4ba4",
+      "candidate_id": "CAND-B4671-4909-9cbcd76f4ba4",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 4185,
-      "line": 21,
+      "end_byte": 4909,
+      "line": 23,
       "matched_claim_ids": [
         "C13"
       ],
       "sentence_index": 3,
-      "start_byte": 3947,
+      "start_byte": 4671,
       "text": "Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que torna a política exposta às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 4184,
+          "end_byte": 4908,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C13"
           ],
-          "start_byte": 4146,
+          "start_byte": 4870,
           "text": "(SILVA, 2017; DEKKER; RODRIGUES, 2019)",
-          "trigger_id": "TRIG-B4146-4184-18a622e64797"
+          "trigger_id": "TRIG-B4870-4908-18a622e64797"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B7130-7241-588ccb0e024f",
+      "candidate_id": "CAND-B4910-5188-66b30b420559",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 7241,
-      "line": 43,
+      "end_byte": 5188,
+      "line": 23,
+      "matched_claim_ids": [
+        "C14"
+      ],
+      "sentence_index": 4,
+      "start_byte": 4910,
+      "text": "Terceiro, a política é nova e muda de regra a cada ano; sua primeira avaliação, conduzida pelo Instituto Jones dos Santos Neves (IJSN) com a SECULT e a FAPES, teve resultados preliminares apresentados em julho de 2026 (SECULT, 2026d), aos quais este artigo não teve acesso.",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 5147,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C14"
+          ],
+          "start_byte": 5132,
+          "text": "(SECULT, 2026d)",
+          "trigger_id": "TRIG-B5132-5147-d98995bdec6d"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B8055-8166-588ccb0e024f",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 8166,
+      "line": 45,
       "matched_claim_ids": [
         "C72"
       ],
       "sentence_index": 1,
-      "start_byte": 7130,
+      "start_byte": 8055,
       "text": "Fonte: elaboração própria a partir das normas citadas (ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2025a; 2026a).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 7240,
+          "end_byte": 8165,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C72"
           ],
-          "start_byte": 7187,
+          "start_byte": 8112,
           "text": "(ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2025a; 2026a)",
-          "trigger_id": "TRIG-B7187-7240-123f8f18843e"
+          "trigger_id": "TRIG-B8112-8165-123f8f18843e"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B7738-7844-77e1dae693f8",
+      "candidate_id": "CAND-B8333-8562-c82165f47600",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 7844,
-      "line": 45,
+      "end_byte": 8562,
+      "line": 47,
       "matched_claim_ids": [
-        "C18b"
+        "C17"
       ],
-      "sentence_index": 5,
-      "start_byte": 7738,
-      "text": "Desde então, o projeto só chega à comissão com uma carta de intenção de patrocínio (SECULT, 2025b).",
+      "sentence_index": 3,
+      "start_byte": 8333,
+      "text": "A segunda é a **instabilidade**: a SECULT edita uma instrução normativa por ano e, alegando esgotamento do teto, fechou as inscrições no meio de 2024 e alterou o fluxo de habilitação no meio de 2025 (SECULT, 2024b; 2025b).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 7843,
+          "end_byte": 8561,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
-            "C18b"
+            "C17"
           ],
-          "start_byte": 7828,
-          "text": "(SECULT, 2025b)",
-          "trigger_id": "TRIG-B7828-7843-deedae65551a"
+          "start_byte": 8539,
+          "text": "(SECULT, 2024b; 2025b)",
+          "trigger_id": "TRIG-B8539-8561-23108a460467"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B8296-8623-4e3191785ea7",
+      "candidate_id": "CAND-B9184-9364-e3e95fa8d677",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 8623,
-      "line": 49,
+      "end_byte": 9364,
+      "line": 47,
+      "matched_claim_ids": [
+        "C18c"
+      ],
+      "sentence_index": 9,
+      "start_byte": 9184,
+      "text": "Desde maio de 2025, o proponente tem 120 dias para apresentar uma carta de intenção de patrocínio, contados da comunicação da SECULT, sob pena de arquivamento (SECULT, 2025b).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 9363,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C18c"
+          ],
+          "start_byte": 9348,
+          "text": "(SECULT, 2025b)",
+          "trigger_id": "TRIG-B9348-9363-deedae65551a"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B9816-10143-4e3191785ea7",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 10143,
+      "line": 51,
       "matched_claim_ids": [
         "C20"
       ],
       "sentence_index": 2,
-      "start_byte": 8296,
+      "start_byte": 9816,
       "text": "Feld, O'Hare e Schuster (1983) chamaram os contribuintes americanos de \"mecenas apesar de si mesmos\"; Schuster (2006) sistematiza os instrumentos; Brooks (2004) mostra que, nos Estados Unidos, cada dólar de apoio federal direto às artes vem acompanhado de cerca de 14 dólares de renúncia, que servem a públicos diferentes.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 8326,
+          "end_byte": 9846,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C20"
           ],
-          "start_byte": 8311,
+          "start_byte": 9831,
           "text": "Schuster (1983)",
-          "trigger_id": "TRIG-B8311-8326-e6352c5bec15"
+          "trigger_id": "TRIG-B9831-9846-e6352c5bec15"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 8413,
+          "end_byte": 9933,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C20"
           ],
-          "start_byte": 8398,
+          "start_byte": 9918,
           "text": "Schuster (2006)",
-          "trigger_id": "TRIG-B8398-8413-e0a09d392c74"
+          "trigger_id": "TRIG-B9918-9933-e0a09d392c74"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 8456,
+          "end_byte": 9976,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C20"
           ],
-          "start_byte": 8443,
+          "start_byte": 9963,
           "text": "Brooks (2004)",
-          "trigger_id": "TRIG-B8443-8456-890a69d4284d"
+          "trigger_id": "TRIG-B9963-9976-890a69d4284d"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B8624-8817-103fdf89e34a",
+      "candidate_id": "CAND-B10144-10337-103fdf89e34a",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 8817,
-      "line": 49,
+      "end_byte": 10337,
+      "line": 51,
       "matched_claim_ids": [
         "C21"
       ],
       "sentence_index": 3,
-      "start_byte": 8624,
+      "start_byte": 10144,
       "text": "A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem público ou meritório da cultura (THROSBY, 1994).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 8746,
+          "end_byte": 10266,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C21"
           ],
-          "start_byte": 8725,
+          "start_byte": 10245,
           "text": "(BAUMOL; BOWEN, 1966)",
-          "trigger_id": "TRIG-B8725-8746-795bf0219435"
+          "trigger_id": "TRIG-B10245-10266-795bf0219435"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 8816,
+          "end_byte": 10336,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C21"
           ],
-          "start_byte": 8801,
+          "start_byte": 10321,
           "text": "(THROSBY, 1994)",
-          "trigger_id": "TRIG-B8801-8816-20ebdd6063a0"
+          "trigger_id": "TRIG-B10321-10336-20ebdd6063a0"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B9054-9428-6a7dfca4124f",
+      "candidate_id": "CAND-B10574-10971-7466f7a7ff79",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 9428,
-      "line": 51,
+      "end_byte": 10971,
+      "line": 53,
       "matched_claim_ids": [
         "C22"
       ],
       "sentence_index": 2,
-      "start_byte": 9054,
-      "text": "Os estudos documentam concentração regional em São Paulo e no Rio de Janeiro, maior que a do PIB (SILVA, 2017; GUIMARÃES, 2020; TEIXEIRA; XAVIER; FARIA, 2024), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e a formação de um \"mercado de patrocínios\" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013).",
+      "start_byte": 10574,
+      "text": "Os estudos documentam concentração regional no Sudeste, sobretudo em São Paulo e no Rio de Janeiro (SILVA, 2017; TEIXEIRA; XAVIER; FARIA, 2024), maior que a do PIB (GUIMARÃES, 2020), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e a formação de um \"mercado de patrocínios\" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9216,
+          "end_byte": 10720,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C22"
           ],
-          "start_byte": 9154,
-          "text": "(SILVA, 2017; GUIMARÃES, 2020; TEIXEIRA; XAVIER; FARIA, 2024)",
-          "trigger_id": "TRIG-B9154-9216-072597108aa5"
+          "start_byte": 10676,
+          "text": "(SILVA, 2017; TEIXEIRA; XAVIER; FARIA, 2024)",
+          "trigger_id": "TRIG-B10676-10720-737818cb0979"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9307,
+          "end_byte": 10759,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C22"
           ],
-          "start_byte": 9277,
+          "start_byte": 10741,
+          "text": "(GUIMARÃES, 2020)",
+          "trigger_id": "TRIG-B10741-10759-468d559082df"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 10850,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C22"
+          ],
+          "start_byte": 10820,
           "text": "(COSTA; MEDEIROS; BUCCO, 2017)",
-          "trigger_id": "TRIG-B9277-9307-a5c03e39144a"
+          "trigger_id": "TRIG-B10820-10850-a5c03e39144a"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9427,
+          "end_byte": 10970,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C22"
           ],
-          "start_byte": 9404,
+          "start_byte": 10947,
           "text": "(BELEM; DONADONE, 2013)",
-          "trigger_id": "TRIG-B9404-9427-832be3c7b5f0"
+          "trigger_id": "TRIG-B10947-10970-832be3c7b5f0"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B9429-9578-760022a81941",
+      "candidate_id": "CAND-B10972-11121-760022a81941",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 9578,
-      "line": 51,
+      "end_byte": 11121,
+      "line": 53,
       "matched_claim_ids": [
         "C23"
       ],
       "sentence_index": 3,
-      "start_byte": 9429,
+      "start_byte": 10972,
       "text": "Dekker e Rodrigues (2019) concluem que a lei beneficiou sobretudo projetos já bem-sucedidos e que não fica claro qual falha de mercado ela corrige.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9454,
+          "end_byte": 10997,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C23"
           ],
-          "start_byte": 9438,
+          "start_byte": 10981,
           "text": "Rodrigues (2019)",
-          "trigger_id": "TRIG-B9438-9454-9dd7b0dde90b"
+          "trigger_id": "TRIG-B10981-10997-9dd7b0dde90b"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B9579-9790-a131303d55fb",
+      "candidate_id": "CAND-B11122-11446-1239ff98aa20",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 9790,
-      "line": 51,
+      "end_byte": 11446,
+      "line": 53,
       "matched_claim_ids": [
         "C24"
       ],
       "sentence_index": 4,
-      "start_byte": 9579,
-      "text": "O Tribunal de Contas da União recomendou que as renúncias tenham objetivos, indicadores e metas (BRASIL, 2014) e que não financiem projetos capazes de atrair investimento privado sem incentivo (BRASIL, 2016).",
+      "start_byte": 11122,
+      "text": "O Tribunal de Contas da União recomendou que as ações financiadas por renúncias tenham objetivos, indicadores e metas (BRASIL, 2014) e determinou ao Ministério da Cultura que não autorizasse a captação por projetos com forte potencial lucrativo ou capacidade de atrair investimento privado suficiente (BRASIL, 2016).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9691,
+          "end_byte": 11258,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C24"
           ],
-          "start_byte": 9677,
+          "start_byte": 11244,
           "text": "(BRASIL, 2014)",
-          "trigger_id": "TRIG-B9677-9691-b9b89283d902"
+          "trigger_id": "TRIG-B11244-11258-b9b89283d902"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9789,
+          "end_byte": 11445,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C24"
           ],
-          "start_byte": 9775,
+          "start_byte": 11431,
           "text": "(BRASIL, 2016)",
-          "trigger_id": "TRIG-B9775-9789-2686118078ad"
+          "trigger_id": "TRIG-B11431-11445-2686118078ad"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B9791-9951-c405cc4e7e83",
+      "candidate_id": "CAND-B11447-11607-c405cc4e7e83",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 9951,
-      "line": 51,
+      "end_byte": 11607,
+      "line": 53,
       "matched_claim_ids": [
         "C25"
       ],
       "sentence_index": 5,
-      "start_byte": 9791,
+      "start_byte": 11447,
       "text": "Silva (2017) oferece o contraponto: a concentração convive com uma cauda longa de projetos pequenos, e faltam estudos sobre o efeito no acesso da população.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 9803,
+          "end_byte": 11459,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C25"
           ],
-          "start_byte": 9791,
+          "start_byte": 11447,
           "text": "Silva (2017)",
-          "trigger_id": "TRIG-B9791-9803-fc558f6c0395"
+          "trigger_id": "TRIG-B11447-11459-fc558f6c0395"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B9952-10125-5c5a45273a61",
+      "candidate_id": "CAND-B11608-11781-5c5a45273a61",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 10125,
-      "line": 51,
+      "end_byte": 11781,
+      "line": 53,
       "matched_claim_ids": [
         "C26"
       ],
       "sentence_index": 6,
-      "start_byte": 9952,
+      "start_byte": 11608,
       "text": "Os motivos das empresas vão além do mérito cultural: imagem, relações com a cadeia de fornecedores, *rent-seeking* e preferências dos gestores (O'HAGAN; HARVEY, 2000).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 10124,
+          "end_byte": 11780,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C26"
           ],
-          "start_byte": 10101,
+          "start_byte": 11757,
           "text": "(O'HAGAN; HARVEY, 2000)",
-          "trigger_id": "TRIG-B10101-10124-2ec7f3c3ce72"
+          "trigger_id": "TRIG-B11757-11780-2ec7f3c3ce72"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B10415-10714-8f8c6950d10e",
+      "candidate_id": "CAND-B11875-12149-1c2796af2766",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 10714,
-      "line": 53,
+      "end_byte": 12149,
+      "line": 55,
       "matched_claim_ids": [
-        "C28"
+        "C27b"
       ],
-      "sentence_index": 3,
-      "start_byte": 10415,
-      "text": "As avaliações com adoção escalonada, variáveis instrumentais e controle sintético encontram efeitos pequenos e concentrados na atividade incentivada — mais filmagens de séries, pouco ou nenhum emprego adicional — e nenhum efeito macroeconômico (THOM, 2018; BUTTON, 2019; BRADBURY, 2020).",
+      "sentence_index": 2,
+      "start_byte": 11875,
+      "text": "Para leis estaduais via ICMS, os estudos localizados são descritivos: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 10713,
+          "end_byte": 12148,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C27b"
+          ],
+          "start_byte": 12123,
+          "text": "(TEIXEIRA *et al.*, 2021)",
+          "trigger_id": "TRIG-B12123-12148-28f6718383cd"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B12278-12556-aa4e9da11349",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 12556,
+      "line": 55,
+      "matched_claim_ids": [
+        "C28"
+      ],
+      "sentence_index": 4,
+      "start_byte": 12278,
+      "text": "As avaliações com adoção escalonada e variáveis instrumentais encontram efeitos pequenos e concentrados na atividade incentivada — mais filmagens de séries, pouco ou nenhum emprego adicional — e nenhum efeito macroeconômico (THOM, 2018; BUTTON, 2019; BRADBURY, 2020).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12555,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C28"
           ],
-          "start_byte": 10671,
+          "start_byte": 12513,
           "text": "(THOM, 2018; BUTTON, 2019; BRADBURY, 2020)",
-          "trigger_id": "TRIG-B10671-10713-a40b01c3c545"
+          "trigger_id": "TRIG-B12513-12555-a40b01c3c545"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B10715-10855-4b6ff5227e88",
+      "candidate_id": "CAND-B12557-12929-05763f6b2eea",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 10855,
-      "line": 53,
+      "end_byte": 12929,
+      "line": 55,
       "matched_claim_ids": [
         "C29"
       ],
-      "sentence_index": 4,
-      "start_byte": 10715,
-      "text": "Grandes eventos culturais têm efeitos agregados modestos ou transitórios (GOMES; LIBRERO-CANO, 2018; BRONZINI; MOCETTI; MONGARDINI, 2020).",
+      "sentence_index": 5,
+      "start_byte": 12557,
+      "text": "Com grandes eventos, os resultados variam: a Capital Europeia da Cultura elevou em 4,5% o PIB per capita das regiões das cidades-sede, com efeito que persiste por mais de cinco anos (GOMES; LIBRERO-CANO, 2018), enquanto o Jubileu de 2000 elevou só no curto prazo o valor adicionado de Roma, embora tenha aumentado a taxa de emprego (BRONZINI; MOCETTI; MONGARDINI, 2020).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 10854,
+          "end_byte": 12767,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C29"
           ],
-          "start_byte": 10790,
-          "text": "(GOMES; LIBRERO-CANO, 2018; BRONZINI; MOCETTI; MONGARDINI, 2020)",
-          "trigger_id": "TRIG-B10790-10854-b438a15335c0"
+          "start_byte": 12740,
+          "text": "(GOMES; LIBRERO-CANO, 2018)",
+          "trigger_id": "TRIG-B12740-12767-1814fd238a29"
+        },
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 12928,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C29"
+          ],
+          "start_byte": 12891,
+          "text": "(BRONZINI; MOCETTI; MONGARDINI, 2020)",
+          "trigger_id": "TRIG-B12891-12928-d1028c347191"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B10856-11009-6f0b49d964a0",
+      "candidate_id": "CAND-B12930-13083-6f0b49d964a0",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 11009,
-      "line": 53,
+      "end_byte": 13083,
+      "line": 55,
       "matched_claim_ids": [
         "C30"
       ],
-      "sentence_index": 5,
-      "start_byte": 10856,
+      "sentence_index": 6,
+      "start_byte": 12930,
       "text": "Sobre a interação entre recurso público e privado, os resultados variam de leve *crowding-in* a independência (SMITH, 2007; BORGONOVI; O'HARE, 2004).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 11008,
+          "end_byte": 13082,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C30"
           ],
-          "start_byte": 10970,
+          "start_byte": 13044,
           "text": "(SMITH, 2007; BORGONOVI; O'HARE, 2004)",
-          "trigger_id": "TRIG-B10970-11008-f6fbf1c34b76"
+          "trigger_id": "TRIG-B13044-13082-f6fbf1c34b76"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B11090-11288-400f9deb107f",
+      "candidate_id": "CAND-B13244-13442-400f9deb107f",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 11288,
-      "line": 53,
+      "end_byte": 13442,
+      "line": 55,
       "matched_claim_ids": [
         "C31"
       ],
-      "sentence_index": 8,
-      "start_byte": 11090,
+      "sentence_index": 9,
+      "start_byte": 13244,
       "text": "E os desenhos críveis exploram candidatos não escolhidos como grupo de comparação: Gomes e Librero-Cano (2018) comparam cidades que sediaram a Capital Europeia da Cultura com cidades candidatas.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 11204,
+          "end_byte": 13358,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C31"
           ],
-          "start_byte": 11185,
+          "start_byte": 13339,
           "text": "Librero-Cano (2018)",
-          "trigger_id": "TRIG-B11185-11204-d8954ddfb69c"
+          "trigger_id": "TRIG-B13339-13358-d8954ddfb69c"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B13692-13807-41ef485bf052",
+      "candidate_id": "CAND-B15846-15961-41ef485bf052",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 13807,
-      "line": 71,
+      "end_byte": 15961,
+      "line": 73,
       "matched_claim_ids": [
         "C73"
       ],
       "sentence_index": 1,
-      "start_byte": 13692,
+      "start_byte": 15846,
       "text": "Fonte: elaboração própria, com base em Gertler *et al.* (2018), White e Raitzer (2017) e nas normas do Quadro 1.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 13781,
+          "end_byte": 15935,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C73"
           ],
-          "start_byte": 13767,
+          "start_byte": 15921,
           "text": "Raitzer (2017)",
-          "trigger_id": "TRIG-B13767-13781-7ded4425712a"
+          "trigger_id": "TRIG-B15921-15935-7ded4425712a"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B15659-15747-ec796286f2ba",
+      "candidate_id": "CAND-B17940-18043-a2244b0a025c",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 15747,
-      "line": 96,
+      "end_byte": 18043,
+      "line": 99,
       "matched_claim_ids": [
         "C71"
       ],
       "sentence_index": 1,
-      "start_byte": 15659,
-      "text": "| Patrocinadores (2025) | Empresas; maior empresa (distribuidora de energia) | 26; 44% |",
+      "start_byte": 17940,
+      "text": "| Patrocinadores (2025) | Empresas (raiz do CNPJ); maior empresa (distribuidora de energia) | 26; 44% |",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 15682,
+          "end_byte": 17963,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C71"
           ],
-          "start_byte": 15661,
+          "start_byte": 17942,
           "text": "Patrocinadores (2025)",
-          "trigger_id": "TRIG-B15661-15682-1aaf1ebb17dc"
+          "trigger_id": "TRIG-B17942-17963-1aaf1ebb17dc"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B15830-15930-b59ba43fb206",
+      "candidate_id": "CAND-B18590-18653-c64df36c5760",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 15930,
-      "line": 99,
-      "matched_claim_ids": [
-        "C74"
-      ],
-      "sentence_index": 1,
-      "start_byte": 15830,
-      "text": "Fonte: elaboração própria com base em SECULT (2026b), portarias de teto da SEFAZ, IBGE e SICONFI.",
-      "triggers": [
-        {
-          "coverage_state": "registry_span_matched",
-          "end_byte": 15885,
-          "kind": "citation_bearing_sentence",
-          "matched_claim_ids": [
-            "C74"
-          ],
-          "start_byte": 15871,
-          "text": "SECULT (2026b)",
-          "trigger_id": "TRIG-B15871-15885-9fefc925494c"
-        }
-      ],
-      "uncovered_trigger_count": 0
-    },
-    {
-      "candidate_id": "CAND-B16274-16337-c64df36c5760",
-      "candidate_kinds": [
-        "citation_bearing_sentence"
-      ],
-      "coverage_state": "registry_span_matched",
-      "end_byte": 16337,
-      "line": 105,
+      "end_byte": 18653,
+      "line": 108,
       "matched_claim_ids": [
         "C75"
       ],
       "sentence_index": 1,
-      "start_byte": 16274,
+      "start_byte": 18590,
       "text": "Fonte: elaboração própria com base em SECULT (2026b) e IBGE.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 16329,
+          "end_byte": 18645,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C75"
           ],
-          "start_byte": 16315,
+          "start_byte": 18631,
           "text": "SECULT (2026b)",
-          "trigger_id": "TRIG-B16315-16329-9fefc925494c"
+          "trigger_id": "TRIG-B18631-18645-9fefc925494c"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B16906-17144-195fcafa86b9",
+      "candidate_id": "CAND-B19244-19482-195fcafa86b9",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 17144,
-      "line": 107,
+      "end_byte": 19482,
+      "line": 110,
       "matched_claim_ids": [
         "C33"
       ],
-      "sentence_index": 5,
-      "start_byte": 16906,
+      "sentence_index": 6,
+      "start_byte": 19244,
       "text": "Não há meta, magnitude esperada nem indicador, o que falha o critério de que programas declarem os resultados e a magnitude da contribuição esperada (BARROS; LIMA, 2017) e o padrão de governança de renúncias do TCU (BRASIL, 2014).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 17080,
+          "end_byte": 19418,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C33"
           ],
-          "start_byte": 17060,
+          "start_byte": 19398,
           "text": "(BARROS; LIMA, 2017)",
-          "trigger_id": "TRIG-B17060-17080-f56a3913ba1e"
+          "trigger_id": "TRIG-B19398-19418-f56a3913ba1e"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 17143,
+          "end_byte": 19481,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C33"
           ],
-          "start_byte": 17129,
+          "start_byte": 19467,
           "text": "(BRASIL, 2014)",
-          "trigger_id": "TRIG-B17129-17143-b9b89283d902"
+          "trigger_id": "TRIG-B19467-19481-b9b89283d902"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B19679-19930-abfcc7629cce",
+      "candidate_id": "CAND-B19726-19863-f781ef80a6ed",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 19930,
-      "line": 115,
+      "end_byte": 19863,
+      "line": 112,
+      "matched_claim_ids": [
+        "C34b"
+      ],
+      "sentence_index": 3,
+      "start_byte": 19726,
+      "text": "Em 2023 e 2024, a SECULT ainda indeferiu, por ultrapassarem o montante, termos de patrocínio que somavam 28% e 35% dele (SECULT, 2026c).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 19862,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C34b"
+          ],
+          "start_byte": 19847,
+          "text": "(SECULT, 2026c)",
+          "trigger_id": "TRIG-B19847-19862-9bdc3fd772e6"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B22808-23059-abfcc7629cce",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 23059,
+      "line": 118,
       "matched_claim_ids": [
         "C45"
       ],
       "sentence_index": 3,
-      "start_byte": 19679,
+      "start_byte": 22808,
       "text": "A maior reserva do teto, 30%, vai a eventos com mais de dez anos de existência, justamente os de maior chance de financiamento sem incentivo — uma tensão com o critério do TCU (BRASIL, 2016) que é hipótese a testar, não descumprimento apurado.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 19874,
+          "end_byte": 23003,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C45"
           ],
-          "start_byte": 19860,
+          "start_byte": 22989,
           "text": "(BRASIL, 2016)",
-          "trigger_id": "TRIG-B19860-19874-2686118078ad"
+          "trigger_id": "TRIG-B22989-23003-2686118078ad"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B21649-21718-f8eab24a6973",
+      "candidate_id": "CAND-B23609-23754-50e3b6403cd8",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 21718,
-      "line": 129,
+      "end_byte": 23754,
+      "line": 120,
+      "matched_claim_ids": [
+        "C46c"
+      ],
+      "sentence_index": 6,
+      "start_byte": 23609,
+      "text": "Em 2025, as reservas I e IV captaram exatamente o valor reservado, a de planos plurianuais 93% e a de projetos fora da RMGV 107% (SECULT, 2026c).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 23753,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C46c"
+          ],
+          "start_byte": 23738,
+          "text": "(SECULT, 2026c)",
+          "trigger_id": "TRIG-B23738-23753-9bdc3fd772e6"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B25091-25160-f8eab24a6973",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 25160,
+      "line": 132,
       "matched_claim_ids": [
         "C64"
       ],
       "sentence_index": 1,
-      "start_byte": 21649,
+      "start_byte": 25091,
       "text": "As regras da política determinam o método (GERTLER *et al.*, 2018).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 21717,
+          "end_byte": 25159,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C64"
           ],
-          "start_byte": 21693,
+          "start_byte": 25135,
           "text": "(GERTLER *et al.*, 2018)",
-          "trigger_id": "TRIG-B21693-21717-8058c83bc156"
+          "trigger_id": "TRIG-B25135-25159-8058c83bc156"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B22607-22729-582565316565",
+      "candidate_id": "CAND-B26107-26229-582565316565",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 22729,
-      "line": 131,
+      "end_byte": 26229,
+      "line": 134,
       "matched_claim_ids": [
         "C65"
       ],
       "sentence_index": 3,
-      "start_byte": 22607,
+      "start_byte": 26107,
       "text": "A lógica é a dos candidatos não escolhidos de Gomes e Librero-Cano (2018): todos passaram pelo mesmo filtro de mérito.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 22683,
+          "end_byte": 26183,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C65"
           ],
-          "start_byte": 22664,
+          "start_byte": 26164,
           "text": "Librero-Cano (2018)",
-          "trigger_id": "TRIG-B22664-22683-d8954ddfb69c"
+          "trigger_id": "TRIG-B26164-26183-d8954ddfb69c"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B22897-23065-8227c59ce452",
+      "candidate_id": "CAND-B26765-26933-8227c59ce452",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 23065,
-      "line": 133,
+      "end_byte": 26933,
+      "line": 136,
       "matched_claim_ids": [
         "C49"
       ],
       "sentence_index": 1,
-      "start_byte": 22897,
+      "start_byte": 26765,
       "text": "Com tratamento em datas diferentes e efeitos possivelmente heterogêneos, a regressão de efeitos fixos de duas vias pode ponderar mal os efeitos (GOODMAN-BACON, 2021).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 23064,
+          "end_byte": 26932,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C49"
           ],
-          "start_byte": 23043,
+          "start_byte": 26911,
           "text": "(GOODMAN-BACON, 2021)",
-          "trigger_id": "TRIG-B23043-23064-0aec59415691"
+          "trigger_id": "TRIG-B26911-26932-0aec59415691"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B23066-23353-c199b6d26a47",
+      "candidate_id": "CAND-B26934-27221-c199b6d26a47",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 23353,
-      "line": 133,
+      "end_byte": 27221,
+      "line": 136,
       "matched_claim_ids": [
         "C66"
       ],
       "sentence_index": 2,
-      "start_byte": 23066,
+      "start_byte": 26934,
       "text": "Por isso usamos o estimador de Callaway e Sant'Anna (2021) na versão duplamente robusta (SANT'ANNA; ZHAO, 2020), condicionando em características anteriores à habilitação que afetam a captação: ciclo, cota, valor pedido, natureza jurídica, RMGV ou interior e histórico no SALIC.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 23124,
+          "end_byte": 26992,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C66"
           ],
-          "start_byte": 23108,
+          "start_byte": 26976,
           "text": "Sant'Anna (2021)",
-          "trigger_id": "TRIG-B23108-23124-08e56d0dee6d"
+          "trigger_id": "TRIG-B26976-26992-08e56d0dee6d"
         },
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 23178,
+          "end_byte": 27046,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C66"
           ],
-          "start_byte": 23155,
+          "start_byte": 27023,
           "text": "(SANT'ANNA; ZHAO, 2020)",
-          "trigger_id": "TRIG-B23155-23178-4230084a2073"
+          "trigger_id": "TRIG-B27023-27046-4230084a2073"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B23354-23535-ddfd4c1359d5",
+      "candidate_id": "CAND-B27222-27403-ddfd4c1359d5",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 23535,
-      "line": 133,
+      "end_byte": 27403,
+      "line": 136,
       "matched_claim_ids": [
         "C50"
       ],
       "sentence_index": 3,
-      "start_byte": 23354,
+      "start_byte": 27222,
       "text": "O estudo de evento testa tendências anteriores, e a análise de sensibilidade de Rambachan e Roth (2023) mostra quanto a conclusão resiste a violações das tendências paralelas.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 23459,
+          "end_byte": 27327,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C50"
           ],
-          "start_byte": 23448,
+          "start_byte": 27316,
           "text": "Roth (2023)",
-          "trigger_id": "TRIG-B23448-23459-7bf1dc160ee7"
+          "trigger_id": "TRIG-B27316-27327-7bf1dc160ee7"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B24315-24536-66ff47a7551f",
+      "candidate_id": "CAND-B28183-28404-66ff47a7551f",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 24536,
-      "line": 135,
+      "end_byte": 28404,
+      "line": 138,
       "matched_claim_ids": [
         "C52"
       ],
       "sentence_index": 5,
-      "start_byte": 24315,
+      "start_byte": 28183,
       "text": "Isso não altera a regra de alocação e identifica o efeito para os projetos na margem da captação (ANGRIST; IMBENS; RUBIN, 1996), com a ressalva de que, sob teto vinculante, o encorajado pode captar no lugar de outro.",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 24447,
+          "end_byte": 28315,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C52"
           ],
-          "start_byte": 24417,
+          "start_byte": 28285,
           "text": "(ANGRIST; IMBENS; RUBIN, 1996)",
-          "trigger_id": "TRIG-B24417-24447-04d3b065ff0c"
+          "trigger_id": "TRIG-B28285-28315-04d3b065ff0c"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B26199-26390-ba18c3fb8cf5",
+      "candidate_id": "CAND-B30067-30258-ba18c3fb8cf5",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 26390,
-      "line": 156,
+      "end_byte": 30258,
+      "line": 159,
       "matched_claim_ids": [
         "C55"
       ],
       "sentence_index": 1,
-      "start_byte": 26199,
+      "start_byte": 30067,
       "text": "Usamos a fórmula do efeito mínimo detectável (EMD) do material da disciplina, com resultado contínuo em desvios-padrão (σ = 1), α = 5% bicaudal e poder de 80% (DJIMEU; HOUNDOLO, 2016):",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 26389,
+          "end_byte": 30257,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C55"
           ],
-          "start_byte": 26365,
+          "start_byte": 30233,
           "text": "(DJIMEU; HOUNDOLO, 2016)",
-          "trigger_id": "TRIG-B26365-26389-44dd477db7a0"
+          "trigger_id": "TRIG-B30233-30257-44dd477db7a0"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B27248-27283-e6675bb667f8",
+      "candidate_id": "CAND-B30396-30770-ee2e4c5de01e",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 30770,
+      "line": 163,
+      "matched_claim_ids": [
+        "C56"
+      ],
+      "sentence_index": 1,
+      "start_byte": 30396,
+      "text": "em que $n$ = 293 projetos, $P$ = 0,676 é a fração tratada, $R^2$ é a variância explicada pela linha de base e pelas covariáveis, e o último termo é o efeito do desenho por haver, em média, $\\bar m$ = 1,47 projeto por proponente, com coeficiente de variação $cv$ = 0,73 do tamanho das carteiras e correlação intraproponente $\\rho$ (ELDRIDGE; ASHBY; KERRY, 2006).",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 30769,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C56"
+          ],
+          "start_byte": 30739,
+          "text": "(ELDRIDGE; ASHBY; KERRY, 2006)",
+          "trigger_id": "TRIG-B30739-30769-52c234c86551"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B31182-31217-e6675bb667f8",
       "candidate_kinds": [
         "quantitative_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 27283,
-      "line": 168,
+      "end_byte": 31217,
+      "line": 171,
       "matched_claim_ids": [
         "C67"
       ],
       "sentence_index": 1,
-      "start_byte": 27248,
+      "start_byte": 31182,
       "text": "| R² = 0,3, ρ = 0 | 0,29 | 0,34 |",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 27257,
+          "end_byte": 31191,
           "kind": "quantitative_sentence",
           "matched_claim_ids": [
             "C67"
           ],
-          "start_byte": 27250,
+          "start_byte": 31184,
           "text": "R² = 0",
-          "trigger_id": "TRIG-B27250-27257-0503f3f121f5"
+          "trigger_id": "TRIG-B31184-31191-0503f3f121f5"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B27284-27319-c2a03a1bb5f0",
+      "candidate_id": "CAND-B31218-31253-c2a03a1bb5f0",
       "candidate_kinds": [
         "quantitative_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 27319,
-      "line": 169,
+      "end_byte": 31253,
+      "line": 172,
       "matched_claim_ids": [
         "C68"
       ],
       "sentence_index": 1,
-      "start_byte": 27284,
+      "start_byte": 31218,
       "text": "| R² = 0,5, ρ = 0 | 0,25 | 0,29 |",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 27293,
+          "end_byte": 31227,
           "kind": "quantitative_sentence",
           "matched_claim_ids": [
             "C68"
           ],
-          "start_byte": 27286,
+          "start_byte": 31220,
           "text": "R² = 0",
-          "trigger_id": "TRIG-B27286-27293-0503f3f121f5"
+          "trigger_id": "TRIG-B31220-31227-0503f3f121f5"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B27320-27357-f6437fe3ae7b",
+      "candidate_id": "CAND-B31254-31291-f6437fe3ae7b",
       "candidate_kinds": [
         "quantitative_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 27357,
-      "line": 170,
+      "end_byte": 31291,
+      "line": 173,
       "matched_claim_ids": [
         "C69"
       ],
       "sentence_index": 1,
-      "start_byte": 27320,
+      "start_byte": 31254,
       "text": "| R² = 0,5, ρ = 0,2 | 0,28 | 0,32 |",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 27329,
+          "end_byte": 31263,
           "kind": "quantitative_sentence",
           "matched_claim_ids": [
             "C69"
           ],
-          "start_byte": 27322,
+          "start_byte": 31256,
           "text": "R² = 0",
-          "trigger_id": "TRIG-B27322-27329-0503f3f121f5"
+          "trigger_id": "TRIG-B31256-31263-0503f3f121f5"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B27650-27848-2ed56090c870",
+      "candidate_id": "CAND-B31584-31782-2ed56090c870",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 27848,
-      "line": 174,
+      "end_byte": 31782,
+      "line": 177,
       "matched_claim_ids": [
         "C70"
       ],
       "sentence_index": 2,
-      "start_byte": 27650,
+      "start_byte": 31584,
       "text": "No desenho municipal, o EMD está em desvios-padrão do erro idiossincrático, e a faixa depende de um a cinco anos antes e de um a quatro depois e da autocorrelação do resultado (MCKENZIE, 2012).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 27847,
+          "end_byte": 31781,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C70"
           ],
-          "start_byte": 27831,
+          "start_byte": 31765,
           "text": "(MCKENZIE, 2012)",
-          "trigger_id": "TRIG-B27831-27847-daf3666bad10"
+          "trigger_id": "TRIG-B31765-31781-daf3666bad10"
         }
       ],
       "uncovered_trigger_count": 0
     },
     {
-      "candidate_id": "CAND-B28336-28456-48128046cb4c",
+      "candidate_id": "CAND-B32252-32372-48128046cb4c",
       "candidate_kinds": [
         "citation_bearing_sentence"
       ],
       "coverage_state": "registry_span_matched",
-      "end_byte": 28456,
-      "line": 176,
+      "end_byte": 32372,
+      "line": 179,
       "matched_claim_ids": [
         "C58"
       ],
       "sentence_index": 5,
-      "start_byte": 28336,
+      "start_byte": 32252,
       "text": "Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes (GELMAN; CARLIN, 2014).",
       "triggers": [
         {
           "coverage_state": "registry_span_matched",
-          "end_byte": 28455,
+          "end_byte": 32371,
           "kind": "citation_bearing_sentence",
           "matched_claim_ids": [
             "C58"
           ],
-          "start_byte": 28433,
+          "start_byte": 32349,
           "text": "(GELMAN; CARLIN, 2014)",
-          "trigger_id": "TRIG-B28433-28455-86899712b885"
+          "trigger_id": "TRIG-B32349-32371-86899712b885"
+        }
+      ],
+      "uncovered_trigger_count": 0
+    },
+    {
+      "candidate_id": "CAND-B44547-44572-49e3f952d1fd",
+      "candidate_kinds": [
+        "citation_bearing_sentence"
+      ],
+      "coverage_state": "registry_span_matched",
+      "end_byte": 44572,
+      "line": 273,
+      "matched_claim_ids": [
+        "C79"
+      ],
+      "sentence_index": 3,
+      "start_byte": 44547,
+      "text": "Vitória: SECULT, [202-].",
+      "triggers": [
+        {
+          "coverage_state": "registry_span_matched",
+          "end_byte": 44571,
+          "kind": "citation_bearing_sentence",
+          "matched_claim_ids": [
+            "C79"
+          ],
+          "start_byte": 44565,
+          "text": "[202-]",
+          "trigger_id": "TRIG-B44565-44571-cd5b96b34734"
         }
       ],
       "uncovered_trigger_count": 0
     }
   ],
-  "draft_raw_sha256": "97817ce68cbe07ed82db09412c607f8a44426175bd2428b19a978c5a10aa4ab8",
+  "draft_raw_sha256": "99ea68053bbfdb9443286dbe3099c0fbd13fb6a80787d2fb337257c1085a0834",
   "mechanical_candidate_scope": [
     "citation_bearing_sentence",
     "quantitative_sentence"
@@ -1145,14 +1370,12 @@
     "C03",
     "C04",
     "C05",
-    "C06",
     "C09",
     "C12",
-    "C14",
     "C15",
     "C16",
-    "C17",
     "C18",
+    "C18b",
     "C19",
     "C27",
     "C32",
@@ -1164,25 +1387,32 @@
     "C39",
     "C40",
     "C41",
+    "C41b",
     "C42",
     "C43",
     "C44",
     "C46",
+    "C46b",
+    "C46d",
     "C47",
     "C48",
+    "C48b",
     "C51",
     "C53",
     "C54",
-    "C56",
     "C57",
     "C59",
     "C60",
     "C61",
     "C62",
-    "C63"
+    "C63",
+    "C74",
+    "C76",
+    "C77",
+    "C78"
   ],
-  "registry_claim_count": 76,
-  "registry_raw_sha256": "c3c2fc1207d8ab65ae191eeeb62d01a1c28b41e3ea4a21f4f3052050b94d0429",
+  "registry_claim_count": 88,
+  "registry_raw_sha256": "dcce76c915c862197953014612c618684822aa643ace6a533cf4dd9a4c45fa4c",
   "registry_schema_version": "claim-registry/1.0",
   "schema_version": "claim-registry-coverage/1.0",
   "semantic_extraction_coverage": "not_machine_detectable"

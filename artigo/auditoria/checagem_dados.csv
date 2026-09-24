@@ -3,17 +3,22 @@ D01,CONFERE,463,analise/tabelas/03_anual.csv,anexos oficiais de 463 projetos hab
 D02,CONFERE,67%,analise/tabelas/03_territorio_rmgv_interior.csv,onde fica 67% do valor atribuível
 D03,CONFERE,duas,analise/tabelas/03_patrocinadores_concentracao.csv,duas empresas respondem por metade da renúncia de 2025
 D04,CONFERE,"0,25 a 0,45",analise/tabelas/05_poder_d1_proponente.csv,"detecta efeitos a partir de 0,25 a 0,45 desvio-padrão"
-D05,CONFERE,R\$ 10 milhões em 2022 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 10 milhões em 2022 para R\$ 31 milhões em 2026
+D05,CONFERE,R\$ 15 milhões em 2023 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026
 D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado),analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado)
-D07,CONFERE,"63 projetos captaram exatamente R\$ 25.000.000,00",analise/tabelas/licc_captados_2025_totais.csv,"63 projetos captaram exatamente R\$ 25.000.000,00"
+D07,CONFERE,"63 projetos captaram exatamente R\$ 25.000.000,00",analise/tabelas/licc_captados_2025_totais.csv,"em 2025, 63 projetos captaram exatamente R\$ 25.000.000,00"
 D08,CONFERE,"4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª",dados/externos/siic_uf.csv,"ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação"
 D09,CONFERE,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",dados/externos/munic2021_cultura_es_resumo.csv,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%"
 D10,CONFERE,metade dos municípios do interior não tinha fundo municipal de cultura e só 16%,dados/externos/munic2021_cultura_es_resumo.csv,metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal
-D11,CONFERE,14% a 21%,"dados/externos/licc_teto_vs_icms.csv (teto_sobre_f13_estado, 2022-2025)",o teto de renúncia equivale a 14% a 21% do gasto estadual direto
-D12,CONFERE,14% a 21%,dados/externos/licc_teto_vs_icms.csv,"| Teto / gasto estadual na função cultura, 2022-2025 | 14% a 21% |"
+D11,CONFERE,14% a 21%,"analise/tabelas/03f_captacao_anual_secult.csv (validado_sobre_f13_estado, 2022-2025)",a renúncia efetiva equivale a 14% a 21% do gasto estadual direto
+D12,CONFERE,14% a 21%,analise/tabelas/03f_captacao_anual_secult.csv,"| | Renúncia efetiva / gasto estadual na função cultura, 2022-2025 | 14% a 21% |"
 D13,CONFERE,"0,16%",dados/externos/licc_teto_vs_icms.csv,"| Teto de 2025 / ICMS estadual de 2024 | 0,16% |"
 D14,CONFERE,"1,1 a 1,9",analise/tabelas/03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv (teto do ano seguinte),"ciclos 2022-2025 | 1,1 a 1,9 |"
-D15,CONFERE,"100% (R\$ 25,0 mi)",analise/tabelas/licc_captados_2025_totais.csv,"| Captado em 2025 / teto de 2025 | 100% (R\$ 25,0 mi) |"
+D15,CONFERE,100%; 100%; 100%,analise/tabelas/03f_captacao_anual_secult.csv,| | Captado / montante do ano (2023; 2024; 2025) | 100%; 100%; 100% |
+D61,CONFERE,28%; 35%,analise/tabelas/03f_captacao_anual_secult.csv,| | Termos de patrocínio indeferidos por exceder o montante / montante (2023; 2024) | 28%; 35% |
+D62,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,termos de patrocínio que somavam 28% e 35% dele
+D63,CONFERE,plurianuais 93% e a de projetos fora da RMGV 107%,analise/tabelas/03f_captados_por_cota.csv,a de planos plurianuais 93% e a de projetos fora da RMGV 107%
+D64,CONFERE,exatamente,analise/tabelas/03f_captados_por_cota.csv,as reservas I e IV captaram exatamente o valor reservado
+D65,CONFERE,"fixou R\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\$ 15 milhões disponíveis e R\$ 11,5 milhões",analise/tabelas/03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv,"a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\$ 15 milhões disponíveis e R\$ 11,5 milhões em termos validados"
 D16,CONFERE,16%; 30%; 45%,analise/tabelas/03_status_por_ciclo.csv,(2022; 2023; 2024) | 16%; 30%; 45% |
 D17,CONFERE,13% → 41%,analise/tabelas/03_bunching_teto.csv,(2022 → 2026) | 13% → 41% |
 D18,CONFERE,63%; 51%,analise/tabelas/03_proponentes_por_ciclo.csv,(2025; 2026) | 63%; 51% |

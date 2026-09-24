@@ -69,7 +69,8 @@ def conferir(ref: str) -> dict:
     if faltam:
         problemas.append("autor(es) da fonte ausentes na referência: " + ", ".join(faltam))
     titulo = html.unescape((cr.get("title") or [oa.get("title") or ""])[0] if cr.get("title") else (oa.get("title") or ""))
-    t_fonte = norm(re.sub(r"<[^>]+>", "", titulo))
+    # Elsevier numera capítulos no título ("Chapter 36 Tax Incentives..."): o número não é parte do título
+    t_fonte = norm(re.sub(r"^\s*chapter \d+\s*", "", re.sub(r"<[^>]+>", "", titulo), flags=re.I))
     t_ref = norm(ref)
     palavras = [w for w in t_fonte.split() if len(w) > 3]
     presentes = sum(w in t_ref.split() for w in palavras)
