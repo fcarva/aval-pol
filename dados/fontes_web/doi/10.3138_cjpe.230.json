@@ -1,0 +1,63 @@
+{
+ "doi": "10.3138/cjpe.230",
+ "coletado_utc": "2026-09-24T02:16:45Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Useful Theory of Change Models"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "John",
+    "family": "Mayne",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Canadian Journal of Program Evaluation"
+  ],
+  "publisher": "University of Victoria Libraries",
+  "type": "journal-article",
+  "volume": "30",
+  "issue": "2",
+  "page": "119-142",
+  "article_number": null,
+  "issued": [
+   [
+    2015,
+    9
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    9
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.3138/cjpe.230",
+  "abstract": "<jats:p>Abstract: Although theories of change are frequently discussed in the evaluation literature and there is general agreement on what a theory of change is conceptually, there is actually little agreement beyond the big picture of just what a theory of change comprises, what it shows, how it can be represented, and how it can be used. This article outlines models for theories of change and their development that have proven quite useful for both straightforward and more complex interventions. The models are intuitive, flexible, and well-defined in terms of their components, and they link directly to rigorous models of causality. The models provide a structured framework for developing useful theories of change and analyzing the intervention they represent.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4230488502",
+  "title": "Useful Theory of Change Models",
+  "publication_year": 2015,
+  "type": "article",
+  "source": "Canadian Journal of Program Evaluation",
+  "landing_page_url": "https://doi.org/10.3138/cjpe.230",
+  "authorships": [
+   "John W. Mayne"
+  ],
+  "biblio": {
+   "volume": "30",
+   "issue": "2",
+   "first_page": "119",
+   "last_page": "142"
+  },
+  "cited_by_count": 221,
+  "abstract": "Abstract: Although theories of change are frequently discussed in the evaluation literature and there is general agreement on what a theory of change is conceptually, there is actually little agreement beyond the big picture of just what a theory of change comprises, what it shows, how it can be represented, and how it can be used. This article outlines models for theories of change and their development that have proven quite useful for both straightforward and more complex interventions. The models are intuitive, flexible, and well-defined in terms of their components, and they link directly to rigorous models of causality. The models provide a structured framework for developing useful theories of change and analyzing the intervention they represent."
+ }
+}

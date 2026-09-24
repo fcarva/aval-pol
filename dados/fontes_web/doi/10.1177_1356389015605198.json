@@ -1,0 +1,75 @@
+{
+ "doi": "10.1177/1356389015605198",
+ "coletado_utc": "2026-09-24T02:16:45Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Using theories of change in the CGIAR Research Program on Agriculture for Nutrition and Health"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "John",
+    "family": "Mayne",
+    "name": null
+   },
+   {
+    "given": "Nancy",
+    "family": "Johnson",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Evaluation"
+  ],
+  "publisher": "SAGE Publications",
+  "type": "journal-article",
+  "volume": "21",
+  "issue": "4",
+  "page": "407-428",
+  "article_number": null,
+  "issued": [
+   [
+    2015,
+    10
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    10
+   ]
+  ],
+  "published_online": [
+   [
+    2015,
+    10,
+    9
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1177/1356389015605198",
+  "abstract": "<jats:p>Theories of change are increasingly being discussed and referenced in development evaluation even while the elements of what a theory of change consist of differ widely among applications. Equally, examples of actual use of theories of change other than as overview illustrations of interventions are rare. In this article, we present generic models of theories of change for both straightforward and more complex interventions. A number of examples of evidence-based theories of change in the area of agriculture research for nutrition and health are discussed, as is the need for different versions of a theory of change for different purposes. We also discuss the use and analysis of these models in the planning, managing and assessing of research-related interventions, illustrating the practical usefulness of well-developed theories of change.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2341601511",
+  "title": "Using theories of change in the CGIAR Research Program on Agriculture for Nutrition and Health",
+  "publication_year": 2015,
+  "type": "article",
+  "source": "Evaluation",
+  "landing_page_url": "https://doi.org/10.1177/1356389015605198",
+  "authorships": [
+   "John W. Mayne",
+   "Nancy L. Johnson"
+  ],
+  "biblio": {
+   "volume": "21",
+   "issue": "4",
+   "first_page": "407",
+   "last_page": "428"
+  },
+  "cited_by_count": 86,
+  "abstract": "Theories of change are increasingly being discussed and referenced in development evaluation even while the elements of what a theory of change consist of differ widely among applications. Equally, examples of actual use of theories of change other than as overview illustrations of interventions are rare. In this article, we present generic models of theories of change for both straightforward and more complex interventions. A number of examples of evidence-based theories of change in the area of agriculture research for nutrition and health are discussed, as is the need for different versions of a theory of change for different purposes. We also discuss the use and analysis of these models in the planning, managing and assessing of research-related interventions, illustrating the practical usefulness of well-developed theories of change."
+ }
+}
