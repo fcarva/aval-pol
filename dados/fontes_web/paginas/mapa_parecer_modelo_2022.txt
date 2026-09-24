@@ -1,5 +1,5 @@
 # Fonte: https://mapa.cultura.es.gov.br/files/opportunity/378/parecer_t%C3%A9cnico_cultural_licc_-_modelo.docx
-# Coletado (UTC): 2026-09-24T03:39:43Z
+# Coletado (UTC): 2026-09-24T14:40:36Z
 # sha256 do original: baf46e6c3f745a204d21891521cfba09007977e1f22d881aaa743c304c35bd9c
 
 Da:
