@@ -1,0 +1,67 @@
+# Busca fontes da web (Crossref, OpenAlex, páginas oficiais, API do SALIC) num runner com rede
+# aberta e devolve o resultado por commit no mesmo ramo. Motivo: a sessão de trabalho em nuvem só
+# alcança o GitHub e os registros de pacotes. Ver analise/rede/buscar_fontes.py.
+#
+# Dispara quando um push altera a lista de pedidos em dados/fontes_web/ (ou o próprio buscador),
+# ou manualmente (workflow_dispatch, no ramo padrão). Commits feitos com o GITHUB_TOKEN não
+# disparam novos workflows, então não há laço.
+name: buscar-fontes
+
+on:
+  push:
+    paths:
+      - "dados/fontes_web/dois.txt"
+      - "dados/fontes_web/pedidos.tsv"
+      - "dados/fontes_web/salic_anos.txt"
+      - "analise/rede/**"
+      - ".github/workflows/buscar-fontes.yml"
+  workflow_dispatch:
+    inputs:
+      forcar:
+        description: "Buscar de novo o que já está no manifesto"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: buscar-fontes-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependências
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+          pip install -q requests pandas numpy beautifulsoup4
+
+      - name: Buscar
+        run: python analise/rede/buscar_fontes.py ${{ inputs.forcar && '--forcar' || '' }}
+
+      - name: Devolver por commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/fontes_web dados/externos
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+            exit 0
+          fi
+          git commit -q -m "buscar-fontes: resultado da coleta (${GITHUB_RUN_ID})"
+          for i in 1 2 3; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 5
+          done
+          exit 1
