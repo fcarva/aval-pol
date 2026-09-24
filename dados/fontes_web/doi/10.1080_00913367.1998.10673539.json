@@ -1,0 +1,75 @@
+{
+ "doi": "10.1080/00913367.1998.10673539",
+ "coletado_utc": "2026-09-24T01:42:42Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "An International Review of Sponsorship Research"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "T. Bettina",
+    "family": "Cornwell",
+    "name": null
+   },
+   {
+    "given": "Isabelle",
+    "family": "Maignan",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Advertising"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "27",
+  "issue": "1",
+  "page": "1-21",
+  "article_number": null,
+  "issued": [
+   [
+    1998,
+    3
+   ]
+  ],
+  "published_print": [
+   [
+    1998,
+    3
+   ]
+  ],
+  "published_online": [
+   [
+    2013,
+    5,
+    31
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/00913367.1998.10673539",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1978805558",
+  "title": "An International Review of Sponsorship Research",
+  "publication_year": 1998,
+  "type": "article",
+  "source": "Journal of Advertising",
+  "landing_page_url": "https://doi.org/10.1080/00913367.1998.10673539",
+  "authorships": [
+   "T. Bettina Cornwell",
+   "Isabelle Maignan"
+  ],
+  "biblio": {
+   "volume": "27",
+   "issue": "1",
+   "first_page": "1",
+   "last_page": "21"
+  },
+  "cited_by_count": 707,
+  "abstract": "Corporate sponsorship of sports, arts, and cultural events has increased dramatically over the past decade. Still, academic research on sponsorship as a promotional tool has been sparse. The authors offer a cross-disciplinary review of research conducted on sponsorship worldwide. Five research streams—nature of sponsorship, managerial aspects of sponsorship, measurement of sponsorship effects, strategic use of sponsorship, and legal/ethical considerations in sponsorship—are examined and critically assessed. On the basis of that analysis, theoretical frameworks are provided to guide future research."
+ }
+}

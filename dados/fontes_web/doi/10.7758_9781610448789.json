@@ -1,0 +1,74 @@
+{
+ "doi": "10.7758/9781610448789",
+ "coletado_utc": "2026-09-24T01:42:42Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Administrative Burden"
+  ],
+  "subtitle": [
+   "Policymaking by Other Means"
+  ],
+  "author": [
+   {
+    "given": "Pamela",
+    "family": "Herd",
+    "name": null
+   },
+   {
+    "given": "Donald P.",
+    "family": "Moynihan",
+    "name": null
+   }
+  ],
+  "container_title": [],
+  "publisher": "Russell Sage Foundation",
+  "type": "monograph",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2019,
+    1,
+    9
+   ]
+  ],
+  "published_print": [
+   [
+    2019,
+    1,
+    9
+   ]
+  ],
+  "published_online": null,
+  "isbn": [
+   "9781610448789",
+   "9780871544445"
+  ],
+  "url": "https://doi.org/10.7758/9781610448789",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4249195181",
+  "title": "Administrative Burden",
+  "publication_year": 2019,
+  "type": "book",
+  "source": "Russell Sage Foundation eBooks",
+  "landing_page_url": "https://doi.org/10.7758/9781610448789",
+  "authorships": [
+   "Pamela Herd",
+   "Donald P. Moynihan"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 568,
+  "abstract": ""
+ }
+}

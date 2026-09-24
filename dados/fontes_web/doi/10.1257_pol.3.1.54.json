@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/pol.3.1.54",
+ "coletado_utc": "2026-09-24T01:42:38Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Transfer Program Complexity and the Take-Up of Social Benefits"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Henrik Jacobsen",
+    "family": "Kleven",
+    "name": null
+   },
+   {
+    "given": "Wojciech",
+    "family": "Kopczuk",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Journal: Economic Policy"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "3",
+  "issue": "1",
+  "page": "54-90",
+  "article_number": null,
+  "issued": [
+   [
+    2011,
+    2,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2011,
+    2,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/pol.3.1.54",
+  "abstract": "<jats:p> We model complexity in social programs as a by-product of the screening process. While a more rigorous screening process may improve targeting efficiency, the associated complexity is costly to applicants and induces incomplete take-up. We integrate the study of take-up with the study of rejection (Type I) and award (Type II) errors, and characterize optimal programs when policy makers choose screening intensity (and complexity), an eligibility rule, and a benefit level. Consistent with many real-world programs, optimal programs feature high complexity, incomplete take-up, classification errors of both Type I and II and, in some cases, “excessive” benefits. (JEL D04, D82, H23, I18, I38) </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1975668613",
+  "title": "Transfer Program Complexity and the Take-Up of Social Benefits",
+  "publication_year": 2011,
+  "type": "article",
+  "source": "American Economic Journal Economic Policy",
+  "landing_page_url": "https://doi.org/10.1257/pol.3.1.54",
+  "authorships": [
+   "Henrik Kleven",
+   "Wojciech Kopczuk"
+  ],
+  "biblio": {
+   "volume": "3",
+   "issue": "1",
+   "first_page": "54",
+   "last_page": "90"
+  },
+  "cited_by_count": 198,
+  "abstract": "We model complexity in social programs as a by-product of the screening process. While a more rigorous screening process may improve targeting efficiency, the associated complexity is costly to applicants and induces incomplete take-up. We integrate the study of take-up with the study of rejection (Type I) and award (Type II) errors, and characterize optimal programs when policy makers choose screening intensity (and complexity), an eligibility rule, and a benefit level. Consistent with many real-world programs, optimal programs feature high complexity, incomplete take-up, classification errors of both Type I and II and, in some cases, “excessive” benefits. (JEL D04, D82, H23, I18, I38)"
+ }
+}

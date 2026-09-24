@@ -116,3 +116,14 @@ doi,crossref_status,openalex_status,titulo,ano,periodico,volume,numero,paginas,a
 10.3982/ECTA15732,200,200,Policy Learning With Observational Data,2021,Econometrica,89,1,133-161,Athey; Wager,True
 10.1016/0047-2727(86)90024-1,200,200,On the private provision of public goods,1986,Journal of Public Economics,29,1,25-49,Bergstrom; Blume; Varian,False
 10.1111/j.1468-0262.2004.00530.x,200,200,Statistical Treatment Rules for Heterogeneous Populations,2004,Econometrica,72,4,1221-1246,Manski,True
+10.1257/jep.25.3.17,200,200,Mechanism Experiments and Policy Evaluations,2011,Journal of Economic Perspectives,25,3,17-38,Ludwig; Kling; Mullainathan,True
+10.1093/qje/qjz013,200,200,Take-Up and Targeting: Experimental Evidence from SNAP,2019,The Quarterly Journal of Economics,134,3,1505-1556,Finkelstein; Notowidigdo,True
+10.1257/pol.20180076,200,200,Who Is Screened Out? Application Costs and the Targeting of Disability Programs,2019,American Economic Journal: Economic Policy,11,4,213-248,Deshpande; Li,True
+10.1257/aer.20121493,200,200,Psychological Frictions and the Incomplete Take-Up of Social Benefits: Evidence from an IRS Field Experiment,2015,American Economic Review,105,11,3489-3529,Bhargava; Manoli,True
+10.1257/pol.3.1.54,200,200,Transfer Program Complexity and the Take-Up of Social Benefits,2011,American Economic Journal: Economic Policy,3,1,54-90,Kleven; Kopczuk,True
+10.1257/aer.20180615,200,200,Tax-Exempt Lobbying: Corporate Philanthropy as a Tool for Political Influence,2020,American Economic Review,110,7,2065-2102,Bertrand; Bombardini; Fisman; Trebbi,True
+10.1086/296420,200,200,Why Do Corporations Give to Charity?,1988,The Journal of Business,61,1,65,Navarro,True
+10.1162/rest_a_00716,200,200,Optimal Design of Experiments in the Presence of Interference,2018,The Review of Economics and Statistics,100,5,844-860,Baird; Bohren; McIntosh; Özler,True
+10.1093/jopart/muu009,200,200,"Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions",2014,Journal of Public Administration Research and Theory,25,1,43-69,Moynihan; Herd; Harvey,True
+10.7758/9781610448789,200,200,Administrative Burden,2019,Russell Sage Foundation eBooks,,,,Herd; Moynihan,False
+10.1080/00913367.1998.10673539,200,200,An International Review of Sponsorship Research,1998,Journal of Advertising,27,1,1-21,Cornwell; Maignan,True

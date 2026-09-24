@@ -1,0 +1,83 @@
+{
+ "doi": "10.1093/jopart/muu009",
+ "coletado_utc": "2026-09-24T01:42:41Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "D.",
+    "family": "Moynihan",
+    "name": null
+   },
+   {
+    "given": "P.",
+    "family": "Herd",
+    "name": null
+   },
+   {
+    "given": "H.",
+    "family": "Harvey",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Public Administration Research and Theory"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "25",
+  "issue": "1",
+  "page": "43-69",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    2,
+    27
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    1,
+    1
+   ]
+  ],
+  "published_online": [
+   [
+    2014,
+    2,
+    27
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/jopart/muu009",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2332440152",
+  "title": "Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "Journal of Public Administration Research and Theory",
+  "landing_page_url": "https://doi.org/10.1093/jopart/muu009",
+  "authorships": [
+   "Donald P. Moynihan",
+   "Pamela Herd",
+   "Hope Harvey"
+  ],
+  "biblio": {
+   "volume": "25",
+   "issue": "1",
+   "first_page": "43",
+   "last_page": "69"
+  },
+  "cited_by_count": 980,
+  "abstract": "This article offers two theoretical contributions. First, we develop the concept of administrative burden as an important variable in understanding how citizens experience the state. Administrative burden is conceptualized as a function of learning, psychological, and compliance costs that citizens experience in their interactions with government. Second, we argue that administrative burden is a venue of politics, that is, the level of administrative burden placed on an individual, as well as the distribution of burden between the state and the individual, will often be a function of deliberate political choice rather than simply a product of historical accident or neglect. The opaque nature of administrative burdens may facilitate their use as forms of “hidden politics,” where significant policy changes occur without broad political consideration. We illustrate this argument via an analysis of the evolution of Medicaid policies in the state of Wisconsin. Across three Governorships, the level of burden evolved in ways consistent with the differing political philosophies of each Governor, with federal actors playing a secondary but important role in shaping burden in this intergovernmental program. We conclude by sketching a research agenda centered on administrative burden."
+ }
+}

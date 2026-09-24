@@ -1,0 +1,71 @@
+{
+ "doi": "10.1257/aer.20121493",
+ "coletado_utc": "2026-09-24T01:42:37Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Psychological Frictions and the Incomplete Take-Up of Social Benefits: Evidence from an IRS Field Experiment"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Saurabh",
+    "family": "Bhargava",
+    "name": null
+   },
+   {
+    "given": "Dayanand",
+    "family": "Manoli",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Review"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "105",
+  "issue": "11",
+  "page": "3489-3529",
+  "article_number": null,
+  "issued": [
+   [
+    2015,
+    11,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2015,
+    11,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/aer.20121493",
+  "abstract": "<jats:p>We address the role of “psychological frictions” in the incomplete take-up of EITC benefits with an IRS field experiment. We specifically assess the influence of program confusion, informational complexity, and stigma by evaluating response to experimental mailings distributed to 35,050 tax filers who failed to claim $26 million despite an initial notice. While the mere receipt of the mailing, simplification, and the heightened salience of benefits led to substantial additional claiming, attempts to reduce perceived costs of stigma, application, and audits did not. The study, and accompanying surveys, suggests that low program awareness/understanding and informational complexity contribute to the puzzle of low take-up. (JEL C93, D03, H24, M38)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W1853301790",
+  "title": "Psychological Frictions and the Incomplete Take-Up of Social Benefits: Evidence from an IRS Field Experiment",
+  "publication_year": 2015,
+  "type": "article",
+  "source": "American Economic Review",
+  "landing_page_url": "https://doi.org/10.1257/aer.20121493",
+  "authorships": [
+   "Saurabh Bhargava",
+   "Dayanand Manoli"
+  ],
+  "biblio": {
+   "volume": "105",
+   "issue": "11",
+   "first_page": "3489",
+   "last_page": "3529"
+  },
+  "cited_by_count": 653,
+  "abstract": "We address the role of “psychological frictions” in the incomplete take-up of EITC benefits with an IRS field experiment. We specifically assess the influence of program confusion, informational complexity, and stigma by evaluating response to experimental mailings distributed to 35,050 tax filers who failed to claim $26 million despite an initial notice. While the mere receipt of the mailing, simplification, and the heightened salience of benefits led to substantial additional claiming, attempts to reduce perceived costs of stigma, application, and audits did not. The study, and accompanying surveys, suggests that low program awareness/understanding and informational complexity contribute to the puzzle of low take-up. (JEL C93, D03, H24, M38)"
+ }
+}

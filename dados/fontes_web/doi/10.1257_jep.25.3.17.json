@@ -1,0 +1,77 @@
+{
+ "doi": "10.1257/jep.25.3.17",
+ "coletado_utc": "2026-09-24T01:42:35Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Mechanism Experiments and Policy Evaluations"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Jens",
+    "family": "Ludwig",
+    "name": null
+   },
+   {
+    "given": "Jeffrey R",
+    "family": "Kling",
+    "name": null
+   },
+   {
+    "given": "Sendhil",
+    "family": "Mullainathan",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Economic Perspectives"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "25",
+  "issue": "3",
+  "page": "17-38",
+  "article_number": null,
+  "issued": [
+   [
+    2011,
+    8,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2011,
+    8,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/jep.25.3.17",
+  "abstract": "<jats:p>Randomized controlled trials are increasingly used to evaluate policies. How can we make these experiments as useful as possible for policy purposes? We argue greater use should be made of experiments that identify the behavioral mechanisms that are central to clearly specified policy questions, what we call “mechanism experiments.” These types of experiments can be of great policy value even if the intervention that is tested (or its setting) does not correspond exactly to any realistic policy option.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2116800952",
+  "title": "Mechanism Experiments and Policy Evaluations",
+  "publication_year": 2011,
+  "type": "article",
+  "source": "The Journal of Economic Perspectives",
+  "landing_page_url": "https://doi.org/10.1257/jep.25.3.17",
+  "authorships": [
+   "Jens Ludwig",
+   "Jeffrey R. Kling",
+   "Sendhil Mullainathan"
+  ],
+  "biblio": {
+   "volume": "25",
+   "issue": "3",
+   "first_page": "17",
+   "last_page": "38"
+  },
+  "cited_by_count": 244,
+  "abstract": "Randomized controlled trials are increasingly used to evaluate policies. How can we make these experiments as useful as possible for policy purposes? We argue greater use should be made of experiments that identify the behavioral mechanisms that are central to clearly specified policy questions, what we call “mechanism experiments.” These types of experiments can be of great policy value even if the intervention that is tested (or its setting) does not correspond exactly to any realistic policy option."
+ }
+}
