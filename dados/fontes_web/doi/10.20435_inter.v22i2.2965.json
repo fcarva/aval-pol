@@ -1,0 +1,83 @@
+{
+ "doi": "10.20435/inter.v22i2.2965",
+ "coletado_utc": "2026-09-24T00:43:00Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Relação entre os equipamentos e políticas culturais dos municípios de Minas Gerais e a captação de recursos via Lei Estadual de Incentivo à Cultura"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Lusvânio Carlos",
+    "family": "Teixeira",
+    "name": null
+   },
+   {
+    "given": "Wescley Silva",
+    "family": "Xavier",
+    "name": null
+   },
+   {
+    "given": "Evandro Rodrigues de",
+    "family": "Faria",
+    "name": null
+   },
+   {
+    "given": "Márcio Teixeira",
+    "family": "Bravim",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Interações (Campo Grande)"
+  ],
+  "publisher": "Universidade Catolica Dom Bosco",
+  "type": "journal-article",
+  "volume": null,
+  "issue": null,
+  "page": "405-419",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    9,
+    15
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2021,
+    9,
+    15
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.20435/inter.v22i2.2965",
+  "abstract": "<jats:p>Este artigo analisa os fatores que influenciam a captação de recursos por meio da Lei Estadual de Incentivo à Cultura (LEIC) nos municípios de Minas Gerais Brasil. Para tanto, foi realizada uma pesquisa quantitativa, em que foram coletadas e analisadas informações referentes ao ano de 2014 acerca da captação de recursos via LEIC e indicadores culturais, utilizando-se instrumentos de estatística descritiva e regressão logística. Acerca dos resultados, ilustra-se que houve forte concentração de recursos na região metropolitana de Belo Horizonte, além de uma concentração de recursos captados para a área de Música. Pelo modelo proposto, percebeu-se que a existência de museu, teatro e cinema nos municípios aumenta as chances de captação de recursos pela lei. Conclui-se que a existência de um mínimo de infraestrutura cultural pode favorecer a captação de recursos por meio da LEIC, e percebeu-se certa desconexão entre a LEIC e outras formas de promoção cultural nos municípios.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3200126590",
+  "title": "Relação entre os equipamentos e políticas culturais dos municípios de Minas Gerais e a captação de recursos via Lei Estadual de Incentivo à Cultura",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Interações (Campo Grande)",
+  "landing_page_url": "https://doi.org/10.20435/inter.v22i2.2965",
+  "authorships": [
+   "Lusvânio Carlos Teixeira",
+   "Wescley Silva Xavier",
+   "Evandro Rodrigues de Faria",
+   "Márcio Teixeira Bravim"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": "405",
+   "last_page": "419"
+  },
+  "cited_by_count": 1,
+  "abstract": "Este artigo analisa os fatores que influenciam a captação de recursos por meio da Lei Estadual de Incentivo à Cultura (LEIC) nos municípios de Minas Gerais Brasil. Para tanto, foi realizada uma pesquisa quantitativa, em que foram coletadas e analisadas informações referentes ao ano de 2014 acerca da captação de recursos via LEIC e indicadores culturais, utilizando-se instrumentos de estatística descritiva e regressão logística. Acerca dos resultados, ilustra-se que houve forte concentração de recursos na região metropolitana de Belo Horizonte, além de uma concentração de recursos captados para a área de Música. Pelo modelo proposto, percebeu-se que a existência de museu, teatro e cinema nos municípios aumenta as chances de captação de recursos pela lei. Conclui-se que a existência de um mínimo de infraestrutura cultural pode favorecer a captação de recursos por meio da LEIC, e percebeu-se certa desconexão entre a LEIC e outras formas de promoção cultural nos municípios."
+ }
+}

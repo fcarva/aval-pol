@@ -1,0 +1,136 @@
+{
+ "id": "os_cataguases",
+ "consulta": "Lei Municipal de Incentivo à Cultura quais os efeitos inclusivos e democráticos na produção cultural local Organizações & Sociedade",
+ "coletado_utc": "2026-09-24T00:43:01Z",
+ "crossref": [
+  {
+   "doi": "10.1590/1984-92302021v28n9702pt",
+   "title": [
+    "Lei Municipal de Incentivo à Cultura: Quais os Efeitos Inclusivos e Democráticos na Produção Cultural Local?"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Xavier",
+    "Baldez"
+   ],
+   "container_title": [
+    "Organizações &amp; Sociedade"
+   ],
+   "publisher": "FapUNIFESP (SciELO)",
+   "issued": [
+    [
+     2021,
+     6
+    ]
+   ],
+   "volume": "28",
+   "issue": "97",
+   "page": "294-316",
+   "isbn": null,
+   "score": 113.2433
+  },
+  {
+   "doi": "10.21747/2975-8033/cad1a2",
+   "title": [
+    "Na margem e no centro: A produção audiovisual das periferias e a Lei Municipal de Incentivo à Cultura de Belo Horizonte"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Freitas"
+   ],
+   "container_title": [
+    "Cadernos IS-UP"
+   ],
+   "publisher": "Universidade do Porto, Faculdade de Letras",
+   "issued": [
+    [
+     2022
+    ]
+   ],
+   "volume": null,
+   "issue": "1",
+   "page": "10-26",
+   "isbn": null,
+   "score": 48.35965
+  },
+  {
+   "doi": "10.11606/d.100.2020.tde-10082020-122717",
+   "title": [
+    "A Lei de incentivo ao esporte de Santos e o Pluralismo Institucional: efeitos no campo e nas organizações esportivas"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Silva"
+   ],
+   "container_title": null,
+   "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 46.312374
+  },
+  {
+   "doi": "10.21118/apgs.v15i3.14234",
+   "title": [
+    "Aspectos Democráticos da Lei de Incentivo à Cultura e sua relação com a promoção do Pluralismo Cultural"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Teixeira",
+    "Silva Xavier",
+    "Rodrigues de Faria"
+   ],
+   "container_title": [
+    "Administração Pública e Gestão Social"
+   ],
+   "publisher": "Administracao Publica e Gestao Social",
+   "issued": [
+    [
+     2023,
+     8,
+     24
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 44.45325
+  },
+  {
+   "doi": "10.5151/-13",
+   "title": [
+    "Os Regimes de Moderação dos Efeitos de Sentido na Produção da Leitura: Análise de um Espécime Musical do Cancioneiro Popular Português"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Ferreira"
+   ],
+   "container_title": [
+    "Discurso e Cultura"
+   ],
+   "publisher": "Editora Blucher",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "348-377",
+   "isbn": [
+    "9788580393668"
+   ],
+   "score": 43.34955
+  }
+ ],
+ "openalex": [],
+ "crossref_status": 200,
+ "openalex_status": null
+}

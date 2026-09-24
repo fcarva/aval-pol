@@ -1,0 +1,241 @@
+{
+ "id": "braz_2023_rouanet",
+ "consulta": "Braz Ribeiro Gonçalves A Lei Rouanet é um bom negócio revisão bibliográfica incentivo fiscal Cultura Agenda Política",
+ "coletado_utc": "2026-09-24T00:43:33Z",
+ "crossref": [
+  {
+   "doi": "10.31990/agenda.2022.2.8",
+   "title": [
+    "A Lei Rouanet é um bom negócio?"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Braz",
+    "Ribeiro",
+    "Gonçalves"
+   ],
+   "container_title": [
+    "Revista Agenda Política"
+   ],
+   "publisher": "FAI-UFSCar",
+   "issued": [
+    [
+     2023,
+     2,
+     21
+    ]
+   ],
+   "volume": "10",
+   "issue": "2",
+   "page": "178-204",
+   "isbn": null,
+   "score": 123.987366
+  },
+  {
+   "doi": "10.14393/ufu.di.2024.586",
+   "title": [
+    "Lei Federal de Incentivo à Cultura: percepções e (des)construções de sentidos - um olhar auto etnográfico sobre a Lei Rouanet"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Polido"
+   ],
+   "container_title": null,
+   "publisher": "PPUFU - Portal de Periódicos da Universidade Federal de Uberlândia",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 53.154907
+  },
+  {
+   "doi": "10.22533/at.ed.27320031125",
+   "title": [
+    "REVISÃO BIBLIOGRÁFICA PRELIMINAR SOBRE O CONCEITO STORYTELLING COMO PARTE DE PESQUISA EM IMPROVISAÇÃO MUSICAL"
+   ],
+   "type": "book-chapter",
+   "author": [
+    "Gonçalves"
+   ],
+   "container_title": [
+    "A educação enquanto fenômeno social: política, economia, ciência e cultura 4"
+   ],
+   "publisher": "Atena Editora",
+   "issued": [
+    [
+     2020,
+     11,
+     4
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "265-275",
+   "isbn": null,
+   "score": 41.657913
+  },
+  {
+   "doi": "10.56238/ieducationcongress-021",
+   "title": [
+    "Impacto tributário das leis de incentivo fiscal (lei do bem, lei rouanet e lei do esporte) em uma empresa de tecnologia"
+   ],
+   "type": "proceedings-article",
+   "author": [
+    "Martendal",
+    "Petri",
+    "Theiss"
+   ],
+   "container_title": [
+    "I SEVEN INTERNATIONAL EDUCATION CONGRESS"
+   ],
+   "publisher": "Seven Congress",
+   "issued": [
+    [
+     2023,
+     9,
+     23
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 41.43305
+  },
+  {
+   "doi": "10.55905/oelv23n7-093",
+   "title": [
+    "Lei Rouanet no centro do debate: desmistificando o discurso de ódio à lei de incentivo à cultura no Brasil"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Silva"
+   ],
+   "container_title": [
+    "OBSERVATÓRIO DE LA ECONOMÍA LATINOAMERICANA"
+   ],
+   "publisher": "Brazilian Journals",
+   "issued": [
+    [
+     2025,
+     7,
+     16
+    ]
+   ],
+   "volume": "23",
+   "issue": "7",
+   "page": "e10691",
+   "isbn": null,
+   "score": 38.44053
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W4401904697",
+   "doi": "https://doi.org/10.24302/drd.v14.5320",
+   "title": "Distribuição geográfica de projetos culturais com captação de recursos via Lei Rouanet",
+   "publication_year": 2024,
+   "type": "article",
+   "source": "DRd - Desenvolvimento Regional em debate",
+   "authorships": [
+    "Lusvânio Carlos Teixeira",
+    "Wescley Silva Xavier",
+    "Evandro Rodrigues de Faria"
+   ],
+   "biblio": {
+    "volume": "14",
+    "issue": null,
+    "first_page": "556",
+    "last_page": "578"
+   },
+   "abstract": "A Lei Rouanet é uma das principais fontes de recursos para a cultura no Brasil, e permite que contribuintes de imposto de renda decidam quais projetos culturais apoiar, o que teoricamente poderia representar uma forma de democratizar a cultura no país. No entanto, essa prerrogativa empresarial também levanta questionamentos sobre a concentração de recursos em determinadas regiões e produções culturais, considerando os interesses do capital privado. O objetivo deste artigo foi investigar se a Lei Rouanet representa um instrumento de democratização na produção e no consumo da cultura, sobretudo em termos de distribuição geográfica dos recursos. Partindo de uma abordagem quantitativa, realizou-se uma descrição da distribuição geográfica dos recursos e uma análise comparativa entre os grupos de municípios que possuíam e que não possuíam projetos com captação de recursos desta lei, utilizando-se o teste de Kolmogorov-Smirnov e o de Wilcoxon Mann-Whitney. Acerca dos resultados, constatou-se a existência de concentração de recursos na região Sudeste, e pela análise comparativa percebeu-se que os recursos da Lei Rouanet estão presentes em municípios com maior porte populacional e maior Produto Interno Bruto. Concluiu-se que na forma de funcionamento da lei e pelo histórico de concentrações, esta representa um instrumento com dificuldades de democratizar os recursos em termos geográficos, atendendo mais interesses do mercado do que interesses públicos. Palavras-chave: Políticas Culturais. Cultura. Financiamento à Cultura. Incentivo Fiscal."
+  },
+  {
+   "id": "https://openalex.org/W7167565458",
+   "doi": null,
+   "title": "Rouanet Law sponsors : an analysis of disclosures in financial reports",
+   "publication_year": 2025,
+   "type": "dissertation",
+   "source": "Lume (Universidade Federal do Rio Grande do Sul)",
+   "authorships": [
+    "Luís Guilherme Pozzebon Carvalho"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "Considerando a relevância da transparência na divulgação das informações contábeis por empresas que se beneficiam de incentivos fiscais, este estudo teve como objetivo analisar como as dez maiores Sociedades Anônimas de capital aberto, incentivadoras da Lei Rouanet, divulgam os aportes realizados via Lei de Incentivo à Cultura em seus relatórios institucionais. Trata-se de uma pesquisa qualitativa, descritiva e documental, com base nos relatórios de administração, demonstrações contábeis, relatórios de sustentabilidade e relatórios integrados, publicados nos exercícios de 2022 e 2023. A análise foi realizada a partir da identificação de termos-chave como “Rouanet”, “Incentivo à Cultura”, “Lei de Incentivo à Cultura” e “Incentivos Fiscais”, nos documentos publicados pelas empresas. Os resultados revelam baixa frequência e ausência de padronização na divulgação das informações relativas aos aportes culturais, mesmo entre as companhias com maior volume de incentivos concedidos. Observou-se que, embora os aportes estejam registrados nos documentos contábeis, a comunicação ao público se restringe, na maioria dos casos, a menções genéricas em relatórios socioambientais, com pouca ou nenhuma explicitação nos demonstrativos financeiros. Conclui-se que existe uma lacuna na transparência contábil em relação à aplicação da Lei Rouanet, o que reforça a necessidade de maior clareza, padronização e efetividade na divulgação dessas informações nos relatórios corporativos."
+  },
+  {
+   "id": "https://openalex.org/W4415261137",
+   "doi": "https://doi.org/10.5752/p.2594-5467.2025v9n18p251-277",
+   "title": "INCENTIVOS FISCAIS RELACIONADOS A PROJETOS CULTURAIS:",
+   "publication_year": 2025,
+   "type": "article",
+   "source": "Conecte-se!",
+   "authorships": [
+    "Simone Cleice Vieira",
+    "Filipe Miranda da Cruz",
+    "Viviane Braga Massólio",
+    "Deisyane Ramalho dos Santos",
+    "Josmária Lima Ribeiro de Oliveira",
+    "Lucas Akiyama Amadei"
+   ],
+   "biblio": {
+    "volume": "9",
+    "issue": "18",
+    "first_page": "251",
+    "last_page": "277"
+   },
+   "abstract": "O presente trabalho tem como objetivo abordar a sustentabilidade em projetos culturais no contexto brasileiro, diante dos mecanismos de distribuição da Lei Federal de Incentivo à Cultura, ou Lei Rouanet. A proposição investigativa procura compreender os motivos que desencadeiam as desigualdades quanto à distribuição dos recursos culturais por meio do incentivo fiscal, ao averiguar os dados disponíveis no portal Versalic, entre o ano de 2021 e 2023. A análise considerou os critérios de classificação do Ministerio da Cultura (MinC): artes cênicas; audiovisual; artes visuais; humanidades; música e, patrimônio cultural e, com base nos dados apresentados foram selecionadas dentre as instituições com aporte de investimento igual ou superior a R$1.000.000,00, três das quais será dado um enfoque mais acurado: Fundação Orquestra Sinfônica Brasileira (FOSB); Instituto Inhotim e o Museu do Amanhã. A convergência entre as propostas de ações veiculadas pelas instituições selecionadas concentra-se na execução de ações educativas voltadas para o público jovem, estudantes e comunidade em geral."
+  },
+  {
+   "id": "https://openalex.org/W7203473365",
+   "doi": "https://doi.org/10.58210/rie3853",
+   "title": "Entre a indução e a renúncia",
+   "publication_year": 2026,
+   "type": "article",
+   "source": "Revista Inclusiones",
+   "authorships": [
+    "Dênis Mateus de Paiva",
+    "Michele de Santana Carmelossi",
+    "Renato Eliseu Costa"
+   ],
+   "biblio": {
+    "volume": "13",
+    "issue": "3",
+    "first_page": "e3853",
+    "last_page": "e3853"
+   },
+   "abstract": "O artigo analisa o financiamento federal à cultura no Brasil entre 2014 e 2024, examinando a relação entre gasto direto, gasto tributário e delegação alocativa na Lei Rouanet. Com base em revisão bibliográfica, análise documental e triangulação de dados secundários, discute quatro dimensões: Composição dos instrumentos de financiamento, grau de delegação decisória, padrão territorial de distribuição e resiliência institucional em contexto de crise. Sustenta-se que o modelo brasileiro é híbrido apenas no plano formal, pois opera com predominância da renúncia fiscal, baixa adicionalidade privada, concentração territorial persistente e limitada capacidade anticíclica dos mecanismos ordinários de fomento. A pandemia de COVID-19 evidenciou esse limite ao recolocar o financiamento direto emergencial em posição central."
+  },
+  {
+   "id": "https://openalex.org/W4391018113",
+   "doi": "https://doi.org/10.17564/2316-381x.2023v9n2p369-391",
+   "title": "PATROCÍNIO DE EMPRESAS ESTATAIS AO ESPORTE E CULTURA – PONDERAÇÃO ENTRE PROMOÇÃO CULTURAL E LUCRO DOS ARTISTAS FAMOSOS",
+   "publication_year": 2024,
+   "type": "article",
+   "source": "Interfaces Científicas - Direito",
+   "authorships": [
+    "Douglas Da Silva Garcia",
+    "Marisa Rossignoli"
+   ],
+   "biblio": {
+    "volume": "9",
+    "issue": "2",
+    "first_page": "369",
+    "last_page": "391"
+   },
+   "abstract": "O presente trabalho analisa o histórico do patrocínio de empresas estatais ao esporte e cultura no contexto do Brasil, considerando sua relação com o estado de bem-estar social. A relevância social desse patrocínio é destacada, visto que atua como fonte de incentivo e promoção cultural, além de contribuir para a geração de renda e empregos no setor artístico e cultural. O estudo busca analisar a promoção cultural e o lucro dos artistas, ponderando os interesses públicos e privados envolvidos nesse processo. Nesse sentido, a pesquisa objetiva analisar o impacto das empresas estatais na promoção do esporte e cultura no Brasil, contextualizando o conceito e origem do estado de bem-estar social e sua relação com a promoção cultural e esportiva. A importância da promoção cultural e do esporte para a sociedade é discutida, levando em conta seus impactos sociais, econômicos e culturais. Além disso, são analisadas as políticas públicas existentes para o financiamento de atividades culturais e esportivas, com foco no papel do Estado e das empresas estatais nesse cenário. A pesquisa se baseia em métodos de revisão de literatura e método hipotético-dedutivo para identificar o tema, apresentar o problema e uma hipótese, bem como representar suas implicações. O estudo visa contribuir para o debate sobre o tema, proporcionando reflexões sobre a promoção cultural, o lucro dos artistas e o papel do estado de bem-estar social na busca por um equilíbrio que beneficie a sociedade como um todo."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

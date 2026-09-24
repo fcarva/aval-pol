@@ -1,0 +1,83 @@
+{
+ "doi": "10.1093/ije/dyl129",
+ "coletado_utc": "2026-09-24T00:43:01Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Sample size for cluster randomized trials: effect of coefficient of variation of cluster size and analysis method"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Sandra M",
+    "family": "Eldridge",
+    "name": null
+   },
+   {
+    "given": "Deborah",
+    "family": "Ashby",
+    "name": null
+   },
+   {
+    "given": "Sally",
+    "family": "Kerry",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "International Journal of Epidemiology"
+  ],
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article",
+  "volume": "35",
+  "issue": "5",
+  "page": "1292-1300",
+  "article_number": null,
+  "issued": [
+   [
+    2006,
+    8,
+    30
+   ]
+  ],
+  "published_print": [
+   [
+    2006,
+    10,
+    1
+   ]
+  ],
+  "published_online": [
+   [
+    2006,
+    8,
+    30
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1093/ije/dyl129",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2153247789",
+  "title": "Sample size for cluster randomized trials: effect of coefficient of variation of cluster size and analysis method",
+  "publication_year": 2006,
+  "type": "article",
+  "source": "International Journal of Epidemiology",
+  "landing_page_url": "https://doi.org/10.1093/ije/dyl129",
+  "authorships": [
+   "Sandra M Eldridge",
+   "Deborah Ashby",
+   "Sally Kerry"
+  ],
+  "biblio": {
+   "volume": "35",
+   "issue": "5",
+   "first_page": "1292",
+   "last_page": "1300"
+  },
+  "cited_by_count": 547,
+  "abstract": "BACKGROUND: Cluster randomized trials are increasingly popular. In many of these trials, cluster sizes are unequal. This can affect trial power, but standard sample size formulae for these trials ignore this. Previous studies addressing this issue have mostly focused on continuous outcomes or methods that are sometimes difficult to use in practice. METHODS: We show how a simple formula can be used to judge the possible effect of unequal cluster sizes for various types of analyses and both continuous and binary outcomes. We explore the practical estimation of the coefficient of variation of cluster size required in this formula and demonstrate the formula's performance for a hypothetical but typical trial randomizing UK general practices. RESULTS: The simple formula provides a good estimate of sample size requirements for trials analysed using cluster-level analyses weighting by cluster size and a conservative estimate for other types of analyses. For trials randomizing UK general practices the coefficient of variation of cluster size depends on variation in practice list size, variation in incidence or prevalence of the medical condition under examination, and practice and patient recruitment strategies, and for many trials is expected to be approximately 0.65. Individual-level analyses can be noticeably more efficient than some cluster-level analyses in this context. CONCLUSIONS: When the coefficient of variation is <0.23, the effect of adjustment for variable cluster size on sample size is negligible. Most trials randomizing UK general practices and many other cluster randomized trials should account for variable cluster size in their sample size calculations."
+ }
+}
