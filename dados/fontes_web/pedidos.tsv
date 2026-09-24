@@ -109,3 +109,11 @@ mapa_api_agentes_contagem	https://mapa.cultura.es.gov.br/api/agent/find?@select=
 mapa_api_agentes_contagem_individual	https://mapa.cultura.es.gov.br/api/agent/find?@select=id&type=EQ(1)&@count=1	H3: agentes individuais
 mapa_api_agentes_contagem_coletivo	https://mapa.cultura.es.gov.br/api/agent/find?@select=id&type=EQ(2)&@count=1	H3: agentes coletivos
 salic_api_incentivadores_uf_es	https://api.salic.cultura.gov.br/api/v1/incentivadores?UF=ES&limit=100&format=json	H1: filtro por UF (uf=ES foi ignorado)
+secult_licc_pareceristas	https://secult.es.gov.br/LICC	H2a: edital de credenciamento de pareceristas (modelo de parecer tem nota?)
+secult_credenciamento	https://secult.es.gov.br/credenciamento	H2a: resultados do credenciamento de pareceristas
+mapa_api_fases_1878	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,parent,registrationFrom,registrationTo,evaluationMethodConfiguration&parent=EQ(1878)	H2a: fases da LICC 2025 e método de avaliação de cada uma
+mapa_api_fases_2317	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,parent,registrationFrom,registrationTo,evaluationMethodConfiguration&parent=EQ(2317)	H2a: fases da LICC 2026
+mapa_api_fases_1415	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,parent,registrationFrom,registrationTo,evaluationMethodConfiguration&parent=EQ(1415)	H2a: fases da LICC 2024
+mapa_api_oportunidade_378	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,shortDescription,longDescription,registrationFrom,registrationTo,evaluationMethodConfiguration&@files=(downloads):url,name&id=EQ(378)	H2a: edital de pareceristas LICC 2022 no Mapa Cultural (anexos)
+mapa_api_oportunidade_1878_arquivos	https://mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,longDescription,evaluationMethodConfiguration&@files=(downloads):url,name&id=EQ(1878)	H2a: anexos da oportunidade LICC 2025 (formulários, modelo de parecer)
+mapa_api_avaliacao_config_1878	https://mapa.cultura.es.gov.br/api/evaluationMethodConfiguration/find?@select=id,type,opportunity,criteria,sections,quotas&opportunity=EQ(1878)	H2a: configuração do método de avaliação (critérios e notas, se houver)
