@@ -1,0 +1,2073 @@
+# Fonte: https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/
+# Coletado (UTC): 2026-09-24T00:51:21Z
+# sha256 do original: ac2bd580db4ee8f95516b7f045bc677e277b9ab2393d50ecab331080d24383cf
+
+The Effect of Cluster Size Variability on Statistical Power in Cluster-Randomized Trials - PMC
+
+      Skip to main content
+
+Official websites use .gov
+
+                            A
+
+.gov
+ website belongs to an official
+                            government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+                            A 
+lock
+ (
+
+) or 
+https://
+ means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+
+Search PMC Full-Text Archive
+
+Search in PMC
+
+                                Journal List
+
+                                User Guide
+
+PERMALINK
+
+Copy
+
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+
+    Learn more:
+
+PMC Disclaimer
+
+    |
+
+        PMC Copyright Notice
+
+PLoS One
+. 2015 Apr 1;10(4):e0119074. doi: 
+10.1371/journal.pone.0119074
+
+The Effect of Cluster Size Variability on Statistical Power in Cluster-Randomized Trials
+
+Stephen A Lauer
+
+Stephen A Lauer
+
+1
+Division of Biostatistics and Epidemiology, School of Public Health and Health Sciences, University of Massachusetts, Amherst, MA, USA
+
+Find articles by 
+Stephen A Lauer
+
+1,
+*
+, 
+Ken P Kleinman
+
+Ken P Kleinman
+
+2
+Department of Population Medicine, Harvard Medical School/Harvard Pilgrim Health Care Institute, Boston, MA, USA
+
+Find articles by 
+Ken P Kleinman
+
+2
+, 
+Nicholas G Reich
+
+Nicholas G Reich
+
+1
+Division of Biostatistics and Epidemiology, School of Public Health and Health Sciences, University of Massachusetts, Amherst, MA, USA
+
+Find articles by 
+Nicholas G Reich
+
+1
+
+Editor: 
+Andrew R Dalby
+3
+
+Author information
+
+Article notes
+
+Copyright and License information
+
+1
+Division of Biostatistics and Epidemiology, School of Public Health and Health Sciences, University of Massachusetts, Amherst, MA, USA
+
+2
+Department of Population Medicine, Harvard Medical School/Harvard Pilgrim Health Care Institute, Boston, MA, USA
+
+3
+University of Westminster, UNITED KINGDOM
+
+Competing Interests: 
+Co-author Nicholas G Reich is a PLOS ONE Editorial Board member. This does not alter the authors’ adherence to PLOS ONE Editorial policies and criteria.
+
+Conceived and designed the experiments: SAL NGR. Performed the experiments: SAL NGR. Analyzed the data: SAL NGR KPK. Contributed reagents/materials/analysis tools: SAL NGR KPK. Wrote the paper: SAL NGR KPK.
+
+✉
+* E-mail: 
+slauer@schoolph.umass.edu
+
+Roles
+
+Andrew R Dalby
+: 
+Academic Editor
+
+Received 2014 May 20; Accepted 2015 Jan 21; Collection date 2015.
+
+© 2015 Lauer et al
+
+This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.
+
+PMC Copyright notice
+
+PMCID: PMC4382318  PMID: 
+25830416
+
+Abstract
+
+The frequency of cluster-randomized trials (CRTs) in peer-reviewed literature has increased exponentially over the past two decades. CRTs are a valuable tool for studying interventions that cannot be effectively implemented or randomized at the individual level. However, some aspects of the design and analysis of data from CRTs are more complex than those for individually randomized controlled trials. One of the key components to designing a successful CRT is calculating the proper sample size (i.e. number of clusters) needed to attain an acceptable level of statistical power. In order to do this, a researcher must make assumptions about the value of several variables, including a fixed mean cluster size. In practice, cluster size can often vary dramatically. Few studies account for the effect of cluster size variation when assessing the statistical power for a given trial. We conducted a simulation study to investigate how the statistical power of CRTs changes with variable cluster sizes. In general, we observed that increases in cluster size variability lead to a decrease in power.
+Introduction
+
+The cluster-randomized trial (CRT) is a common study design in public health research, in which interventions are administered to groups rather than to individuals. In situations where dividing a group of individuals into treatment and controls is unethical or impossible, a CRT design retains many of the strengths of an individually randomized study design [
+1
+]. By comparing the outcomes of small populations (clusters), CRTs can observe the impacts of interventions on a community as a whole.
+
+The number of published articles utilizing CRTs has increased every year since 1997 (See 
+Fig. 1
+). Due to its rising popularity, this relatively complex study design is facing greater scrutiny from the scientific community. The Consolidated Standards of Reporting Trials (CONSORT) Group issued guidelines for conducting CRTs in 2004 [
+2
+], with an update published in 2012 [
+3
+]. One important component of CRT design is the sample size calculation; in which researchers must find the correct number of clusters to achieve sufficient statistical power. In 
+CONSORT 2010 statement: extension to cluster randomised trials
+, there was an added focus on sample size reporting, which included a note about accounting for varying cluster sizes.
+
+Fig 1. The annual number of articles published on CRTs (either trials themselves or methods for trials) has increased from 4 to 275 since 1997.
+
+Open in a new tab
+
+Source: Web of Science. Search syntax used: (TI = (“cluster random*”) OR TI = (“group random*”)) AND Document Types = (Article).
+This has been a subject of interest since Donner and Klar’s seminal paper 
+Randomization by cluster: sample size requirements and analysis
+ in 1981 [
+4
+]. As detailed in 
+Unequal cluster sizes for trials in English and Welsh general practice: implications for sample size calculations
+ [
+5
+], Kerry and Bland derived a formula to calculate the design effect of a CRT based on the number of participants in each cluster. The design effect is the ratio of the sample size required for a CRT over that of an individually randomized trial with the same power. Eldridge et al built upon this formula so that design effect could be calculated knowing only the mean cluster size and the coefficient of cluster size variation [
+6
+, 
+7
+].
+
+Another approach to accounting for cluster size variation is by using a measure of relative efficiency [
+8
+–
+11
+]. Relative efficiency is mathematically derived and easy to implement once computed. However, there are several ways to calculate relative efficiency, all of which use complicated methods that may create obstacles to their use in practice. We seek to simplify the process of estimating the needed sample size for a CRT in the presence of variable cluster sizes. We hope this effort will encourage continued improvement in efficient implementation of CRTs within the medical and social science communities.
+
+Using the statistical programming language R v3.02 [
+12
+] and the package clusterPower [
+13
+, 
+14
+], we designed a controlled simulation experiment in which we simulated hundreds of thousands of hypothetical CRTs. Using the results from these simulations, we examined the effect of variability in cluster sizes on statistical power of CRTs and developed simple and concrete quantitative guidelines for researchers who design CRTs with high variability in cluster sizes. This manuscript file was typeset reproducibly using the R package knitr [
+15
+, 
+16
+], which we used to call files of pre-processed results from the simulation studies. All code and data for this project is available at 
+https://bitbucket.org/nickreich/clustersizepaper
+.
+Project Overview
+
+We developed a framework that allowed us to measure the impact that variability in cluster size has on the power of a CRT. This framework was built on the foundation of the clusterPower package in R [
+13
+]. Statistical power is defined as the probability of rejecting the null hypothesis given that the null hypothesis is not true. In brief, to estimate statistical power for a given CRT design, we stochastically simulated data (i.e. results from a trial) from a hypothetical CRT design with a known, non-zero intervention effect size. Among all simulated trials, the percentage of time the null hypothesis is rejected is therefore an accurate estimate of the power for this design. We have leveraged this simple simulation framework to answer a complex question about CRT study design: how does variability in cluster size impact the power of a CRT?
+
+We designed a simulation study to systematically gather data on how cluster size variability impacts power and sample size requirements for a CRT. To provide a focused study of the effect of cluster size variability on CRT sample size, we limited the current investigation to a common CRT design. Namely, we focused on equal-armed CRTs that had a continuous outcome measure (as opposed to binary or count data) and assumed that the design did not incorporate a “controlled comparison” (e.g. a crossover, baseline comparison, or matching). We used a data generating model similar to that given by Reich et al. [
+13
+]:
+
+Y
+j
+k
+|
+X
+k
+=
+η
+k
++
+Δ
+·
+X
+k
++
+ϵ
+j
+k
+,
+η
+k
+∼
+Normal
+(
+0
+,
+σ
+η
+2
+)
+,
+ϵ
+j
+k
+∼
+Normal
+(
+0
+,
+σ
+ϵ
+2
+)
+.
+
+(1)
+
+where 
+Y
+
+jk
+ is the observed outcome for person 
+j
+ (
+j
+ = 1, …, 
+J
+
+k
+) in cluster 
+k
+ (
+k
+ = 1, …, 
+K
+; 
+K
+ = total number of clusters), 
+X
+
+k
+ is a binary variable indicating whether cluster 
+k
+ was assigned to the treatment (
+X
+
+k
+ = 1) or control (
+X
+
+k
+ = 0) group, 
+Δ
+ is the non-standardized treatment effect size, 
+η
+
+k
+ is the effect due to variation between clusters, and 
+ε
+
+jk
+ is the effect due to variation between the individuals in each cluster.
+
+Simulation study
+
+The following list provides a brief description of each step in our simulation study. We provide a more detailed explanation of each step in the next section.
+
+Defined the 
+parameter sets
+ (
+θ
+
+i
+). Each 
+θ
+
+i
+ is a vector of variables used to calculate the statistical power (
+P
+) of a theoretical CRT. The following components make up 
+θ
+
+i
+ and are also listed (with the values we assumed for each) in 
+Table 1
+:
+
+Type I Error (
+α
+, fixed at 0.05 for all experiments)
+
+Mean cluster size (
+μ
+)
+
+Intraclass correlation coefficient (
+ICC
+=
+σ
+η
+2
+σ
+η
+2
++
+σ
+ε
+2
+)
+
+Between cluster variance (
+BCV
+=
+σ
+η
+2
+)
+
+Number of clusters needed to reach 80% power with fixed cluster sizes (
+C
+
+80
+)
+
+Effect size (
+Δ
+, calibrated on the combination of above variables)
+
+Using parameters (i-v) and a type II error (
+β
+) of 0.2 in Murray’s effect size equation (defined in Methods), we calculated the minimum effect size required to find a significant result in a properly powered CRT, 
+Δ
+. By jointly varying parameters (i-v) over realistic ranges of values, we created carefully calibrated hypothetical CRT settings. Then, when we simulated data from CRTs in these setting to make power estimates with clusterPower, we allowed for the actual number of clusters in the study (
+C
+
+A
+) to be different than 
+C
+
+80
+.
+
+Estimated the statistical power when cluster sizes were fixed at 
+μ
+. We refer to these estimates as our 
+fixed cluster size power estimates
+, 
+P
+^
+θ
+i
+F
+(
+C
+A
+)
+. To do this, we simulated hypothesis tests on 5000 unique datasets for each (
+θ
+
+i
+, 
+C
+
+A
+) pair.
+
+Estimated the statistical power when cluster sizes have variability, defined by several coefficient of variation (
+cv
+) levels. We refer to these estimates as 
+variable cluster size power estimates
+, 
+P
+^
+θ
+i
+c
+v
+(
+C
+A
+)
+. To do this, we generated 
+S
+ = 2000 
+variable cluster size sets
+ for each (
+θ
+
+i
+, 
+C
+
+A
+, 
+cv
+) combination and ran a simulation on each variable cluster size set, which output a dataset. Hypothesis testing was performed on each dataset and produced a 
+P
+^
+θ
+i
+,
+s
+c
+v
+(
+C
+A
+)
+, where 
+s
+ = 1, …, 
+S
+. The average result over all 
+S
+ datasets defined the 
+P
+^
+θ
+i
+c
+v
+(
+C
+A
+)
+.
+
+Calculated the required number of clusters for each combination of 
+θ
+
+i
+ and 
+cv
+. The vectors 
+P
+^
+θ
+i
+F
+ and 
+P
+^
+θ
+i
+cv
+ form power curves for each 
+θ
+
+i
+ along the range of 
+C
+
+A
+. Using the values just above and below 
+P
+ = 0.8, we interpolated the point where 
+C
+
+A
+ is equal to the number of clusters required to achieve a statistical power of 80% for fixed-size cluster sets (
+C
+^
+θ
+i
+F
+, which approximates 
+C
+
+80
+) and variable cluster sets (
+C
+^
+θ
+i
+c
+v
+).
+
+Using our results, we observed the effect of 
+cv
+ on the required number of clusters (
+C
+^
+θ
+i
+c
+v
+).
+
+Table 1. List of simulation parameters and their values.
+
+Simulation Parameter
+
+Values
+
+θ
+
+i
+
+Type I Error (
+α
+)
+
+.05
+
+Mean Cluster Size (
+μ
+)
+
+20
+
+50
+
+75
+
+100
+
+125
+
+ICC
+
+.001
+
+.002
+
+.006
+
+.01
+
+.03
+
+.08
+
+.2
+
+BCV
+
+.01
+
+.1
+
+1
+
+Number of clusters required to reach 80% power (
+C
+
+80
+)
+
+10
+
+20
+
+40
+
+60
+
+Effect Size (
+Δ
+)
+
+Calibrated on the combination of the above variables
+
+Actual No. of Clusters (
+C
+
+A
+)
+
+5
+
+10
+
+15
+
+20
+
+40
+
+60
+
+80
+*
+
+100
+**
+
+120
+**
+
+Fixed-Variance Sims
+
+5000
+
+Coefficient of Variation (
+cv
+)
+
+0.5
+
+1.0
+
+1.5
+
+Variable-Sized Sets (
+S
+)
+
+2000
+
+Variable-Sized Set Sims
+
+1
+
+Open in a new tab
+
+* Only used when 
+C
+
+80
+ > 10
+
+** Only used when 
+C
+
+80
+ > 20
+
+Methods
+
+Step 1: Parameter Selection
+
+To test the impact of cluster size variability on 
+P
+, we simulated from 420 parameter sets (
+θ
+
+i
+). This is the number of unique combinations of 
+μ
+ values (5), ICC values (7), BCV values (3), and 
+C
+
+80
+ values (4). Each 
+θ
+
+i
+ was simulated across a range of 
+C
+
+A
+ values (6 to 9, depending on 
+C
+
+80
+) to create a total of 3,255 data points.
+
+For each 
+θ
+
+i
+ parameter set, we calculated a 
+Δ
+ value based on 
+α
+, 
+β
+, 
+μ
+, ICC, BCV, and 
+C
+
+80
+ according to these equations [
+17
+]:
+
+Δ
+=
+4
+·
+(
+σ
+ϵ
+2
++
+μ
+·
+BCV
+)
+(
+t
+α
+/
+2
++
+t
+β
+)
+2
+μ
+·
+C
+80
+,
+where:
+σ
+ϵ
+2
+=
+BCV
+·
+(
+1
+-
+ICC
+)
+ICC
+.
+
+(2)
+
+Parameter selection required balancing the desire for well-spaced values across a meaningful range for each parameter with the computational burden of the simulations. (Over 68 million simulations took approximately two weeks running in parallel in 21 threads on a 12-core Mac Pro Desktop.)
+
+The values for 
+α
+ and 
+β
+ were set at the standard type I and type II error rates of 0.05 and 0.2, respectively.
+
+The five values of the mean cluster size, 
+μ
+, were distributed between 20 and 125. We limited the maximum 
+μ
+ to 125 because simulations with large cluster sizes take considerably more computational time.
+
+The ICC quantities were seven evenly-spaced, rounded log-linear values between 0.001 and 0.2.
+
+The three BCV values were equally spread out on a log scale, spanning from 0.01 to 1.
+
+The four 
+C
+
+80
+ values were chosen based on the range of popular numbers of clusters for CRTs. A CRT with 10 clusters would constitute a small trial and a CRT with 60 clusters is decidedly larger. We set the maximum 
+C
+
+80
+ value at 60 because larger quantities of clusters take significantly longer to simulate.
+
+The 
+C
+
+A
+ values ensured that the power curves for each CRT ranged from near 0 to 1. Initial tests showed that a wide range (5 ≤ 
+C
+
+A
+ ≤ 120) was needed to accomplish this when 
+C
+
+80
+ = 60. However, for smaller 
+C
+
+80
+ values, the statistical power reached 1 sooner and thus the larger values of 
+C
+
+A
+ were unnecessary.
+Step 2: Generate fixed cluster size power estimates
+
+Prior to investigating the effect of variable cluster sizes on statistical power, we calibrated the empirical estimates of power from the clusterPower package against the formula-based estimates of power (
+2
+). Since existing CRT formulas assume equal cluster sizes, we ran one 5000-simulation fixed cluster size CRT for each (
+θ
+
+i
+, 
+C
+
+A
+) pair. This produced 
+fixed cluster size power estimates
+, 
+P
+^
+θ
+i
+F
+(
+C
+A
+)
+, where every cluster size in each CRT was fixed at 
+μ
+. In Step 4, these estimates are used to compare the difference between the estimated number of clusters needed based on formulaic and simulated power calculations.
+Step 3: Generate variable cluster size power estimates
+
+Next, we generated 
+variable cluster size sets
+, sets of 
+C
+
+A
+ randomly-drawn cluster sizes from a negative binomial distribution with mean 
+μ
+. The negative binomial distribution was chosen due to the fact that the cluster sizes from trials that study investigators have worked on have shown over-dispersion similar to that of these distributions. We fixed the coefficient of variation (
+cv
+) of the negative binomial distribution, to roughly match observed skewness in cluster sizes from published CRTs. We used three levels of variability in cluster sizes: low variance (
+cv
+ = 0.5), mid variance (
+cv
+ = 1.0), and high variance (
+cv
+ = 1.5).
+
+In our high variance cluster size set, the 
+cv
+ was fixed at 1.5, which is about twice the size of the largest 
+cv
+ in other CRT papers [
+8
+–
+10
+]. This ensured that our high variance cluster size power estimates represented a near-upper bound on the number of variable-sized clusters required in practice. By holding the 
+cv
+ constant, the size parameter of the negative binomial distribution (
+r
+) and consequently the variance, are functions of 
+μ
+ [
+18
+]:
+
+r
+=
+μ
+μ
+·
+c
+v
+2
+-
+1
+.
+
+(3)
+
+When 
+cv
+ = 1.5, draws from a negative binomial distribution with a mean of 20 yield a value of zero 18% of the time, a value of fifty or greater 12% of the time, and a value of 140 or greater 1% of the time. Because a cluster cannot consist of zero participants, we set the minimum cluster size to 3. Specifically, to obtain a mean cluster size of 20, we drew from a negative binomial distribution with a mean of 17 before adding 3 to all cluster sizes. The probability mass functions that these distributions are drawn from are shown in 
+Fig. 2
+.
+
+Fig 2. The negative binomial distributions used to draw the cluster sizes sets for each mean cluster size (
+μ
+) and coefficient of variance (
+cv
+).
+
+Open in a new tab
+
+Each set had between 5 and 120 clusters, which made up the sample size of a CRT.
+The number of participants in the variable cluster size sets fluctuated immensely. Since this has an effect on the estimated power of a CRT, many variable cluster size sets (
+S
+ = 2000) were created for each (
+θ
+
+i
+, 
+C
+
+A
+) pair, so that the mean cluster size of all sets would converge to 
+μ
+. We ran one clusterPower hypothesis test simulation for every variable cluster size set. This generated a collection of binary outcomes (1 if the null hypothesis was correctly rejected, 0 if not), 
+P
+^
+θ
+i
+,
+s
+c
+v
+(
+C
+A
+)
+ for 
+s
+ = 1, ⋯, 
+S
+. These outcomes were averaged to create one point:
+
+P
+^
+θ
+i
+c
+v
+(
+C
+A
+)
+=
+∑
+s
+=
+1
+S
+P
+^
+θ
+i
+,
+s
+c
+v
+(
+C
+A
+)
+S
+.
+
+(4)
+
+Step 4: Estimate number of clusters needed with and without variability
+
+Let 
+P
+^
+ denote any 
+P
+^
+θ
+i
+F
+ or 
+P
+^
+θ
+i
+cv
+, a vector of power values for each of the 
+θ
+
+i
+ across 
+C
+
+A
+, with or without variance. This vector creates a power curve that allows us to estimate the number of clusters required for that parameter set at a certain level of variability.
+
+For each 
+P
+^
+, we found the 
+P
+^
+(
+C
+A
+)
+ and 
+C
+
+A
+ at the points just below and above 
+P
+ = 0.8. 
+P
+^
+0.8
+−
+ and 
+C
+
+0.8
+−
+ are the power and number of clusters below our point of interest. 
+P
+^
+0.8
++
+ and 
+C
+
+0.8
++
+ are the power and number of clusters above our point of interest. 
+P
+^
+0.8
+−
+ and 
+P
+^
+0.8
++
+ were placed in a vector and 
+C
+
+0.8
+−
+ and 
+C
+
+0.8
++
+ into a matrix as follows:
+
+P
+^
+0
+.
+8
+-
+P
+^
+0
+.
+8
++
+=
+C
+0
+.
+8
+-
+1
+C
+0
+.
+8
++
+1
+·
+a
+^
+b
+^
+.
+
+(5)
+
+In solving this equation, we find the slope (
+a
+^
+) and intercept (
+b
+^
+) of a line that passed between the points (
+C
+
+0.8
+−
+, 
+P
+^
+0.8
+−
+) and (
+C
+
+0.8
++
+, 
+P
+^
+0.8
++
+). From there, we set 
+P
+ = 0.8 to find the number of clusters required to achieve sufficient power, 
+C
+^
+:
+
+0
+.
+8
+=
+a
+^
+·
+C
+^
++
+b
+^
+.
+
+(6)
+
+Where 
+Ĉ
+ is the estimated number of required clusters to achieve a statistical power of 0.8. When using 
+P
+^
+θ
+i
+F
+, 
+C
+^
+=
+C
+^
+θ
+i
+F
+, which is a simulated estimate of 
+C
+
+80
+. For 
+P
+^
+θ
+i
+cv
+, 
+C
+^
+=
+C
+^
+θ
+i
+c
+v
+, which is a value for which Murray’s formulas (
+2
+) cannot be used. For the sake of simpler notation, we will refer to these as 
+C
+^
+F
+ and 
+C
+^
+cv
+.
+
+A graphical representation of this process is shown in 
+Fig. 3
+.
+
+Fig 3. How to find the required number of clusters (
+Ĉ
+).
+
+Open in a new tab
+
+First, for a given set of parameters, 
+θ
+
+i
+, hypothesis test simulations are run for each level of 
+C
+
+A
+. Second, the results of the simulations are averaged into one point per level. Third, 
+C
+^
+ is calculated by interpolating a point at 
+P
+^
+=
+0.8
+ between (
+C
+
+0.8
+−
+, 
+P
+^
+0.8
+−
+) and (
+C
+
+0.8
++
+, 
+P
+^
+0.8
++
+.
+Additionally, we defined and compared the percentage change in the number of clusters needed to achieve 80% power between those required by the Murray equation and the variable cluster size sets as:
+
+C
+^
+c
+v
+%
+=
+C
+^
+c
+v
+-
+C
+80
+C
+80
+.
+
+(7)
+
+Step 5: Analyze effects of cluster size variance
+
+With 
+C
+^
+cv
+, 
+C
+^
+F
+, and 
+C
+
+80
+, we observed the effect of cluster size variance on the required number of clusters.
+
+We compared and contrasted 
+C
+^
+F
+ and 
+C
+
+80
+. If the numbers were similar, then the clusterPower simulations approximate the Murray equations and 
+C
+^
+cv
+ could be used with confidence. If they were substantially different, further analysis would be required before evaluating 
+C
+^
+cv
+.
+
+C
+^
+cv
+ was analyzed with respect to 
+C
+
+80
+. From this analysis, we observed the effects of cluster size variation on the required number of clusters.
+Results
+
+Without cluster size variability, simulations approximate formula
+
+The first clusterPower simulation used each unique parameter set (
+θ
+
+i
+) across a range of sample sizes (actual number of clusters, 
+C
+
+A
+) to generate fixed cluster size power estimates (
+P
+^
+F
+=
+P
+^
+θ
+i
+F
+(
+C
+A
+)
+). These estimates were plotted to form the power curves represented by the black lines in 
+Fig. 4
+. Using these results and the technique described in Methods Step 4, we calculated the number of clusters required to achieve a statistical power of 80% for fixed-size cluster sets (
+C
+^
+F
+). To validate clusterPower, 
+C
+^
+F
+ was compared to Murray’s formula-based estimate of clusters required to reach 80% power (
+C
+
+80
+, from 
+Equation 2
+).
+
+Fig 4. The CRT power curves for two different parameter sets over four levels of cluster size variance.
+
+Open in a new tab
+
+When 
+C
+
+A
+ = 60, both fixed cluster size power estimates (
+P
+^
+θ
+i
+F
+), the solid, black lines) should equal 0.8. By looking below the point (60, 0.8), one observes that power is lost as the cluster size variance increases in both scenarios. By looking to the right of the point, the observer notices that more clusters are required to attain a statistical power of 0.8 with increased variability.
+The clusterPower simulations produced accurate, though conservative estimates. One example of this is the result from the lower left corner of 
+Fig. 4
+. In this scenario, the first five 
+θ
+
+i
+ parameters (type I error(
+α
+) = 0.05, mean cluster size (
+μ
+) = 75, ICC = 0.006, BCV = 0.1, 
+C
+
+80
+ = 60) require an effect size (
+Δ
+) of 0.417 when the cluster sizes are fixed. Using these parameters and a 
+C
+
+A
+ = 60, we should find that the statistical power is near 80%. The average statistical power across 5,000 simulations, 
+P
+^
+F
+, was 79.04%. Since this is smaller than 80%, from this point and the one at 
+C
+
+A
+ = 80 we can interpolate to find that 
+C
+^
+F
+=
+61.74
+. This is a slightly conservative result, in that the statistical power was less than one percent lower than expected and the required number of clusters were two greater than expected.
+
+More than half of our simulated 
+C
+^
+F
+ values were closer to Murray’s 
+C
+
+80
+ than in this example. In situations where 
+C
+
+A
+ = 
+C
+
+80
+, the 
+P
+^
+F
+ ranged from 75.04% to 81.44% with a median of 79.52%. The difference between 
+C
+^
+F
+ and 
+C
+
+80
+ ranged from -1.55 to 8.28 with a median difference of 0.51 (with negative values indicating 
+C
+^
+F
+<
+C
+80
+). The 
+C
+^
+F
+ and 
+C
+
+80
+ were highly correlated (
+R
+ = 0.9982). A paired two-sample t-test showed that 
+C
+^
+F
+ was significantly larger than 
+C
+
+80
+ and that the average difference is within one cluster (Estimate: 0.81, CI: (0.69, 0.92)).
+
+While 
+C
+^
+F
+ did not perfectly reflect 
+C
+
+80
+, the high correlation and generally conservative estimates suggest that clusterPower can be used to simulate variable cluster size CRTs.
+With cluster size variability, power decreases
+
+The subsequent clusterPower simulations used 
+θ
+
+i
+ with variable cluster size sets of 
+C
+
+A
+ clusters and three levels of coefficient of variance (
+cv
+ = 0.5, 1.0, 1.5) to generate variable cluster size power estimates (
+P
+^
+c
+v
+=
+P
+^
+θ
+i
+c
+v
+(
+C
+A
+)
+). These estimates were plotted to form the power curves that form the blue, green, and orange lines in 
+Fig. 4
+ (which represent 
+cv
+ = 0.5, 1.0, 1.5, respectively). By performing the same process for calculating 
+C
+^
+F
+, we derived the number of clusters required to achieve a statistical power of 80% for variable cluster size sets, 
+C
+^
+cv
+.
+
+Using the lower left plot again as an example, one can see how power decreases and required number of clusters increases with greater cluster size variation. Looking below the 
+P
+^
+F
+ point at (60, 0.79), we see that the power decreases as variance increases: 
+P
+^
+0.5
+=
+0.77
+; 
+P
+^
+1.0
+=
+0.73
+; and 
+P
+^
+1.5
+=
+0.69
+. Looking to the right of the 
+C
+^
+F
+ point at (61.74, 0.8), we see that more clusters are required in the presence of variation: 
+C
+^
+0.5
+=
+64.55
+; 
+C
+^
+1.0
+=
+72.6
+; and 
+C
+^
+1.5
+=
+79.82
+.
+
+This is merely one example of a consistent pattern of decreasing power as cluster size variability increased. Using paired t-tests, we observed that the difference between 
+C
+^
+0.5
+ and 
+C
+
+80
+ was significantly greater than zero (Estimate: 2.19, CI:(2.05, 2.34)); that 
+C
+^
+1.0
+ was significantly greater than 
+C
+^
+0.5
+ (Estimate: 4.09, CI:(3.82, 4.36)); and 
+C
+^
+1.5
+ was significantly greater than 
+C
+^
+1.0
+ (Estimate: 4.91, CI:(4.59, 5.23)).
+
+Within each 
+cv
+ level, there is substantial variability in statistical power and required number of clusters due to the large diversity of parameter sets. We can observe this by looking at the percent increase in number of clusters required by variable cluster size sets over those from the Murray equation (
+C
+^
+cv
+%
+, from 
+Equation 7
+). The range for 
+C
+^
+0.5
+%
+ spans −2.03% to 30.83%, with a median of 7.47%; 
+C
+^
+1.0
+%
+ covers 2.8% to 43.27%, with a median of 21.49%; and 
+C
+^
+1.5
+%
+ ranges from 13.04% to 63.72%, with a median of 38.38%.
+
+In 21 cases (5%), 
+C
+^
+0.5
+ was less than both the equivalent 
+C
+
+80
+ and 
+C
+
+F
+ values. However, there does not seem to be a common link between these scenarios, and thus their occurrence may be due to sampling variation from the stochastic simulations.
+Discussion
+
+This study demonstrates that variability in cluster sizes reduces the power of a cluster-randomized trial when compared to a trial with no variation in cluster sizes. We observed between a 2% decrease and a 64% increase in the number of clusters needed across all scenarios studied. As the variability in cluster sizes increases, additional clusters are needed to maintain 80% power. This phenomenon has been described before [
+4
+, 
+6
+, 
+8
+, 
+10
+]. Our simulation study has confirmed these results, and allowed us to quantify the expected loss of efficiency across many different possible study design scenarios. These results may only hold for equal-armed cluster-randomized trials that have a continuous outcome measure and no controlled comparison.
+
+A key feature of this paper is demonstrating the utility of the clusterPower package for R as a tool for conducting controlled simulation experiments to answer questions about CRT design. In this paper, we focused on estimating power in CRT designs with varying cluster sizes, but we have provided a template of a simulation study that could be used to answer many other types of questions. For example, different designs or analysis methods could be compared to determine the most efficient strategies for implementing CRTs.
+
+Our simulations do not fix the overall sample size of a given study with variable cluster sizes. So the estimated powers within a given parameter set reflect, to some extent, different total sample sizes of the studies. However, these differences are averaged out across the many simulations. In general, this setting mimics situations where the cluster sizes cannot be controlled by investigators. This might be the case when, for example, health care workers at different-sized clinics will be enrolled in a study; or, students in different-sized classes will be enrolled in a study. In these situations, the investigator will not know the exact number of participants who will be enrolled in the study, just how many clinics and the average number per clinic.
+
+Another difficulty that we did not confront in this paper is the effect of purposefully distributing different clusters into the treatment and control group. All group assignment was done in a random fashion. The impact of putting large clusters into one group and small clusters into the other is still unknown. Using some controlled comparison technique (such as matching on cluster size) may increase the efficiency of studies, but these methods were not examined in the present study.
+
+Due to the experimental design, we cannot observe the impact that changing any of the CRT parameters may have upon the required number of clusters because all of them are used to calibrate the effect size.
+
+As the use of cluster-randomized trials continue to expand in many scientific disciplines, it is vital that we continue to build our knowledge about how to design these trials efficiently. The results presented in this paper demonstrate the value of a new method for the efficient design of cluster-randomized trials in the presence of cluster size variability.
+Data Availability
+
+All code and data for this project is available at 
+https://bitbucket.org/nickreich/clustersizepaper.
+Funding Statement
+
+This project was funded by the ResPECT study (clinicaltrials.gov, ID: 
+NCT01249625
+) through an interagency agreement between the Centers for Disease Control and the United States Department of Veterans Affairs (CDC IAA 09FED905876). The findings and conclusions in this manuscript are those of the authors and do not necessarily represent the views of the Centers for Disease Control and Prevention. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+References
+
+1.
+
+Platt R, Takvorian S, Septimus E, Hickok J, Moody J, et al.  (2010) Cluster randomized trials in comparative effectiveness research: randomizing hospitals to test methods for prevention of healthcare-associated infections. Medical Care
+48: S52
+10.1097/MLR.0b013e3181dbebcf
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+2.
+
+Campbell MK, Elbourne DR, Altman DG (2004) Consort statement: extension to cluster randomised trials. British Medical Journal
+328: 702–708. 10.1136/bmj.328.7441.702
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+3.
+
+Campbell MK, Piaggio G, Elbourne DR, et al.  (2012) Consort 2010 statement: extension to cluster randomised trials. British Medical Journal
+345
+10.1136/bmj.e5661
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+4.
+
+Donner A, Birkett N, Buck C (1981) Randomization by cluster: sample size requirements and analysis. American Journal of Epidemiology
+114: 906–914.
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+5.
+
+Kerry SM, Martin Bland J (2001) Unequal cluster sizes for trials in english and welsh general practice: implications for sample size calculations. Statistics in Medicine
+20: 377–390. 10.1002/1097-0258(20010215)20:3<377::AID-SIM799>3.0.CO;2-N
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+6.
+
+Eldridge SM, Ashby D, Kerry S (2006) Sample size for cluster randomized trials: effect of coefficient of variation of cluster size and analysis method. International Journal of Epidemiology
+35: 1292–1300. 10.1093/ije/dyl129
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+7.
+
+Campbell MJ, Donner A, Klar N (2007) Developments in cluster randomized trials and statistics in medicine. Statistics in Medicine
+26: 2–19. 10.1002/sim.2731
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+8.
+
+van Breukelen GJP, Candel MJJM, Berger MPF (2007) Relative efficiency of unequal versus equal cluster sizes in cluster randomized and multicentre trials. Statistics in Medicine
+26: 2589–2603. 10.1002/sim.2740
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+9.
+
+Candel MJJM, Van Breukelen GJP (2010) Sample size adjustments for varying cluster sizes in cluster randomized trials with binary outcomes analyzed with second-order pql mixed logistic regression. Statistics in Medicine
+29: 1488–1501.
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+10.
+
+You Z, Williams OD, Aban I, Kabagambe EK, Tiwari HK, et al.  (2011) Relative efficiency and sample size for cluster randomized trials with variable cluster sizes. Clinical Trials
+8: 27–36. 10.1177/1740774510391492
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+11.
+
+Hemming K, Girling A, Sitch A, Marsh J, Lilford R (2011) Sample size calculations for cluster randomised controlled trials with a fixed number of clusters. BMC Medical Research Methodology
+11: 102
+10.1186/1471-2288-11-102
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+12.
+R Core Team (2013) R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL 
+http://www.R-project.org/
+. ISBN 3-900051-07-0.
+
+13.
+
+Reich NG, Myers JA, Obeng D, Milstone AM, Perl TM (2012) Empirical power and sample size calculations for cluster-randomized and cluster randomized crossover studies. PLoS ONE
+7: e35564
+10.1371/journal.pone.0035564
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+14.
+Reich NG, Obeng D (2012) clusterPower: Power calculations for cluster-randomized and cluster-randomized crossover trials. URL 
+http://CRAN.R-project.org/package=clusterPower
+. R package version 0.5.
+
+15.
+
+Xie Y (2013) knitr: A general-purpose package for dynamic report generation in r. R package version
+15.
+ [
+Google Scholar
+]
+
+16.
+
+Xie Y (2013) Dynamic Documents with R and knitr. CRC Press.
+ [
+Google Scholar
+]
+
+17.
+
+Murray DM (1998) Design and Analysis of Group-Randomized Trials. Oxford University Press.
+ [
+Google Scholar
+]
+
+18.
+Using the form of the negative binomial with parameters 
+r
+ and 
+p
+, where 
+E
+(
+X
+)
+=
+r
+(
+1
+−
+p
+)
+p
+ and 
+V
+a
+r
+(
+X
+)
+=
+r
+(
+1
+−
+p
+)
+p
+2
+.
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Data Availability Statement
+
+All code and data for this project is available at 
+https://bitbucket.org/nickreich/clustersizepaper.
+
+ACTIONS
+
+View on publisher site
+
+PDF (477.7 KB)
+
+Cite
+
+Collections
+
+Permalink
+
+PERMALINK
+
+Copy
+
+RESOURCES
+
+                            Similar articles
+
+                             Cited by other articles
+
+                                 Links to NCBI Databases
+
+Cite
+
+Copy
+
+Download .nbib
+
+.nbib
+
+Format:
+
+        AMA
+
+        APA
+
+        MLA
+
+        NLM
+
+Add to Collections
+
+Create a new collection
+
+Add to an existing collection
+
+                Name your collection
+
+*
+
+                Choose a collection
+
+                Unable to load your collection due to an error
+
+Please try again
+
+          Add
+
+          Cancel
+
+Back to Top
+
+## Links da página
+- [Skip to main content](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#main-content)
+- [](https://www.ncbi.nlm.nih.gov/)
+- [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+- [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+- [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+- [](https://pmc.ncbi.nlm.nih.gov/)
+- [Journal List](https://pmc.ncbi.nlm.nih.gov/journals/)
+- [User Guide](https://pmc.ncbi.nlm.nih.gov/about/userguide/)
+- [](https://doi.org/10.1371/journal.pone.0119074)
+- [](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/pdf/pone.0119074.pdf)
+- [PMC Disclaimer](https://pmc.ncbi.nlm.nih.gov/about/disclaimer/)
+- [PMC Copyright Notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
+- [10.1371/journal.pone.0119074](https://doi.org/10.1371/journal.pone.0119074)
+- [Search in PMC](https://pmc.ncbi.nlm.nih.gov/search/?term="PLoS%20One"[jour])
+- [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term="PLoS%20One"[jour])
+- [View in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term="PLoS%20One"[Title%20Abbreviation])
+- [Add to search](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/?term="PLoS%20One"[jour])
+- [Stephen A Lauer](https://pubmed.ncbi.nlm.nih.gov/?term="Lauer%20SA"[Author])
+- [Ken P Kleinman](https://pubmed.ncbi.nlm.nih.gov/?term="Kleinman%20KP"[Author])
+- [Nicholas G Reich](https://pubmed.ncbi.nlm.nih.gov/?term="Reich%20NG"[Author])
+- [PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
+- [25830416](https://pubmed.ncbi.nlm.nih.gov/25830416/)
+- [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref001)
+- [Fig. 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.g001)
+- [2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref002)
+- [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref003)
+- [](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4382318_pone.0119074.g001.jpg)
+- [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/figure/pone.0119074.g001/)
+- [4](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref004)
+- [5](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref005)
+- [6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref006)
+- [7](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref007)
+- [8](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref008)
+- [11](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref011)
+- [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref012)
+- [13](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref013)
+- [14](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref014)
+- [15](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref015)
+- [16](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref016)
+- [https://bitbucket.org/nickreich/clustersizepaper](https://bitbucket.org/nickreich/clustersizepaper)
+- [Table 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.t001)
+- [*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#t001fn001)
+- [**](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#t001fn002)
+- [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/table/pone.0119074.t001/)
+- [17](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref017)
+- [2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.e013)
+- [10](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref010)
+- [18](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.ref018)
+- [Fig. 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.g002)
+- [](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4382318_pone.0119074.g002.jpg)
+- [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/figure/pone.0119074.g002/)
+- [Fig. 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.g003)
+- [](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4382318_pone.0119074.g003.jpg)
+- [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/figure/pone.0119074.g003/)
+- [Fig. 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.g004)
+- [Equation 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.e013)
+- [](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=4382318_pone.0119074.g004.jpg)
+- [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/figure/pone.0119074.g004/)
+- [Equation 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/#pone.0119074.e028)
+- [https://bitbucket.org/nickreich/clustersizepaper.](https://bitbucket.org/nickreich/clustersizepaper.)
+- [NCT01249625](https://clinicaltrials.gov/ct2/show/NCT01249625)
+- [DOI](https://doi.org/10.1097/MLR.0b013e3181dbebcf)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/20473200/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Medical%20Care&title=Cluster%20randomized%20trials%20in%20comparative%20effectiveness%20research:%20randomizing%20hospitals%20to%20test%20methods%20for%20prevention%20of%20healthcare-associated%20infections&author=R%20Platt&author=S%20Takvorian&author=E%20Septimus&author=J%20Hickok&author=J%20Moody&volume=48&publication_year=2010&pages=S52&pmid=20473200&doi=10.1097/MLR.0b013e3181dbebcf&)
+- [DOI](https://doi.org/10.1136/bmj.328.7441.702)
+- [PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC381234/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/15031246/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=British%20Medical%20Journal&title=Consort%20statement:%20extension%20to%20cluster%20randomised%20trials&author=MK%20Campbell&author=DR%20Elbourne&author=DG%20Altman&volume=328&publication_year=2004&pages=702-708&pmid=15031246&doi=10.1136/bmj.328.7441.702&)
+- [DOI](https://doi.org/10.1136/bmj.e5661)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/22951546/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=British%20Medical%20Journal&title=Consort%202010%20statement:%20extension%20to%20cluster%20randomised%20trials&author=MK%20Campbell&author=G%20Piaggio&author=DR%20Elbourne&volume=345&publication_year=2012&pmid=22951546&doi=10.1136/bmj.e5661&)
+- [DOI](https://doi.org/10.1093/oxfordjournals.aje.a113261)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/7315838/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=American%20Journal%20of%20Epidemiology&title=Randomization%20by%20cluster:%20sample%20size%20requirements%20and%20analysis&author=A%20Donner&author=N%20Birkett&author=C%20Buck&volume=114&publication_year=1981&pages=906-914&pmid=7315838&doi=10.1093/oxfordjournals.aje.a113261&)
+- [DOI](https://doi.org/10.1002/1097-0258(20010215)20:3<377::AID-SIM799>3.0.CO;2-N)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/11180308/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Statistics%20in%20Medicine&title=Unequal%20cluster%20sizes%20for%20trials%20in%20english%20and%20welsh%20general%20practice:%20implications%20for%20sample%20size%20calculations&author=SM%20Kerry&author=J%20Martin%20Bland&volume=20&publication_year=2001&pages=377-390&pmid=11180308&doi=10.1002/1097-0258(20010215)20:3<377::AID-SIM799>3.0.CO;2-N&)
+- [DOI](https://doi.org/10.1093/ije/dyl129)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/16943232/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=International%20Journal%20of%20Epidemiology&title=Sample%20size%20for%20cluster%20randomized%20trials:%20effect%20of%20coefficient%20of%20variation%20of%20cluster%20size%20and%20analysis%20method&author=SM%20Eldridge&author=D%20Ashby&author=S%20Kerry&volume=35&publication_year=2006&pages=1292-1300&pmid=16943232&doi=10.1093/ije/dyl129&)
+- [DOI](https://doi.org/10.1002/sim.2731)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/17136746/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Statistics%20in%20Medicine&title=Developments%20in%20cluster%20randomized%20trials%20and%20statistics%20in%20medicine&author=MJ%20Campbell&author=A%20Donner&author=N%20Klar&volume=26&publication_year=2007&pages=2-19&pmid=17136746&doi=10.1002/sim.2731&)
+- [DOI](https://doi.org/10.1002/sim.2740)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/17094074/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Statistics%20in%20Medicine&title=Relative%20efficiency%20of%20unequal%20versus%20equal%20cluster%20sizes%20in%20cluster%20randomized%20and%20multicentre%20trials&author=GJP%20van%20Breukelen&author=MJJM%20Candel&author=MPF%20Berger&volume=26&publication_year=2007&pages=2589-2603&pmid=17094074&doi=10.1002/sim.2740&)
+- [DOI](https://doi.org/10.1002/sim.3857)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/20101669/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Statistics%20in%20Medicine&title=Sample%20size%20adjustments%20for%20varying%20cluster%20sizes%20in%20cluster%20randomized%20trials%20with%20binary%20outcomes%20analyzed%20with%20second-order%20pql%20mixed%20logistic%20regression&author=MJJM%20Candel&author=GJP%20Van%20Breukelen&volume=29&publication_year=2010&pages=1488-1501&pmid=20101669&doi=10.1002/sim.3857&)
+- [DOI](https://doi.org/10.1177/1740774510391492)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/21163852/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=Clinical%20Trials&title=Relative%20efficiency%20and%20sample%20size%20for%20cluster%20randomized%20trials%20with%20variable%20cluster%20sizes&author=Z%20You&author=OD%20Williams&author=I%20Aban&author=EK%20Kabagambe&author=HK%20Tiwari&volume=8&publication_year=2011&pages=27-36&pmid=21163852&doi=10.1177/1740774510391492&)
+- [DOI](https://doi.org/10.1186/1471-2288-11-102)
+- [PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3149598/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/21718530/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=BMC%20Medical%20Research%20Methodology&title=Sample%20size%20calculations%20for%20cluster%20randomised%20controlled%20trials%20with%20a%20fixed%20number%20of%20clusters&author=K%20Hemming&author=A%20Girling&author=A%20Sitch&author=J%20Marsh&author=R%20Lilford&volume=11&publication_year=2011&pages=102&pmid=21718530&doi=10.1186/1471-2288-11-102&)
+- [http://www.R-project.org/](http://www.R-project.org/)
+- [DOI](https://doi.org/10.1371/journal.pone.0035564)
+- [PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3338707/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/22558168/)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=PLoS%20ONE&title=Empirical%20power%20and%20sample%20size%20calculations%20for%20cluster-randomized%20and%20cluster%20randomized%20crossover%20studies&author=NG%20Reich&author=JA%20Myers&author=D%20Obeng&author=AM%20Milstone&author=TM%20Perl&volume=7&publication_year=2012&pages=e35564&pmid=22558168&doi=10.1371/journal.pone.0035564&)
+- [http://CRAN.R-project.org/package=clusterPower](http://CRAN.R-project.org/package=clusterPower)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?journal=knitr:%20A%20general-purpose%20package%20for%20dynamic%20report%20generation%20in%20r.%20R%20package%20version&author=Y%20Xie&volume=15&publication_year=2013&)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?title=Dynamic%20Documents%20with%20R%20and%20knitr&author=Y%20Xie&publication_year=2013&)
+- [Google Scholar](https://scholar.google.com/scholar_lookup?title=Design%20and%20Analysis%20of%20Group-Randomized%20Trials&author=DM%20Murray&publication_year=1998&)
+- [View on publisher site](https://doi.org/10.1371/journal.pone.0119074)
+- [PDF (477.7 KB)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/pdf/pone.0119074.pdf)
+- [Download .nbib .nbib](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/)
+- [Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC4382318/)
+- [NCBI on X (formerly known as Twitter)](https://twitter.com/ncbi)
+- [NCBI on Facebook](https://www.facebook.com/ncbi.nlm)
+- [NCBI on LinkedIn](https://www.linkedin.com/company/ncbinlm)
+- [NCBI on GitHub](https://github.com/ncbi)
+- [NCBI RSS feed](https://ncbiinsights.ncbi.nlm.nih.gov/)
+- [NLM on X (formerly known as Twitter)](https://twitter.com/nlm_nih)
+- [NLM on Facebook](https://www.facebook.com/nationallibraryofmedicine)
+- [NLM on YouTube](https://www.youtube.com/user/NLMNIH)
+- [National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!            4d-77.0988323)
+- [Web Policies](https://www.nlm.nih.gov/web_policies.html)
+- [FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+- [HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+- [Help](https://support.nlm.nih.gov/)
+- [Accessibility](https://www.nlm.nih.gov/accessibility.html)
+- [Careers](https://www.nlm.nih.gov/careers/careers.html)
+- [NLM](https://www.nlm.nih.gov/)
+- [NIH](https://www.nih.gov/)
+- [HHS](https://www.hhs.gov/)
+- [USA.gov](https://www.usa.gov/)
