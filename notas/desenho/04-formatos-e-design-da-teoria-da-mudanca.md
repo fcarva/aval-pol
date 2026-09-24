@@ -1,4 +1,4 @@
-# Formatos de teoria da mudança e decisões de design da Figura 2
+# Formatos de teoria da mudança e decisões de design da Figura 1
 
 Pedido dos autores (24/09/2026): manter o formato J-PAL e reformular com boas práticas de diagramação. Tons pastel no
 estilo Flexoki, fonte Inter, espaçamento adequado, sem comprimir informação. Figura gerada por
@@ -14,7 +14,7 @@ estilo Flexoki, fonte Inter, espaçamento adequado, sem comprimir informação. 
 | Marco lógico (impacto, propósito, componentes, atividades × objetivos, indicadores, fonte, premissas) | coluna própria | TdM [s.14]; M03 [s.10] | redundante com o modelo lógico |
 | Cadeia linear com pressupostos **entre cada elo** e fatores de contexto | caixas entre os elos | HM Treasury (2026, fig. 2.2, p. 46), com base em Mayne (2017) | inspira a marcação nos elos |
 | Cadeias separadas por atividade; pressupostos abaixo do diagrama; funil de atrito; modelo de mudança comportamental (ator, mudança, indicador) | lista abaixo | White e Raitzer (2017, p. 21-26) | três cadeias (entrada, financiamento, entrega) e "quem decide" |
-| "Causal link assumptions" em caixas pontilhadas junto de cada elo; teorias aninhadas | caixa pontilhada ligada ao elo | Mayne (2015) [VERIFICAR: DOI enviado ao relé]; Mayne e Johnson (2015) [VERIFICAR] | **adotado**: marcadores H nos elos e cartões tracejados |
+| "Causal link assumptions" em caixas pontilhadas junto de cada elo; teorias aninhadas | caixa pontilhada ligada ao elo | Mayne (2015; DOI 10.3138/cjpe.230); Mayne e Johnson (2015; DOI 10.1177/1356389015605198), conferidos na Crossref | **adotado**: marcadores H nos elos e cartões tracejados |
 | Caminho de resultados por mapeamento reverso (*backwards mapping*); precondições; premissas numeradas na narrativa | números nas setas e texto à parte | Center for Theory of Change / ActKnowledge (*Theory of Change Basics*; *Technical Papers*) | numeração H1a...H3 remete ao Quadro 2 |
 | Guia do UNDG (2017): mudança, análise causal, premissas e riscos explícitos, atores | lista de premissas e riscos por caminho | UNDG, *Theory of Change: UNDAF Companion Guidance* | reforça premissa × risco |
 | Raias por ator (*swimlane*) | — | prática de diagramação de processos | trocado por uma etiqueta "quem decide" em cada caixa, para não multiplicar colunas |
@@ -35,7 +35,7 @@ Consenso dessas fontes:
 - evitar cruzamento de setas;
 - não depender só da cor.
 
-## 2. Decisões de design da Figura 2
+## 2. Decisões de design da Figura 1
 
 1. **Estrutura.** Árvore vertical do J-PAL (formato da disciplina), de cima para baixo. Dentro de cada linha, a
    leitura vai da esquerda para a direita. As três cadeias de White e Raitzer (entrada, financiamento, entrega)

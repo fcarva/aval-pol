@@ -46,7 +46,7 @@ p. 26): cada elo diz quem precisa mudar de comportamento.
 | Problema | Baixa e desigual capacidade de financiar a produção e a oferta cultural fora do circuito consolidado | — | ocupação cultural; equipamentos e fundos municipais por território | sim (IBGE) |
 | Insumos | Teto de renúncia de ICMS (o imposto que a população deixa de arrecadar); SECULT, pareceristas, CAP, SEFAZ; Mapa Cultural | Governo (anel 1) e população como financiadora indireta (centro) | teto; renúncia efetiva; equipe | sim |
 | Atividade A1 | Edital e inscrição on-line no Mapa Cultural | SECULT abre; **agente cultural decide se inscrever** | inscritos por ciclo, território, natureza | **não** |
-| Atividade A2 | Parecer documental e deliberação da CAP | SECULT e CAP (anel 1) | habilitados e inabilitados; motivo | só habilitados |
+| Atividade A2 | Parecer técnico e deliberação da CAP | SECULT e CAP (anel 1) | habilitados e inabilitados; motivo | só habilitados |
 | Produto P1 | Cardápio de projetos habilitados (oferta) | — | habilitados e valor autorizado por ciclo | sim |
 | Atividade A3 | Busca de patrocinador; termo de compromisso | **empresa decide quem patrocina** (anel 2) | termos por projeto e empresa | sim (anexos 2022-2026) |
 | Atividade A4 | Validação dos termos pela SEFAZ até o teto | SEFAZ, pela ordem de chegada | validados e indeferidos por teto | só 2023-2024 |
@@ -76,7 +76,7 @@ Premissa é a "condição externa necessária" para que o elo valha; risco é o 
 | Elo | Premissa (P) | Risco / contrateoria (R) | Hipótese |
 | --- | --- | --- | --- |
 | A1: agente → inscrição | Agentes com projetos de valor público sabem da lei, querem e conseguem se inscrever | Exigências (CNPJ com finalidade cultural, sede em nome próprio, certidão estadual, até 13 documentos; IN 001/2025, arts. 13-19) selecionam por capacidade administrativa, não por mérito cultural | **H3** |
-| A2: inscrição → habilitação | A CAP seleciona por mérito, com critério claro, e habilita o que o teto comporta | Avaliação "documental", binária, sem nota ou ranking; habilita 1,1 a 1,9 vez o teto | **H2** |
+| A2: inscrição → habilitação | O mérito avaliado pela SECULT orienta quem é financiado | A habilitação qualifica, mas não prioriza: resultado binário, fluxo contínuo, nenhuma norma prevê nota ou ordem; ver § 8 (auditoria de H2a) | **H2a** |
 | A3: habilitado → patrocinado | Empresas escolhem projetos alinhados ao interesse público e diversos | Escolha por marca, visibilidade e relacionamento (orçamento de marketing); poucas empresas | **H1** |
 | A4: termo → validado | O racionamento no teto segue critério público | Racionamento pela ordem de validação: termos com patrocinador indeferidos | **H2** |
 | P3 → RI1: executado → acesso | O projeto não aconteceria sem o incentivo e entrega acesso | Financia o que já aconteceria (substituição de patrocínio próprio); bem com componente privado | **H1** (versão causal) |
@@ -158,7 +158,7 @@ direção do impacto, mas não permite quantificá-lo" (VAL [s.26]).
 | Etapa | Hipótese contextual | Contexto real (com fonte) | Situação |
 | --- | --- | --- | --- |
 | Entrada (A1) | Agentes do interior e da periferia conseguem cumprir as exigências de inscrição | CNPJ obrigatório; pessoa física não se inscreve (IN 001/2025, art. 19). 14 municípios, todos do interior, nunca tiveram projeto habilitado. Desde 2024 entram 3 municípios novos por ciclo (`03_coortes_primeira_presenca_canonico.csv`). Estreantes: 56 em 2024, 26 em 2025 e 40 em 2026 (`07_composicao_por_ciclo.csv`) | **indeterminado**, com sinais de restrição (sem inscritos, não há como separar falta de demanda de barreira) |
-| Habilitação (A2) | A CAP seleciona por mérito e habilita o que o teto financia | Sem nota nem ranking; valor habilitado de 1,1 a 1,9 vez o teto | premissa de critério **não atendida** (racionamento transferido às etapas seguintes) |
+| Habilitação (A2) | O mérito avaliado pela SECULT orienta quem é financiado | Resultado binário em fluxo contínuo; nenhuma norma prevê nota, peso, corte ou ordem; 95 de 293 habilitados de 2022-2024 expiraram sem captar | premissa **não atendida** (a escolha entre aptos passa à empresa e à fila) |
 | Captação (A3) | As empresas escolhem por interesse público, inclusive fora do circuito consolidado | 2 empresas somam metade de 2025; energia e gás, 52%. Execução de 68% na RMGV e 63% no interior. Recorrentes 71% e estreantes 57%. Sob "patrocinador primeiro", a fatia da RMGV no valor caiu de 74% para 57% e foi a 67% | **contestado**: concentração no capital, mas sem viés territorial forte na escolha |
 | Validação (A4) | O teto financia quem tem patrocinador, por critério público | Em 2023 e 2024, 22% e 26% do valor com patrocinador foi indeferido pela ordem de chegada | premissa de critério **não atendida** |
 | Entrega (P3 → RI1) | O projeto financiado não aconteceria sem a LICC e chega ao público | A maior reserva (30%) vai a eventos com mais de 10 anos; não há dado de público | **indeterminado** |
@@ -342,6 +342,65 @@ Os parâmetros acima não dependem do mecanismo: passagem por elo, custo de entr
 preferências da população, e adicionalidade. São a linha de base contra a qual qualquer alternativa futura seria
 comparada, inclusive um mapa da cultura com financiamento quadrático sobre o licc.gov. O artigo avalia a LICC como ela
 está e não trata disso.
+
+## 8. Auditoria de H2a (pedido dos autores, 24/09/2026): há nota? a razão 1,1-1,9 se sustenta?
+
+Os autores relatam que os projetos são avaliados e recebem nota. A primeira versão desta nota e da figura dizia "sem
+nota nem ranking" e apoiava H2a na razão "habilita 1,1 a 1,9 vez o que o teto paga". Auditoria:
+
+**1. O que a norma diz.**
+
+- Decreto 5.035-R/2021, art. 14:
+  - § 3º: nove critérios qualitativos;
+  - § 4º: "A análise e deliberação da CAP implicará em habilitação ou não habilitação dos projetos".
+- IN 001/2025, arts. 37-42 (igual na IN 001/2026):
+  - três etapas: documentação, parecer técnico e mérito com deliberação da CAP;
+  - art. 40: o parecer "deverá indicar a habilitação ou inabilitação";
+  - art. 42: a CAP pode concordar total ou parcialmente com o parecer, ou discordar dele;
+  - arts. 40 e 45: certificado de aptidão emitido projeto a projeto, depois do parecer.
+- Regimento da CAP (DIO 16/02/2023):
+  - maioria simples, com voto de qualidade;
+  - reuniões semanais (art. 9º);
+  - o parecer se manifesta sobre "viabilidade técnica, mérito artístico-cultural e interesse público".
+- INs de 2023 e 2024 (texto do relé): nenhuma ocorrência de "pontuação", "nota" (fora de "nota fiscal"),
+  "ranking", "classificação" ou "peso".
+
+**Conclusão normativa:** nenhuma norma lida prevê nota, peso, nota de corte ou ordem de prioridade.
+
+**2. O que a plataforma registra.**
+
+- Cada edição da LICC no Mapa Cultural (2024: oportunidade 1415; 2025: 1878; 2026: 2317) tem duas fases de
+  avaliação: "Parecerista" (métodos de avaliação 748, 933 e 1092) e "Comissão de Avaliação Permanente (CAP)" (749,
+  934 e 1093).
+- Todas usam o método "Avaliação Simplificada" (`type: simple`), e não o método "Avaliação Técnica". Fonte: API
+  pública, consulta de 24/09/2026 pelo conector Parallel Search, reproduzível em
+  `mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,evaluationMethodConfiguration.{id,type}&id=IN(1434,1435,1896,1897,2373,2374)`.
+- A oportunidade principal usa "Avaliação Documental".
+- Na plataforma Mapas Culturais, as notas por critério ficam no método técnico [VERIFICAR na documentação da
+  plataforma o que o método simplificado registra].
+
+**3. O que falta ver.** O parecer é escrito num modelo próprio, o "Parecer Técnico Cultural LICC – modelo padrão"
+(.docx, anexo ao edital de pareceristas de 2022 e à página de 2026). Se o modelo tiver nota por critério, a nota
+existe no processo, mas:
+
+- não é publicada (a lista de habilitados não traz nota);
+- não ordena o financiamento (quem recebe entre os habilitados é decidido pela empresa e pela fila da SEFAZ).
+
+Pedidos ao relé: `secult_parecer_modelo_2026`, `mapa_parecer_modelo_2022`, `secult_edital_pareceristas_2025` (o relé
+passou a converter .docx em texto). Se houver nota com ponto de corte, a regressão descontínua na habilitação vira
+candidata (Gertler: índice contínuo, corte, sem manipulação), e a nota vira dado a pedir por LAI.
+
+**4. A razão 1,1-1,9 era frágil.** Ela divide o valor autorizado de um ciclo pelo teto do ano seguinte. Com o teto
+do mesmo ano, a razão vai a 1,3-3,0. Um ciclo capta ao longo de até dois anos: dos 63 projetos que captaram em 2025,
+só 30 vinham do ciclo 2024. A evidência direta de excesso de demanda é outra:
+
+- em 2023 e 2024, a demanda com patrocinador foi 1,28 e 1,35 vez o montante (`07_funil_captacao_anual.csv`);
+- 95 de 293 habilitados resolvidos expiraram (`07_funil_por_ciclo.csv`).
+
+**5. H2a reformulada.** "A habilitação qualifica, mas não prioriza." O parecer, com ou sem nota, decide se o projeto
+entra no cardápio. Entre os habilitados, quem recebe depende da empresa e da ordem de chegada. "Poucos passam" não se
+sustenta nas etapas observadas, onde a maioria passa. Na entrada, fica indeterminado. A figura e o artigo foram
+ajustados assim.
 
 ## Referências
 

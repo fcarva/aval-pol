@@ -1,4 +1,4 @@
-"""08 — Figura da teoria da mudança da LICC (Figura 2 do artigo).
+"""08 — Figura da teoria da mudança da LICC (Figura 1 do artigo).
 
 Formato: cadeia de resultados vertical do J-PAL usada nos slides da disciplina (TdM [s.11]; M03 [s.11]), com as
 cores por nível do slide (problema, insumos e atividades, produtos, resultados intermediários, resultado final). As
@@ -61,7 +61,7 @@ CAIXAS = {
     "ins": [("ins", None, "Teto anual de renúncia de ICMS (imposto que a população deixa de arrecadar) · "
              "SECULT, pareceristas, CAP e SEFAZ · Mapa Cultural", None)],
     "ent": [("a1", "A1 · Inscrição no edital", "on-line, com CNPJ e documentos", "agente cultural"),
-            ("a2", "A2 · Parecer e CAP", "avaliação documental, resultado binário", "SECULT e CAP")],
+            ("a2", "A2 · Parecer e CAP", "parecer técnico e mérito, resultado binário", "SECULT e CAP")],
     "ofe": [("p1", "P1 · Cardápio de projetos habilitados", "autorização para captar por um ano", None)],
     "fin": [("a3", "A3 · Escolha e termo", "a empresa escolhe e compromete o ICMS", "empresa"),
             ("a4", "A4 · Validação no teto", "termos validados por ordem de chegada", "SEFAZ")],
@@ -93,12 +93,12 @@ SETAS = [
 PREMISSAS = [
     ("H3", "Atrito na entrada",
      "Quem tem projeto de valor público consegue se inscrever (CNPJ, documentos, prazo)?"),
-    ("H2a", "Poucos passam",
-     "Sem nota nem ranking, a habilitação aprova de 1,1 a 1,9 vez o que o teto paga."),
+    ("H2a", "Qualifica, não prioriza",
+     "O parecer decide se o projeto entra; entre os habilitados, quem recebe depende da empresa e da fila."),
     ("H1a", "Escolha da empresa",
      "A empresa escolhe por marca e visibilidade, e não por interesse público?"),
     ("H2b", "Racionamento no teto",
-     "Em 2023 e 2024, termos com patrocinador foram indeferidos pela ordem de validação."),
+     "Em 2023 e 2024, termos com patrocinador foram indeferidos pela ordem de chegada."),
     ("H1b", "Adicionalidade",
      "O projeto financiado aconteceria sem a LICC? E chega ao público?"),
 ]

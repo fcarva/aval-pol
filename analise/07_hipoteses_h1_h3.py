@@ -176,16 +176,30 @@ def mudanca_regime(comp: pd.DataFrame, rou: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def tabela_poder(fun: pd.DataFrame) -> pd.DataFrame:
+def efeito_desenho_proponente(h: pd.DataFrame) -> dict:
+    """Projetos resolvidos de 2022-2024 agrupados pela chave canônica de proponente (01_carregar.py):
+    tamanho médio do grupo, coeficiente de variação e número de proponentes, para o efeito de desenho
+    1 + [(cv² + 1) m̄ − 1] ρ (Eldridge, Ashby e Kerry, 2006; 05_poder_mde.efeito_desenho)."""
+    r = h[(h["ciclo"] <= 2024) & (h["status"] != "captando")].drop_duplicates("numero_processo")
+    g = r.groupby("chave_proponente").size()
+    return {"projetos": int(g.sum()), "proponentes": int(len(g)), "m": float(g.mean()),
+            "cv": float(g.std(ddof=0) / g.mean())}
+
+
+def tabela_poder(fun: pd.DataFrame, h: pd.DataFrame) -> pd.DataFrame:
     linhas = []
     res = fun[fun["ciclo"] <= 2024]
     n1, n0 = int(res["captou"].sum()), int(res["expirou"].sum())
     T = n1 / (n1 + n0)
+    ed = efeito_desenho_proponente(h)
     for p0 in (0.2, 0.4, 0.6):
-        linhas.append({"hipotese": "H1/H2 adicionalidade", "desenho": "captou × expirou, 2022-2024 (observacional)",
-                       "unidade": "projeto", "n_ou_J": n1 + n0, "m": np.nan, "icc": np.nan, "p0": p0,
-                       "emd_pontos": poder.mde_binario(p0, n1 + n0, T=T),
-                       "nota": f"{n1} captaram, {n0} expiraram; viés de seleção domina o erro amostral"})
+        for icc in (0.0, 0.2):
+            deff = poder.efeito_desenho(ed["m"], icc, ed["cv"])
+            linhas.append({"hipotese": "H1b adicionalidade", "desenho": "captou × expirou, 2022-2024 (observacional)",
+                           "unidade": "projeto (em proponentes)", "n_ou_J": n1 + n0, "m": ed["m"], "icc": icc,
+                           "p0": p0, "emd_pontos": poder.mde_binario(p0, n1 + n0, T=T) * deff ** 0.5,
+                           "nota": (f"{n1} captaram, {n0} expiraram; {ed['proponentes']} proponentes, m = "
+                                    f"{ed['m']:.2f}, cv = {ed['cv']:.2f}; viés de seleção domina o erro amostral")})
     for n_braco in (20, 30):
         for p0 in (0.2, 0.4, 0.6):
             linhas.append({"hipotese": "H1 adicionalidade", "desenho": "racionamento pelo teto 2023-2024",
@@ -271,7 +285,7 @@ def main() -> None:
     rou.to_csv(TAB / "07_rouanet_es_composicao.csv", index=False)
     mud = mudanca_regime(comp, rou)
     mud.to_csv(TAB / "07_mudanca_regime.csv", index=False)
-    pw = tabela_poder(fun)
+    pw = tabela_poder(fun, h)
     pw.to_csv(TAB / "07_poder_hipoteses.csv", index=False)
     mapa = mapa_cultural_universo()
     mapa.to_csv(TAB / "07_mapa_cultural_universo.csv", index=False)

@@ -1,7 +1,10 @@
 hipotese,desenho,unidade,n_ou_J,m,icc,p0,emd_pontos,nota
-H1/H2 adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto,293,,,0.2,0.13986312933235584,"198 captaram, 95 expiraram; viés de seleção domina o erro amostral"
-H1/H2 adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto,293,,,0.4,0.17129665034658134,"198 captaram, 95 expiraram; viés de seleção domina o erro amostral"
-H1/H2 adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto,293,,,0.6,0.17129665034658134,"198 captaram, 95 expiraram; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.0,0.2,0.13986312933235584,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.2,0.2,0.1614035428534979,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.0,0.4,0.17129665034658134,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.2,0.4,0.19767816133425412,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.0,0.6,0.17129665034658134,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
+H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.2,0.6,0.19767816133425412,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
 H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.2,0.3543756139318639,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
 H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.4,0.434019715709296,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
 H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.6,0.434019715709296,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético

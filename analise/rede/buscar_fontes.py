@@ -250,7 +250,9 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
         if r is not None and r.status_code == 200:
             ct = r.headers.get("content-type", "")
             registro.update(content_type=ct, bytes=str(len(r.content)), sha256=hashlib.sha256(r.content).hexdigest())
-            if "pdf" in ct.lower() or url.lower().endswith(".pdf"):
+            if "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
+                texto = docx_para_texto(r.content)
+            elif "pdf" in ct.lower() or url.lower().endswith(".pdf"):
                 tmp = Path("/tmp") / f"{pid}.pdf"
                 tmp.write_bytes(r.content)
                 texto = subprocess.run(["pdftotext", "-layout", str(tmp), "-"], capture_output=True,
@@ -264,6 +266,22 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
         man[pid] = registro
         print(f"{pid}: {registro['status']}")
         time.sleep(1)
+
+
+def docx_para_texto(conteudo: bytes) -> str:
+    """Texto de um .docx sem dependência externa: parágrafos em linhas; células de tabela separadas por " | "."""
+    import io
+    import re
+    import zipfile
+    with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+        xml = z.read("word/document.xml").decode("utf-8", "replace")
+    xml = re.sub(r"</w:tc>", " | ", xml)
+    xml = re.sub(r"</w:p>|</w:tr>", "\n", xml)
+    xml = re.sub(r"<w:tab/>", "\t", xml)
+    texto = re.sub(r"<[^>]+>", "", xml)
+    for ent, car in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"), ("&quot;", '"'), ("&apos;", "'")):
+        texto = texto.replace(ent, car)
+    return "\n".join(l.rstrip() for l in texto.splitlines() if l.strip())
 
 
 def rodar_salic() -> None:

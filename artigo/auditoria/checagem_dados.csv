@@ -1,8 +1,5 @@
 id,status,recalculado,fonte,trecho
-D01,CONFERE,463,analise/tabelas/03_anual.csv,anexos oficiais de 463 projetos habilitados
-D02,CONFERE,67%,analise/tabelas/03_territorio_rmgv_interior.csv,onde fica 67% do valor atribuível
 D03,CONFERE,duas,analise/tabelas/03_patrocinadores_concentracao.csv,duas empresas respondem por metade da renúncia de 2025
-D04,CONFERE,"0,25 a 0,45",analise/tabelas/05_poder_d1_proponente.csv,"detecta efeitos a partir de 0,25 a 0,45 desvio-padrão"
 D05,CONFERE,R\$ 15 milhões em 2023 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026
 D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado),analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado)
 D07,CONFERE,"63 projetos captaram exatamente R\$ 25.000.000,00",analise/tabelas/licc_captados_2025_totais.csv,"em 2025, 63 projetos captaram exatamente R\$ 25.000.000,00"
@@ -10,56 +7,35 @@ D08,CONFERE,"4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª",dados/e
 D09,CONFERE,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",dados/externos/munic2021_cultura_es_resumo.csv,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%"
 D10,CONFERE,metade dos municípios do interior não tinha fundo municipal de cultura e só 16%,dados/externos/munic2021_cultura_es_resumo.csv,metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal
 D11,CONFERE,14% a 21%,"analise/tabelas/03f_captacao_anual_secult.csv (validado_sobre_f13_estado, 2022-2025)",a renúncia efetiva equivale a 14% a 21% do gasto estadual direto
-D12,CONFERE,14% a 21%,analise/tabelas/03f_captacao_anual_secult.csv,"| | Renúncia efetiva / gasto estadual na função cultura, 2022-2025 | 14% a 21% |"
-D13,CONFERE,"0,16%",dados/externos/licc_teto_vs_icms.csv,"| Teto de 2025 / ICMS estadual de 2024 | 0,16% |"
-D14,CONFERE,"1,1 a 1,9",analise/tabelas/03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv (teto do ano seguinte),"ciclos 2022-2025 | 1,1 a 1,9 |"
-D15,CONFERE,100%; 100%; 100%,analise/tabelas/03f_captacao_anual_secult.csv,| | Captado / montante do ano (2023; 2024; 2025) | 100%; 100%; 100% |
-D61,CONFERE,28%; 35%,analise/tabelas/03f_captacao_anual_secult.csv,| | Termos de patrocínio indeferidos por exceder o montante / montante (2023; 2024) | 28%; 35% |
-D62,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,termos de patrocínio que somavam 28% e 35% dele
-D63,CONFERE,plurianuais 93% e a de projetos fora da RMGV 107%,analise/tabelas/03f_captados_por_cota.csv,a de planos plurianuais 93% e a de projetos fora da RMGV 107%
-D64,CONFERE,exatamente,analise/tabelas/03f_captados_por_cota.csv,as reservas I e IV captaram exatamente o valor reservado
 D65,CONFERE,"fixou R\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\$ 15 milhões disponíveis e R\$ 11,5 milhões",analise/tabelas/03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv,"a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões; o anexo de captação de 2022 da SECULT informa R\$ 15 milhões disponíveis e R\$ 11,5 milhões em termos validados"
-D16,CONFERE,16%; 30%; 45%,analise/tabelas/03_status_por_ciclo.csv,(2022; 2023; 2024) | 16%; 30%; 45% |
-D17,CONFERE,13% → 41%,analise/tabelas/03_bunching_teto.csv,(2022 → 2026) | 13% → 41% |
-D18,CONFERE,63%; 51%,analise/tabelas/03_proponentes_por_ciclo.csv,(2025; 2026) | 63%; 51% |
-D19,CONFERE,17%; 47%,analise/tabelas/03_proponentes_recorrencia.csv,parcela dos proponentes e do valor | 17%; 47% |
-D20,CONFERE,os 17% que aparecem em três ou mais ciclos ficam com 47%,analise/tabelas/03_proponentes_recorrencia.csv,os 17% que aparecem em três ou mais ciclos ficam com 47% do valor
-D21,CONFERE,49%; 67%,analise/tabelas/03_territorio_rmgv_interior.csv,| Parcela da RMGV: população; valor atribuível | 49%; 67% |
 D22,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor
-D23,CONFERE,8%; 48%,analise/tabelas/03_municipios.csv,| Vitória: população; valor atribuível | 8%; 48% |
-D24,CONFERE,"8% da população, fica com 48%",analise/tabelas/03_municipios.csv,"Vitória, com 8% da população, fica com 48%"
-D25,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"entre os 78 municípios | 0,88 |"
-D26,CONFERE,"é 0,88, acima do Gini da população (0,64) e do PIB (0,75)",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88, acima do Gini da população (0,64) e do PIB (0,75)"
-D27,CONFERE,14,analise/tabelas/03_territorio_rmgv_interior.csv,Municípios sem nenhum projeto habilitado em 2022-2026 | 14 |
-D28,CONFERE,14 municípios do interior,analise/tabelas/03_territorio_rmgv_interior.csv,14 municípios do interior não tiveram nenhum projeto habilitado
-D29,CONFERE,26; 44%,analise/tabelas/03_patrocinadores_concentracao.csv,Empresas (raiz do CNPJ); maior empresa (distribuidora de energia) | 26; 44% |
-D30,CONFERE,2; 52%,analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,parcela de energia e gás | 2; 52% |
-D31,CONFERE,"26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv; 03_captados_resumo.csv,"em 2025, 26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%"
-D32,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,projetos com um único município de execução (74% do valor autorizado)
 D33,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,o retrato territorial cobre 74% do valor
-D34,CONFERE,78% contra 27% no ciclo 2024,analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv,78% contra 27% no ciclo 2024
-D35,CONFERE,triplicou,analise/tabelas/03_bunching_teto.csv,A parcela de pedidos no teto exato triplicou entre 2022 e 2026
-D36,CONFERE,subiu de 16% para 45% à medida que a habilitação quase dobrou,analise/tabelas/03_status_por_ciclo.csv,subiu de 16% para 45% à medida que a habilitação quase dobrou
-D37,CONFERE,explica só 7%,analise/tabelas/03_territorio_indicadores.csv,a diferença entre RMGV e interior explica só 7% do total
-D38,CONFERE,interior (R\$ 93) que na RMGV (R\$ 59) em 2025,analise/tabelas/03e_f13_municipal_rmgv_interior.csv,maior por habitante no interior (R\$ 93) que na RMGV (R\$ 59) em 2025
-D39,CONFERE,"1,1 a 1,9 vez",analise/tabelas/03_anual.csv ÷ dados/externos/licc_teto_vs_icms.csv,"O valor autorizado de cada ciclo foi de 1,1 a 1,9 vez o teto"
-D41,CONFERE,"coortes de 39, 16, 3, 3 e 3 municípios entre 2022 e 2026, e 14 nunca",analise/tabelas/03_coortes_primeira_presenca_canonico.csv,"coortes de 39, 16, 3, 3 e 3 municípios entre 2022 e 2026, e 14 nunca tratados"
-D42,CONFERE,"os 305 projetos habilitados nos ciclos 2022-2024, dos quais 293 já tinham situação resolvida (198 captaram e 95 tiveram o prazo expirado), de 199 proponentes",analise/tabelas/03_status_por_ciclo.csv; 05_poder_d1_proponente.csv,"A população são os 305 projetos habilitados nos ciclos 2022-2024, dos quais 293 já tinham situação resolvida (198 captaram e 95 tiveram o prazo expirado), de 199 proponentes"
-D43,CONFERE,"$n$ = 293 projetos, $P$ = 0,676",analise/tabelas/05_poder_d1_proponente.csv,"em que $n$ = 293 projetos, $P$ = 0,676 é a fração tratada"
-D44,CONFERE,"$\bar m$ = 1,47",analise/tabelas/05_poder_d1_proponente.csv,"$\bar m$ = 1,47 projeto por proponente"
-D45,CONFERE,"| 0,35 | 0,41 |",analise/tabelas/05_poder_d1_proponente.csv,"| Sem covariáveis, sem correlação intraproponente | 0,35 | 0,41 |"
-D46,CONFERE,"| 0,39 | 0,45 |",analise/tabelas/05_poder_d1_proponente.csv,"| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |"
-D47,CONFERE,"| 0,29 | 0,34 |",analise/tabelas/05_poder_d1_proponente.csv,"| R² = 0,3, ρ = 0 | 0,29 | 0,34 |"
-D48,CONFERE,"| 0,25 | 0,29 |",analise/tabelas/05_poder_d1_proponente.csv,"| R² = 0,5, ρ = 0 | 0,25 | 0,29 |"
-D49,CONFERE,"| 0,28 | 0,32 |",analise/tabelas/05_poder_d1_proponente.csv,"| R² = 0,5, ρ = 0,2 | 0,28 | 0,32 |"
-D50,CONFERE,"| 0,53 a 0,58 | 0,62 a 0,67 |",analise/tabelas/licc_emd_ilustrativo.csv,"| Um ciclo isolado (2023 ou 2024), sem covariáveis | 0,53 a 0,58 | 0,62 a 0,67 |"
-D51,CONFERE,"| 0,43 a 1,04 |",analise/tabelas/05_poder_mde_municipal_did.csv,"| Municipal, 78 municípios, 25% a 50% tratados | 0,43 a 1,04 |"
-D52,CONFERE,"Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes",analise/tabelas/05_poder_tipo_m.csv,"Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes"
-D54,CONFERE,"71% dos projetos de proponentes já habilitados antes foram executados, contra 57%",analise/tabelas/03_status_conversao_recorrencia_2023_2024.csv,"71% dos projetos de proponentes já habilitados antes foram executados, contra 57% dos de estreantes"
-D55,CONFERE,(68% e 63%),analise/tabelas/03_status_conversao_rmgv_interior_2022_2024.csv,a taxa de execução pouco difere entre RMGV e interior (68% e 63%)
-D56,CONFERE,"(42 de 63), 61% do valor captado",analise/tabelas/03_captados_perfil_territorial.csv (casamento principal),"com um único município identificado (42 de 63), 61% do valor captado ficou na RMGV"
-D57,CONFERE,(69 dos 71 municípios do interior,analise/tabelas/03e_f13_municipal_rmgv_interior.csv,(69 dos 71 municípios do interior com dado no SICONFI)
-D58,CONFERE,(3 expirados em 56 resolvidos,analise/tabelas/03_status_por_ciclo.csv,(3 expirados em 56 resolvidos no ciclo 2025)
-D59,CONFERE,"$cv$ = 0,73",analise/tabelas/05_poder_deff_proponente.csv,"com coeficiente de variação $cv$ = 0,73 do tamanho das carteiras"
-D60,CONFERE,"| 0,39 |",analise/tabelas/05_poder_deff_proponente.csv (EMD com efeito de desenho ajustado por cv),"| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |"
-D53,CONFERE,"0,25 a 0,45",analise/tabelas/05_poder_d1_proponente.csv,"O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão"
+N01,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,termos equivalentes a 28% e 35% do montante foram indeferidos
+N02,CONFERE,25.441,analise/tabelas/07_mapa_cultural_universo.csv,Entre os 25.441 agentes cadastrados no Mapa Cultural
+N03,CONFERE,25.441 (2.592),analise/tabelas/07_mapa_cultural_universo.csv,| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |
+N04,CONFERE,68%,analise/tabelas/07_funil_por_ciclo.csv,68% dos habilitados de 2022-2024 com situação resolvida captaram
+N05,CONFERE,"305; 53, 92 e 95",analise/tabelas/07_funil_por_ciclo.csv; 07_composicao_por_ciclo.csv,"| Projetos habilitados; proponentes por ciclo | 305; 53, 92 e 95 |"
+N06,CONFERE,293; 198,analise/tabelas/07_funil_por_ciclo.csv,| Habilitados com situação resolvida; captaram | 293; 198 |
+N07,CONFERE,84%; 70%; 55%,analise/tabelas/07_funil_por_ciclo.csv,| Taxa de captação entre os resolvidos | 84%; 70%; 55% |
+N08,CONFERE,78%; 74%,analise/tabelas/07_funil_captacao_anual.csv,| Valor com patrocinador que coube no teto | 78%; 74% |
+N09,CONFERE,"56 no ciclo 2024, 26 em 2025, 40 em 2026",analise/tabelas/07_composicao_por_ciclo.csv,"Estreantes: 56 no ciclo 2024, 26 em 2025, 40 em 2026"
+N10,CONFERE,14,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,14 municípios do interior nunca tiveram projeto habilitado
+N11,CONFERE,95 de 293,analise/tabelas/07_funil_por_ciclo.csv,"Em 2022-2024, 95 de 293 habilitados expiraram sem captar"
+N12,CONFERE,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%"
+N13,CONFERE,68% na RMGV e 63%,analise/tabelas/03_status_conversao_rmgv_interior_2022_2024.csv,Execução de 68% na RMGV e 63% no interior
+N14,CONFERE,71% contra 57%,analise/tabelas/03_status_conversao_recorrencia_2023_2024.csv,Recorrentes captam mais (71% contra 57%)
+N15,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,termos com patrocinador de 28% e 35% do montante foram indeferidos pela ordem de chegada
+N16,CONFERE,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo",analise/tabelas/03_coortes_primeira_presenca_canonico.csv,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então"
+N17,CONFERE,"Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86%",analise/tabelas/07_patrocinadores_na_rouanet.csv,"Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86% da renúncia"
+N18,CONFERE,74% (ciclo 2024) para 57%,analise/tabelas/07_composicao_por_ciclo.csv,caiu de 74% (ciclo 2024) para 57% (2025)
+N19,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor atribuível a um município
+N20,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88"
+N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% da desigualdade
+N22,CONFERE,"293 projetos habilitados em 2022-2024 com situação resolvida, de 172",analise/tabelas/07_poder_hipoteses.csv (nota),"São 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes"
+N23,CONFERE,14 a 20,analise/tabelas/07_poder_hipoteses.csv,"| H1b: captou × expirou, 2022-2024 | 293 projetos (*T* = 0,68), 172 proponentes ($\bar m$ = 1,70; *cv* = 0,75) | $p_0$ de 0,2 a 0,6; ρ = 0 ou 0,2 | 14 a 20 |"
+N24,CONFERE,29 a 43,analise/tabelas/07_poder_hipoteses.csv,"| H1b: margem do racionamento, 2023-2024 | 20 a 30 projetos por grupo | $p_0$ de 0,2 a 0,6 | 29 a 43 |"
+N25,CONFERE,"1,2 a 5,3",analise/tabelas/07_poder_hipoteses.csv,"| H3: oferta sorteada por agente | 1.000 a 4.000 agentes | $p_0$ de 2% a 10% | 1,2 a 5,3 |"
+N26,CONFERE,"2,9 a 6,3",analise/tabelas/07_poder_hipoteses.csv,"| H3: oferta sorteada por município | 71 municípios do interior, 20 a 50 agentes cada | $p_0$ de 5% a 10%; ρ de 0,02 a 0,05 | 2,9 a 6,3 |"
+N27,CONFERE,(3 em 56,analise/tabelas/07_funil_por_ciclo.csv,(3 em 56 resolvidos no ciclo 2025)
+N29,CONFERE,"$\bar m$ = 1,70; *cv* = 0,75",analise/tabelas/07_poder_hipoteses.csv (m; nota),"172 proponentes ($\bar m$ = 1,70; *cv* = 0,75)"
+N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor

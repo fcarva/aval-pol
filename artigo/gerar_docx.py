@@ -67,12 +67,13 @@ def ajustar_tabelas(caminho: Path) -> None:
                         run.font.size = Pt(10)
                         if i == 0:
                             run.font.bold = True
-        # cabeçalho repetido em quebra de página; tabela curta (até 8 linhas) não se divide
+        # cabeçalho repetido em quebra de página
         cab = t.rows[0]._tr.get_or_add_trPr()
         rep = OxmlElement("w:tblHeader")
         rep.set(qn("w:val"), "true")
         cab.append(rep)
-        if len(t.rows) <= 8:
+        # só tabelas numéricas curtas ficam inteiras; quadros (texto) podem se dividir entre páginas
+        if titulo.startswith("Tabela") and len(t.rows) <= 8:
             for linha in t.rows[:-1]:
                 for cel in linha.cells:
                     for par in cel.paragraphs:

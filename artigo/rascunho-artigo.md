@@ -6,9 +6,9 @@ date: "Vitória, setembro de 2026"
 lang: pt-BR
 ---
 
-**Resumo.** A Lei de Incentivo à Cultura Capixaba (LICC) permite que contribuintes do ICMS destinem a projetos culturais habilitados pela Secretaria da Cultura (SECULT) valores que recuperam integralmente como crédito presumido do imposto. Este artigo avalia o desenho da política como ela está e propõe uma avaliação de impacto. Com os anexos oficiais de 463 projetos habilitados entre 2022 e 2026 e da captação de 2025, mostramos que a política não declara problema, metas nem indicadores; que a demanda habilitada supera o teto anual de renúncia e o racionamento é feito pelas empresas patrocinadoras; que a captação favorece projetos que pedem o teto por projeto e proponentes recorrentes; que o valor habilitado se concentra na Região Metropolitana da Grande Vitória, onde fica 67% do valor atribuível a um município; e que duas empresas respondem por metade da renúncia de 2025. Propomos um desenho de diferenças em diferenças com adoção escalonada, no nível do proponente, que compara projetos habilitados em 2022-2024 que captaram com os que não captaram, e mostramos que o universo disponível detecta efeitos a partir de 0,25 a 0,45 desvio-padrão.
+**Resumo.** A Lei de Incentivo à Cultura Capixaba (LICC) permite que contribuintes do ICMS destinem a projetos culturais habilitados pela Secretaria da Cultura (SECULT) valores que recuperam integralmente como crédito presumido do imposto. Este artigo avalia o desenho da política como ela está e estrutura uma avaliação de impacto. Reconstruímos a teoria da mudança, separando entrada, financiamento e entrega, e auditamos cinco premissas com os anexos oficiais de 2022 a 2026 e o Mapa Cultural. Duas premissas não são atendidas pelo desenho: a habilitação qualifica sem priorizar, e o excesso de demanda é racionado pela ordem de chegada dos termos de patrocínio. Em 2023 e 2024, termos equivalentes a 28% e 35% do montante foram indeferidos. A premissa de que as empresas escolhem pelo interesse público é contestada: duas empresas respondem por metade da renúncia de 2025, mas a escolha não mostra viés territorial forte. A entrada e a entrega são indeterminadas, porque a SECULT não publica os inscritos nem o público alcançado. Propomos três perguntas de avaliação (a adicionalidade do financiamento, o efeito do atrito na entrada e o papel da avaliação da SECULT), com parâmetros, vieses, estratégias candidatas, fontes de dados e poder estatístico.
 
-**Palavras-chave:** incentivo fiscal à cultura; gasto tributário; avaliação de desenho; teoria da mudança; diferenças em diferenças.
+**Palavras-chave:** incentivo fiscal à cultura; gasto tributário; teoria da mudança; funil de atrito; avaliação de impacto.
 
 # 1 Introdução
 
@@ -20,9 +20,9 @@ Em 2021, o Espírito Santo criou um mecanismo estadual de incentivo fiscal à cu
 
 Nenhuma das normas da LICC diz qual problema ela enfrenta. O diagnóstico precisa ser reconstruído. O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2025). A desigualdade relevante, porém, é interna. Em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da população do interior; metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal (IBGE, 2022). Propomos, por isso, formular o problema como uma carência: **a baixa e desigual capacidade de financiar a produção e a oferta cultural fora do circuito já consolidado**, com causas na restrição de financiamento de pequenos produtores, na concentração de equipamentos e de capacidade institucional e na dependência de poucos financiadores.
 
-Avaliar a LICC se justifica por três razões. Primeiro, é gasto público sem passar pelo orçamento: a renúncia efetiva equivale a 14% a 21% do gasto estadual direto na função cultura em 2022-2025 (Tabela 1). Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que torna a política exposta às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019). Terceiro, a política é nova e muda de regra a cada ano; sua primeira avaliação, conduzida pelo Instituto Jones dos Santos Neves (IJSN) com a SECULT e a FAPES, teve resultados preliminares apresentados em julho de 2026 (SECULT, 2026d), aos quais este artigo não teve acesso.
+Avaliar a LICC se justifica por três razões. Primeiro, é gasto público que não passa pelo lado da despesa do orçamento: a renúncia efetiva equivale a 14% a 21% do gasto estadual direto na função cultura em 2022-2025 (SECULT, 2026c; BRASIL, 2026a). Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que torna a política exposta às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019). Terceiro, a política é nova e muda de regra a cada ano; sua primeira avaliação, conduzida pelo Instituto Jones dos Santos Neves (IJSN) com a SECULT e a FAPES, teve resultados preliminares apresentados em julho de 2026 (SECULT, 2026d), aos quais este artigo não teve acesso.
 
-O artigo tem dois objetivos, definidos pela disciplina: avaliar o desenho da LICC **como ela está**, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder. A seção 2 caracteriza a política; a seção 3 revisa a literatura; a seção 4 apresenta a teoria da mudança e avalia o desenho com os dados administrativos; a seção 5 propõe a avaliação de impacto; a seção 6 conclui.
+O artigo tem dois objetivos, definidos pela disciplina: avaliar o desenho da LICC **como ela está**, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder. A seção 2 caracteriza a política; a seção 3 revisa a literatura; a seção 4 reconstrói a teoria da mudança e audita suas premissas com os dados administrativos; a seção 5 transforma as premissas em perguntas de avaliação de impacto, com desenho da amostra, fontes de dados e cálculo do poder; a seção 6 conclui.
 
 # 2 Caracterização da política
 
@@ -44,151 +44,159 @@ A LICC é um **gasto tributário com escolha privada**. O proponente, pessoa jur
 
 Fonte: elaboração própria a partir das normas citadas (ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2025a; 2026a).
 
-Três características do arranjo pesam na avaliação. A primeira é a **delegação da escolha**: o Estado define quem pode receber; a empresa define quem recebe. A segunda é a **instabilidade**: a SECULT edita uma instrução normativa por ano e, alegando esgotamento do teto, fechou as inscrições no meio de 2024 e alterou o fluxo de habilitação no meio de 2025 (SECULT, 2024b; 2025b). Nas instruções de 2023 e 2024, a comissão habilitava o projeto, a habilitação saía no Diário Oficial e abria um prazo de captação de um ano, prorrogável uma vez; a empresa interessada firmava termo de compromisso com um projeto já habilitado, e o projeto que terminasse o prazo sem compromissos de ao menos 50% do valor aprovado era arquivado (SECULT, 2023, arts. 32-36; 2024a, arts. 32-36). Em 2025 a ordem se inverteu: o parecer favorável gerava um certificado de aptidão à captação, e o projeto só ia à comissão ao reunir termos de compromisso de ao menos 35% do valor (SECULT, 2025a, arts. 41-45). Desde maio de 2025, o proponente tem 120 dias para apresentar uma carta de intenção de patrocínio, contados da comunicação da SECULT, sob pena de arquivamento (SECULT, 2025b). A terceira é a **pouca informação publicada**: os anexos não trazem o CNPJ do proponente, a linha de financiamento, a sede, o rateio entre municípios, os inscritos não habilitados nem qualquer indicador de resultado.
+Três características do arranjo pesam na avaliação. A primeira é a **delegação da escolha**: o Estado define quem pode receber; a empresa define quem recebe. A segunda é a **instabilidade**: a SECULT edita uma instrução normativa por ano e, alegando esgotamento do teto, fechou as inscrições no meio de 2024 e alterou o fluxo de habilitação no meio de 2025 (SECULT, 2024b; 2025b). Em 2023 e 2024, a comissão habilitava o projeto e abria um prazo de captação de um ano, prorrogável uma vez; o projeto que terminasse o prazo sem compromissos de ao menos 50% do valor aprovado era arquivado (SECULT, 2023a, arts. 32-36; 2024a, arts. 32-36). Em 2025 a ordem se inverteu: o projeto só vai à comissão com termos de patrocínio de ao menos 35% do valor (SECULT, 2025a, arts. 41-45) ou, desde maio, com carta de intenção de patrocínio apresentada em 120 dias, sob pena de arquivamento (SECULT, 2025b). A terceira é a **pouca informação publicada**: os anexos não trazem o CNPJ do proponente, a sede, os inscritos não habilitados nem qualquer indicador de resultado.
 
 # 3 Breve revisão da literatura
 
-**Despesa tributária com decisão privada.** A literatura de economia da cultura trata o incentivo fiscal como um subsídio em que o contribuinte decide a alocação e o Tesouro paga a conta. Feld, O'Hare e Schuster (1983) chamaram os contribuintes americanos de "mecenas apesar de si mesmos"; Schuster (2006) sistematiza os instrumentos; Brooks (2004) mostra que, nos Estados Unidos, cada dólar de apoio federal direto às artes vem acompanhado de cerca de 14 dólares de renúncia, que servem a públicos diferentes. A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem público ou meritório da cultura (THROSBY, 1994). O crédito de 100% da LICC ocupa o extremo desse espectro: o doador não tem custo líquido algum.
+**Despesa tributária com decisão privada.** A literatura de economia da cultura trata o incentivo fiscal como um subsídio em que o contribuinte decide a alocação e o Tesouro paga a conta. Feld, O'Hare e Schuster (1983) chamaram os contribuintes americanos de "mecenas apesar de si mesmos"; Schuster (2006) sistematiza os instrumentos; Brooks (2004) mostra que, nos Estados Unidos, a renúncia supera muitas vezes o apoio federal direto às artes e serve a públicos diferentes. A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e o caráter de bem público ou meritório da cultura (THROSBY, 1994). O crédito de 100% da LICC ocupa o extremo desse espectro: o doador não tem custo líquido algum.
 
-**A experiência brasileira com a Lei Rouanet.** A LICC reproduz o núcleo do mecenato federal, que acumula três décadas de crítica. Os estudos documentam concentração regional no Sudeste, sobretudo em São Paulo e no Rio de Janeiro (SILVA, 2017; TEIXEIRA; XAVIER; FARIA, 2024), maior que a do PIB (GUIMARÃES, 2020), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e a formação de um "mercado de patrocínios" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013). Dekker e Rodrigues (2019) concluem que a lei beneficiou sobretudo projetos já bem-sucedidos e que não fica claro qual falha de mercado ela corrige. O Tribunal de Contas da União recomendou que as ações financiadas por renúncias tenham objetivos, indicadores e metas (BRASIL, 2014) e determinou ao Ministério da Cultura que não autorizasse a captação por projetos com forte potencial lucrativo ou capacidade de atrair investimento privado suficiente (BRASIL, 2016). Silva (2017) oferece o contraponto: a concentração convive com uma cauda longa de projetos pequenos, e faltam estudos sobre o efeito no acesso da população. Os motivos das empresas vão além do mérito cultural: imagem, relações com a cadeia de fornecedores, *rent-seeking* e preferências dos gestores (O'HAGAN; HARVEY, 2000).
+**A experiência brasileira com a Lei Rouanet.** A LICC reproduz o núcleo do mecenato federal, que acumula três décadas de crítica. Os estudos documentam concentração regional no Sudeste, sobretudo em São Paulo e no Rio de Janeiro (SILVA, 2017; TEIXEIRA; XAVIER; FARIA, 2024), maior que a do PIB (GUIMARÃES, 2020), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e a formação de um "mercado de patrocínios" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013). Dekker e Rodrigues (2019) concluem que a lei beneficiou sobretudo projetos já bem-sucedidos e que não fica claro qual falha de mercado ela corrige. O Tribunal de Contas da União recomendou que as ações financiadas por renúncias tenham objetivos, indicadores e metas (BRASIL, 2014) e determinou ao Ministério da Cultura que não autorizasse a captação por projetos com forte potencial lucrativo ou capacidade de atrair investimento privado suficiente (BRASIL, 2016). Silva (2017) oferece o contraponto: a concentração convive com uma cauda longa de projetos pequenos, e faltam estudos sobre o efeito no acesso da população.
 
-**Evidência causal.** Não localizamos avaliação causal de incentivo cultural no Brasil. Para leis estaduais via ICMS, os estudos localizados são descritivos: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021). O análogo internacional mais próximo em instrumento são os créditos estaduais à produção audiovisual nos Estados Unidos. As avaliações com adoção escalonada e variáveis instrumentais encontram efeitos pequenos e concentrados na atividade incentivada — mais filmagens de séries, pouco ou nenhum emprego adicional — e nenhum efeito macroeconômico (THOM, 2018; BUTTON, 2019; BRADBURY, 2020). Com grandes eventos, os resultados variam: a Capital Europeia da Cultura elevou em 4,5% o PIB per capita das regiões das cidades-sede, com efeito que persiste por mais de cinco anos (GOMES; LIBRERO-CANO, 2018), enquanto o Jubileu de 2000 elevou só no curto prazo o valor adicionado de Roma, embora tenha aumentado a taxa de emprego (BRONZINI; MOCETTI; MONGARDINI, 2020). Sobre a interação entre recurso público e privado, os resultados variam de leve *crowding-in* a independência (SMITH, 2007; BORGONOVI; O'HARE, 2004). Duas lições servem à LICC. Para instrumentos que financiam produções dispersas, e não um grande evento, os efeitos plausíveis são proximais e pequenos. E os desenhos críveis exploram candidatos não escolhidos como grupo de comparação: Gomes e Librero-Cano (2018) comparam cidades que sediaram a Capital Europeia da Cultura com cidades candidatas.
+**Evidência causal.** Não localizamos avaliação causal de incentivo cultural no Brasil. Para leis estaduais via ICMS, os estudos localizados são descritivos: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021). O análogo internacional mais próximo em instrumento são os créditos estaduais à produção audiovisual nos Estados Unidos. As avaliações com adoção escalonada e variáveis instrumentais encontram efeitos pequenos e concentrados na atividade incentivada — mais filmagens de séries, pouco ou nenhum emprego adicional — e nenhum efeito macroeconômico (THOM, 2018; BUTTON, 2019; BRADBURY, 2020). Com grandes eventos, a Capital Europeia da Cultura elevou em 4,5% o PIB per capita das regiões das cidades-sede (GOMES; LIBRERO-CANO, 2018). Sobre a interação entre recurso público e privado, os resultados variam de leve *crowding-in* a independência (BORGONOVI; O'HARE, 2004). Duas lições servem à LICC. Para instrumentos que financiam produções dispersas, e não um grande evento, os efeitos plausíveis são proximais e pequenos. E os desenhos críveis exploram candidatos não escolhidos como grupo de comparação: Gomes e Librero-Cano (2018) comparam cidades que sediaram a Capital Europeia da Cultura com cidades candidatas.
 
 # 4 Desenho da política e sua avaliação
 
 ## 4.1 Teoria da mudança
 
-Como a LICC não explicita sua lógica, reconstruímos a teoria da mudança a partir das normas e da árvore de problemas, no formato de modelo lógico usado na disciplina (Quadro 2). A hipótese causal, no gabarito do J-PAL, é: *se* a renúncia de ICMS for oferecida a empresas que patrocinem projetos habilitados, *então* mais projetos culturais serão financiados e executados, inclusive fora do circuito consolidado, *o que deveria levar* a mais oferta e acesso a bens culturais e a proponentes mais capazes, *contribuindo* para reduzir a baixa e desigual capacidade de financiamento da cultura no estado.
+Como a LICC não explicita sua lógica, reconstruímos a teoria da mudança pelos cinco passos do J-PAL: propósito, cadeia causal, premissas e riscos, hipótese causal e indicadores. Usamos o formato de árvore adotado na disciplina (Figura 1). A cadeia tem uma particularidade. Na cadeia de resultados de Gertler *et al.* (2018), os produtos estão sob controle da agência que implementa. Na LICC, o produto "projeto patrocinado" depende de um terceiro ator, a empresa, que decide quem recebe. Por isso a Figura 1 separa três cadeias, como recomendam White e Raitzer (2017): a entrada (inscrição e habilitação), o financiamento (escolha da empresa e validação até o teto) e a entrega. A figura também indica quem decide em cada elo.
 
-**Quadro 2 – Modelo lógico da LICC (reconstruído)**
+A hipótese causal, no gabarito do J-PAL, é: *se* a SECULT abre a inscrição e habilita projetos culturais, e empresas contribuintes patrocinam parte deles com o ICMS que pagariam, *então* se forma um cardápio de projetos habilitados e um conjunto de projetos patrocinados e executados, *o que deveria levar* a mais bens culturais de acesso público, executados por proponentes mais diversos e mais capazes, *que ao final melhorarão* o acesso da população à cultura e reduzirão sua desigualdade territorial, *contribuindo para* ampliar e desconcentrar a capacidade de financiar a cultura no estado.
 
-| Componente | Descrição | Indicadores | Premissas (P) e riscos (R) |
-|----------|---------------------|------------------|---------------------|
-| Insumos | Teto anual de renúncia de ICMS; equipe da SECULT, pareceristas e CAP; SEFAZ | Teto em R\$; renúncia efetiva; servidores e pareceres por ano | P: teto fixado a tempo. R: ampliações no meio do ano mudam as regras do ciclo |
-| Atividades | Inscrição, parecer, deliberação da CAP; conferência de limites pela SEFAZ; validação de repasses | Inscritos, habilitados e inabilitados por ciclo; tempo de análise | P: critérios claros. R: sem pontuação, a seleção é pouco transparente |
-| Produtos | Projetos habilitados; patrocínios captados; projetos executados | Captação por projeto e por cota; taxa de captação; valor por município | P: **existem empresas dispostas a patrocinar projetos fora do circuito consolidado**. R: patrocinador escolhe por visibilidade; captação concentra-se |
-| Resultados intermediários | Mais oferta cultural (eventos, publicações, formação) com contrapartidas de acesso; proponentes com mais emprego e continuidade | Público, gratuidade e ações fora da RMGV; emprego formal e sobrevivência dos proponentes | P: o projeto não aconteceria sem o incentivo (adicionalidade). R: substituição de patrocínio que já existiria |
-| Resultados finais | Maior e menos desigual acesso à cultura; setor cultural mais capaz de se financiar | Participação da ocupação cultural; equipamentos e agentes culturais por município | P: políticas complementares (fomento direto, capacidade municipal). R: a política reproduz a concentração prévia |
+Cada seta da cadeia carrega uma premissa, uma condição que precisa valer para que um passo leve ao seguinte (MAYNE, 2015). Tratamos cinco delas como hipóteses a testar, marcadas nos elos da Figura 1 e auditadas no Quadro 2: o atrito na entrada (H3), a habilitação que qualifica sem priorizar (H2a), a escolha da empresa (H1a), o racionamento no teto (H2b) e a adicionalidade (H1b). H2 descreve o que se perde ao longo do funil; H1 e H3 são explicações concorrentes para a perda.
 
-Fonte: elaboração própria, com base em Gertler *et al.* (2018), White e Raitzer (2017) e nas normas do Quadro 1.
+**Figura 1 – Teoria da mudança da LICC, com as premissas testadas**
 
-A premissa decisiva está no elo entre atividade e produto. A política só alcança seus resultados distributivos se as empresas escolherem projetos alinhados aos objetivos públicos, o que o desenho não garante: o crédito integral elimina o custo da escolha para a empresa, e as reservas do art. 18 só regulam a partilha do teto em grandes blocos.
+![](../analise/figuras/08_teoria_da_mudanca.png){width=16cm}
+
+Fonte: elaboração própria, no formato de cadeia de resultados do J-PAL usado por Gertler *et al.* (2018), com base nas normas do Quadro 1. Setas tracejadas indicam elos sem dado público.
 
 ## 4.2 Avaliação do desenho
 
-Aplicamos à LICC as perguntas de avaliação de desenho do material da disciplina: o problema está formulado? os objetivos são mensuráveis? a lógica é coerente? as premissas se sustentam? há monitoramento dos elos? As respostas usam os anexos oficiais (Tabela 1 e Figura 1).
+Aplicamos as perguntas de avaliação de desenho do material da disciplina: o problema está formulado? os objetivos são mensuráveis? cada elo tem premissa crível e indicador? quanto se perde ao longo da cadeia? Para as premissas usamos o mecanismo de mapeamento de Williams (2020). A premissa de cada elo é confrontada com o contexto real e classificada como sustentada, não atendida, contestada ou indeterminada (Quadro 2).
 
-**Tabela 1 – Indicadores do desenho da LICC**
+**Problema e objetivos.** A lei não tem artigo de objetivos. O decreto declara na ementa um objetivo de produto, "estimular a realização de projetos culturais". O art. 3º lista onze finalidades de "interesse público", das quais o projeto deve atender **uma ou mais**. Essas finalidades definem quem é elegível, não o que a política pretende alcançar (ESPÍRITO SANTO, 2021b, art. 3º). Não há meta, magnitude esperada nem indicador. Isso falha o critério de que programas declarem os resultados e a magnitude da contribuição esperada (BARROS; LIMA, 2017) e o padrão de governança de renúncias do TCU (BRASIL, 2014).
 
-| Dimensão | Indicador | Valor |
-|-----------|------------------------------------------|----------------|
-| Escala | Montante anual de renúncia, 2023 → 2026 | R\$ 15 mi → R\$ 31 mi |
-| | Teto de 2025 / ICMS estadual de 2024 | 0,16% |
-| | Renúncia efetiva / gasto estadual na função cultura, 2022-2025 | 14% a 21% |
-| Racionamento | Valor autorizado do ciclo / teto do ano de captação, ciclos 2022-2025 | 1,1 a 1,9 |
-| | Captado / montante do ano (2023; 2024; 2025) | 100%; 100%; 100% |
-| | Termos de patrocínio indeferidos por exceder o montante / montante (2023; 2024) | 28%; 35% |
-| Atrito | Habilitados com prazo de captação expirado, entre os resolvidos (2022; 2023; 2024) | 16%; 30%; 45% |
-| Teto por projeto | Processos com valor autorizado de exatamente R\$ 500 mil (2022 → 2026) | 13% → 41% |
-| Proponentes | Proponentes do ciclo já vistos em ciclo anterior (2025; 2026) | 63%; 51% |
-| | Proponentes em 3 ou mais ciclos: parcela dos proponentes e do valor | 17%; 47% |
-| Território | Parcela da RMGV: população; valor atribuível | 49%; 67% |
-| | Vitória: população; valor atribuível | 8%; 48% |
-| | Gini do valor atribuível entre os 78 municípios | 0,88 |
-| | Municípios sem nenhum projeto habilitado em 2022-2026 | 14 |
-| Patrocinadores (2025) | Empresas (raiz do CNPJ); maior empresa (distribuidora de energia) | 26; 44% |
-| | Empresas que somam metade da renúncia; parcela de energia e gás | 2; 52% |
+**Funil de atrito.** O funil mede, elo a elo, quantos beneficiários potenciais chegam ao fim da cadeia (WHITE; RAITZER, 2017). A Tabela 1 mostra que ele se estreita justamente onde não há dado: antes da habilitação e depois da execução. Entre os 25.441 agentes cadastrados no Mapa Cultural e os cerca de 100 proponentes habilitados por ciclo, não se sabe quantos se inscreveram nem quantos foram inabilitados. Nas etapas observadas, a maioria passa: 68% dos habilitados de 2022-2024 com situação resolvida captaram.
 
-Fonte: elaboração própria com base em SECULT (2026b; 2026c), portarias de teto da SEFAZ, IBGE e SICONFI. Valor atribuível: projetos com um único município de execução (74% do valor autorizado). Tabelas de origem em `analise/tabelas/` (`03_*.csv`, `03f_*.csv`, `dados/externos/licc_teto_vs_icms.csv`).
+**Tabela 1 – Funil de atrito da LICC**
 
-**Figura 1 – Execução por faixa de valor autorizado e concentração na RMGV**
+| Etapa | Valor | Período |
+|-------------------------------------------|---------------------------|--------------|
+| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) | set. 2026 |
+| Projetos inscritos | não publicado | — |
+| Projetos habilitados; proponentes por ciclo | 305; 53, 92 e 95 | ciclos 2022-2024 |
+| Habilitados com situação resolvida; captaram | 293; 198 | ciclos 2022-2024 |
+| Taxa de captação entre os resolvidos | 84%; 70%; 55% | ciclos 2022; 2023; 2024 |
+| Valor com patrocinador que coube no teto | 78%; 74% | captação 2023; 2024 |
+| Público alcançado e gratuidade | não publicado | — |
 
-![](../analise/figuras/04_fig1_conversao_territorio.png){width=16cm}
+Fonte: elaboração própria com base em SECULT (2026b; 2026c) e na API pública do Mapa Cultural do Espírito Santo (SECULT, 2026e). Tabelas de origem: `analise/tabelas/07_funil_por_ciclo.csv`, `07_funil_captacao_anual.csv` e `07_mapa_cultural_universo.csv`. Cadastro no Mapa Cultural não é elegibilidade, porque a inscrição exige CNPJ.
 
-Fonte: elaboração própria com base em SECULT (2026b) e IBGE. (a) Projetos "em execução" ou com "execução finalizada" entre os habilitados sem captação em curso, ciclos 2022-2024. (b) Participação dos 7 municípios da RMGV em cada total, 2022-2026.
+**Quadro 2 – Auditoria das premissas da teoria da mudança**
 
-**Problema e objetivos.** A lei não tem artigo de objetivos. O decreto declara na ementa um objetivo de produto, "estimular a realização de projetos culturais", e lista no art. 3º onze finalidades de "interesse público" que um projeto deve atender, **uma ou mais**. Essas finalidades definem quem é elegível, não o que a política pretende alcançar (ESPÍRITO SANTO, 2021b, art. 3º). Não há meta, magnitude esperada nem indicador, o que falha o critério de que programas declarem os resultados e a magnitude da contribuição esperada (BARROS; LIMA, 2017) e o padrão de governança de renúncias do TCU (BRASIL, 2014).
+| Elo | Premissa | Contexto real | Situação |
+|----------|-------------------------|--------------------------------------|------------|
+| Entrada (H3) | Quem tem projeto de valor público consegue se inscrever | A inscrição exige CNPJ com finalidade cultural, sede em nome próprio e certidão estadual. 14 municípios do interior nunca tiveram projeto habilitado. Estreantes: 56 no ciclo 2024, 26 em 2025, 40 em 2026 | Indeterminado: sem inscritos |
+| Habilitação (H2a) | O mérito avaliado pela SECULT orienta quem é financiado | Parecer e CAP decidem só habilitar ou não, em fluxo contínuo; nenhuma norma prevê nota ou ordem de prioridade. Em 2022-2024, 95 de 293 habilitados expiraram sem captar | Não atendida |
+| Escolha (H1a) | A empresa escolhe pelo interesse público, também fora do circuito consolidado | Duas empresas somam metade da renúncia de 2025; energia e gás, 52%. Execução de 68% na RMGV e 63% no interior. Recorrentes captam mais (71% contra 57%) | Contestada |
+| Validação (H2b) | O racionamento no teto segue critério público | Em 2023 e 2024, termos com patrocinador de 28% e 35% do montante foram indeferidos pela ordem de chegada | Não atendida |
+| Entrega (H1b) | O projeto financiado não aconteceria sem a LICC e chega ao público | A maior reserva do teto (30%) vai a eventos com mais de dez anos. Não há dado de público nem de gratuidade | Indeterminado: sem dado |
 
-**Coerência e racionamento privado.** A LICC habilita mais do que pode pagar. O valor autorizado de cada ciclo foi de 1,1 a 1,9 vez o teto do ano em que o ciclo capta, e de 2023 a 2025 a captação esgotou o montante de cada ano ao centavo. Em 2023 e 2024, a SECULT ainda indeferiu, por ultrapassarem o montante, termos de patrocínio que somavam 28% e 35% dele (SECULT, 2026c). O excesso de demanda é racionado pela escolha das empresas e pela ordem em que os termos chegam à validação, não por critério de mérito da SECULT: entre 2022 e 2024, a fração de habilitados cujo prazo de captação expirou subiu de 16% para 45% à medida que a habilitação quase dobrou. Esse é o funil de atrito da teoria da mudança, medido com dado oficial.
+Fonte: elaboração própria, no formato do mecanismo de mapeamento de Williams (2020), com base nas normas do Quadro 1, em SECULT (2026b; 2026c) e nas tabelas `03_*.csv` e `07_*.csv` de `analise/tabelas/`.
 
-**A premissa do patrocinador.** Os dados sustentam mal a premissa de que as empresas financiariam projetos fora do circuito consolidado. Primeiro, a captação favorece projetos maiores: dentro de cada ciclo, projetos que pediram exatamente o teto de R\$ 500 mil foram executados com mais frequência que os de até R\$ 400 mil — 78% contra 27% no ciclo 2024 (Figura 1a). A parcela de pedidos no teto exato triplicou entre 2022 e 2026, sinal de que o valor pedido responde à regra e não só ao custo do projeto. Segundo, a captação favorece quem já passou pela política, e a carteira se renova pouco: nos ciclos 2023 e 2024, 71% dos projetos de proponentes já habilitados antes foram executados, contra 57% dos de estreantes; nos ciclos 2025 e 2026, mais da metade dos proponentes já tinha sido habilitada antes, e os 17% que aparecem em três ou mais ciclos ficam com 47% do valor autorizado. Terceiro, o financiamento vem de poucas empresas: em 2025, 26 empresas patrocinadoras (46 estabelecimentos), das quais a distribuidora de energia respondeu por 44% da renúncia, e empresas de energia e gás, serviços regulados, por 52%. O limite por patrocinador, proporcional ao ICMS devido, dá aos grandes contribuintes mais espaço de patrocínio em valor absoluto.
+**Entrada.** Pessoa física não se inscreve e o microempreendedor individual tem limite de valor (SECULT, 2025a, arts. 17 e 19). Em 2024 as inscrições foram fechadas no meio do ano por esgotamento do teto (SECULT, 2024b), e desde 2025 o proponente precisa conseguir o patrocinador antes da comissão. No mesmo período, a entrada de proponentes novos caiu (estreante é quem não foi habilitado nos dois ciclos anteriores). A difusão territorial parou: 39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então. Nada disso isola o atrito, porque teto, janelas e regras mudaram ao mesmo tempo. O custo de entrada é o que a literatura chama de custo administrativo (MOYNIHAN; HERD; HARVEY, 2015). Ele pode excluir sem selecionar ou funcionar como triagem (FINKELSTEIN; NOTOWIDIGDO, 2019), e só uma variação exógena desse custo distingue os dois casos.
 
-**Distribuição territorial.** A RMGV tem 49% da população e fica com 67% do valor atribuível a um município; Vitória, com 8% da população, fica com 48% (Figura 1b). A concentração nasce sobretudo em quem é habilitado: nos ciclos 2022-2024, a taxa de execução pouco difere entre RMGV e interior (68% e 63%), mas, entre os projetos que captaram em 2025 com um único município identificado (42 de 63), 61% do valor captado ficou na RMGV. O Gini do valor entre os 78 municípios é 0,88, acima do Gini da população (0,64) e do PIB (0,75), e 14 municípios do interior não tiveram nenhum projeto habilitado em cinco ciclos. A reserva de 10% do teto para projetos fora da RMGV age sobre a menor parte dessa desigualdade: na decomposição de Theil, a diferença entre RMGV e interior explica só 7% do total, e o restante está dentro dos grupos. O padrão é o inverso do gasto municipal direto com cultura, maior por habitante no interior (R\$ 93) que na RMGV (R\$ 59) em 2025 (69 dos 71 municípios do interior com dado no SICONFI). A LICC não compensa essa distribuição; ela a concentra de novo na capital.
+**Habilitação e validação.** A análise tem três etapas: documentação, parecer técnico sobre os nove critérios do decreto e deliberação da comissão por maioria simples. O parecer "deverá indicar a habilitação ou inabilitação" (ESPÍRITO SANTO, 2021b, art. 14; SECULT, 2025a, arts. 37-42). A comissão se reúne semanalmente (SECULT, 2023b, art. 9º), e o certificado de aptidão é emitido projeto a projeto, depois do parecer (SECULT, 2025a, arts. 40 e 45). Os inscritos não disputam vagas entre si, e por isso não há classificação. Nenhuma norma lida prevê nota, peso, nota de corte ou ordem de prioridade, e no Mapa Cultural as fases de parecer e de comissão estão registradas como "avaliação simplificada", não como avaliação técnica (SECULT, 2026e). Se o formulário de parecer atribui nota aos critérios, ela não é publicada e não decide quem recebe. A habilitação qualifica, mas não prioriza, e autoriza mais do que o teto financia. A escolha entre projetos considerados aptos passa, assim, à empresa e à fila de validação. De 2023 a 2025 a captação esgotou o montante de cada ano ao centavo, e o excesso de demanda com patrocinador foi racionado pela ordem de chegada dos termos, não por mérito (SECULT, 2026c).
 
-**Adicionalidade.** Como o crédito é integral, a LICC não alavanca recurso privado. A pergunta relevante é se os projetos patrocinados existiriam sem o incentivo. A maior reserva do teto, 30%, vai a eventos com mais de dez anos de existência, justamente os de maior chance de financiamento sem incentivo — uma tensão com o critério do TCU (BRASIL, 2016) que é hipótese a testar, não descumprimento apurado.
+**Escolha da empresa.** Com crédito integral, a empresa escolhe o destino do ICMS que pagaria e fica com a marca. Imagem e relações de negócio estão entre os motivos do patrocínio (O'HAGAN; HARVEY, 2000), e a filantropia empresarial também serve de canal de influência política (BERTRAND *et al.*, 2020). Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86% da renúncia daquele ano (BRASIL, 2026b). A evidência sobre o destino é mista. Quando a busca de patrocinador passou para antes da comissão, a parcela da RMGV no valor habilitado atribuível a um município caiu de 74% (ciclo 2024) para 57% (2025). Projetos que pediram exatamente o teto de R\$ 500 mil foram executados com mais frequência que os menores. Esses fatos têm explicações que não dependem da marca: quem já tem patrocinador acertado pede o teto, e quem já captou tem rede e experiência. Daí a premissa ficar contestada.
 
-**Monitoramento.** O que a SECULT publica cobre insumos e produtos (valores autorizados, status, cota a partir de 2024, local de execução, captação por projeto e patrocinador desde 2022 e por cota desde 2025). Não cobre resultados. As contrapartidas de acesso são escolhidas pelo proponente, conferidas projeto a projeto e nunca agregadas. A estimativa de público é autodeclarada. Não há chave que ligue proponentes a bases de emprego ou de outras fontes de fomento, e as regras de acesso mudaram no meio do exercício em 2024 e em 2025. Em 2025, as reservas I e IV captaram exatamente o valor reservado, a de planos plurianuais 93% e a de projetos fora da RMGV 107% (SECULT, 2026c). Como o art. 18 manda aplicar a cota geral quando as demais se esgotam e permite remanejar sobras, esses números descrevem a execução das reservas, não o cumprimento da norma.
+**Entrega e território.** A maior reserva do teto, 30%, vai a eventos com mais de dez anos de existência, justamente os de maior chance de financiamento sem incentivo. É uma tensão com o critério do TCU (BRASIL, 2016) que fica como hipótese a testar, não como descumprimento apurado. A RMGV tem 49% da população e fica com 67% do valor atribuível a um município. O Gini do valor entre os 78 municípios é 0,88, e a diferença entre RMGV e interior explica só 7% da desigualdade na decomposição de Theil. Por isso a reserva de 10% para projetos fora da RMGV age sobre a menor parte dela.
 
-Em síntese, a implementação funciona no lado da oferta (a renúncia é usada até o teto), mas o elo entre produto e resultado distributivo é o candidato a "elo rompido" da teoria da mudança. A política transfere a decisão alocativa a quem tem critérios próprios, e os dados mostram uma alocação que segue porte, recorrência e capital. Isso não mede impacto: é a pergunta que a avaliação da seção 5 precisa responder.
+**Monitoramento.** O que a SECULT publica cobre insumos e produtos, mas não a entrada (inscritos e inabilitados) nem o resultado (público, gratuidade, contrapartidas executadas). Os dois indicadores que a teoria da mudança mais exige falham no critério SMART de ser mensurável e atribuível. A lei já manda o regulamento definir a divulgação dos benefícios, "inclusive no Portal da Transparência do Estado" (ESPÍRITO SANTO, 2021a).
+
+Em síntese, com o dado público nenhum elo aparece claramente rompido. Duas premissas de critério não são atendidas pelo desenho: habilitar sem priorizar e racionar pela ordem de chegada. A escolha da empresa é contestada, e a entrada e a entrega ficam indeterminadas por falta de dado. A avaliação de impacto da seção 5 é desenhada para resolver as três últimas.
 
 # 5 Proposta de avaliação de impacto
 
-## 5.1 Pergunta e parâmetro de interesse
+## 5.1 Perguntas e parâmetros
 
-Propomos responder: **qual é o efeito de captar recursos pela LICC sobre a capacidade produtiva dos proponentes habilitados** — emprego formal, massa salarial, sobrevivência da organização e realização de novos projetos culturais — de um a três anos após a captação? O parâmetro é o efeito médio do tratamento sobre os tratados (EMPT), apropriado quando a participação é voluntária dos dois lados (proponente e empresa). Ele responde à pergunta de adicionalidade: se a captação muda a trajetória de quem capta em relação a quem, habilitado no mesmo ciclo, não captou.
+No material do J-PAL, premissas e riscos podem ser perguntas de pesquisa. Das premissas do Quadro 2 derivamos três perguntas de avaliação (Quadro 3), escritas na notação de resultados potenciais. Seja *i* a unidade, *T* o tratamento e *Y*(1) e *Y*(0) os resultados com e sem ele. O Quadro 3 mostra também por que a comparação simples entre grupos não responde a nenhuma delas. A diferença simples de médias é igual ao efeito médio mais um viés de seleção e um viés de efeitos heterogêneos.
 
-## 5.2 Estratégia de identificação
+**Quadro 3 – Perguntas de avaliação**
 
-As regras da política determinam o método (GERTLER *et al.*, 2018). A seleção aleatória está fora de questão: a SECULT não aloca o benefício entre habilitados, e sortear seria redesenhar o mecanismo. A regressão descontínua não se aplica, porque a habilitação não usa pontuação nem nota de corte, e os únicos limiares numéricos, de patrocínio comprometido (50% do valor aprovado em 2023 e 2024, 35% no início de 2025), dependem dos próprios interessados. O pareamento isolado supõe seleção só em observáveis, o contrário do que se espera quando a empresa escolhe por visibilidade e rede.
+| Hipótese | Pergunta | Unidade, tratamento e resultado | Parâmetro | Viés da comparação simples |
+|---------|----------------|----------------|-------------|------------------|
+| H1b | Qual é o efeito de captar pela LICC sobre a realização e o alcance do projeto? | Projeto habilitado; *T* = captou; *Y* = o bem cultural acontece; público e gratuidade | Efeito médio sobre os tratados (EMPT) e seu contraste com o efeito sobre os não tratados (EMPNT) | Se a empresa escolhe eventos consolidados, *Y*(0) é maior entre os escolhidos e o efeito é menor onde ela escolhe: os dois vieses subestimam a adicionalidade |
+| H3 | Qual é o efeito de reduzir o custo de entrada sobre a inscrição, a habilitação e o perfil de quem entra? | Agente cultural sem inscrição prévia; *T* = oferta de apoio à inscrição; *Y* = inscreveu-se, foi habilitado, captou | Efeito da oferta (intenção de tratar) e efeito local para quem responde a ela | Quem se inscreve por conta própria tem mais capacidade: viés de seleção |
+| H2a | A habilitação muda o destino do projeto, e a empresa segue o mérito avaliado pela SECULT? | Projeto inscrito; *T* = habilitado; *Y* = o projeto é executado | Efeito de ser habilitado (oferta) na margem da decisão | Inabilitados diferem dos habilitados em qualidade e capacidade |
 
-O desenho principal é **diferenças em diferenças com adoção escalonada no nível do proponente**, para os ciclos 2022-2024. O grupo tratado são os habilitados que captaram (status "em execução" ou "execução finalizada"); o grupo de comparação são os habilitados do mesmo ciclo cuja captação expirou e, como "ainda não tratados", os habilitados de ciclos posteriores antes de captar. A lógica é a dos candidatos não escolhidos de Gomes e Librero-Cano (2018): todos passaram pelo mesmo filtro de mérito. A janela se restringe a 2022-2024 porque, nas instruções de 2023 e 2024, a habilitação precedia a busca por patrocinador e o projeto sem compromissos suficientes ao fim do prazo era arquivado, o que corresponde ao status "prazo de captação expirado"; a partir de 2025, com compromisso ou carta de intenção exigidos antes da comissão, "habilitado" e "captou" quase se confundem (3 expirados em 56 resolvidos no ciclo 2025). A instrução de 2022 não foi lida, e a regra do primeiro ciclo deve ser confirmada antes da coleta.
+Fonte: elaboração própria, com base em Gertler *et al.* (2018) e no material da disciplina sobre resultados potenciais.
 
-Com tratamento em datas diferentes e efeitos possivelmente heterogêneos, a regressão de efeitos fixos de duas vias pode ponderar mal os efeitos (GOODMAN-BACON, 2021). Por isso usamos o estimador de Callaway e Sant'Anna (2021) na versão duplamente robusta (SANT'ANNA; ZHAO, 2020), condicionando em características anteriores à habilitação que afetam a captação: ciclo, cota, valor pedido, natureza jurídica, RMGV ou interior e histórico no SALIC. O estudo de evento testa tendências anteriores, e a análise de sensibilidade de Rambachan e Roth (2023) mostra quanto a conclusão resiste a violações das tendências paralelas. A heterogeneidade por cota do art. 18, por faixa de valor e por território é a principal pergunta secundária.
+O EMPT é o parâmetro indicado quando a participação é voluntária, e aqui ela é voluntária dos dois lados, do proponente e da empresa.
 
-Dois desenhos complementam o principal. O primeiro é um **diferenças em diferenças municipal**, com a primeira presença de projeto no município como tratamento escalonado (coortes de 39, 16, 3, 3 e 3 municípios entre 2022 e 2026, e 14 nunca tratados) e emprego e estabelecimentos culturais da RAIS como resultado. Ele tem baixo poder e choques simultâneos (Lei Paulo Gustavo e Política Nacional Aldir Blanc), então serve para descrever heterogeneidade e testar efeitos grandes. O segundo é um **desenho prospectivo de encorajamento**: sortear, entre os projetos com parecer favorável, quem recebe apoio ativo para apresentação a contribuintes de ICMS. Isso não altera a regra de alocação e identifica o efeito para os projetos na margem da captação (ANGRIST; IMBENS; RUBIN, 1996), com a ressalva de que, sob teto vinculante, o encorajado pode captar no lugar de outro.
+## 5.2 Estratégias de identificação candidatas
 
-## 5.3 População, amostra e fontes de dados
+As regras de operação determinam o método (GERTLER *et al.*, 2018). Com excesso de demanda, ciclos anuais e nenhum índice publicado com ponto de corte, cabem sorteio, promoção aleatória, diferenças em diferenças e diferenças em diferenças com pareamento. A escolha depende dos dados que a SECULT liberar (seção 5.3).
 
-A população são os 305 projetos habilitados nos ciclos 2022-2024, dos quais 293 já tinham situação resolvida (198 captaram e 95 tiveram o prazo expirado), de 199 proponentes. Não há amostragem: com dados administrativos, trabalha-se com o universo, e a listagem vem dos anexos oficiais. O gargalo é a chave de ligação. Os anexos publicados não trazem o CNPJ do proponente, mas a SECULT o tem, porque a inscrição o exige. O Quadro 3 lista as fontes.
+- **H1b.** Em 2023 e 2024, os termos validados pouco antes do esgotamento do teto e os indeferidos logo depois tinham, todos, patrocinador disposto. Se a ordem de chegada não depender das características do projeto, o que se testa pelo balanço dos observáveis, a comparação é quase experimental. Os 95 habilitados que expiraram sem captar, comparados aos que captaram com diferenças em diferenças e pareamento dentro do ciclo, delimitam o efeito sem afastar a seleção. O SALIC mostra se as mesmas empresas deixaram de patrocinar pela Rouanet ao entrar na LICC (substituição).
+- **H3.** Uma promoção aleatória de apoio à inscrição (informação, orientação sobre CNPJ e documentação) sorteada entre municípios do interior não altera nenhuma regra de alocação. Ela estima o efeito da oferta e, para quem responde a ela, o efeito local (ANGRIST; IMBENS; RUBIN, 1996). Como o teto é fixo, novos entrantes deslocam outros, e sortear também a intensidade da oferta entre municípios mede esse deslocamento (BAIRD *et al.*, 2018).
+- **H2a.** Se o formulário de parecer atribuir nota com ponto de corte, a regressão descontínua na habilitação se torna candidata, desde que o proponente não manipule a nota. Sem nota, a pergunta fica descritiva: a associação entre a avaliação da SECULT e a captação.
 
-**Quadro 3 – Fontes de dados da avaliação**
+## 5.3 Desenho da amostra e fontes de dados
+
+Para H1b e H2a trabalha-se com o universo, e a listagem vem dos anexos oficiais. São 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes, e os termos de 2023 e 2024 na margem do racionamento. Para H3, a listagem é o cadastro de agentes do Mapa Cultural, restrito aos que têm CNPJ e nunca se inscreveram. A amostra é por conglomerados: os municípios do interior são sorteados para receber a oferta, e dentro deles entram todos os agentes elegíveis. A listagem deixa de fora quem não está cadastrado, o que limita a validade externa (viés de cobertura). O gargalo comum é a chave: os anexos não trazem o CNPJ do proponente, mas a SECULT o tem, porque a inscrição o exige. O Quadro 4 lista as fontes.
+
+**Quadro 4 – Fontes de dados da avaliação**
 
 | Fonte | Conteúdo | Uso | Acesso |
 |----------------|------------------------|-----------------|------------|
-| Inscrições da SECULT (Mapa Cultural) | CNPJ do proponente, linha, cota, sede, datas, inclusive inabilitados e arquivados | Chave de ligação; tratamento; covariáveis | Pedido por LAI ou convênio |
-| Anexos de habilitados e captados; extratos do Diário Oficial | Status, valores, patrocinador e data de cada repasse | Tratamento e sua intensidade | Público |
-| RAIS identificada | Vínculos e massa salarial por CNPJ; estabelecimentos por município e CNAE | Resultado principal e municipal | Convênio com o MTE |
-| Cadastro CNPJ (Receita Federal) | Situação cadastral, CNAE, sede, sócios | Sobrevivência; natureza; apuração da cota III | Público |
-| SALIC (Ministério da Cultura) | Projetos e captação pela Lei Rouanet por CNPJ | Histórico e substituição de fonte | Público |
-| Relatórios de execução da SECULT | Estimativa de público, gratuidade, locais | Resultados de acesso | Interno |
+| Inscrições da SECULT (Mapa Cultural) | Todas as inscrições, inclusive inabilitadas e arquivadas, com motivo, parecer, CNPJ, sede e datas | H2a, H3; chave de ligação | Pedido por LAI |
+| Anexos de habilitados e captados; extratos do Diário Oficial | Status, valores, patrocinador e data de cada repasse | H1b; tratamento e intensidade | Público |
+| SEFAZ | Data e ordem de validação dos termos, inclusive indeferidos | H1b (racionamento) | Pedido por LAI |
+| Relatórios de execução | Público, gratuidade, locais, contrapartidas | *Y* de H1b | Interno |
+| Mapa Cultural (API) | Agentes, espaços e agenda de eventos por município | Listagem de H3; ocorrência de eventos (*Y* de H1b) | Público |
+| SALIC (Ministério da Cultura) | Projetos e doações pela Rouanet, por CNPJ | Substituição de fonte (H1b) | Público |
 
 Fonte: elaboração própria.
 
 ## 5.4 Cálculo do poder estatístico
 
-Usamos a fórmula do efeito mínimo detectável (EMD) do material da disciplina, com resultado contínuo em desvios-padrão (σ = 1), α = 5% bicaudal e poder de 80% (DJIMEU; HOUNDOLO, 2016):
+Para resultados binários, o efeito mínimo detectável (EMD), em pontos percentuais, é:
 
-$$\text{EMD} = (t_{1-\alpha/2} + t_{1-\beta})\,\sigma\,\sqrt{\frac{1-R^2}{P(1-P)\,n}}\,\sqrt{1+\left[(cv^2+1)\,\bar m-1\right]\rho},$$
+$$\text{EMD} = (t_{1-\alpha/2} + t_{1-\beta})\,\sqrt{\frac{p_0(1-p_0)}{T(1-T)\,n}}\,\sqrt{1+\left[(cv^2+1)\,\bar m-1\right]\rho}.$$
 
-em que $n$ = 293 projetos, $P$ = 0,676 é a fração tratada, $R^2$ é a variância explicada pela linha de base e pelas covariáveis, e o último termo é o efeito do desenho por haver, em média, $\bar m$ = 1,47 projeto por proponente, com coeficiente de variação $cv$ = 0,73 do tamanho das carteiras e correlação intraproponente $\rho$ (ELDRIDGE; ASHBY; KERRY, 2006). A Tabela 2 reporta cenários; $R^2$ e $\rho$ são hipóteses, a calibrar com a RAIS anterior a 2022.
+A fórmula segue o material da disciplina (DJIMEU; HOUNDOLO, 2016), com α = 5% bicaudal e poder de 80%. Nela:
 
-**Tabela 2 – Efeito mínimo detectável do desenho principal (em desvios-padrão)**
+- $p_0$ é a proporção no grupo de comparação;
+- $T$ é a fração tratada e $n$ o número de unidades;
+- o último termo é o efeito do desenho quando as unidades vêm em grupos (projetos de um mesmo proponente, agentes de um mesmo município), com tamanho médio $\bar m$, coeficiente de variação $cv$ e correlação intragrupo $\rho$ (ELDRIDGE; ASHBY; KERRY, 2006).
 
-| Cenário | Poder 80% | Poder 90% |
-|------------------------------------------|------------|------------|
-| Sem covariáveis, sem correlação intraproponente | 0,35 | 0,41 |
-| Sem covariáveis, ρ = 0,2 | 0,39 | 0,45 |
-| R² = 0,3, ρ = 0 | 0,29 | 0,34 |
-| R² = 0,5, ρ = 0 | 0,25 | 0,29 |
-| R² = 0,5, ρ = 0,2 | 0,28 | 0,32 |
-| Um ciclo isolado (2023 ou 2024), sem covariáveis | 0,53 a 0,58 | 0,62 a 0,67 |
-| Municipal, 78 municípios, 25% a 50% tratados | 0,43 a 1,04 | — |
+Com conglomerados sorteados, usa-se a forma equivalente por número de conglomerados. A Tabela 2 reporta os cenários. $p_0$ e $\rho$ são hipóteses, a calibrar com os dados pedidos.
 
-Fonte: elaboração própria; `analise/tabelas/05_poder_d1_proponente.csv`, `licc_emd_ilustrativo.csv` e `05_poder_mde_municipal_did.csv`. No desenho municipal, o EMD está em desvios-padrão do erro idiossincrático, e a faixa depende de um a cinco anos antes e de um a quatro depois e da autocorrelação do resultado (MCKENZIE, 2012).
+**Tabela 2 – Efeito mínimo detectável por pergunta (pontos percentuais)**
 
-O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão, conforme o cenário. Três implicações seguem. Primeiro, empilhar os três ciclos e usar a linha de base é indispensável: um ciclo isolado só detecta efeitos grandes. Segundo, como a evidência internacional aponta efeitos pequenos, um resultado nulo não pode ser lido como ausência de efeito, e um resultado "significativo" com poder baixo tende a exagerar a magnitude. Com poder de 17%, a estimativa significativa superestima em média o efeito verdadeiro 2,5 vezes (GELMAN; CARLIN, 2014). Terceiro, o desenho municipal serve para descrever, não para concluir. Por isso recomendamos pré-registrar o plano de análise e reportar intervalos de confiança, não só testes.
+| Pergunta e comparação | Unidades | Cenários | EMD |
+|------------------------------------------|---------------------|--------------------|---------|
+| H1b: captou × expirou, 2022-2024 | 293 projetos (*T* = 0,68), 172 proponentes ($\bar m$ = 1,70; *cv* = 0,75) | $p_0$ de 0,2 a 0,6; ρ = 0 ou 0,2 | 14 a 20 |
+| H1b: margem do racionamento, 2023-2024 | 20 a 30 projetos por grupo | $p_0$ de 0,2 a 0,6 | 29 a 43 |
+| H3: oferta sorteada por agente | 1.000 a 4.000 agentes | $p_0$ de 2% a 10% | 1,2 a 5,3 |
+| H3: oferta sorteada por município | 71 municípios do interior, 20 a 50 agentes cada | $p_0$ de 5% a 10%; ρ de 0,02 a 0,05 | 2,9 a 6,3 |
+
+Fonte: elaboração própria; `analise/tabelas/07_poder_hipoteses.csv` (script `analise/07_hipoteses_h1_h3.py`, com as funções de `analise/05_poder_mde.py`).
+
+A comparação na margem do racionamento só detecta efeitos muito grandes e serve como verificação de robustez. A comparação entre quem captou e quem expirou tem poder razoável, mas seu problema é o viés, não a amostra. O desenho de H3 detecta efeitos de poucos pontos. Com poder baixo, uma estimativa "significativa" tende a exagerar o efeito verdadeiro (GELMAN; CARLIN, 2014), o que recomenda pré-registrar o plano de análise.
 
 ## 5.5 Ameaças à validade e ética
 
-A principal ameaça à validade interna é a seleção por fatores que variam no tempo: um proponente em ascensão pode ter mais chance de captar e crescer de qualquer forma. As tendências anteriores e a análise de sensibilidade mitigam o risco, sem eliminá-lo. A segunda é a violação da hipótese de ausência de interferência entre unidades (SUTVA): com teto vinculante, o que um projeto capta pode faltar a outro, e o grupo de comparação é afetado pelo tratamento. A terceira é a substituição, porque quem não capta pode executar com outra fonte (Rouanet, editais). Por isso o SALIC e os editais entram como resultado e como covariável. A validade externa é limitada: o efeito estimado vale para os habilitados de 2022-2024, sob regras que já mudaram. No plano ético, nenhum desenho proposto nega ou adia acesso a elegíveis. O uso de dados identificados exige anonimização e cuidado com combinações que revelem pequenos proponentes, conforme a LGPD.
+A primeira ameaça à validade interna é a violação da hipótese de ausência de interferência entre unidades (SUTVA): com o teto fixo, o que um projeto capta falta a outro. Seguem-se a substituição (quem não capta pode executar com outra fonte, por isso o SALIC entra como resultado), a seleção por fatores que mudam no tempo, os eventos externos do período (Lei Paulo Gustavo e Política Nacional Aldir Blanc) e o atrito dos dados: projeto sem registro não é projeto que não aconteceu. A validade externa é limitada. As comparações de H1b valem para o regime de 2022-2024, em que a habilitação precedia a busca por patrocinador. Desde 2025 essa ordem se inverteu e os expirados quase desapareceram (3 em 56 resolvidos no ciclo 2025). No plano ético, nenhum desenho nega ou adia o acesso de elegíveis, e a oferta de apoio só acrescenta informação. O uso de dados identificados exige anonimização, conforme a LGPD, e uma pesquisa com o público exigiria aprovação de comitê de ética.
 
 # 6 Conclusão
 
-A LICC é um gasto tributário de crescimento rápido, sem problema declarado, sem objetivos mensuráveis e sem previsão de avaliação, em que o Estado define quem pode receber e as empresas decidem quem recebe. A avaliação do desenho, feita com os dados oficiais, indica que a premissa central, a de que as empresas escolheriam projetos alinhados aos objetivos públicos, se sustenta mal. A captação favorece projetos que pedem o teto e proponentes recorrentes, o valor habilitado concentra-se na capital, e o financiamento vem de poucos patrocinadores de serviços regulados. As reservas do art. 18 foram preenchidas em 2025, mas atuam sobre a menor parte da desigualdade territorial.
+A LICC é um gasto tributário de crescimento rápido, sem problema declarado, sem objetivos mensuráveis e sem previsão de avaliação. Nela o Estado define quem pode receber e as empresas decidem quem recebe. A teoria da mudança reconstruída mostra onde isso pesa. A habilitação qualifica, mas não prioriza, e o racionamento no teto segue a ordem de chegada: duas premissas de critério que o desenho não atende. A premissa de que as empresas escolheriam projetos alinhados aos objetivos públicos é contestada. O financiamento vem de poucas empresas de serviços regulados, mas a escolha não mostra viés territorial forte. A entrada e a entrega, os dois extremos da cadeia, são indeterminadas porque a SECULT não publica os inscritos nem o público alcançado.
 
-Sem mexer no mecanismo, fora do escopo deste trabalho, há recomendações que dependem só da gestão: declarar objetivos, metas e indicadores; publicar, por projeto, o CNPJ do proponente, a linha, a sede, a captação por cota e as datas; agregar e publicar as contrapartidas executadas e o público; preservar os dados dos inscritos inabilitados e arquivados. Sem isso, nenhuma avaliação de resultado é possível.
+Sem mexer no mecanismo, fora do escopo deste trabalho, há recomendações que dependem só da gestão: declarar objetivos, metas e indicadores; publicar os inscritos e os motivos de inabilitação; publicar, por projeto, o CNPJ do proponente, a sede, a captação por cota e as datas; e agregar e publicar as contrapartidas executadas e o público, como a própria lei já exige para os benefícios concedidos.
 
-A proposta de avaliação de impacto aproveita a janela de 2022-2024, em que a habilitação precedia a busca por patrocinador, para comparar quem captou com quem não captou dentro do mesmo filtro de mérito. O poder alcança efeitos a partir de 0,25 a 0,45 desvio-padrão, e o desenho depende de uma única decisão administrativa: dar acesso ao CNPJ dos proponentes. As limitações deste artigo são as dos dados. A conversão habilitado-captou usa a situação publicada como aproximação, que os anexos de captação de 2022 a 2024 permitem substituir pela captação de cada projeto, a natureza dos proponentes foi inferida do nome, e o retrato territorial cobre 74% do valor.
+A proposta de avaliação transforma as premissas em três perguntas: a adicionalidade do financiamento (H1b), identificável pelo racionamento no teto e pelos habilitados que não captaram; o efeito do atrito na entrada (H3), identificável por uma oferta sorteada de apoio à inscrição, com bom poder; e o papel da avaliação da SECULT (H2a), que depende de haver nota no parecer. As limitações são as dos dados. A situação publicada serve de aproximação para a captação, a estreia é medida por nome de proponente, e o retrato territorial cobre 74% do valor.
 
 # Referências
 
@@ -196,9 +204,13 @@ ANGRIST, Joshua D.; IMBENS, Guido W.; RUBIN, Donald B. Identification of causal 
 
 BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, para que e quando fazer? *In*: MENEZES FILHO, Naercio Aquino; PINTO, Cristine Campos de Xavier (org.). **Avaliação econômica de projetos sociais**. 3. ed. São Paulo: Fundação Itaú Social, 2017. p. 13-37.
 
+BAIRD, Sarah; BOHREN, J. Aislinn; McINTOSH, Craig; ÖZLER, Berk. Optimal design of experiments in the presence of interference. **The Review of Economics and Statistics**, v. 100, n. 5, p. 844-860, 2018. DOI: 10.1162/rest_a_00716.
+
 BAUMOL, William J.; BOWEN, William G. **Performing arts**: the economic dilemma. New York: The Twentieth Century Fund, 1966.
 
 BELEM, Marcela Purini; DONADONE, Julio Cesar. A Lei Rouanet e a construção do "mercado de patrocínios culturais". **NORUS – Novos Rumos Sociológicos**, Pelotas, v. 1, n. 1, 2013. Disponível em: https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761.
+
+BERTRAND, Marianne; BOMBARDINI, Matilde; FISMAN, Raymond; TREBBI, Francesco. Tax-exempt lobbying: corporate philanthropy as a tool for political influence. **American Economic Review**, v. 110, n. 7, p. 2065-2102, 2020. DOI: 10.1257/aer.20180615.
 
 BORGONOVI, Francesca; O'HARE, Michael. The impact of the National Endowment for the Arts in the United States: institutional and sectoral effects on private funding. **Journal of Cultural Economics**, v. 28, n. 1, p. 21-36, 2004. DOI: 10.1023/B:JCEC.0000009823.76834.64.
 
@@ -208,13 +220,13 @@ BRASIL. Tribunal de Contas da União. **Acórdão nº 1.205/2014 – Plenário**
 
 BRASIL. Tribunal de Contas da União. **Acórdão nº 191/2016 – Plenário**. Relator: Augusto Sherman Cavalcanti. Brasília, 3 fev. 2016.
 
-BRONZINI, R.; MOCETTI, S.; MONGARDINI, M. The economic effects of big events: evidence from the Great Jubilee 2000 in Rome. **Journal of Regional Science**, v. 60, n. 4, p. 801-822, 2020. DOI: 10.1111/jors.12485.
+BRASIL. Secretaria do Tesouro Nacional. **SICONFI**: Declaração de Contas Anuais (DCA) do Estado do Espírito Santo e de seus municípios, 2021-2025. Brasília: STN, 2026a. Disponível em: https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca. Acesso em: 23 set. 2026.
+
+BRASIL. Ministério da Cultura. **SALIC**: API de dados abertos (projetos e incentivadores da Lei Rouanet). Brasília: MinC, 2026b. Disponível em: https://api.salic.cultura.gov.br/api/v1. Acesso em: 24 set. 2026.
 
 BROOKS, A. C. In search of true public arts support. **Public Budgeting & Finance**, v. 24, n. 2, p. 88-100, 2004. DOI: 10.1111/j.0275-1100.2004.02402006.x.
 
 BUTTON, Patrick. Do tax incentives affect business location and economic development? Evidence from state film incentives. **Regional Science and Urban Economics**, v. 77, p. 315-339, 2019. DOI: 10.1016/j.regsciurbeco.2019.06.002.
-
-CALLAWAY, Brantly; SANT'ANNA, Pedro H. C. Difference-in-differences with multiple time periods. **Journal of Econometrics**, v. 225, n. 2, p. 200-230, 2021. DOI: 10.1016/j.jeconom.2020.12.001.
 
 COSTA, Camila Furlan da; MEDEIROS, Igor Baptista de Oliveira; BUCCO, Guilherme Brandelli. O financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista. **Revista de Administração Pública**, Rio de Janeiro, v. 51, n. 4, p. 509-527, 2017. DOI: 10.1590/0034-7612162254.
 
@@ -230,13 +242,13 @@ ESPÍRITO SANTO (Estado). Decreto nº 5.035-R, de 15 de dezembro de 2021. Dispõ
 
 FELD, Alan L.; O'HARE, Michael; SCHUSTER, J. Mark Davidson. **Patrons despite themselves**: taxpayers and arts policy. New York: New York University Press, 1983.
 
+FINKELSTEIN, Amy; NOTOWIDIGDO, Matthew J. Take-up and targeting: experimental evidence from SNAP. **The Quarterly Journal of Economics**, v. 134, n. 3, p. 1505-1556, 2019. DOI: 10.1093/qje/qjz013.
+
 GELMAN, Andrew; CARLIN, John. Beyond power calculations: assessing type S (sign) and type M (magnitude) errors. **Perspectives on Psychological Science**, v. 9, n. 6, p. 641-651, 2014. DOI: 10.1177/1745691614551642.
 
 GERTLER, Paul J.; MARTÍNEZ, Sebastián; PREMAND, Patrick; RAWLINGS, Laura B.; VERMEERSCH, Christel M. J. **Avaliação de impacto na prática**. 2. ed. Washington, DC: Banco Interamericano de Desenvolvimento; Banco Mundial, 2018.
 
 GOMES, Pedro; LIBRERO-CANO, Alejandro. Evaluating three decades of the European Capital of Culture programme: a difference-in-differences approach. **Journal of Cultural Economics**, v. 42, n. 1, p. 57-73, 2018. DOI: 10.1007/s10824-016-9281-x.
-
-GOODMAN-BACON, Andrew. Difference-in-differences with variation in treatment timing. **Journal of Econometrics**, v. 225, n. 2, p. 254-277, 2021. DOI: 10.1016/j.jeconom.2021.03.014.
 
 GUIMARÃES, Bruno Costa. Concentração cultural: por que podemos dizer que, no Brasil, o investimento na cultura está mais concentrado que o PIB? **Mediações – Revista de Ciências Sociais**, Londrina, v. 25, n. 2, 2020. DOI: 10.5433/2176-6665.2020v25n2p412.
 
@@ -244,17 +256,17 @@ IBGE. **Sistema de Informações e Indicadores Culturais**. Rio de Janeiro: IBGE
 
 IBGE. **Pesquisa de Informações Básicas Municipais – MUNIC 2021**. Rio de Janeiro: IBGE, 2022. Dados consultados pela API de pesquisas do IBGE em 23 set. 2026.
 
-MCKENZIE, David. Beyond baseline and follow-up: the case for more T in experiments. **Journal of Development Economics**, v. 99, n. 2, p. 210-221, 2012. DOI: 10.1016/j.jdeveco.2012.01.002.
+MAYNE, John. Useful theory of change models. **Canadian Journal of Program Evaluation**, v. 30, n. 2, p. 119-142, 2015. DOI: 10.3138/cjpe.230.
+
+MOYNIHAN, Donald; HERD, Pamela; HARVEY, Hope. Administrative burden: learning, psychological, and compliance costs in citizen-state interactions. **Journal of Public Administration Research and Theory**, v. 25, n. 1, p. 43-69, 2015. DOI: 10.1093/jopart/muu009.
 
 O'HAGAN, J.; HARVEY, D. Why do companies sponsor arts events? Some evidence and a proposed classification. **Journal of Cultural Economics**, v. 24, n. 3, p. 205-224, 2000. DOI: 10.1023/A:1007653328733.
 
-RAMBACHAN, Ashesh; ROTH, Jonathan. A more credible approach to parallel trends. **The Review of Economic Studies**, v. 90, n. 5, p. 2555-2591, 2023. DOI: 10.1093/restud/rdad018.
-
-SANT'ANNA, Pedro H. C.; ZHAO, Jun. Doubly robust difference-in-differences estimators. **Journal of Econometrics**, v. 219, n. 1, p. 101-122, 2020. DOI: 10.1016/j.jeconom.2020.06.003.
-
 SCHUSTER, J. Mark. Tax incentives in cultural policy. *In*: GINSBURGH, V. A.; THROSBY, D. (ed.). **Handbook of the economics of art and culture**. Amsterdam: Elsevier, 2006. v. 1, p. 1253-1298. DOI: 10.1016/S1574-0676(06)01036-2.
 
-SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Instrução Normativa nº 001, de 31 de janeiro de 2023. **Diário Oficial dos Poderes do Estado**, Vitória, 1º fev. 2023. Disponível em: https://secult.es.gov.br/instrucao-normativa-licc-2023. Acesso em: 24 set. 2026.
+SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Instrução Normativa nº 001, de 31 de janeiro de 2023. **Diário Oficial dos Poderes do Estado**, Vitória, 1º fev. 2023a. Disponível em: https://secult.es.gov.br/instrucao-normativa-licc-2023. Acesso em: 24 set. 2026.
+
+SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Regimento interno da Comissão de Avaliação Permanente (CAP) da Lei de Incentivo à Cultura Capixaba. **Diário Oficial dos Poderes do Estado**, Vitória, 16 fev. 2023b. Disponível em: https://secult.es.gov.br/legislacao-licc. Acesso em: 23 set. 2026.
 
 SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Instrução Normativa nº 001, de 31 de janeiro de 2024. **Diário Oficial dos Poderes do Estado**, Vitória, 1º fev. 2024a. Disponível em: https://secult.es.gov.br/instrucao-normativa-licc-2024. Acesso em: 24 set. 2026.
 
@@ -270,13 +282,13 @@ SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Recursos financ
 
 SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Cultura em Dados**: evento apresenta resultados de pesquisa sobre a Lei de Incentivo à Cultura Capixaba (LICC) e o Boletim da Economia Criativa. Vitória: SECULT, 2026d. Disponível em: https://secult.es.gov.br/cultura-em-dados-evento-apresenta-resultados-de-pesquisa-sobre-a-lei-de-incentivo-a-cultura-capixaba-licc-e-o-boletim-da-economia-criativa. Acesso em: 24 set. 2026. [VERIFICAR: conteúdo lido só pelo resumo do buscador; a página não abriu na coleta automática.]
 
+SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Mapa Cultural do Espírito Santo**: API pública de agentes e oportunidades (inclusive as fases de avaliação da LICC). Vitória: SECULT, 2026e. Disponível em: https://mapa.cultura.es.gov.br. Acesso em: 24 set. 2026.
+
 SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Sobre a LICC**. Vitória: SECULT, [202-]. Disponível em: https://secult.es.gov.br/sobre-a-licc. Acesso em: 24 set. 2026.
 
 SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Lista de projetos habilitados** (seções 2022 a 2026) e **Recurso financeiro captado – 2025**. Vitória: SECULT, 2026b. Disponível em: https://secult.es.gov.br/lista-de-projetos-habilitados. Acesso em: 3 set. 2026.
 
 SILVA, Frederico Augusto Barbosa da. **Financiamento cultural no Brasil contemporâneo**. Brasília: Ipea, 2017. (Texto para Discussão, 2280).
-
-SMITH, T. M. The impact of government funding on private contributions to nonprofit performing arts organizations. **Annals of Public and Cooperative Economics**, v. 78, n. 1, p. 137-160, 2007. DOI: 10.1111/j.1467-8292.2007.00329.x.
 
 TEIXEIRA, Lusvânio Carlos; XAVIER, Wescley Silva; FARIA, Evandro Rodrigues de; BRAVIM, Márcio Teixeira. Relação entre os equipamentos e políticas culturais dos municípios de Minas Gerais e a captação de recursos via Lei Estadual de Incentivo à Cultura. **Interações**, Campo Grande, v. 22, n. 2, p. 405-419, 2021. DOI: 10.20435/inter.v22i2.2965.
 
@@ -288,6 +300,8 @@ THROSBY, David. The production and consumption of the arts: a view of cultural e
 
 WHITE, Howard; RAITZER, David A. **Impact evaluation of development interventions**: a practical guide. Mandaluyong City: Asian Development Bank, 2017. DOI: 10.22617/TCS179188-2.
 
+WILLIAMS, Martin J. External validity and policy adaptation: from impact evaluation to policy design. **The World Bank Research Observer**, v. 35, n. 2, p. 158-191, 2020. [VERIFICAR DOI]
+
 # Declaração de uso de inteligência artificial
 
-[MODELO A CONFERIR — a instrução da disciplina remete a um modelo anexo, conforme a Portaria CNPq nº 2.664/2026, que não foi localizado.] Os autores declaram que utilizaram ferramenta de inteligência artificial generativa (Claude, da Anthropic) como apoio na organização dos dados administrativos, na programação dos scripts de análise, na busca e conferência de referências e na redação de versões preliminares do texto. Todo o conteúdo foi revisado pelos autores, que assumem integral responsabilidade pelos dados, análises, interpretações e conclusões apresentados. As referências foram conferidas nas fontes indicadas, e os dados e scripts estão disponíveis para verificação no repositório citado.
+[Adequar ao modelo anexo às instruções da disciplina.] Os autores utilizaram ferramenta de inteligência artificial generativa (Claude, da Anthropic) como apoio na organização dos dados, na programação dos scripts de análise e das figuras, na busca e conferência de referências e na redação de versões preliminares do texto, conforme a Portaria CNPq nº 2.664/2026. Todo o conteúdo foi revisado pelos autores, que assumem integral responsabilidade pelos dados, análises e conclusões. Dados e scripts estão no repositório citado.

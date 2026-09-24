@@ -124,6 +124,34 @@ N_EXE = sum(S[c]["executados"] for c in S)
 N_EXP = sum(S[c]["captacao_expirada"] for c in S)
 N_PROP = int(d1["proponentes"].iloc[0])
 
+# versão de 24/09/2026 (teoria da mudança com H1-H3): tabelas do script 07
+fun07 = ler(TAB / "07_funil_por_ciclo.csv").set_index("ciclo")
+cap07 = ler(TAB / "07_funil_captacao_anual.csv").set_index("ano_captacao")
+comp07 = ler(TAB / "07_composicao_por_ciclo.csv").set_index("ciclo")
+mapa07 = ler(TAB / "07_mapa_cultural_universo.csv").set_index("recorte")
+rouan07 = ler(TAB / "07_patrocinadores_na_rouanet.csv", ) if False else pd.read_csv(TAB / "07_patrocinadores_na_rouanet.csv", dtype={"cnpj": str, "cnpj_raiz": str})
+poder07 = ler(TAB / "07_poder_hipoteses.csv")
+
+
+def milhar(x: float) -> str:
+    return f"{int(round(x)):,}".replace(",", ".")
+
+
+def rouanet_empresas() -> tuple[int, int, float]:
+    r = rouan07.groupby("cnpj_raiz").agg(a=("aportado_licc_2025", "sum"), inc=("incentivador_rouanet", "any"))
+    return int(r.inc.sum()), int(len(r)), float(r[r.inc].a.sum() / r.a.sum())
+
+
+def faixa_emd(desenho: str, casas: int = 0, fator: float = 100) -> str:
+    v = poder07[poder07.desenho == desenho]["emd_pontos"] * fator
+    return f"{num(v.min(), casas)} a {num(v.max(), casas)}"
+
+
+ROU_N, ROU_T, ROU_SH = rouanet_empresas()
+RES07 = fun07.loc[[2022, 2023, 2024]]
+N1_07, N0_07 = int(RES07["captou"].sum()), int(RES07["expirou"].sum())
+H1B_NOTA = poder07[poder07.desenho.str.startswith("captou")]["nota"].iloc[0]
+
 T = "analise/tabelas/"
 # (id, trecho literal do artigo, valor formatado recalculado, fonte)
 CHECAGENS = [
@@ -292,6 +320,74 @@ CHECAGENS = [
      f"| {num(float(deff.loc[deff.icc_hipotese == 0.2, 'MDE_dp_com_deff_cv'].iloc[0]), 2)} |", T + "05_poder_deff_proponente.csv (EMD com efeito de desenho ajustado por cv)"),
     ("D53", "O universo disponível detecta, portanto, efeitos a partir de 0,25 a 0,45 desvio-padrão",
      f"{num(d1.EMD_dp.min(), 2)} a {num(d1.EMD_dp.max(), 2)}", T + "05_poder_d1_proponente.csv"),
+]
+
+# ---- versão de 24/09/2026: seções 4-6 reescritas (teoria da mudança, auditoria das premissas, perguntas H1-H3).
+# Checagens D01-D64 cujo trecho saiu do texto foram retiradas; ficam as que ainda se aplicam.
+T7 = T + "07_"
+CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D07", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
+CHECAGENS += [
+    ("N01", "termos equivalentes a 28% e 35% do montante foram indeferidos",
+     f"{pct(anu.loc[2023, 'indeferido_sobre_montante'])} e {pct(anu.loc[2024, 'indeferido_sobre_montante'])}", T + "03f_captacao_anual_secult.csv"),
+    ("N02", "Entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
+    ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
+     f"{milhar(mapa07.loc['todos', 'agentes'])} ({milhar(mapa07.loc['coletivo (type=2)', 'agentes'])})", T7 + "mapa_cultural_universo.csv"),
+    ("N04", "68% dos habilitados de 2022-2024 com situação resolvida captaram", pct(N1_07 / (N1_07 + N0_07)), T7 + "funil_por_ciclo.csv"),
+    ("N05", "| Projetos habilitados; proponentes por ciclo | 305; 53, 92 e 95 |",
+     f"{int(RES07['habilitados'].sum())}; {int(comp07.loc[2022, 'proponentes'])}, {int(comp07.loc[2023, 'proponentes'])} e {int(comp07.loc[2024, 'proponentes'])}",
+     T7 + "funil_por_ciclo.csv; 07_composicao_por_ciclo.csv"),
+    ("N06", "| Habilitados com situação resolvida; captaram | 293; 198 |", f"{N1_07 + N0_07}; {N1_07}", T7 + "funil_por_ciclo.csv"),
+    ("N07", "| Taxa de captação entre os resolvidos | 84%; 70%; 55% |",
+     "; ".join(pct(fun07.loc[c, "taxa_captou_sobre_resolvidos"]) for c in (2022, 2023, 2024)), T7 + "funil_por_ciclo.csv"),
+    ("N08", "| Valor com patrocinador que coube no teto | 78%; 74% |",
+     f"{pct(1 / cap07.loc[2023, 'demanda_com_patrocinador_sobre_montante'])}; {pct(1 / cap07.loc[2024, 'demanda_com_patrocinador_sobre_montante'])}",
+     T7 + "funil_captacao_anual.csv"),
+    ("N09", "Estreantes: 56 no ciclo 2024, 26 em 2025, 40 em 2026",
+     f"{int(comp07.loc[2024, 'estreantes_janela_2'])} no ciclo 2024, {int(comp07.loc[2025, 'estreantes_janela_2'])} em 2025, {int(comp07.loc[2026, 'estreantes_janela_2'])} em 2026",
+     T7 + "composicao_por_ciclo.csv"),
+    ("N10", "14 municípios do interior nunca tiveram projeto habilitado", str(int(coorte.loc["nunca (2022-2026)", "municipios"])),
+     T + "03_coortes_primeira_presenca_canonico.csv"),
+    ("N11", "Em 2022-2024, 95 de 293 habilitados expiraram sem captar", f"{N0_07} de {N1_07 + N0_07}", T7 + "funil_por_ciclo.csv"),
+    ("N12", "Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",
+     f"{ {2: 'Duas'}.get(int(float(patr['empresas_para_metade'])), '?')} empresas somam metade da renúncia de 2025; energia e gás, "
+     f"{pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}", T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
+    ("N13", "Execução de 68% na RMGV e 63% no interior",
+     f"{pct(conv_ter.loc['RMGV', 'taxa_execucao'])} na RMGV e {pct(conv_ter.loc['Interior', 'taxa_execucao'])}", T + "03_status_conversao_rmgv_interior_2022_2024.csv"),
+    ("N14", "Recorrentes captam mais (71% contra 57%)",
+     f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'recorrente')].taxa_execucao.iloc[0]))} contra "
+     f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'estreante')].taxa_execucao.iloc[0]))}", T + "03_status_conversao_recorrencia_2023_2024.csv"),
+    ("N15", "termos com patrocinador de 28% e 35% do montante foram indeferidos pela ordem de chegada",
+     f"{pct(anu.loc[2023, 'indeferido_sobre_montante'])} e {pct(anu.loc[2024, 'indeferido_sobre_montante'])}", T + "03f_captacao_anual_secult.csv"),
+    ("N16", "39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então",
+     f"{int(coorte.loc['2022', 'municipios'])} municípios tiveram o primeiro projeto habilitado em 2022, {int(coorte.loc['2023', 'municipios'])} em 2023 e "
+     + ("3 por ciclo" if {int(coorte.loc[c, 'municipios']) for c in ('2024', '2025', '2026')} == {3} else "?"), T + "03_coortes_primeira_presenca_canonico.csv"),
+    ("N17", "Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86% da renúncia",
+     f"Das {ROU_T} empresas que patrocinaram em 2025, {ROU_N} também aparecem como incentivadoras da Lei Rouanet, e elas responderam por {pct(ROU_SH)}",
+     T7 + "patrocinadores_na_rouanet.csv"),
+    ("N18", "caiu de 74% (ciclo 2024) para 57% (2025)",
+     f"{pct(comp07.loc[2024, 'pct_valor_rmgv_atribuivel'])} (ciclo 2024) para {pct(comp07.loc[2025, 'pct_valor_rmgv_atribuivel'])}", T7 + "composicao_por_ciclo.csv"),
+    ("N19", "A RMGV tem 49% da população e fica com 67% do valor atribuível a um município",
+     f"{pct(rmgv.loc['RMGV', 'share_pop_censo2022'])} da população e fica com {pct(rmgv.loc['RMGV', 'share_autorizado_atribuivel'])}",
+     T + "03_territorio_rmgv_interior.csv"),
+    ("N20", "O Gini do valor entre os 78 municípios é 0,88", num(float(terr["gini_valor_78"]), 2), T + "03_territorio_indicadores.csv"),
+    ("N21", "explica só 7% da desigualdade", pct(float(terr["pct_theil_entre_grupos"])), T + "03_territorio_indicadores.csv"),
+    ("N22", "São 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes",
+     f"{N1_07 + N0_07} projetos habilitados em 2022-2024 com situação resolvida, de {H1B_NOTA.split(' proponentes')[0].split('; ')[-1]}",
+     T7 + "poder_hipoteses.csv (nota)"),
+    ("N23", "| H1b: captou × expirou, 2022-2024 | 293 projetos (*T* = 0,68), 172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75) | $p_0$ de 0,2 a 0,6; ρ = 0 ou 0,2 | 14 a 20 |",
+     faixa_emd("captou × expirou, 2022-2024 (observacional)"), T7 + "poder_hipoteses.csv"),
+    ("N24", "| H1b: margem do racionamento, 2023-2024 | 20 a 30 projetos por grupo | $p_0$ de 0,2 a 0,6 | 29 a 43 |",
+     faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv"),
+    ("N25", "| H3: oferta sorteada por agente | 1.000 a 4.000 agentes | $p_0$ de 2% a 10% | 1,2 a 5,3 |",
+     faixa_emd("encorajamento aleatório individual", 1), T7 + "poder_hipoteses.csv"),
+    ("N26", "| H3: oferta sorteada por município | 71 municípios do interior, 20 a 50 agentes cada | $p_0$ de 5% a 10%; ρ de 0,02 a 0,05 | 2,9 a 6,3 |",
+     faixa_emd("encorajamento aleatório por município (interior)", 1), T7 + "poder_hipoteses.csv"),
+    ("N27", "(3 em 56 resolvidos no ciclo 2025)",
+     f"({int(fun07.loc[2025, 'expirou'])} em {int(fun07.loc[2025, 'captou'] + fun07.loc[2025, 'expirou'])}", T7 + "funil_por_ciclo.csv"),
+    ("N29", "172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75)",
+     f"$\\bar m$ = {num(float(poder07[poder07.desenho.str.startswith('captou')]['m'].iloc[0]), 2)}; *cv* = "
+     f"{num(float(H1B_NOTA.split('cv = ')[1].split(';')[0]), 2)}", T7 + "poder_hipoteses.csv (m; nota)"),
+    ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
 ]
 
 
