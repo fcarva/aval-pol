@@ -1,0 +1,87 @@
+{
+ "doi": "10.1590/0034-7612156363",
+ "coletado_utc": "2026-09-24T14:35:42Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Evaluation of public policies in Brazil and the United States: a research analysis in the last 10 years"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Charles David",
+    "family": "Crumpton",
+    "name": null
+   },
+   {
+    "given": "Janann Joslin",
+    "family": "Medeiros",
+    "name": null
+   },
+   {
+    "given": "Vicente da Rocha Soares",
+    "family": "Ferreira",
+    "name": null
+   },
+   {
+    "given": "Marcos de Moraes",
+    "family": "Sousa",
+    "name": null
+   },
+   {
+    "given": "Estela",
+    "family": "Najberg",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista de Administração Pública"
+  ],
+  "publisher": "FapUNIFESP (SciELO)",
+  "type": "journal-article",
+  "volume": "50",
+  "issue": "6",
+  "page": "981-1001",
+  "article_number": null,
+  "issued": [
+   [
+    2016,
+    12
+   ]
+  ],
+  "published_print": [
+   [
+    2016,
+    12
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1590/0034-7612156363",
+  "abstract": "<jats:p>Abstract This study compares research on evaluation of public policies in Brazil and the United States. To examine the extent to which evaluation research has been established in these countries, this article uses the methods of bibliometric and social network analysis to compare recent use of evaluation research in these countries. The results show that Brazil and the United States have focused on the same areas of research, especially the areas of health, education and social welfare. It was also observed that researchers from both countries use research methods, although American researchers make more use of quanti-quali methods, and that research networks on policy evaluation in the two country have similar characteristics, although the average size and density of networks in Brazil is less than that in the United States. On the basis of the evidence, it is concluded that evaluation research in Brazil evolved during the period investigated and is becoming consolidated as a field of study and practice.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2571427083",
+  "title": "Evaluation of public policies in Brazil and the United States: a research analysis in the last 10 years",
+  "publication_year": 2016,
+  "type": "article",
+  "source": "Revista de Administração Pública",
+  "landing_page_url": "https://doi.org/10.1590/0034-7612156363",
+  "authorships": [
+   "Charles David Crumpton",
+   "Janann Joslin Medeiros",
+   "Vicente da Rocha Soares Ferreira",
+   "Marcos de Moraes Sousa",
+   "Estela Najberg"
+  ],
+  "biblio": {
+   "volume": "50",
+   "issue": "6",
+   "first_page": "981",
+   "last_page": "1001"
+  },
+  "cited_by_count": 21,
+  "abstract": "Abstract This study compares research on evaluation of public policies in Brazil and the United States. To examine the extent to which evaluation research has been established in these countries, this article uses the methods of bibliometric and social network analysis to compare recent use of evaluation research in these countries. The results show that Brazil and the United States have focused on the same areas of research, especially the areas of health, education and social welfare. It was also observed that researchers from both countries use research methods, although American researchers make more use of quanti-quali methods, and that research networks on policy evaluation in the two country have similar characteristics, although the average size and density of networks in Brazil is less than that in the United States. On the basis of the evidence, it is concluded that evaluation research in Brazil evolved during the period investigated and is becoming consolidated as a field of study and practice."
+ }
+}

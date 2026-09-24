@@ -1,0 +1,71 @@
+{
+ "doi": "10.7213/rev.dir.econ.soc.v12i3.28653",
+ "coletado_utc": "2026-09-24T14:35:38Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Monitoring and evaluation of public policies in Brazil: conceptual approach and trajectory of legal and institutional development"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Robert",
+    "family": "Bonifácio",
+    "name": null
+   },
+   {
+    "given": "Fabricio Macedo",
+    "family": "Motta",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista de Direito Econômico e Socioambiental"
+  ],
+  "publisher": "Pontificia Universidade Catolica do Parana - PUCPR",
+  "type": "journal-article",
+  "volume": "12",
+  "issue": "2",
+  "page": "340-371",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    9,
+    3
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2021,
+    9,
+    3
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.7213/rev.dir.econ.soc.v12i3.28653",
+  "abstract": "<jats:p>This paper investigates the area of monitoring and evaluation of public policies from a conceptual approach and an interpretation of its institutional development in Brazil. Therefore, we build critical analyzes from the legal and sociopolitical perspectives. Specifically, we define and discuss the political functions of monitoring and evaluation, discuss the emergence and constitution of evaluation systems in Latin America and Brazil, and reflect on the importance of evaluation in the Brazilian legal system, as well as on recent advances in Legislative Power. As main conclusions, we understand that the political use of public policy evaluation works assumes a reallocation function, that there have been institutional advances in the area, but that there are still limitations in relation to the scope of evaluative works.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4206921035",
+  "title": "Monitoring and evaluation of public policies in Brazil: conceptual approach and trajectory of legal and institutional development",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Revista de Direito Econômico e Socioambiental",
+  "landing_page_url": "https://doi.org/10.7213/rev.dir.econ.soc.v12i3.28653",
+  "authorships": [
+   "Robert Bonifácio",
+   "Fabrício Motta"
+  ],
+  "biblio": {
+   "volume": "12",
+   "issue": "2",
+   "first_page": "340",
+   "last_page": "371"
+  },
+  "cited_by_count": 6,
+  "abstract": "This paper investigates the area of monitoring and evaluation of public policies from a conceptual approach and an interpretation of its institutional development in Brazil. Therefore, we build critical analyzes from the legal and sociopolitical perspectives. Specifically, we define and discuss the political functions of monitoring and evaluation, discuss the emergence and constitution of evaluation systems in Latin America and Brazil, and reflect on the importance of evaluation in the Brazilian legal system, as well as on recent advances in Legislative Power. As main conclusions, we understand that the political use of public policy evaluation works assumes a reallocation function, that there have been institutional advances in the area, but that there are still limitations in relation to the scope of evaluative works."
+ }
+}

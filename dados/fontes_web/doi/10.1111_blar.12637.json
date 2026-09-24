@@ -1,0 +1,70 @@
+{
+ "doi": "10.1111/blar.12637",
+ "coletado_utc": "2026-09-24T14:35:35Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Cultura <scp>V</scp>iva, a Challenge to the Creative Economy Policy Discourse in <scp>B</scp>razil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "MAXIMILIANO VILA",
+    "family": "SEOANE",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Bulletin of Latin American Research"
+  ],
+  "publisher": "Wiley",
+  "type": "journal-article",
+  "volume": "36",
+  "issue": "4",
+  "page": "424-439",
+  "article_number": null,
+  "issued": [
+   [
+    2017,
+    3,
+    28
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    10
+   ]
+  ],
+  "published_online": [
+   [
+    2017,
+    3,
+    28
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1111/blar.12637",
+  "abstract": "<jats:p>During the last decade, Brazil has experimented with two different cultural policy discourses. The creative economy policy was inspired by international experiences and places emphasis on the commercialisation of culture, while, by contrast, the ‘Cultura Viva’ initiative is an autochthonous policy discourse that stimulates access to the cultural consumption and production of lower‐income sectors of the population. Both cultural policy discourses speak of the contributions of culture to ‘development’. However, this shibboleth delineates different projects. This article shows the different connections these two policy discourses make with ‘development’ and describes a number of disparities between them.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2598547475",
+  "title": "Cultura V iva, a Challenge to the Creative Economy Policy Discourse in B razil",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "Bulletin of Latin American Research",
+  "landing_page_url": "https://doi.org/10.1111/blar.12637",
+  "authorships": [
+   "Maximiliano Facundo Vila Seoane"
+  ],
+  "biblio": {
+   "volume": "36",
+   "issue": "4",
+   "first_page": "424",
+   "last_page": "439"
+  },
+  "cited_by_count": 9,
+  "abstract": "During the last decade, Brazil has experimented with two different cultural policy discourses. The creative economy policy was inspired by international experiences and places emphasis on the commercialisation of culture, while, by contrast, the ‘Cultura Viva’ initiative is an autochthonous policy discourse that stimulates access to the cultural consumption and production of lower‐income sectors of the population. Both cultural policy discourses speak of the contributions of culture to ‘development’. However, this shibboleth delineates different projects. This article shows the different connections these two policy discourses make with ‘development’ and describes a number of disparities between them."
+ }
+}

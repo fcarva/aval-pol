@@ -1,0 +1,63 @@
+{
+ "doi": "10.1590/S0102-69922014000100011",
+ "coletado_utc": "2026-09-24T14:35:33Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "As políticas culturais brasileiras na contemporaneidade: mudanças institucionais e modelos de agenciamento"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Rodrigo Manoel Dias da",
+    "family": "Silva",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Sociedade e Estado"
+  ],
+  "publisher": "FapUNIFESP (SciELO)",
+  "type": "journal-article",
+  "volume": "29",
+  "issue": "1",
+  "page": "199-224",
+  "article_number": null,
+  "issued": [
+   [
+    2014,
+    4
+   ]
+  ],
+  "published_print": [
+   [
+    2014,
+    4
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1590/s0102-69922014000100011",
+  "abstract": "<jats:p>O artigo objetiva evidenciar um conjunto de mudanças institucionais sofridas pelas políticas culturais brasileiras na contemporaneidade, em escala nacional, e compreender como tais configurações produziram novas formas de agenciamento cultural e de ação política, em escalas locais. Para tal, inicialmente realizou-se uma revisão de estudos sobre as políticas culturais no Brasil, conforme literatura específica. A seguir, mediante acompanhamento sistemático destas políticas em duas cidades brasileiras - Gramado (RS) e São Luiz do Paraitinga (SP) - analisou-se sua implementação e os modos de ação dos atores nesses processos, considerando suas tensões, disputas e interesses em jogo.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2028507518",
+  "title": "As políticas culturais brasileiras na contemporaneidade: mudanças institucionais e modelos de agenciamento",
+  "publication_year": 2014,
+  "type": "article",
+  "source": "Sociedade e Estado",
+  "landing_page_url": "https://doi.org/10.1590/s0102-69922014000100011",
+  "authorships": [
+   "Rodrigo Manoel Dias da Silva"
+  ],
+  "biblio": {
+   "volume": "29",
+   "issue": "1",
+   "first_page": "199",
+   "last_page": "224"
+  },
+  "cited_by_count": 21,
+  "abstract": "O artigo objetiva evidenciar um conjunto de mudanças institucionais sofridas pelas políticas culturais brasileiras na contemporaneidade, em escala nacional, e compreender como tais configurações produziram novas formas de agenciamento cultural e de ação política, em escalas locais. Para tal, inicialmente realizou-se uma revisão de estudos sobre as políticas culturais no Brasil, conforme literatura específica. A seguir, mediante acompanhamento sistemático destas políticas em duas cidades brasileiras - Gramado (RS) e São Luiz do Paraitinga (SP) - analisou-se sua implementação e os modos de ação dos atores nesses processos, considerando suas tensões, disputas e interesses em jogo."
+ }
+}

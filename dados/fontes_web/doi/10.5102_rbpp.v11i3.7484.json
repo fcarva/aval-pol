@@ -1,0 +1,71 @@
+{
+ "doi": "10.5102/RBPP.V11I3.7484",
+ "coletado_utc": "2026-09-24T14:35:31Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "A política de inovação como instrumento de redução das desigualdades regionais no Brasil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Caroline Viriato",
+    "family": "Memória",
+    "name": null
+   },
+   {
+    "given": "Uinie",
+    "family": "Caminha",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista Brasileira de Políticas Públicas"
+  ],
+  "publisher": "Centro de Ensino Unificado de Brasilia",
+  "type": "journal-article",
+  "volume": "11",
+  "issue": "3",
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    3,
+    1
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2022,
+    3,
+    1
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.5102/rbpp.v11i3.7484",
+  "abstract": "<jats:p>O artigo aborda a concentração geográfica da inovação e pondera sobre sua correlação com as desigualdades regionais, com ênfase na análise da Lei nº 11.196/2005, conhecida como Lei do Bem, que cria renúncia fiscal para empresas brasileiras investirem em Pesquisa e Desenvolvimento. A hipótese desta pesquisa é a de que os incentivos da Lei do Bem reforçam a concentração geográfica da inovação e as desigualdades regionais no território nacional. Com base nisso, a realização desta investigação científica tem como objetivo verificar como a política da Lei do Bem pode ser aprimorada para contribuir para a redução das desigualdades regionais do Brasil. A metodologia é quali-quantitativa, teórica, empírica, descritiva e explicativa. Os resultados da pesquisa com dados da Lei do Bem de mais de mil empresas que se beneficiaram dos incentivos da lei entre os anos de 2011 e 2014 confirmam a hipótese da pesquisa de que os incentivos da Lei do Bem reforçam a concentração geográfica das empresas inovadoras nas Regiões Sudeste e Sul e as desigualdades regionais brasileiras. Com base nisso, propõe-se alteração no texto da Lei do Bem para criar incentivos maiores para as empresas investirem em inovação tecnológica e se instalarem nas regiões Norte, Nordeste e Centro-oeste.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4214812433",
+  "title": "A política de inovação como instrumento de redução das desigualdades regionais no Brasil",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "Revista Brasileira de Políticas Públicas",
+  "landing_page_url": "https://doi.org/10.5102/rbpp.v11i3.7484",
+  "authorships": [
+   "Caroline Viriato Memória",
+   "Uinie Caminha"
+  ],
+  "biblio": {
+   "volume": "11",
+   "issue": "3",
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 2,
+  "abstract": "O artigo aborda a concentração geográfica da inovação e pondera sobre sua correlação com as desigualdades regionais, com ênfase na análise da Lei nº 11.196/2005, conhecida como Lei do Bem, que cria renúncia fiscal para empresas brasileiras investirem em Pesquisa e Desenvolvimento. A hipótese desta pesquisa é a de que os incentivos da Lei do Bem reforçam a concentração geográfica da inovação e as desigualdades regionais no território nacional. Com base nisso, a realização desta investigação científica tem como objetivo verificar como a política da Lei do Bem pode ser aprimorada para contribuir para a redução das desigualdades regionais do Brasil. A metodologia é quali-quantitativa, teórica, empírica, descritiva e explicativa. Os resultados da pesquisa com dados da Lei do Bem de mais de mil empresas que se beneficiaram dos incentivos da lei entre os anos de 2011 e 2014 confirmam a hipótese da pesquisa de que os incentivos da Lei do Bem reforçam a concentração geográfica das empresas inovadoras nas Regiões Sudeste e Sul e as desigualdades regionais brasileiras. Com base nisso, propõe-se alteração no texto da Lei do Bem para criar incentivos maiores para as empresas investirem em inovação tecnológica e se instalarem nas regiões Norte, Nordeste e Centro-oeste."
+ }
+}

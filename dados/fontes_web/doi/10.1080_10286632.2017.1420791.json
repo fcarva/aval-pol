@@ -1,0 +1,77 @@
+{
+ "doi": "10.1080/10286632.2017.1420791",
+ "coletado_utc": "2026-09-24T14:35:32Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The institutionalization of Brazilian cultural policies after the military dictatorship (1985–2016)"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Marcelo Augusto",
+    "family": "Pontes de Araujo",
+    "name": null
+   },
+   {
+    "given": "Anna",
+    "family": "Villarroya",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "International Journal of Cultural Policy"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "26",
+  "issue": "1",
+  "page": "1-15",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    1,
+    19
+   ]
+  ],
+  "published_print": [
+   [
+    2020,
+    1,
+    2
+   ]
+  ],
+  "published_online": [
+   [
+    2018,
+    1,
+    19
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/10286632.2017.1420791",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2792318138",
+  "title": "The institutionalization of Brazilian cultural policies after the military dictatorship (1985–2016)",
+  "publication_year": 2018,
+  "type": "article",
+  "source": "International Journal of Cultural Policy",
+  "landing_page_url": "https://doi.org/10.1080/10286632.2017.1420791",
+  "authorships": [
+   "Marcelo Augusto Pontes de Araujo",
+   "Anna Villarroya"
+  ],
+  "biblio": {
+   "volume": "26",
+   "issue": "1",
+   "first_page": "1",
+   "last_page": "15"
+  },
+  "cited_by_count": 10,
+  "abstract": "Cultural policies in Brazil have experienced both advances and setbacks in a predominantly undemocratic institutional environment. The fact that a large part of the population has been constantly deprived of their basic rights has undermined the monitoring and social control of public policies. Within this context, culture, seen historically as a luxury, has been considered relatively unimportant and the policy analyses dedicated to it have not kept pace with other areas such as education and health. Analyses of cultural policies invariably focus on certain sectors or instruments and are dispersed over different disciplines. In this article, we seek to provide an overview and assessment of post-military dictatorship cultural polices in Brazil. To do so, we use a holistic analytical framework in order to assess Brazilian cultural policies through five axes: institutional configuration, instruments of intervention, distribution of competences by levels of government, lobby capacity of actors and logics, and priorities, goals and values of cultural policies."
+ }
+}

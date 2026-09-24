@@ -1,0 +1,73 @@
+{
+ "doi": "10.4025/jphyseduc.v28i1.2834",
+ "coletado_utc": "2026-09-24T14:35:29Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "PERFORMANCE SPORT, TAX WAIVER AND SPORTS INCENTIVE LAW"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Edmilson Santos dos",
+    "family": "Santos",
+    "name": null
+   },
+   {
+    "given": "Luciano",
+    "family": "Juchem",
+    "name": null
+   },
+   {
+    "given": "e Luiz Alcides Ramires",
+    "family": "Maduro",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Journal of Physical Education"
+  ],
+  "publisher": "Universidade Estadual de Maringa",
+  "type": "journal-article",
+  "volume": "28",
+  "issue": "1",
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2017
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2017
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.4025/jphyseduc.v28i1.2834",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2728596212",
+  "title": "PERFORMANCE SPORT, TAX WAIVER AND SPORTS INCENTIVE LAW",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "journal of physical education",
+  "landing_page_url": "https://doi.org/10.4025/jphyseduc.v28i1.2834",
+  "authorships": [
+   "Edmilson Santos dos Santos",
+   "Luciano Juchem",
+   "e Luiz Alcides Ramires Maduro"
+  ],
+  "biblio": {
+   "volume": "28",
+   "issue": "1",
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 4,
+  "abstract": "This study aims to analyze the application of the Sports Incentive Law (SIL) from 2007 to 2011 regarding performance sport. Information about this law was taken straight from the Sports Ministry website. The methodological view attempted to comprise the analysis of authorized raising resources, raised funds, success rate and redistributive factor. Results found allow us to infer that the SLI came up not only to keep the status quo in federal funds distribution, but also to amplify the difference in its application towards more developed regions and countries."
+ }
+}

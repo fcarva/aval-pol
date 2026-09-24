@@ -1,0 +1,73 @@
+{
+ "doi": "10.15448/1980-864X.2022.1.41746",
+ "coletado_utc": "2026-09-24T14:35:36Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Política cultural como instância do desenvolvimento social e do interesse comum no Brasil"
+  ],
+  "subtitle": [
+   "Breve olhar sobre o Vale do Paraíba e Litoral Norte paulista"
+  ],
+  "author": [
+   {
+    "given": "Cilene",
+    "family": "Gomes",
+    "name": null
+   },
+   {
+    "given": "Valéria Regina",
+    "family": "Zanetti",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Estudos Ibero-Americanos"
+  ],
+  "publisher": "EDIPUCRS",
+  "type": "journal-article",
+  "volume": "48",
+  "issue": "1",
+  "page": "e41746",
+  "article_number": null,
+  "issued": [
+   [
+    2022,
+    8,
+    30
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2022,
+    8,
+    30
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.15448/1980-864x.2022.1.41746",
+  "abstract": "<jats:p>O artigo tem o objetivo de compreender a trajetória histórica das políticas culturais no Brasil com a finalidade de situar a desconstrução em curso dessa mesma história e, no sentido inverso dessa tendência, acentuar a revalorização de suas importantes conquistas. Conjugados a esta perspectivação histórico-crítica da política cultural, valeu-se de aportes teóricos sobre as relações entre cultura e desenvolvimento, que culminam com o debate regional sobre a cultura no quadro das discussões gerais em vista do planejamento e do desenvolvimento regional no Vale do Paraíba e Litoral Norte Paulista. Com base em breve perfil de parâmetros indicativos da política cultural nos 39 municípios integrantes da região em foco, salienta-se que, embora a gestão cultural se mostre insuficiente, após a Constituição Federal de 1988, são perceptíveis movimentos regionais pontuais preocupados com a construção de sistemas municipais de cultura alinhados com as diretrizes democráticas da política nacional e interesses comuns de agentes locais comprometidos com a cultura e o planejamento do desenvolvimento regional. Percebeu-se que a discussão sobre sistema nacional, descentralização e atuação sinérgica de agentes locais é essencial para a promoção de políticas culturais; no entanto, é preciso que a cultura seja pensada à luz de um novo saber epistemológico de descolonização do olhar que promova a construção social de sentidos afirmativos de singularidades, de sujeitos, comunidades e lugares. </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4293579641",
+  "title": "Política cultural como instância do desenvolvimento social e do interesse comum no Brasil",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "Estudos Ibero-Americanos",
+  "landing_page_url": "https://doi.org/10.15448/1980-864x.2022.1.41746",
+  "authorships": [
+   "Cilene Gomes",
+   "Valéria Regina Zanetti"
+  ],
+  "biblio": {
+   "volume": "48",
+   "issue": "1",
+   "first_page": "e41746",
+   "last_page": "e41746"
+  },
+  "cited_by_count": 0,
+  "abstract": "O artigo tem o objetivo de compreender a trajetória histórica das políticas culturais no Brasil com a finalidade de situar a desconstrução em curso dessa mesma história e, no sentido inverso dessa tendência, acentuar a revalorização de suas importantes conquistas. Conjugados a esta perspectivação histórico-crítica da política cultural, valeu-se de aportes teóricos sobre as relações entre cultura e desenvolvimento, que culminam com o debate regional sobre a cultura no quadro das discussões gerais em vista do planejamento e do desenvolvimento regional no Vale do Paraíba e Litoral Norte Paulista. Com base em breve perfil de parâmetros indicativos da política cultural nos 39 municípios integrantes da região em foco, salienta-se que, embora a gestão cultural se mostre insuficiente, após a Constituição Federal de 1988, são perceptíveis movimentos regionais pontuais preocupados com a construção de sistemas municipais de cultura alinhados com as diretrizes democráticas da política nacional e interesses comuns de agentes locais comprometidos com a cultura e o planejamento do desenvolvimento regional. Percebeu-se que a discussão sobre sistema nacional, descentralização e atuação sinérgica de agentes locais é essencial para a promoção de políticas culturais; no entanto, é preciso que a cultura seja pensada à luz de um novo saber epistemológico de descolonização do olhar que promova a construção social de sentidos afirmativos de singularidades, de sujeitos, comunidades e lugares."
+ }
+}

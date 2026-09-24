@@ -1,0 +1,77 @@
+{
+ "doi": "10.1080/09548963.2026.2616230",
+ "coletado_utc": "2026-09-24T14:35:41Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Cultural policies for urban peripheries: notes from São Paulo’s experiences"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Ana Carolina Louback",
+    "family": "Lopes",
+    "name": null
+   },
+   {
+    "given": "Eduardo Augusto",
+    "family": "Sena",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Cultural Trends"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "35",
+  "issue": "2-3",
+  "page": "185-202",
+  "article_number": null,
+  "issued": [
+   [
+    2026,
+    1,
+    19
+   ]
+  ],
+  "published_print": [
+   [
+    2026,
+    5,
+    27
+   ]
+  ],
+  "published_online": [
+   [
+    2026,
+    1,
+    19
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/09548963.2026.2616230",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W7124770599",
+  "title": "Cultural policies for urban peripheries: notes from São Paulo’s experiences",
+  "publication_year": 2026,
+  "type": "article",
+  "source": "Cultural Trends",
+  "landing_page_url": "https://doi.org/10.1080/09548963.2026.2616230",
+  "authorships": [
+   "Ana Carolina Louback Lopes",
+   "Eduardo Augusto Sena"
+  ],
+  "biblio": {
+   "volume": "35",
+   "issue": "2-3",
+   "first_page": "185",
+   "last_page": "202"
+  },
+  "cited_by_count": 0,
+  "abstract": "To contribute to the debate around the decentralisation and territorialisation of cultural policies, this article discusses three different strategies employed by the municipality of São Paulo, Brazil, between 2013 and 2016: the restructuring of the Casas de Cultura (Houses of Culture), the implementation of the Circuito Spcine de Cinema (Spcine Cinema Circuit), and the creation of the Programa de Fomento à Cultura da Periferia (Programme for Fostering Culture of the Periphery). This policy review is written by authors who were directly involved in the execution of the related policies. Therefore, rather than offering exemplary experiences, it aims to contribute to the documentation of a journey motivated by the structuring of a cultural policy that addresses a diversity of socio-spatial challenges, which characterise the outskirts of São Paulo. As a result, the article presents a repertoire of strategies to be employed and suggests cultural policy as a systemic process."
+ }
+}

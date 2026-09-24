@@ -1,0 +1,83 @@
+{
+ "doi": "10.1080/17510694.2023.2203397",
+ "coletado_utc": "2026-09-24T14:35:40Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The economic contribution of the cultural sector in Brazil: an input–output approach with different income groups"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Fernanda Souza",
+    "family": "Pereira",
+    "name": null
+   },
+   {
+    "given": "Marcus Vinícius",
+    "family": "Amaral e Silva",
+    "name": null
+   },
+   {
+    "given": "Danyella Juliana Martins de",
+    "family": "Brito",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Creative Industries Journal"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "18",
+  "issue": "2",
+  "page": "224-247",
+  "article_number": null,
+  "issued": [
+   [
+    2023,
+    4,
+    25
+   ]
+  ],
+  "published_print": [
+   [
+    2025,
+    5,
+    4
+   ]
+  ],
+  "published_online": [
+   [
+    2023,
+    4,
+    25
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/17510694.2023.2203397",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4366985215",
+  "title": "The economic contribution of the cultural sector in Brazil: an input–output approach with different income groups",
+  "publication_year": 2023,
+  "type": "article",
+  "source": "Creative Industries Journal",
+  "landing_page_url": "https://doi.org/10.1080/17510694.2023.2203397",
+  "authorships": [
+   "Fernanda Souza Pereira",
+   "Marcus Vinícius Amaral e Silva",
+   "Danyella Juliana Martins de Brito"
+  ],
+  "biblio": {
+   "volume": "18",
+   "issue": "2",
+   "first_page": "224",
+   "last_page": "247"
+  },
+  "cited_by_count": 4,
+  "abstract": "Brazil is characterized by strong income inequality, which is naturally reflected in the consumption of goods and services. Such disparities in access are also reproduced in the artistic and cultural activities sector. Thus, understanding the cultural sector as key to the development of society, the present article evaluates the intersectoral impact of the artistic and cultural activities sector on other sectors of the Brazilian economy. First, this analysis identifies the effects of COVID-19, which allows us to determine how the sector is affected by such a shock in terms of output, employment and income. Subsequently, the relevance of the cultural sector is evaluated by identifying different family income groups with the 2015 input–output matrix published by the Brazilian Institute of Geography and Statistics (IBGE) and information from the Family Budget Survey (POF). The main results indicate that the COVID-19 pandemic, specifically, its effect on the cultural sector, reduced the production of cultural activities by 31.8%, equating to a loss of 237,701 jobs. This result indicates the relevance of the cultural sector for the Brazilian economy. In addition, we show that low income families, a group representing more than 70% of households, are responsible for only 28% of all Brazilian household consumption in the cultural sector. However, families in the highest income bracket, i.e. less than 3% of households, account for 22% of this sector. This result underscores the importance of developing public policies to stimulate consumption among low income groups, given that in addition to the cultural sector’s economic benefits, there are intangible benefits of cultural activity for society."
+ }
+}

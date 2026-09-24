@@ -1,0 +1,77 @@
+{
+ "doi": "10.1108/INMR-11-2020-0167",
+ "coletado_utc": "2026-09-24T14:35:28Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Impact assessment of innovation tax incentives in Brazil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Daniel Gama e",
+    "family": "Colombo",
+    "name": null
+   },
+   {
+    "given": "Helio Nogueira da",
+    "family": "Cruz",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Innovation &amp; Management Review"
+  ],
+  "publisher": "Emerald",
+  "type": "journal-article",
+  "volume": "20",
+  "issue": "1",
+  "page": "28-42",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    6,
+    30
+   ]
+  ],
+  "published_print": [
+   [
+    2023,
+    2,
+    3
+   ]
+  ],
+  "published_online": [
+   [
+    2021,
+    6,
+    30
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1108/inmr-11-2020-0167",
+  "abstract": "<jats:sec><jats:title content-type=\"abstract-subheading\">Purpose</jats:title><jats:p>This paper evaluates the effects of tax incentives on business innovation in Brazil that were established by Law 11,196/05 (the “Fiscal Incentives Law”) to test whether they have had a positive impact on beneficiary firms' innovation input and output and on their performance.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title><jats:p>The policy impacts are estimated using microdata on 13,706 firms available in the 2008 and 2011 editions of the Brazilian Innovation Survey (PINTEC) and by applying propensity score matching with difference-in-differences.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Findings</jats:title><jats:p>The results suggest a positive and statistically significant impact of the policy on research and development (R&amp;D) expenditures (average of approximately US$ 264,000 in 2011), the number of research staff (average of five researchers) and total employment (approximately 5% of the beneficiary firms' mean size). However, no impact was found on the overall spending on innovative activities, the percentage of sales and exports from new products, net revenue or net revenue per employee.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Practical implications</jats:title><jats:p>The findings provide empirical support in favor of tax incentives as a policy tool to boost business innovation in the country. However, the absence of significant effects on innovative activities expenditures and on most indicators of innovation output and firms' performance reveals shortcomings of the policy that need to be addressed.</jats:p></jats:sec><jats:sec><jats:title content-type=\"abstract-subheading\">Originality/value</jats:title><jats:p>The study complements and advances the findings of previous studies by assessing policy impact on total innovative activities expenditures and on innovation output and firm performance.</jats:p></jats:sec>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3175651906",
+  "title": "Impact assessment of innovation tax incentives in Brazil",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Innovation & Management Review",
+  "landing_page_url": "https://doi.org/10.1108/inmr-11-2020-0167",
+  "authorships": [
+   "Daniel Gama e Colombo",
+   "Hélio Nogueira da Cruz"
+  ],
+  "biblio": {
+   "volume": "20",
+   "issue": "1",
+   "first_page": "28",
+   "last_page": "42"
+  },
+  "cited_by_count": 13,
+  "abstract": "Purpose This paper evaluates the effects of tax incentives on business innovation in Brazil that were established by Law 11,196/05 (the “Fiscal Incentives Law”) to test whether they have had a positive impact on beneficiary firms' innovation input and output and on their performance. Design/methodology/approach The policy impacts are estimated using microdata on 13,706 firms available in the 2008 and 2011 editions of the Brazilian Innovation Survey (PINTEC) and by applying propensity score matching with difference-in-differences. Findings The results suggest a positive and statistically significant impact of the policy on research and development (R&D) expenditures (average of approximately US$ 264,000 in 2011), the number of research staff (average of five researchers) and total employment (approximately 5% of the beneficiary firms' mean size). However, no impact was found on the overall spending on innovative activities, the percentage of sales and exports from new products, net revenue or net revenue per employee. Practical implications The findings provide empirical support in favor of tax incentives as a policy tool to boost business innovation in the country. However, the absence of significant effects on innovative activities expenditures and on most indicators of innovation output and firms' performance reveals shortcomings of the policy that need to be addressed. Originality/value The study complements and advances the findings of previous studies by assessing policy impact on total innovative activities expenditures and on innovation output and firm performance."
+ }
+}

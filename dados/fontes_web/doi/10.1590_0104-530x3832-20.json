@@ -1,0 +1,73 @@
+{
+ "doi": "10.1590/0104-530X3832-20",
+ "coletado_utc": "2026-09-24T14:35:30Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Effects of the use of fiscal policy of incentive to innovation in performance of brazilian companies"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Itzhak David Simão",
+    "family": "Kaveski",
+    "name": null
+   },
+   {
+    "given": "Iago França",
+    "family": "Lopes",
+    "name": null
+   },
+   {
+    "given": "Ilse Maria",
+    "family": "Beuren",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Gestão &amp; Produção"
+  ],
+  "publisher": "FapUNIFESP (SciELO)",
+  "type": "journal-article",
+  "volume": "27",
+  "issue": "1",
+  "page": null,
+  "article_number": "e3832",
+  "issued": [
+   [
+    2020
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2020
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1590/0104-530x3832-20",
+  "abstract": "<jats:p>Abstract The literature has some empirical evidence of the effects of fiscal incentives to increase private investment in innovation. Thus, this study aims to analyze the effects of the use of fiscal policy of incentive to innovation in performance of Brazilian companies listed on the Brasil Bolsa Balcão (B3). The research population comprised 494 companies and the sample was different for each performance variable, alternating between 221 and 251 companies. The accounting and market values of the period from 2006 to 2014 were used as performance parameters of the companies, and the use of fiscal policy of incentive to innovation was operationalized with a dummy variable. The data were analyzed by means of logistic regression. The results related to the accounting indicators show that the ROA, ROCE and ROE are positively and significantly related to the Innovation Incentive Tax Policy. While these measures may encourage companies to increase investments in Research, Development &amp; Innovation (RD&amp;I), they create distortions between companies and sectors because of the effects of these unsubsidized measures. As for the results related to market indicators no significant relationships were found. These results show that government actions and the posture of companies to make their RD&amp;I practices less costly are still not captured by the market. It is concluded that the use of fiscal policy of incentive to innovation is reflected in the performance of the companies surveyed in the analyzed period, which is partly explained by the fact that they are allowed to deduct investments in RD&amp;I in the tax base.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3003345643",
+  "title": "Effects of the use of fiscal policy of incentive to innovation in performance of brazilian companies",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Gestão & Produção",
+  "landing_page_url": "https://doi.org/10.1590/0104-530x3832-20",
+  "authorships": [
+   "Itzhak David Simão Kaveski",
+   "Iago França Lopes",
+   "Ilse María Beuren"
+  ],
+  "biblio": {
+   "volume": "27",
+   "issue": "1",
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 3,
+  "abstract": "Abstract The literature has some empirical evidence of the effects of fiscal incentives to increase private investment in innovation. Thus, this study aims to analyze the effects of the use of fiscal policy of incentive to innovation in performance of Brazilian companies listed on the Brasil Bolsa Balcão (B3). The research population comprised 494 companies and the sample was different for each performance variable, alternating between 221 and 251 companies. The accounting and market values of the period from 2006 to 2014 were used as performance parameters of the companies, and the use of fiscal policy of incentive to innovation was operationalized with a dummy variable. The data were analyzed by means of logistic regression. The results related to the accounting indicators show that the ROA, ROCE and ROE are positively and significantly related to the Innovation Incentive Tax Policy. While these measures may encourage companies to increase investments in Research, Development & Innovation (RD&I), they create distortions between companies and sectors because of the effects of these unsubsidized measures. As for the results related to market indicators no significant relationships were found. These results show that government actions and the posture of companies to make their RD&I practices less costly are still not captured by the market. It is concluded that the use of fiscal policy of incentive to innovation is reflected in the performance of the companies surveyed in the analyzed period, which is partly explained by the fact that they are allowed to deduct investments in RD&I in the tax base."
+ }
+}

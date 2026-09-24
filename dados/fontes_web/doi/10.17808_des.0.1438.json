@@ -1,0 +1,65 @@
+{
+ "doi": "10.17808/des.0.1438",
+ "coletado_utc": "2026-09-24T14:35:37Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Democracia e sistema de proteção do patrimônio cultural no Brasil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Renata",
+    "family": "Ovenhausen Albernaz",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista Direito, Estado e Sociedade"
+  ],
+  "publisher": "Programa de Pos Graduacao em Direito da PUC-Rio",
+  "type": "journal-article",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2020,
+    12,
+    15
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2020,
+    12,
+    15
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.17808/des.0.1438",
+  "abstract": "<jats:p>Resumo: Essa investigação analisou os principais instrumentos e políticas estatais de proteção do patrimônio cultural no Brasil. A pesquisa questionou se as alterações realizadas nesses instrumentos e políticas, nas últimas décadas, cooperaram para um processo de democracia cultural no país. Em função da amplitude do tema, essa democracia foi verificada nas seguintes categorias indicativas: ações estatais para delimitar e reconhecer os mais diversos enclaves patrimoniais; e ações estatais para condicionar a vitalidade e a reprodução da vida comunitária com esse patrimônio. Para inferir essa democracia cultural, foi realizada uma revisão crítica da literatura e sobre a legislação sobre o tombamento, o registro do patrimônio imaterial e sobre as políticas culturais e de investimento estatal federal no patrimônio. Como resultados, verificou-se que as transformações nesses instrumentos e políticas estão alicerçadas em uma base legal e política programática de democracia cultural. Mas, são pontuados, ainda, alguns entraves e resiliências institucionais em consolidar essa democracia no ritmo e na dimensão que ela exigiria no Brasil.Palavras-chave: democracia cultural do patrimônio, Teoria da Delimitação dos Sistema Sociais, instituições patrimoniais estatais, enclaves patrimoniais, vitalidade social do patrimônio.Abstract: This investigation analyzed the main state instruments and policies for the protection of cultural heritage in Brazil. The research questioned whether the changes made in these instruments and policies in recent decades have cooperated with a process of cultural democracy in the country. Because of the breadth of the theme, this democracy was verified in the following qualitative indicators: state actions to delimit and recognize the most diverse heritage enclaves; and state actions to condition the vitality and reproduction of community life with this heritage. To infer this cultural democracy, a critical review was carried out of the literature and of the laws about cultural policies and federal state investment in cultural heritage. As a result, it was found that the transformations in these instruments and policies are based on a programmatic legal and political basis of cultural democracy. However, some institutional obstacles and resiliences to consolidate this democracy in the rhythm and dimension that it would demand in Brazil are also pointed out.Keywords: cultural heritage democracy, state heritage institutions, Theory of the Delimitation of Social Systems, heritage enclaves, social vitality of the heritage.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3110855738",
+  "title": "Democracia e sistema de proteção do patrimônio cultural no Brasil",
+  "publication_year": 2020,
+  "type": "article",
+  "source": "Revista Direito Estado e Sociedade",
+  "landing_page_url": "https://doi.org/10.17808/des.0.1438",
+  "authorships": [
+   "Renata Ovenhausen Albernaz"
+  ],
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 2,
+  "abstract": "Resumo: Essa investigação analisou os principais instrumentos e políticas estatais de proteção do patrimônio cultural no Brasil. A pesquisa questionou se as alterações realizadas nesses instrumentos e políticas, nas últimas décadas, cooperaram para um processo de democracia cultural no país. Em função da amplitude do tema, essa democracia foi verificada nas seguintes categorias indicativas: ações estatais para delimitar e reconhecer os mais diversos enclaves patrimoniais; e ações estatais para condicionar a vitalidade e a reprodução da vida comunitária com esse patrimônio. Para inferir essa democracia cultural, foi realizada uma revisão crítica da literatura e sobre a legislação sobre o tombamento, o registro do patrimônio imaterial e sobre as políticas culturais e de investimento estatal federal no patrimônio. Como resultados, verificou-se que as transformações nesses instrumentos e políticas estão alicerçadas em uma base legal e política programática de democracia cultural. Mas, são pontuados, ainda, alguns entraves e resiliências institucionais em consolidar essa democracia no ritmo e na dimensão que ela exigiria no Brasil.Palavras-chave: democracia cultural do patrimônio, Teoria da Delimitação dos Sistema Sociais, instituições patrimoniais estatais, enclaves patrimoniais, vitalidade social do patrimônio.Abstract: This investigation analyzed the main state instruments and policies for the protection of cultural heritage in Brazil. The research questioned whether the changes made in these instruments and policies in recent decades have cooperated with a process of cultural democracy in the country. Because of the breadth of the theme, this democracy was verified in the following qualitative indicators: state actions to delimit and recognize the most diverse heritage enclaves; and state actions to condition the vitality and reproduction of community life with this heritage. To infer this cultural democracy, a critical review was carried out of the literature and of the laws about cultural policies and federal state investment in cultural heritage. As a result, it was found that the transformations in these instruments and policies are based on a programmatic legal and political basis of cultural democracy. However, some institutional obstacles and resiliences to consolidate this democracy in the rhythm and dimension that it would demand in Brazil are also pointed out.Keywords: cultural heritage democracy, state heritage institutions, Theory of the Delimitation of Social Systems, heritage enclaves, social vitality of the heritage."
+ }
+}

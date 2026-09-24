@@ -1,0 +1,77 @@
+{
+ "doi": "10.1080/17510694.2017.1318255",
+ "coletado_utc": "2026-09-24T14:35:35Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Stuck in the middle of nowhere: cultural policy, development and creative industries in Brazil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Diego",
+    "family": "Santos Vieira de Jesus",
+    "name": null
+   },
+   {
+    "given": "Daniel",
+    "family": "Kamlot",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Creative Industries Journal"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "10",
+  "issue": "2",
+  "page": "139-154",
+  "article_number": null,
+  "issued": [
+   [
+    2017,
+    4,
+    21
+   ]
+  ],
+  "published_print": [
+   [
+    2017,
+    5,
+    4
+   ]
+  ],
+  "published_online": [
+   [
+    2017,
+    4,
+    21
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/17510694.2017.1318255",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2606019038",
+  "title": "Stuck in the middle of nowhere: cultural policy, development and creative industries in Brazil",
+  "publication_year": 2017,
+  "type": "article",
+  "source": "Creative Industries Journal",
+  "landing_page_url": "https://doi.org/10.1080/17510694.2017.1318255",
+  "authorships": [
+   "Diego Santos Vieira de Jesús",
+   "Daniel Kamlot"
+  ],
+  "biblio": {
+   "volume": "10",
+   "issue": "2",
+   "first_page": "139",
+   "last_page": "154"
+  },
+  "cited_by_count": 14,
+  "abstract": "Based on the theoretical works of Amartya Sen and Celso Furtado on the relationship between culture and development, this paper aims to examine the relevance of cultural policy for the development of creative industries in Brazil and identify the main obstacles to the formulation and implementation of cultural policy related to Brazilian creative industries. The central argument indicates that culture expands human freedoms when it admits alternative solutions to social problems by leveraging talent and resources of each country. When cultural policy stimulates creative industries, it brings the possibility of consolidating regional and national identities, promoting cultural diversity and a more democratic access to cultural goods and services, and generating income and job opportunities as a socioeconomic inclusion factor. However, Brazil still lacks the continuity of cultural policies related to creative industries and suffers from financial constraints, the deficiency of technical staff and clientelistic relationships that result in greater dependence of creative professionals on Brazilian Government members."
+ }
+}

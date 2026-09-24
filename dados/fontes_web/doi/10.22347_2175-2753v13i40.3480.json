@@ -1,0 +1,71 @@
+{
+ "doi": "10.22347/2175-2753v13i40.3480",
+ "coletado_utc": "2026-09-24T14:35:39Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Avaliação da Implementação de Políticas e Programas Públicos no Brasil: uma discussão das dimensões analíticas"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "WANDILSON ALISSON SILVA",
+    "family": "LIMA",
+    "name": null
+   },
+   {
+    "given": "Vera Lúcia Peixoto Santos",
+    "family": "Mendes",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Revista Meta: Avaliação"
+  ],
+  "publisher": "Revista Meta - Avaliacao",
+  "type": "journal-article",
+  "volume": "13",
+  "issue": "40",
+  "page": "674",
+  "article_number": null,
+  "issued": [
+   [
+    2021,
+    9,
+    30
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2021,
+    9,
+    30
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.22347/2175-2753v13i40.3480",
+  "abstract": "<jats:p>A avaliação de políticas e programas públicos brasileiros tem sido um dispositivo indispensável no aprimoramento da gestão governamental. Este ensaio teórico tem o objetivo de discutir as dimensões conceituais-analíticas para avaliação da implementação de políticas e programas públicos no Brasil. O estudo foi construído a partir de uma pesquisa bibliográfica, que além dos artigos científicos, utilizou-se livros e frameworks para a constituição das dimensões analíticas. Essas dimensões foram concebidas por análise de: conteúdo da formulação, contexto, processo de implementação, recursos, atores sociais envolvidos e alcance. Espera-se que os achados subsidiem pesquisas que busquem avaliar a implementação de diversas políticas e programas públicos brasileiros, de acordo com as especificidades contextuais e limitações.</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3201884476",
+  "title": "Avaliação da Implementação de Políticas e Programas Públicos no Brasil: uma discussão das dimensões analíticas",
+  "publication_year": 2021,
+  "type": "article",
+  "source": "Revista Meta Avaliação",
+  "landing_page_url": "https://doi.org/10.22347/2175-2753v13i40.3480",
+  "authorships": [
+   "Wandilson Alisson Silva Lima",
+   "Vera Lúcia Peixoto Santos Mendes"
+  ],
+  "biblio": {
+   "volume": "13",
+   "issue": "40",
+   "first_page": "674",
+   "last_page": "674"
+  },
+  "cited_by_count": 4,
+  "abstract": "A avaliação de políticas e programas públicos brasileiros tem sido um dispositivo indispensável no aprimoramento da gestão governamental. Este ensaio teórico tem o objetivo de discutir as dimensões conceituais-analíticas para avaliação da implementação de políticas e programas públicos no Brasil. O estudo foi construído a partir de uma pesquisa bibliográfica, que além dos artigos científicos, utilizou-se livros e frameworks para a constituição das dimensões analíticas. Essas dimensões foram concebidas por análise de: conteúdo da formulação, contexto, processo de implementação, recursos, atores sociais envolvidos e alcance. Espera-se que os achados subsidiem pesquisas que busquem avaliar a implementação de diversas políticas e programas públicos brasileiros, de acordo com as especificidades contextuais e limitações."
+ }
+}

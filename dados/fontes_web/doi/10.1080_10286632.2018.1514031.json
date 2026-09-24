@@ -1,0 +1,77 @@
+{
+ "doi": "10.1080/10286632.2018.1514031",
+ "coletado_utc": "2026-09-24T14:35:32Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Brazilian cultural policies during the workers’ party governments: challenges for the development of cultural citizenship"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Antonio Albino Canelas",
+    "family": "Rubim",
+    "name": null
+   },
+   {
+    "given": "Sophia Cardoso",
+    "family": "Rocha",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "International Journal of Cultural Policy"
+  ],
+  "publisher": "Informa UK Limited",
+  "type": "journal-article",
+  "volume": "24",
+  "issue": "5",
+  "page": "611-627",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    9,
+    3
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    9,
+    3
+   ]
+  ],
+  "published_online": [
+   [
+    2018,
+    11,
+    26
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.1080/10286632.2018.1514031",
+  "abstract": null
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2902924319",
+  "title": "Brazilian cultural policies during the workers’ party governments: challenges for the development of cultural citizenship",
+  "publication_year": 2018,
+  "type": "article",
+  "source": "International Journal of Cultural Policy",
+  "landing_page_url": "https://doi.org/10.1080/10286632.2018.1514031",
+  "authorships": [
+   "Antônio Albino Canelas Rubim",
+   "Sophia Cardoso Rocha"
+  ],
+  "biblio": {
+   "volume": "24",
+   "issue": "5",
+   "first_page": "611",
+   "last_page": "627"
+  },
+  "cited_by_count": 2,
+  "abstract": "The presidential elections that brought the Workers’ Party (Partido dos Trabalhadores, or PT) to federal power represented a new moment for Brazil with the implementation of democratic, inclusive and sovereign policies. In the area of culture, the Ministry of Culture reclaimed a leadership role for the State and developed public policies with the critical participation of civil society. During the administrations of presidents Luis Inácio Lula da Silva and Dilma Rousseff, culture finally reached a new level. This article seeks to determine to what extent the cultural policies undertaken by these administrations promoted cultural citizenship. Based on a study of the course of cultural policies in the country, we argue that despite a conceptual and ideological orientation in this direction, the Ministry was unable to surpass certain barriers and overcome longstanding problems."
+ }
+}

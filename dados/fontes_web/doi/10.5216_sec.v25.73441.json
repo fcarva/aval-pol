@@ -1,0 +1,71 @@
+{
+ "doi": "10.5216/sec.v25.73441",
+ "coletado_utc": "2026-09-24T14:35:34Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Economia popular e políticas culturais no Brasil"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Cleber",
+    "family": "Dias",
+    "name": null
+   },
+   {
+    "given": "Wecisley Ribeiro",
+    "family": "Espírito Santo",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "Sociedade e Cultura"
+  ],
+  "publisher": "Universidade Federal de Goias",
+  "type": "journal-article",
+  "volume": "25",
+  "issue": null,
+  "page": null,
+  "article_number": null,
+  "issued": [
+   [
+    2023,
+    2,
+    10
+   ]
+  ],
+  "published_print": null,
+  "published_online": [
+   [
+    2023,
+    2,
+    10
+   ]
+  ],
+  "isbn": null,
+  "url": "https://doi.org/10.5216/sec.v25.73441",
+  "abstract": "<jats:p>Baseado em uma ampla revisão, o ensaio analisa relações entre mercados culturais e políticas públicas no Brasil. Mais especificamente, examina-se concepções que presidem essas políticas, marcadas por dicotomias, em grande medida, distintas das concepções que presidem práticas de amplos setores. Concepções hegemônicas tendem a enquadrar negativamente processos de comercialização da cultura, enquanto práticas cotidianas populares podem reconhecer nas relações de mercado, que dinamizam a produção, a circulação e o consumo desses bens e serviços, uma forma positiva de atribuição de valor social. Esse divórcio entre concepções hegemônicas e práticas populares têm consequências para a efetividade das políticas, especialmente por causa da subestimação do papel das cadeias comerciais de ofertas informais e populares de cultura. Como alternativa, apontamos para possíveis vantagens dessas políticas atuarem em favor da oferta de bens e serviços culturais através de relações de mercado, ao invés apenas das tradicionais tentativas de fazê-lo por meio do provimento público. </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W4320914469",
+  "title": "Economia popular e políticas culturais no Brasil",
+  "publication_year": 2023,
+  "type": "article",
+  "source": "Sociedade e Cultura",
+  "landing_page_url": "https://doi.org/10.5216/sec.v25.73441",
+  "authorships": [
+   "Cléber Dias",
+   "Wecisley Ribeiro Espírito Santo"
+  ],
+  "biblio": {
+   "volume": "25",
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "cited_by_count": 0,
+  "abstract": "Baseado em uma ampla revisão, o ensaio analisa relações entre mercados culturais e políticas públicas no Brasil. Mais especificamente, examina-se concepções que presidem essas políticas, marcadas por dicotomias, em grande medida, distintas das concepções que presidem práticas de amplos setores. Concepções hegemônicas tendem a enquadrar negativamente processos de comercialização da cultura, enquanto práticas cotidianas populares podem reconhecer nas relações de mercado, que dinamizam a produção, a circulação e o consumo desses bens e serviços, uma forma positiva de atribuição de valor social. Esse divórcio entre concepções hegemônicas e práticas populares têm consequências para a efetividade das políticas, especialmente por causa da subestimação do papel das cadeias comerciais de ofertas informais e populares de cultura. Como alternativa, apontamos para possíveis vantagens dessas políticas atuarem em favor da oferta de bens e serviços culturais através de relações de mercado, ao invés apenas das tradicionais tentativas de fazê-lo por meio do provimento público."
+ }
+}
