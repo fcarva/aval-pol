@@ -18,8 +18,8 @@ Saídas:
   dados/fontes_web/manifesto.csv          id, url, status HTTP, tipo, bytes, sha256, data da coleta (UTC)
 
 Idempotente: o que já está no manifesto com status 200 não é buscado de novo (use --forcar).
-Etapas: --etapa refs (DOIs, buscas e páginas), --etapa salic, ou as duas (padrão). O workflow roda
-as etapas separadas e faz um commit depois de cada uma, para o SALIC (lento) não segurar o resto.
+Etapas: --etapa refs (DOIs e buscas), --etapa paginas, --etapa salic, ou todas (padrão). O workflow
+roda as etapas separadas e faz um commit depois de cada uma: página lenta ou SALIC não seguram o resto.
 Não envia e-mail nem identificação pessoal às APIs; o User-Agent aponta para o repositório.
 """
 from __future__ import annotations
@@ -71,7 +71,7 @@ def gravar_manifesto(m: dict[str, dict]) -> None:
 def get(url: str, **kw) -> requests.Response | None:
     for tent in range(3):
         try:
-            r = requests.get(url, headers=UA, timeout=60, **kw)
+            r = requests.get(url, headers=UA, timeout=(15, 45), **kw)
             if r.status_code in (429, 502, 503, 504):
                 time.sleep(5 * (tent + 1))
                 continue
@@ -272,6 +272,8 @@ def main() -> None:
         gravar_manifesto(man)
         buscar_bibliografia(man, forcar)
         gravar_manifesto(man)
+    if etapa in ("paginas", "tudo"):
+        man = ler_manifesto()
         buscar_paginas(man, forcar)
         gravar_manifesto(man)
     if etapa in ("salic", "tudo"):

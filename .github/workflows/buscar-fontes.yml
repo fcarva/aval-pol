@@ -26,9 +26,10 @@ on:
 permissions:
   contents: write
 
+# Um run novo cancela o anterior do mesmo ramo: a coleta é idempotente e cada etapa já fez commit.
 concurrency:
   group: buscar-fontes-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   buscar:
@@ -48,12 +49,22 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
           pip install -q requests pandas numpy beautifulsoup4
 
-      - name: Buscar referências e páginas
+      - name: DOIs e buscas bibliográficas
+        timeout-minutes: 20
         run: python analise/rede/buscar_fontes.py --etapa refs ${{ inputs.forcar && '--forcar' || '' }}
 
-      - name: Devolver referências e páginas por commit
+      - name: Devolver DOIs e buscas por commit
         if: always()
-        run: bash analise/rede/devolver.sh "referências e páginas"
+        run: bash analise/rede/devolver.sh "DOIs e buscas"
+
+      - name: Páginas
+        timeout-minutes: 30
+        continue-on-error: true
+        run: python analise/rede/buscar_fontes.py --etapa paginas ${{ inputs.forcar && '--forcar' || '' }}
+
+      - name: Devolver páginas por commit
+        if: always()
+        run: bash analise/rede/devolver.sh "páginas"
 
       - name: SALIC (lento; não segura o resto)
         timeout-minutes: 60
