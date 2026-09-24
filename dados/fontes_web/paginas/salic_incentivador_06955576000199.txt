@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=06955576000199&format=json
+# Coletado (UTC): 2026-09-24T01:47:44Z
+# sha256 do original: 680ded248161b0e0569136b3fb497c423c6ef0cf4bbba0ab38f1c03106793893
+
+{"_embedded":{"incentivadores":[{"nome":"ITAPOA SUPERMERCADO LTDA.","municipio":"Vila Velha","UF":"ES","responsavel":"fabiola brand\u00e3o","total_doado":142000,"tipo_pessoa":"juridica","cgccpf":"06955576000199","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/f318d263c0342b7a6d70be5cf9b4a2cbeb3fe27078a596110a51ccf0d83a","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/3d13ed6d29bbdc350b09f591636d45a97cf02d49c6aede6e8878d021303a\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=06955576000199&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=06955576000199&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

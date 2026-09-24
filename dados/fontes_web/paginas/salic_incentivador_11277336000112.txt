@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=11277336000112&format=json
+# Coletado (UTC): 2026-09-24T01:49:04Z
+# sha256 do original: 81dad27fa39bea1bd62b277ef1411136e7c2b6d3163b8a55b868beeaf080ed04
+
+{"_embedded":{"incentivadores":[{"nome":"V.M. COMERCIO DE AUTOMOVEIS LTDA","municipio":"Vit\u00f3ria","UF":"ES","responsavel":"","total_doado":212767,"tipo_pessoa":"juridica","cgccpf":"11277336000112","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/362150d697df6e61a35a1263b0acb3554cd7426b2e314c462d1f5c436f58","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/ed70034faf17a77deb4d32fb64a9d21904223c3a33bf82915481dbf5d042\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=11277336000112&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=11277336000112&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

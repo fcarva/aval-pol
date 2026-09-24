@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=31790710000196&format=json
+# Coletado (UTC): 2026-09-24T01:51:41Z
+# sha256 do original: 82e5c15f176bb4222ecee4ddd6ee9c65d10f3eff6f6bbde407de6f978de86171
+
+{"_embedded":{"incentivadores":[{"nome":"IMETAME METALMECANICA LTDA","municipio":"Aracruz","UF":"ES","responsavel":".","total_doado":7132824.65,"tipo_pessoa":"juridica","cgccpf":"31790710000196","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/13989d34375ccb91c31035ce18d2fe2d8084c260587d8e26f7336c58b22c","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/2c17fbd0a444fbab894ca830994f51aed13f1539c6b18c8c139978a74c38\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=31790710000196&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=31790710000196&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

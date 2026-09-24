@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=34307295000165&format=json
+# Coletado (UTC): 2026-09-24T01:52:16Z
+# sha256 do original: 90d022c9a56872afa20dac12f9893b64a7759827929bb76bebd1670cb8fe16c9
+
+{"_embedded":{"incentivadores":[{"nome":"COMPANHIA DE GAS DO ESPIRITO SANTO - ES GAS","municipio":"Vit\u00f3ria","UF":"ES","responsavel":"","total_doado":2102073.62,"tipo_pessoa":"juridica","cgccpf":"34307295000165","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/8ca46a2e0b2f9684c8f1b84a0bd9d6322242b6f2de6a1f806d253c93f8cd","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/c0aeef1680275eb25b3ac251c7e1c9705c75692092c982da021dded17551\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=34307295000165&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=34307295000165&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

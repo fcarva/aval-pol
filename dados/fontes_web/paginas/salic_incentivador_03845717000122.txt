@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=03845717000122&format=json
+# Coletado (UTC): 2026-09-24T01:43:34Z
+# sha256 do original: f2adb191d44bb0c6c1f8cf077ef146a9ce2f201e057cbc46f2adbdc8a924c355
+
+{"_embedded":{"incentivadores":[{"nome":"REALMAR DISTRIBUIDORA LTDA.","municipio":"Serra","UF":"ES","responsavel":" ","total_doado":641808,"tipo_pessoa":"juridica","cgccpf":"03845717000122","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/345388dcbcc04ddc3497073298f7a160f9057815226d7972fde25faf18f5","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/f9ef3f44883c3e8f7fde17f10460d216120d111e1bde34ddb118a02f3c1f\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=03845717000122&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=03845717000122&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

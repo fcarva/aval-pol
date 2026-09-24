@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=31759699000363&format=json
+# Coletado (UTC): 2026-09-24T01:51:26Z
+# sha256 do original: a59f419fad80273e44d747a4027761b52cc68c45691a6799927f170e1c6e3a7a
+
+{"_embedded":{"incentivadores":[{"nome":"Comercial Devens Ltda.","municipio":"Vit\u00f3ria","UF":"ES","responsavel":"Adriana Leandro da Silva","total_doado":279004,"tipo_pessoa":"juridica","cgccpf":"31759699000363","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/0198613174f178da06ddff28e7fc39f926885d3667706d7407de42ecae70","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/d91b392a196e689c2a9f9027193ee2e5e892aeab781d7bf30a9d948e9ffc\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=31759699000363&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=31759699000363&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

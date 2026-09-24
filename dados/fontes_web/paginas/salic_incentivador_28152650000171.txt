@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=28152650000171&format=json
+# Coletado (UTC): 2026-09-24T01:50:23Z
+# sha256 do original: 0393db52d9cbe57748f93b34f3350bbc89325b30e9e93dc01665392d568b6a92
+
+{"_embedded":{"incentivadores":[{"nome":"EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.","municipio":"Vit\u00f3ria","UF":"ES","responsavel":" ","total_doado":16518906.76,"tipo_pessoa":"juridica","cgccpf":"28152650000171","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/bf19df29bec701ee44258ef56107eb233b60d58b95dff79c466eed406b2a","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/e69a5d03ac447a16e88c17d45548805f5a9894d6235c9e80553d2016094d\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=28152650000171&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=28152650000171&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

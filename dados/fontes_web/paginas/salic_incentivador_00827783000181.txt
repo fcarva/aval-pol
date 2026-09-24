@@ -1,5 +1,5 @@
 # Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=00827783000181&format=json
-# Coletado (UTC): 2026-09-24T01:41:26Z
+# Coletado (UTC): 2026-09-24T01:43:07Z
 # sha256 do original: ba15b6de85374e6cdbed114bd121bf669cabe758c130caad4ba5b2ada012713a
 
 {"_embedded":{"incentivadores":[{"nome":"Kurum\u00e1 Ve\u00edculos S\/A","municipio":"Vit\u00f3ria","UF":"ES","responsavel":"Ricardo Reichmann","total_doado":584342,"tipo_pessoa":"juridica","cgccpf":"00827783000181","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/4041d166649585bf24ead90d8860108f0bf5db82eb900128be7502f36352","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/5096e3cf773c2ae4085d88849e78a1743fa6c3cff90e6de1ea93fcae16b1\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=00827783000181&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=00827783000181&format=json&limit=100&offset=0"},"count":1,"total":1}

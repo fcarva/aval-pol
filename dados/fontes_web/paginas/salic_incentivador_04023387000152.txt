@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=04023387000152&format=json
+# Coletado (UTC): 2026-09-24T01:46:32Z
+# sha256 do original: 51655039726d4d83578e85b0374d2474dc68aa94e07cff28ec312286ab850772
+
+{"_embedded":{"incentivadores":[{"nome":"DECOLORES MARMORES E GRANITOS DO BRASIL S.A.","municipio":"Cachoeiro de Itapemirim","UF":"ES","responsavel":" ","total_doado":1992700,"tipo_pessoa":"juridica","cgccpf":"04023387000152","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/dec05e712f1c6a8dfbc125481caa146b7c70af1c0a9cfe57fba5af4a257c","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/f1633f93bfce08af14ff3c2e6e2a9d4b90c956a8ff158068b27cd1b6e9dd\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=04023387000152&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=04023387000152&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

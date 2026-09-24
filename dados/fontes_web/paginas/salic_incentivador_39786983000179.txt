@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=39786983000179&format=json
+# Coletado (UTC): 2026-09-24T01:52:33Z
+# sha256 do original: 9a65c860268caedf3850f83b97f175a1d0f084cb3bc3cfce68b04b099bdfb6f3
+
+{"_embedded":{"incentivadores":[{"nome":"VD com\u00e9rcio de Ve\u00edculos Ltda","municipio":"Cariacica","UF":"ES","responsavel":"Riguel Chieppe","total_doado":769709,"tipo_pessoa":"juridica","cgccpf":"39786983000179","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/3b748e72f8eb4f50ee661817398aac22d2b988ef34c873cdadb5ee39c772","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/f95985d276992b224864098137fb4e0e747784d95a876f920e76ff9d9e47\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=39786983000179&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=39786983000179&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página

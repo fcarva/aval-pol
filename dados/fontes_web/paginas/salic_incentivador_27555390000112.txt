@@ -1,0 +1,7 @@
+# Fonte: https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf=27555390000112&format=json
+# Coletado (UTC): 2026-09-24T01:49:52Z
+# sha256 do original: 37f880b8df11f4cd0dc83297e87d3318067d3822781c596cea45c70171a9896f
+
+{"_embedded":{"incentivadores":[{"nome":"SUPERMERCADOS ARACRUZ LTDA ","municipio":"Aracruz","UF":"ES","responsavel":" ","total_doado":193340,"tipo_pessoa":"juridica","cgccpf":"27555390000112","_links":{"self":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/6621ef0ee0d1683f90467f86310db9b22ce0349c5cea9f78c8cc058e61e2","doacoes":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores\/e262df2d8ce11a676fe30e97b629f3cd423aadec52175df568dc70376ed2\/doacoes"}}]},"_links":{"self":"http:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores","first":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=27555390000112&format=json&limit=100&offset=0","last":"https:\/\/api.salic.cultura.gov.br\/api\/v1\/incentivadores?cgccpf=27555390000112&format=json&limit=100&offset=0"},"count":1,"total":1}
+
+## Links da página
