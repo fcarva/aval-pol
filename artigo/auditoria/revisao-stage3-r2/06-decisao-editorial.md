@@ -127,3 +127,19 @@ Cortes candidatos, sem perda de argumento:
 - `05-da-advogado-do-diabo.md`
 - Evidência: `evidencia-reentrada-indeferidos-2023.csv`
 - Itens da rodada 1: `07-rastreabilidade-rodada1.md`
+
+## Errata (Stage 4, 24/09/2026)
+
+A conferência completa e automatizada da reentrada (`analise/09_racionamento_2023_2026.py`, com decisão manual por
+candidato em `dados/processados/indeferidos_reentrada_verificacao.csv`) corrige dois números citados nos pareceres R1-W2
+e DA-M3:
+
+- **Reentrada.** São **6 de 11** projetos recusados em 2023 que captaram o mesmo projeto em 2024, e não 7. O "Roda
+  de Boteco" de 2024 é outra edição (Grande Vitória, e não Colatina). Para 2024: **12 de 21** captaram em 2025 e
+  13 até 2026.
+- **Tamanho da margem.** São **38 termos em 32 projetos** (16 termos em 11 projetos em 2023; 22 termos em 21
+  projetos em 2024), e não "33 termos (11 + 22)". A coluna `termos_indeferidos` de `03f_captacao_anual_secult.csv`
+  conta projetos em 2023 e termos em 2024.
+
+As conclusões dos pareceres não mudam: mais da metade dos recusados captou no ano seguinte. A tabela de evidência da
+rodada 2 foi substituída por `analise/tabelas/09_reentrada_indeferidos.csv`.

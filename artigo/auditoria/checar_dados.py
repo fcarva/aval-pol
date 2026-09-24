@@ -147,6 +147,34 @@ def faixa_emd(desenho: str, casas: int = 0, fator: float = 100) -> str:
     return f"{num(v.min(), casas)} a {num(v.max(), casas)}"
 
 
+# revisão da rodada 2 (Stage 4): racionamento 2023-2026, reentrada e cadastro do Mapa por município
+reent = ler(TAB / "09_reentrada_resumo.csv").set_index("ano_recusa")
+cotas09 = ler(TAB / "09_cotas_2025_2026.csv")
+faixa_val = ler(TAB / "03_status_conversao_por_faixa_valor_2022_2024.csv").set_index("faixa_valor")
+mapacob = ler(TAB / "07_mapa_agentes_cobertura.csv").set_index("tipo")
+quadro_h3 = ler(TAB / "07_mapa_quadro_h3.csv").set_index("quadro")
+indef = pd.read_csv(RAIZ / "dados" / "processados" / "indeferidos_2023_2024.csv")  # sem comment="#": há título "#EP10"
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
+         "novembro", "dezembro"]
+
+
+def cota_completa(ano: int, cota: int, curto: bool = False) -> str:
+    d = pd.Timestamp(cotas09[(cotas09.ano_captacao == ano) & (cotas09.cota == cota)]["recebimento_que_completa_a_cota"].iloc[0])
+    return f"{d.day:02d}/{d.month:02d}" if curto else f"{d.day} de {MESES[d.month - 1]}"
+
+
+def faixa_h3(quadro: str) -> str:
+    v = poder07[(poder07.desenho == "encorajamento aleatório por município (interior)")
+                & (poder07.unidade == f"município ({quadro})")]["emd_pontos"] * 100
+    return f"{num(v.min(), 1)} a {num(v.max(), 1)}"
+
+
+def linha_h3(quadro: str) -> str:
+    q = quadro_h3.loc[quadro]
+    return f"{int(q.J)} municípios, {milhar(q.N)} {'coletivos' if quadro == 'coletivos' else 'agentes'} ($\\bar m$ = {num(q.m, 1)}; *cv* = {num(q.cv, 2)})"
+
+
+PROJ_REC = indef.groupby("ano_captacao")["projeto"].nunique()
 ROU_N, ROU_T, ROU_SH = rouanet_empresas()
 RES07 = fun07.loc[[2022, 2023, 2024]]
 N1_07, N0_07 = int(RES07["captou"].sum()), int(RES07["expirou"].sum())
@@ -167,8 +195,8 @@ CHECAGENS = [
     ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado)",
      f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
      f"nos cinco ciclos ({int(anual.loc[TOTAL, 'autorizado_n'])} com valor publicado)", T + "03_anual.csv"),
-    ("D07", "em 2025, 63 projetos captaram exatamente R\\$ 25.000.000,00",
-     f"{int(capt['projetos'])} projetos captaram exatamente R\\$ {int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
+    ("D07", "em 2025, 63 projetos captaram, juntos, exatamente R\\$ 25.000.000,00",
+     f"{int(capt['projetos'])} projetos captaram, juntos, exatamente R\\$ " + f"{int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
      T + "licc_captados_2025_totais.csv"),
     ("D08", "ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação",
      f"{pct(ES_SH, 1)} dos trabalhadores do ES, contra {pct(BR_SH, 1)} no país, a {ES_RANK}ª", "dados/externos/siic_uf.csv"),
@@ -327,7 +355,7 @@ CHECAGENS = [
 T7 = T + "07_"
 CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D07", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
 CHECAGENS += [
-    ("N01", "termos equivalentes a 28% e 35% do montante foram indeferidos",
+    ("N01", "termos equivalentes a 28% e 35% do montante foram recusados",
      f"{pct(anu.loc[2023, 'indeferido_sobre_montante'])} e {pct(anu.loc[2024, 'indeferido_sobre_montante'])}", T + "03f_captacao_anual_secult.csv"),
     ("N02", "Entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
     ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
@@ -347,16 +375,16 @@ CHECAGENS += [
      T7 + "composicao_por_ciclo.csv"),
     ("N10", "14 municípios do interior nunca tiveram projeto habilitado", str(int(coorte.loc["nunca (2022-2026)", "municipios"])),
      T + "03_coortes_primeira_presenca_canonico.csv"),
-    ("N11", "Em 2022-2024, 95 de 293 habilitados expiraram sem captar", f"{N0_07} de {N1_07 + N0_07}", T7 + "funil_por_ciclo.csv"),
+    ("N11", "Os 95 que expiraram", f"Os {N0_07} que", T7 + "funil_por_ciclo.csv"),
     ("N12", "Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",
      f"{ {2: 'Duas'}.get(int(float(patr['empresas_para_metade'])), '?')} empresas somam metade da renúncia de 2025; energia e gás, "
      f"{pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}", T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
-    ("N13", "Execução de 68% na RMGV e 63% no interior",
-     f"{pct(conv_ter.loc['RMGV', 'taxa_execucao'])} na RMGV e {pct(conv_ter.loc['Interior', 'taxa_execucao'])}", T + "03_status_conversao_rmgv_interior_2022_2024.csv"),
+    ("N13", "Captação de 68% dos habilitados na RMGV e 63% no interior",
+     f"{pct(conv_ter.loc['RMGV', 'taxa_execucao'])} dos habilitados na RMGV e {pct(conv_ter.loc['Interior', 'taxa_execucao'])}", T + "03_status_conversao_rmgv_interior_2022_2024.csv"),
     ("N14", "Recorrentes captam mais (71% contra 57%)",
      f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'recorrente')].taxa_execucao.iloc[0]))} contra "
      f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'estreante')].taxa_execucao.iloc[0]))}", T + "03_status_conversao_recorrencia_2023_2024.csv"),
-    ("N15", "termos com patrocinador de 28% e 35% do montante foram indeferidos pela ordem de chegada",
+    ("N15", "Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024",
      f"{pct(anu.loc[2023, 'indeferido_sobre_montante'])} e {pct(anu.loc[2024, 'indeferido_sobre_montante'])}", T + "03f_captacao_anual_secult.csv"),
     ("N16", "39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então",
      f"{int(coorte.loc['2022', 'municipios'])} municípios tiveram o primeiro projeto habilitado em 2022, {int(coorte.loc['2023', 'municipios'])} em 2023 e "
@@ -366,7 +394,7 @@ CHECAGENS += [
      T7 + "patrocinadores_na_rouanet.csv"),
     ("N18", "caiu de 74% (ciclo 2024) para 57% (2025)",
      f"{pct(comp07.loc[2024, 'pct_valor_rmgv_atribuivel'])} (ciclo 2024) para {pct(comp07.loc[2025, 'pct_valor_rmgv_atribuivel'])}", T7 + "composicao_por_ciclo.csv"),
-    ("N19", "A RMGV tem 49% da população e fica com 67% do valor atribuível a um município",
+    ("N19", "A RMGV tem 49% da população e fica com 67% do valor atribuível a um município em 2022-2026",
      f"{pct(rmgv.loc['RMGV', 'share_pop_censo2022'])} da população e fica com {pct(rmgv.loc['RMGV', 'share_autorizado_atribuivel'])}",
      T + "03_territorio_rmgv_interior.csv"),
     ("N20", "O Gini do valor entre os 78 municípios é 0,88", num(float(terr["gini_valor_78"]), 2), T + "03_territorio_indicadores.csv"),
@@ -376,17 +404,56 @@ CHECAGENS += [
      T7 + "poder_hipoteses.csv (nota)"),
     ("N23", "| H1b: captou × expirou, 2022-2024 | 293 projetos (*T* = 0,68), 172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75) | $p_0$ de 0,2 a 0,6; ρ = 0 ou 0,2 | 14 a 20 |",
      faixa_emd("captou × expirou, 2022-2024 (observacional)"), T7 + "poder_hipoteses.csv"),
-    ("N24", "| H1b: margem do racionamento, 2023-2024 | 20 a 30 projetos por grupo | $p_0$ de 0,2 a 0,6 | 29 a 43 |",
-     faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv"),
-    ("N25", "| H3: oferta sorteada por agente | 1.000 a 4.000 agentes | $p_0$ de 2% a 10% | 1,2 a 5,3 |",
-     faixa_emd("encorajamento aleatório individual", 1), T7 + "poder_hipoteses.csv"),
-    ("N26", "| H3: oferta sorteada por município | 71 municípios do interior, 20 a 50 agentes cada | $p_0$ de 5% a 10%; ρ de 0,02 a 0,05 | 2,9 a 6,3 |",
-     faixa_emd("encorajamento aleatório por município (interior)", 1), T7 + "poder_hipoteses.csv"),
+    ("N24", "| H1b: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
+     f"{int(PROJ_REC.sum())} recusados × {int(PROJ_REC.sum())} validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | "
+     + faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv"),
+    ("N25", "| H3: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |",
+     linha_h3("coletivos") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos"), T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
+    ("N26", "| H3: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |",
+     linha_h3("coletivos e individuais") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos e individuais"),
+     T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
     ("N27", "(3 em 56 resolvidos no ciclo 2025)",
      f"({int(fun07.loc[2025, 'expirou'])} em {int(fun07.loc[2025, 'captou'] + fun07.loc[2025, 'expirou'])}", T7 + "funil_por_ciclo.csv"),
     ("N29", "172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75)",
      f"$\\bar m$ = {num(float(poder07[poder07.desenho.str.startswith('captou')]['m'].iloc[0]), 2)}; *cv* = "
      f"{num(float(H1B_NOTA.split('cv = ')[1].split(';')[0]), 2)}", T7 + "poder_hipoteses.csv (m; nota)"),
+    ("N30", "Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte",
+     f"{int(reent.loc[2023, 'captaram_no_ano_seguinte'])} dos {int(reent.loc[2023, 'projetos_recusados'])} recusados em 2023 e "
+     f"{int(reent.loc[2024, 'captaram_no_ano_seguinte'])} dos {int(reent.loc[2024, 'projetos_recusados'])} recusados em 2024",
+     T + "09_reentrada_resumo.csv"),
+    ("N31", "os de 32 projetos recusados em 2023 e 2024", f"os de {int(PROJ_REC.sum())} projetos", "dados/processados/indeferidos_2023_2024.csv"),
+    ("N33", "em 2025, a cota de 50% se completou com termos recebidos até 28 de janeiro",
+     f"se completou com termos recebidos até {cota_completa(2025, 4)}", T + "09_cotas_2025_2026.csv"),
+    ("N34", "em 2025, a cota de 50% se completou com termos recebidos até 28/01",
+     f"até {cota_completa(2025, 4, curto=True)}", T + "09_cotas_2025_2026.csv"),
+    ("N35", "caiu de 59% no ciclo 2024 para 46% em 2025 e voltou a 55% em 2026",
+     f"caiu de {pct(1 - comp07.loc[2024, 'pct_proponentes_em_t_1_ou_t_2'])} no ciclo 2024 para "
+     f"{pct(1 - comp07.loc[2025, 'pct_proponentes_em_t_1_ou_t_2'])} em 2025 e voltou a {pct(1 - comp07.loc[2026, 'pct_proponentes_em_t_1_ou_t_2'])}",
+     T7 + "composicao_por_ciclo.csv (1 - pct_proponentes_em_t_1_ou_t_2)"),
+    ("N36", "e restam 14 municípios do interior sem projeto", f"restam {int(coorte.loc['nunca (2022-2026)', 'municipios'])} municípios",
+     T + "03_coortes_primeira_presenca_canonico.csv"),
+    ("N37", "83% contra 52% dos que pediram até R\\$ 200 mil, em 2022-2024",
+     f"{pct(faixa_val.loc['exatamente 500 mil', 'taxa_execucao'])} contra {pct(faixa_val.loc['até 200 mil', 'taxa_execucao'])}",
+     T + "03_status_conversao_por_faixa_valor_2022_2024.csv"),
+    ("N38", "79% dos coletivos e 78% dos individuais não informam município",
+     f"{pct(mapacob.loc['coletivos', 'sem_municipio'] / mapacob.loc['coletivos', 'cadastrados'])} dos coletivos e "
+     f"{pct(mapacob.loc['individuais', 'sem_municipio'] / mapacob.loc['individuais', 'cadastrados'])} dos individuais",
+     T7 + "mapa_agentes_cobertura.csv"),
+    ("N39", "há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71",
+     f"há {int(quadro_h3.loc['coletivos', 'N'])} coletivos em {int(quadro_h3.loc['coletivos', 'J'])} municípios e "
+     f"{milhar(quadro_h3.loc['coletivos e individuais', 'N'])} agentes, somados os individuais, nos {int(quadro_h3.loc['coletivos e individuais', 'J'])}",
+     T7 + "mapa_quadro_h3.csv"),
+    ("N40", "só com os coletivos, o efeito mínimo passa de 5 pontos",
+     f"passa de {int(poder07[poder07.unidade == 'município (coletivos)']['emd_pontos'].min() * 100)} pontos", T7 + "poder_hipoteses.csv"),
+    ("N41", "são 463 processos e 467 registros por ciclo",
+     f"são {int(anual.loc[TOTAL, 'processos'])} processos e {int(fun07['habilitados'].sum())} registros",
+     T + "03_anual.csv; 07_funil_por_ciclo.csv"),
+    ("N42", "com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)",
+     f"de {pct(1 - reent['captaram_ate_2026'].sum() / reent['projetos_recusados'].sum())} "
+     f"({int(reent['projetos_recusados'].sum() - reent['captaram_ate_2026'].sum())} dos {int(reent['projetos_recusados'].sum())} recusados",
+     T + "09_reentrada_resumo.csv"),
+    ("N43", "a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio",
+     f"até {cota_completa(2025, 4)}, e a de 30%, até {cota_completa(2025, 1)}", T + "09_cotas_2025_2026.csv"),
     ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
 ]
 

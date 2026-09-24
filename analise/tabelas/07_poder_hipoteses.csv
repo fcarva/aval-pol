@@ -5,26 +5,24 @@ H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em pr
 H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.2,0.4,0.19767816133425412,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
 H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.0,0.6,0.17129665034658134,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
 H1b adicionalidade,"captou × expirou, 2022-2024 (observacional)",projeto (em proponentes),293,1.7034883720930232,0.2,0.6,0.19767816133425412,"198 captaram, 95 expiraram; 172 proponentes, m = 1.70, cv = 0.75; viés de seleção domina o erro amostral"
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.2,0.3543756139318639,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.4,0.434019715709296,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,40,,,0.6,0.434019715709296,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,60,,,0.2,0.28934647713953066,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,60,,,0.4,0.35437561393186384,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,60,,,0.6,0.35437561393186384,termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,1000,,,0.02,0.024806292975230466,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,1000,,,0.05,0.03861718722960447,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,1000,,,0.1,0.053156342089779575,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,2000,,,0.02,0.017540697978885682,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,2000,,,0.05,0.027306474960403868,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,2000,,,0.1,0.037587209954755035,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,4000,,,0.02,0.012403146487615233,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,4000,,,0.05,0.019308593614802236,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório individual,agente cultural sem inscrição prévia,4000,,,0.1,0.026578171044889787,N e p0 hipotéticos até contar os agentes do Mapa Cultural
-H3 atrito,encorajamento aleatório por município (interior),município,71,20.0,0.02,0.05,0.038615952467380234,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,20.0,0.02,0.1,0.05315464244648862,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,20.0,0.05,0.05,0.04590336400067112,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,20.0,0.05,0.1,0.06318572363604896,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,50.0,0.02,0.05,0.029254305934646237,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,50.0,0.02,0.1,0.04026838838922479,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,50.0,0.05,0.05,0.038615952467380234,71 municípios fora da RMGV; m agentes por município hipotético
-H3 atrito,encorajamento aleatório por município (interior),município,71,50.0,0.05,0.1,0.05315464244648862,71 municípios fora da RMGV; m agentes por município hipotético
+H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,64,,,0.2,0.28015852181129686,32 projetos recusados (dados/processados/indeferidos_2023_2024.csv) × 32 validados antes do esgotamento; reentrada no ano seguinte em 09_reentrada_resumo.csv
+H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,64,,,0.4,0.3431227127650344,32 projetos recusados (dados/processados/indeferidos_2023_2024.csv) × 32 validados antes do esgotamento; reentrada no ano seguinte em 09_reentrada_resumo.csv
+H1 adicionalidade,racionamento pelo teto 2023-2024,projeto,64,,,0.6,0.3431227127650344,32 projetos recusados (dados/processados/indeferidos_2023_2024.csv) × 32 validados antes do esgotamento; reentrada no ano seguinte em 09_reentrada_resumo.csv
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos),257,,,0.02,0.0489322636386009,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.02,0.02,0.05471729943165275,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.05,0.02,0.06239717546120618,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos),257,,,0.05,0.07617528295691112,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.02,0.05,0.08518113524501066,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.05,0.05,0.09713677935634772,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos),257,,,0.1,0.10485485065414478,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.02,0.1,0.11725135592497019,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos),52,4.9423076923076925,0.05,0.1,0.1337082331311561,"J = 52 municípios, N = 257 agentes, cv = 1.32 (observados)"
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos e individuais),2389,,,0.02,0.016049214953279267,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.02,0.02,0.02792822764994171,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.05,0.02,0.039542367129985746,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos e individuais),2389,,,0.05,0.02498460932303792,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.02,0.05,0.043477257856533696,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.05,0.05,0.06155756510999726,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"
+H3 atrito,encorajamento aleatório individual,agente do interior (coletivos e individuais),2389,,,0.1,0.03439117489988414,"Mapa Cultural, agentes com município do interior; CNPJ não é público"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.02,0.1,0.05984620210701795,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"
+H3 atrito,encorajamento aleatório por município (interior),município (coletivos e individuais),71,33.647887323943664,0.05,0.1,0.08473364384996945,"J = 71 municípios, N = 2389 agentes, cv = 1.43 (observados)"

@@ -1,0 +1,79 @@
+% !TEX program = xelatex
+% Gerado por artigo/gerar_tex.py a partir de artigo/rascunho-artigo.md. Não edite à mão:
+% altere o .md e rode `python artigo/gerar_tex.py --pdf`. Compila com XeLaTeX (recomendado),
+% LuaLaTeX ou pdfLaTeX; no Overleaf, o arquivo latexmkrc desta pasta já seleciona o XeLaTeX.
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=3cm,bottom=2cm,left=3cm,right=2cm,headsep=0.8cm]{geometry}
+\usepackage{iftex}
+\usepackage{amsmath}
+\usepackage[brazilian]{babel}
+\ifPDFTeX
+  % pdfLaTeX: Times pelo newtx (ou pelo mathptmx, se o newtx não estiver instalado)
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{newtxtext.sty}{\usepackage{newtxtext,newtxmath}}{\usepackage{mathptmx}}
+\else
+  % XeLaTeX/LuaLaTeX: Times New Roman 12, como pedem as instruções da disciplina. Onde ela não
+  % estiver instalada (Overleaf, Linux), usa a TeX Gyre Termes, clone métrico da Times do TeX Live.
+  \usepackage{unicode-math}
+  \IfFontExistsTF{Times New Roman}
+    {\setmainfont{Times New Roman}}
+    {\setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+       ItalicFont=*-italic, BoldItalicFont=*-bolditalic]}
+  \setmathfont{texgyretermes-math.otf}
+\fi
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage{xcolor}
+\definecolor{azul}{RGB}{25,70,140}
+\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul]{hyperref}
+\urlstyle{same}
+
+% Espaçamento simples, sem recuo e com 4 pt entre parágrafos (o mesmo do .docx)
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{1.5em}
+\frenchspacing  % espaço simples depois do ponto, como no português
+\setcounter{secnumdepth}{2}
+\titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{12pt}{0pt}
+\titlespacing*{\subsection}{0pt}{12pt}{0pt}
+\setlist[itemize]{leftmargin=1.2em, topsep=0pt, itemsep=3pt, parsep=0pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+
+% Número da página no canto superior direito (ABNT)
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\footnotesize\thepage}}
+
+% A Figura 1 ocupa uma página; floats grandes vão para a página seguinte à menção
+\renewcommand{\floatpagefraction}{0.8}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{0pt}
+
+% Referências: alinhadas à esquerda, espaço simples, separadas por 4 pt (como no .docx)
+\newenvironment{referencias}{\raggedright\setlength{\parskip}{4pt}}{\par}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}{\large\bfseries Declaração de uso de inteligência artificial\par}\end{center}
+\vspace{6pt}
+{[}Adequar ao modelo anexo às instruções da disciplina.{]} Os autores utilizaram ferramenta de
+inteligência artificial generativa (Claude, da Anthropic) como apoio na organização dos dados, na
+programação dos scripts de análise e das figuras, na busca e conferência de referências e na redação
+de versões preliminares do texto, conforme a Portaria CNPq nº 2.664/2026. Todo o conteúdo foi
+revisado pelos autores, que assumem integral responsabilidade pelos dados, análises e conclusões.
+
+\end{document}

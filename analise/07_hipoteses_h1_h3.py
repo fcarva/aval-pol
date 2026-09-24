@@ -25,6 +25,10 @@ Saídas (analise/tabelas/):
   07_mudanca_regime.csv             variação 2024 → 2025-2026 na LICC e na Rouanet-ES (descritivo)
   07_poder_hipoteses.csv            EMD dos desenhos propostos para H1-H3
   07_mapa_cultural_universo.csv     agentes cadastrados no Mapa Cultural ES (topo do funil de H3)
+  07_mapa_agentes_por_municipio.csv agentes do Mapa por município e tipo (listagem de H3; município é campo público,
+                                    CNPJ não é)
+  07_mapa_quadro_h3.csv             quadros de amostragem de H3 no interior: J, N, m médio e cv
+  07_mapa_agentes_cobertura.csv     agentes por tipo: cadastrados, sem município, RMGV, interior
   07_patrocinadores_na_rouanet.csv  patrocinadores LICC 2025 que também aparecem como incentivadores no SALIC (H1)
 Uso: python analise/07_hipoteses_h1_h3.py
 """
@@ -33,6 +37,7 @@ from __future__ import annotations
 import glob
 import importlib.util
 import json
+import re
 import unicodedata
 from pathlib import Path
 
@@ -186,7 +191,7 @@ def efeito_desenho_proponente(h: pd.DataFrame) -> dict:
             "cv": float(g.std(ddof=0) / g.mean())}
 
 
-def tabela_poder(fun: pd.DataFrame, h: pd.DataFrame) -> pd.DataFrame:
+def tabela_poder(fun: pd.DataFrame, h: pd.DataFrame, quadro_h3: pd.DataFrame) -> pd.DataFrame:
     linhas = []
     res = fun[fun["ciclo"] <= 2024]
     n1, n0 = int(res["captou"].sum()), int(res["expirou"].sum())
@@ -200,27 +205,61 @@ def tabela_poder(fun: pd.DataFrame, h: pd.DataFrame) -> pd.DataFrame:
                            "p0": p0, "emd_pontos": poder.mde_binario(p0, n1 + n0, T=T) * deff ** 0.5,
                            "nota": (f"{n1} captaram, {n0} expiraram; {ed['proponentes']} proponentes, m = "
                                     f"{ed['m']:.2f}, cv = {ed['cv']:.2f}; viés de seleção domina o erro amostral")})
-    for n_braco in (20, 30):
-        for p0 in (0.2, 0.4, 0.6):
-            linhas.append({"hipotese": "H1 adicionalidade", "desenho": "racionamento pelo teto 2023-2024",
-                           "unidade": "projeto", "n_ou_J": 2 * n_braco, "m": np.nan, "icc": np.nan, "p0": p0,
-                           "emd_pontos": poder.mde_binario(p0, 2 * n_braco, T=0.5),
-                           "nota": "termos indeferidos × validados pouco antes do esgotamento; n por braço hipotético"})
-    for N in (1000, 2000, 4000):
+    rec = pd.read_csv(RAIZ / "dados" / "processados" / "indeferidos_2023_2024.csv")
+    n_braco = int(rec.groupby("ano_captacao")["projeto"].nunique().sum())  # 11 (2023) + 21 (2024)
+    for p0 in (0.2, 0.4, 0.6):
+        linhas.append({"hipotese": "H1 adicionalidade", "desenho": "racionamento pelo teto 2023-2024",
+                       "unidade": "projeto", "n_ou_J": 2 * n_braco, "m": np.nan, "icc": np.nan, "p0": p0,
+                       "emd_pontos": poder.mde_binario(p0, 2 * n_braco, T=0.5),
+                       "nota": (f"{n_braco} projetos recusados (dados/processados/indeferidos_2023_2024.csv) × "
+                                f"{n_braco} validados antes do esgotamento; reentrada no ano seguinte em "
+                                "09_reentrada_resumo.csv")})
+    for _, q in quadro_h3.iterrows():
         for p0 in (0.02, 0.05, 0.10):
             linhas.append({"hipotese": "H3 atrito", "desenho": "encorajamento aleatório individual",
-                           "unidade": "agente cultural sem inscrição prévia", "n_ou_J": N, "m": np.nan,
-                           "icc": np.nan, "p0": p0, "emd_pontos": poder.mde_binario(p0, N, T=0.5),
-                           "nota": "N e p0 hipotéticos até contar os agentes do Mapa Cultural"})
-    for m in (20, 50):
-        for icc in (0.02, 0.05):
-            for p0 in (0.05, 0.10):
-                sig = (p0 * (1 - p0)) ** 0.5
+                           "unidade": f"agente do interior ({q['quadro']})", "n_ou_J": q["N"], "m": np.nan,
+                           "icc": np.nan, "p0": p0, "emd_pontos": poder.mde_binario(p0, q["N"], T=0.5),
+                           "nota": "Mapa Cultural, agentes com município do interior; CNPJ não é público"})
+            for icc in (0.02, 0.05):
+                deff = poder.efeito_desenho(q["m"], icc, q["cv"])
                 linhas.append({"hipotese": "H3 atrito", "desenho": "encorajamento aleatório por município (interior)",
-                               "unidade": "município", "n_ou_J": 71, "m": m, "icc": icc, "p0": p0,
-                               "emd_pontos": poder.mde_conglomerados(sig, 71, m, icc, P=0.5, gl=69),
-                               "nota": "71 municípios fora da RMGV; m agentes por município hipotético"})
+                               "unidade": f"município ({q['quadro']})", "n_ou_J": q["J"], "m": q["m"], "icc": icc,
+                               "p0": p0, "emd_pontos": poder.mde_binario(p0, q["N"], T=0.5) * deff ** 0.5,
+                               "nota": f"J = {q['J']} municípios, N = {q['N']} agentes, cv = {q['cv']:.2f} (observados)"})
     return pd.DataFrame(linhas)
+
+
+def mapa_por_municipio() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Agentes do Mapa Cultural por município e tipo (API pública, coletada pelo relé em 24/09/2026). O município
+    (En_Municipio) é público; documento, CNPJ e CPF voltam nulos (mapa_api_agentes_campos_amostra)."""
+    mun = pd.read_csv(RAIZ / "dados" / "externos" / "municipios_es.csv")
+    partes = []
+    for nome, tipo in [("mapa_api_coletivos_municipio", "coletivos"), ("mapa_api_individuais_municipio", "individuais")]:
+        d = pd.DataFrame(_json_da_pagina(nome) or [])
+        d["chave"] = d["En_Municipio"].map(lambda x: _norm(re.sub(r"[-\s]+es$", "", x.strip(), flags=re.I))
+                                           if isinstance(x, str) else None)
+        d["tipo"] = tipo
+        partes.append(d)
+    d = pd.concat(partes)
+    d = d.merge(mun[["chave", "municipio", "rmgv"]], on="chave", how="left")
+    tab = (d[d["rmgv"].notna()].pivot_table(index=["municipio", "rmgv"], columns="tipo", values="id",
+                                             aggfunc="count", fill_value=0).reset_index())
+    tab = mun[["municipio", "rmgv"]].merge(tab, on=["municipio", "rmgv"], how="left").fillna(
+        {"coletivos": 0, "individuais": 0})
+    resumo = []
+    for tipo in ("coletivos", "individuais"):
+        dd = d[d["tipo"] == tipo]
+        resumo.append({"tipo": tipo, "cadastrados": len(dd), "sem_municipio": int(dd["En_Municipio"].isna().sum()),
+                       "municipio_do_es": int(dd["rmgv"].notna().sum()),
+                       "rmgv": int((dd["rmgv"] == True).sum()), "interior": int((dd["rmgv"] == False).sum())})
+    interior = tab[tab["rmgv"] == False].copy()
+    interior["todos"] = interior["coletivos"] + interior["individuais"]
+    quadro = []
+    for q, col in [("coletivos", "coletivos"), ("coletivos e individuais", "todos")]:
+        x = interior.loc[interior[col] > 0, col]
+        quadro.append({"quadro": q, "J": int(len(x)), "N": int(x.sum()), "m": x.mean(), "cv": x.std(ddof=0) / x.mean(),
+                       "mediana": x.median(), "municipios_sem_agente": int((interior[col] == 0).sum())})
+    return tab, pd.DataFrame(resumo), pd.DataFrame(quadro)
 
 
 def _json_da_pagina(nome: str):
@@ -285,7 +324,11 @@ def main() -> None:
     rou.to_csv(TAB / "07_rouanet_es_composicao.csv", index=False)
     mud = mudanca_regime(comp, rou)
     mud.to_csv(TAB / "07_mudanca_regime.csv", index=False)
-    pw = tabela_poder(fun, h)
+    mun_tab, mun_res, quadro_h3 = mapa_por_municipio()
+    mun_tab.to_csv(TAB / "07_mapa_agentes_por_municipio.csv", index=False)
+    quadro_h3.to_csv(TAB / "07_mapa_quadro_h3.csv", index=False)
+    mun_res.to_csv(TAB / "07_mapa_agentes_cobertura.csv", index=False)
+    pw = tabela_poder(fun, h, quadro_h3)
     pw.to_csv(TAB / "07_poder_hipoteses.csv", index=False)
     mapa = mapa_cultural_universo()
     mapa.to_csv(TAB / "07_mapa_cultural_universo.csv", index=False)
@@ -296,6 +339,7 @@ def main() -> None:
                          ("Rouanet-ES", rou), ("mudança de regime", mud)]:
             print(f"\n== {nome}\n{df.to_string(index=False)}")
         print("\n== Mapa Cultural\n" + mapa[["recorte", "agentes"]].to_string(index=False))
+        print("\n== Mapa por município\n" + mun_res.to_string(index=False) + "\n" + quadro_h3.to_string(index=False))
         emp = rou_pat.groupby("cnpj_raiz")["incentivador_rouanet"].any()
         print(f"\n== patrocinadores LICC 2025 no SALIC: {int(rou_pat['incentivador_rouanet'].sum())} de "
               f"{len(rou_pat)} CNPJs; {int(emp.sum())} de {len(emp)} empresas (raiz)")

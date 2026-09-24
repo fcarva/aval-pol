@@ -1,6 +1,7 @@
+# SUPERADA: ver analise/tabelas/09_reentrada_indeferidos.csv (errata em 06-decisao-editorial.md)
 projeto_2023_indeferido,proponente_2023,patrocinador_do_termo_indeferido,aparece_captados_2024,linha_no_texto_2024,observacao
 CineMarias Mulheres Protagonistas - 2023,Puri Produções e Eventos LTDA,Leroy Merlin,sim,189;531,mesma marca de projeto; edição possivelmente diferente
-Festival Roda de Boteco (Colatina),CONEXXO Serviços e Gestão de Eventos,Colina; Viafor; Lavagnoli,sim,226,
+Festival Roda de Boteco (Colatina),CONEXXO Serviços e Gestão de Eventos,Colina; Viafor; Lavagnoli,não,226,em 2024 é outra edição (Roda de Boteco - Grande Vitória); corrigido na Stage 4
 Ready to Rock,Instituto Viva Vida,Papelaria Rainha,sim,28,
 Cinema é coisa séria,Viana Projetos Culturais LTDA,ArcelorMittal (Tubarão),não,,também ausente em 2025 e 2026
 Modernização museológica do Museu Aberto das Tartarugas Marinhas,Fundação Centro Brasileiro de Proteção e Pesquisa das Tartarugas Marinhas,ArcelorMittal (Tubarão),sim,92;97,

@@ -64,7 +64,7 @@ CAIXAS = {
             ("a2", "A2 · Parecer e CAP", "parecer técnico e mérito, resultado binário", "SECULT e CAP")],
     "ofe": [("p1", "P1 · Cardápio de projetos habilitados", "autorização para captar por um ano", None)],
     "fin": [("a3", "A3 · Escolha e termo", "a empresa escolhe e compromete o ICMS", "empresa"),
-            ("a4", "A4 · Validação no teto", "termos validados por ordem de chegada", "SEFAZ")],
+            ("a4", "A4 · Validação no teto", "termos validados até esgotar a cota", "SEFAZ")],
     "par": [("p2", "P2 · Projetos patrocinados", "captação por projeto e empresa", None),
             ("p3", "P3 · Projetos executados", "com contrapartidas de acesso", "proponente")],
     "ri": [("ri1", "RI1 · Bens culturais de acesso público", "gratuidade, acessibilidade, interior", None),
@@ -92,13 +92,13 @@ SETAS = [
 # Cartões das premissas: (marcador, título, texto)
 PREMISSAS = [
     ("H3", "Atrito na entrada",
-     "Quem tem projeto de valor público consegue se inscrever (CNPJ, documentos, prazo)?"),
+     "Quem tem projeto de valor público consegue se inscrever (CNPJ, documentos, patrocinador)?"),
     ("H2a", "Qualifica, não prioriza",
      "O parecer decide se o projeto entra; entre os habilitados, quem recebe depende da empresa e da fila."),
     ("H1a", "Escolha da empresa",
      "A empresa escolhe por marca e visibilidade, e não por interesse público?"),
     ("H2b", "Racionamento no teto",
-     "Em 2023 e 2024, termos com patrocinador foram indeferidos pela ordem de chegada."),
+     "Termos com patrocinador recusados ao esgotar o teto; em 2025, a cota de 50% fechou em 28/01."),
     ("H1b", "Adicionalidade",
      "O projeto financiado aconteceria sem a LICC? E chega ao público?"),
 ]

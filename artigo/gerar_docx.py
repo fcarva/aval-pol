@@ -2,13 +2,16 @@
 
 Usa o pandoc (pacote pypandoc_binary) com o modelo artigo/modelo/referencia-abnt.docx
 (Times New Roman 12, espaçamento simples, margens 3/3/2/2 cm) e depois ajusta as tabelas
-com python-docx: fonte 10, bordas simples, cabeçalho em negrito. Com --pdf, converte
+com python-docx: fonte 10, tabelas abertas no padrão AER/Springer (filete em cima, sob o cabeçalho e embaixo, sem
+grade), rótulo do título em negrito e "Fonte" em itálico. Caminhos de dados viram links para o GitHub e DOIs para
+doi.org (artigo/links.py). Com --pdf, converte
 também para PDF pelo LibreOffice, só para conferir o número de páginas (10 a 15).
 
 Uso: python artigo/gerar_docx.py [--pdf]
 """
 from __future__ import annotations
 
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -21,31 +24,49 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt
 
+from links import codigo_em_links_md, dois_em_links
+
 ART = Path(__file__).resolve().parent
 MD = ART / "rascunho-artigo.md"
 DOCX = ART / "rascunho-artigo.docx"
 MODELO = ART / "modelo" / "referencia-abnt.docx"
 
 
-def bordas(tabela, aberta: bool) -> None:
-    """Quadro: grade completa. Tabela (norma tabular do IBGE, usada pela ABNT): sem traços verticais."""
+def _borda(pai, lado: str, sz: str) -> None:
+    e = OxmlElement(f"w:{lado}")
+    e.set(qn("w:val"), "single")
+    e.set(qn("w:sz"), sz)
+    e.set(qn("w:space"), "0")
+    e.set(qn("w:color"), "000000")
+    pai.append(e)
+
+
+def bordas(tabela) -> None:
+    """Tabela aberta (AER/Springer): filete de 1 pt em cima e embaixo, 0,5 pt sob o cabeçalho, sem grade."""
     tblPr = tabela._tbl.tblPr
     for velho in tblPr.findall(qn("w:tblBorders")):
         tblPr.remove(velho)
     b = OxmlElement("w:tblBorders")
-    lados = ("top", "bottom", "insideH") if aberta else ("top", "left", "bottom", "right", "insideH", "insideV")
-    for lado in lados:
+    _borda(b, "top", "8")
+    _borda(b, "bottom", "8")
+    for lado in ("left", "right", "insideH", "insideV"):
         e = OxmlElement(f"w:{lado}")
-        e.set(qn("w:val"), "single")
-        e.set(qn("w:sz"), "4")
-        e.set(qn("w:space"), "0")
-        e.set(qn("w:color"), "000000")
+        e.set(qn("w:val"), "nil")
         b.append(e)
     tblPr.append(b)
+    for cel in tabela.rows[0].cells:
+        tcPr = cel._tc.get_or_add_tcPr()
+        tcb = OxmlElement("w:tcBorders")
+        _borda(tcb, "bottom", "4")
+        tcPr.append(tcb)
 
 
 def ajustar_tabelas(caminho: Path) -> None:
     doc = Document(caminho)
+    # 4 pt entre parágrafos (o mesmo da versão LaTeX); espaçamento simples mantido
+    for nome in ("Normal", "Body Text", "First Paragraph", "Compact"):
+        if nome in [s.name for s in doc.styles]:
+            doc.styles[nome].paragraph_format.space_after = Pt(4)
     # título de cada tabela = parágrafo imediatamente anterior no corpo do documento
     titulos = []  # na mesma ordem de doc.tables (tabelas de nível superior, em ordem do documento)
     anterior = ""
@@ -56,7 +77,7 @@ def ajustar_tabelas(caminho: Path) -> None:
             titulos.append(anterior)
     for t, titulo in zip(doc.tables, titulos):
         t.alignment = WD_TABLE_ALIGNMENT.CENTER
-        bordas(t, aberta=titulo.startswith("Tabela"))
+        bordas(t)
         for i, linha in enumerate(t.rows):
             for cel in linha.cells:
                 for par in cel.paragraphs:
@@ -65,8 +86,6 @@ def ajustar_tabelas(caminho: Path) -> None:
                     par.paragraph_format.space_before = Pt(0)
                     for run in par.runs:
                         run.font.size = Pt(10)
-                        if i == 0:
-                            run.font.bold = True
         # cabeçalho repetido em quebra de página
         cab = t.rows[0]._tr.get_or_add_trPr()
         rep = OxmlElement("w:tblHeader")
@@ -78,21 +97,33 @@ def ajustar_tabelas(caminho: Path) -> None:
                 for cel in linha.cells:
                     for par in cel.paragraphs:
                         par.paragraph_format.keep_with_next = True
-    # título de tabela, quadro e figura fica na mesma página do objeto
+    # título de tabela, quadro e figura: mesma página do objeto; só o rótulo em negrito
     for par in doc.paragraphs:
-        if par.text.startswith(("Tabela ", "Quadro ", "Figura ")):
+        m = re.match(r"((?:Tabela|Quadro|Figura) \d+)(.*)", par.text)
+        if m:
             par.paragraph_format.keep_with_next = True
-    # "Fonte:" logo abaixo de tabelas e figuras, em corpo 10 (ABNT)
+            for run in list(par.runs):
+                run._r.getparent().remove(run._r)
+            par.add_run(m.group(1)).font.bold = True
+            par.add_run(m.group(2)).font.bold = False
+    # "Fonte:" logo abaixo de tabelas e figuras, em corpo 10, com o rótulo em itálico
     for par in doc.paragraphs:
-        if par.text.startswith("Fonte:"):
+        if par.text.startswith("Fonte:") and par.runs:
+            primeiro = par.runs[0]
+            if primeiro.text.startswith("Fonte"):
+                primeiro.text = primeiro.text[len("Fonte"):]
+                rotulo = par.add_run("Fonte")
+                rotulo.italic = True
+                primeiro._r.addprevious(rotulo._r)
             for run in par.runs:
                 run.font.size = Pt(10)
     doc.save(caminho)
 
 
 def main() -> None:
-    pypandoc.convert_file(
-        str(MD), "docx", outputfile=str(DOCX),
+    texto = codigo_em_links_md(dois_em_links(MD.read_text(encoding="utf-8")))
+    pypandoc.convert_text(
+        texto, "docx", format="markdown", outputfile=str(DOCX),
         extra_args=[f"--reference-doc={MODELO}", f"--resource-path={ART}", "--wrap=none"],
     )
     ajustar_tabelas(DOCX)
