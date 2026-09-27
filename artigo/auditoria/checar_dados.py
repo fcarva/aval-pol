@@ -571,6 +571,9 @@ CHECAGENS += [
     ("N71", "Só com os coletivos, são 26 por grupo",
      f"são {int(_q3.loc['coletivos', 'J']) // 2} por grupo", T + "07_mapa_quadro_h3.csv"),
     ("N72", "sorteada entre os 71 municípios do interior", f"entre os {_J} municípios", T + "07_mapa_quadro_h3.csv"),
+    ("N74", "pedidos até R\\$ 400 mil captaram 79% em 2022 e 27% em 2024",
+     f"captaram {pct(fx(2022, 'até 400 mil'))} em 2022 e {pct(fx(2024, 'até 400 mil'))} em 2024",
+     T + "03_status_conversao_por_faixa_valor_e_ciclo.csv"),
 ]
 
 

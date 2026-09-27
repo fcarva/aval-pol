@@ -67,3 +67,4 @@ N69,CONFERE,cai para 20 a 24 pontos,analise/tabelas/19_poder_revisao.csv,o EMD d
 N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
 N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"
 N72,CONFERE,entre os 71 municípios,analise/tabelas/07_mapa_quadro_h3.csv,sorteada entre os 71 municípios do interior
+N74,CONFERE,captaram 79% em 2022 e 27% em 2024,analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv,pedidos até R\$ 400 mil captaram 79% em 2022 e 27% em 2024
