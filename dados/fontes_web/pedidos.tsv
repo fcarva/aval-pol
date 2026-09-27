@@ -131,3 +131,7 @@ receita_dados_publicos_cnpj	https://www.gov.br/receitafederal/pt-br/assuntos/ori
 dadosgov_cnpj	https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj	Porte: conjunto de dados do CNPJ no portal dados.gov.br
 receita_cnpj_metadados	https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf	Quadro 4: campos dos dados abertos do CNPJ (porte, início de atividade, CNAE, município)
 receita_cnpj_layout_antigo	https://arquivos.receitafederal.gov.br/dados/cnpj/LAYOUT_DADOS_ABERTOS_CNPJ.pdf	Quadro 4: layout dos dados abertos do CNPJ (versão do servidor de arquivos)
+secult_pareceristas_credenciados_2026	https://secult.es.gov.br/media/lista-de-pareceristas-credenciados-pela-ordem-de-classificacao-separados-por-area-atualizado-em-18-09-2026.pdf	M3/H2: pareceristas credenciados por área (viabilidade do instrumento de severidade)
+secult_pareceristas_resultado_final_2025	https://secult.es.gov.br/media/2025/Resultado_Final_Pareceristas.pdf	M3/H2: resultado final do credenciamento de pareceristas 2025
+enap_ogava_2022_rouanet	https://repositorio.enap.gov.br/bitstreams/1111500b-fe3f-4012-b5ae-e252b5551986/download	H1: Ogava, Galvão e Adamczyk (2022), Enap EvEx - diagnóstico da concentração na Rouanet
+enap_ogava_2022_registro	https://repositorio.enap.gov.br/items/e65189ba-6767-4cae-a706-b4aaa4c0ce14/full	H1: registro bibliográfico completo (autores, data, editora)
