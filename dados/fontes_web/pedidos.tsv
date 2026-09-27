@@ -273,3 +273,6 @@ raw_dio_buscanova_get	https://ioes.dio.es.gov.br/buscanova?q=Lei%20de%20Incentiv
 raw_dio_home_js	https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js	rota DIO: script do portal (endpoints)
 raw_dio_busca_app_js	https://ioes.dio.es.gov.br/assets/javascripts/application.7d10c6fa.js	rota DIO: script da busca (endpoint da API de busca)
 raw_dio_busca_app_js2	https://ioes.dio.es.gov.br/buscanova/assets/javascripts/application.7d10c6fa.js	rota DIO: script da busca, caminho relativo a /buscanova/
+tcees_parecer_previo_072_2024	https://sefaz.es.gov.br/Media/Sefaz/Tesouro%20Estadual/Presta%C3%A7%C3%A3o%20de%20contas%20do%20governador/Parecer%20Pr%C3%A9vio%20TCEES%20%20072-2024.pdf	TCE-ES, parecer prévio das contas do governador (exercício 2023): capítulo de renúncia de receita, a LICC aparece?
+tcees_parecer_previo_006_2025	https://sefaz.es.gov.br/Media/Sefaz/Tesouro%20Estadual/Presta%C3%A7%C3%A3o%20de%20contas%20do%20governador/Parecer%20Pr%C3%A9vio%20TCEES%20%20006-2025.pdf	TCE-ES, parecer prévio das contas do governador (exercício 2024): renúncia de receita
+sefaz_prestacao_contas_governador	https://sefaz.es.gov.br/prestacao-de-contas-do-governador	índice da prestação de contas do governador (balanço geral, relatório de renúncia)

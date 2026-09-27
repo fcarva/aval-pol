@@ -4,17 +4,20 @@
    município, capital social, data de abertura e opção pelo Simples. Os CNPJs saem dos anexos "Recurso financeiro
    captado" de 2022 a 2026 e das versões antigas coletadas (dados/fontes_web/paginas/). O quadro de sócios não é
    gravado.
+   Também os CNPJs dos proponentes da LICC que casam, pelo nome exato, com um proponente da Rouanet no SALIC
+   (analise/tabelas/15_proponentes_licc_na_rouanet.csv): natureza jurídica, abertura, atividade e sede.
 2. Mapa Cultural: agentes, projetos e eventos, lidos por inteiro pela API pública, mas gravados só quando o nome
    normalizado coincide EXATAMENTE com um proponente ou um título de projeto da LICC (dados/processados/
    habilitados.csv). Sem semelhança aproximada, e sem gravar dados de quem não é proponente (LGPD).
 
 Saídas (dados/externos/):
   cnpj_patrocinadores.csv          uma linha por CNPJ de patrocinador
+  cnpj_proponentes.csv             uma linha por CNPJ de proponente (só os casados com o SALIC, sem chave ambígua)
   mapa_agentes_proponentes.csv     agentes do Mapa cujo nome casa com um proponente (área de atuação, município, tipo)
   mapa_projetos_licc.csv           projetos do Mapa cujo nome casa com um título da LICC
   mapa_eventos_licc.csv            eventos do Mapa cujo nome, ou o do projeto, casa com um título da LICC
   mapa_casamento_resumo.csv        quantos registros foram lidos e quantos casaram, por entidade
-Uso: python analise/rede/consultas_publicas.py [--so cnpj|mapa]
+Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa]
 """
 from __future__ import annotations
 
@@ -82,14 +85,23 @@ def cnpjs_patrocinadores() -> list[str]:
     return sorted(achados)
 
 
-def consultar_cnpjs() -> None:
+def cnpjs_proponentes() -> list[str]:
+    arq = RAIZ / "analise" / "tabelas" / "15_proponentes_licc_na_rouanet.csv"
+    if not arq.exists():
+        return []
+    t = pd.read_csv(arq, dtype=str)
+    return sorted(c for c in t["cnpj_salic"].dropna() if re.fullmatch(r"\d{14}", c) and dv_cnpj_ok(c))
+
+
+def consultar_cnpjs(cnpjs: list[str] | None = None, nome: str = "cnpj_patrocinadores.csv") -> None:
     EXT.mkdir(parents=True, exist_ok=True)
-    destino = EXT / "cnpj_patrocinadores.csv"
+    destino = EXT / nome
+    cnpjs = cnpjs_patrocinadores() if cnpjs is None else cnpjs
     feitos = {}
     if destino.exists():
         feitos = {r["cnpj"]: r for r in csv.DictReader(destino.open(encoding="utf-8")) if r.get("razao_social")}
     linhas = []
-    for c in cnpjs_patrocinadores():
+    for c in cnpjs:
         if c in feitos:
             linhas.append(feitos[c])
             continue
@@ -105,7 +117,7 @@ def consultar_cnpjs() -> None:
         w = csv.DictWriter(f, fieldnames=CAMPOS_CNPJ)
         w.writeheader()
         w.writerows(linhas)
-    print(f"CNPJ de patrocinadores: {len(linhas)}; com resposta: {sum(bool(l['razao_social']) for l in linhas)}")
+    print(f"{nome}: {len(linhas)} CNPJs; com resposta: {sum(bool(l['razao_social']) for l in linhas)}")
 
 
 def paginar(entidade: str, select: str, limite: int = 1000, maximo: int = 100):
@@ -205,6 +217,8 @@ def main() -> None:
     so = sys.argv[sys.argv.index("--so") + 1] if "--so" in sys.argv else "tudo"
     if so in ("cnpj", "tudo"):
         consultar_cnpjs()
+    if so in ("proponentes", "tudo"):
+        consultar_cnpjs(cnpjs_proponentes(), "cnpj_proponentes.csv")
     if so in ("mapa", "tudo"):
         consultar_mapa()
 
