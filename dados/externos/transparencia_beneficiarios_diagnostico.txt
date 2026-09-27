@@ -5,21 +5,21 @@ cabeçalho: ['INCENTIVOS FISCAIS VIGENTES', '', '', '', '', '', '', '', '']
   coluna '': 121 valores; mais frequentes:  (87); Incentivo financeiro. (27); Nota: os benefícios fazem parte do programa de incentivos vi (9); 3. Os benefícios não se aplicam aos estabelecimentos optante (5); 2. O benefício somente se aplica às mercadorias industrializ (5); 2. Os benefícios somente se aplicam às mercadorias industria (5); 1. O crédito de ICMS relativo às aquisições deverá ser limit (4); Nota: o benefício faz parte do programa de incentivos vincul (4); 1. O crédito de ICMS relativo às aquisições deverá ser limit (4); 4. Os benefícios não se aplicam aos estabelecimentos optante (3); 3. O benefício não se aplica aos estabelecimentos optantes p (3); 1. O crédito de ICMS relativo às aquisições deverá ser limit (3); OBSERVAÇÕES (1); Dispensado o estorno do imposto creditado. (1); Dispensado o estorno do crédito do imposto relativo às respe (1); O contribuinte deve proceder ao estorno proporcional do créd (1); Redução de base de cálculo do ICMS incidente sobre o forneci (1); Instituí Fundo destinado a apoiar, financeiramente, projetos (1); Cria Comitê Técnico para o Fomento da Indústria Automobilíst (1); 1. O benefício não será aplicado quando as entradas e saídas (1); Especificação dos insumos para fins de aplicação do benefíci (1); Especificação dos produtos cerâmicos para fins de concessão  (1); Para os fins de aplicação do benefício, a UTE deverá efetuar (1); Para fins de aplicação do benefício:                         (1); Para fins de aplicação do benefício, os créditos decorrentes (1)
 
 ## beneficiarios_2022 https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/544
-status 200; 118767 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 1850; linhas da LICC 0 (fora 0 do esporte)
+status 200; 118767 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 1850; linhas da LICC 28 (fora 0 do esporte)
 cabeçalho: ['CNPJ', 'NME_RAZAO_SOCIAL', 'TOTAL']
 
 
 ## beneficiarios_2023 https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/543
-status 200; 132706 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 2078; linhas da LICC 0 (fora 0 do esporte)
+status 200; 132706 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 2078; linhas da LICC 31 (fora 0 do esporte)
 cabeçalho: ['CNPJ', 'NME_RAZAO_SOCIAL', 'TOTAL']
 
 
 ## beneficiarios_2024 https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/437
-status 200; 154714 bytes; content-type text/csv; codificação latin-1; separador ';'; linhas 2436; linhas da LICC 0 (fora 0 do esporte)
+status 200; 154714 bytes; content-type text/csv; codificação latin-1; separador ';'; linhas 2436; linhas da LICC 20 (fora 0 do esporte)
 cabeçalho: ['CNPJ', 'NME_RAZAO_SOCIAL', 'Renúncia']
 
 
 ## beneficiarios_2025 https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/538
-status 200; 171331 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 2695; linhas da LICC 1 (fora 0 do esporte)
+status 200; 171331 bytes; content-type text/csv; codificação utf-8; separador ';'; linhas 2695; linhas da LICC 33 (fora 0 do esporte)
 cabeçalho: ['CNPJ', 'NME_RAZAO_SOCIAL', 'TOTAL']
 
