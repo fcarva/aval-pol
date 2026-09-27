@@ -1,0 +1,16 @@
+versao,existe,status,url,sha256,pdf_criado,pdf_modificado,servidor_last_modified,processos,processos_2021,processos_2022,processos_2023,processos_2024,processos_2025,processos_2026
+versao_habilitados_01,False,404,,,,,,,,,,,,
+versao_habilitados_02,False,404,,,,,,,,,,,,
+versao_habilitados_03,False,404,,,,,,,,,,,,
+versao_habilitados_04,False,404,,,,,,,,,,,,
+versao_habilitados_05,False,404,,,,,,,,,,,,
+versao_habilitados_06,True,200,https://secult.es.gov.br/media/001/lista-de-projetos-habilitados-6.pdf,76e0b910884ffc4bcd6c781add65064657621043eb60873d1b62d448f45702ac,,,"Sun, 27 Sep 2026 07:02:56 GMT",457.0,0.0,132.0,135.0,48.0,135.0,7.0
+versao_habilitados_07,False,404,,,,,,,,,,,,
+versao_habilitados_08,False,404,,,,,,,,,,,,
+versao_habilitados_09,False,404,,,,,,,,,,,,
+versao_habilitados_10,False,404,,,,,,,,,,,,
+versao_habilitados_11,False,404,,,,,,,,,,,,
+versao_habilitados_12,False,404,,,,,,,,,,,,
+versao_habilitados_13,False,404,,,,,,,,,,,,
+versao_habilitados_14,True,200,https://secult.es.gov.br/media/001/lista-de-projetos-habilitados-14.pdf,4dbc9b59208999c934a0bdef262d4e3184d94372a1237da62a6dd29c88e9353a,,,"Sun, 27 Sep 2026 07:03:09 GMT",87.0,0.0,0.0,0.0,2.0,74.0,11.0
+versao_habilitados_base,False,404,,,,,,,,,,,,
