@@ -1,0 +1,281 @@
+# Fonte: https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios
+# Coletado (UTC): 2026-09-27T14:34:15Z
+# sha256 do original: 859a74ba0ef76470bcca1f45bc1c422070d089f68681cf3eac5c2f06cf7d09de
+
+SEDES - Secretaria de Desenvolvimento
+
+Menu
+
+                Acesso à Informação 
+
+                Transparência
+
+                Ouvidoria
+
+                Administrador
+
+                Mapa do Site
+
+Acessibilidade
+
+Aplicar contraste
+
+A=
+
+A+
+
+A-
+
+SEDES    
+
+Secretaria de Desenvolvimento            
+
+SEDES    
+
+Secretaria de Desenvolvimento            
+
+SEDES - Secretaria de Desenvolvimento
+
+Buscar
+
+SEDES    
+
+Secretaria de Desenvolvimento            
+
+Os incentivos tributários são importantes ferramentas de política pública para o equilíbrio do desenvolvimento socioeconômico e a redução das desigualdades entre as diferentes regiões do País. (art. 43, § 2º, e art. 151, inciso I, CF/88).
+
+A partir dessa premissa, é fundamental o entendimento de que as políticas de incentivo financeiro e tributário adotadas pelo Estado do Espírito Santo ao longo dos anos contribuíram para a expansão, modernização e diversificação dos setores produtivos do estado, estimulando a realização de investimentos, o aumento da competitividade, com ênfase na geração de emprego e renda, como na redução das desigualdades sociais e regionais e, por via de consequência, o incremento arrecadatório.
+
+Glossário:
+
+Com o objetivo de facilitar o entendimento, elenca-se a seguir o conjunto de definições comumente utilizadas envolvendo os incentivos fiscais:
+
+Benefícios tributários:
+Referem-se ao conjunto abrangente das disposições preferenciais da legislação que concedem vantagens tributárias a certos contribuintes que atendem critérios específicos estabelecidos na norma vigente.
+
+Renúncia de Receita
+: Compreende a renúncia de receitas decorrente da concessão de quaisquer tipos de benefícios tributários 
+que causem a 
+diminuição 
+na arrecadação potencial ou concreta das receitas públicas originalmente previstas – nos resultados fiscais do ente público
+. As renúncias mais comumente observadas ocorrem com os tributos e transferências abrangidas pela NBC TSP 01 – Receitas de Transação sem Contraprestação.
+
+Não Renúncia de Receita
+: O artigo 14, da LRF (Lei de Responsabilidade Fiscal) prescreve que somente deverá estar acompanhada de estimativa do impacto orçamentário-financeiro os benefícios de natureza tributária da qual decorra renúncia de receita. Nesse sentido, na hipótese de concessão de quaisquer tipos de benefícios tributários 
+que causem 
+acréscimo 
+na arrecadação potencial ou concreta das receitas públicas originalmente previstas – nos resultados fiscais do ente 
+a aparente Renúncia de Receita acompanhada de contraprestação, que visa atrair novos investimentos e empregos, na prática, significa Não-Renúncia, diante de aumento da Receita.
+
+Contraprestação ou contrapartida: 
+é aquela em que o contribuinte recebe determinado incentivo tributário e em troca apresenta contrapartidas diretas e ou indiretas como, por exemplo, a previsão de novos investimentos, manutenção e incremento de novos postos de trabalho etc. A norma estabelece as contrapartidas para cada incentivo.
+
+O tema Renúncia de Receitas está mais diretamente relacionado com as seguintes Normas Brasileiras de Contabilidade Aplicadas ao Setor Público: NBCTSP Estrutura Conceitual; NBCTSP 01 Receitas de Transação sem Contraprestação; e NBCTSP 02 Receitas de Transação com Contraprestação, além da literatura contábil, econômica e jurídica que disciplina o tema.
+
+Da transparência e avaliação dos incentivos tributários no Espírito Santo:
+
+As boas práticas de governança constituem um pilar de sustentação fundamental na prestação dos serviços públicos do Governo do Espírito Santo, sendo prioridade atuar pela ética, integridade e transparência.
+
+Os incentivos tributários recebem constantes críticas seja pela falta de transparência no processo de concessão de incentivos, bem como a ausência de avaliação dos reais benefícios trazidos pelos incentivos a toda sociedade.
+
+A Transparency International, em seu relatório 
+“The Right Incentives? The Risks of Undue Influence in Tax Policy”
+ sugerem diversas práticas públicas para o fortalecimento da transparência dos incentivos tributários, tais como:
+
+Desenvolver e administrar regimes de incentivos fiscais por meio de processos técnicos, jurídicos e políticos que são transparentes, claros e credíveis, para dissuadir influências indevidas.
+
+Vincular claramente os incentivos fiscais aos planos de desenvolvimento regional.
+
+Discutir e aprovar incentivos fiscais apenas por meio de tomada de decisão colegiada.
+
+Publicar proativamente os incentivos tributários concedidos ao particular.
+
+Monitorar os incentivos tributários para avaliar sua eficácia em alcançar seus objetivos de desenvolvimento social e econômico pretendidos.
+
+Convergindo com as melhores práticas de transparência dos incentivos tributários, o Estado do Espírito Santo possui:
+
+Incentivos tributários previsto em Lei, observando, inclusive, todos os mandamentos da Lei Complementar 160/17 e Convenio de ICMS 190/17;
+
+Todos os processos administrativos de enquadramento de incentivos tributário previstos nas Lei 10.550/16, 10.568/16 e na 11.253/21, são 100% digitais;
+
+Os incentivos concedidos no âmbito das Leis nº 10.550/16, 10.568/16 e na 11.253/21, possuem como pilar o aumento da competitividade estadual, com ênfase na geração de emprego e renda e na redução das desigualdades sociais e regionais;
+
+A concessão dos incentivos é realizada por mais de uma secretaria do Estado (decisão colegiada);
+
+Proativamente o Governo no Espírito Santo publica as informações sobre as beneficiárias dos incentivos tributários, e das empresas que perderam o incentivo, ressalvadas àquelas informações que estão protegidas pelo sigilo fiscal, através do Portal da Transparência do Governo do Estado, no link: 
+https://transparencia.es.gov.br/Comum/IncentivosFiscais.
+
+Monitoramento, através de 
+Business Intelligence
+– BI, demonstrando, por evidencia, os impactos positivos e a eficiência, eficácia e efetividade dos incentivos tributários em alcançar cumprir com os objetivos de desenvolvimento social e econômico pretendidos.
+
+Baixar os dados em XLSX
+
+Da análise dos dados evidencia-se que a concessão de incentivos tributários é um instrumento eficiente, eficaz e efetivo de promoção do desenvolvimento econômico e social, partindo do estímulo à atividade empresarial.
+
+O Estado do Espírito Santo, segundo dados do IBGE de 2020, possui 4 milhões de habitantes, tendo por consequência um mercado consumidor pouco atrativo, dada a demanda populacional. Nesse sentido a política de incentivo tributário, possibilita a atração e consequentemente a inserção de novas empresas no mercado capixaba, gerando mais postos de empregos. E, ao gerar mais empregos, a renda daquele município também aumenta.
+
+Importante destacar que, ao passo que há geração de mais emprego e renda, o Estado consegue se desenvolver economicamente com mais solidez.
+
+Ênfase também para a atração de investimento de setores que vão além dos vocacionais.
+
+No cenário da renúncia fiscal, o Estado abre mão de uma parte do imposto para um determinado setor, permitindo assim que àqueles setores ganhem mais competitividade, principalmente relacionado a produto de outros Estados. Contribuindo inclusive, para a permanência desses no Estado.
+
+Os incentivos tributários além do aspecto tributário imediato possibilita também:
+
+O adensamento de cadeia produtiva: Ponto de atenção quando se trata de incentivos fiscais é o adensamento de cadeia e o desenvolvimento dos arranjos produtivos, ou seja, a partir da instalação de uma nova indústria em determinada região, toda uma cadeia se desenvolve em diferentes escalas (pequenos, médios e grandes), agregando valor aos produtos do Estado, melhorando o custo de logística e gerando mais empregos, renda e novas qualificações profissionais, em razão da inserção da diversificação na produção de novos produtos ou serviços. 
+
+Presença em municípios fora do eixo produtivo: As diretrizes de fomento da política tributária exercida no Programa INVEST/ES, por exemplo, comungam pelo fortalecimento e organização, estimulando a instalação de novos projetos por uma perspectiva de desconcentração do desenvolvimento, combate às desigualdades e valorização das características e potencialidades regionais. 
+
+Geração e manutenção de emprego e renda e fortalecimento da economia local.
+
+INSTITUCIONAL
+
+                                                                História
+
+                                                                Missão, Visão e Valores
+
+                                                                Organograma
+
+CONTATO
+
+                                                                Agenda de Contatos
+
+                                                                Local e Horário de Atendimento
+
+Fale Conosco
+
+                                                    ACESSO À INFORMAÇÃO
+
+Secretaria de Desenvolvimento (SEDES)
+
+Rua Manoel Feu Subtil, nº 60, Ed. Multi Enseada, 2º andar - Enseada do Suá
+CEP: 29050-400 - Vitória / ES
+ Tel.: (27) 3636-9700
+E-mail: 
+gabinete@sedes.es.gov.br
+
+SEDES    
+
+Secretaria de Desenvolvimento            
+
+                        2025 – 2026 |
+                        Desenvolvido pelo
+
+PRODEST
+
+                        com Software Livre.
+
+## Links da página
+- [Acesso à Informação](https://acessoainformacao.es.gov.br/)
+- [Transparência](https://transparencia.es.gov.br/)
+- [Ouvidoria](https://ouvidoria.es.gov.br/)
+- [Administrador](https://sedes.es.gov.br/Login)
+- [](https://sedes.correio.es.gov.br)
+- [Mapa do Site](https://sedes.es.gov.br/mapadosite)
+- [Acessibilidade](https://sedes.es.gov.br/acessibilidade)
+- [SEDES](https://sedes.es.gov.br/)
+- [Página Principal](https://sedes.es.gov.br/)
+- [Institucional](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Competências](https://sedes.es.gov.br/competencias)
+- [Organograma](https://sedes.es.gov.br/organograma)
+- [História](https://sedes.es.gov.br/historia)
+- [Missão, Visão e Valores](https://sedes.es.gov.br/missao-visao-e-valores)
+- [Planejamento Estratégico](https://sedes.es.gov.br/planejamento-estrategico)
+- [Secretário](https://sedes.es.gov.br/secretario-2)
+- [Agenda do Secretário](https://www.es.gov.br/agenda-governador?calendarId=o37peke4j6q3ud927ovqnvu78s@group.calendar.google.com)
+- [Contato](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Agenda de Contatos](https://sedes.es.gov.br/agenda-de-contatos)
+- [Perguntas Frequentes](https://sedes.es.gov.br/perguntas-frequentes)
+- [Local e Horário de Atendimento](https://sedes.es.gov.br/local-e-horario-de-atendimento)
+- [Legislação](https://sedes.es.gov.br/legislacao)
+- [Leis, Decretos e Portarias](https://sedes.es.gov.br/leis-decretos-e-portarias)
+- [Gerência de Atos Legislativos (Conslegis)](https://conslegis.es.gov.br/)
+- [Licitações](https://transparencia.es.gov.br/Compras?Filtro.TipoConsultaSelecionado=2&busca=1)
+- [Compras Governamentais](https://transparencia.es.gov.br/Compras?Filtro.TipoConsultaSelecionado=2&busca=1)
+- [Plano Anual de Contratações](https://sedes.es.gov.br/plano-anual-de-contratacoes-2)
+- [PMI - Logística em Saúde](https://sedes.es.gov.br/PMI_logisticaSaude)
+- [PMI - Dessalinização de água do mar](https://sedes.es.gov.br/pmi-dessalinizacao-de-agua-do-mar)
+- [PMI - ES Digital](https://sedes.es.gov.br/pmi-es-digital)
+- [PMI - Energia Renovável](https://sedes.es.gov.br/edital-de-pmi-n-001-2025)
+- [Chamamento Publico](https://sedes.es.gov.br/EditaldeChamamentopublico001-2025)
+- [Delegação de Competência SUBGEP](https://sedes.es.gov.br/competencia)
+- [Desestatização Es Gás](https://sedes.es.gov.br/desestatizacao-es-gas)
+- [Estímulos à Competitividade](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Invest-ES](https://sedes.es.gov.br/invest-es)
+- [Compete-ES](https://sedes.es.gov.br/compete-es)
+- [Transparência e Governança dos Incentivos Tributários](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Projetos de Investimentos Produtivos](https://sedes.es.gov.br/projetos-de-investimentos-produtivos)
+- [Programa de Geração de Energias Renováveis (Gerar)](https://sedes.es.gov.br/gerar)
+- [Por que investir no ES?](https://sedes.es.gov.br/invista-no-es)
+- [Parcerias ES](https://parcerias.es.gov.br/)
+- [Desenvolvimento Regional](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Parklog ES](https://sedes.es.gov.br/parklog-es)
+- [Parklog Sul Capixaba](https://sedes.es.gov.br/parklog-sul-capixaba)
+- [Comissão de Análise de Projetos Prioritários de Licenciamento Ambiental (CAPPLA)](https://sedes.es.gov.br/projetos-prioritarios-de-licenciamento-ambiental)
+- [Microrregiões](https://sedes.es.gov.br/microrregioes)
+- [Atos Normativos](https://sedes.es.gov.br/atos-normativos)
+- [Polos Empresariais](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Polos e Áreas Empresariais](https://sedes.es.gov.br/polos-e-areas-empresariais)
+- [Normas e Resoluções](https://sedes.es.gov.br/normas-e-resolucoes-polos)
+- [Licitações](https://sedes.es.gov.br/legislacao-polos)
+- [Requerimentos](https://sedes.es.gov.br/requerimentos)
+- [Contratos de comercialização de lotes](https://sedes.es.gov.br/comercializacao-de-lotes)
+- [Escrituras de compra e venda](https://sedes.es.gov.br/escrituras_lavradas)
+- [Privacidade e Proteção de Dados](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Legislação](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [LGPD](https://sedes.es.gov.br/lgpd)
+- [Política Estadual de Privacidade](https://sedes.es.gov.br/politica-estadual-de-privacidade)
+- [Encarregado de Dados](https://sedes.es.gov.br/encarregado-2)
+- [Direitos do Titular](https://sedes.es.gov.br/dos-direitos-dos-titulares-de-dados-conferidos-pela-lgpd)
+- [Tratamento de Dados Pessoais](https://sedes.es.gov.br/tratamento-de-dados-pessoais)
+- [Código de Ética da SEDES](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [O Código](https://sedes.es.gov.br/codigo-de-etica-da-sedes)
+- [Comissão de Ética da SEDES](https://sedes.es.gov.br/comissao-de-etica-da-sedes)
+- [Contato com a Comissão](https://sedes.es.gov.br/contato-com-a-comissao)
+- [Plano de Integridade](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Conheça o Plano](https://sedes.es.gov.br/Media/a1/PLANO_DE_INTEGRIDADE_SEDES_27.04.2026.pdf)
+- [Unidade de Integridade](https://sedes.es.gov.br/unidade-de-integridade)
+- [Contato com a Unidade de Integridade](https://sedes.es.gov.br/contato-com-a-unidade-de-integridade)
+- [Unidade Executora de Controle Interno (UECI)](https://sedes.es.gov.br/sobre-a-ueci)
+- [Gestão de Documentos](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Plano de Classificação de Documentos - Tabela de Temporalidade](https://sedes.es.gov.br/plano-de-classificacao-de-documentos-de-arquivos-tabela-de-temporalidade)
+- [Teletrabalho](https://sedes.es.gov.br/GrupodeArquivos/modelos-de-requerimentos-1)
+- [Acesso à Informação](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Acordos sem Transferência de Recursos](https://sedes.es.gov.br/acordos-sem-transferencia-de-recursos-1)
+- [Programas e Ações (PPA)](https://transparencia.es.gov.br/Orcamento/PPA)
+- [Contratos](https://transparencia.es.gov.br/Contratos)
+- [Obras](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Obras da Sedes](https://sedes.es.gov.br/obras-da-sedes)
+- [Obras do Estado](https://transparencia.es.gov.br/Obras/ObrasGeral/Pesquisar?&filtrar)
+- [Concursos](https://sedes.es.gov.br/concursos)
+- [Emendas Parlamentares](https://sedes.es.gov.br/emendas-parlamentares)
+- [Convênios e Transparência](https://transparencia.es.gov.br/convenios?busca=1)
+- [Receita](https://transparencia.es.gov.br/receita)
+- [Despesas](https://transparencia.es.gov.br/Despesa?filtro.CodConsultaSelecionado=2)
+- [Servidores](https://transparencia.es.gov.br/Pessoal?Filtro.tela=5&Filtro.FiltroPorAtivoSelecionado=true&Filtro.FiltroPorAtivoSelecionado=false&Filtro.FiltroPorAposentadoSelecionado=false&Filtro.FiltroPorAfastadoSelecionado=false&Filtro.FiltroPorDesligadoSelecionado=false&Filtro.FiltroPorPensionistaSelecionado=false&Filtro.Ordenar=Situacao&Filtro.OrdenarCrescente=1&Filtro.Pesquisa)
+- [Relatórios da LAI](https://sedes.es.gov.br/relatorios-da-lai)
+- [Serviço de Informação ao Cidadão](https://sedes.es.gov.br/servico-de-informacao-ao-cidadao-sic)
+- [Plano de Dados Abertos](https://sedes.es.gov.br/dados-abertos)
+- [Carta de Serviços](https://conectacidadao.es.gov.br/Servicos?oi=0887ea01-0008-4e43-839c-9a84b2081c9e&od=SEDES)
+- [Ordem Cronológica de Pagamentos](https://sedes.es.gov.br/ordem-pagamentos)
+- [Prestadores Terceirizados](https://sedes.es.gov.br/prestadores-terceirizados)
+- [Relação de Veículos](https://sedes.es.gov.br/relacao-veiculos)
+- [Nova ES](https://sedes.es.gov.br/nova-es-relatorio-anual-2025)
+- [Sobre a Nova ES](https://sedes.es.gov.br/nova-es)
+- [Licitações](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Perguntas Frequentes](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Direitos do Titular](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Tratamento de Dados Pessoais](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Acordos sem Transferência de Recursos](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Concursos](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Emendas Parlamentares](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Nova ES](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [Sobre a Nova ES](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios)
+- [](https://sedes.es.gov.br/)
+- [https://transparencia.es.gov.br/Comum/IncentivosFiscais.](https://transparencia.es.gov.br/Comum/IncentivosFiscais)
+- [Business Intelligence](https://www.google.com/search?rlz=1C1GCEU_pt-BRBR956BR956&sxsrf=AOaemvK_d1KVyCqpYWh_CHZab-TfU8EBlw:1641246734794&q=business+intelligence&spell=1&sa=X&ved=2ahUKEwihsfbEyJb1AhWXH7kGHYHOAAkQkeECKAB6BAgBEDY)
+- [Baixar os dados em XLSX](https://one.s3.es.gov.br/pr-dl-sedes/investimentos/publico/INVEST-COMPETE.xlsx)
+- [ACESSO À INFORMAÇÃO](https://acessoainformacao.es.gov.br/)
+- [PRODEST](https://www.prodest.es.gov.br/)
+- [](https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios#top)

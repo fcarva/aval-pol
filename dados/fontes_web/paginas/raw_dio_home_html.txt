@@ -1,0 +1,242 @@
+# Fonte: https://ioes.dio.es.gov.br/
+# Coletado (UTC): 2026-09-27T14:34:06Z
+# sha256 do original: 40f8b2d626ea794a71b5cba0c5f0d49988244cbefc6c4d9d34ff49cb42987413
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48855333-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-48855333-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Diário Oficial  / Home</title>
+
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+    <link href="/theme/Es/favicon.ico" type="image/x-icon" rel="icon"/><link href="/theme/Es/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap-datepicker/css/datepicker.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/fontawesomeIcon.css"/>
+	<link rel="stylesheet" type="text/css" href="/theme/Es/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/theme/Es/css/custom.css"/>
+
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/theme/Es/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="/assets/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js"></script>
+<script type="text/javascript" src="/util/js/clock.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var PLUGIN_URL = '/portal/display';
+        var CURRENT_URL = '/portal/pages/display';
+        var CDN_URL = '';
+        var SUBTEMA = false;
+    </script>
+</head>
+
+
+<body onload="relogio()">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-menu">
+            <ul>
+                <button class="sidebar-toggle" id="close-sidebar">
+                    <img src="/img/sidebar-icon.png" id="img-seta" class="sidebar-icon" alt=""/> Menu
+                </button>
+                <!-- Link para a Área do Publicador adicionado à sidebar -->
+                <li>
+                    <a href="/" class="publicador-link">
+                        <img src="/img/login-icon.png" id="img-login" class="sidebar-icon" alt=""/>                        Área do Publicador
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dio.es.gov.br/faq_diulia_responde" class="publicador-link">
+                        <img src="/img/duvida-icon.png" id="img-login" class="sidebar-icon" alt=""/>                        Dúvidas frequentes
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dio.es.gov.br/horario-de-atendimento" class="publicador-link">
+                        <img src="/img/ajuda-icon.png" id="img-login" class="sidebar-icon" alt=""/>                        Ajuda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://comunicacaocidada.es.gov.br/" class="publicador-link">
+                        <img src="/img/guia-icon.png" id="img-login" class="sidebar-icon" alt=""/>                        Guia de Comunicação Cidadã
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <div class="container-fluid" id="header">
+        
+        <!-- Header expandido para os lados -->
+        <div class="header-container">
+            <!-- Lado esquerdo: Botão sidebar e login -->
+            <div class="left-section col-xs-12 col-sm-12 col-md-4">
+                <button class="sidebar-toggle" id="open-sidebar"><img src="/img/sidebar-icon-branco.png" id="img-seta" class="sidebar-icon" alt=""/></button>
+
+                <div class="login-area">
+                                            <div class="form-login">
+                            <form action="/login" class="" name="UsuarioLogin" id="UsuarioLoginForm" noValidate="1" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div><input name="data[Usuario][usuario]" class="opaco" placeholder="USUÁRIO" maxlength="60" type="text" id="UsuarioUsuario" required="required"/><input name="data[Usuario][senha]" class="opaco" placeholder="SENHA" type="password" id="UsuarioSenha" required="required"/>
+                            <button type='submit' class="botao" value='Ok'>OK</button>
+                            </form>                        </div>
+                                        </div>
+            </div>
+
+            <!-- Centro: Data e Hora -->
+            <div class="datetime-center col-xs-12 col-sm-12 col-md-4">
+                <span class='dia-semana'>DOMINGO,&nbsp;</span><span class='date'> 27 DE SETEMBRO DE 2026</span>                <span class="time">&nbsp;/&nbsp;<span id="h"></span>H<span id="m"></span></span>
+                <i class="fa fa-clock-o relogio-vermelho"></i>
+            </div>
+
+            <!-- Lado direito: Logos -->
+            <div class="logos-right col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                                <img src="/theme/Es/img/Ativo%201dio.png" alt="slogan" id="slogan" class="slogan-home"/>                <a href="/portal/visualizacoes/diario_oficial" class="logo logo-home">
+                    <img src="/theme/Es/img/Ativo%202dio.png" alt="slogan" id="logo" class="logo logo-home"/>                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container ">
+        <div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+                    </div>
+    </div>
+
+    <div class="row">
+        <h2 class="page-title">Área do Publicador</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-push-2">
+            <div class="row">
+                <p class="info-login text-center col-md-12">Faça seu login abaixo</p>
+                <form action="/loginportal" class="form-horizontal" name="UsuarioLogin" noValidate="1" id="UsuarioLoginForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>                <div class="row">
+                    <div class='form-group'>
+                        <label class='control-label col-sm-3'>Usuário <span class='text-danger'>*</span></label>
+                        <div class="col-sm-6">
+                            <input name="data[Usuario][usuario]" class="form-control" maxlength="60" type="text" id="UsuarioUsuario" required="required"/>                        </div>
+                    </div>
+                    <div class='form-group'>
+                        <label class='control-label col-sm-3'>Senha <span class='text-danger'>*</span> </label>
+                        <div class="col-sm-6">
+                            <div class="false required"><input name="data[Usuario][senha]" class="form-control col-sm-12" type="password" id="UsuarioSenha" required="required"/></div>                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">&nbsp;</div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-6" style="margin-top:7px;">
+                                <a href="/esqueci-senha">Esqueceu sua senha? Clique aqui.</a>                            </div>
+                            <div class="form-actions col-sm-3" style="margin-top:7px;">
+                                <a href="/cadastro">Cadastrar</a>                            </div>
+                            <div class="form-actions col-sm-3">
+                                <button type="submit" class="btn btn-primary" style="margin-right: 25px">Entrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </form>            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#botaoWhatsapp').on('click', function() {
+        $('#modalWhatsappForm').modal();
+    });
+    $(document).on('ready', function() {
+        $(document).on('submit', '#submit-wpp', function() {
+            $(e).preventDefault();
+            if ($('#celular-wpp').length == 0) {
+                $('#celular-wpp').focus();
+                return false;
+            }
+            $(this).submit();
+            return true;
+        });
+    });
+</script>
+    </div>
+
+    <footer>
+        <div class="contato">
+            <div class="footer-info">
+                <p>DEPARTAMENTO DE IMPRENSA OFICIAL <span style="white-space: nowrap">DO ESPÍRITO SANTO</span></p>
+                <p>AV. NOSSA SRA. DA PENHA, 714, ED. RS<br>TRADE TOWER, 4º ANDAR - <span style="white-space: nowrap">PRAIA DO CANTO</span><br>CEP: 29.055-130 VITÓRIA / ES<br>TEL.: 27 3636-6929</p>
+            </div>
+            <div class="footer-logo">
+                <div class="visible-lg visible-md visible-sm">
+                    <img src="/theme/Es/img/ES.png" alt="ES"/>                    <img src="/theme/Es/img/Brasil.png" alt="Brasil"/>                </div>
+                <div class="visible-xs">
+                <img src="/theme/Es/img/logo-dioes-junto.png" alt="Imprensa Oficial ES e Governo do ES" class="footer-logo-img"/>                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // Função do relógio original
+        function relogio() {
+            momentoAtual = new Date()
+            hora = momentoAtual.getHours()
+            minuto = momentoAtual.getMinutes()
+
+            // Formata para ter sempre 2 dígitos
+            hora = hora < 10 ? '0' + hora : hora;
+            minuto = minuto < 10 ? '0' + minuto : minuto;
+
+            $('#h').html(hora);
+            $('#m').html(minuto);
+
+            setTimeout("relogio()", 1000)
+        }
+
+        // Controle da sidebar
+        $(document).ready(function() {
+            $('#open-sidebar').click(function() {
+                $('#sidebar').addClass('open');
+                $('#sidebar-overlay').addClass('open');
+                $('body').css('overflow', 'hidden');
+            });
+
+            $('#close-sidebar, #sidebar-overlay').click(function() {
+                $('#sidebar').removeClass('open');
+                $('#sidebar-overlay').removeClass('open');
+                $('body').css('overflow', 'auto');
+            });
+
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
