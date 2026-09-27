@@ -19,6 +19,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 # fora do padrão: dígito ou letra colados, decimal com ponto ("15333611913.86", SICONFI) e decimal com vírgula ("…,23")
 CPF = re.compile(r"(?<![0-9A-Za-z./])\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?![0-9A-Za-z/]|\.\d|,\d{2}(?!\d))")
+# razão social de MEI: nome seguido do CPF ("FULANO DE TAL 12345678901"), mesmo quando a célula seguinte da planilha
+# começa por dígitos (",28.096.224/0001-68"), caso que o padrão acima toma por decimal com vírgula
+CPF_MEI = re.compile(r"(?<=[A-Za-zÀ-ÿ] )\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?![0-9/]|\.\d)")
 ALVOS = ("dados/fontes_web/paginas/*.txt", "dados/licc/**/*.csv", "dados/licc/**/*.json", "dados/processados/*.csv", "analise/tabelas/*.csv")
 
 
@@ -30,7 +33,7 @@ def mascarar(texto: str) -> tuple[str, int]:
         n += 1
         return re.sub(r"\d", "X", m.group(0))
 
-    linhas = [l if l.startswith("# ") else CPF.sub(troca, l) for l in texto.split("\n")]
+    linhas = [l if l.startswith("# ") else CPF_MEI.sub(troca, CPF.sub(troca, l)) for l in texto.split("\n")]
     return "\n".join(linhas), n
 
 

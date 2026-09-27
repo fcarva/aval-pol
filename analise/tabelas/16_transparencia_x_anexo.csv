@@ -1,0 +1,5 @@
+ano_captacao,termos_transparencia,termos_anexo,casam_cnpj_valor,so_transparencia,so_anexo,nota
+2022,48,47,44,4,3,chave = CNPJ do estabelecimento patrocinador × valor em centavos; o anexo de 2024 e 2025 é a versão atual (ver 13_versoes_captados.csv)
+2023,71,71,70,1,1,chave = CNPJ do estabelecimento patrocinador × valor em centavos; o anexo de 2024 e 2025 é a versão atual (ver 13_versoes_captados.csv)
+2024,110,109,103,7,6,chave = CNPJ do estabelecimento patrocinador × valor em centavos; o anexo de 2024 e 2025 é a versão atual (ver 13_versoes_captados.csv)
+2025,96,95,93,3,2,chave = CNPJ do estabelecimento patrocinador × valor em centavos; o anexo de 2024 e 2025 é a versão atual (ver 13_versoes_captados.csv)

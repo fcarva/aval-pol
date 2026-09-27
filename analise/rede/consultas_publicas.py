@@ -4,20 +4,27 @@
    município, capital social, data de abertura e opção pelo Simples. Os CNPJs saem dos anexos "Recurso financeiro
    captado" de 2022 a 2026 e das versões antigas coletadas (dados/fontes_web/paginas/). O quadro de sócios não é
    gravado.
-   Também os CNPJs dos proponentes da LICC que casam, pelo nome exato, com um proponente da Rouanet no SALIC
-   (analise/tabelas/15_proponentes_licc_na_rouanet.csv): natureza jurídica, abertura, atividade e sede.
+   Também os CNPJs dos proponentes que captaram na LICC (2022-2025), lidos das listas de projetos beneficiados do
+   Portal da Transparência (dados/processados/transparencia_licc_termos.csv, analise/16_transparencia_licc.py):
+   natureza jurídica, abertura, atividade, porte e sede.
 2. Mapa Cultural: agentes, projetos e eventos, lidos por inteiro pela API pública, mas gravados só quando o nome
    normalizado coincide EXATAMENTE com um proponente ou um título de projeto da LICC (dados/processados/
    habilitados.csv). Sem semelhança aproximada, e sem gravar dados de quem não é proponente (LGPD).
+3. Diário Oficial do ES (IOES): busca em texto pela rota pública da plataforma (Elasticsearch cru,
+   /busca/busca/buscar/query/<página>/di:<início>/df:<fim>/?q="termo", paginação a partir de zero), para os atos da LICC:
+   portarias do montante, designação da CAP, avisos de habilitação e resultados. Grava só o trecho em volta do termo,
+   com CPF mascarado; o texto da página inteira (outros atos, outras pessoas) não é gravado.
 
 Saídas (dados/externos/):
   cnpj_patrocinadores.csv          uma linha por CNPJ de patrocinador
-  cnpj_proponentes.csv             uma linha por CNPJ de proponente (só os casados com o SALIC, sem chave ambígua)
+  cnpj_proponentes.csv             uma linha por CNPJ de proponente que captou (Portal da Transparência, DV válido)
   mapa_agentes_proponentes.csv     agentes do Mapa cujo nome casa com um proponente (área de atuação, município, tipo)
   mapa_projetos_licc.csv           projetos do Mapa cujo nome casa com um título da LICC
   mapa_eventos_licc.csv            eventos do Mapa cujo nome, ou o do projeto, casa com um título da LICC
   mapa_casamento_resumo.csv        quantos registros foram lidos e quantos casaram, por entidade
-Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa]
+  dio_licc_trechos.csv             um trecho por ocorrência do termo no DIO: data, diário, página, termo, trecho
+  dio_licc_diagnostico.txt         rotas e formatos de data tentados, com status e início da resposta
+Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio]
 """
 from __future__ import annotations
 
@@ -27,6 +34,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
@@ -86,11 +94,11 @@ def cnpjs_patrocinadores() -> list[str]:
 
 
 def cnpjs_proponentes() -> list[str]:
-    arq = RAIZ / "analise" / "tabelas" / "15_proponentes_licc_na_rouanet.csv"
+    arq = RAIZ / "dados" / "processados" / "transparencia_licc_termos.csv"
     if not arq.exists():
         return []
     t = pd.read_csv(arq, dtype=str)
-    return sorted(c for c in t["cnpj_salic"].dropna() if re.fullmatch(r"\d{14}", c) and dv_cnpj_ok(c))
+    return sorted({c for c in t["cnpj_proponente"].dropna() if re.fullmatch(r"\d{14}", c) and dv_cnpj_ok(c)})
 
 
 def consultar_cnpjs(cnpjs: list[str] | None = None, nome: str = "cnpj_patrocinadores.csv") -> None:
@@ -214,6 +222,96 @@ def consultar_mapa() -> None:
     print(pd.DataFrame(resumo).to_string(index=False))
 
 
+DIO = "https://ioes.dio.es.gov.br"
+# só a LICC (pedido do autor, 27/09/2026): a lei, a sigla, a lei de criação e a comissão que habilita os projetos
+TERMOS_DIO = ["Lei de Incentivo à Cultura Capixaba", "LICC", "11.246/2021", "Comissão de Avaliação de Projetos"]
+
+
+def _dio_pagina(termo: str, pagina: int, di: str, df: str):
+    # rota montada como no script da busca (assets/javascripts/application.7d10c6fa.js, $scope.search)
+    url = f"{DIO}/busca/busca/buscar/query/{pagina}/di:{di}/df:{df}/"
+    try:
+        r = requests.get(url, params={"1": "1", "q": f'"{termo}"'}, headers=UA, timeout=(15, 90))
+    except requests.RequestException as e:
+        return None, f"{url} erro {e}"
+    diag = f"{r.url} -> {r.status_code} {r.headers.get('content-type', '')} {r.text[:300]!r}"
+    try:
+        return r.json(), diag
+    except ValueError:
+        return None, diag
+
+
+def _trechos(conteudo: str, termo: str, antes: int = 1200, depois: int = 2800) -> list[str]:
+    """Janela em volta de cada ocorrência do termo (sem acento e caixa), fundindo janelas que se sobrepõem."""
+    def simples(x: str) -> str:  # sem acento e sem caixa, caractere a caractere (mantém as posições)
+        return "".join((unicodedata.normalize("NFD", ch)[:1] or ch).lower()[:1] or ch for ch in x)
+    alvo, base = " ".join(simples(termo).split()), simples(conteudo)
+    janelas = []
+    i = base.find(alvo)
+    while i >= 0:
+        a, b = max(0, i - antes), min(len(conteudo), i + len(alvo) + depois)
+        if janelas and a <= janelas[-1][1]:
+            janelas[-1] = (janelas[-1][0], b)
+        else:
+            janelas.append((a, b))
+        i = base.find(alvo, i + len(alvo))
+    return [conteudo[a:b] for a, b in janelas]
+
+
+def consultar_dio() -> None:
+    sys.path.insert(0, str(RAIZ / "analise" / "rede"))
+    from mascarar_cpf import mascarar
+    EXT.mkdir(parents=True, exist_ok=True)
+    diag, linhas = [], []
+    fim = time.strftime("%Y-%m-%d")
+    formatos = [("2021-04-01", fim), ("01-04-2021", time.strftime("%d-%m-%Y")),
+                ("2021-04-01T00:00:00", f"{fim}T23:59:59"), ("20210401", time.strftime("%Y%m%d"))]
+    escolhido = None
+    for di, df in formatos:
+        d, msg = _dio_pagina(TERMOS_DIO[0], 0, di, df)
+        diag.append(f"formato {di} / {df}: {msg}")
+        if isinstance(d, dict) and isinstance(d.get("hits"), dict) and d["hits"].get("hits"):
+            escolhido = (di, df)
+            break
+    if not escolhido:
+        (EXT / "dio_licc_diagnostico.txt").write_text("\n".join(diag) + "\n", encoding="utf-8")
+        print("DIO: nenhuma rota/formato devolveu resultados; ver dio_licc_diagnostico.txt")
+        return
+    vistos = set()
+    for termo in TERMOS_DIO:
+        total = None
+        for pagina in range(0, 80):
+            d, msg = _dio_pagina(termo, pagina, *escolhido)
+            if pagina == 0:
+                diag.append(f"{termo}: {msg[:200]}")
+            hits = ((d or {}).get("hits") or {}) if isinstance(d, dict) else {}
+            total = hits.get("total", total)
+            if isinstance(total, dict):
+                total = total.get("value")
+            lista = hits.get("hits") or []
+            if not lista:
+                break
+            for h in lista:
+                src = h.get("_source") or {}
+                conteudo = str(src.get("conteudo") or "")
+                meta = {k: v for k, v in src.items() if k != "conteudo" and not isinstance(v, (dict, list))}
+                chave = (h.get("_id"), termo)
+                if chave in vistos:
+                    continue
+                vistos.add(chave)
+                for j, t in enumerate(_trechos(conteudo, termo)):
+                    t, _ = mascarar(" ".join(t.split()))
+                    linhas.append({"termo": termo, "id": h.get("_id"), "trecho_n": j,
+                                   "data": "-".join(str(src.get(k, "")).zfill(2) for k in ("year", "month", "day")),
+                                   "pagina": src.get("pagina"), "diario": h.get("diario") or src.get("diario"),
+                                   "meta": json.dumps(meta, ensure_ascii=False)[:500], "trecho": t})
+            time.sleep(0.5)
+        diag.append(f"{termo}: total informado {total}; trechos acumulados {len(linhas)}")
+    pd.DataFrame(linhas).to_csv(EXT / "dio_licc_trechos.csv", index=False)
+    (EXT / "dio_licc_diagnostico.txt").write_text("\n".join(diag) + "\n", encoding="utf-8")
+    print(f"DIO: {len(linhas)} trechos; formato de data {escolhido}")
+
+
 def main() -> None:
     so = sys.argv[sys.argv.index("--so") + 1] if "--so" in sys.argv else "tudo"
     if so in ("cnpj", "tudo"):
@@ -222,6 +320,8 @@ def main() -> None:
         consultar_cnpjs(cnpjs_proponentes(), "cnpj_proponentes.csv")
     if so in ("mapa", "tudo"):
         consultar_mapa()
+    if so in ("dio", "tudo"):
+        consultar_dio()
 
 
 if __name__ == "__main__":

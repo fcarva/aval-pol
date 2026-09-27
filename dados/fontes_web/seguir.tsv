@@ -9,5 +9,5 @@ fun2025c	https://secult.es.gov.br/ciclo-2025-editais	(?i)29[-_ ]?2025|29%202025|
 fun2025e	https://secult.es.gov.br/edital-2025	(?i)29[-_ ]?2025|29%202025|curta	H2 (contraste): edital Funcultura 29/2025 (se estiver nesta página)
 fun2026	https://secult.es.gov.br/editais-2026	(?i)29[-_ ]?2025|29%202025|curta	H2 (contraste): edital Funcultura 29/2025 (se estiver nesta página)
 lai_secult	https://secult.es.gov.br/relatorios-da-lai	(?i)\.pdf$|\.xlsx?$|relat[oó]rio	LAI da SECULT: relatórios de pedidos e respostas (há pedido sobre a LICC?)
-transp377	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/377?NivelAnterior=0	(?i)download|arquivo|\.xlsx?$|\.csv$|\.pdf$|\.ods$|\.zip$	LICC e Lei do Esporte: listas de projetos beneficiados (arquivos da seção 07)
+transp377	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/377?NivelAnterior=0	(?i)cultura	LICC: listas de projetos beneficiados (seção 07; só os arquivos da cultura)
 transp370	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/370?NivelAnterior=0	(?i)download|arquivo|\.xlsx?$|\.csv$|\.pdf$|\.ods$|\.zip$	renúncia de receita: demonstrativos da estimativa e execução (arquivos da seção 08)
