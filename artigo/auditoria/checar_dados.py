@@ -12,6 +12,7 @@ Uso:   python artigo/auditoria/checar_dados.py      (código de saída 1 se algo
 from __future__ import annotations
 
 import csv
+import re
 import sys
 from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
@@ -501,14 +502,22 @@ CHECAGENS += [
      f"até 2023, {num(teto11.loc[2023, 'pct_montante'])}% do montante anual; desde 2024, R\\$ {num(teto11.loc[2024, 'teto_geral_montante_final'] / 1e3)} mil"
      if bool(teto11.loc[2023, "trechos_conferidos_no_texto"]) and bool(teto11.loc[2024, "trechos_conferidos_no_texto"]) else "?",
      T + "11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos)"),
+    # revisão de 27/09/2026, tarde (grifos do autor): economia criativa no boletim da SECULT (PNAD Contínua, 2º tri 2020)
+    ("N64", "8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição",
+     (lambda b: f"{b[0]} dos ocupados no 2º trimestre de 2020, contra {b[1]} no país, a {b[2]} posição")(
+         (lambda x: (re.search(r"equivale a ([\d,]+%) do total de pessoas", x).group(1),
+                     re.search(r"média brasileira \(([\d,]+%)\)", x).group(1),
+                     re.search(r"na (\d+ª)\s+posição", x).group(1)))(
+             (RAIZ / "dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt").read_text(encoding="utf-8"))),
+     "dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt (SECULT, Boletim 2T2020)"),
     # revisão de 27/09/2026 (dados públicos sem LAI: Portal da Transparência e Mapa Cultural)
-    ("N61", "48 pares patrocinador–proponente se repetem entre anos (44% do valor)",
-     f"{len(pares16)} pares patrocinador–proponente se repetem entre anos ("
+    ("N61", "48 pares patrocinador–proponente se repetem (44% do valor)",
+     f"{len(pares16)} pares patrocinador–proponente se repetem ("
      f"{pct(pares16['valor'].sum() / _termos16.loc[~_termos16['valor_zero'].astype(bool) & _termos16['cnpj_proponente_dv_ok'].astype(bool), 'valor'].sum())} do valor)",
      T + "16_pares_recorrentes.csv; dados/processados/transparencia_licc_termos.csv"),
-    ("N62", "44 dos 107 proponentes que captaram voltaram a captar (68% do valor)",
-     f"{int(conc16.loc['2022-2025', 'proponentes_em_mais_de_um_ano'])} dos {int(conc16.loc['2022-2025', 'proponentes_cnpj'])} "
-     f"proponentes que captaram voltaram a captar ("
+    ("N62", "44 de 107 proponentes voltaram a captar (68% do valor)",
+     f"{int(conc16.loc['2022-2025', 'proponentes_em_mais_de_um_ano'])} de {int(conc16.loc['2022-2025', 'proponentes_cnpj'])} "
+     f"proponentes voltaram a captar ("
      f"{pct(conc16.loc['2022-2025', 'valor_de_quem_captou_em_mais_de_um_ano'])} do valor)", T + "16_concentracao_proponentes.csv"),
 ]
 
