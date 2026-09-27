@@ -55,3 +55,28 @@
   - SECULT ([202-]), com a frase que a citava.
 - **Referência acrescentada:** IJSN (2021).
 - **Errata da revisão:** 6 de 11, não 7; 38 termos em 32 projetos (`revisao-stage3-r2/06-decisao-editorial.md`).
+
+## Adendo de 27/09/2026: captação auditada, H2a, porte e pontas abertas
+
+**Motivo.** O autor pediu três coisas:
+- auditar a frase da captação 2023-2025;
+- auditar a H2a quanto à pontuação;
+- tratar das áreas financiadas, dos projetos menores e do financiamento de bens públicos, deixando o desenho aberto
+  para a 2ª parte da disciplina.
+
+| Verificação | Resultado |
+| --- | --- |
+| Captação 2023-2025, termo a termo (`auditar_captacao.py`) | **75/75** conferências batem. Em 2025, 1 dos 63 projetos está "em análise na SEFAZ"; a frase do §1 passou a "62 projetos validados somam R\$ 24,64 milhões" (`auditoria-captacao-2023-2025.md`) |
+| Sensibilidade de 2025 | Sem o projeto em análise, empresas 26 → 25, maior empresa 44% → 45%, energia e gás 52% → 53%, empresas da Rouanet 13 → 12. O artigo mantém o anexo inteiro e diz isso no §1 |
+| Números contra a tabela de origem | **55/55** (`checar_dados.py`). Novas: D07 (validados), N45-N47. Retiradas: N01 e N33, cujo trecho saiu do resumo; N15 e N43 cobrem os mesmos números no corpo |
+| Referências com DOI | **22/22** conferidas. Entrou Maestas, Mullen e Strand (2013). Saíram Gomes e Librero-Cano (2018), Alcântara *et al.* (2019) e Borgonovi e O'Hare (2004), com as frases que as citavam, por espaço |
+| Referência sem DOI | Entrou SECULT (2025c), o edital de credenciamento de pareceristas, lido no PDF coletado pelo relé (`secult_edital_pareceristas_2025.txt`) |
+| H2a e pontuação | Nenhuma nota para projeto: decreto, IN, modelos de parecer de 2022 e 2026 e método `simple` do Mapa. O tipo do método está agora arquivado (`mapa_api_fases_metodo_tipo.txt`). A única pontuação é a dos pareceristas |
+| "Esclarecimentos da Secult" (trazidos pelo autor) | Conferidos na IN 001/2025; nada trata de nota. Registro em `notas/desenho/03-…` §9 |
+| CPFs | Mascarados nos textos do relé e nas tabelas (`analise/rede/mascarar_cpf.py`); o histórico do git os mantém |
+| Formato | 15 páginas; nenhum glifo ausente; nenhuma linha estourada |
+
+**Pendências:**
+- Os campos dos dados abertos do CNPJ citados no Quadro 4 (porte, abertura, atividade, município) foram pedidos ao
+  relé (PDF de metadados da Receita). A página da Receita não os lista no texto coletado.
+- A LC 187/2021 não foi coletada (erro no Planalto) e não entra no artigo.

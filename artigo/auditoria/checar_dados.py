@@ -55,6 +55,16 @@ muni = ler(TAB / "03_municipios.csv").set_index("municipio")
 patr = ler(TAB / "03_patrocinadores_concentracao.csv").set_index("indicador")["valor"]
 macro = ler(TAB / "03_patrocinadores_macrossetor.csv").set_index("macrossetor")
 faixa = ler(TAB / "03_status_conversao_por_faixa_valor_e_ciclo.csv")
+
+
+def fx(ciclo: int, faixa_valor: str) -> float:
+    r = faixa[(faixa.ciclo == ciclo) & (faixa.faixa_valor_ciclo == faixa_valor)]
+    return float(r["taxa_execucao"].iloc[0])
+
+
+# auditoria independente da captação (artigo/auditoria/auditar_captacao.py): somas termo a termo nos anexos oficiais
+aud = pd.read_csv(Path(__file__).with_name("auditoria_captacao_anual.csv")).set_index("ano_captacao")
+aud25 = aud.loc[2025]
 coorte = ler(TAB / "03_coortes_primeira_presenca_canonico.csv").set_index("primeiro_ciclo")
 f13m = ler(TAB / "03e_f13_municipal_rmgv_interior.csv")
 d1 = ler(TAB / "05_poder_d1_proponente.csv")
@@ -195,9 +205,10 @@ CHECAGENS = [
     ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado)",
      f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
      f"nos cinco ciclos ({int(anual.loc[TOTAL, 'autorizado_n'])} com valor publicado)", T + "03_anual.csv"),
-    ("D07", "em 2025, 63 projetos captaram, juntos, exatamente R\\$ 25.000.000,00",
-     f"{int(capt['projetos'])} projetos captaram, juntos, exatamente R\\$ " + f"{int(capt['soma_valor_captado']):,}".replace(",", ".") + ",00",
-     T + "licc_captados_2025_totais.csv"),
+    ("D07", "em 2025, 62 projetos validados somam R\\$ 24,64 milhões, e um ainda",
+     f"{int(aud25['projetos_validados'])} projetos validados somam R\\$ {num(float(aud25['soma_validados']) / 1e6, 2)} milhões, e "
+     f"{ {1: 'um'}.get(int(aud25['projetos_em_analise']), '?')} ainda",
+     "artigo/auditoria/auditoria_captacao_anual.csv (auditar_captacao.py, sobre o anexo oficial de 2025)"),
     ("D08", "ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação",
      f"{pct(ES_SH, 1)} dos trabalhadores do ES, contra {pct(BR_SH, 1)} no país, a {ES_RANK}ª", "dados/externos/siic_uf.csv"),
     ("D09", "95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",
@@ -355,8 +366,6 @@ CHECAGENS = [
 T7 = T + "07_"
 CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D07", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
 CHECAGENS += [
-    ("N01", "termos equivalentes a 28% e 35% do montante foram recusados",
-     f"{pct(anu.loc[2023, 'indeferido_sobre_montante'])} e {pct(anu.loc[2024, 'indeferido_sobre_montante'])}", T + "03f_captacao_anual_secult.csv"),
     ("N02", "Entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
     ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
      f"{milhar(mapa07.loc['todos', 'agentes'])} ({milhar(mapa07.loc['coletivo (type=2)', 'agentes'])})", T7 + "mapa_cultural_universo.csv"),
@@ -422,8 +431,6 @@ CHECAGENS += [
      f"{int(reent.loc[2024, 'captaram_no_ano_seguinte'])} dos {int(reent.loc[2024, 'projetos_recusados'])} recusados em 2024",
      T + "09_reentrada_resumo.csv"),
     ("N31", "os de 32 projetos recusados em 2023 e 2024", f"os de {int(PROJ_REC.sum())} projetos", "dados/processados/indeferidos_2023_2024.csv"),
-    ("N33", "em 2025, a cota de 50% se completou com termos recebidos até 28 de janeiro",
-     f"se completou com termos recebidos até {cota_completa(2025, 4)}", T + "09_cotas_2025_2026.csv"),
     ("N34", "em 2025, a cota de 50% se completou com termos recebidos até 28/01",
      f"até {cota_completa(2025, 4, curto=True)}", T + "09_cotas_2025_2026.csv"),
     ("N35", "caiu de 59% no ciclo 2024 para 46% em 2025 e voltou a 55% em 2026",
@@ -457,6 +464,17 @@ CHECAGENS += [
     ("N44", "e os 53 a 95 proponentes habilitados por ciclo",
      f"os {int(comp07['proponentes'].min())} a {int(comp07['proponentes'].max())} proponentes", T7 + "composicao_por_ciclo.csv (2022-2026)"),
     ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
+    # revisão de 27/09/2026: captação auditada termo a termo e captação por porte do pedido
+    ("N45", "os termos listados pela SECULT somam exatamente o montante de cada ano",
+     "somam exatamente" if all(bool(aud.loc[a, "esgotou_montante"]) for a in (2023, 2024, 2025)) else "?",
+     "artigo/auditoria/auditoria_captacao_anual.csv (2023-2025)"),
+    ("N46", "a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",
+     f"caiu de {pct(fx(2022, 'até 400 mil'))} no ciclo 2022 para {pct(fx(2024, 'até 400 mil'))} em 2024, enquanto no teto ficou entre "
+     f"{pct(min(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))} e {pct(max(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))}",
+     T + "03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao)"),
+    ("N47", "e a de 30%, até 20 de maio, com um projeto ainda em análise",
+     f"com { {1: 'um projeto'}.get(int(aud25['projetos_em_analise']), '?')} ainda em análise",
+     "artigo/auditoria/auditoria_captacao_anual.csv; anexo de 2025, cota I"),
 ]
 
 

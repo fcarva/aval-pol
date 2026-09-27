@@ -129,3 +129,5 @@ planalto_ctn_compilado	https://www.planalto.gov.br/ccivil_03/leis/l5172compilado
 planalto_lc_187_2021	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm	LAI/sigilo fiscal: LC 187/2021, que incluiu o inciso IV no § 3º do art. 198 do CTN
 receita_dados_publicos_cnpj	https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj	Porte: dados abertos do CNPJ (porte, abertura, CNAE, município)
 dadosgov_cnpj	https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj	Porte: conjunto de dados do CNPJ no portal dados.gov.br
+receita_cnpj_metadados	https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf	Quadro 4: campos dos dados abertos do CNPJ (porte, início de atividade, CNAE, município)
+receita_cnpj_layout_antigo	https://arquivos.receitafederal.gov.br/dados/cnpj/LAYOUT_DADOS_ABERTOS_CNPJ.pdf	Quadro 4: layout dos dados abertos do CNPJ (versão do servidor de arquivos)

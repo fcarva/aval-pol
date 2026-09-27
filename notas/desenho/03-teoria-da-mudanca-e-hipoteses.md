@@ -376,8 +376,12 @@ nota nem ranking" e apoiava H2a na razão "habilita 1,1 a 1,9 vez o que o teto p
   pública, consulta de 24/09/2026 pelo conector Parallel Search, reproduzível em
   `mapa.cultura.es.gov.br/api/opportunity/find?@select=id,name,evaluationMethodConfiguration.{id,type}&id=IN(1434,1435,1896,1897,2373,2374)`.
 - A oportunidade principal usa "Avaliação Documental".
-- Na plataforma Mapas Culturais, as notas por critério ficam no método técnico [VERIFICAR na documentação da
-  plataforma o que o método simplificado registra].
+- Na plataforma Mapas Culturais, as notas por critério ficam no método técnico. O método simplificado é "um select
+  box com os status possíveis para uma inscrição" (rascunho, pendente, inválida, não selecionada, suplente,
+  selecionada), sem nota: `src/modules/EvaluationMethodSimple/Module.php` do repositório
+  `mapasculturais/mapasculturais`, commit `3f35b95` (resolvido em 24/09/2026).
+- Consulta arquivada pelo relé em 24/09/2026: `dados/fontes_web/paginas/mapa_api_fases_metodo_tipo.txt`. As seis
+  fases (1434, 1435, 1896, 1897, 2373 e 2374) têm `type: simple`, "Avaliação Simplificada".
 
 **3. O modelo de parecer (resolvido em 24/09/2026).** O relé leu o "Parecer Técnico Cultural LICC – modelo padrão" de
 2026 (`dados/fontes_web/paginas/secult_parecer_modelo_2026.txt`) e o de 2022 (`mapa_parecer_modelo_2022.txt`).
@@ -404,6 +408,38 @@ só 30 vinham do ciclo 2024. A evidência direta de excesso de demanda é outra:
 entra no cardápio. Entre os habilitados, quem recebe depende da empresa e da ordem de chegada. "Poucos passam" não se
 sustenta nas etapas observadas, onde a maioria passa. Na entrada, fica indeterminado. A figura e o artigo foram
 ajustados assim.
+
+## 9. Revisão de 24-27/09/2026: pontuação, "Esclarecimentos da Secult" e o que ficou aberto
+
+**Pontuação.** Nenhuma fonte nova mostra nota para projeto. O autor trouxe um resumo de "Esclarecimentos da Secult
+sobre a LICC", conferido na IN 001/2025:
+
+- prestação de contas em 60 dias, prorrogáveis por 30: confere (art. 65);
+- "limite de notificações para correções do mesmo tipo": confere, mas vale para a documentação da inscrição
+  (art. 38, § 2º), não para a prestação de contas;
+- sanções (advertência, devolução, suspensão de até 2 anos) aplicadas "proporcionalmente à gravidade", com
+  recurso: confere (arts. 76-77). "Gradual" é leitura; a norma diz "proporcional";
+- foco no objeto, com relatório de execução e de encerramento da conta: confere (arts. 64-66).
+  - "Impactos sociais" não está na norma.
+  - O relatório traz lista de presença e estimativa de público (art. 66, I, e), útil como *Y* de H1b.
+
+Nada disso trata de nota.
+
+**H2a deixou de ser "sem variação exógena".**
+
+- O edital de credenciamento 001/2025 distribui os projetos aos pareceristas por ordem de inscrição e área, de forma
+  isonômica (itens 2.1-2.4).
+- O parecer favorável emite o certificado (IN 001/2025, arts. 40 e 45).
+- A severidade do parecerista designado é, portanto, instrumento candidato (desenho de examinador; Maestas, Mullen e
+  Strand, 2013), a testar pelo balanceamento.
+- O desenho completo e as pontas abertas por aula da 2ª parte estão em `05-estudo-causal-bens-publicos.md`.
+
+**Áreas.**
+
+- A LICC não reserva teto por linguagem.
+- São seis linhas de financiamento (art. 9º), com limites por projeto (arts. 14-16); as cotas do art. 18 são por
+  tipo e território.
+- A linguagem de cada projeto não é publicada, e por isso o artigo a trata como indeterminada, obtenível por LAI.
 
 ## Referências
 
