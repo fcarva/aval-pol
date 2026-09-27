@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/instrucao-normativa
-# Coletado (UTC): 2026-09-27T20:10:48Z
+# Coletado (UTC): 2026-09-27T22:23:50Z
 # sha256 do original: 4bc12e279305d43941fb515f7b3f550ccc7b89c31a685248ada92d28e2b631fe
 
 SECULT - Secretaria da Cultura
