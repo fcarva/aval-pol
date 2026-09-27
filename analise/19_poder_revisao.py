@@ -27,6 +27,12 @@ residentes do ES; a premissa de H1 ("não deixa de fora bem público que a popul
 diferença entre o efeito de um atributo na escolha da empresa e na da população. EMD da diferença =
 raiz(EMD_empresas² + EMD_população²), com amostras independentes; 6 tarefas (12 perfis) por residente.
 
+H2, avaliação cega (auditoria do desenho): avaliadores independentes dão nota, sem saber o destino, aos projetos
+inscritos nos critérios de interesse público do decreto. Contrastes: (a) inabilitados das atas da CAP × amostra de igual
+tamanho de habilitados; (b) entre os habilitados de 2022-2024 com situação resolvida, quem captou × quem não captou.
+EMD em desvios-padrão da nota (resultado contínuo).
+H5, desenho prospectivo: recusados necessários, por braço, para detectar 15 pontos na margem do teto.
+
 Saída: analise/tabelas/19_poder_revisao.csv
 Uso: python analise/19_poder_revisao.py
 """
@@ -114,8 +120,30 @@ def h1_populacao() -> list[dict]:
     return linhas
 
 
+def h2_avaliacao_cega() -> list[dict]:
+    cap = pd.read_csv(TAB / "12_cap_deliberacoes.csv")
+    inab = cap.loc[cap["situacao"] == "inabilitado", "processo"].nunique()
+    fun = pd.read_csv(TAB / "07_funil_por_ciclo.csv")
+    fun = fun[fun["ciclo"] <= 2024]
+    n1, n0 = int(fun["captou"].sum()), int(fun["expirou"].sum())
+    return [{"hipotese": "H2", "quadro": f"{inab} inabilitados × {inab} habilitados sorteados",
+             "desenho": "avaliação cega: diferença de nota, habilitados × inabilitados (desvios-padrão)",
+             "emd_pontos": poder.mde_simples(1.0, 2 * inab, P=0.5)},
+            {"hipotese": "H2", "quadro": f"{n1} captaram × {n0} não captaram (habilitados 2022-2024)",
+             "desenho": "avaliação cega: diferença de nota, captou × não captou (desvios-padrão)",
+             "emd_pontos": poder.mde_simples(1.0, n1 + n0, P=n1 / (n1 + n0))}]
+
+
+def h5_prospectivo(delta: float = 0.15) -> list[dict]:
+    return [{"hipotese": "H5", "quadro": "desenho prospectivo, margem acumulada", "p0": p0,
+             "desenho": f"recusados necessários por braço para EMD de {delta * 100:.0f} pontos",
+             "emd_pontos": delta * 100,
+             "recusados_por_braco": poder.n_simples(delta, (p0 * (1 - p0)) ** 0.5, P=0.5) / 2}
+            for p0 in (0.2, 0.4, 0.6)]
+
+
 def main() -> None:
-    out = pd.DataFrame(h4() + h5() + h1_populacao())
+    out = pd.DataFrame(h4() + h5() + h1_populacao() + h2_avaliacao_cega() + h5_prospectivo())
     out["fonte"] = ("analise/tabelas/07_mapa_quadro_h3.csv; analise/tabelas/09_reentrada_resumo.csv; fórmulas de "
                     "analise/05_poder_mde.py")
     out.to_csv(TAB / "19_poder_revisao.csv", index=False)

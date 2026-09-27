@@ -41,7 +41,7 @@ FIGURAS = ART.parent / "analise" / "figuras"
 FORMATO = "markdown-auto_identifiers+autolink_bare_uris"
 SEP = "XXSEPARADORXX"
 LIMITE_PAGINAS = 15
-FLUTUA_ATE = 4  # quadros com até 4 linhas de dados flutuam; tabelas sempre flutuam
+FLUTUA_ATE = 5  # quadros com até 5 linhas de dados flutuam; tabelas sempre flutuam
 
 PREAMBULO = r"""% !TEX program = xelatex
 % Gerado por artigo/gerar_tex.py a partir de artigo/rascunho-artigo.md. Não edite à mão:
@@ -105,12 +105,14 @@ PREAMBULO = r"""% !TEX program = xelatex
 \fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\footnotesize\thepage}}
 
 % A Figura 1 ocupa uma página; floats grandes vão para a página seguinte à menção
-\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\floatpagefraction}{0.9}
+\renewcommand{\topfraction}{0.86}
+\renewcommand{\textfraction}{0.1}
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
 % Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}}{\par}
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}}{\par}
 """
 
 
@@ -229,11 +231,11 @@ def figura_latex(bloco: dict, conv) -> str:
     destino.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(origem, destino)
     return "\n".join([
-        r"\begin{figure}[p]",
+        r"\begin{figure}[tp]",
         rf"\phantomsection\label{{{ancora(bloco['titulo'])}}}",
         rf"{{\raggedright {rotulo(conv(bloco['titulo']))}\par}}",
         r"\vspace{6pt}",
-        rf"\centering\includegraphics[width=\linewidth]{{figuras/{destino.name}}}\par",
+        rf"\centering\includegraphics[width=0.86\linewidth]{{figuras/{destino.name}}}\par",
         r"\vspace{4pt}",
         rf"{{\raggedright\footnotesize {fonte_tex(conv(bloco['fonte']))}\par}}",
         r"\end{figure}",

@@ -286,3 +286,6 @@ expeditions_hitzig_public_goods	https://www.joinexpeditions.com/exps/332-what-ar
 raw_expeditions_hitzig_public_goods	https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-	idem, HTML bruto (a página pode ser renderizada por script)
 secult_es_mais_criativo	https://secult.es.gov.br/espirito-santo-criativo	programa ES+Criativo (economia criativa como política da SECULT)
 secult_economia_criativa	https://secult.es.gov.br/economiacriativa	página de economia criativa da SECULT
+mapa_api_licc_resumo_oportunidades	https://mapa.cultura.es.gov.br/api/opportunity/find?id=IN(479,1415,1878,2317)&@select=id,name,summary,registrationLimit,registrationCategories,status	auditoria do desenho: contagem de inscrições por oportunidade (Tabela 1, "Projetos inscritos")
+mapa_api_licc_oportunidade_1415_completa	https://mapa.cultura.es.gov.br/api/opportunity/find?id=EQ(1415)&@select=*	auditoria do desenho: todos os campos públicos da oportunidade LICC 2024
+mapa_api_licc_eventos_projetos	https://mapa.cultura.es.gov.br/api/event/find?@select=id,name,project,occurrences&project=GT(0)&@limit=2000	auditoria do desenho: eventos ligados a projetos (resultado de H5)

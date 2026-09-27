@@ -60,12 +60,14 @@
 \fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\footnotesize\thepage}}
 
 % A Figura 1 ocupa uma página; floats grandes vão para a página seguinte à menção
-\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\floatpagefraction}{0.9}
+\renewcommand{\topfraction}{0.86}
+\renewcommand{\textfraction}{0.1}
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
 % Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}}{\par}
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}}{\par}
 
 \begin{document}
 \thispagestyle{empty}

@@ -51,7 +51,7 @@ N51,CONFERE,Até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Até 13%
 N52,CONFERE,até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Captação e elaboração poderiam levar até 13% do valor captado em 2025
 N53,CONFERE,até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mil),analise/tabelas/10_rubricas_teto_in.csv (2025),A captação pode custar até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mil)
 N54,CONFERE,até 25%,analise/tabelas/10_rubricas_teto_in.csv (2025),a divulgação pode consumir até 25% dos recursos
-N56,CONFERE,"são 41 pareceristas credenciados, de 4 a 20 por área",analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026),"são 41 pareceristas credenciados, de 4 a 20 por área"
+N56,CONFERE,fraca com 41 pareceristas,analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026),mas é fraca com 41 pareceristas
 N55,CONFERE,das 26 patrocinadoras,analise/tabelas/03_patrocinadores_concentracao.csv,a listagem parte das 26 patrocinadoras de 2025
 N57,CONFERE,ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63),analise/tabelas/11_teto_projeto_por_ano.csv,"O teto por projeto fixa um piso de projetos, ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63)"
 N58,CONFERE,36% dos habilitados do ciclo 2025,analise/tabelas/03_bunching_teto.csv,36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil
@@ -64,7 +64,13 @@ N65,CONFERE,cobrem 385 dos 463 habilitados (83%),analise/tabelas/18_cobertura_cn
 N66,CONFERE,(82% dos termos de 2022-2025),analise/tabelas/18_deposito_x_portal.csv,data de cada depósito (82% dos termos de 2022-2025)
 N67,CONFERE,eventos datados de 18 projetos,dados/externos/mapa_eventos_licc.csv,eventos datados de 18 projetos
 N68,CONFERE,"primeiro estágio (0,41) e vai a 69 a 84 pontos",analise/tabelas/19_poder_revisao.csv,"o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos"
-N69,CONFERE,cai para 20 a 24 pontos,analise/tabelas/19_poder_revisao.csv,o EMD de receber agora cai para 20 a 24 pontos
+N69,CONFERE,precisa de 112 a 168 recusados por braço,analise/tabelas/19_poder_revisao.csv,o desenho prospectivo precisa de 112 a 168 recusados por braço
+N75,CONFERE,fica entre 8 e 20 pontos,analise/tabelas/19_poder_revisao.csv,a diferença entre empresas e população fica entre 8 e 20 pontos
+N76,CONFERE,"| 8,2 a 19,7 |",analise/tabelas/19_poder_revisao.csv,"| H1: diferença empresas − população | e 500 residentes × 6 tarefas | idem | 8,2 a 19,7 |"
+N77,CONFERE,"| 86 × 86 projetos | nota padronizada | 0,43 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, habilitados × inabilitados | 86 × 86 projetos | nota padronizada | 0,43 DP |"
+N78,CONFERE,"| 198 × 95 habilitados | nota padronizada | 0,35 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, captou × não captou | 198 × 95 habilitados | nota padronizada | 0,35 DP |"
+N79,CONFERE,"diferença de nota de 0,43 desvio-padrão",analise/tabelas/19_poder_revisao.csv,"A avaliação cega detecta diferença de nota de 0,43 desvio-padrão"
+N80,CONFERE,os 86 inabilitados,analise/tabelas/12_cap_deliberacoes.csv,os 86 inabilitados das atas da CAP
 N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
 N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"
 N72,CONFERE,entre os 71 municípios,analise/tabelas/07_mapa_quadro_h3.csv,sorteada entre os 71 municípios do interior
