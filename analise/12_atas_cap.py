@@ -42,8 +42,10 @@ _spec.loader.exec_module(carregar)
 
 PROCESSO = re.compile(r"\b(20\d{2})\s*-\s*([0-9A-Z]{5})\b")
 SECAO = re.compile(
-    r"projetos?\s+(habilitad\w*|em\s+dilig\w*|inabilitad\w*|n[ãa]o\s+avaliad\w*|n[ãa]o\s+habilitad\w*|"
-    r"arquivad\w*|indeferid\w*|desclassificad\w*|retirad\w*|reconsidera\w*)", re.I)
+    r"projetos?\s+(em\s+aprecia\w+\s+de\s+altera\w+|indeferid\w*\s+a\s+solicita\w+\s+de\s+altera\w+|"
+    r"habilitad\w*|em\s+dilig\w*|inabilitad\w*|n[ãa]o\s+avaliad\w*|n[ãa]o\s+habilitad\w*|"
+    r"arquivad\w*|indeferid\w*|desclassificad\w*|retirad\w*|reconsidera\w*)"
+    r"|aprecia\w+\s+de\s+recurso", re.I)
 MESES = {m: i + 1 for i, m in enumerate(["janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto",
                                           "setembro", "outubro", "novembro", "dezembro"])}
 
@@ -54,6 +56,10 @@ def sem_acento(s: str) -> str:
 
 def situacao(cabecalho: str) -> str:
     c = sem_acento(cabecalho)
+    if "recurso" in c:
+        return "recurso contra inabilitação (apreciado)"
+    if "altera" in c:
+        return "alteração indeferida" if "indeferid" in c else "alteração em apreciação"
     if "inabilitad" in c or "nao habilitad" in c:
         return "inabilitado"
     if "habilitad" in c:
@@ -88,7 +94,8 @@ def data_do_texto(texto: str) -> pd.Timestamp | None:
 
 def natureza(trecho: str) -> str:
     """Natureza inferida do nome do proponente (regras de 01_carregar.py); CPF mascarado = pessoa física ou MEI."""
-    m = re.search(r"proponente\s*:\s*(.+?)(?:\.\s+o proponente|;|\n|$)", trecho, flags=re.I)
+    trecho = " ".join(re.split(r"\n\s*\n", trecho)[0].split())  # o nome pode quebrar a linha
+    m = re.search(r"proponente\s*:\s*(.+?)(?:\.\s+o proponente|;|$)", trecho, flags=re.I)
     if not m:
         return "sem proponente no extrato"
     nome = m.group(1).strip()
@@ -111,6 +118,12 @@ def ler_extratos() -> tuple[pd.DataFrame, pd.DataFrame]:
                 continue
             texto = arq.read_text(encoding="utf-8")
             corpo = texto.split("\n\n", 1)[1] if texto.startswith("# Fonte") else texto
+            if re.search(r"qu[óo]rum", corpo, flags=re.I) and not PROCESSO.search(corpo):
+                data = data_do_rotulo(ln["rotulo"], ln["id"]) or data_do_texto(corpo)
+                reunioes.append({"ano_indice": ano_indice, "data": data.date().isoformat() if data is not None else None,
+                                 "rotulo": ln["rotulo"], "arquivo": str(arq.relative_to(RAIZ)), "lido": True,
+                                 "sem_quorum": True, "motivo": "reunião sem quórum"})
+                continue
             if not re.search(r"deliberou|habilitad", corpo, flags=re.I):
                 reunioes.append({"ano_indice": ano_indice, "rotulo": ln["rotulo"], "arquivo": str(arq.relative_to(RAIZ)),
                                  "lido": False, "motivo": "não é extrato de deliberação (calendário, portaria etc.)"})
@@ -135,7 +148,7 @@ def ler_extratos() -> tuple[pd.DataFrame, pd.DataFrame]:
             cont = pd.Series([s for _, s in vistos]).value_counts() if vistos else pd.Series(dtype=int)
             reunioes.append({"ano_indice": ano_indice, "reuniao": int(n.group(1)) if n else None,
                              "data": data.date().isoformat() if data is not None else None, "rotulo": ln["rotulo"],
-                             "arquivo": str(arq.relative_to(RAIZ)), "lido": True, "motivo": "",
+                             "arquivo": str(arq.relative_to(RAIZ)), "lido": True, "sem_quorum": False, "motivo": "",
                              **{f"n_{k}": int(v) for k, v in cont.items()}})
     return pd.DataFrame(delib), pd.DataFrame(reunioes)
 
@@ -149,11 +162,14 @@ def por_ano(d: pd.DataFrame, r: pd.DataFrame) -> pd.DataFrame:
         linhas.append({
             "ano": ano,
             "extratos_lidos": int(r[(r.lido) & (pd.to_datetime(r["data"]).dt.year.fillna(r["ano_indice"]) == ano)].shape[0]),
+            "reunioes_sem_quorum": int(r[(r.sem_quorum.fillna(False).astype(bool)) & (pd.to_datetime(r["data"]).dt.year.fillna(r["ano_indice"]) == ano)].shape[0]),
+            "recursos_contra_inabilitacao": g.loc[g.situacao.str.startswith("recurso"), "processo"].nunique(),
             "habilitados": len(hab), "em_diligencia": g.loc[g.situacao == "em diligência", "processo"].nunique(),
             "inabilitados": len(inab), "nao_avaliados": g.loc[g.situacao == "não avaliado", "processo"].nunique(),
             "inabilitados_e_habilitados_no_ano": len(hab & inab),
             "taxa_inabilitacao": len(inab - hab) / len(hab | inab) if hab | inab else None,
-            "outras_situacoes": "; ".join(sorted(set(g.situacao) - {"habilitado", "inabilitado", "em diligência", "não avaliado"})),
+            "outras_situacoes": "; ".join(sorted(set(g.situacao) - {"habilitado", "inabilitado", "em diligência", "não avaliado",
+                                                                    "recurso contra inabilitação (apreciado)"})),
         })
     return pd.DataFrame(linhas)
 

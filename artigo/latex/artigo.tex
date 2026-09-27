@@ -39,7 +39,7 @@
 
 % Espaçamento simples, sem recuo e com 4 pt entre parágrafos (o mesmo do .docx)
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{4pt plus 2pt minus 1pt}
+\setlength{\parskip}{2pt plus 1pt minus 1pt}
 \setlength{\emergencystretch}{1.5em}
 \frenchspacing  % espaço simples depois do ponto, como no português
 \setcounter{secnumdepth}{2}
@@ -47,8 +47,8 @@
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.5em}{}
 \titlespacing*{\section}{0pt}{12pt}{0pt}
 \titlespacing*{\subsection}{0pt}{12pt}{0pt}
-\setlist[itemize]{leftmargin=1.2em, topsep=0pt, itemsep=3pt, parsep=0pt}
-\providecommand{\tightlist}{\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+\setlist[itemize]{leftmargin=1.2em, topsep=0pt, itemsep=1.5pt, parsep=0pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{1.5pt}\setlength{\parskip}{0pt}}
 
 % Número da página no canto superior direito (ABNT)
 \pagestyle{fancy}
@@ -64,7 +64,7 @@
 \setlength{\LTpost}{0pt}
 
 % Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parskip}{3pt}}{\par}
+\newenvironment{referencias}{\raggedright\setlength{\parskip}{1.5pt}}{\par}
 \hypersetup{pdftitle={Quem escolhe o que o Estado financia? Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto}, pdflang={pt-BR}}
 
 \begin{document}
@@ -80,17 +80,16 @@ Vitória, setembro de 2026\par
 \textbf{Resumo.} A Lei de Incentivo à Cultura Capixaba (LICC) permite que empresas contribuintes do
 ICMS destinem a projetos culturais habilitados pela Secretaria da Cultura (SECULT) valores que
 recuperam integralmente como crédito presumido do imposto: o Estado paga, e a empresa escolhe.
-Avaliamos o desenho como ele está, auditando cinco premissas da teoria da mudança com as normas, os
-anexos oficiais de 2022 a 2026 e o Mapa Cultural, e estruturamos uma avaliação de impacto. A escolha
-não se mostra orientada pelo valor público: duas empresas respondem por metade da renúncia de 2025,
-e as peças de comunicação dos projetos trazem a marca do patrocinador. A decisão se concentra em
-poucos atores: a habilitação qualifica sem priorizar, e o que excede o teto é racionado pela ordem
-de recebimento e validação dos termos de patrocínio. Até 13\% do valor captado em 2025 poderia
+Avaliamos o desenho como ele está, auditando cinco premissas da teoria da mudança com normas, anexos
+oficiais e atas da comissão de 2022 a 2026, e estruturamos uma avaliação de impacto. A escolha não
+se mostra orientada pelo valor público: duas empresas respondem por metade da renúncia de 2025, e as
+peças de comunicação dos projetos trazem a marca do patrocinador. A decisão se concentra em poucos
+atores: a habilitação qualifica sem priorizar, e o que excede o teto é racionado pela ordem de
+recebimento e validação dos termos de patrocínio. Até 13\% do valor captado em 2025 poderia
 remunerar captação e elaboração, projetos pequenos captam cada vez menos, e só pessoas jurídicas
 contribuintes patrocinam. A entrega é indeterminada, porque a SECULT não publica o público
 alcançado. Propomos quatro perguntas de avaliação, com estratégias, dados e poder estatístico, entre
-elas um experimento conjunto com decisores de empresas para separar marca e valor público na
-escolha.
+elas um experimento conjunto com decisores de empresas.
 
 \textbf{Palavras-chave:} incentivo fiscal à cultura; gasto tributário; patrocínio; bens públicos;
 teoria da mudança; avaliação de impacto.
@@ -141,11 +140,11 @@ as premissas em perguntas de avaliação de impacto; a \hyperref[secao-6]{seçã
 
 \section{Caracterização da política}\label{secao-2}
 
-A LICC é um \textbf{gasto tributário com escolha privada}. O proponente, pessoa jurídica com
-finalidade cultural e sede no estado há dois anos, inscreve o projeto na SECULT. Se o projeto for
-habilitado, o proponente procura uma empresa contribuinte do ICMS que aceite patrocinar. A empresa
-deposita o valor numa conta do projeto e compensa até 100\% dele com o ICMS devido, sem
-contrapartida financeira (ESPÍRITO SANTO, 2021b, art. 10). O \hyperref[quadro-1]{Quadro~1} resume as regras.
+A LICC é um \textbf{gasto tributário com escolha privada}. O proponente inscreve o projeto na
+SECULT. Se o projeto for habilitado, o proponente procura uma empresa contribuinte do ICMS que
+aceite patrocinar. A empresa deposita o valor numa conta do projeto e compensa até 100\% dele com o
+ICMS devido, sem contrapartida financeira (ESPÍRITO SANTO, 2021b, art. 10). O \hyperref[quadro-1]{Quadro~1} resume as
+regras.
 
 \begingroup\footnotesize\renewcommand{\arraystretch}{1.15}
 \phantomsection\label{quadro-1}
@@ -164,13 +163,13 @@ Elemento & Regra vigente & Norma \\
 \endfoot
 \bottomrule
 \addlinespace[2pt]
-\multicolumn{3}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: elaboração própria a partir das normas citadas (ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2025a; 2026a).} \\
+\multicolumn{3}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: elaboração própria a partir das normas citadas (ESPÍRITO SANTO, 2021a; 2021b; SECULT, 2022; 2023a; 2025a; 2026a).} \\
 \endlastfoot
 Benefício ao patrocinador & Crédito presumido de até 100\% do patrocínio, compensado com o ICMS a recolher & Lei 7.000/2001, art. 5º-B, IX; Dec.~5.035-R/2021, art. 10 \\ \addlinespace[3pt]
 Teto anual & Fixado pela SEFAZ até 31/01, ampliável no exercício, limitado a 2\% do ICMS estadual do ano anterior: R\$ 10 mi em 2022, 15 mi (2023), 25 mi (2024 e 2025), 31 mi (2026) & Dec.~5.035-R/2021, art. 4º; Dec.~5.210-R/2022; portarias SEFAZ \\ \addlinespace[3pt]
 Patrocinador & Pessoa jurídica contribuinte do ICMS fora do Simples Nacional, até 20\%, 15\%, 10\% ou 5\% do ICMS recolhido no ano anterior, conforme a faixa de imposto & Dec.~5.035-R/2021, arts. 2º e 10, § 1º; LC 123/2006, art. 24; IN 001/2026, art. 40 \\ \addlinespace[3pt]
 Proponentes & Pessoa jurídica com finalidade cultural e sede no ES há 2 anos; até 3 inscrições por ano & Dec.~5.035-R/2021, art. 5º; IN 001/2025, art. 13 \\ \addlinespace[3pt]
-Linhas e limite por projeto & Seis linhas, das linguagens artísticas ao audiovisual, sem reserva do teto por linha; até 2023, 5\% do montante anual; desde 2024, R\$ 500 mil (R\$ 1 milhão para obra em patrimônio e longa-metragem; R\$ 300 mil em primeira edição, desde 2025) & IN 001/2023, art. 8º; IN 001/2025, arts. 9º e 14-16 \\ \addlinespace[3pt]
+Linhas e limite por projeto & Seis linhas, das linguagens artísticas ao audiovisual, sem reserva do teto por linha; até 2023, 5\% do montante anual; desde 2024, R\$ 500 mil (R\$ 1 milhão para obra em patrimônio e longa-metragem; R\$ 300 mil em primeira edição, desde 2025) & IN 002/2022 e 001/2023, art. 8º; IN 001/2025, arts. 9º e 14-16 \\ \addlinespace[3pt]
 Seleção & Parecer técnico sobre nove critérios qualitativos (``atende ou não''), sem nota; o parecer favorável emite o certificado, e a comissão paritária (CAP) habilita ou não, podendo exigir ajustes & Dec.~5.035-R/2021, art. 14; IN 001/2025, arts. 37-45 \\ \addlinespace[3pt]
 Alocação entre habilitados & Pela empresa patrocinadora; reservas do teto: 30\% para eventos com mais de 10 anos, 10\% para planos plurianuais, 10\% para projetos fora da RMGV, 50\% para os demais & IN 001/2025, art. 18 \\ \addlinespace[3pt]
 Custos com o recurso incentivado & Captação até 10\% (R\$ 50 mil) e elaboração até 5\% (R\$ 15 mil); em 2026, despesa única de até 10\%, paga até ao proponente; divulgação até 25\%; marca do patrocinador em proporção com a do Governo & IN 001/2025, arts. 23, 27-28, 55 e 64; IN 001/2026, art. 28 \\ \addlinespace[3pt]
@@ -213,10 +212,9 @@ um projeto não se relaciona com a parcela do aprovado que ele capta (OGAVA; GAL
 \textbf{Evidência causal.} Não localizamos avaliação causal de incentivo cultural no Brasil; as
 avaliações localizadas de leis estaduais via ICMS são descritivas: em Minas Gerais, a captação pela
 lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro
-ou cinema tinham mais chance de captar (TEIXEIRA \emph{et al.}, 2021). No exterior, os créditos
-estaduais ao audiovisual nos Estados Unidos, avaliados com adoção escalonada e variáveis
-instrumentais, têm efeitos pequenos, concentrados na atividade incentivada (THOM, 2018; BUTTON,
-2019). Para a LICC, que financia produções dispersas, os efeitos plausíveis são proximais e
+ou cinema tinham mais chance de captar (TEIXEIRA \emph{et al.}, 2021). Nos Estados Unidos, os
+créditos estaduais ao audiovisual têm efeitos pequenos, concentrados na atividade incentivada (THOM,
+2018). Para a LICC, que financia produções dispersas, os efeitos plausíveis são proximais e
 pequenos.
 
 \section{Desenho da política e sua avaliação}\label{secao-4}
@@ -265,19 +263,19 @@ cadeia? Pelo mecanismo de mapeamento de Williams (2020), a premissa de cada elo 
 contexto real e classificada como sustentada, não assegurada pelo desenho, não sustentada (evidência
 mista) ou indeterminada (\hyperref[quadro-2]{Quadro~2}).
 
-\textbf{Problema e objetivos.} A lei não tem artigo de objetivos. O decreto declara na ementa um
-objetivo de produto, ``estimular a realização de projetos culturais''. O art. 3º lista onze
-finalidades de ``interesse público'', das quais o projeto deve atender \textbf{uma ou mais}. Essas
-finalidades definem quem é elegível, não o que a política pretende alcançar (ESPÍRITO SANTO, 2021b,
-art. 3º). Não há meta, magnitude esperada nem indicador. Isso falha o critério de que programas
-declarem os resultados e a magnitude da contribuição esperada (BARROS; LIMA, 2017) e o padrão de
-governança de renúncias do TCU (BRASIL, 2014).
+\textbf{Problema e objetivos.} A lei não tem artigo de objetivos, e o decreto declara na ementa um
+objetivo de produto, ``estimular a realização de projetos culturais''; suas onze finalidades de
+``interesse público'', das quais o projeto atende \textbf{uma ou mais}, definem quem é elegível, não
+o que a política pretende alcançar (ESPÍRITO SANTO, 2021b, art. 3º). Não há meta, magnitude esperada
+nem indicador. Isso falha o critério de que programas declarem os resultados e a magnitude da
+contribuição esperada (BARROS; LIMA, 2017) e o padrão de governança de renúncias do TCU (BRASIL,
+2014).
 
 \textbf{Funil de atrito.} O funil mede, elo a elo, quantos beneficiários potenciais chegam ao fim da
 cadeia (WHITE; RAITZER, 2017). A \hyperref[tabela-1]{Tabela~1} mostra que ele se estreita onde não há dado: entre os
 25.441 agentes cadastrados no Mapa Cultural e os 53 a 95 proponentes habilitados por ciclo, não se
-sabe quantos se inscreveram nem quantos foram inabilitados. Nas etapas observadas, a maioria passa:
-68\% dos habilitados de 2022-2024 com situação resolvida captaram.
+sabe quantos se inscreveram, e os inabilitados só aparecem nos extratos das atas. Nas etapas
+observadas, a maioria passa: 68\% dos habilitados de 2022-2024 com situação resolvida captaram.
 
 \begin{table}[!htbp]
 \phantomsection\label{tabela-1}
@@ -291,7 +289,6 @@ Agentes culturais cadastrados no Mapa Cultural (coletivos) & 25.441 (2.592) & se
 Projetos inscritos & não publicado & --- \\
 Projetos habilitados; proponentes por ciclo & 305; 53, 92 e 95 & ciclos 2022-2024 \\
 Habilitados com situação resolvida; captaram & 293; 198 & ciclos 2022-2024 \\
-Taxa de captação entre os resolvidos & 84\%; 70\%; 55\% & ciclos 2022; 2023; 2024 \\
 Valor com patrocinador que coube no teto & 78\%; 74\% & captação 2023; 2024 \\
 Público alcançado e gratuidade & não publicado & --- \\
 \bottomrule
@@ -345,16 +342,20 @@ distingue os dois casos.
 
 \textbf{Decisão concentrada (H2).} O parecer ``deverá indicar a habilitação ou inabilitação''
 (ESPÍRITO SANTO, 2021b, art. 14): para cada critério, o parecerista diz se o projeto ``atende ou
-não'' (SECULT, 2026f), e no Mapa Cultural as fases de parecer e de comissão usam a ``avaliação
-simplificada'', que registra só a situação da inscrição (SECULT, 2026e). Nenhuma norma lida prevê
-nota, peso ou ordem de prioridade; a única pontuação é a do credenciamento dos pareceristas, que
-recebem os projetos por ordem de inscrição e área (SECULT, 2025c). Desde 2025, o parecer favorável
-já emite o certificado, e a comissão só delibera sobre inabilitações e, com 35\% de patrocínio,
-sobre a habilitação (SECULT, 2025a, arts. 40, 41 e 45). A habilitação qualifica, mas não prioriza
-(no Funcultura, fundo da própria SECULT, a seleção é comparativa; IJSN, 2021), e o que excedeu o
-teto em 2023-2025 ficou de fora pelo momento em que o termo chegou e foi validado (SECULT, 2026c).
-Nenhuma norma lida fixa a ordem de validação, e em nenhum elo a preferência de quem usa o bem
-cultural entra na decisão.
+não'' (SECULT, 2026f), e o Mapa Cultural registra só a situação da inscrição (SECULT, 2026e).
+Nenhuma norma lida prevê nota, peso ou ordem de prioridade; a única pontuação é a do credenciamento
+dos pareceristas, que recebem os projetos por ordem de inscrição e área (SECULT, 2025c). Desde 2025,
+o parecer favorável já emite o certificado, e a comissão só delibera sobre inabilitações e, com 35\%
+de patrocínio, sobre a habilitação (SECULT, 2025a, arts. 40, 41 e 45). Os extratos das atas de 158
+reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15\% dos deliberados, sem
+motivo nem critério publicados (SECULT, 2026g). A habilitação qualifica, mas não prioriza, e o que
+excedeu o teto em 2023-2025 ficou de fora pelo momento em que o termo chegou e foi validado (SECULT,
+2026c). Ordenar seria possível: no Funcultura, a SECULT dá nota e ordena os projetos por linha e
+porte do município (SECULT, 2026h); na lei análoga do Rio Grande do Sul, também com 100\% do ICMS,
+contempla-se por nota (mínimo de 60), com descentralização regional, e o patrocinador repassa 5\% ou
+10\% a mais, sem incentivo, a um fundo de cultura (RIO GRANDE DO SUL, 2024; 2026). Nenhuma norma
+lida fixa a ordem de validação, e em nenhum elo a preferência de quem usa o bem cultural entra na
+decisão.
 
 \textbf{Marketing (H1).} Com crédito integral, a empresa escolhe o destino do ICMS que pagaria e
 fica com a marca: as peças de comunicação, parte do objeto, trazem a marca do patrocinador em
@@ -429,7 +430,7 @@ H2 & O parecer favorável muda o destino do projeto? & Projeto inscrito; \emph{T
 As regras de operação determinam o método (GERTLER \emph{et al.}, 2018). Com excesso de demanda,
 ciclos anuais e nenhum índice publicado com ponto de corte, cabem promoção aleatória, experimento
 com decisores, variáveis instrumentais e diferenças em diferenças. O sorteio mudaria a regra de
-alocação e fica fora do escopo. A escolha depende dos dados que a SECULT liberar (\hyperref[secao-5.3]{seção~5.3}).
+alocação e fica fora do escopo.
 
 \begin{itemize}
 \tightlist
@@ -470,8 +471,7 @@ alocação e fica fora do escopo. A escolha depende dos dados que a SECULT liber
 regressão descontínua no tempo, com a hora de protocolo em torno do esgotamento de cada cota;
 variáveis instrumentais, com a recusa pelo teto e a severidade do parecerista; diferenças em
 diferenças para H3, com as regras novas de custo (teto de 25\% para divulgação em 2025, taxa paga ao
-próprio proponente em 2026); e, como exercício, controle sintético do emprego cultural do estado,
-confundido pela Lei Paulo Gustavo e pelas reformas da própria LICC.
+próprio proponente em 2026); e, como exercício, controle sintético do emprego cultural do estado.
 
 \subsection{Desenho da amostra e fontes de dados}\label{secao-5.3}
 
@@ -511,12 +511,10 @@ Fonte & Conteúdo & Uso & Acesso \\
 Inscrições da SECULT (Mapa Cultural) & Todas as inscrições, inclusive inabilitadas e arquivadas, com linha, área, parecerista, parecer, CNPJ, sede e datas & H2, H4; chave de ligação & Pedido por LAI \\ \addlinespace[3pt]
 Planilhas de custos & Rubricas de captação, elaboração, divulgação e remuneração, por projeto & H3 & Pedido por LAI \\ \addlinespace[3pt]
 Receita Federal (CNPJ, dados abertos) & Porte, data de abertura, atividade e município do proponente & Porte (H1, H4) & Público, com o CNPJ \\ \addlinespace[3pt]
-Anexos de habilitados e captados; extratos do Diário Oficial & Status, valores, patrocinador e data de cada repasse & H5; tratamento e intensidade & Público \\ \addlinespace[3pt]
-Extratos das atas da CAP & Habilitados, em diligência e inabilitados em cada reunião, com a data & H2, H5: inabilitados e data da habilitação & Público \\ \addlinespace[3pt]
+Anexos de habilitados e captados; extratos do Diário Oficial e das atas da CAP & Status, valores, patrocinador e data de cada repasse; inabilitados e data da habilitação & H5 (tratamento e intensidade); H2 & Público \\ \addlinespace[3pt]
 SEFAZ & Data e ordem de validação dos termos, inclusive indeferidos & H5 (racionamento) & Pedido por LAI \\ \addlinespace[3pt]
 Relatórios de execução & Lista de presença e estimativa de público (IN 001/2025, art. 66), gratuidade, locais, contrapartidas & \emph{Y} de H5 & Interno \\ \addlinespace[3pt]
-Mapa Cultural (API) & Agentes, espaços e agenda de eventos por município & Listagem de H4; ocorrência de eventos (\emph{Y} de H5) & Público \\ \addlinespace[3pt]
-SALIC (Ministério da Cultura) & Projetos e doações pela Rouanet, por CNPJ & Substituição de fonte (H5) & Público \\
+Mapa Cultural (API) & Agentes, espaços e agenda de eventos por município & Listagem de H4; ocorrência de eventos (\emph{Y} de H5) & Público \\
 \end{longtable}
 \endgroup
 
@@ -563,17 +561,16 @@ correção para comparações múltiplas.
 \subsection{Ameaças à validade e ética}\label{secao-5.5}
 
 A primeira ameaça à validade interna é a violação da hipótese de ausência de interferência entre
-unidades (SUTVA): com o teto fixo, o que um projeto capta falta a outro. Seguem-se a substituição
-(quem não capta pode executar com outra fonte; o SALIC entra como resultado), os eventos externos do
-período (Lei Paulo Gustavo e Política Nacional Aldir Blanc) e o atrito dos dados. No experimento
-conjunto, a escolha declarada pode diferir da real e pender para o socialmente desejável; a escolha
-forçada entre perfis reduz esse viés sem eliminá-lo, e a validação com os patrocínios observados
-mede a distância. A validade externa é limitada: as comparações de H5 valem para o regime de
-2022-2024, em que a habilitação precedia a busca por patrocinador, e desde 2025 os expirados quase
-desapareceram (3 em 56 resolvidos no ciclo 2025). No plano ético, nenhum desenho nega acesso a
-elegíveis: o apoio chega aos controles ao fim, e o deslocamento pelo teto é medido pela saturação.
-Dados identificados exigem anonimização (LGPD), e pesquisas com pessoas, aprovação de comitê de
-ética.
+unidades (SUTVA): com o teto fixo, o que um projeto capta falta a outro. Seguem-se a substituição (o
+SALIC entra como resultado), os eventos externos do período (Lei Paulo Gustavo e Política Nacional
+Aldir Blanc) e o atrito dos dados. No experimento conjunto, a escolha declarada pode diferir da real
+e pender para o socialmente desejável; a escolha forçada entre perfis reduz esse viés sem
+eliminá-lo, e a validação com os patrocínios observados mede a distância. A validade externa é
+limitada: as comparações de H5 valem para o regime de 2022-2024, em que a habilitação precedia a
+busca por patrocinador, e desde 2025 os expirados quase desapareceram (3 em 56 resolvidos no ciclo
+2025). No plano ético, nenhum desenho nega acesso a elegíveis: o apoio chega aos controles ao fim, e
+o deslocamento pelo teto é medido pela saturação. Dados identificados exigem anonimização (LGPD), e
+pesquisas com pessoas, aprovação de comitê de ética.
 
 \section{Conclusão}\label{secao-6}
 
@@ -594,12 +591,11 @@ A proposta de avaliação transforma as premissas em quatro perguntas. A entrega
 importa e a menos respondível: mais da metade dos recusados por falta de teto captou no ano
 seguinte, e receber × não receber exige resultado datado, medido por rastro público, e a fila de
 termos com as datas. Se a adicionalidade na margem for baixa, ampliar o teto financia sobretudo o
-que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega. O
-peso da marca na escolha (H1) é identificável por um experimento conjunto; o atrito na entrada (H4),
-por uma oferta sorteada; o papel do parecer (H2), se a designação dos pareceristas se comportar como
-sorteio. Os desenhos ficam em aberto para os métodos da segunda parte da disciplina. As limitações
-são as dos dados: a situação publicada aproxima a captação, a estreia é medida por nome de
-proponente, e o retrato territorial cobre 74\% do valor.
+que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega.
+Marca (H1), entrada (H4) e parecer (H2) têm desenhos próprios: experimento conjunto, oferta sorteada
+e designação dos pareceristas. Os desenhos ficam em aberto para os métodos da segunda parte da
+disciplina. As limitações são as dos dados: a situação publicada aproxima a captação, a estreia é
+medida por nome de proponente, e o retrato territorial cobre 74\% do valor.
 
 \section*{Referências}
 \begin{referencias}
@@ -646,10 +642,6 @@ Estado do Espírito Santo e de seus municípios, 2021-2025. Brasília: STN, 2026
 BRASIL. Ministério da Cultura. \textbf{SALIC}: API de dados abertos (projetos e incentivadores da
 Lei Rouanet). Brasília: MinC, 2026b. Disponível em: \url{https://api.salic.cultura.gov.br/api/v1}.
 Acesso em: 24 set. 2026.
-
-BUTTON, Patrick. Do tax incentives affect business location and economic development? Evidence from
-state film incentives. \textbf{Regional Science and Urban Economics}, v. 77, p.~315-339, 2019. DOI:
-\href{https://doi.org/10.1016/j.regsciurbeco.2019.06.002}{10.1016/j.regsciurbeco.2019.06.002}.
 
 COSTA, Camila Furlan da; MEDEIROS, Igor Baptista de Oliveira; BUCCO, Guilherme Brandelli. O
 financiamento da cultura no Brasil no período 2003-15: um caminho para geração de renda monopolista.
@@ -705,11 +697,6 @@ dados; períodos 2023 e 2024 publicados em 12 dez. 2025. Disponível em:
 IBGE. \textbf{Pesquisa de Informações Básicas Municipais -- MUNIC 2021}. Rio de Janeiro: IBGE, 2022.
 Dados consultados pela API de pesquisas do IBGE em 23 set. 2026.
 
-IJSN -- INSTITUTO JONES DOS SANTOS NEVES. \textbf{Funcultura 10 anos}: análise executiva do
-Funcultura/ES. Vitória: IJSN; SECULT, 2021. Disponível em:
-\url{https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/relatorios/Pesquisa_Funcultura.pdf}. Acesso
-em: 24 set. 2026.
-
 MAESTAS, Nicole; MULLEN, Kathleen J.; STRAND, Alexander. Does disability insurance receipt
 discourage work? Using examiner assignment to estimate causal effects of SSDI receipt.
 \textbf{American Economic Review}, v. 103, n.~5, p.~1797-1829, 2013. DOI:
@@ -731,6 +718,20 @@ incentivos à cultura no Brasil}: simulações sobre a Lei Rouanet. Brasília: E
 O'HAGAN, J.; HARVEY, D. Why do companies sponsor arts events? Some evidence and a proposed
 classification. \textbf{Journal of Cultural Economics}, v. 24, n.~3, p.~205-224, 2000. DOI:
 \href{https://doi.org/10.1023/A:1007653328733}{10.1023/A:1007653328733}.
+
+RIO GRANDE DO SUL. Governo do Estado. \textbf{Estado divulga lista de projetos classificados no
+edital da Lei de Incentivo à Cultura}. Porto Alegre, 20 jun. 2024. Disponível em:
+\url{https://www.estado.rs.gov.br/estado-divulga-lista-de-projetos-classificados-no-edital-da-lei-de-incentivo-a-cultura}.
+Acesso em: 27 set. 2026.
+
+RIO GRANDE DO SUL. Secretaria da Cultura. \textbf{Lei de Incentivo à Cultura}: sobre. Porto Alegre:
+Sedac, 2026. Disponível em: \url{https://cultura.rs.gov.br/lei-de-incentivo-a-cultura}. Acesso em:
+27 set. 2026.
+
+SECULT -- SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. \textbf{Instrução Normativa nº 002, de
+31 de janeiro de 2022}. Vitória: SECULT, 2022. Disponível em:
+\url{https://secult.es.gov.br/media/2022/INSTRU__O_NORMATIVA_LICC_-_SECULT.pdf}. Acesso em: 27 set.
+2026.
 
 SECULT -- SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Instrução Normativa nº 001, de 31 de
 janeiro de 2023. \textbf{Diário Oficial dos Poderes do Estado}, Vitória, 1º fev. 2023a. Disponível
@@ -791,6 +792,12 @@ Disponível em: \url{https://secult.es.gov.br/lista-de-projetos-habilitados}. Ac
 SECULT -- SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. \textbf{Comissão de Avaliação
 Permanente (CAP)}: extratos das atas das reuniões, 2023 a 2026. Vitória: SECULT, 2026g. Disponível
 em: \url{https://secult.es.gov.br/cap-2026}. Acesso em: 27 set. 2026.
+
+SECULT -- SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. \textbf{Ata de julgamento de recursos e
+resultado final da etapa de pré-seleção de projetos}: Edital nº 29/2025, produção de curta e
+média-metragem. Vitória: SECULT, 2026h. Disponível em:
+\url{https://secult.es.gov.br/media/ata-de-julgamento-de-recursos-pre-selecao-29-2025.pdf}. Acesso
+em: 27 set. 2026.
 
 SILVA, Frederico Augusto Barbosa da. \textbf{Financiamento cultural no Brasil contemporâneo}.
 Brasília: Ipea, 2017. (Texto para Discussão, 2280).

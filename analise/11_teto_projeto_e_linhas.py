@@ -46,6 +46,7 @@ ling = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(ling)
 
 ARQ = {
+    2022: PAG / "in2022_instru__o_normativa_licc_-_secult.txt",  # IN nº 002/2022, coletada pelo relé (etapa seguir)
     2023: PAG / "secult_in_2023_pdf.txt",
     2024: PAG / "secult_in_2024_pdf.txt",
     2025: FONTES / "in-licc-001-2025.md",
@@ -56,10 +57,11 @@ ARQ = {
 REGRAS_TETO = [
     {"ano": 2022, "regra": "fração do montante", "pct_montante": 5.0, "pct_montante_patrimonio": 10.0,
      "teto_fixo": None, "teto_patrimonio_obra": None, "teto_longa": None, "teto_primeira_edicao": None,
-     "limite_projetos_por_agente": None, "dispositivo": "IN LICC 2022 (texto não coletado)",
-     "trechos": [], "fonte_alternativa": "live Tira-Dúvidas da SECULT, 19/04/2022, cerca de 46 min "
-     "(https://www.youtube.com/watch?v=KvXStH6-Iy4): 5% do autorizado no ano (R$ 10 mi → R$ 500 mil) e 10% para "
-     "patrimônio arquitetônico (R$ 1 mi); a IN 2023 repete a regra"},
+     "limite_projetos_por_agente": None, "dispositivo": "IN 002/2022, arts. 8º e 9º",
+     "trechos": ["projeto cultural não poderá ser superior a 5% do valor total anual previsto no montante dos",
+                 "não poderá ser superior a 10% do valor total anual previsto no montante dos recursos destinados"],
+     "fonte_alternativa": "confirmado também na live Tira-Dúvidas da SECULT, 19/04/2022, cerca de 46 min "
+     "(https://www.youtube.com/watch?v=KvXStH6-Iy4): R$ 10 mi → R$ 500 mil e R$ 1 mi para patrimônio"},
     {"ano": 2023, "regra": "fração do montante", "pct_montante": 5.0, "pct_montante_patrimonio": 10.0,
      "teto_fixo": None, "teto_patrimonio_obra": None, "teto_longa": None, "teto_primeira_edicao": None,
      "limite_projetos_por_agente": None, "dispositivo": "IN 2023, arts. 8º e 9º",
@@ -217,7 +219,8 @@ def texto_da_ata(argv: list[str]) -> tuple[str, str, str] | None:
     """(texto, fonte, sha256) da ata: primeiro a coletada pelo relé; senão o PDF passado em --ata-pdf."""
     for arq in sorted(PAG.glob("fun20*_*.txt")):
         t = arq.read_text(encoding="utf-8")
-        if "29/2025" in t and "PLANILHA DE RESULTADO" in t and "JULGAMENTO DE RECURSOS" in t:
+        tn = " ".join(t.split())
+        if "29/2025" in tn and "PLANILHA DE RESULTADO" in tn and "JULGAMENTO DE RECURSOS E RESULTADO FINAL DA ETAPA DE PRÉ" in tn:
             url = re.search(r"^# Fonte: (\S+)", t, flags=re.M)
             sha = re.search(r"^# sha256 do original: (\S+)", t, flags=re.M)
             return t, url.group(1) if url else str(arq.relative_to(RAIZ)), sha.group(1) if sha else ""

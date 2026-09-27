@@ -15,7 +15,6 @@ N03,CONFERE,25.441 (2.592),analise/tabelas/07_mapa_cultural_universo.csv,| Agent
 N04,CONFERE,68%,analise/tabelas/07_funil_por_ciclo.csv,68% dos habilitados de 2022-2024 com situação resolvida captaram
 N05,CONFERE,"305; 53, 92 e 95",analise/tabelas/07_funil_por_ciclo.csv; 07_composicao_por_ciclo.csv,"| Projetos habilitados; proponentes por ciclo | 305; 53, 92 e 95 |"
 N06,CONFERE,293; 198,analise/tabelas/07_funil_por_ciclo.csv,| Habilitados com situação resolvida; captaram | 293; 198 |
-N07,CONFERE,84%; 70%; 55%,analise/tabelas/07_funil_por_ciclo.csv,| Taxa de captação entre os resolvidos | 84%; 70%; 55% |
 N08,CONFERE,78%; 74%,analise/tabelas/07_funil_captacao_anual.csv,| Valor com patrocinador que coube no teto | 78%; 74% |
 N10,CONFERE,14,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,14 municípios do interior nunca tiveram projeto habilitado
 N12,CONFERE,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%"
@@ -54,4 +53,5 @@ N56,CONFERE,"são 41 pareceristas credenciados, de 4 a 20 por área",analise/tab
 N55,CONFERE,das 26 patrocinadoras,analise/tabelas/03_patrocinadores_concentracao.csv,a listagem parte das 26 patrocinadoras de 2025
 N57,CONFERE,ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63),analise/tabelas/11_teto_projeto_por_ano.csv,"O teto por projeto fixa um piso de projetos, ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63)"
 N58,CONFERE,36% dos habilitados do ciclo 2025,analise/tabelas/03_bunching_teto.csv,36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil
+N60,CONFERE,"de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",analise/tabelas/12_cap_deliberacoes.csv; 12_cap_reunioes.csv,"Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados"
 N59,CONFERE,"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil",analise/tabelas/11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos),"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil"

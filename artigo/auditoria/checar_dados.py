@@ -69,6 +69,12 @@ cj = ler(TAB / "10_poder_conjoint.csv")
 cj60 = cj[(cj.respondentes == 60) & (cj.tarefas == 12)]
 cj30 = cj[(cj.respondentes == 30) & (cj.tarefas == 12)]
 teto11 = ler(TAB / "11_teto_projeto_por_ano.csv").set_index("ano")
+cap_d = ler(TAB / "12_cap_deliberacoes.csv")
+cap_r = ler(TAB / "12_cap_reunioes.csv")
+_hab = set(cap_d.loc[cap_d.situacao == "habilitado", "processo"])
+_inab = set(cap_d.loc[cap_d.situacao == "inabilitado", "processo"])
+cap_reunioes_delib = int((cap_r.lido.astype(bool) & ~cap_r.sem_quorum.fillna(False).astype(bool)).sum())
+cap_anos = (pd.to_datetime(cap_d["data"]).dt.year.min(), pd.to_datetime(cap_d["data"]).dt.year.max())
 taxa25 = ler(TAB / "10_taxa_servico_permitida_2025.csv").iloc[0]
 rub = ler(TAB / "10_rubricas_teto_in.csv")
 par = pd.read_csv(TAB / "10_pareceristas_por_area.csv", dtype={"tabela_area": str}).set_index("tabela_area")
@@ -384,8 +390,6 @@ CHECAGENS += [
      f"{int(RES07['habilitados'].sum())}; {int(comp07.loc[2022, 'proponentes'])}, {int(comp07.loc[2023, 'proponentes'])} e {int(comp07.loc[2024, 'proponentes'])}",
      T7 + "funil_por_ciclo.csv; 07_composicao_por_ciclo.csv"),
     ("N06", "| Habilitados com situação resolvida; captaram | 293; 198 |", f"{N1_07 + N0_07}; {N1_07}", T7 + "funil_por_ciclo.csv"),
-    ("N07", "| Taxa de captação entre os resolvidos | 84%; 70%; 55% |",
-     "; ".join(pct(fun07.loc[c, "taxa_captou_sobre_resolvidos"]) for c in (2022, 2023, 2024)), T7 + "funil_por_ciclo.csv"),
     ("N08", "| Valor com patrocinador que coube no teto | 78%; 74% |",
      f"{pct(1 / cap07.loc[2023, 'demanda_com_patrocinador_sobre_montante'])}; {pct(1 / cap07.loc[2024, 'demanda_com_patrocinador_sobre_montante'])}",
      T7 + "funil_captacao_anual.csv"),
@@ -489,6 +493,9 @@ CHECAGENS += [
      f"(captaram {int(teto11.loc[2025, 'projetos_que_captaram'])})", T + "11_teto_projeto_por_ano.csv"),
     ("N58", "36% dos habilitados do ciclo 2025 pediram exatamente R\\$ 500 mil",
      f"{pct(bunch.loc['2025', 'pct_exatamente_500mil'])} dos habilitados do ciclo 2025", T + "03_bunching_teto.csv"),
+    ("N60", "Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",
+     f"de {cap_reunioes_delib} reuniões com deliberação, de {cap_anos[0]} a {cap_anos[1]}, listam {len(_inab)} projetos inabilitados, "
+     f"{pct(len(_inab - _hab) / len(_hab | _inab))} dos deliberados", T + "12_cap_deliberacoes.csv; 12_cap_reunioes.csv"),
     ("N59", "até 2023, 5% do montante anual; desde 2024, R\\$ 500 mil",
      f"até 2023, {num(teto11.loc[2023, 'pct_montante'])}% do montante anual; desde 2024, R\\$ {num(teto11.loc[2024, 'teto_geral_montante_final'] / 1e3)} mil"
      if bool(teto11.loc[2023, "trechos_conferidos_no_texto"]) and bool(teto11.loc[2024, "trechos_conferidos_no_texto"]) else "?",

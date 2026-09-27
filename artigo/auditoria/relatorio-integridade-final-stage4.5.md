@@ -102,3 +102,44 @@
     PDF coletado pelo relé);
   - saíram Bradbury (2020), Teixeira, Xavier e Faria (2024) e Guimarães (2020).
 - **Formato:** 15 páginas; nenhum glifo ausente; nenhuma linha estourada.
+
+## Adendo 3 (27/09/2026, noite): rodada 3 aplicada, atas da CAP, teto por projeto e análogo
+
+- **Correções obrigatórias da rodada 3** (`revisao-stage3-r3/07-decisao-editorial.md`), todas aplicadas:
+
+  | Item | O que mudou |
+  | --- | --- |
+  | RV-1 | A marca do patrocinador sai como "proporcional à do Governo" (IN 2025, arts. 55 e 64) |
+  | RV-2 | "Decisão concentrada", no texto e na Figura 1 |
+  | RV-3 | H1 como pergunta de mecanismo, ligada a H4 e H5 |
+  | RV-4 | População do experimento conjunto definida; 30 a 60 decisores, EMD de 7,4 a 19,0 pp; desejabilidade social |
+  | RV-5 | "Custo de intermediação"; o público financia, mas não escolhe |
+  | RV-6 | LC 123/2006, art. 24, conferida no texto compilado do Planalto (`notas/politica/fontes/lc-123-2006-art24.md`) |
+
+- **Dados novos, cada um com checagem:**
+  - teto por projeto por ano e piso de projetos (N57-N59; `analise/tabelas/11_teto_projeto_por_ano.csv`). Os trechos
+    das INs de 2022 a 2026 foram conferidos no texto;
+  - extratos das atas da CAP, com 158 reuniões com deliberação e 86 inabilitados, 15% dos deliberados (N60;
+    `analise/tabelas/12_cap_*.csv`). Cobertura de 94% a 99% dos habilitados da lista oficial.
+- **Referências.**
+  - Entraram:
+    - BRASIL (2006), LC 123;
+    - SECULT (2022), IN 002/2022;
+    - SECULT (2026g), extratos da CAP;
+    - SECULT (2026h), ata do edital 29/2025, com sha256 igual ao do PDF anexado pelo autor;
+    - RIO GRANDE DO SUL (2024; 2026), o análogo, com trechos em `notas/politica/fontes/rs-lic-analogo.md`.
+  - Saíram Colombo e Cruz (2023), Button (2019) e IJSN (2021), por espaço; o Funcultura passa a ser citado pela ata.
+  - Todas as normas e páginas novas têm URL oficial e trecho conferido.
+- **Checagens:**
+  - `checar_dados.py`: 56/56;
+  - `auditar_captacao.py`: 75/75;
+  - `checar_referencias.py`: 18 DOIs sem divergência;
+  - nenhum `[VERIFICAR]`, e nenhum nome dos mecanismos tácitos no texto.
+- **Registro de afirmações:** `claim_registry.json` (montar_registro.py) está defasado desde a rodada 2, porque os
+  trechos-âncora mudaram com as reescritas. A verificação desta rodada é a das checagens acima. O registro não foi
+  regravado com âncoras quebradas.
+- **Formato:**
+  - 15 páginas, sem glifo ausente nem linha estourada;
+  - espaço entre parágrafos de 2 pt e, nas referências, de 1,5 pt (antes, 4 e 3 pt);
+  - Figura 1 com 14 cm de largura;
+  - margens ABNT mantidas.

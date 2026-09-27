@@ -95,3 +95,21 @@ público cultural ou financia a marca de quem escolhe, e para quem?
   econômico dos doadores), depois de conferido no PDF pelo relé.
 - **Fica nas notas, não no artigo:** Buterin, Hitzig e Weyl (2019), *A flexible design for funding public goods*,
   *Management Science*, 10.1287/mnsc.2019.3337 (não conferido; não será citado).
+
+
+## Adendo (27/09/2026, noite): atas, teto por projeto e um análogo
+
+- **Atas da CAP** (`notas/politica/04-atas-e-reunioes-publicas.md`, `analise/12_atas_cap.py`): 158 reuniões com
+  deliberação em 2022-2026, 86 projetos inabilitados (15% dos deliberados), sem motivo publicado, e a data de
+  habilitação de cada processo. Dão, com dado público, o universo de inabilitados (H2) e o calendário da habilitação
+  (H5).
+- **Teto por projeto** (`analise/11_teto_projeto_e_linhas.py`): 5% do montante em 2022-2023, R\$ 500 mil desde 2024. O
+  piso de projetos foi de 20 para 50-62, e os pedidos se acumulam no teto (13% → 41%). O desenho pulveriza por projeto,
+  não por patrocinador.
+- **Contraste de seleção dentro da SECULT**: o Funcultura (edital 29/2025) dá nota e ordena por linha e porte do
+  município, com recursos julgados em ata. A LICC habilita sem ordem.
+- **Análogo fora do ES**: a LIC do Rio Grande do Sul tem o mesmo instrumento (100% do ICMS), mas com nota mínima,
+  ordem decrescente, descentralização regional e repasse não incentivado de 5% ou 10% do patrocinador a um fundo.
+- Para a 2ª parte da disciplina: comparar, com o mesmo cadastro (Mapa Cultural), quem entra e quem é financiado sob
+  seleção por nota (Funcultura) e sob escolha da empresa (LICC). Para a validade externa, confrontar com a LIC/RS. Sem
+  estimar agora.

@@ -5,8 +5,8 @@ número de projetos" e "por linha de fomento, para detalhar escopos e a separaç
 reuniões públicas no YouTube e olhe a transcrição".
 
 Regras que valem aqui: ausência não é zero; todo número tem arquivo e script; o que a fonte não permite apurar fica
-"indeterminado". Nomes de pessoas físicas não entram no repositório (as atas do Funcultura trazem nomes; só entram
-contagens).
+"indeterminado". As tabelas derivadas não trazem nomes de pessoas físicas. O texto das páginas oficiais fica em
+`dados/fontes_web/paginas/` com CPF mascarado, como os demais anexos.
 
 ## 1. Atas da CAP da LICC (extratos)
 
@@ -34,15 +34,32 @@ contagens).
   - a lista oficial de habilitados não traz os inabilitados, e os extratos trazem;
   - também trazem a **data da habilitação** de cada projeto. Com ela, o RD no tempo de H5 e a severidade do
     parecerista de H2 ganham dado público; a fila da SEFAZ continua pedida por LAI.
-- Tabulação: `analise/12_atas_cap.py` → `analise/tabelas/12_cap_*.csv` (ver a seção 5 desta nota, preenchida depois do
-  relé).
+- Tabulação: `analise/12_atas_cap.py` → `analise/tabelas/12_cap_*.csv`. Resultado (relé de 27/09/2026, 165 links, todos
+  com status 200):
+  - 160 extratos lidos: 158 reuniões com deliberação, de 16/03/2022 a 24/09/2026, e **2 reuniões sem quórum**
+    (23/06/2022 e 26/02/2026). Os outros 5 links são calendários e uma portaria de designação;
+  - **86 projetos inabilitados** (81 nunca habilitados depois; 5 habilitados em outra reunião), **15% dos
+    deliberados** (habilitados ∪ inabilitados); por ano, de 11% (2022) a 17% (2023 e 2025);
+  - "não avaliados" (pauta não apreciada): 43 em 2024, 38 em 2025 e 52 em 2026;
+  - 5 recursos contra inabilitação apreciados em 2023, sem o resultado no extrato;
+  - **cobertura**: de 94% (ciclo 2023) a 99% (2024 e 2026) dos habilitados da lista oficial aparecem habilitados em
+    algum extrato, o que valida os extratos como fonte do universo deliberado;
+  - natureza inferida nas linhas de deliberação de inabilitados: 35 empresas com sufixo societário, 27 associações,
+    8 MEI ou pessoa física. Inabilitados sobre habilitados + inabilitados, por natureza: de 7% ("empresa provável")
+    a 19% (MEI), com associações em 13% e empresas com sufixo em 17%. São contagens de linhas, não de processos
+    distintos, e sem padrão claro;
+  - a data da reunião de habilitação de cada processo está em `12_cap_deliberacoes.csv` (insumo de H5 e H2).
+- No artigo (§4.2, H2): "Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos
+  inabilitados, 15% dos deliberados, sem motivo nem critério publicados (SECULT, 2026g)" (checagem N60).
 - A página `https://secult.es.gov.br/atas` é do **Conselho Estadual de Cultura** (CEC), não da CAP.
 
 ## 2. Ata do Funcultura, edital 29/2025 (curtas e médias-metragens): contraste de seleção
 
 Documento fornecido pelo autor: "Ata de julgamento de recursos e resultado final da etapa de pré-seleção de
-projetos", Processo 2025-KPM2C, homologada em 04/08/2026. O relé procura a URL oficial (prefixos `fun2025c`,
-`fun2025e` e `fun2026`). Resumo agregado em:
+projetos", Processo 2025-KPM2C, homologada em 04/08/2026. URL oficial achada pelo relé na página `edital-2025`:
+https://secult.es.gov.br/media/ata-de-julgamento-de-recursos-pre-selecao-29-2025.pdf. O sha256 é idêntico ao do PDF
+anexado (`ff88cfc7…`). A mesma página traz o edital 29/2025, a ata da pré-seleção, a da defesa oral e a de recursos pós-defesa
+(`dados/fontes_web/seguir/fun2025e.tsv`). Resumo agregado em:
 - `analise/tabelas/11_funcultura_29_2025_resumo.csv`;
 - `analise/tabelas/11_funcultura_29_2025_recursos.csv` (script `analise/11_teto_projeto_e_linhas.py`, opção
   `--ata-pdf`).
@@ -75,7 +92,8 @@ projetos", Processo 2025-KPM2C, homologada em 04/08/2026. O relé procura a URL 
   município, nem linha com reserva, nem marca de grupo.
 - É variação dentro da mesma secretaria, com o mesmo cadastro (Mapa Cultural). Candidata, na 2ª parte da disciplina, a
   comparar quem entra e quem é financiado sob seleção por nota e sob escolha da empresa, sem estimar agora.
-- No artigo: só se a URL oficial vier do relé. Hoje o artigo cita o Funcultura por IJSN (2021).
+- No artigo (§4.2, H2): "no Funcultura, a SECULT dá nota e ordena os projetos por linha e porte do município (SECULT,
+  2026h)", no lugar da citação ao IJSN (2021).
 
 ## 3. Teto por projeto por ano e número mínimo de projetos
 
@@ -83,7 +101,7 @@ Tabela `analise/tabelas/11_teto_projeto_por_ano.csv`:
 
 | Ano | Regra do teto por projeto | Fonte | Montante | Mínimo de projetos (todos no teto) | Captaram | Pedidos exatamente em R\$ 500 mil |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2022 | 5% do montante; 10% para obra em patrimônio | live de 19/04/2022 (IN 2022 pedida ao relé) | R\$ 15 mi no anexo (portaria: 10 mi) | 20 | 39 | 13% |
+| 2022 | 5% do montante; 10% para obra em patrimônio | IN 002/2022, arts. 8º e 9º (conferido; relé) e live de 19/04/2022 | R\$ 15 mi no anexo (portaria: 10 mi) | 20 | 39 | 13% |
 | 2023 | idem | IN 2023, arts. 8º e 9º (conferido) | R\$ 15 mi | 20 | 49 | 21% |
 | 2024 | R\$ 500 mil; R\$ 1 mi para obra em patrimônio e longa | IN 2024, arts. 8º a 10 (conferido) | R\$ 25 mi | 50 | 72 | 25% |
 | 2025 | idem; R\$ 300 mil em 1ª edição; até 3 projetos por agente | IN 2025, arts. 13 a 16 (conferido) | R\$ 25 mi | 50 | 63 (62 validados) | 36% |
@@ -196,10 +214,34 @@ tradução e **não servem para citação literal** até a legenda em português
   A empresa roda uma seleção privada de projetos incentivados; o critério e quem decide ficam indeterminados até
   ler a chamada.
 
-## 7. Pendências
+## 7. Resultado do relé para os vídeos
 
-- Depois do relé: `analise/12_atas_cap.py` (contagens por reunião e ano, cobertura dos habilitados, data da
-  habilitação, inabilitados que voltam).
-- Legendas em português dos vídeos (relé). Se o YouTube barrar o runner, tentar o `web_fetch` com `hl=pt-BR`.
-- IN LICC 2022 (relé, prefixo `in2022`), para conferir a regra dos 5% em 2022.
-- URL oficial da ata do edital 29/2025 (relé, prefixos `fun*`).
+- **Legendas: bloqueadas.** Os 9 vídeos deram "Sign in to confirm you're not a bot" no runner do GitHub, e o
+  a3VjhSXbhMI é privado (`dados/fontes_web/manifesto.csv`, ids `video:*`). O plano B (`web_fetch` do Parallel) atingiu o
+  limite do plano gratuito. As passagens da seção 5 continuam como paráfrase da tradução automática.
+- **Canais: listados.** `dados/fontes_web/videos_canal.tsv` tem 100 vídeos com título relevante, entre eles:
+  - as transmissões das reuniões ordinárias do Conselho Estadual de Cultura, da 168ª à 191ª, e extraordinárias;
+  - "FestCria | Bate-papo: A importância do patrocínio empresarial na promoção da cultura" (-igzJ8YBq1I), para H1;
+  - "Guia Editais Funcultura | Critérios de seleção" (1wHaPByDvtI), para o contraste de seleção.
+- Para obter as transcrições:
+  - rodar `yt-dlp` localmente com cookies do navegador (`--cookies-from-browser`), com a mesma lista (`videos.tsv`);
+  - ou abrir "Mostrar transcrição" no YouTube e salvar o texto em `dados/fontes_web/transcricoes/<id>.txt`.
+
+  Fica para a 2ª parte da disciplina.
+
+## 8. Análogo para complementar: LIC do Rio Grande do Sul
+
+Ver `notas/politica/fontes/rs-lic-analogo.md` (trechos literais da Sedac/RS e do Governo do RS).
+- Mesmo instrumento: empresa contribuinte do ICMS abate 100%, com limite de 5% a 20% do imposto do ano anterior.
+- Duas diferenças de desenho que tocam H1 e H2:
+  - o patrocinador faz repasse adicional **não incentivado** de 5% ou 10% ao Fundo de Apoio à Cultura;
+  - os projetos passam por edital com **nota** (mínimo de 60), são contemplados em ordem decrescente, com vagas por
+    finalidade e repescagem por descentralização regional.
+- No artigo (§4.2, H2), numa frase junto com o Funcultura (RIO GRANDE DO SUL, 2024; 2026).
+- Outros análogos vizinhos (MG, Lei 22.944/2018; RJ, lei de 1992 e Lei 7.035/2015): localizados, sem conferência do
+  texto legal nesta sessão. Minas já entra na revisão por Teixeira *et al.* (2021).
+
+## 9. Pendências
+
+- Transcrições (ver a seção 7).
+- Chamada própria da ES Gás (2023): o corpo da notícia não veio no HTML.
