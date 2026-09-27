@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/boletim-de-economia-criativa
-# Coletado (UTC): 2026-09-27T15:38:35Z
+# Coletado (UTC): 2026-09-27T15:54:21Z
 # sha256 do original: 5d90f79ef6f873c677e0174eb6d8d971c175b06983c62333aeae420da6d73f94
 
 SECULT - Secretaria da Cultura
