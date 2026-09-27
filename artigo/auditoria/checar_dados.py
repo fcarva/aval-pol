@@ -69,6 +69,10 @@ cj = ler(TAB / "10_poder_conjoint.csv")
 cj60 = cj[(cj.respondentes == 60) & (cj.tarefas == 12)]
 cj30 = cj[(cj.respondentes == 30) & (cj.tarefas == 12)]
 teto11 = ler(TAB / "11_teto_projeto_por_ano.csv").set_index("ano")
+# Portal da Transparência (analise/16_transparencia_licc.py) e Mapa Cultural (analise/14_dados_publicos.py)
+pares16 = ler(TAB / "16_pares_recorrentes.csv")
+_termos16 = ler(RAIZ / "dados" / "processados" / "transparencia_licc_termos.csv")
+conc16 = ler(TAB / "16_concentracao_proponentes.csv").set_index("ano")
 cap_d = ler(TAB / "12_cap_deliberacoes.csv")
 cap_r = ler(TAB / "12_cap_reunioes.csv")
 _hab = set(cap_d.loc[cap_d.situacao == "habilitado", "processo"])
@@ -500,6 +504,15 @@ CHECAGENS += [
      f"até 2023, {num(teto11.loc[2023, 'pct_montante'])}% do montante anual; desde 2024, R\\$ {num(teto11.loc[2024, 'teto_geral_montante_final'] / 1e3)} mil"
      if bool(teto11.loc[2023, "trechos_conferidos_no_texto"]) and bool(teto11.loc[2024, "trechos_conferidos_no_texto"]) else "?",
      T + "11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos)"),
+    # revisão de 27/09/2026 (dados públicos sem LAI: Portal da Transparência e Mapa Cultural)
+    ("N61", "48 pares patrocinador–proponente se repetem entre anos (44% do valor)",
+     f"{len(pares16)} pares patrocinador–proponente se repetem entre anos ("
+     f"{pct(pares16['valor'].sum() / _termos16.loc[~_termos16['valor_zero'].astype(bool) & _termos16['cnpj_proponente_dv_ok'].astype(bool), 'valor'].sum())} do valor)",
+     T + "16_pares_recorrentes.csv; dados/processados/transparencia_licc_termos.csv"),
+    ("N62", "44 dos 107 proponentes que captaram voltaram a captar (68% do valor)",
+     f"{int(conc16.loc['2022-2025', 'proponentes_em_mais_de_um_ano'])} dos {int(conc16.loc['2022-2025', 'proponentes_cnpj'])} "
+     f"proponentes que captaram voltaram a captar ("
+     f"{pct(conc16.loc['2022-2025', 'valor_de_quem_captou_em_mais_de_um_ano'])} do valor)", T + "16_concentracao_proponentes.csv"),
 ]
 
 
