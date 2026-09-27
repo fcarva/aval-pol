@@ -36,6 +36,8 @@ from pathlib import Path
 
 import requests
 
+from mascarar_cpf import mascarar  # CPF de proponente pessoa física impresso nos anexos (repositório público)
+
 RAIZ = Path(__file__).resolve().parents[2]
 BASE = RAIZ / "dados" / "fontes_web"
 DOI_DIR = BASE / "doi"
@@ -261,7 +263,7 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
                 r.encoding = r.encoding or r.apparent_encoding
                 texto = html_para_texto(r.text, r.url)
             cab = f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n\n"
-            destino.write_text(cab + texto, encoding="utf-8")
+            destino.write_text(cab + mascarar(texto)[0], encoding="utf-8")
             registro["arquivo"] = str(destino.relative_to(RAIZ))
         man[pid] = registro
         print(f"{pid}: {registro['status']}")

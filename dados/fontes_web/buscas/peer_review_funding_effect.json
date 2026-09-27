@@ -1,0 +1,254 @@
+{
+ "id": "peer_review_funding_effect",
+ "consulta": "effect of research grant funding peer review scores regression discontinuity",
+ "coletado_utc": "2026-09-24T19:51:23Z",
+ "crossref": [
+  {
+   "doi": "10.22163/fteval.2020.467",
+   "title": [
+    "Funding Research Data Infrastructures: Funding Criteria in Grant Peer Review"
+   ],
+   "type": "report",
+   "author": [
+    "Deutsche Forschungsgemeinschaft",
+    "Heidler"
+   ],
+   "container_title": null,
+   "publisher": "fteval - Austrian Platform for Research and Technology Policy Evaluation",
+   "issued": [
+    [
+     2020,
+     3
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 37.97055
+  },
+  {
+   "doi": "10.5256/f1000research.195126.r483396",
+   "title": [
+    "Peer Review Report For: The costs and benefits of research grant funding peer review [version 1; peer review: 1 approved with reservations]"
+   ],
+   "type": "peer-review",
+   "author": [],
+   "container_title": null,
+   "publisher": "F1000 Research Ltd",
+   "issued": [
+    [
+     2026,
+     5,
+     19
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 35.851376
+  },
+  {
+   "doi": "10.5256/f1000research.203905.r497871",
+   "title": [
+    "Peer Review Report For: The costs and benefits of research grant funding peer review [version 2; peer review: 2 approved, 2 approved with reservations]"
+   ],
+   "type": "peer-review",
+   "author": [],
+   "container_title": null,
+   "publisher": "F1000 Research Ltd",
+   "issued": [
+    [
+     2026,
+     8,
+     11
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 35.137863
+  },
+  {
+   "doi": "10.21956/openreseurope.21867.r64287",
+   "title": [
+    "Peer Review Report For: Understanding and advancing research software grant funding models [version 1; peer review: 4 approved with reservations]"
+   ],
+   "type": "peer-review",
+   "author": [],
+   "container_title": null,
+   "publisher": "F1000 Research Ltd",
+   "issued": [
+    [
+     2025,
+     12,
+     18
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 35.054806
+  },
+  {
+   "doi": "10.5256/f1000research.195126.r483400",
+   "title": [
+    "Peer Review Report For: The costs and benefits of research grant funding peer review [version 1; peer review: 1 approved, 1 approved with reservations]"
+   ],
+   "type": "peer-review",
+   "author": [],
+   "container_title": null,
+   "publisher": "F1000 Research Ltd",
+   "issued": [
+    [
+     2026,
+     6,
+     1
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 35.031162
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W3121492802",
+   "doi": "https://doi.org/10.1257/jel.48.2.281",
+   "title": "Regression Discontinuity Designs in Economics",
+   "publication_year": 2010,
+   "type": "article",
+   "source": "Journal of Economic Literature",
+   "authorships": [
+    "David Stephen Lee",
+    "Thomas Lemieux"
+   ],
+   "biblio": {
+    "volume": "48",
+    "issue": "2",
+    "first_page": "281",
+    "last_page": "355"
+   },
+   "abstract": "This paper provides an introduction and “user guide” to Regression Discontinuity (RD) designs for empirical researchers. It presents the basic theory behind the research design, details when RD is likely to be valid or invalid given economic incentives, explains why it is considered a “quasi-experimental” design, and summarizes different ways (with their advantages and disadvantages) of estimating RD designs and the limitations of interpreting these estimates. Concepts are discussed using examples drawn from the growing body of empirical research using RD. (JEL C21, C31)"
+  },
+  {
+   "id": "https://openalex.org/W2129700682",
+   "doi": "https://doi.org/10.3386/w14723",
+   "title": "Regression Discontinuity Designs in Economics",
+   "publication_year": 2009,
+   "type": "report",
+   "source": "National Bureau of Economic Research",
+   "authorships": [
+    "David S. Lee",
+    "Thomas Lemieux"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "This paper provides an introduction and \"user guide\" to Regression Discontinuity (RD) designs for empirical researchers.It presents the basic theory behind the research design, details when RD is likely to be valid or invalid given economic incentives, explains why it is considered a \"quasi-experimental\" design, and summarizes different ways (with their advantages and disadvantages) of estimating RD designs and the limitations of interpreting these estimates.Concepts are discussed using examples drawn from the growing body of empirical research using RD."
+  },
+  {
+   "id": "https://openalex.org/W2531269403",
+   "doi": "https://doi.org/10.1136/bmj.i4919",
+   "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+   "publication_year": 2016,
+   "type": "article",
+   "source": "BMJ",
+   "authorships": [
+    "Jonathan A C Sterne",
+    "Miguel Ángel Hernán",
+    "Barnaby C Reeves",
+    "Jelena Savović",
+    "Nancy D Berkman",
+    "Meera Sushila Viswanathan",
+    "David A Henry",
+    "Douglas G. Altman",
+    "Mohammed Ansari",
+    "Isabelle Boutron",
+    "James R. Carpenter",
+    "An‐Wen Chan",
+    "Rachel C. Churchill",
+    "Jonathan J Deeks",
+    "Asbjørn Hróbjartsson",
+    "Jamie J Kirkham",
+    "Peter Jüni",
+    "Yoon Kong Loke",
+    "Theresa D Pigott",
+    "Craig Robert Ramsay",
+    "Deborah L. Regidor",
+    "Hannah R. Rothstein",
+    "Lakhbir Sandhu",
+    "Pasqualina L. Santaguida",
+    "Holger Jens Schünemann",
+    "Beverly  J. Shea",
+    "Ian Shrier",
+    "Peter Tugwell",
+    "Lucy Turner",
+    "Jeffrey C. Valentine",
+    "Hugh Sharma Waddington",
+    "Elizabeth Waters",
+    "George A. Wells",
+    "Penny F. Whiting",
+    "Julian P. T. Higgins"
+   ],
+   "biblio": {
+    "volume": "355",
+    "issue": null,
+    "first_page": "i4919",
+    "last_page": "i4919"
+   },
+   "abstract": "Non-randomised studies of the effects of interventions are critical to many areas of healthcare evaluation, but their results may be biased. It is therefore important to understand and appraise their strengths and weaknesses. We developed ROBINS-I (“Risk Of Bias In Non-randomised Studies - of Interventions”), a new tool for evaluating risk of bias in estimates of the comparative effectiveness (harm or benefit) of interventions from studies that did not use randomisation to allocate units (individuals or clusters of individuals) to comparison groups. The tool will be particularly useful to those undertaking systematic reviews that include non-randomised studies."
+  },
+  {
+   "id": "https://openalex.org/W2107722515",
+   "doi": "https://doi.org/10.1016/j.jue.2012.11.001",
+   "title": "Valuing school quality using boundary discontinuities",
+   "publication_year": 2012,
+   "type": "article",
+   "source": "Journal of Urban Economics",
+   "authorships": [
+    "Stephen Gibbons",
+    "Stephen J. Machin",
+    "Olmo Silva"
+   ],
+   "biblio": {
+    "volume": "75",
+    "issue": null,
+    "first_page": "15",
+    "last_page": "28"
+   },
+   "abstract": ""
+  },
+  {
+   "id": "https://openalex.org/W3122419721",
+   "doi": "https://doi.org/10.1016/j.jfineco.2018.06.012",
+   "title": "How does hedge fund activism reshape corporate innovation?",
+   "publication_year": 2018,
+   "type": "article",
+   "source": "Journal of Financial Economics",
+   "authorships": [
+    "Alon P. Brav",
+    "Wei Jiang",
+    "Song Ma",
+    "Xuan Tian"
+   ],
+   "biblio": {
+    "volume": "130",
+    "issue": "2",
+    "first_page": "237",
+    "last_page": "264"
+   },
+   "abstract": ""
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

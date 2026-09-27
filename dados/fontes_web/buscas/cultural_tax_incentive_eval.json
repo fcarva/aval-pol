@@ -1,0 +1,225 @@
+{
+ "id": "cultural_tax_incentive_eval",
+ "consulta": "tax incentives for culture corporate sponsorship impact evaluation",
+ "coletado_utc": "2026-09-24T19:51:14Z",
+ "crossref": [
+  {
+   "doi": "10.1596/1813-9450-11061",
+   "title": [
+    "The Elusive Impact of Corporate Tax Incentives"
+   ],
+   "type": "book",
+   "author": [
+    "Cali",
+    "Presidente",
+    "Scot"
+   ],
+   "container_title": null,
+   "publisher": "Washington, DC: World Bank",
+   "issued": [
+    [
+     2025,
+     2,
+     10
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 34.062443
+  },
+  {
+   "doi": "10.1787/25d30b96-en",
+   "title": [
+    "Tax Incentives and the Global Minimum Corporate Tax"
+   ],
+   "type": "book",
+   "author": [
+    "OECD"
+   ],
+   "container_title": null,
+   "publisher": "OECD Publishing",
+   "issued": [
+    [
+     2022,
+     10,
+     6
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 33.80817
+  },
+  {
+   "doi": "10.59403/1tywms8",
+   "title": [
+    "The Impact of Pillar Two on Corporate Tax Incentives and Incentives Post Pillar Two – The Potential Rise of Tax Credits and Subsidies"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Chand",
+    "Romanovska"
+   ],
+   "container_title": [
+    "International Tax Studies"
+   ],
+   "publisher": "IBFD",
+   "issued": [
+    [
+     2024,
+     1,
+     29
+    ]
+   ],
+   "volume": "6",
+   "issue": "9",
+   "page": null,
+   "isbn": null,
+   "score": 33.252296
+  },
+  {
+   "doi": "10.1787/888933323427",
+   "title": [
+    "Table 10.1. Corporate Tax Policy Sub-Dimension: Tax incentives indicator scores"
+   ],
+   "type": "component",
+   "author": [],
+   "container_title": null,
+   "publisher": "Organisation for Economic Co-Operation and Development  (OECD)",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 32.397263
+  },
+  {
+   "doi": "10.3386/w1863",
+   "title": [
+    "Tax Loss Carryforwards and Corporate Tax Incentives"
+   ],
+   "type": "report",
+   "author": [
+    "Auerbach",
+    "Poterba"
+   ],
+   "container_title": null,
+   "publisher": "National Bureau of Economic Research",
+   "issued": [
+    [
+     1986,
+     3
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 31.8607
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W220683479",
+   "doi": null,
+   "title": "The competitive advantage of corporate philanthropy",
+   "publication_year": 2013,
+   "type": "dissertation",
+   "source": "UpSpace Institutional Repository (University of Pretoria)",
+   "authorships": [
+    "Shubnum Nazeer"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "To competitively operate in an environment where even the basic social needs of the population are not met, it makes business sense to uplift the stakeholders that form part of the business environment. With approximately five and a half billion rand spent on philanthropic activities in 2010 alone, it is important that this spend translates into a competitive advantage for the company.The purpose of this study was to explore the concept of philanthropy as understood by companies. Further to that, the intention of the research was to understand how engaging stakeholders, utilising resources available and the intention of the giving by the key decision makers, contributed towards achieving the competitive advantage of the company.Qualitative research in the form of interviews with the key decision makers in the companies in respect of giving was used for data gathering, along with secondary data in sustainability reports to support findings.The research found that competitive advantage can be gained by using corporate philanthropy as a tool. The paper proposes a framework based on the core theories that can be referenced to assist decision makers in determining which areas needs to be improved, in order to raise the competitiveness of the company by means of corporate philanthropy."
+  },
+  {
+   "id": "https://openalex.org/W44363201",
+   "doi": null,
+   "title": "Corporate Responsibility Report",
+   "publication_year": 2004,
+   "type": "article",
+   "source": "eCommons (Cornell University)",
+   "authorships": [
+    "Nike"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "Nike's Corporate Responsibility Report describes CR activities in Nike brand factories, according to the guidelines set by the Global Reporting Initiative (GRI). Hopes to jump-start disclosure and collaboration throughout the industry to adopt and enforce common codes of conduct leading to better and safe working conditions in factories."
+  },
+  {
+   "id": "https://openalex.org/W2045455391",
+   "doi": "https://doi.org/10.1108/02686900110392922",
+   "title": "A study of corporate social disclosures in Bangladesh",
+   "publication_year": 2001,
+   "type": "article",
+   "source": "Managerial Auditing Journal",
+   "authorships": [
+    "Ataur Rahman Belal"
+   ],
+   "biblio": {
+    "volume": "16",
+    "issue": "5",
+    "first_page": "274",
+    "last_page": "289"
+   },
+   "abstract": "Most of the corporate social reporting (CSR) studies conducted so far have been in the context of developed countries. Very few studies are available on the CSR practices in developing countries. Given the different socio-economic context of developing countries it is argued that it is important to learn about the CSR practices in those countries. This study reports the results of a survey of CSR practices in Bangladesh. The main contribution of this paper is that in addition to measuring the extent and volume of disclosures by using content analysis, it explores the socio-political and economic context in which these disclosures take place."
+  },
+  {
+   "id": "https://openalex.org/W4413464268",
+   "doi": "https://doi.org/10.64357/corporate-partnerships-2025",
+   "title": "Corporate Partnerships and Sponsorships",
+   "publication_year": 2025,
+   "type": "book",
+   "source": null,
+   "authorships": [
+    "Neya Global",
+    "Anna Neya Kazanskaia"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "Corporate partnerships and sponsorships can provide essential resources and visibility for non-profits. This book explores strategies for identifying, approaching, and managing corporate relationships that align with organizational values. It includes guidance on proposal development, negotiation, and partnership evaluation to ensure mutually beneficial and sustainable collaborations."
+  },
+  {
+   "id": "https://openalex.org/W4220968399",
+   "doi": "https://doi.org/10.1016/j.irfa.2022.102103",
+   "title": "The impact of the FinTech revolution on the future of banking: Opportunities and risks",
+   "publication_year": 2022,
+   "type": "article",
+   "source": "International Review of Financial Analysis",
+   "authorships": [
+    "Victor Murinde",
+    "Efthymios Rizopoulos",
+    "Markos Zachariadis"
+   ],
+   "biblio": {
+    "volume": "81",
+    "issue": null,
+    "first_page": "102103",
+    "last_page": "102103"
+   },
+   "abstract": "The financial technologies (FinTech) revolution is in full swing globally. In this paper, we review the burgeoning literature on FinTech and FinTech-enabled services, focusing on the opportunities and risks for banks. Using high quality bank level data from 115 countries around the world for the past 16 years, we compute statistical moments of some key indicators of the changing banking landscape in the FinTech era. Our preliminary findings suggest that it is unlikely that FinTech lenders will replace banks, perhaps because banks are developing their own FinTech platforms or working with FinTech start-ups. We also showcase how regulation, global infrastructures and geopolitical frictions will shape the future of banking. We identify some promising research ideas; we also summarize some key implications, from existing research, for policy makers and practitioners."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

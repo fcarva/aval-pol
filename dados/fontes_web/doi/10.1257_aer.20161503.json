@@ -1,0 +1,77 @@
+{
+ "doi": "10.1257/aer.20161503",
+ "coletado_utc": "2026-09-24T19:51:09Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "The Effects of Pre-Trial Detention on Conviction, Future Crime, and Employment: Evidence from Randomly Assigned Judges"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Will",
+    "family": "Dobbie",
+    "name": null
+   },
+   {
+    "given": "Jacob",
+    "family": "Goldin",
+    "name": null
+   },
+   {
+    "given": "Crystal S.",
+    "family": "Yang",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Review"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "108",
+  "issue": "2",
+  "page": "201-240",
+  "article_number": null,
+  "issued": [
+   [
+    2018,
+    2,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2018,
+    2,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/aer.20161503",
+  "abstract": "<jats:p>Over 20 percent of prison and jail inmates in the United States are currently awaiting trial, but little is known about the impact of pretrial detention on defendants. This paper uses the detention tendencies of quasi-randomly assigned bail judges to estimate the causal effects of pretrial detention on subsequent defendant outcomes. Using data from administrative court and tax records, we find that pretrial detention significantly increases the probability of conviction, primarily through an increase in guilty pleas. Pretrial detention has no net effect on future crime, but decreases formal sector employment and the receipt of employment- and tax-related government benefits. These results are consistent with (i) pretrial detention weakening defendants' bargaining positions during plea negotiations and (ii) a criminal conviction lowering defendants' prospects in the formal labor market. (JEL J23, J31, J65, K41, K42)</jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W2518370312",
+  "title": "The Effects of Pre-Trial Detention on Conviction, Future Crime, and Employment: Evidence from Randomly Assigned Judges",
+  "publication_year": 2018,
+  "type": "article",
+  "source": "American Economic Review",
+  "landing_page_url": "https://doi.org/10.1257/aer.20161503",
+  "authorships": [
+   "Will Dobbie",
+   "Jacob Goldin",
+   "Crystal Yang"
+  ],
+  "biblio": {
+   "volume": "108",
+   "issue": "2",
+   "first_page": "201",
+   "last_page": "240"
+  },
+  "cited_by_count": 578,
+  "abstract": "Over 20 percent of prison and jail inmates in the United States are currently awaiting trial, but little is known about the impact of pretrial detention on defendants. This paper uses the detention tendencies of quasi-randomly assigned bail judges to estimate the causal effects of pretrial detention on subsequent defendant outcomes. Using data from administrative court and tax records, we find that pretrial detention significantly increases the probability of conviction, primarily through an increase in guilty pleas. Pretrial detention has no net effect on future crime, but decreases formal sector employment and the receipt of employment- and tax-related government benefits. These results are consistent with (i) pretrial detention weakening defendants' bargaining positions during plea negotiations and (ii) a criminal conviction lowering defendants' prospects in the formal labor market. (JEL J23, J31, J65, K41, K42)"
+ }
+}

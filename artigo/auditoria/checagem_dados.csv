@@ -2,7 +2,7 @@ id,status,recalculado,fonte,trecho
 D03,CONFERE,duas,analise/tabelas/03_patrocinadores_concentracao.csv,duas empresas respondem por metade da renúncia de 2025
 D05,CONFERE,R\$ 15 milhões em 2023 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026
 D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado),analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado)
-D07,CONFERE,"63 projetos captaram, juntos, exatamente R\$ 25.000.000,00",analise/tabelas/licc_captados_2025_totais.csv,"em 2025, 63 projetos captaram, juntos, exatamente R\$ 25.000.000,00"
+D07,CONFERE,"62 projetos validados somam R\$ 24,64 milhões, e um ainda","artigo/auditoria/auditoria_captacao_anual.csv (auditar_captacao.py, sobre o anexo oficial de 2025)","em 2025, 62 projetos validados somam R\$ 24,64 milhões, e um ainda"
 D08,CONFERE,"4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª",dados/externos/siic_uf.csv,"ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação"
 D09,CONFERE,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",dados/externos/munic2021_cultura_es_resumo.csv,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%"
 D10,CONFERE,metade dos municípios do interior não tinha fundo municipal de cultura e só 16%,dados/externos/munic2021_cultura_es_resumo.csv,metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal
@@ -10,7 +10,6 @@ D11,CONFERE,14% a 21%,"analise/tabelas/03f_captacao_anual_secult.csv (validado_s
 D65,CONFERE,"fixou R\$ 10 milhões, e o anexo de captação da SECULT informa R\$ 15 milhões disponíveis (R\$ 11,5 milhões",analise/tabelas/03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv,"a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e o anexo de captação da SECULT informa R\$ 15 milhões disponíveis (R\$ 11,5 milhões validados)"
 D22,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor
 D33,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,o retrato territorial cobre 74% do valor
-N01,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,termos equivalentes a 28% e 35% do montante foram recusados
 N02,CONFERE,25.441,analise/tabelas/07_mapa_cultural_universo.csv,Entre os 25.441 agentes cadastrados no Mapa Cultural
 N03,CONFERE,25.441 (2.592),analise/tabelas/07_mapa_cultural_universo.csv,| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |
 N04,CONFERE,68%,analise/tabelas/07_funil_por_ciclo.csv,68% dos habilitados de 2022-2024 com situação resolvida captaram
@@ -40,7 +39,6 @@ N27,CONFERE,(3 em 56,analise/tabelas/07_funil_por_ciclo.csv,(3 em 56 resolvidos 
 N29,CONFERE,"$\bar m$ = 1,70; *cv* = 0,75",analise/tabelas/07_poder_hipoteses.csv (m; nota),"172 proponentes ($\bar m$ = 1,70; *cv* = 0,75)"
 N30,CONFERE,6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024,analise/tabelas/09_reentrada_resumo.csv,Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte
 N31,CONFERE,os de 32 projetos,dados/processados/indeferidos_2023_2024.csv,os de 32 projetos recusados em 2023 e 2024
-N33,CONFERE,se completou com termos recebidos até 28 de janeiro,analise/tabelas/09_cotas_2025_2026.csv,"em 2025, a cota de 50% se completou com termos recebidos até 28 de janeiro"
 N34,CONFERE,até 28/01,analise/tabelas/09_cotas_2025_2026.csv,"em 2025, a cota de 50% se completou com termos recebidos até 28/01"
 N35,CONFERE,caiu de 59% no ciclo 2024 para 46% em 2025 e voltou a 55%,analise/tabelas/07_composicao_por_ciclo.csv (1 - pct_proponentes_em_t_1_ou_t_2),caiu de 59% no ciclo 2024 para 46% em 2025 e voltou a 55% em 2026
 N36,CONFERE,restam 14 municípios,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,e restam 14 municípios do interior sem projeto
@@ -53,3 +51,6 @@ N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,
 N43,CONFERE,"até 28 de janeiro, e a de 30%, até 20 de maio",analise/tabelas/09_cotas_2025_2026.csv,"a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio"
 N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
 N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor
+N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos listados pela SECULT somam exatamente o montante de cada ano
+N46,CONFERE,"caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao),"a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%"
+N47,CONFERE,com um projeto ainda em análise,"artigo/auditoria/auditoria_captacao_anual.csv; anexo de 2025, cota I","e a de 30%, até 20 de maio, com um projeto ainda em análise"

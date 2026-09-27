@@ -5608,7 +5608,7 @@
       },
       "meta": {
         "ano": 2025,
-        "proponenteId": "prop-fernando-coelho-sabino-98400207149"
+        "proponenteId": "prop-fernando-coelho-sabino-XXXXXXXXXXX"
       },
       "posicao": {
         "lugar": 58,
@@ -5617,10 +5617,10 @@
       "variacaoAnual": null
     },
     {
-      "id": "prop-fernando-coelho-sabino-98400207149",
-      "slug": "fernando-coelho-sabino-98400207149",
+      "id": "prop-fernando-coelho-sabino-XXXXXXXXXXX",
+      "slug": "fernando-coelho-sabino-XXXXXXXXXXX",
       "kind": "proponente",
-      "nome": "Fernando Coelho Sabino 98400207149",
+      "nome": "Fernando Coelho Sabino XXXXXXXXXXX",
       "proveniencia": "oficial",
       "fontes": [
         {
@@ -8297,8 +8297,8 @@
       "peso": 500000
     },
     {
-      "id": "propoe:prop-fernando-coelho-sabino-98400207149->proj-a-paixao-segundo-sao-joao-de-j-s-bach-2025",
-      "source": "prop-fernando-coelho-sabino-98400207149",
+      "id": "propoe:prop-fernando-coelho-sabino-XXXXXXXXXXX->proj-a-paixao-segundo-sao-joao-de-j-s-bach-2025",
+      "source": "prop-fernando-coelho-sabino-XXXXXXXXXXX",
       "target": "proj-a-paixao-segundo-sao-joao-de-j-s-bach-2025",
       "kind": "propoe",
       "proveniencia": "oficial"
@@ -10117,8 +10117,8 @@
       "proveniencia": "oficial"
     },
     {
-      "id": "fundamenta:prop-fernando-coelho-sabino-98400207149->lei-11246-2021",
-      "source": "prop-fernando-coelho-sabino-98400207149",
+      "id": "fundamenta:prop-fernando-coelho-sabino-XXXXXXXXXXX->lei-11246-2021",
+      "source": "prop-fernando-coelho-sabino-XXXXXXXXXXX",
       "target": "lei-11246-2021",
       "kind": "fundamenta",
       "proveniencia": "oficial"

@@ -1,0 +1,221 @@
+{
+ "id": "examiner_design_eligibility",
+ "consulta": "examiner assignment leniency instrumental variable program eligibility",
+ "coletado_utc": "2026-09-24T19:51:16Z",
+ "crossref": [
+  {
+   "doi": "10.2139/ssrn.6417838",
+   "title": [
+    "Evidence from Examiner Assignment"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Miller"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2026
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 27.858622
+  },
+  {
+   "doi": "10.2139/ssrn.669622",
+   "title": [
+    "Leniency as a Principal Agent Problem - Preemptive Leniency Program Against Abuse of Dominance"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Zhou"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2005
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 26.422194
+  },
+  {
+   "doi": "10.2139/ssrn.7137933",
+   "title": [
+    "Powering Education: Evaluating Kenya's Last Mile Connectivity Program Using Distance-Based Instrumental Variable"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Alulu"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2026
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 26.032593
+  },
+  {
+   "doi": "10.15760/etd.6492",
+   "title": [
+    "Assessing the Impact of an ESL/bilingual Program by Means of Instrumental Variable Estimation"
+   ],
+   "type": "report",
+   "author": [
+    "Babatunde"
+   ],
+   "container_title": null,
+   "publisher": "Portland State University Library",
+   "issued": [
+    [
+     2000,
+     1,
+     1
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 26.03046
+  },
+  {
+   "doi": "10.2139/ssrn.6417958",
+   "title": [
+    "Gender and the Patent Grant Gap: Evidence from Examiner Assignment"
+   ],
+   "type": "posted-content",
+   "author": [
+    "Miller"
+   ],
+   "container_title": null,
+   "publisher": "Elsevier BV",
+   "issued": [
+    [
+     2026
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 24.979721
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W2104893223",
+   "doi": "https://doi.org/10.1093/qje/qju019",
+   "title": "Family Welfare Cultures *",
+   "publication_year": 2014,
+   "type": "article",
+   "source": "The Quarterly Journal of Economics",
+   "authorships": [
+    "Gordon B. Dahl",
+    "Andreas Kostøl",
+    "Magne Mogstad"
+   ],
+   "biblio": {
+    "volume": "129",
+    "issue": "4",
+    "first_page": "1711",
+    "last_page": "1752"
+   },
+   "abstract": "Abstract We investigate the existence and importance of family welfare cultures, where the receipt of a welfare program by one generation causes increased participation in the next generation. Our context is Norway’s disability insurance (DI) system. To overcome the challenge of correlated unobservables across generations, we take advantage of random assignment of judges to DI applicants whose cases are initially denied. Some appeal judges are systematically more lenient, which leads to random variation in the probability a parent will be allowed DI. Using this exogenous variation, we find strong evidence for a causal link across generations: when a parent is allowed DI at the appeal stage, their adult child’s participation over the next five years increases by 6 percentage points. This effect grows over time, rising to 12 percentage points after 10 years. Although these findings are specific to our setting, they highlight that welfare reforms can have long-lasting effects on program participation, since any original effect on the current generation could be reinforced by changing the participation behavior of their children as well. The detailed nature of our data allows us to compare the intergenerational transmission with spillover effects in other networks and to explore mechanisms."
+  },
+  {
+   "id": "https://openalex.org/W2152021979",
+   "doi": "https://doi.org/10.3386/w13291",
+   "title": "Child Protection and Adult Crime: Using Investigator Assignment to Estimate Causal Effects of Foster Care",
+   "publication_year": 2007,
+   "type": "report",
+   "source": "National Bureau of Economic Research",
+   "authorships": [
+    "Joseph John Doyle"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "abstract": "Goerge and Lucy Mackey-Bilaver for comments and advice on this"
+  },
+  {
+   "id": "https://openalex.org/W3039154910",
+   "doi": "https://doi.org/10.1016/j.jhealeco.2020.102354",
+   "title": "Better off at home? Effects of nursing home eligibility on costs, hospitalizations and survival",
+   "publication_year": 2020,
+   "type": "article",
+   "source": "Journal of Health Economics",
+   "authorships": [
+    "Pieter Bakx",
+    "Bram Wouterse",
+    "Eddy K.A. van Doorslaer",
+    "Albert Wong"
+   ],
+   "biblio": {
+    "volume": "73",
+    "issue": null,
+    "first_page": "102354",
+    "last_page": "102354"
+   },
+   "abstract": "Encouraging and helping elderly to postpone a nursing home admission appears to be a win-win that keeps long-term care spending in check and is in line with the target population's preferences, but there is little evidence about its effects. We study the causal impact of nursing home admission eligibility using Dutch administrative data and exploiting variation between randomly assigned assessors in their tendency to grant eligibility for a nursing home admission. We find a drop in medical care use when eligibility is granted, especially in hospital admissions, while total healthcare spending is unaffected. This suggests that postponing an admission may not always be a win-win after all."
+  },
+  {
+   "id": "https://openalex.org/W2621820322",
+   "doi": "https://doi.org/10.1257/aer.20151231",
+   "title": "Disability Benefits, Consumption Insurance, and Household Labor Supply",
+   "publication_year": 2019,
+   "type": "article",
+   "source": "American Economic Review",
+   "authorships": [
+    "David Autor",
+    "Andreas Kostøl",
+    "Magne Mogstad",
+    "Bradley Setzler"
+   ],
+   "biblio": {
+    "volume": "109",
+    "issue": "7",
+    "first_page": "2613",
+    "last_page": "2654"
+   },
+   "abstract": "There is no evaluation of the consequences of Disability Insurance (DI) receipt that captures the effects on households’ net income and consumption expenditure, family labor supply, or benefits from other programs. Combining detailed register data from Norway with an instrumental variables approach based on random assignment to appellant judges, we comprehensively assess how DI receipt affects these understudied outcomes. To consider the welfare implications of the findings from this instrumental variables approach, we estimate a dynamic model of household behavior that translates employment, reapplication, and savings decisions into revealed preferences for leisure and consumption. The model-based results suggest that on average, the willingness to pay for DI receipt is positive and sizable. Because spousal labor supply strongly buffers the household income and consumption effects of DI allowances, the estimated willingness to pay for DI receipt is smaller for married than single applicants. (JEL D12, D14, H55, I38, J14, J22)"
+  },
+  {
+   "id": "https://openalex.org/W2891420385",
+   "doi": "https://doi.org/10.1086/590216",
+   "title": "Child Protection and Adult Crime: Using Investigator Assignment to Estimate Causal Effects of Foster Care",
+   "publication_year": 2008,
+   "type": "article",
+   "source": "Journal of Political Economy",
+   "authorships": [
+    "Jr. Joseph J. Doyle"
+   ],
+   "biblio": {
+    "volume": "116",
+    "issue": "4",
+    "first_page": "746",
+    "last_page": "770"
+   },
+   "abstract": "This paper uses the randomization of families to child protection investigators to estimate causal effects of foster care on adult crime. The analysis uses a new data set that links criminal justice data to child protection data in Illinois, and I find that investigators affect foster care placement. Children on the margin of placement are found to be two to three times more likely to enter the criminal justice system as adults if they were placed in foster care. One innovation describes the types of children on the margin of placement, a group that is more likely to include African Americans, girls, and young adolescents."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

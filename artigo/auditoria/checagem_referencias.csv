@@ -1,12 +1,10 @@
 status,doi,referencia,problemas,titulo_fonte,periodico_fonte,ano_fonte,fonte
-VERIFIED,10.1108/JSMA-04-2018-0029,"ALCÂNTARA, Jessica Nunes de; BENEDICTO, Gideon Carvalho de; SILVA, Sabrina Soares da. Poss",,Possible key factors for Brazilian publicly traded companies to adopt a sponsorship strategy,Journal of Strategy and Management,2019,Crossref
 VERIFIED,10.1080/01621459.1996.10476902,"ANGRIST, Joshua D.; IMBENS, Guido W.; RUBIN, Donald B. Identification of causal effects us",,Identification of Causal Effects Using Instrumental Variables,Journal of the American Statistical Association,1996,Crossref
 VERIFIED,10.1162/rest_a_00716,"BAIRD, Sarah; BOHREN, J. Aislinn; McINTOSH, Craig; ÖZLER, Berk. Optimal design of experime",,Optimal Design of Experiments in the Presence of Interference,The Review of Economics and Statistics,2018,Crossref
 sem_doi,,"BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, ",,,,,
 sem_doi,,"BAUMOL, William J.; BOWEN, William G. **Performing arts**: the economic dilemma. New York:",,,,,
 sem_doi,,"BELEM, Marcela Purini; DONADONE, Julio Cesar. A Lei Rouanet e a construção do ""mercado de ",,,,,
 VERIFIED,10.1257/aer.20180615,"BERTRAND, Marianne; BOMBARDINI, Matilde; FISMAN, Raymond; TREBBI, Francesco. Tax-exempt lo",,Tax-Exempt Lobbying: Corporate Philanthropy as a Tool for Political Influence,American Economic Review,2020,Crossref
-VERIFIED,10.1023/B:JCEC.0000009823.76834.64,"BORGONOVI, Francesca; O'HARE, Michael. The impact of the National Endowment for the Arts i",,The Impact of the National Endowment for the Arts in the United States: Institutional and Sectoral Effects on Private Funding,Journal of Cultural Economics,2004,Crossref
 VERIFIED,10.1111/coep.12443,"BRADBURY, J. C. Do movie production incentives generate economic development? **Contempora",,DO MOVIE PRODUCTION INCENTIVES GENERATE ECONOMIC DEVELOPMENT?,Contemporary Economic Policy,2020,Crossref
 sem_doi,,BRASIL. Tribunal de Contas da União. **Acórdão nº 1.205/2014 – Plenário**. Relator: Raimun,,,,,
 sem_doi,,BRASIL. Tribunal de Contas da União. **Acórdão nº 191/2016 – Plenário**. Relator: Augusto ,,,,,
@@ -24,11 +22,11 @@ sem_doi,,"FELD, Alan L.; O'HARE, Michael; SCHUSTER, J. Mark Davidson. **Patrons 
 VERIFIED,10.1093/qje/qjz013,"FINKELSTEIN, Amy; NOTOWIDIGDO, Matthew J. Take-up and targeting: experimental evidence fro",,Take-Up and Targeting: Experimental Evidence from SNAP,The Quarterly Journal of Economics,2019,Crossref
 VERIFIED,10.1177/1745691614551642,"GELMAN, Andrew; CARLIN, John. Beyond power calculations: assessing type S (sign) and type ",,Beyond Power Calculations,Perspectives on Psychological Science,2014,Crossref
 sem_doi,,"GERTLER, Paul J.; MARTÍNEZ, Sebastián; PREMAND, Patrick; RAWLINGS, Laura B.; VERMEERSCH, C",,,,,
-VERIFIED,10.1007/s10824-016-9281-x,"GOMES, Pedro; LIBRERO-CANO, Alejandro. Evaluating three decades of the European Capital of",,Evaluating three decades of the European Capital of Culture programme: a difference-in-differences approach,Journal of Cultural Economics,2018,Crossref
 VERIFIED,10.5433/2176-6665.2020v25n2p412,"GUIMARÃES, Bruno Costa. Concentração cultural: por que podemos dizer que, no Brasil, o inv",,"Concentração cultural: Por que podemos dizer que, no Brasil, o investimento na cultura está mais concentrado que o PIB?",Mediações - Revista de Ciências Sociais,2020,Crossref
 sem_doi,,"IBGE. **Sistema de Informações e Indicadores Culturais**. Rio de Janeiro: IBGE, 2025. Base",,,,,
 sem_doi,,"IBGE. **Pesquisa de Informações Básicas Municipais – MUNIC 2021**. Rio de Janeiro: IBGE, 2",,,,,
 sem_doi,,IJSN – INSTITUTO JONES DOS SANTOS NEVES. **Funcultura 10 anos**: análise executiva do Func,,,,,
+VERIFIED,10.1257/aer.103.5.1797,"MAESTAS, Nicole; MULLEN, Kathleen J.; STRAND, Alexander. Does disability insurance receipt",,Does Disability Insurance Receipt Discourage Work? Using Examiner Assignment to Estimate Causal Effects of SSDI Receipt,American Economic Review,2013,Crossref
 VERIFIED,10.3138/cjpe.230,"MAYNE, John. Useful theory of change models. **Canadian Journal of Program Evaluation**, v",,Useful Theory of Change Models,Canadian Journal of Program Evaluation,2015,Crossref
 VERIFIED,10.1093/jopart/muu009,"MOYNIHAN, Donald; HERD, Pamela; HARVEY, Hope. Administrative burden: learning, psychologic",,"Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions",Journal of Public Administration Research and Theory,2015,Crossref
 VERIFIED,10.1023/A:1007653328733,"O'HAGAN, J.; HARVEY, D. Why do companies sponsor arts events? Some evidence and a proposed",,Why Do Companies Sponsor Arts Events? Some Evidence and a Proposed Classification,Journal of Cultural Economics,2000,Crossref
@@ -38,6 +36,7 @@ sem_doi,,"SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Instru�
 sem_doi,,"SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Portaria nº 078, de 31 de julh",,,,,
 sem_doi,,SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Instrução Normativa nº 001/2,,,,,
 sem_doi,,"SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. Portaria nº 062-S, de 9 de mai",,,,,
+sem_doi,,SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Edital de credenciamento nº ,,,,,
 sem_doi,,SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Instrução Normativa nº 001/2,,,,,
 sem_doi,,SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Recursos financeiros captado,,,,,
 sem_doi,,SECULT – SECRETARIA DE ESTADO DA CULTURA DO ESPÍRITO SANTO. **Cultura em Dados**: evento a,,,,,

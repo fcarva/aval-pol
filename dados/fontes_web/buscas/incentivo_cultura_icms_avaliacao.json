@@ -1,0 +1,225 @@
+{
+ "id": "incentivo_cultura_icms_avaliacao",
+ "consulta": "lei de incentivo à cultura ICMS avaliação de impacto Brasil",
+ "coletado_utc": "2026-09-24T19:51:20Z",
+ "crossref": [
+  {
+   "doi": "10.35376/10324/18959",
+   "title": [
+    "Incentivo ao uso de energia renovável e eficiência energética como critério da lei ICMS Ecológico"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Altoé"
+   ],
+   "container_title": null,
+   "publisher": "Universidad de Valladolid",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 44.800278
+  },
+  {
+   "doi": "10.55905/oelv23n7-093",
+   "title": [
+    "Lei Rouanet no centro do debate: desmistificando o discurso de ódio à lei de incentivo à cultura no Brasil"
+   ],
+   "type": "journal-article",
+   "author": [
+    "Silva"
+   ],
+   "container_title": [
+    "OBSERVATÓRIO DE LA ECONOMÍA LATINOAMERICANA"
+   ],
+   "publisher": "Brazilian Journals",
+   "issued": [
+    [
+     2025,
+     7,
+     16
+    ]
+   ],
+   "volume": "23",
+   "issue": "7",
+   "page": "e10691",
+   "isbn": null,
+   "score": 42.850056
+  },
+  {
+   "doi": "10.18235/0007881",
+   "title": [
+    "Avaliação do impacto de mudanças nas alíquotas do ICMS nas transações interestaduais"
+   ],
+   "type": "report",
+   "author": [
+    "Khair"
+   ],
+   "container_title": null,
+   "publisher": "Inter-American Development Bank",
+   "issued": [
+    [
+     2011,
+     11,
+     1
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 42.287422
+  },
+  {
+   "doi": "10.14393/ufu.di.2024.586",
+   "title": [
+    "Lei Federal de Incentivo à Cultura: percepções e (des)construções de sentidos - um olhar auto etnográfico sobre a Lei Rouanet"
+   ],
+   "type": "dissertation",
+   "author": [
+    "Polido"
+   ],
+   "container_title": null,
+   "publisher": "PPUFU - Portal de Periódicos da Universidade Federal de Uberlândia",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 41.2733
+  },
+  {
+   "doi": "10.11606/d.12.2023.tde-09122024-165227",
+   "title": [
+    "Avaliação dos fundos de investimento de impacto no Brasil"
+   ],
+   "type": "dissertation",
+   "author": [
+    "André"
+   ],
+   "container_title": null,
+   "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+   "issued": [
+    [
+     null
+    ]
+   ],
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "isbn": null,
+   "score": 40.19152
+  }
+ ],
+ "openalex": [
+  {
+   "id": "https://openalex.org/W3162086251",
+   "doi": "https://doi.org/10.1590/0102-311x00277820",
+   "title": "Avaliação de programas comunitários de atividade física no Brasil: uma revisão de escopo",
+   "publication_year": 2021,
+   "type": "article",
+   "source": "Cadernos de Saúde Pública",
+   "authorships": [
+    "Alanna Gomes da Silva",
+    "Elton Junio Sady Prates",
+    "Déborah Carvalho Malta"
+   ],
+   "biblio": {
+    "volume": "37",
+    "issue": "5",
+    "first_page": "e00277820",
+    "last_page": "e00277820"
+   },
+   "abstract": "Community physical activity programs were created to encourage and increase the practice of physical activity in the Brazilian population and promote healthy life habits. The Brazilian Ministry of Health invested in the evaluation of these programs and consolidated partnerships that favor the development of relevant evidence on the topic. The current study aimed to identify and summarize the scientific highlights on the approaches and results of evaluations performed in the Health Academy Program and City Academy Program. This is a scoping review based on the methodology of the Joanna Briggs Institute. We used the MEDLINE via PubMed, LILACS, Scopus, and Cochrane databases, the website of the Health Academy Program, the Catalogue of Theses and Dissertations of the Brazilian Graduate Studies Coordinating Board, and the Brazilian Digital Library of Theses and Dissertations. The sample included quantitative or qualitative primary studies with no limit on year of publication. Twenty-four studies published from 2009 to 2020 were selected and subdivided according to the approaches to evaluation: evaluability, sustainability, process (supply and structure), outcome (impact and satisfaction), and degree of inference (adequacy, plausibility, and probability). The results of the evaluations showed that the programs offer various activities, positively impact users' health indicators, and contribute to the increase in leisure-time physical activity. The evaluation of these programs is essential for the administration, health services, and healthcare workers, since it allows verifying the implementation of the proposed activities, coverage, access, impact, and interference by the political context in their continuity."
+  },
+  {
+   "id": "https://openalex.org/W2000841697",
+   "doi": "https://doi.org/10.1590/s0034-89102012005000006",
+   "title": "Uso de agrotóxicos e impactos econômicos sobre a saúde",
+   "publication_year": 2012,
+   "type": "article",
+   "source": "Revista de Saúde Pública",
+   "authorships": [
+    "Wagner Lopes Soares",
+    "Marcelo Firpo Porto"
+   ],
+   "biblio": {
+    "volume": "46",
+    "issue": "2",
+    "first_page": "209",
+    "last_page": "217"
+   },
+   "abstract": "OBJETIVO: Estimar externalidades associadas às intoxicações agudas por agrotóxicos. MÉTODOS: Foram estimadas as probabilidades de intoxicação aguda segundo as características dos estabelecimentos rurais e de municípios no Paraná. Foram utilizadas informações sobre intoxicações agudas obtidas da Pesquisa de Previsão de Safras de 1998 a 1999. Os custos esperados com a intoxicação nessas propriedades foram calculados a partir da soma das despesas médicas-hospitalares e dos dias de convalescência necessários para restabelecer a saúde dos intoxicados. Foi construído um modelo multinível para análise. RESULTADOS: O custo associado à intoxicação aguda pode representar até US$ 149 milhões para o Paraná, i.e., para cada dólar gasto com a compra dos agrotóxicos no estado, cerca de US$ 1,28 poderiam ser gerados em custos externos com a intoxicação. Essa situação poderia ser revertida com a implementação de políticas públicas, como adoção de programa de incentivo à agricultura orgânica nos municípios, cujo custo social com a intoxicação aguda poderia ser reduzido em torno de US$ 25 milhões. CONCLUSÕES: A sociedade, em especial as populações mais atingidas pelos agrotóxicos, seriam beneficiadas se riscos de intoxicação aguda associados ao atual modelo de produção agrícola fossem reconhecidos e eliminados. É necessária a implementação de políticas públicas e ações integradas envolvendo os campos da economia, da saúde pública, da agronomia, do meio ambiente, da educação e da ciência e tecnologia, dentre outros."
+  },
+  {
+   "id": "https://openalex.org/W2163315697",
+   "doi": "https://doi.org/10.1590/s0104-44782005000100005",
+   "title": "A coordenação federativa no Brasil: a experiência do período FHC e os desafios do governo Lula",
+   "publication_year": 2005,
+   "type": "article",
+   "source": "Revista de Sociologia e Política",
+   "authorships": [
+    "Fernando Luiz Abrucio"
+   ],
+   "biblio": {
+    "volume": null,
+    "issue": "24",
+    "first_page": "41",
+    "last_page": "67"
+   },
+   "abstract": "O renascimento da federação brasileira com a redemocratização trouxe uma série de aspectos alvissareiros, mas o Brasil também precisa enfrentar os crescentes dilemas de coordenação intergovernamental constatados internacionalmente, de acordo com as especificidades históricas de nossa realidade. O presente artigo concentra-se basicamente no estudo dos problemas e ações de coordenação federativa ocorridas recentemente no Brasil, mais particularmente no período governamental do Presidente Fernando Henrique Cardoso. A partir desta análise, procura-se, ao final, apresentar resumidamente os desafios de coordenação intergovernamental colocados para o governo Lula."
+  },
+  {
+   "id": "https://openalex.org/W1532697036",
+   "doi": "https://doi.org/10.20396/rbi.v14i0.8649104",
+   "title": "A (des)coordenação de políticas para a indústria de agrotóxicos no Brasil",
+   "publication_year": 2015,
+   "type": "article",
+   "source": "Revista Brasileira de Inovação",
+   "authorships": [
+    "Víctor Peláez",
+    "Letícia Rodrigues da Silva",
+    "Thiago André Guimarães",
+    "Fabiano Dal Ri",
+    "Thomaz Teodorovicz"
+   ],
+   "biblio": {
+    "volume": "14",
+    "issue": null,
+    "first_page": "153",
+    "last_page": "153"
+   },
+   "abstract": "A evolução da indústria de agrotóxicos no Brasil está ligada a políticas agrícolas e industriais voltadas, principalmente, ao estímulo do consumo desses insumos. As políticas para a criação de um parque produtivo nesse ramo de atividade foram insuficientes em função de limitações das políticas de substituição de importações e da lógica de alocação das unidades fabris das empresas multinacionais que controlam o mercado em nível mundial. A criação de um marco regulatório mais rígido dos agrotóxicos tem sido foco de tensão e desarticulação de políticas, devido à intensificação do consumo e demanda de pleitos de registro. O objetivo deste artigo é discutir a insuficiência ou a falta de coordenação de diferentes políticas que incidem sobre a indústria de agrotóxicos no Brasil. Propõe-se uma estratégia de coordenação voltada à promoção e combinação de condições de sustentabilidade e competitividade, tendo como foco o estímulo à inovação tecnológica."
+  },
+  {
+   "id": "https://openalex.org/W2061021612",
+   "doi": "https://doi.org/10.1590/s0303-76572012000100004",
+   "title": "Modelo de desenvolvimento, agrotóxicos e saúde: um panorama da realidade agrícola brasileira e propostas para uma agenda de pesquisa inovadora",
+   "publication_year": 2012,
+   "type": "article",
+   "source": "Revista Brasileira de Saúde Ocupacional",
+   "authorships": [
+    "Marcelo Firpo Porto",
+    "Wagner Lopes Soares"
+   ],
+   "biblio": {
+    "volume": "37",
+    "issue": "125",
+    "first_page": "17",
+    "last_page": "31"
+   },
+   "abstract": "O modelo agrário hegemônico no Brasil está baseado em monocultivos para exportação que são intensivos em tecnologias mecanizadas e no uso de agrotóxicos. O país tornou-se o principal consumidor mundial de agrotóxicos e é avaliado como o mercado que mais crescerá num futuro próximo. Este trabalho teve como propósito fazer uma avaliação geral da relação entre o modelo agrário brasileiro e os impactos à saúde e ao ambiente decorrentes do uso de agrotóxicos e propor uma agenda de pesquisa para subsidiar o enfrentamento dos problemas apontados que integre os setores comprometidos com a defesa da saúde, do meio ambiente e da segurança e soberania alimentar. Constatou-se e discutiu-se a necessidade de: dar maior visibilidade aos efeitos e aos custos socioambientais e de saúde do modelo predominante; utilizar instrumentos econômicos para incentivar o uso de tecnologias mais limpas e modelos de produção mais saudáveis, compatíveis com a agricultura familiar, e para desestimular os modelos que oferecem mais riscos à saúde e ao ambiente; desenvolver e implementar políticas públicas baseadas em referenciais da economia ecológica e da agroecologia, com a participação de movimentos sociais, das instituições reguladoras e de grupos de pesquisa."
+  }
+ ],
+ "crossref_status": 200,
+ "openalex_status": 200
+}

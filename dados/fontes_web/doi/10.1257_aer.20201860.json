@@ -1,0 +1,77 @@
+{
+ "doi": "10.1257/aer.20201860",
+ "coletado_utc": "2026-09-24T19:51:09Z",
+ "crossref_status": 200,
+ "crossref": {
+  "title": [
+   "Judging Judge Fixed Effects"
+  ],
+  "subtitle": [],
+  "author": [
+   {
+    "given": "Brigham",
+    "family": "Frandsen",
+    "name": null
+   },
+   {
+    "given": "Lars",
+    "family": "Lefgren",
+    "name": null
+   },
+   {
+    "given": "Emily",
+    "family": "Leslie",
+    "name": null
+   }
+  ],
+  "container_title": [
+   "American Economic Review"
+  ],
+  "publisher": "American Economic Association",
+  "type": "journal-article",
+  "volume": "113",
+  "issue": "1",
+  "page": "253-277",
+  "article_number": null,
+  "issued": [
+   [
+    2023,
+    1,
+    1
+   ]
+  ],
+  "published_print": [
+   [
+    2023,
+    1,
+    1
+   ]
+  ],
+  "published_online": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1257/aer.20201860",
+  "abstract": "<jats:p> We propose a nonparametric test for the exclusion and monotonicity assumptions invoked in instrumental variable (IV) designs based on the random assignment of cases to judges. We show its asymptotic validity and demonstrate its finite-sample performance in simulations. We apply our test in an empirical setting from the literature examining the effects of pretrial detention on defendant outcomes in New York. When the assumptions are not satisfied, we propose weaker versions of the usual exclusion and monotonicity restrictions under which the IV estimator still converges to a proper weighted average of treatment effects. (JEL H76, K41) </jats:p>"
+ },
+ "openalex_status": 200,
+ "openalex": {
+  "id": "https://openalex.org/W3155315249",
+  "title": "Judging Judge Fixed Effects",
+  "publication_year": 2022,
+  "type": "article",
+  "source": "American Economic Review",
+  "landing_page_url": "https://doi.org/10.1257/aer.20201860",
+  "authorships": [
+   "Brigham Frandsen",
+   "Lars John Lefgren",
+   "Emily Leslie"
+  ],
+  "biblio": {
+   "volume": "113",
+   "issue": "1",
+   "first_page": "253",
+   "last_page": "277"
+  },
+  "cited_by_count": 109,
+  "abstract": "We propose a nonparametric test for the exclusion and monotonicity assumptions invoked in instrumental variable (IV) designs based on the random assignment of cases to judges. We show its asymptotic validity and demonstrate its finite-sample performance in simulations. We apply our test in an empirical setting from the literature examining the effects of pretrial detention on defendant outcomes in New York. When the assumptions are not satisfied, we propose weaker versions of the usual exclusion and monotonicity restrictions under which the IV estimator still converges to a proper weighted average of treatment effects. (JEL H76, K41)"
+ }
+}
