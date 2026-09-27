@@ -11,3 +11,4 @@ fun2026	https://secult.es.gov.br/editais-2026	(?i)29[-_ ]?2025|29%202025|curta	H
 lai_secult	https://secult.es.gov.br/relatorios-da-lai	(?i)\.pdf$|\.xlsx?$|relat[oó]rio	LAI da SECULT: relatórios de pedidos e respostas (há pedido sobre a LICC?)
 transp377	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/377?NivelAnterior=0	(?i)cultura	LICC: listas de projetos beneficiados (seção 07; só os arquivos da cultura)
 transp370	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/370?NivelAnterior=0	(?i)download|arquivo|\.xlsx?$|\.csv$|\.pdf$|\.ods$|\.zip$	renúncia de receita: demonstrativos da estimativa e execução (arquivos da seção 08)
+boletim_ec	https://secult.es.gov.br/boletim-de-economia-criativa	(?i)boletim|economia.criativa|\.pdf$	Boletim de Economia Criativa (SECULT/IJSN): emprego e empresas da economia criativa no ES
