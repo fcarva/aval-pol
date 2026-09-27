@@ -271,3 +271,5 @@ raw_transp_obterfilhos_1	https://transparencia.es.gov.br/Comum/incentivosfiscais
 raw_transp_obterfilhos_2	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/2?NivelAnterior=0	rota: Portal da Transparência, seção 02 (incentivos vigentes: o crédito presumido da LICC?)
 raw_dio_buscanova_get	https://ioes.dio.es.gov.br/buscanova?q=Lei%20de%20Incentivo%20%C3%A0%20Cultura%20Capixaba	rota DIO: a busca aceita GET?
 raw_dio_home_js	https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js	rota DIO: script do portal (endpoints)
+raw_dio_busca_app_js	https://ioes.dio.es.gov.br/assets/javascripts/application.7d10c6fa.js	rota DIO: script da busca (endpoint da API de busca)
+raw_dio_busca_app_js2	https://ioes.dio.es.gov.br/buscanova/assets/javascripts/application.7d10c6fa.js	rota DIO: script da busca, caminho relativo a /buscanova/
