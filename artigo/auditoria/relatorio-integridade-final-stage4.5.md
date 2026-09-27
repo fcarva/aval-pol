@@ -77,6 +77,8 @@
 | Formato | 15 páginas; nenhum glifo ausente; nenhuma linha estourada |
 
 **Pendências:**
-- Os campos dos dados abertos do CNPJ citados no Quadro 4 (porte, abertura, atividade, município) foram pedidos ao
-  relé (PDF de metadados da Receita). A página da Receita não os lista no texto coletado.
+- ~~Os campos dos dados abertos do CNPJ citados no Quadro 4 foram pedidos ao relé.~~ **Resolvido em 27/09/2026:**
+  o layout oficial (`dados/fontes_web/paginas/receita_cnpj_metadados.txt`, coletado de
+  https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) traz "porte da empresa", "data de início da
+  atividade", "CNAE fiscal principal" e "município".
 - A LC 187/2021 não foi coletada (erro no Planalto) e não entra no artigo.
