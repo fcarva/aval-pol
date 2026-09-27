@@ -1,0 +1,984 @@
+# Fonte: https://secult.es.gov.br/media/003-2020%20-%20Curta%20e%20M%C3%A9dia%20Fic%C3%A7%C3%A3o/Impactos_da_Covid-19_Relat%C3%B3rio%20Final.pdf
+# Coletado (UTC): 2026-09-27T15:39:43Z
+# sha256 do original: 57a2ef9b1adea08698dd9ae1279f969aee884a1f470781bfeb2826aa46b14436
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:39:36 GMT
+# PDF CreationDate: Tue Mar 16 20:44:55 2021 UTC
+# PDF ModDate: Thu Mar 18 10:03:24 2021 UTC
+
+         Organizadores
+RODRIGO CORREIA DO AMARAL
+ PEDRO AFFONSO IVO FRANCO
+     ANDRÉ LUIS GOMES LIRA
+                                                                                                                        Documento elaborado com dados coletados entre
+                                                                                                                        10 de junho e 17 de setembro de 2020.
+                                                                                                                        Organização:
+                                                                                                                        Rodrigo Correia do Amaral (Universidade de São Paulo/Ubá Cultura),
+                                                                                                                        Pedro Affonso Ivo Franco (Consultor Internacional para as Artes, Cultura e Economia Criativa/UNCTAD) e
+                                                                                                                        André Luis Gomes Lira (Cultive Soluções)
+                                                                                                                        Articulação com as Secretarias Estaduais de Cultura e com o
+                                                                                                                        Fórum Nacional de Secretários e Dirigentes Estaduais de Cultura:
+                                                                                                                        Fabrício Noronha (secretário de Cultura do Espírito Santo), Gilberto Freyre Neto (secretário de Cultura
+ões
+                           Fórum
+                           Nacional
+                                                  Fórum
+                                                  Nacional                                                              de Pernambuco), Fernanda Matos (gerente de planejamento – Secult-PE) e Lorena Louzada (gerente de
+                                                                                                                        economia criativa – Secult-ES)
+                           dos Secretários e      dos Secretários e
+                           Dirigentes Estaduais   Dirigentes Estaduais
+
+                           de Cultura             de Cultura
+
+                                                                                                                        Instituições e profissionais envolvidos na elaboração do questionário:
+a marca funcione
+dos, de cores              Fórum                  Fórum                                                                 Fórum Nacional de Secretários e Dirigentes Estaduais da Cultura, Secretaria de Estado de Cultura de Alagoas,
+ guns estudos,
+marca
+                           Nacional
+                           dos Secretários e
+                           Dirigentes Estaduais
+                                                  Nacional
+                                                  dos Secretários e
+                                                  Dirigentes Estaduais
+                                                                                                                        Secretaria de Estado de Cultura e Economia Criativa do Amazonas, Secretaria de Cultura do Estado da Bahia,
+                           de Cultura             de Cultura                                                            Secretaria de Cultura do Estado do Ceará, Secretaria de Cultura do Estado do Espírito Santo, Secretaria de Cultura
+                                                                                                                        do Estado do Pará, Secretaria de Comunicação Social e da Cultura do Paraná, Secretaria de Cultura do Estado de
+                                                                                                                        Pernambuco, Representação da UNESCO no Brasil, Serviço Social do Comércio (SESC), Faculdade de Filosofia, Letras
+                           Fórum
+                           Nacional
+                                                  Fórum
+                                                  Nacional
+                                                                                                                        e Ciências Humanas da Universidade de São Paulo (FFLCH-USP) e Victor Nunes Toscano.
+                           dos Secretários e      dos Secretários e
+                           Dirigentes Estaduais   Dirigentes Estaduais
+
+                           de Cultura             de Cultura                                                            Comunicação:
+                                                                                                                        Aline Dias, Erika Piskac, Rodrigo Coutinho, Luciano Gomes Lira, Pedro Barreto, Paulo Selveira, Fernando Garcia
+                                                                                                                        Pereira, Nikolas Peter Klam, Daniele Ornelas Mendes, Denise Oliveira, Daniel Vidal, Gisele Badenes, João Carlos de
+                   Publicado em 2020 pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura,
+                                                                                                                        Andrade Silva.
+                   7, place de Fontenoy, 75352 Paris 07 SP, França, e pela Representação da UNESCO no Brasil.
+                                                                                                                        Tratamento de dados:
+                   © UNESCO 2020
+                                                                                                                        Rodrigo Correia do Amaral, Pedro Affonso Ivo Franco, André Luis Gomes Lira, Armando Daltro Caldeira de Oliveira,
+                                                                                                                        Marta Maria Alves, Carlos Augusto Ferreira Lima Júnior, Veronica Tomsic, Flávia Tebaldi Henriques de Queiroz,
+                                                                                                                        Orlando Rafael Prado, Aníbal Turenko Beça.
+                   Esta publicação está disponível em acesso livre ao abrigo da licença Attribution-ShareAlike
+                                                                                                                        Coordenação técnica da Representação da UNESCO no Brasil:
+                   3.0 IGO (CC-BY-SA 3.0 IGO) (http://creativecommons. org/licenses/by-sa/3.0/igo/). Ao utilizar
+                   o conteúdo da presente publicação, os usuários aceitam os termos de uso do Repositório               Marlova Jovchelovitch Noleto, diretora e representante
+                   UNESCO de acesso livre (www.unesco.org/open-access/terms-use-ccbysa-port).                           Isabel de Paula, coordenadora do Setor de Cultura
+                   As indicações de nomes e a apresentação do material ao longo deste livro não implicam a              Revisão técnica: Setor de Cultura da Representação da UNESCO no Brasil
+                   manifestação de qualquer opinião por parte da UNESCO a respeito da condição jurídica de              Revisão editorial : Unidade de Publicações da Representação da UNESCO no Brasil
+                   qualquer país, território, cidade, região ou de suas autoridades, tampouco da delimitação de
+                   suas fronteiras ou limites.                                                                          Capa e projeto gráfico: Rafael Hildebrand
+                   As ideias e opiniões expressas nesta publicação são as dos autores e não refletem
+                   obrigatoriamente as da UNESCO nem comprometem a Organização.                                         Acesse também
+
+                   Esclarecimento: a UNESCO mantém, no cerne de suas prioridades, a promoção da igualdade               Site da pesquisa: https://datastudio.google.com/s/lhRIjARPY8E
+                   de gênero, em todas as suas atividades e ações. Devido à especificidade da língua portuguesa,        E-mail: contato@iccscovid19.com.br
+                   adotam-se, nesta publicação, os termos no gênero masculino, para facilitar a leitura, considerando   https://www.facebook.com/iccscovid19
+                   as inúmeras menções ao longo do texto. Assim, embora alguns termos sejam escritos no                 https://twitter.com/iccscovid19
+                   masculino, eles referem-se igualmente ao gênero feminino.                                            https://www.instagram.com/iccscovid19                                                                BR/2020/PI/H/5
+NOTA ME TODOLÓGICA
+
+Esta é uma pesquisa sobre a percepção dos agentes culturais         assinatura da plataforma Paperform (Pro), na qual foi criada       foi realizada entre 10 de junho e 31 de agosto de 2020.
+e criativos a respeito dos impactos da COVID-19 em suas             uma versão online do questionário.                                 Em 30 de junho, foi promovida uma live para a apresentação
+atividades profissionais. Aqui, os participantes analisam como                                                                         dos dados parciais da pesquisa, na forma de um boletim. Os
+                                                                    A coleta de dados se deu por amostra não probabilística
+o isolamento social adotado em março de 2020 para deter                                                                                estados parceiros também receberam versões locais desse
+                                                                    (convenience sample). No entanto, considerando a população
+a curva de contágio pelo coronavírus afetou as receitas, as                                                                            documento preliminar.
+                                                                    total de empresas e trabalhadores culturais registrada pela
+compras, as contratações e os empregos no setor. Esses agentes
+                                                                    Pesquisa Nacional por Amostragem de Domicílios Contínua            Após a conclusão da coleta, a coordenação da pesquisa
+também informam sobre sua capacidade de digitalização,
+                                                                    2018 e coligida pelo Sistema de Informações e Indicadores          constituiu um GT para o tratamento dos dados. Nesse trabalho,
+sobre os auxílios que receberam ou deixaram de receber no
+                                                                    Culturais (SIIC/PNAD Contínua, IBGE, 2018, Tabelas 1.4 e 6.2),     as respostas “outro” foram analisadas e redistribuídas nas
+período e sobre as suas necessidades para o processo de
+                                                                    foram calculados uma margem de erro (2,4%) e um intervalo de       categorias de “setor” e “subsetor” cultural e criativo definidas
+retomada das atividades. Em torno deste projeto mobilizaram-
+                                                                    confiança (95%), a partir dos quais foi definido um “N” de 1.648   pelo questionário. O GT também atribuiu pesos às respostas,
+se diferentes instituições culturais e 13 secretarias e fundações
+                                                                    trabalhadores e 739 empreendimentos, distribuídos de forma         calculados a partir das proporções de empresas e trabalhadores
+estaduais de Cultura. Para este levantamento, optou-se por uma
+                                                                    proporcional nos estados e no Distrito Federal. Esse exercício     culturais em cada estado e no DF informadas pelo Instituto
+pesquisa do tipo survey, transversal, direcionada à população
+                                                                    não objetivou produzir uma análise inferencial dos resultados,     Brasileiro de Geografia e Estatística (IBGE), corrigindo com isso
+de empreendedores e trabalhadores do setor cultural e dos
+                                                                    mas somente orientar a mobilização dos participantes em cada       distorções de sobre e sub-representação em determinados
+demais setores que, de acordo com a literatura pertinente,
+                                                                    estado. Para a mobilização das participações, foi constituído um   estados. Para o alcance da proporção aproximada aos dados
+constituem a economia criativa (FIRJAN, 2019).
+                                                                    grupo de trabalho (GT) com representantes das secretarias de       oficiais, o questionário foi reaberto entre os dias 4 e 11 de
+A elaboração do questionário ocorreu entre os meses de              Cultura parceiras da pesquisa que se reuniu quinzenalmente         setembro, acompanhado por uma mobilização direcionada a
+abril e maio, a partir de reuniões sistemáticas realizadas entre    com a coordenação da pesquisa para o monitoramento de              três estados da Região Norte (Acre, Amapá e Roraima) e a um
+os organizadores do estudo, consultores, pesquisadores e            respostas e a definição de estratégias. Adotou-se com esses        estado da Região Centro-Oeste (Mato Grosso do Sul).
+gestores públicos estaduais. Neste processo, combinou-              órgãos uma dinâmica na qual cada resposta coletada foi
+se a revisão crítica de outras pesquisas – mencionadas              simultaneamente compartilhada com a Secretaria de Cultura          Para a produção do boletim parcial e do resumo executivo da
+nas referências deste documento – com a formulação de               do estado informado pelo(a) respondente, por meio de uma           pesquisa, adotou-se a plataforma Google Datastudio, com a
+questões que os envolvidos, principalmente os gestores              planilha Google. A pesquisa produziu ainda um material de          finalidade de se produzir uma visualização interativa, na qual
+públicos, entenderam ser necessárias para compreender a             divulgação auxiliar, e o Departamento Nacional do Serviço          os usuários podem combinar livremente as variáveis de seu
+situação da população a ser estudada. Para a coleta dos dados,      Social do Comércio (SESC) disponibilizou uma assessoria de         interesse. Em parceria com Representação da UNESCO no Brasil,
+a direção da Faculdade de Filosofia, Letras e Ciências Humanas      imprensa e comunicação para o agendamento de entrevistas           decidiu-se produzir este resumo executivo, cujo lançamento
+da Universidade de São Paulo (FFLCH-USP) disponibilizou uma         em diferentes veículos de comunicação. A coleta dos dados          nos dias 7, 8 e 9 de dezembro de 2020 encerra a pesquisa.
+
+
+                                                                                                    3
+                                                                                                               Pe squisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+D I S T R I B U I Ç Ã O T E R R I TO R I A L                                      Participação nos estados                                                                                           Participação nas capitais
+                                                                                  (ordem decrescente)                                                                                                (ordem decrescente)
+D A S PA R T I C I PA Ç Õ E S                                            Bahia                                                                 307                                      Manaus                                                 153
+                                                                    São Paulo                                                               290
+                                                                                                                                                                                      São Paulo                                             145
+Respostas válidas                                                  Amazonas                                                             276
+                                                                                                                                                                                       Salvador                                  101
+                                                                        Paraná                                                 223
+
+                                                                Espírito Santo                                                 220                                                        Belém                                 90
+
+                                                                          Pará                                                 217                                                Porto Alegre                             78
+                                                                 Pernambuco                                              204                                                             Maceió                           76
+                                                           Rio Grande do Sul                                             198
+                                                                                                                                                                                           Recife
+    30,6%                                                      Rio de Janeiro                                    162
+                                                                                                                                                                                                                          75
+
+                                                                                                                                                                                 Rio de Janeiro                           73
+                                                                         Ceará                          112
+
+                                                                       Alagoas                         103                                                                              Curitiba                      69
+
+            2.667                                                Minas Gerais
+                                                               Santa Catarina                51
+                                                                                                  64                                                                                   Fortaleza
+                                                                                                                                                                                          Brasília         27
+                                                                                                                                                                                                                47
+
+
+                                                                       Sergipe         36
+                                                                                                                                                                                          Vitória        24
+                                69,4%                         Distrito Federal        29
+
+                                                                    Maranhão          27                                                                                                São Luís      16
+
+                                                                         Goiás    23                                                                                              Florianópolis          — 11
+                                                                       Amapá           — 20                                                                                     Belo Horizonte           — 11
+                                                                    Rondônia           — 19
+                                                                                                                                                                                         Goiânia         —9
+                                                                       Paraíba         — 16
+                                                        Rio Grande do Norte           — 14
+                                                                                                                                                                                   João Pessoa           —6
+
+                                                         Mato Grosso do Sul                                                                                                             Teresina      —5
+          Indivíduos (pessoas físicas,                                                — 14
+
+          trabalhadores/as)                                      Mato Grosso          — 13                                                                                               Aracaju      —5
+                                                                          Piauí       — 10
+                                                                                                                                                                                         Palmas       —4
+          Coletivos (pessoas jurídicas –                                  Acre        —9
+                                                                                                                                                                                         Cuiabá       —3
+          incluindo MEIs, representantes                             Tocantins    —6
+                                                                      Roraima     ­— 4                                                                                                  Macapá       —1
+          de coletivos ou comunidades)
+                                                                                  0               50     100       150      200       250         300      350                                       0               50              100          150           200
+
+
+
+
+O questionário da pesquisa obteve 2.667 respostas válidas.                                        Dentre as respostas de indivíduos, o estado com maior participação foi o
+                                                                                                  Amazonas, com 246 respondentes e a capital continua sendo Manaus,
+69,4% das respostas são de indivíduos (pessoas físicas, trabalhadores/as)
+                                                                                                  com 141 respostas.
+e as demais 30,6% de coletivos (pessoas jurídicas – incluindo MEIs,
+representantes de coletivos ou comunidades).                                                      As respostas relacionadas a coletivos tiveram maior participação no estado
+                                                                                                  de São Paulo, com 107 participações, e sua capital se destacou entre as
+O estado que teve a maior participação de respondentes no geral foi a Bahia,
+                                                                                                  demais, com 51 coletivos respondentes.
+com 307 respostas. A capital foi Manaus, com 153 respostas.
+
+
+                                                                                                               4
+                                                                                                                                 Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+S E TO R E S U B S E TO R D E AT UA Ç Ã O
+
+
+                                                     Principal setor de atuação                                                           Principal subsetor de atuação
+                                                     (ordem decrescente)
+                                                                                                                                          1.    Teatro                                                                                                                     19,72%
+                                                                                                                 17,72%
+                                  Artes cênicas                                                                                           2.    Filme, vídeo e demais obras cinematográficas                                                                               11,77%
+                                                                                       9,9%
+                                                                                                                                          3.    Artes plásticas (pintura, escultura etc.)                                                                                  10,19%
+                                                                                                   13%                                    4.    Dança (balé, contemporânea, urbana)                                                                                         8,53%
+                                        Música
+                                                                           5,9%
+                                                                                                                                          5.    Artesanato                                                                                                                  5,66%
+                                                                                       10,18%                                             6.    Edição e publicação (livros, jornais, revistas etc.)                                                                        3,82%
+                     Artes visuais e artesanato
+                                                            3,66%                                                                         7.    Fotografia                                                                                                                  3,26%
+                                                                                                                                          8.    Ópera                                                                                                                       2,86%
+                                                                       5,95%
+                Audiovisual e meios interativos                                                                                           9.    Design gráfico                                                                                                               2,7%
+                                                           3,08%
+                                                                                                                                         10.    Circo                                                                                                                       2,46%
+                                                                4,55%
+                    Livro, literatura e imprensa                                                                                         11.    Museu e conservação                                                                                                         2,39%
+                                                       2,34%
+                                                                                                                                         12.    Produção literária e de conteúdo                                                                                            2,36%
+                                                                   4,75%                                                                 13.    Casas de espetáculo                                                                                                         2,12%
+       Patrimônio e cultura popular tradicional
+                                                                    1,97%                                                                14.    Cultura popular e folclore                                                                                                  2,06%
+                                                                                                                                         15.    Livraria                                                                                                                    2,01%
+                                                               3,99%
+                                          Outro                                                                                          16.    Patrimônio imaterial (tradições e expressões culturais)                                                                      1,7%
+                                                                1,4%
+                                                                                                                                         17.    Cultura afro-brasileira                                                                                                     1,53%
+                                                       2,16%
+                     Design e serviços criativos                                                                                         18.    Agência                                                                                                                     1,29%
+                                                                   1,75%
+                                                                                                                                         19.    Biblioteca (também virtual)                                                                                                 1,23%
+                                                                1,56%
+                               Festivais e feiras
+                                                               1,14%
+                                                                                                                                          Nota: os setores de artes cênicas, música e festivais e feiras originalmente estavam
+                                                                1,46%
+                               Turismo cultural                                                                                           vinculados como subsetores ao setor de artes performáticas, música e celebrações.
+                                                            0,6%
+                                                                                                                                          Eles foram desagregados após o GT para tratamento dos dados entender ser
+Tecnologias da informação e comunicação (TIC)                  0,94%
+                                                                                                                                          necessário equilibrar o número de respostas. Por este motivo, os setores de música e
+ e pesquisa, desenvolvimento e inovação (PD&I)             0,34%
+                                                                                                                                          festivais e feiras não apresentam subsetores.
+                                                            0,62%
+                               Cultura hip-hop
+                                                           0,25%                                                                          O setor com maior participação de respostas é o de artes cênicas, com 27,62% das
+                                                            0,51%                                                                         respostas, seguido do de música, com 18,09% , e do de artes visuais e artesanato,
+                                          Moda
+                                                           0,28%                                                                          com 13,84% .
+                                                    0,00    0,02     0,04     0,06   0,08   0,10   0,12   0,14   0,16     0,18
+                                                                                                                                          Os subsetores com maior participação são o de teatro, com 19,72% , e o de filmes,
+         Indivíduo
+                                                                                                                                          vídeos e demais obras cinematográficas, com 11,77% respostas.
+
+         Coletivo
+                                                                                                                                                  No painel de dados da pesquisa (https://datastudio.google.com/s/nzosMb6Y0U4), é possível filtrar
+                                                                                                                                                  os resultados por pessoa (física e jurídica) e por unidade federativa.
+
+                                                                                                                                 5
+                                                                                               Pe squisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+                                                                   DISTRIBUIÇÃO                          Zona (rural ou urbana)                            Territórios
+
+                                                              T E R R I TO R I A L D A S                                                                    Centro                                                                     69,12%
+                                                                                                                                                            Subúrbio                                                                   24,75%
+                                                                 PA R T I C I PA Ç Õ E S                                                                    Comunidade/favela                                                           5,21%
+                                                                                                                                                            Comunidade ribeirinha                                                       0,52%
+                                                                                                                                                            Comunidade remanescente de quilombo                                         0,14%
+                                                                                                                                                            Ciganos                                                                     0,13%
+                                                                                                                                                            Povos da floresta                                                           0,12%
+                                                                                                                                                            Aldeia indígena                                                             0,01%
+                                                                                                             95,26%
+                                                                                                                              4,74%
+
+
+                                                                                                                  Zona urbana                               O Nordeste foi a região com maior participação de
+                                                                                                                                                            respondentes na pesquisa, com 31,08% de respostas,
+                                                                                                                  Zona rural                               sendo o estado da Bahia teve 11,51% das respostas, e
+                                                                                                                                                            o Estado do Piauí, com 0,38%, teve menos respostas.
+                                                                                                                                                           Dessas respostas, 71,77% correspondem a indivíduos,
+                                                                                                                                                            e 28,23%, a coletivos. Os setores com mais respostas
+                                                                                                                                                           são: artes cênicas (24,73%), música (19,18%) e artes
+                                                                                                                                                                                  visuais e artesanato (13,99%).
+
+                                                                                        A segunda região com maior participação no questionário foi o Sudeste, com 27,59% das respostas,
+                                                                                            sendo São Paulo o estado com 10,87% das respostas, e Minas Gerais o de menor participação,
+                                                                                         com 2,4%. 65,08% das respostas foram de indivíduos, e 34,92%, de coletivos. Os setores com mais
+Quantidade de respostas                                                                   respostas foram: artes cênicas (28,26%), música (17,39%), e artes visuais e artesanato (13,18%).
+por município
+                                                                                A Região Norte representou 20,66% das respostas obtidas na pesquisa, destacando-se o estado do Amazonas,
+472 municípios                                                                           com 10,35% das respostas da região, e Roraima, com apenas 0,15% de participação. O percentual de
+                                                                                      indivíduos que responderam à pesquisa foi de 81,64%, e de coletivos, de 18,36%. Os setores com mais
+                                                                                    respostas na região foram: música (26,91%), artes visuais e artesanato (20%), e artes cênicas (17,09%).
+
+                                                Com 17,69% de participação, a Região Sul teve o segundo menor índice, tendo o estado do Paraná 8,36% das respostas, e Santa Catarina,
+                                                1,91%. Apesar da maior participação de indivíduos, com 58,05%, em relação a coletivos, com 41,95%, a região apresentou equilíbrio no
+                                                    tipo de participação. Os setores que se destacaram: música (24,36%), artes cênicas (23,73%) e artes visuais e artesanato (16,74%).
+
+                                                                                   A Região Centro-Oeste teve o menor de desempenho de participação de respostas, com apenas 2,96%,
+                                                                                      tendo o Distrito Federal 1,09% das respostas, e o estado do Mato Grosso do Sul, 0,49%. 65,82% das
+                                                                                     respostas obtidas na região foram de indivíduos, e 34,18%, de coletivos. Os setores que se destacaram
+                          No painel de dados da pesquisa (https://datastudio.                       foram: música (18,99%), artes cênicas (17,72%) e artes visuais e artesanato (16,46%).
+                          google.com/s/sjOjibSHfOU), é possível filtrar os
+                          resultados deste mapa interativo por pessoa (física
+                          e jurídica), setor, subsetor e unidade federativa.
+                                                                                                6
+                                                                                                                                  Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+PERFIL DAS ORGANIZAÇÕES (COLE TIVOS)
+
+                                                 Tipo de organização                                                    Tempo de existência                                                                          Posição na cadeia produtiva
+
+      Microempreendedor individual (MEI)                                 42,89%                  Acima de 10 anos                            33,02%                                                  Produção                           43,87%
+            Empresa (ME, EI, Eireli, Ltda, SA)                         37,07%
+                                                                                                         5 a 10 anos                      29,76%                                                        Criação           25,67%
+                                 Associação                      10,55%
+                          Coletivo/informal                 6,74%                                         3 a 5 anos          15,27%                                              Formação e treinamento                          12,6%
+                          Fundação privada               1,66%                                            1 a 3 anos         13,23%                                         Distribuição/comercialização                       8,86%
+Equipamento ou órgão público municipal                                                                                                                                          da produção de terceiros
+                                                        0,93%
+                                                                                                     6 meses a 1 ano              6,15%                                                                 Gestão                 7,51%
+                                Cooperativa            0,14%
+  Equipamento ou órgão público estadual                0,02%                                            Até 6 meses            2,57%                                                                  Pesquisa          1,5%
+
+                                                 0,0      0,1      0,2    0,3    0,4     0,5                           0,0       0,1       0,2       0,3        0,4                                               0,0    0,1      0,2    0,3    0,4   0,5
+
+
+
+                                                  Faturamento mensal                                                                                                      Principal fonte de receita
+
+                  Entre R$ 3 mil e R$ 6,9 mil                                                           27,19%                 Receita de prestação de serviços                                                                         55,89%
+                  Entre R$ 1 mil e R$ 2,9 mil                                                   24,62%
+                                                                                                                                                               Editais             15,31%
+                               Até R$ 999,99                                    14,87%
+                                                                                                                                  Receita de venda de produtos                 12,99%
+               Entre R$ 10 mil e R$ 29,9 mil                                    13%
+                  Entre R$ 7 mil e R$ 9,9 mil                     9,36%                                                        Patrocínio com incentivos fiscais                        7,11%
+               Entre R$ 30 mil e R$ 59,9 mil                     3,09%                                                          Patrocínio sem incentivos fiscais                  3,45%
+                         R$ 300 mil ou mais                     2,16%
+                                                                                                                                                            Doações                3,13%
+               Entre R$ 60 mil e R$ 89,9 mil                    2,14%
+                                                                                                                                          Financiamento coletivo                 1,74%
+            Entre R$ 120 mil e R$ 299,9 mil                     1,89%
+              Entre R$ 90 mil e R$ 119,9 mil                1,68%                                                                Linha de crédito / empréstimo                 0,38%
+
+                                                 0,0            0,05       0,1         0,15    0,2        0,25                                                           0,0          0,1         0,2          0,3          0,4           0,5
+
+
+
+
+                                                       O perfil de organização que apresenta maior participação na pesquisa é o MEI, representando 42,89% das respostas
+No painel de dados da pesquisa
+(https://datastudio.google.com/s/                      como coletivo. 33,02% das organizações que responderam têm mais de 10 anos de existência e preponderância de sua
+upBENBfGUro), é possível filtrar os                    atuação na produção, com 43,87%. Para 27,19% dos respondentes, o faturamento mensal varia entre as faixas de:
+resultados por setor, subsetor e
+                                                       R$ 3 mil a R$ 6,9 mil, seguido por 24,62% dos respondentes, para os quais o faturamento varia entre R$ 1 mil e R$ 2,9 mil.
+unidade federativa.
+                                                       As principais fontes de receita apontadas foram prestação de serviço (55,89%) e editais (15,31%).
+
+
+
+
+                                                                                                                                   7
+                                                                                                                                                                        No painel de dados da pesquisa (https://datastudio.google.com/s/kb-JtM4DFDM),
+                                                                                                                                                                        é possível filtrar os resultados por setor, subsetor e unidade federativa.
+PERFIL DOS TRABALHADORES (INDIVÍDUOS)
+
+                              Tipo de vínculo no trabalho mais recente                                                Posição na cadeia em que atua                                                       Renda mensal
+
+                                                                                                         Criação                                    36,42%                      2 a 3 salários-mínimos                                         23,2%
+     Autônomo/informal                                             55,12%
+                                                                                                                                                                                1 a 2 salários-mínimos                                       22,35%
+                                                                                                        Produção                                  33,32%
+         Empregado CLT             17,44%                                                                                                                                         Até 1 salário-mínimo                                20,06%
+                                                                                          Formação e treinamento          11,89%
+                                                                                                                                                                                4 a 6 salários-mínimos                               17,77%
+Contrato de prestador de                                                                                  Gestão       10,74%
+                                   16,46%                                                                                                                                                  Sem renda                      9%
+   serviço (pessoa física)
+                                                                                     Distribuição/comercialização             4,54%
+                                                                                         da produção de terceiros                                                               7 a 9 salários-mínimos                    4,58%
+         Servidor público                      10,97%
+                                                                                                        Pesquisa             3,1%                                         10 salários-mínimos ou mais                3,03%
+
+                             0,0                0,2             0,4           0,6                                   0,0        0,1          0,2      0,3          0,4                                    0,0       0,05        0,1    0,15      0,2     0,25
+
+
+
+
+                                          Principal função desempenhada                                       A maioria das pessoas que responderam ao questionário como indivíduos se identificaram como
+                                                                                                              autônomos/informais, representando 55,12% das respostas. Considerando todas as respostas dos
+                               Artista                                                    38,8%               indivíduos, a maioria deles ocupa prioritariamente a posição de criação, com 36,42%, e produção,
+        Produtor(a) artística/cultural                  15,26%                                                com 33,32%, em suas respectivas cadeias de atuação.
+           Gestor(a) (coordenação/
+                 gerência/direção)                11,44%
+
+                Professor/facilitador           10,54%
+                                                                                                                                       Participação da renda com o trabalho                                    Além disso, 23,2% dos respondentes
+Trabalho sozinho(a) e desempenho               7,19%                                                                                   cultural e criativo na renda familiar mensal
+         a maior parte das funções                                                                                                                                                                             têm renda entre as faixas de 2 a 3
+             Técnico-administrativo                    3,98%                                                                                                                                                   salários-mínimos, e 22,35%, entre
+                                                                                                               Entre 40% e 50%                                                  18,41%
+ Técnico-operacional (ex.: operador
+                                                      3,31%                                                                                                                                                    1 e 2 salários-mínimos. A principal
+de som, iluminador, maquiador etc.)                                                                                                                                            18,34%
+                                                                                                         Única renda da família                                                                                função desempenhada é a de
+           Consultor(a)/especialista                  3,23%
+                                                                                                                    Não compõe a
+  Pesquisador(a)/desenvolvedor(a)/                                                                                   renda familiar
+                                                                                                                                                                           16,67%                              artista, com 38,87%. Para 18,41%
+                                                  2,48%
+                   programador(a)
+                                                                                                               Entre 60% e 70%                               11,18%                                            dos respondentes, a renda que
+         Curadoria/direção artística              1,74%                                                                                                                                                        recebem com o trabalho no setores
+                                                                                                               Entre 80% e 90%                             9,6%
+                        Estagiário(a)            0,84%                                                                                                                                                         cultural e criativo compõe entre
+        Representante de território/                                                                           Entre 20% e 30%                        9,08%                                                    40% e 50% da renda familiar.
+             comunidade/coletivo                0,45%
+                                                                                                               Entre 10% e 20%                       8,65%                                                     É de ressaltar que 18,34% dos
+                       Guia turístico           0,38%
+                                                                                                                           Até 10%                  8,07%                                                      respondentes têm a receita oriunda
+                          Recreador             0,28%
+                                                                                                                                                                                                               dos setores cultural e criativo como
+                                         0,0     0,05     0,1   0,15   0,2   0,25   0,3    0,35   0,4                                 0,0          0,05           0,1          0,15        0,2                 única renda da família.
+
+
+                                                                                                                              8
+                                                                                                                                        Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+PERFIL DOS RESPONDENTES
+
+               Sexo/gênero                                                                          Cor/etnia
+                                                                                                                                                                                                              53,26% dos respondentes são do sexo feminino,
+                                                                                          Branca                                                                           63,41%                             seguidos de 45,58% do sexo masculino.
+  Feminino                                            53,26%
+                                                                                           Parda                      24,53%
+                                                                                                                                                                                                              De modo geral, a maioria dos respondentes
+ Masculino                                       45,58%                                    Preta     9,69%                                                                                                    declara ter a cor da pele branca (63,41%), seguido
+                                                                                         Amarela           1,53%                                                                                              da parda (24,53%) e da preta (9,69%).
+Não binário         1,16%
+                                                                                        Indígena          0,83%                                                                                               32,55% têm ensino superior completo, e 35,23%
+              0,0     0,1       0,2        0,3      0,4         0,5       0,6                      0,0         0,1          0,2           0,3          0,4          0,5          0,6         0,7              estão na faixa etária entre 30 e 39 anos.
+
+
+                                                           Escolaridade                                                                                                      Faixa etária
+
+                                 Superior completo                                                                          32,55%                               30 a 39                                                                                     35,23%
+        Pós-graduação lato sensu (especialização)                                                  22,19%
+                                                                                                                                                                 40 a 49                                                            25,89%
+                                Superior incompleto                                     16,77%
+                                                                                                                                                                 50 a 64                                              20,19%
+Pós-graduação stricto sensu (mestrado/doutorado)                                      15,37%
+                                      Médio completo                    9,39%                                                                                    25 a 29                   9,89%
+                                  Médio incompleto                    1,64%                                                                                                                                                    No painel de dados da pesquisa
+                                                                                                                                                                 18 a 24       5,04%
+                                                                                                                                                                                                                               (https://datastudio.google.com/s/s6Sg3j2aCGs),
+                             Fundamental completo                     1,23%
+                                                                                                                                                                                                                               é possível filtrar os resultados por pessoa (física e
+                                                                                                                                                             65 ou mais                   3,22%
+                            Fundamental incompleto                0,78%                                                                                                                                                        jurídica), setor, subsetor e unidade federativa.
+
+                                      Sem escolaridade          0,09%                                                                                            15 a 17           0,54%
+
+                                                          0,0          0,05     0,1        0,15          0,2         0,25         0,3           0,35                       0,0                        0,1                        0,2                       0,3                        0,4
+
+
+
+54,85% das pessoas do sexo feminino declararam ter                                       59,74% dos respondentes do sexo masculino declararam ter                                             Das pessoas que declararam ter cor de pele preta, 53,7%
+cor de pele branca. 35,85% têm escolaridade superior                                     cor de pele branca, e escolaridade entre o ensino superior                                           são do sexo masculino, e 43,29%, do sexo feminino.
+completa, e 25,48%, pós-graduação lato sensu. 33,87%                                     completo, com 28,92%, e o superior incompleto, com                                                   27,64% têm escolaridade superior completa e 25,29%,
+estão na faixa etária entre 30 e 39 anos.                                                20%. 36,68% estão na faixa etária entre 30 e 39 anos.                                                superior incompleta, com 36,88% na faixa etária entre
+                                                                                                                                                                                              30 e 39 anos.
+68,53% das participações do sexo feminino responderam                                    70,07% das respostas foram de indivíduos. 12,87% são
+como indivíduos. Atuam prioritariamente nos setores das                                  do estado do Amazonas, e 11,03%, do estado da Bahia.                                                 68,04% responderam como indivíduos. 25% atuam
+artes cênicas, com 26,03%, e das artes visuais e artesanato,                             Atuam majoritariamente nos setores da música, com                                                    no setor das artes cênicas, e 17,53% atuam no setor da
+com 19,64%. 13,87% estão no estado de São Paulo, e                                       29,49%, e das artes cênicas, com 21,03%.                                                             música. 27,32% estão no estado da Bahia, e 13,14% estão
+12,06%, no estado da Bahia.                                                                                                                                                                   no estado do Espírito Santo.
+
+
+                                                                                                                                        9
+                                                                                                               Pe squisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+I M PA C TO D A C O V I D - 19 S O B R E A R E C E I TA                                                                                      Os participantes responderam sobre os impactos do isolamento social
+                                                                                                                                             em suas receitas durante os meses de março a julho de 2020, e sobre suas
+                                                                                                                                             expectativas para o segundo semestre do ano. Entre os meses de março e
+Desempenho obtido                                                                                                                            abril, 41% dos respondentes perderam a totalidade de suas receitas, e entre
+                                                           48,88%                                                                            maio e julho, essa proporção aumentou para 48,88%. Em segundo lugar,
+41,06%                                                                                         Redução de 100%                               vêm aqueles que perderam mais da metade de suas receitas (23,72% entre
+                                                                                               Redução de mais de 50%                        março e abril, e 21,34% entre maio e julho). Somente 17,8% não tiveram
+                                                                                               Redução de menos de 50%                       alteração na receita durante março e abril, diminuindo para 10% nos meses
+                                                                                               Sem alteração                                 de maio a julho. As artes cênicas foram as mais afetadas, com a perda total de
+                                                                                               Aumento de menos de 50%                       receita para 63% dos respondentes. Nesse setor cultural, a maioria dos que
+                                                                                               Aumento de mais de 50%
+                                                                                                                                             atuam na área de circo (77%), em casas de espetáculo (73%) e no teatro
+                                                                                               Aumento de 100%
+         23,72%                                                                                                                              (70%) perderam a totalidade de suas receitas entre maio e julho. O Distrito
+                                                                                                                                             Federal foi onde mais se registraram perdas totais de receita entre maio e julho
+                                                                    21,34%
+                  17,83%                                                                                                                     (59,2%), enquanto o Mato Grosso do Sul registrou o menor percentual (16%).
+                           15,28%                                            16,49%                                                          Entre maio e julho, 45% dos participantes individuais informaram ter perdido a
+                                                                                                                                             totalidade de suas receitas. Entre os coletivos, esse percentual foi de 56,8%.
+                                                                                      10,15%
+                                                                                                                                             No segundo semestre, a maior parte da amostra ainda acredita que perderá
+                                                                                                                                             a totalidade da receita (38,6% entre agosto e outubro, e 30,6% entre
+                                    1,26%                                                        2,4%                                        novembro de 2020 e janeiro de 2021). Aqueles que acreditam em um
+                                            0,43% 0,42%                                                  0,54%         0,21%
+                                                                                                                                             aumento de menos de 50% em suas receitas oscilam positivamente de 7,7%,
+                  março – abril 2020                                           maio – julho 2020                                             nos meses de agosto a outubro de 2020, a 12%, entre novembro de 2020
+                                                                                                                                             e janeiro de 2021. Os que projetam um aumento de 100% na receita nesse
+                                                                                                                                             último período limitam-se a 1,8% da amostra. O setor das artes cênicas
+Desempenho esperado
+                                                                                                                                             registra o maior ceticismo com a recuperação. No período de novembro de
+38,69%                                                                                                                                       2020 a janeiro de 2021, 44% dos participantes desse setor espera perder
+                                                                                                                                             a totalidade de suas receitas. Por outro lado, o setor de design e serviços
+                                                           30,63%
+                                                                                                                                             criativos é o menos pessimista. No mesmo período, 41% dos participantes
+                                                                                                                                             esperam uma redução de menos de 50% em suas receitas, e 19% esperam
+                                                                    23,91%
+         24,44%
+                                                                             21,81%                                                          um aumento de menos de 50%. Os participantes do Piauí são os mais
+                  19,47%                                                                                                                     céticos: 58,7% esperam perder a totalidade de sua receita; e os participantes
+                                                                                                                                             do Mato Grosso do Sul são os menos pessimistas, com 37% esperando uma
+                                                                                       12%                                                   redução em sua receita inferior a 50%, e 13% apostando em um aumento
+                                                                                                                                             de mais de 50%. Entre os indivíduos, 29,7% dos participantes acreditam que
+                           7,86%    7,77%                                                        7,27%
+                                                                                                                                             perderão a totalidade da receita no período de novembro de 2020 a janeiro
+                                                                                                          2,52%        1,85%                 de 2021, enquanto que, entre os coletivos, esse percentual se eleva para 35%.
+                                            0,7%   1,06%
+
+
+              agosto – outubro 2020                                      novembro 2020 – janeiro 2021
+                                                                                                                                                   No painel de dados da pesquisa (https://datastudio.google.com/s/vilydhcTW6o), é possível
+                                                                                                                                                   filtrar os resultados por pessoa (física e jurídica), setor, subsetor e unidade federativa.
+
+                                                                                                               10
+                                                                                                                               Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+I M PA C TO D A C O V I D - 19 N A C A D E I A P R O D U T I VA
+                                                                                                                                                                       Redução de 100%
+                                                                                                                                                                       Redução de mais de 50%                              No painel de dados da pesquisa
+  Contratações de serviços de terceiros                                                                                                                                                                                    (https://datastudio.google.com/s/qKF0uaWVJgU),
+                                                                                                                                                                       Redução de menos de 50%
+                                                                                                                                                                                                                           é possível filtrar os resultados por pessoa (física e
+                                                                    49,16%                                                                                             Sem alteração                                       jurídica), setor, subsetor e unidade federativa.
+                                                                                                                                                                       Aumento de menos de 50%
+  43,16%                                                                                                                            45,26%                             Aumento de mais de 50%
+                                                                                                                                                                       Aumento de 100%
+
+
+
+
+                                                                                                                                                                                                             33,84%
+           23,55%
+                                                                             22,01%                                                           21,82%
+                                                                                                                                                                                                                        24,24%
+                    16,35%
+                             15,04%                                                    14,62%
+                                                                                                11,25%                                                   12,14%                                                                   14,82% 13,61%
+                                                                                                                                                                   9,75% 9,04%
+                                                                                                                                                                                                                                                       8,59%
+
+                                      1,2%                                                               2,14%                                                                                                                                                    2,8%       2,1%
+                                                 0,38% 0,34%                                                      0,52%    0,3%                                                          1,1%     0,9%
+
+
+                      março – abril 2020                                                 maio – julho 2020                                              agosto – outubro 2020                                                novembro 2020 – janeiro 2021
+
+
+
+
+                                             Serviços contratados durante a pandemia                                      As contratações de serviços de terceiros registraram redução de 100% em 43,16% da amostra no
+                                                                                                                          período de março a abril. Entre maio e julho, este percentual aumentou para 49,16%. Para o semestre
+                                                                                                                          seguinte, a maioria dos participantes continua a projetar uma redução de 100%, mas em menor
+    Não contratei nenhum serviço novo                                                           27,68%
+                                                                                                                          proporção. Entre novembro de 2020 e janeiro de 2021, são 33% os que esperam reduzir em 100% a
+                 Publicidade na internet                                      19,01%
+                                                                                                                          contratação de serviços de terceiros. Nesse mesmo período, 14,8% esperam que as contratações de
+Ferramentas online para trabalho remoto                       12,61%                                                      prestadores de serviços aumentem menos de 50%. O setor de festivais e feiras foi o que mais reduziu
+      Serviço de internet de banda larga           6,94%                                                                  na totalidade a contratação de serviços de terceiros (67%). O setor de design e serviços criativos
+                                Delivery          6,42%                                                                   foi o que menos reduziu as contratações de terceiros (28% reduziram menos da metade). Sobre as
+              Serviço de internet móvel          5,67%
+                                                                                                                          expectativas para o segundo semestre de 2020 e início de 2021, merece destaque a projeção do setor
+                                                                                                                          de tecnologias de informação e comunicação (TIC), que prevê um aumento de menos de 50%
+                    Serviço de streaming                    4,64%
+                                                                                                                          como cenário preponderante entre os meses de agosto e outubro de 2020 (30,7%) e novembro de
+     Contratação/construção de website                   3,98%                                                            2020 e janeiro de 2021 (37%).
+                  Serviço de consultoria                 3,82%
+                                                                                                                          A maioria dos participantes (27,68%) não contratou nenhum serviço novo durante a pandemia.
+                 Serviço de e-commerce               2,5%
+                                                                                                                          Entre os serviços contratados, destacam-se a publicidade na internet (19%), as ferramentas online
+                                           0,0       0,05        0,1         0,15       0,2      0,25       0,3           para trabalho remoto (12,6%) e o serviço de internet de banda larga (6,94%).
+
+
+
+
+                                                                                                                               11
+                                                                                                                                                           Pe squisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+     COMPRAS, COLABORADORES E HORAS TRABALHADAS
+                                                                                                                                                                                                 Redução de 100%
+                               Compras                                                                            Colaboradores                                                                  Redução de mais de 50%
+                                                                                                                                                                                                 Redução de menos de 50%                          No painel de dados da pesquisa
+                                                                         44,78%                                                                                   44,08%                                                                          (https://datastudio.google.com/s/lLEudGyutj8),
+                                                                                                                                                                                                 Sem alteração
+                                                                                                                                                                                                                                                  é possível filtrar os resultados por pessoa (física e
+                                               23,08%                                                                             20,74%                                                         Aumento de menos de 50%
+março – abril 2020
+
+
+
+
+                                                                                   março – abril 2020
+                                                                                                                                                                                                                                                  jurídica), setor, subsetor e unidade federativa.
+                                          16,59%                                                                                       22,51%                                                    Aumento de mais de 50%
+                                   11,16%                                                                             10,76%                                                                     Aumento de 100%
+                                   3,28%                                                                             1,37%
+
+                                 0,93%                                                                              0,49%                                                                As compras registraram uma redução total em 44,78% da amostra no
+                                0,18%                                                                              0,05%
+                                                                                                                                                                                         período de março a abril. Entre maio e julho, esse percentual elevou-se
+                                                                                                                                                                                         para 46,3%. No semestre seguinte, a maioria dos participantes continua a
+                                                                           46,3%                                                                                42,68%
+                                                                                                                                                                                         projetar uma redução de 100%, mas em menor proporção. Entre novembro
+                                                                                                                                                                                         de 2020 e janeiro de 2021, são 28,7% os que esperam reduzir em 100% a
+                                            20,08%                                                                                      24,46%
+                                                                                                                                                                                         compra de insumos para suas atividades. Nesse mesmo período, 11,9%
+maio – julho 2020
+
+
+
+
+                                                                                   maio – julho 2020
+                                            19,78%                                                                                    21,44%
+                                                                                                                                                                                         esperam aumentar as compras em menos de 50%.
+                                 9,75%                                                                              8,41%
+                                   3,04%                                                                             1,64%                                                               No período de março a abril, 44% das organizações demitiram a totalidade
+                                0,64%                                                                               0,82%
+                                                                                                                                                                                         dos colaboradores. Entre maio e julho, esse percentual oscilou para
+                                                                                                                                                                                         42,6%. No semestre seguinte, a maioria das organizações continua a
+                                0,41%                                                                              0,55%
+                                                                                                                                                                                         projetar a necessidade de demitir todo o seu pessoal. Entre novembro de
+                                                                                                                                                                                         2020 e janeiro de 2021, são 32,19% os que esperam reduzir em 100% o
+                                                                35,97%                                                                                32,19%
+                                                                                                                                                                                         seu pessoal. Nesse mesmo período, apenas 13,19% esperam aumentar as
+agosto – outubro 2020
+
+
+
+
+                                                                                   agosto – outubro 2020
+
+
+
+
+                                                   23,91%                                                                                         28,98%
+                                                                                                                                                                                         contratações de colaboradores em menos de 50%.
+                                            20,95%                                                                                    20,95%
+                                                                                                                                                                                         Antes da pandemia, 29% da amostra trabalhava ou estava em funcionamento
+                                 9,58%                                                                              8,22%
+                                                                                                                                                                                         (no caso das organizações) entre 15 e 39 horas semanais, seguidos de 25,9%
+                               7,58%                                                                                7,88%
+                                                                                                                                                                                         que dedicavam entre 40 e 44 horas às suas atividades. 22% da amostra afirmou
+                                 1,49%                                                                              0,96%
+                                                                                                                                                                                         dedicar até 14 horas semanais, e a mesma proporção dedicava 45 horas ou mais
+                                0,52%                                                                               0,83%
+                                                                                                                                                                                         antes da pandemia. Durante a pandemia, todas essas faixas sofreram redução.
+novembro 2020 – janeiro 2021
+
+
+
+
+                                                                                   novembro 2020 – janeiro 2021
+
+
+
+
+                                                       28,73%                                                                                   26,38%
+                                                                                                                                                                                         Horas semanais de trabalho ou funcionamento
+                                                   23,85%                                                                                       25,73%
+
+                                              21,63%                                                                                     21,35%                                                15 a 39 horas                                                                 29,98%
+
+                                   11,96%                                                                                    13,19%
+                                                                                                                                                                                               40 a 44 horas                                                         25,9%
+                                 10,29%                                                                              9,04%
+                                                                                                                                                                                                Até 14 horas                                              22,09%
+                                   2,57%                                                                              2,83%
+
+                                 0,97%                                                                               1,48%                                                                45 horas ou mais                                                22,03%
+
+
+
+
+                                                                                                                                                           12
+                                                                                                            Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+VENDA PELA INTERNE T, DISPONIBILIDADE E PERCEPÇÃO                                                                                            ADESÃO A MEDIDAS DE MITIGAÇÃO
+DO CUSTO DO SER VIÇO DE INTERNE T NA REGIÃO                                                                                                  DOS EFEITOS DA PANDEMIA
+
+Indivíduo: o serviço/produto cultural                  Qual a disponibilidade de serviços de internet                                        Entre março e julho, 59,29% das organizações (coletivos) não aderiram
+pode ser oferecido por meio digital?                   e a qualidade do acesso na sua região?                                                a nenhuma medida de mitigação dos efeitos da pandemia. Por parte
+0,8
+                                                                        8,2%                                                                 dos trabalhadores/indivíduos, entre março e julho, 64,95% não aderiram
+                                                                                                                                             a nenhuma medida de mitigação dos efeitos da pandemia.
+0,6
+         60,76%                                                                                                                              Para as organizações, a medidas que teve mais adesão foi a redução
+0,4                                                                                                                                          de carga horária, abrangendo 15,56% dos respondentes, seguida da
+0,2
+                                                               29,2%                        62,6%                                            redução salarial, com 12,89%.
+                           24,86%
+                                             14,38%                                                                                          Para os indivíduos, 13,37% dos respondentes aderiram/tiveram uma
+0,0
+          Pode,              Pode,          Não pode                                                                                         redução salarial, e 12,44% tiveram suas cargas horárias reduzidas.
+       parcialmente       totalmente
+
+
+                                                                                                                                                                 Organização (coletivo)
+                                                               Há oferta de serviços com qualidade
+Como classificaria o custo dos serviços
+de acesso à internet em sua região?                            Há oferta de serviço, mas sem qualidade                                               Não aderiu a nenhuma
+                                                                                                                                                                                                                         59,29%
+                                                                                                                                                           dessas medidas
+                       3,2%                                    Não há oferta de serviços (acesso
+                                                               irregular ou disponível, apenas, em locais
+                                                               ou áreas específicas do município)                                                 Redução de carga horária                            15,56%
+
+
+                                                                                                                                                             Redução salarial                      12,89%
+
+          47,4%                      49,4%
+                                                       Coletivo: o serviço/produto cultural
+                                                                                                                                                     Suspensão do contrato
+                                                       pode ser oferecido por meio digital?                                                              de trabalho (BEM)                       10,44%
+
+
+                                                                                                                                                              Programa de
+                                                       0,8                                                                                                                                1,82%
+                                                                                                                                                        demissão voluntária
+                                                       0,6     65,97%
+                                                                                                                                                              Trabalhador/a (indivíduo)
+      Alto – os custos são muito elevados e            0,4
+
+      comprometem o acesso aos serviços disponíveis                                                                                                Não aderiu a nenhuma
+                                                       0,2
+                                                                                                                                                         dessas medidas                                                  64,95%
+      Médio ou justo – os custos são acessíveis e é                             18,97%
+                                                                                                  15,06%
+      possível custeá-los                              0,0
+                                                                                                                                                Redução de carga horária                          13,37%
+      Baixo – é possível contratar os serviços                  Pode,             Pode,          Não pode
+                                                             parcialmente      totalmente
+      oferecidos sem preocupação com os custos
+                                                                                                                                                           Redução salarial                      12,44%
+
+Apesar de 85,62% dos indivíduos e 84,94% dos coletivos poderem oferecer total ou parcialmente                                                      Suspensão do contrato
+                                                                                                                                                                                             8,22%
+                                                                                                                                                       de trabalho (BEM)
+seus serviços/produtos culturais por meio digital, a existência de uma oferta de qualidade de
+internet é percebida por 62,6% dos indivíduos e coletivos. Por outro lado, o custo dos serviços para                                                        Programa de
+                                                                                                                                                                                       1,02%
+                                                                                                                                                      demissão voluntária
+49,4% dos indivíduos e coletivos é considerado alto.
+
+
+                                                                                                            13
+                                                                                                                          Pe squisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+APOIOS E ESTRATÉGIAS DE LIQUIDEZ (COLE TIVO)
+                         Março – abril                                             Maio – julho                                                                                                                                    Principal finalidade
+                Nenhuma dessas
+                                                21,23%
+                                                                 Auxílio emergencial de
+                                                                                                           26,58%                 Entre março e abril, 21,23% dos coletivos não                                       Manutenção da sede/
+                 formas de apoio                                  R$ 600,00 (se for MEI)                                                                                                                                                                            29,8%
+                                                                                                                                  receberam nenhuma das formas de apoio                                             dependências/escritório
+         Auxílio emergencial de                             Editais criados em apoio ao
+                                                 19%                                              18,25%
+          R$ 600,00 (se for MEI)                         meio artístico cultural e criativo                                       descritas pela questão.
+    Editais criados em apoio ao                                         Nenhuma dessas                                                                                                                                      Não recebi apoio                     27,85%
+ meio artístico cultural e criativo       16,12%                         formas de apoio          17,37%                          Entre maio e julho, 26,58% dos coletivos
+     Adiamento/parcelamento                                                                                                       (incluindo MEIs) obtiveram o auxílio
+                   de impostos        9,39%                                      Doações             7,51%                                                                                                             Pagamento de dívidas/
+Disponibilização de plataformas                          Disponibilização de plataformas
+                                                                                                                                  emergencial de R$ 600,00.                                                                   empréstimos
+                                                                                                                                                                                                                                                      16,78%
+
+       gratuitas para exibições       9,04%                     gratuitas para exibições           7,29%
+                do seu trabalho                                          do seu trabalho                                          Para os 29,8% que obtiveram algum tipo de
+                                                                                                                                                                                                                                Investimento                   10,75%
+                         Doações               7,49%
+                                                              Adiamento/parcelamento
+                                                                                                  5,78%                           apoio, a principal finalidade do recurso foi própria                                           na produção
+                                                                            de impostos
+                                                                                                                                  manutenção da sede/dependências/escritórios.
+         Empréstimos bancários                6,03%              Empréstimos bancários            4,18%                                                                                                                           Pagamento
+                                                                                                                                  É de ressaltar que 27,85% dos respondentes não                                             de fornecedores
+                                                                                                                                                                                                                                                             8,79%
+               Renegociação de            4,74%                        Renegociação de           4,04%                            receberam nenhum apoio entre março e julho.
+              dívidas nos bancos                                      dívidas nos bancos
+                                                                                                                                                                                                                                  Pagamento
+   Injeção de liquidez direta por                          Injeção de liquidez direta por                                         A segunda principal finalidade daqueles que                                                    de impostos
+                                                                                                                                                                                                                                                          5,37%
+                                         3,03%                                                  2,31%
+    meio de liquidação de ativos                            meio de liquidação de ativos
+                                                                                                                                  obtiveram apoio foi o pagamento de dívidas/
+         Venda antecipada de
+   produtos/serviços (vouchers)
+                                        2,17%                       Seguro-desemprego           1,38%                             empréstimos contraídos antes ou durante a                                                     Investimento         0,65%
+                                                                                                                                                                                                                               na distribuição
+                                                                                                                                  pandemia, com 16,78%.
+
+
+APOIOS E ESTRATÉGIAS DE LIQUIDEZ (INDIVÍDUO)                                                                                      Entre março e abril, 23,02% dos indivíduos não receberam nenhuma das formas de
+                                                                                                                                  apoio descritas no questionário. Entre maio e julho, 27,89% dos indivíduos obtiveram
+                        Março – abril                                                 Maio – julho                                o auxílio emergencial de R$ 600,00. É de ressaltar que, entre maio e julho, 18,7% dos
+                                                                                                                                  indivíduos ainda não haviam recebido o auxílio emergencial de R$ 600,00. A principal
+             Auxílio emergencial                                        Auxílio emergencial
+                    de R$ 600,00                23,02%                         de R$ 600,00                      27,89%           finalidade do recurso para os 62,76% que obtiveram algum tipo de apoio foi o sustento
+               Nenhuma dessas
+                                                21,69%
+                                                                           Nenhuma dessas
+                                                                                                         18,7%                    próprio/despesas domésticas.
+                formas de apoio                                             formas de apoio
+   Editais criados em apoio ao                                 Editais criados em apoio ao
+meio artístico cultural e criativo       15,77%            meio artístico cultural e criativo           17,76%                                                                Principal finalidade
+                                                           Disponibilização de plataformas
+                         Doações                8,78%              gratuitas para exibições              7,36%                                                      Sustento próprio/
+                                                                            do seu trabalho                                                                                                                                                      62,76%
+Disponibilização de plataformas                                                                                                                                  despesas domésticas
+       gratuitas para exibições                7,85%                                Doações             6,85%
+                do seu trabalho                                                                                                                                      Não recebi apoio                            15,17%
+     Adiamento/parcelamento                                      Adiamento/parcelamento
+                   de impostos                6,13%                         de impostos                 6,17%
+                                                                                                                                                               Pagamento de dívidas/
+                                                                                                                                                                                                               13,1%
+              Renegociação de
+                                          5,28%                     Empréstimos bancários          3,9%
+                                                                                                                                                                      empréstimos
+             dívidas nos bancos
+                                                                                                                                                                          Investimento                    7,59%
+         Empréstimos bancários                                            Renegociação de                                                                                  na produção
+                                          4,73%                          dívidas nos bancos        3,72%
+
+  Injeção de liquidez direta por                              Injeção de liquidez direta por                                                                               Pagamento              0,69%
+   meio de liquidação de ativos         2,15%                  meio de liquidação de ativos       2,27%                                                                   de impostos
+
+           Seguro-desemprego                                        Venda antecipada de                                                                                    Pagamento
+                                       1,18%                  produtos/serviços (vouchers)       1,28%                                                                                            0,69%
+                                                                                                                                                                      de fornecedores
+
+
+
+
+                                                                                                                          14
+                                                                                                                   Pe sq uisa de p e rce p ção dos i m pa c tos d a CO V I D -19 n os s e tore s c u lt u ra l e c r i a t i vo d o B ra s i l • R e su m o exe c u t ivo
+
+
+
+N E C E S S I D A D E S M E N C I O N A D A S P E LO S
+PA R T I C I PA N T E S PA R A A S A Í D A D A C R I S E
+
+                                           Acesso a informações                                                                                               Além de auxílio financeiro, entre março e julho,
+                                                                                                                                    18,69%
+                                            direcionada ao setor                                                                                              18,69% dos respondentes informaram que gostariam
+                                                Participação em                                                                17,53%                         de obter acesso a informações direcionadas
+                                               redes/networking
+                                                                                                                                                              ao setor. A segunda necessidade apontada foi a
+                            Acesso a informações sobre como se
+                               portar no processo de reabertura
+                                                                                                                           16,71%                             participação em redes/networking, com 17,53%.
+                                                                                                                                                              A terceira necessidade foi a de acesso a informações
+                                                     Consultoria                                             13,88%
+                                                                                                                                                              sobre o que fazer no processo de reabertura. É de
+                                              Apoio psicológico                                              13,73%                                           ressaltar que o apoio psicológico obteve 13,73% das
+                                                                                                                                                              respostas, quase igual aos 13,88% dos que responderam
+                                                   Treinamento                                            12,96%                                              haver necessidade de consultoria e os 12,96% que
+                                                                                                                                                              necessitam de treinamento.
+                                                          Outro                  6,49%
+
+
+
+
+REFERÊNCIAS:
+
+ADDUCI, C. C.; NOVAIS, L. F. A economia criativa no estado de São              DATA SIM. Impactos da Covid-19 no mercado de música do                                   OLIVEIRA, T. M. V. Amostragem não probabilística: adequação de
+Paulo (2012-2016): definição e análise. Ensaio e Conjuntura. São               Brasil. Disponível em: <https://datasim.info/pesquisas/acesse-                           situações para uso e limitações de amostras por conveniência,
+Paulo: Fundação Seade, mar. 2019. Disponível em <https://www.                  relatoriosobre-impactos-do-coronavirus-no-mercado-brasileiro-                            julgamento e quotas. In: PWC BRASIL. 18ª Pesquisa Global de
+seade.gov.br/produtos/midia/2019/03/Ensaio_conjuntura_2019-1.                  demusica/>. Acesso em: 10 abr. 2020.                                                     Entretenimento e Mídia 2017-2021. Brasil, 2017. Disponível em:
+pdf>. Acesso em: 02 abr. 2020.                                                                                                                                          <https://tinyurl.com/y6ckbrhr>. Acesso em: 11 maio 2020.
+                                                                               FLEMING T; FRANCO, P. A. I.; GREGORY T. A economia criativa brasileira:
+AMARAL, R. C. Sob o jugo da musa: profissionalização e distinção               análise da situação e avaliação do Programa de Empreendedorismo                          UNITED KINGDOM. Creative and Cultural Sector Coronavirus Impact
+entre os produtores e gestores culturais no Brasil. 2019. Tese                 Social e Criativo financiado pelo Newton Fund, 2018. Disponível                          Study: Understanding the impact of the crisis on our sector
+(Doutorado) – Faculdade de Filosofia, Letras e Ciências Humanas,               em: <https://www.britishcouncil.org.br/sites/default/files/brasil_                       together. Disponível em: <https://www.ccscoronaimpactstudy.
+Universidade de São Paulo, São Paulo. Disponível em: <https://                 economia_criativa_online2.pdf>. Acesso em: 02 fev. 2020.                                 co.uk/> Acesso em: 05 maio 2020.
+www.teses.usp.br/teses/disponiveis/8/8132/tde-19022020-174708/
+pt-br.php>. Acesso em: 01 mar. 2020.                                           FIRJAN. Mapeamento da indústria criativa no Brasil. Rio de Janeiro, 2019.                ZENDRON, P.; NYKO, D. Economia criativa. In: PUGA, F. P.; CASTRO,
+                                                                               Disponível em: <https://www.firjan.com.br/EconomiaCriativa/downloads/                    L. B. Visão 2035: Brasil, país desenvolvido: agendas setoriais para o
+BUSSAB, W. O.; MORETTIN, P. A. Estatística básica. São Paulo: Saraiva, 2002.   MapeamentoIndustriaCriativa.pdf>. Acesso em: 10 maio 2020.                               desenvolvimento. Rio de Janeiro: BNDES, 2018. Disponível em: <https://
+                                                                                                                                                                        web.bndes.gov.br/bib/jspui/bitstream/1408/16280/1/PRCapLiv214176_
+CANEDO, D.; PAIVA NETO, C. B. (Coord.). Pesquisa Impactos da                   GIVEN, L. M. Convenience sample. In: SAGE. The SAGE Encyclopedia of                      Economia%20criativa_compl_P.pdf>. Acesso em: 15 maio 2020.
+Covid-19 na Economia Criativa: relatório final de pesquisa. Salvador:          Qualitative Research Methods. Thousand Oaks, CA, 2008.
+Observatório da Economia Criativa; Santo Amaro: UFRB, 2020.
+                                                                               IBGE. Pesquisa Nacional por Amostra de Domicílios Contínua, 2018:
+                                                                               consolidado de primeiras entrevistas. Rio de Janeiro, 2018.
+
+
+
+
+                                                                                                                   15
+arca funcione
+ de cores                    Fórum                  Fórum
+s estudos,                   Nacional               Nacional
+a                            dos Secretários e
+                             Dirigentes Estaduais
+                                                    dos Secretários e
+                                                    Dirigentes Estaduais
+
+                             de Cultura             de Cultura
+                Pa rce i ro s :
+
+
+                             Fórum                  Fórum
+                             Nacional               Nacional
+                             dos Secretários e      dos Secretários e
+                             Dirigentes Estaduais   Dirigentes Estaduais
+
+                             de Cultura             de Cultura
+
+
+
+                Ap o i o :
+
+
+
+
+                                                                                                                     Secretaria de Estado da Cultura
+
+
+
+
+                O rganizado res:
+
+
+                                                                           Pedro Affonso Ivo Franco
+                                                                           Consultor Internacional para as
+                                                                           Artes, Cultura e Economia Criativa
+
+
+
+
+                                                                                                                16
+

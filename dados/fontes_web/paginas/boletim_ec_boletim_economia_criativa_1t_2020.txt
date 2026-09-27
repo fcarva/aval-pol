@@ -1,0 +1,759 @@
+# Fonte: https://secult.es.gov.br/media/002/Boletim_Economia_Criativa_1T_2020.pdf
+# Coletado (UTC): 2026-09-27T15:39:26Z
+# sha256 do original: fbfad58ba7d86b5d186d7ea2f9d498e0d84c79109523191ed8a56e5e183db9eb
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:39:25 GMT
+# PDF CreationDate: Wed May 27 19:33:54 2020 UTC
+# PDF ModDate: Wed May 27 19:33:54 2020 UTC
+
+ECONOMIA CRIATIVA
+      PNAD CONTÍNUA
+       1º trimestre de 2020
+
+
+
+
+  Economia Criativa no Espírito Santo – 1º trimestre de 2020 1
+                        Economia Criativa – PNAD Contínua
+                                         1º trimestre de 2020
+
+      No 1º trimestre de 2020, o número de pessoas ocupadas em atividades criativas no Espírito
+      Santo foi estimado em 179,1 mil pessoas, representando 9,4% do total de pessoas
+      ocupadas e aumento de 5,9% em relação ao 1° trimestre de 2019.
+
+
+Apresentação
+As atividades econômicas consideradas criativas abrangem “aquelas manifestações humanas
+ligadas à arte em suas diferentes modalidades, seja do ponto de vista da criação artística em
+si, como pintura, escultura e artes cênicas, seja na forma de atividades criativas com viés de
+mercado, como design e publicidade”. Atualmente, a Economia Criativa é considerada como
+importante vetor de desenvolvimento em nível mundial, com grande potencial de geração de
+renda, uma vez que, “o conceito abarca ideias inteiramente novas, desenvolvidas no contexto
+das recentes e rápidas transformações da economia global e sintetizadas pela intensificação
+da importância do conhecimento como recurso do sistema de produção. Nesse âmbito, são as
+ideias, ancoradas na utilização das novas tecnologias, que ganham destaque como geradoras
+de riquezas e de transformações sociais” (MORANDI, 2016, p.9).
+
+Este documento tem como objetivo acompanhar sistematicamente o desempenho das
+principais variáveis do mercado de trabalho deste segmento no Espírito Santo, comparando
+com os demais entes federativos. A base de dados utilizada é a Pesquisa Nacional de Amostra
+por Domicílios - Contínua (PNAD-C) divulgada trimestralmente pelo Instituto Brasileiro de
+Geografia e Estatística (IBGE). Os dados são trabalhados pelo Instituto Jones dos Santos Neves
+(IJSN) levando em consideração a metodologia apresentada no texto para discussão
+“Economia Criativa no Espírito Santo”1.
+
+
+
+
+1
+  O documento completo está disponível no link: http://www.ijsn.es.gov.br/artigos/4675-td-57-economia-criativa-no-
+espirito-santo.
+
+                                      Economia Criativa no Espírito Santo – 1º trimestre de 2020 2
+Resultados gerais
+No 1º trimestre de 2020, 179,1 mil pessoas estavam ocupadas em atividades denominadas
+criativas no Espírito Santo, número inferior em relação ao trimestre anterior que alcançou 175
+mil pessoas. Na comparação com o mesmo trimestre de 2019, houve crescimento de +5,9%.
+Na comparação com o trimestre anterior, o crescimento foi de 2,3%. Considerando todas as
+atividades econômicas do Espírito Santo, o número de pessoas ocupadas registrou queda de
+-1,7% neste período. Já o rendimento real recebido nas atividades criativas, considerado
+apenas o trabalho principal, apresentou expansão de +4,3% em relação ao trimestre anterior
+e -0,8% em relação ao mesmo trimestre do ano anterior, alcançando o valor de R$ 1.889,27
+no 1º trimestre de 2020.
+
+Para a região Sudeste, o número de pessoas ocupadas no setor criativo registrou retração de
+-7,4% em relação ao trimestre imediatamente anterior, enquanto o rendimento real do
+trabalho principal apresentou aumento de +8,2% nessa comparação. No Brasil, na mesma base
+de comparação, houve queda de -5,1% no número de pessoas ocupadas no setor criativo e
+aumento no rendimento real do trabalho principal (+4,9%). A comparação entre o 1º trimestre
+de 2020 e o mesmo trimestre de 2019 revela redução no número de pessoas ocupadas nos
+setores criativos, que apresentou variações de -2,9% e -1,1% para o Sudeste e Brasil,
+respectivamente (Tabela 1).
+
+
+
+
+                               Economia Criativa no Espírito Santo – 1º trimestre de 2020 3
+Tabela 1 – Principais resultados do segmento criativo e não criativo: Espírito Santo, Sudeste e
+Brasil – 1º trimestre de 2020.
+                                                                                                           Variações %
+                                                               2020:1          2019:4       2019:1      2020:1/ 2020:1/
+                                                                                                        2019:4    2019:1
+                                                         Espírito Santo
+  Pessoas ocupadas                                             1.898.357       1.931.697    1.877.890      -1,7      1,1
+   Criativa                                                      179.073         175.050      169.048       2,3      5,9
+   Não Criativa                                                1.719.283       1.756.648    1.708.842      -2,1      0,6
+  Rendimento médio real - trabalho principal (R$)               2.132,78        2.121,25     2.135,83       0,5     -0,1
+   Criativa                                                     1.889,27        1.810,67     1.904,92       4,3     -0,8
+   Não Criativa                                                 2.158,58        2.152,81     2.158,43       0,3      0,0
+  Massa de rendimentos real (R$ milhões)                        3.884,86        3.953,62     3.859,82      -1,7      0,6
+   Criativa                                                       329,63          311,33       306,94       5,9      7,4
+   Não Criativa                                                 3.555,22        3.642,28     3.552,88      -2,4      0,1
+                                                            Sudeste
+  Pessoas ocupadas                                           41.550.370       42.605.382   41.362.442      -2,5      0,5
+   Criativa                                                   4.225.921        4.565.807    4.352.661      -7,4     -2,9
+   Não Criativa                                              37.324.449       38.039.576   37.009.781      -1,9      0,9
+  Rendimento médio real - trabalho principal (R$)               2.684,79        2.618,89     2.617,35       2,5      2,6
+   Criativa                                                     2.882,28        2.664,63     2.644,39       8,2      9,0
+   Não Criativa                                                 2.662,51        2.613,43     2.614,20       1,9      1,8
+  Massa de rendimentos real (R$ milhões)                     110.191,44       110.030,62   106.644,80       0,1      3,3
+   Criativa                                                   11.993,49        11.930,38    11.246,20       0,5      6,6
+   Não Criativa                                                98.197,95       98.100,23    95.398,59       0,1      2,9
+                                                             Brasil
+  Pessoas ocupadas                                           92.223.396       94.552.004   91.863.045      -2,5      0,4
+   Criativa                                                   8.508.425        8.964.767    8.604.676      -5,1     -1,1
+   Não Criativa                                              83.714.970       85.587.237   83.258.369      -2,2      0,5
+  Rendimento médio real - trabalho principal (R$)               2.323,02        2.291,34     2.301,90       1,4      0,9
+   Criativa                                                     2.319,59        2.211,38     2.227,35       4,9      4,1
+   Não Criativa                                                 2.323,37        2.299,66     2.309,55       1,0      0,6
+  Massa de rendimentos real (R$ milhões)                     209.532,03       211.729,95   206.247,93      -1,0      1,6
+   Criativa                                                   19.232,39        19.253,95    18.578,56      -0,1      3,5
+   Não Criativa                                              190.299,64       192.476,00   187.669,36      -1,1      1,4
+ Fonte: Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua - IBGE.
+ Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+Pessoas ocupadas
+Conforme citado anteriormente, no Espírito Santo cerca de 179,1 mil pessoas estavam
+ocupadas em atividades criativas, o que equivale a 9,4% do total de pessoas ocupadas no
+estado durante o 1º trimestre de 2020 (Tabela 1). Em relação ao ranking de Unidades da
+Federação, o estado se encontra na 5ª posição entre as UF’s com maior participação da
+economia criativa, mantendo-se na mesma colocação em relação ao trimestre anterior, e a
+nível nacional encontra-se liderado pelo estado do Rio de Janeiro, com 10,9% das pessoas
+
+                                           Economia Criativa no Espírito Santo – 1º trimestre de 2020 4
+neste segmento, ficando à frente do São Paulo, com 10,8% do total de pessoas ocupadas em
+atividades criativas (Gráfico 1).
+
+A evolução da participação da economia criativa no total de pessoas ocupadas no Espírito
+Santo, na região Sudeste e no Brasil demonstrou que a região Sudeste, historicamente, possui
+uma parcela maior de pessoas no segmento, puxados pelos estados de São Paulo e Rio de
+Janeiro. O Espírito Santo, no 1º trimestre de 2020, ultrapassou a participação registrada pela
+média brasileira: com 9,4% no caso capixaba contra 9,2% no caso nacional (Gráfico 2).
+
+Das pessoas que trabalham em segmentos criativos no Espírito Santo, 88,2% ou são
+trabalhadores do setor privado (48,0%) ou são conta própria (40,2%). Especificamente, no caso
+das pessoas que trabalham do setor privado, é possível notar uma participação menor dos
+ocupados nesta condição em contraposição às demais atividades, classificadas como não
+criativas (47,3%). Neste trimestre, também continua havendo uma participação maior de
+empregadores no segmento criativo em relação ao não criativo, registrando uma participação
+de 8,2% contra 4,4%, respectivamente (Tabela 2).
+
+Em relação ao nível de escolaridade, a maior parcela das pessoas que trabalharam nos
+segmentos da economia criativa, no 1º trimestre de 2020, possuía o ensino médio completo
+(37,3%). As pessoas com ensino superior, por sua vez, apareceram como terceiro principal
+grupo, com uma participação de 17,6% do total, reduzindo sua participação em relação ao
+trimestre anterior quando atingiu 17,9%. Destaca-se também o aumento da participação
+relativa de pessoas com ensino fundamental incompleto na economia criativa, com 22,4% do
+total (Tabela 2).
+
+A distribuição etária das pessoas ocupadas nas atividades criativas apresentou, no 1º trimestre
+de 2020, uma estrutura semelhante aos demais segmentos da economia em que a maior
+parcela de ocupados têm entre 30 e 39 anos (23,3%). Destaca-se a participação de dois grupos,
+dos jovens das faixas etárias de 18 a 24 anos e de 25 a 29 anos de idade, na Economia Criativa.
+Estes grupos representaram, respectivamente, 14,9% e 11,9% do total de pessoas ocupadas
+no setor, contra 11,5% e 9,9% de participação nos demais segmentos da economia (Tabela 2).
+
+
+
+
+                                    Economia Criativa no Espírito Santo – 1º trimestre de 2020 5
+A participação dos jovens na economia criativa estadual apresentou resultado abaixo da
+observada em nível nacional. Vale ressaltar que a participação de jovens ocupados nos
+segmentos criativos apresenta comportamento bastante volátil no Espírito Santo,
+possivelmente, por conta do tamanho reduzido da amostra para esta faixa etária.
+Especificamente para o 1º trimestre de 2020, a participação dos jovens na Economia Criativa
+atingiu o percentual de 23,3%, resultado idêntico à média da região Sudeste (23,3%) e valor
+inferior à média brasileira (24,3%) (Gráfico 3).
+
+Em relação ao grau de informalidade dos ocupados na economia criativa, os dados mostram
+crescimento neste período, tanto no Espírito Santo, como na região Sudeste e no Brasil. Neste
+sentido, no primeiro trimestre de 2020, o grau de informalidade do país no setor, passou de
+52,0% para 53,0%; na região Sudeste o grau de informalidade atingiu 60,7% no primeiro
+trimestre de 2020. No Espírito Santo, no primeiro trimestre de 2020 comparado ao quarto
+trimestre de 2019, houve um aumento de +3,2 p.p, atingindo 56,0% de informalidade (Gráfico
+4).
+
+Rendimento médio real
+O indicador de rendimento médio real leva em consideração o rendimento dos ocupados que
+possuem como trabalho principal uma das atividades pertencentes à Economia Criativa. Além
+disso, os valores apresentados levam em consideração o efeito inflacionário sobre o poder de
+compra das pessoas, ou seja, acompanham a evolução do ganho real dos rendimentos. O
+índice utilizado para deflacionar os valores é o Índice Nacional de Preços ao Consumidor -
+Amplo (IPCA)2.
+
+No 1º trimestre de 2020, o rendimento dos ocupados nos setores da economia criativa do
+Espírito Santo foi de R$ 1.889,27. Com este valor, o estado ficou na 8ª posição do ranking de
+rendimentos entre as Unidades da Federação (UFs), mantendo sua colocação em relação ao
+trimestre anterior. O rendimento médio do estado situou-se abaixo da média brasileira
+(R$2.319,59), sendo que apenas cinco UFs ultrapassaram a média nacional neste trimestre, a
+
+
+
+2
+  Este procedimento é melhor detalhado em
+ftp://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Notas_metodo
+logicas/notas_metodologicas.pdf
+
+                                    Economia Criativa no Espírito Santo – 1º trimestre de 2020 6
+saber: São Paulo, Distrito Federal, Santa Catarina, Rio de Janeiro e Rio Grande do Sul (Gráfico
+5).
+
+Na série iniciada no segundo trimestre de 2016, o rendimento médio real, no Espírito Santo,
+variou entre R$ 1.988,76 e R$ 2.183,51. Durante todo o período analisado, o rendimento
+médio real dos ocupados em setores da economia criativa ficou abaixo do verificado no nível
+regional e nacional. Em âmbito regional, a variação ficou entre R$ 2.547,49 e R$ 2.684,79 e em
+nível nacional entre R$ 2.198,65 e R$ 2.323,02 (Gráfico 6).
+
+
+Massa de rendimentos real
+A massa de rendimentos representa a soma de todos os rendimentos dos ocupados em uma
+determinada localidade em um dado período. A análise deste indicador fornece a informação
+de qual é o tamanho da renda gerada pelo trabalho nas atividades econômicas. O gráfico 7
+apresenta a participação da Economia Criativa na geração da renda do trabalho no Espírito
+Santo, comparado com o mesmo indicador para a região Sudeste e para o Brasil.
+
+Durante todo o período analisado, observa-se que a participação da Economia Criativa na
+renda do trabalho capixaba varia entre 7,7% e 9,4%, sendo inferior à participação registrada
+na média nacional e na média da região Sudeste. No 1º trimestre de 2020, a participação da
+Economia Criativa capixaba foi de 7,9%, um aumento de 0,4 p.p. em relação ao trimestre
+anterior. Na mesma base de comparação, houve um pequeno aumento da participação da
+Economia Criativa para a região Sudeste, com uma participação de 10,8%, ao passo que a
+média nacional estabilizou em 9,1% (Gráfico 7).
+
+
+
+
+                               Economia Criativa no Espírito Santo – 1º trimestre de 2020 7
+Tabela 2 – Distribuição (%) dos profissionais de acordo com a posição na ocupação, nível de
+escolaridade e faixa etária no segmento criativo e não criativo: Espírito Santo – 1º trimestre de
+2020.
+                                                                           2020-1
+                                                                Criativa         Não criativa
+                                              Posição na ocupação
+                     Conta-própria                                     40,2               24,1
+                     Empregado no setor privado                        48,0               47,3
+                     Empregado no setor público                            1,0            13,3
+                     Empregador                                            8,2             4,4
+                     Trabalhador doméstico                                   -             6,8
+                     Trabalhador familiar auxiliar                         2,6             4,1
+                                                Nível de instrução
+                     Fundamental Completo                               8,6                8,5
+                     Fundamental Incompleto                            22,4               24,7
+                     Médio Completo                                    37,3               33,4
+                     Médio Incompleto                                      7,4             6,3
+                     Sem instrução                                         0,5             1,6
+                     Superior Completo                                 17,6               20,0
+                     Superior Incompleto                                   6,1             5,5
+                                                     Faixa etária
+                     14 Anos                                               0,3             0,1
+                     15 a 17 Anos                                          1,2             1,4
+                     18 a 24 Anos                                      14,9               11,5
+                     25 a 29 Anos                                      11,9                9,9
+                     30 a 39 Anos                                      23,3               27,4
+                     40 a 49 Anos                                      20,5               23,3
+                     50 a 64 Anos                                      19,8               23,1
+                     65 Anos ou mais                                       8,1             3,3
+                    Fonte: Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua - IBGE.
+                    Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                    Economia Criativa no Espírito Santo – 1º trimestre de 2020 8
+Gráfico 1 – Ranking de Unidades da Federação da participação (%) de pessoas ocupadas na
+economia criativa – 1º trimestre de 2020.
+
+   12%
+           10,9%
+
+
+
+   10%                                                                                                                                                                                                                                                                                                                                    Brasil: 9,2%
+                             10,8%
+
+                                         10,0%
+
+                                                   9,7%
+
+                                                                         9,4%
+
+                                                                                          9,3%
+
+                                                                                                    9,0%
+
+                                                                                                              8,8%
+
+                                                                                                                                    8,8%
+    8%
+
+
+
+
+                                                                                                                                                       8,7%
+
+                                                                                                                                                                    8,5%
+
+                                                                                                                                                                            8,4%
+
+                                                                                                                                                                                             8,4%
+
+                                                                                                                                                                                                        8,3%
+
+                                                                                                                                                                                                                         8,3%
+
+                                                                                                                                                                                                                                  8,3%
+
+                                                                                                                                                                                                                                            8,3%
+
+                                                                                                                                                                                                                                                                 8,2%
+
+                                                                                                                                                                                                                                                                           8,2%
+
+                                                                                                                                                                                                                                                                                      8,0%
+
+                                                                                                                                                                                                                                                                                                    7,7%
+
+                                                                                                                                                                                                                                                                                                             7,6%
+
+                                                                                                                                                                                                                                                                                                                       7,6%
+
+                                                                                                                                                                                                                                                                                                                                  7,1%
+    6%
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                           6,7%
+
+                                                                                                                                                                                                                                                                                                                                                      6,4%
+
+                                                                                                                                                                                                                                                                                                                                                                      6,3%
+    4%
+
+    2%
+
+    0%
+                                                                         Espírito Santo
+
+
+
+
+                                                                                                                                                                    Pará
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                  Amapá
+                                                                                                                                                                            Minas Gerais
+
+
+                                                                                                                                                                                                        Santa Catarina
+
+
+                                                                                                                                                                                                                                  Goiás
+
+
+                                                                                                                                                                                                                                                                 Sergipe
+
+
+
+
+                                                                                                                                                                                                                                                                                                                       Maranhão
+           Rio de Janeiro
+
+
+
+
+                                                                                                              Mato Grosso do Sul
+
+
+
+
+                                                                                                                                                                                                                                            Rio Grande do Sul
+
+
+                                                                                                                                                                                                                                                                           Amazonas
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                      Tocantins
+                                                                                                                                                                                                                                                                                                                                                                      Acre
+                                         Ceará
+
+
+
+
+                                                                                                                                                       Pernambuco
+
+
+
+
+                                                                                                                                                                                            Bahia
+                             São Paulo
+
+
+
+
+                                                                                                                                                                                                                         Paraná
+
+
+
+
+                                                                                                                                                                                                                                                                                                    Piauí
+                                                                                                    Alagoas
+
+
+
+
+                                                                                                                                                                                                                                                                                                             Roraima
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                           Rondônia
+                                                   Rio Grande do Norte
+
+
+                                                                                          Paraíba
+
+
+
+
+                                                                                                                                    Distrito Federal
+
+
+
+
+                                                                                                                                                                                                                                                                                      Mato Grosso
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+Gráfico 2 – Evolução da participação (%) da economia criativa no total de pessoas ocupadas:
+Brasil, Sudeste e Espírito Santo – 2º trimestre de 2016 ao 1º trimestre de 2020.
+   11,0%
+
+   10,5%                                                                                                                                                                                                                                                                                                                                                          10,2%
+
+   10,0%
+
+    9,5%              9,4%
+                                                                                                                                                                                                                                                                                                                                                                      9,4%
+
+    9,0%                                                                                                                                                                                                                                                                                                                                                          9,2%
+
+    8,5%            8,2%
+
+    8,0%
+                            8,0%
+    7,5%
+
+    7,0%
+                            II               III                          IV                        I                        II                         III                IV                       I                     II              III                        IV                  I                  II              III            IV                     I
+                                         2016                                                                                      2017                                                                                         2018                                                                             2019                                      2020
+
+                                                                                                                                             Brasil                                        Espírito Santo                                                       Sudeste
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                                                                                   Economia Criativa no Espírito Santo – 1º trimestre de 2020 9
+Gráfico 3 – Evolução da participação (%) de jovens nos setores da economia criativa: Brasil,
+Sudeste e Espírito Santo – 2º trimestre de 2016 ao 1º trimestre de 2020.
+   27,0%
+           26,4%
+
+
+   26,0%
+           25,5%
+
+
+   25,0% 25,2%
+
+
+                                                                                                                                                              24,3%
+   24,0%
+
+
+                                                                                                                                                              23,3%
+                                                                                                                                                              23,3%
+   23,0%
+             II      III   IV     I       II          III    IV      I       II          III         IV       I       II          III         IV         I
+                    2016                       2017                               2018                                     2019                         2020
+
+                                                 Brasil            Espírito Santo                   Sudeste
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+Gráfico 4 – Evolução do percentual de informalidade do trabalho na economia criativa: Brasil,
+Sudeste e Espírito Santo – 2º trimestre de 2016 ao 1º trimestre de 2020.
+
+           68,4%
+   68,0%
+
+
+            63,1%
+   63,0%
+                                                                                                                                                          60,7%
+           60,0%
+
+   58,0%
+                                                                                                                                                          56,0%
+
+                                                                                                                                                             53,0%
+   53,0%
+
+
+
+   48,0%
+              II     III   IV         I    II          III    IV         I        II          III     IV          I        II           III        IV          I
+                    2016                        2017                                   2018                                     2019                         2020
+
+                                                 Brasil            Espírito Santo                   Sudeste
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                          Economia Criativa no Espírito Santo – 1º trimestre de 2020 10
+Gráfico 5 – Ranking do rendimento médio mensal real da Economia Criativa por UF – 1º
+trimestre de 2020.
+   R$4.000,00
+
+   R$3.500,00
+                 R$3.476,87
+   R$3.000,00                 R$2.971,92
+   R$2.500,00                                     R$2.714,62                                                                                                                                                                                                                                                                                                                    Brasil: R$2.319,59
+
+                                                                   R$2.383,30
+                                                                                     R$2.347,39
+                                                                                                         R$2.263,07
+   R$2.000,00
+
+
+
+                                                                                                                          R$1.995,90
+                                                                                                                                        R$1.889,27
+                                                                                                                                                          R$1.871,34
+                                                                                                                                                                        R$1.851,81
+   R$1.500,00
+
+
+
+
+                                                                                                                                                                                       R$1.699,78
+                                                                                                                                                                                                             R$1.605,81
+                                                                                                                                                                                                                          R$1.562,34
+                                                                                                                                                                                                                                                R$1.551,26
+                                                                                                                                                                                                                                                             R$1.545,64
+                                                                                                                                                                                                                                                                          R$1.471,84
+                                                                                                                                                                                                                                                                                             R$1.459,63
+                                                                                                                                                                                                                                                                                                          R$1.402,10
+                                                                                                                                                                                                                                                                                                                       R$1.401,91
+                                                                                                                                                                                                                                                                                                                                    R$1.329,38
+                                                                                                                                                                                                                                                                                                                                                 R$1.306,24
+   R$1.000,00
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                   R$1.252,97
+                                                                                                                                                                                                                                                                                                                                                                                 R$1.196,21
+                                                                                                                                                                                                                                                                                                                                                                                              R$1.180,29
+                                                                                                                                                                                                                                                                                                                                                                                                           R$1.106,51
+                                                                                                                                                                                                                                                                                                                                                                                                                         R$1.024,34
+                                                                                                                                                                                                                                                                                                                                                                                                                                          R$926,98
+    R$500,00
+
+       R$0,00
+                                                                                                                                        Espírito Santo
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                 Pará
+                                                                                                                                                                                                                                                                                                                                                                                              Amapá
+                                                  Santa Catarina
+
+
+
+
+                                                                                                                                                                        Minas Gerais
+
+
+
+
+                                                                                                                                                                                                                                                                                                                       Sergipe
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                         Maranhão
+                                                                   Rio de Janeiro
+                                                                                     Rio Grande do Sul
+
+
+
+
+                                                                                                                                                          Goiás
+
+
+                                                                                                                                                                                       Mato Grosso do Sul
+
+
+
+
+                                                                                                                                                                                                                                                                          Amazonas
+
+
+                                                                                                                                                                                                                                                                                                          Tocantins
+                                                                                                                                                                                                                                                                                             Pernambuco
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                           Acre
+                 São Paulo
+
+
+
+
+                                                                                                         Paraná
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                    Ceará
+                                                                                                                                                                                                                                                                                                                                                 Bahia
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                          Piauí
+                              Distrito Federal
+
+
+
+
+                                                                                                                                                                                                             Roraima
+
+
+                                                                                                                                                                                                                                                Rondônia
+                                                                                                                                                                                                                                                             Alagoas
+                                                                                                                          Mato Grosso
+
+
+
+
+                                                                                                                                                                                                                          Rio Grande do Norte
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                   Paraíba
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+Gráfico 6 – Evolução do rendimento médio mensal real (R$) da Economia Criativa: Brasil,
+Sudeste e Espírito Santo – 2º trimestre de 2016 ao 1º trimestre de 2020.
+   R$2.800,00
+
+   R$2.700,00                                                                                                                                                                                                                                                                                                                                                                                                           R$2.684,79
+
+                R$2.558,68
+   R$2.600,00
+
+   R$2.500,00
+
+   R$2.400,00
+                                                                                                                                                                                                                                                                                                                                                                                                                  R$2.323,02
+   R$2.300,00
+                R$2.198,65
+   R$2.200,00
+                                                                                                                                                                                                                                                                                                                                                                                                                        R$2.132,78
+                R$2.093,71
+   R$2.100,00
+
+   R$2.000,00
+
+   R$1.900,00
+                        II                         III                              IV                                I                     II                         III                           IV                             I                        II                        III                   IV                      I                        II                      III                  IV                         I
+                                                 2016                                                                                                    2017                                                                                                     2018                                                                                              2019                                                      2020
+
+                                                                                                                                             Brasil                                                         Espírito Santo                                                                   Sudeste
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                                                                          Economia Criativa no Espírito Santo – 1º trimestre de 2020 11
+Gráfico 7 – Evolução da participação (%) da economia criativa no total da massa de
+rendimentos: Brasil, Sudeste e Espírito Santo – 2º trimestre de 2016 ao 1º trimestre de
+2020.
+   12,0%
+
+           10,9%                                                                                                                    10,8%
+   11,0%
+
+
+   10,0%
+                                                                                                                                    9,1%
+           8,9%
+    9,0%
+
+                                                                                                                                    7,9%
+    8,0%
+
+            6,9%
+    7,0%
+
+
+    6,0%
+              II    III    IV      I      II          III   IV       I      II          III      IV     I    II          III   IV     I
+                   2016                        2017                              2018                             2019              2020
+
+                                                Brasil           Espírito Santo               Sudeste
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                                    IJSN – Instituto Jones dos Santos Neves
+
+ Coordenação Geral                                                                                                         Coordenação
+ Pablo Silva Lira                                                                                  Antônio Ricardo Freislebem da Rocha
+ Diretor Presidente                                                                           Coordenação de Estudos Econômicos – CEE
+
+ Latussa Laranja Monteiro                                                                                              Equipe Técnica
+ Diretora de Estudos e Pesquisas                                                                             Claudimar Pancieri Marçal
+ Pablo Silva Lira                                                                             Coordenação de Estudos Econômicos – CEE
+ Diretor de Integração e Projetos Especiais
+                                                                  Av. Marechal Mascarenhas de Moraes, 2.524 - Jesus de Nazareth - Vitória - ES
+                                                                                                         CEP 29052-015 - Tel.: (27) 3636-8050
+
+
+
+
+                                        Economia Criativa no Espírito Santo – 1º trimestre de 2020 12
+

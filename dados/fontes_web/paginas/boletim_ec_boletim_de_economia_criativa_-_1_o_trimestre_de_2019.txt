@@ -1,0 +1,376 @@
+# Fonte: https://secult.es.gov.br/media/2019/Boletim%20de%20Economia%20Criativa%20-%201%20%C2%BA%20Trimestre%20de%202019.pdf
+# Coletado (UTC): 2026-09-27T15:39:20Z
+# sha256 do original: 604f9da4545a6b4895f05ff169cb2ed28c78ec1991b9cd950a90bf0561eb3a81
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:39:17 GMT
+# PDF CreationDate: Mon May 27 12:34:25 2019 UTC
+# PDF ModDate: Mon May 27 12:34:25 2019 UTC
+
+ECONOMIA CRIATIVA
+   PNAD CONTÍNUA
+   1º trimestre de 2019
+                        Economia Criativa - PNAD Contínua
+                                        1º Trimestre de 2019
+
+      No 1º trimestre de 2019, o número de pessoas ocupadas em atividades criativas no Espírito
+      Santo foi estimado em 169 mil pessoas, representando 9,0% do total de pessoas ocupadas
+      e aumento de 14,4% em relação ao 1° trimestre de 2018.
+
+
+Apresentação
+As atividades econômicas consideradas criativas abrangem “aquelas manifestações humanas
+ligadas à arte em suas diferentes modalidades, seja do ponto de vista da criação artística em
+si, como pintura, escultura e artes cênicas, seja na forma de atividades criativas com viés de
+mercado, como design e publicidade”. Atualmente, a Economia Criativa é considerada como
+importante vetor de desenvolvimento em nível mundial, com grande potencial de geração de
+renda, uma vez que, “o conceito abarca ideias inteiramente novas, desenvolvidas no contexto
+das recentes e rápidas transformações da economia global e sintetizadas pela intensificação
+da importância do conhecimento como recurso do sistema de produção. Nesse âmbito, são as
+ideias, ancoradas na utilização das novas tecnologias, que ganham destaque como geradoras
+de riquezas e de transformações sociais” (MORANDI, 2016, p.9).
+
+Este documento tem como objetivo acompanhar sistematicamente o desempenho das
+principais variáveis do mercado de trabalho deste segmento no Espírito Santo, comparando
+com os demais entes federativos. A base de dados utilizada é a Pesquisa Nacional de Amostra
+por Domicílios - Contínua (PNAD-C) divulgada trimestralmente pelo Instituto Brasileiro de
+Geografia e Estatística (IBGE). Os dados são trabalhados pelo Instituto Jones dos Santos Neves
+(IJSN) levando em consideração a metodologia apresentada no texto para discussão
+“Economia Criativa no Espírito Santo”1.
+
+
+
+
+1
+  O documento completo está disponível no link: http://www.ijsn.es.gov.br/artigos/4675-td-57-economia-criativa-no-
+espirito-santo.
+                                                         Boletim da Economia Criativa – Espírito Santo
+                                                                      1º trimestre de 2019 - Página 1
+Resultados gerais
+No primeiro trimestre de 2019, 169 mil pessoas estavam ocupadas em atividades
+denominadas criativas no Espírito Santo, número superior ao trimestre anterior, que fechou
+com 168 mil pessoas ocupadas. Na comparação com o mesmo trimestre de 2018, houve
+crescimento de +14,4%. Considerando todas as atividades econômicas do Espírito Santo, o
+número de pessoas ocupadas registrou crescimento de +4,1% neste período. Já o rendimento
+real recebido nas atividades criativas, considerando apenas o trabalho principal, apresentou
+redução de -8,4% em relação ao mesmo trimestre do ano anterior e -2,8% em relação ao
+trimestre anterior, alcançando o valor de R$ 1.848,71 no primeiro trimestre de 2019. O
+rendimento médio estadual, considerando o trabalho principal, foi de R$ 2.072,80 no primeiro
+trimestre de 2019 (Tabela 1).
+
+Para a região Sudeste, o número de pessoas ocupadas no setor criativo registrou um ligeiro
+crescimento de +0,9% em relação ao trimestre imediatamente anterior, enquanto o
+rendimento real do trabalho principal apresentou queda de -3,5%. No Brasil, na mesma base
+de comparação, houve uma ligeira queda de -0,5% no número de pessoas ocupadas no setor
+criativo e o rendimento real do trabalho principal reduziu -1,7%. Na comparação entre o
+primeiro trimestre de 2019 e o mesmo trimestre de 2018 revela que houve aumento no
+número de pessoas ocupadas nos setores criativos, que apresentou variações de +4,7% e
++4,3% para o Sudeste e Brasil, respectivamente (Tabela 1).
+
+
+
+
+                                              Boletim da Economia Criativa – Espírito Santo
+                                                           1º trimestre de 2019 - Página 2
+Tabela 1 – Principais resultados do segmento criativo e não criativo
+           Espírito Santo, Sudeste e Brasil - 1º trimestre de 2019
+                                                                   2019:1       2018:4       2018:1     Variações %
+                                                                                                     2019:1/ 2019:1/
+Espírito Santo
+                                                                                                     2018:4    2018:1
+   Pessoas ocupadas                                             1.877.890     1.890.243    1.803.268     -0,7       4,1
+      Criativa                                                    169.048      167.997      147.738      0,6       14,4
+      Não Criativa                                              1.708.842     1.722.245    1.655.530     -0,8       3,2
+   Rendimento médio real - trabalho principal (R$)               2.072,80      2.021,60     2.011,20     2,5        3,1
+      Criativa                                                   1.848,71      1.901,25     2.018,52     -2,8      -8,4
+      Não Criativa                                               2.094,74      2.033,34     2.010,56     3,0        4,2
+   Massa de rendimentos real (R$ milhões)                        3.745,92      3.662,46     3.465,42     2,3        8,1
+      Criativa                                                     297,88       306,01       280,05      -2,7       6,4
+      Não Criativa                                               3.448,04      3.356,45     3.185,37     2,7        8,2
+Sudeste
+   Pessoas ocupadas                                           41.362.442     41.633.744   40.633.023     -0,7       1,8
+      Criativa                                                  4.352.661     4.313.670    4.157.489     0,9        4,7
+      Não Criativa                                             37.009.781    37.320.073   36.475.534     -0,8       1,5
+   Rendimento médio real - trabalho principal (R$)               2.521,00      2.518,99     2.497,14     0,1        1,0
+      Criativa                                                   2.546,10      2.639,16     2.713,80     -3,5      -6,2
+      Não Criativa                                               2.518,08      2.505,26     2.472,60     0,5        1,8
+   Massa de rendimentos real (R$ milhões)                     102.719,11     103.332,44    99.915,68     -0,6       2,8
+      Criativa                                                  10.828,20     11.099,63    11.046,22     -2,4      -2,0
+      Não Criativa                                              91.890,91     92.232,81    88.869,46     -0,4       3,4
+Brasil
+   Pessoas ocupadas                                           91.863.045     92.736.430   90.272.146     -0,9       1,8
+      Criativa                                                  8.604.676     8.646.171    8.248.109     -0,5       4,3
+      Não Criativa                                             83.258.369    84.090.260   82.024.037     -1,0       1,5
+   Rendimento médio real - trabalho principal (R$)               2.217,86      2.201,80     2.190,85     0,7        1,2
+      Criativa                                                   2.152,22      2.190,08     2.216,59     -1,7      -2,9
+      Não Criativa                                               2.224,60      2.202,99     2.188,28     1,0        1,7
+   Massa de rendimentos real (R$ milhões)                     198.718,69     199.252,58   192.742,37     -0,3       3,1
+      Criativa                                                  17.951,93     18.307,62    17.696,80     -1,9       1,4
+      Não Criativa                                             180.766,76    180.944,96   175.045,57     -0,1       3,3
+
+Fonte: Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+Pessoas ocupadas
+Conforme citado anteriormente, no Espírito Santo 169 mil pessoas estavam ocupadas em
+atividades criativas, o que equivale a 9,0% do total de pessoas ocupadas no estado durante o
+primeiro trimestre de 2019 (Tabela 1). Em relação ao ranking de Unidades da Federação, o
+estado se encontra na 7ª posição entre as UFs com maior participação da economia criativa,
+ganhando oito colocações em relação ao trimestre anterior. O ranking passou a ser liderado
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                             1º trimestre de 2019 - Página 3
+pelo estado do São Paulo, com 11,4% das pessoas neste segmento, ficando à frente do Rio de
+Janeiro, com 10,5% do total de pessoas ocupadas em atividades criativas (Gráfico 1).
+
+A evolução da participação da economia criativa no total de pessoas ocupadas no Espírito
+Santo, na região Sudeste e no Brasil demonstrou que a região Sudeste, representa a maior
+parcela de pessoas ocupadas neste segmento, puxados pelos estados de São Paulo e Rio de
+Janeiro. No Espírito Santo, a participação na economia criativa registrada foi inferior à média
+brasileira, com 9,0% no caso capixaba contra 9,4% no caso nacional (Gráfico 1).
+
+Das pessoas que trabalham em segmentos criativos no Espírito Santo, 45,8% são trabalhadores
+do setor privado e 41,6% são conta própria. Especificamente, no caso das pessoas que
+trabalham por conta própria, é possível notar uma participação maior dos ocupados nesta
+condição em contraposição às demais atividades, classificadas como não criativas (24,6%).
+Neste trimestre, também continua havendo uma participação maior de empregadores no
+segmento criativo em relação ao não criativo, registrando uma participação de 7,5% contra
+4,4%, respectivamente (Tabela 2).
+
+Em relação ao nível de escolaridade, a maior parcela das pessoas que trabalharam nos
+segmentos da economia criativa no primeiro trimestre de 2019, possuía o ensino médio
+completo (33,3%). Na segunda colocação, estão o grupo de pessoas com ensino fundamental
+incompleto, representando 22,5% do total. As pessoas com ensino superior, por sua vez,
+apareceram como terceiro principal grupo, com uma participação de 16,4% do total, reduzindo
+sua participação em relação ao trimestre anterior (Tabela 2).
+
+A distribuição etária das pessoas ocupadas nas atividades criativas apresentou, no primeiro
+trimestre de 2019, uma estrutura semelhante aos demais segmentos da economia em que a
+maior parcela de ocupados têm entre 30 e 39 anos, registrando participação de 26,2% nas
+atividades criativas contra 27,4% nas atividades não criativas da economia. Destaca-se a
+participação de dois grupos: dos jovens das faixas etárias de 18 a 24 anos e de 25 a 29 anos de
+idade na Economia Criativa. Estes grupos representaram, respectivamente, 15,5% e 11,8% do
+
+
+
+                                               Boletim da Economia Criativa – Espírito Santo
+                                                            1º trimestre de 2019 - Página 4
+total de pessoas ocupadas no setor, contra 11,1% e 10,6% de participação nas atividades não
+criativas (Tabela 2).
+
+Neste trimestre, a participação dos jovens na economia criativa estadual, apesar de ter
+crescido em relação ao trimestre anterior, ficou abaixo da participação observada em nível
+nacional e na região Sudeste. A participação de jovens ocupados nos segmentos criativos
+apresenta comportamento bastante volátil no Espírito Santo, possivelmente, por conta do
+tamanho reduzido da amostra para esta faixa etária. Especificamente para o primeiro
+trimestre de 2019, a participação dos jovens na Economia Criativa atingiu o percentual de
+29,5%, resultado inferior à média da região Sudeste (29,9%) e à média brasileira (30,1%)
+(Gráfico 3).
+
+Ao contrário do que aconteceu na região Sudeste, o grau de informalidade dos ocupados na
+Economia Criativa cresceu no Espírito Santo e no país. Em comparação com o desempenho da
+região Sudeste, onde o grau de informalidade diminuiu para 41,2%, no Espírito Santo houve
+aumento, passando de 46,2% no quarto trimestre de 2018 para 50,2% no primeiro trimestre
+de 2019 (Gráfico 4).
+
+
+Rendimento médio real
+O indicador de rendimento médio real leva em consideração o rendimento dos ocupados que
+possuem como trabalho principal uma das atividades pertencentes à Economia Criativa. Além
+disso, os valores apresentados levam em consideração o efeito inflacionário sobre o poder de
+compra das pessoas, ou seja, acompanham a evolução do ganho real dos rendimentos. O
+índice utilizado para deflacionar os valores é o Índice Nacional de Preços ao Consumidor -
+Amplo (IPCA)2.
+
+
+
+
+2
+  Este procedimento é melhor detalhado em
+ftp://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Notas_metodo
+logicas/notas_metodologicas.pdf
+                                                       Boletim da Economia Criativa – Espírito Santo
+                                                                    1º trimestre de 2019 - Página 5
+No primeiro trimestre de 2019, o rendimento dos ocupados nos setores da economia criativa
+do Espírito Santo foi de R$ 1.848,71. Com este valor, o estado ficou na 8ª posição do ranking
+de rendimentos entre as Unidades da Federação (UFs). O rendimento médio do estado situou-
+se abaixo da média brasileira (R$2.152,22), sendo que apenas seis UFs ultrapassaram a média
+nacional neste trimestre, a saber: Distrito Federal, São Paulo, Rio Grande do Sul, Rio de Janeiro,
+Santa Catarina e Paraná (Gráfico 5).
+
+Na série iniciada no primeiro trimestre de 2015, o rendimento médio real, no Espírito Santo,
+variou entre R$ 1.670,78 e R$ 2.078,27. Durante todo o período analisado, o rendimento
+médio real dos ocupados em setores da economia criativa ficou abaixo do verificado no nível
+regional. Em âmbito regional, a variação ficou entre R$ 2.546,10 e R$ 2.988,97, e em nível
+nacional entre R$ 2.123,69 e R$ 2.461,50 (Gráfico 6).
+
+
+
+
+Massa de rendimentos real
+A massa de rendimentos representa a soma de todos os rendimentos dos ocupados em uma
+determinada localidade em um dado período. A análise deste indicador fornece a informação
+de qual é o tamanho da renda gerada pelo trabalho nas atividades econômicas. O gráfico 7
+apresenta a participação da Economia Criativa na geração da renda do trabalho no Espírito
+Santo, comparado com o mesmo indicador para a região Sudeste e para o Brasil.
+
+Durante todo o período analisado, observa-se que a participação da Economia Criativa na
+renda do trabalho capixaba variou entre 6,5% e 8,8%, sendo inferior à participação registrada
+na média nacional e na média da região Sudeste. No primeiro trimestre de 2019, a participação
+da Economia Criativa capixaba foi de 8,0%, com uma ligeira queda de 0,4 ponto percentual em
+relação ao trimestre anterior. Na mesma base de comparação, também houve queda da
+participação da Economia Criativa para a região Sudeste e Brasil, com uma participação de
+10,5% para região Sudeste, enquanto a média nacional registrou 9,0% (Gráfico 7).
+
+
+
+
+                                                 Boletim da Economia Criativa – Espírito Santo
+                                                              1º trimestre de 2019 - Página 6
+Tabela 2 – Distribuição (%) dos profissionais de acordo com a posição na ocupação, nível de
+escolaridade e faixa etária no segmento criativo e não criativo
+
+                      Espírito Santo - 1º trimestre de 2019
+                                                                          2019-1
+                                                             Criativa             Não criativa
+                       Posição na ocupação
+                          Conta-própria                        41,6                  24,6
+                          Empregado no setor privado           45,8                  47,9
+                          Empregado no setor público            0,6                  12,6
+                          Empregador                            7,5                   4,4
+                          Trabalhador doméstico                  -                    7,0
+                          Trabalhador familiar auxiliar         4,5                   3,6
+                       Nível de instrução
+                          Fundamental completo                 10,0                   8,4
+                          Fundamental incompleto               22,5                  26,7
+                          Médio completo                       33,3                  32,9
+                          Médio incompleto                      7,4                   6,3
+                          Sem instrução                         2,2                   1,4
+                          Superior completo                    16,4                  18,6
+                          Superior incompleto                   8,3                   5,6
+                       Faixa etária
+                          14 anos                               0,3                   0,1
+                          15 a 17 anos                          2,3                   1,5
+                          18 a 24 anos                         15,5                  11,1
+                          25 a 29 anos                         11,8                  10,6
+                          30 a 39 anos                         26,2                  27,4
+                          40 a 49 anos                         17,2                  23,4
+                          50 a 64 anos                         22,0                  22,6
+                          65 anos ou mais                       4,9                   3,3
+
+      Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+      Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                             Boletim da Economia Criativa – Espírito Santo
+                                                                          1º trimestre de 2019 - Página 7
+Gráfico 1 – Ranking de Unidades da Federação da participação (%) de pessoas ocupadas na
+            economia criativa
+               1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+Gráfico 2 – Evolução da participação (%) da economia criativa no total de pessoas ocupadas
+            Brasil, Sudeste e Espírito Santo - 1º trimestre de 2015 ao 1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                             1º trimestre de 2019 - Página 8
+Gráfico 3 – Evolução da participação (%) de jovens nos setores da economia criativa
+            Brasil, Sudeste e Espírito Santo - 1º trimestre de 2015 ao 1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+Gráfico 4 – Evolução do percentual de informalidade do trabalho na economia criativa
+            Brasil, Sudeste e Espírito Santo - 1º trimestre de 2015 ao 1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                             1º trimestre de 2019 - Página 9
+Gráfico 5 – Ranking do rendimento médio mensal real da Economia Criativa por UF
+            1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+Gráfico 6 – Evolução do rendimento médio mensal real (R$) da Economia Criativa
+            Brasil, Sudeste e Espírito Santo - 1º trimestre de 2015 ao 1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                            1º trimestre de 2019 - Página 10
+Gráfico 7 – Evolução da participação (%) da economia criativa no total da massa de
+               rendimentos
+               Brasil, Sudeste e Espírito Santo - 1º trimestre de 2015 ao 1º trimestre de 2019
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                             IJSN – Instituto Jones dos Santos Neves
+
+ Coordenação Geral                                                                                              Coordenação
+ Luiz Paulo Vellozo Lucas                                                               Antônio Ricardo Freislebem da Rocha
+ Diretor Presidente                                                                Coordenação de Estudos Econômicos - CEE
+
+ Eduarda La Rocque                                                                                          Equipe Técnica
+ Diretora de Estudos e Pesquisas                                                                 Claudimar Pancieri Marçal
+ Pablo Silva Lira                                                                 Coordenação de Estudos Econômicos – CEE
+ Diretor de Integração e Projetos Especiais
+
+
+                                                            Av. Marechal Mascarenhas de Moraes, 2.524 - Jesus de Nazareth - Vitória - ES
+                                                                                                   CEP 29052-015 - Tel.: (27) 3636-8050
+
+
+
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                            1º trimestre de 2019 - Página 11
+

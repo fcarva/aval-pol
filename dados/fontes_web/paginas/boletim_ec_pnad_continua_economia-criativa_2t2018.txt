@@ -1,0 +1,261 @@
+# Fonte: https://secult.es.gov.br/media/2019/PNAD_Continua_Economia-Criativa_2T2018.pdf
+# Coletado (UTC): 2026-09-27T15:39:09Z
+# sha256 do original: e4badd4312ec212c2ea5606f92a5f5f0e519ebe602351590bc77faaea1310f14
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:39:06 GMT
+# PDF CreationDate: Tue Sep  4 13:47:59 2018 UTC
+# PDF ModDate: Tue Sep  4 13:47:59 2018 UTC
+
+ECONOMIA CRIATIVA
+   PNAD CONTÍNUA
+   2º trimestre de 2018
+                         Economia Criativa - PNAD Contínua
+                                         2º Trimestre de 20181
+
+      No 2º trimestre de 2018, o número de pessoas ocupadas em atividades criativas no Espírito
+      Santo foi estimado em 160,7 mil pessoas, representando 8,2% do total de pessoas
+      ocupadas e aumento de 6,5% em relação ao 1° trimestre de 2018.
+
+
+Apresentação
+As atividades econômicas consideradas criativas abrangem “aquelas manifestações humanas
+ligadas à arte em suas diferentes modalidades, seja do ponto de vista da criação artística em
+si, como pintura, escultura e artes cênicas, seja na forma de atividades criativas com viés de
+mercado, como design e publicidade”. Atualmente, a Economia Criativa é considerada como
+importante vetor de desenvolvimento em nível mundial, com grande potencial de geração de
+renda, uma vez que, “o conceito abarca ideias inteiramente novas, desenvolvidas no contexto
+das recentes e rápidas transformações da economia global e sintetizadas pela intensificação
+da importância do conhecimento como recurso do sistema de produção. Nesse âmbito, são as
+ideias, ancoradas na utilização das novas tecnologias, que ganham destaque como geradoras
+de riquezas e de transformações sociais” (MORANDI, 2016, p.9).
+
+Este documento tem como objetivo acompanhar sistematicamente o desempenho das
+principais variáveis do mercado de trabalho deste segmento no Espírito Santo, comparando
+com os demais entes federativos. A base de dados utilizada é a Pesquisa Nacional de Amostra
+por Domicílios - Contínua (PNAD-C) divulgada trimestralmente pelo Instituto Brasileiro de
+Geografia e Estatística (IBGE). Os dados são trabalhados pelo Instituto Jones dos Santos Neves
+(IJSN) levando em consideração a metodologia apresentada no texto para discussão
+“Economia Criativa no Espírito Santo”2.
+
+
+
+
+1
+  Em razão de divergências no resultado do cálculo do deflator, neste segundo trimestre de 2018 não serão apresentados
+os dados de rendimento do trabalho habitual das pessoas ocupadas.
+2
+  O documento completo está disponível no link: http://www.ijsn.es.gov.br/artigos/4675-td-57-economia-criativa-no-
+espirito-santo.
+                                                           Boletim da Economia Criativa – Espírito Santo
+                                                                        2º trimestre de 2018 - Página 1
+Resultados gerais
+No segundo trimestre de 2018, cerca de 160,7 mil pessoas estavam ocupadas em atividades
+denominadas criativas no Espírito Santo, número superior ao trimestre anterior, que fechou
+com 150,8 mil pessoas ocupadas. Na comparação com o mesmo trimestre de 2017, houve
+redução de -1,7%. Considerando todas as atividades econômicas do Espírito Santo, o número
+de pessoas ocupadas registrou crescimento de +2,7% neste período. (Tabela 1).
+
+Para a região Sudeste, o número de pessoas ocupadas no setor criativo registrou uma ligeira
+queda de -0,4% em relação ao trimestre imediatamente anterior, enquanto o número de
+pessoas ocupadas na comparação ao mesmo período do ano anterior cresceu 3,1%. No Brasil,
+na comparação com o trimestre anterior, houve estabilidade de 0,1% no número de pessoas
+ocupadas no setor criativo. Na comparação entre o segundo trimestre de 2018 e o mesmo
+trimestre de 2017 houve aumento no número de pessoas ocupadas nos setores criativos,
+apresentando variação positiva de +2,7% para o Brasil (Tabela 1).
+
+
+
+
+Tabela 1 – Principais resultados do segmento criativo e não criativo
+            Espírito Santo, Sudeste e Brasil - 2º trimestre de 2018
+                                                                 2018:2       2018:1      2017:2        Variações %
+                                                                                                     2018:2/   2018:2/
+Espírito Santo
+                                                                                                     2018:1    2017:2
+   Pessoas ocupadas                                            1.880.310     1.843.046   1.831.341     2,0       2,7
+      Criativa                                                  160.670      150.832     163.397       6,5       -1,7
+      Não Criativa                                             1.719.640     1.692.214   1.667.944     1,6       3,1
+Sudeste
+   Pessoas ocupadas                                           40.976.189 40.579.426 40.313.542         1,0       1,6
+      Criativa                                                 4.132.786     4.147.791   4.009.832    -0,4       3,1
+      Não Criativa                                            36.843.402 36.431.635 36.303.710         1,1       1,5
+Brasil
+   Pessoas ocupadas                                           91.237.334 90.580.681 90.236.002         0,7       1,1
+      Criativa                                                 8.277.306     8.270.169   8.061.331     0,1       2,7
+      Não Criativa                                            82.960.028 82.310.512 82.174.671         0,8       1,0
+
+Fonte: Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                 Boletim da Economia Criativa – Espírito Santo
+                                                                              2º trimestre de 2018 - Página 2
+Pessoas ocupadas
+Conforme citado anteriormente, no Espírito Santo cerca de 160,7 mil pessoas estavam
+ocupadas em atividades criativas, o que equivale a 8,5% do total de pessoas ocupadas no
+estado durante o segundo trimestre de 2018. Em relação ao ranking de Unidades da
+Federação, o estado se encontra na 9ª posição entre as UFs com maior participação da
+economia criativa, ganhando seis colocações em relação ao trimestre anterior. O ranking
+continuou a ser liderado pelo estado do Rio de Janeiro, com 11,1% das pessoas neste
+segmento (Gráfico 1).
+
+A evolução da participação da economia criativa no total de pessoas ocupadas no Espírito
+Santo, na região Sudeste e no Brasil demonstrou que a região Sudeste, historicamente,
+representa a maior parcela de pessoas ocupadas neste segmento, com 38,9% no segundo
+trimestre de 2018, puxados pelos estados do Rio de Janeiro e São Paulo. O estado de Minas
+Gerais registrou participação de 8,7%, sendo ligeiramente acima do Espírito Santo. No estado,
+a participação registrada foi inferior à média brasileira: com 8,5% no caso capixaba contra 9,1%
+no caso nacional (Gráfico 1).
+
+Das pessoas que trabalham em segmentos criativos no Espírito Santo, 47,9% são trabalhadores
+do setor privado e 41,4% são conta própria. Especificamente, no caso das pessoas que
+trabalham por conta própria, é possível notar uma participação maior dos ocupados nesta
+condição em contraposição às demais atividades, classificadas como não criativas (22,8%).
+Neste trimestre, também continua havendo uma participação maior de empregadores no
+segmento criativo em relação ao não criativo, registrando uma participação de 6,5% contra
+4,6%, respectivamente (Tabela 2).
+
+Em relação ao nível de escolaridade, a maior parcela das pessoas que trabalharam nos
+segmentos da economia criativa no segundo trimestre de 2018, possuía o ensino médio
+completo (33,4%). Em segunda colocação, estão o grupo de pessoas com ensino fundamental
+incompleto, representando 23,5% do total. As pessoas com ensino superior, por sua vez,
+apareceram como terceiro principal grupo, com uma participação de 16,2% do total, reduzindo
+sua participação em relação ao trimestre anterior (Tabela 2).
+                                                Boletim da Economia Criativa – Espírito Santo
+                                                             2º trimestre de 2018 - Página 3
+A distribuição etária das pessoas ocupadas nas atividades criativas apresentou, no segundo
+trimestre de 2018, uma estrutura semelhante aos demais segmentos da economia em que a
+maior parcela de ocupados têm entre 30 e 39 anos, registrando participação de 28,9% nas
+atividades criativas contra 27,7% nas atividades não criativas da economia. Destaca-se a
+participação de dois grupos, dos jovens das faixas etárias de 18 a 24 anos e de 25 a 29 anos de
+idade na Economia Criativa. Estes grupos representaram, respectivamente, 15,1% e 13,1% do
+total de pessoas ocupadas no setor, contra 11,5% e 10,6% de participação nas atividades não
+criativas (Tabela 2).
+
+Neste segundo trimestre de 2018, a participação dos jovens na economia criativa estadual
+apresentou queda em relação ao trimestre anterior, situando-se abaixo da participação
+observada em nível nacional e no mesmo patamar da região Sudeste. A participação de jovens
+ocupados nos segmentos criativos apresenta comportamento bastante volátil no Espírito
+Santo, possivelmente, por conta do tamanho reduzido da amostra para esta faixa etária.
+Especificamente para o segundo trimestre de 2018, a participação dos jovens na Economia
+Criativa atingiu o percentual de 29,1%, mantendo-se na média da região Sudeste (29,0%) e
+abaixo da média brasileira (29,4%) (Gráfico 3).
+
+Ao contrário do que aconteceu no Espírito Santo, o grau de informalidade dos ocupados na
+Economia Criativa no Brasil e na região Sudeste cresceu no segundo trimestre de 2018,
+atingindo, 46,3% e 39,8%, respectivamente. No estado, o desempenho do grau de
+informalidade diminuiu, passando de 48,4%, no primeiro trimestre de 2018 para 46,9% no
+segundo trimestre de 2018 (Gráfico 4).
+
+
+
+
+                                                  Boletim da Economia Criativa – Espírito Santo
+                                                               2º trimestre de 2018 - Página 4
+Tabela 2 – Distribuição (%) dos profissionais de acordo com a posição na ocupação, nível de
+escolaridade e faixa etária no segmento criativo e não criativo
+           Espírito Santo - 2º trimestre de 2018
+                                                                                   2018-2
+                                                                        Criativa            Não criativa
+                Posição na ocupação
+                  Conta-própria                                          41,4                  22,8
+                  Empregado no setor privado                             47,9                  49,0
+                  Empregado no setor público                              0,3                  12,8
+                  Empregador                                              6,5                   4,6
+                  Trabalhador doméstico                                    -                    6,7
+                  Trabalhador familiar auxiliar                           3,9                   4,1
+                Nível de instrução
+                  Fundamental completo                                    9,6                   9,0
+                  Fundamental incompleto                                 23,5                  26,6
+                  Médio completo                                         33,4                  32,0
+                  Médio incompleto                                        7,7                   6,4
+                  Sem instrução                                           1,6                   2,5
+                  Superior completo                                      16,2                  17,5
+                  Superior incompleto                                     8,0                   5,9
+                Faixa etária
+                  14 anos                                                 0,6                   0,1
+                  15 a 17 anos                                            0,9                   1,3
+                  18 a 24 anos                                           15,1                  11,5
+                  25 a 29 anos                                           13,1                  10,6
+                  30 a 39 anos                                           28,9                  27,7
+                  40 a 49 anos                                           18,0                  23,2
+                  50 a 64 anos                                           19,3                  22,3
+                  65 anos ou mais                                         4,1                   3,3
+      Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+      Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                             Boletim da Economia Criativa – Espírito Santo
+                                                                          2º trimestre de 2018 - Página 5
+Gráfico 1 – Ranking de Unidades da Federação da participação (%) de pessoas ocupadas na
+economia criativa - 2º trimestre de 2018
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+Gráfico 2 – Evolução da participação (%) da economia criativa no total de pessoas ocupadas
+            Brasil, Sudeste e Espírito Santo - 3º trimestre de 2013 ao 2º trimestre de 2018
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                             2º trimestre de 2018 - Página 6
+Gráfico 3 – Evolução da participação (%) de jovens nos setores da economia criativa
+            Brasil, Sudeste e Espírito Santo - 3º trimestre de 2013 ao 2º trimestre de 2018
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+Gráfico 4 – Evolução do percentual de informalidade do trabalho na economia criativa
+            Brasil, Sudeste e Espírito Santo - 3º trimestre de 2013 ao 2º trimestre de 2018
+
+
+
+
+Fonte Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – IBGE.
+Elaboração: Coordenação de Estudos Econômicos - CEE/IJSN.
+
+
+
+
+                                                                Boletim da Economia Criativa – Espírito Santo
+                                                                             2º trimestre de 2018 - Página 7
+                                                           IJSN – Instituto Jones dos Santos Neves
+
+Coordenação Geral                                                                           Elaboração
+Gabriela Lacerda                                                               Claudimar Pancieri Marçal
+Diretora Presidente                                             Coordenação de Estudos Econômicos – CEE
+
+Ana Carolina Giuberti
+Diretora de Estudos e Pesquisas                                                                 Revisão
+                                                                       Antônio Ricardo Freislebem Rocha
+Coordenação                                                    Coordenação de Estudos Econômicos – CEE
+Antônio Ricardo Freislebem Rocha
+Coordenação de Estudos Econômicos - CEE
+                                          Av. Marechal Mascarenhas de Moraes, 2.524 - Jesus de Nazareth - Vitória - ES
+                                                                                 CEP 29052-015 - Tel.: (27) 3636-8050
+
+
+
+
+                                              Boletim da Economia Criativa – Espírito Santo
+                                                           2º trimestre de 2018 - Página 8
+
