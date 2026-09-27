@@ -1,0 +1,58 @@
+# Fonte: https://secult.es.gov.br/media/2022/Relat%C3%B3rios%20III%20e%20IV%20%E2%80%93%20Estat%C3%ADstica%20dos%20pedidos%20e%20informa%C3%A7%C3%B5es%20sobre%20o%20requerente%20-%202015.pdf
+# Coletado (UTC): 2026-09-27T07:05:49Z
+# sha256 do original: 1dfd32e4cad56274909d660bcef966b2231e73f9e5a537dbc398518d3497589e
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:49 GMT
+# PDF CreationDate: Fri Dec 15 12:45:47 2017 UTC
+# PDF ModDate: Fri Dec 15 12:45:47 2017 UTC
+
+                             Relatório Anual – 2015
+     Relatórios III e IV – Estatística dos pedidos e informações sobre o
+                                   requerente
+Este documento faz parte da publicação anual do relatório de atividades da Lei de Acesso à Informação,
+conforme especificado no art. 44 do Decreto Estadual nº 3.152, de 26 de novembro de 2012, que
+regulamenta a Lei de Acesso à Informação do Estado do Espírito Santo, Lei nº 9.871, de 09 de julho de
+2012.
+
+Órgão/Entidade: Secretaria de Estado da Cultura
+
+Situação dos pedidos
+Assunto      Quantidade Percentual
+Encerrada            4       100%
+
+
+Resultado do atendimento
+Assunto      Quantidade Percentual
+Fornecida           4        100%
+
+
+Pedidos por assunto
+                  Assunto              Quantidade Percentual
+                                           4         100%
+SIC - Dados estatísticos                   1         25%
+SIC - Acompanhamento de Processos          1         25%
+SIC – Relatório da gestão                  1         25%
+
+SIC - Licitação                            1         25%
+
+
+
+Pedidos por município
+   Assunto         Quantidade Percentual
+                         4       100%
+Vitória                  1       25%
+Todo o Estado            1       25%
+
+Não se aplica            2       50%
+Pedidos por canal de comunicação
+Assunto    Quantidade Percentual
+                4         100%
+Internet        2         50%
+E-mail          1         25%
+Telefone        1         25%
+
+
+Perfil do solicitante
+Tipo de solicitante   Quantidade   Percentual
+                          4          100%
+Pessoa Física             4          100%
+

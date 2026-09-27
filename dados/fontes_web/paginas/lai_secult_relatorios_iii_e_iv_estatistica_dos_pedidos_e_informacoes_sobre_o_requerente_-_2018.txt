@@ -1,0 +1,74 @@
+# Fonte: https://secult.es.gov.br/media/2022/Relat%C3%B3rios%20III%20e%20IV%20%E2%80%93%20Estat%C3%ADstica%20dos%20pedidos%20e%20informa%C3%A7%C3%B5es%20sobre%20o%20requerente%20-%202018.pdf
+# Coletado (UTC): 2026-09-27T07:05:57Z
+# sha256 do original: 4d63975bf8eeb065258ce42c9b7fe53e4f4832cb2957ab0a65c3cd734abf1da3
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:56 GMT
+# PDF CreationDate: Wed Jan 23 12:25:41 2019 UTC
+# PDF ModDate: Wed Jan 23 12:25:41 2019 UTC
+
+                            Relatório Anual – 2018
+     Relatórios III e IV – Estatística dos pedidos e informações sobre o
+                                   requerente
+Este documento faz parte da publicação anual do relatório de atividades da Lei de Acesso à Informação,
+conforme especificado no art. 44 do Decreto Estadual nº 3.152, de 26 de novembro de 2012, que
+regulamenta a Lei de Acesso à Informação do Estado do Espírito Santo, Lei nº 9.871, de 09 de julho de
+2012.
+
+Órgão/Entidade: Secretaria de Estado da Cultura
+
+Situação dos pedidos
+Assunto       Quantidade Percentual
+Encerrada            7       100%
+
+
+Pedidos por assunto
+              Assunto                Quantidade Percentual
+
+Meio Ambiente                            1          14%
+Documento Público                        1          14%
+Eventos Culturais e/ou Esportivos        1          14%
+Prestação de Contas                      4          57%
+Total Geral                              7          100%
+
+
+Pedidos por município
+           Assunto        Quantidade Percentual
+
+Todo o Estado                   5            71%
+Cachoeiro de Itapemirim         1            14%
+Águia Branca                    1            14%
+Total Geral                     7            100%
+
+
+Pedidos por canal de comunicação
+ Assunto       Quantidade Percentual
+Internet             6         86%
+Telefone             1         14%
+Total Geral          7        100%
+Perfil do solicitante
+Tipo de solicitante   Quantidade      Percentual
+Pessoa Física              7             100%
+
+Total Geral                7             100%
+
+
+
+Tipo de solicitante   Quantidade      Percentual
+Masculino                  2              29%
+Feminino                   5              71%
+Total Geral                7             100%
+
+
+As informações presentes nesse relatório compreendem o período de 01 de janeiro a 31 de dezembro de 2018.
+
+
+
+Vitória/ES, 23/01/2019
+
+
+Késia do Nascimento Rangel
+Representante da Ouvidoria Geral do Estado/SECULT
+
+
+Jackelanne Alves da Costa Barros
+Representante da Ouvidoria Geral do Estado/SECULT
+

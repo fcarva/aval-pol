@@ -1,0 +1,53 @@
+# Fonte: https://secult.es.gov.br/media/2022/Relat%C3%B3rios%20III%20e%20IV%20%E2%80%93%20Estat%C3%ADstica%20dos%20pedidos%20e%20informa%C3%A7%C3%B5es%20sobre%20o%20requerente%20-%202016.pdf
+# Coletado (UTC): 2026-09-27T07:05:52Z
+# sha256 do original: 85aa55e696c5ab970b80109d0188661d5de0715ec8a007f43644d2695b1d6e5a
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:51 GMT
+# PDF CreationDate: Fri Dec 15 12:46:39 2017 UTC
+# PDF ModDate: Fri Dec 15 12:46:39 2017 UTC
+
+                                   Relatório Anual – 2016
+     Relatórios III e IV – Estatística dos pedidos e informações sobre o
+                                   requerente
+Este documento faz parte da publicação anual do relatório de atividades da Lei de Acesso à Informação,
+conforme especificado no art. 44 do Decreto Estadual nº 3.152, de 26 de novembro de 2012, que
+regulamenta a Lei de Acesso à Informação do Estado do Espírito Santo, Lei nº 9.871, de 09 de julho de
+2012.
+
+Órgão/Entidade: Secretaria de Estado da Cultura
+
+Situação dos pedidos
+
+Assunto       Quantidade Percentual
+Encerrada            1          100%
+
+Resultado do atendimento
+
+Assunto       Quantidade Percentual
+Fornecida            1        100%
+
+
+Pedidos por assunto
+
+             Assunto             Quantidade Percentual
+                                       1          100%
+SIC – Contrato Administrativo          1          100%
+
+
+Pedidos por município
+
+Assunto       Quantidade Percentual
+                     1        100%
+Vila Velha           1        100%
+
+Pedidos por canal de comunicação
+
+Assunto Quantidade Percentual
+                 1          100%
+Internet         1          100%
+
+Perfil do solicitante
+
+Tipo de solicitante      Quantidade        Percentual
+                             1               100%
+Pessoa Física                1               100%
+

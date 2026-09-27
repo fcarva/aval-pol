@@ -1,0 +1,48 @@
+# Fonte: https://secult.es.gov.br/media/2022/Relat%C3%B3rios%20III%20e%20IV%20-%20Estat%C3%ADstica%20dos%20pedidos%20e%20informa%C3%A7%C3%B5es%20sobre%20o%20requerente%20-%202014.pdf
+# Coletado (UTC): 2026-09-27T07:05:47Z
+# sha256 do original: 3a83dbccc91e703bebc57279db5d1cfdaae7a668abff636844dbf954e43e2b8f
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:46 GMT
+# PDF CreationDate: Fri Dec 15 12:44:12 2017 UTC
+# PDF ModDate: Fri Dec 15 12:44:12 2017 UTC
+
+                               Relatório Anual – 2014
+__________________________________________________________________________________
+
+      Relatórios III e IV – Estatística dos pedidos e informações sobre o
+                                   requerente
+Este documento faz parte da publicação anual do relatório de atividades da Lei de Acesso à
+Informação, conforme especificado no art. 44 do decreto Estadual nº 3.152, de 26 de novembro de
+2012, que regulamenta a Lei de Acesso à informação do Estado do Espírito Santo, Lei nº 9.871, de 09
+de julho de 2012.
+
+
+Órgão/Entidade: SECULT – Secretaria de Estado da Cultura
+
+
+Estatística dos pedidos
+
+
+Quantidade total de pedidos      3
+
+
+ Estatística      Quantidade Percentual
+ Atendidos                  3     100,0
+ Indeferidos                0        0,0                                           Atendidos
+ Em tramitação              0        0,0                                           Indefetridos
+                                                                                   Em tramitação
+
+
+
+
+Informações agregadas dos requerentes
+
+ Tipo de solicitante   Quantidade
+ Pessoa Física         3
+ Pessoa Jurídica       0
+
+
+ Gênero do solicitante    Quantidade
+    Pessoa Física
+ Masculino                           2
+ Feminino                            1
+

@@ -1,0 +1,253 @@
+# Fonte: https://secult.es.gov.br/Media/2021/PDA_SECULT.pdf
+# Coletado (UTC): 2026-09-27T07:05:43Z
+# sha256 do original: 7d89b8462f38720aff32fe1baa3dda2d9b33c4c88cf8c2953b855e80a2fa4720
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:42 GMT
+# PDF CreationDate: Wed Nov  9 18:41:30 2022 UTC
+# PDF ModDate: Wed Nov  9 18:41:30 2022 UTC
+
+          Governo do Estado do Espírito Santo
+                          Plano de Dados Abertos
+                Secretaria de Estado da Cultura
+                                     08/11/2022
+
+
+
+
+                                                                                                      PÁGINA 1 / 7
+1. Introdução
+
+
+
+
+                                                                                                      09/11/2022 15:41
+O Plano de Dados Abertos (PDA) é o instrumento que operacionaliza a Política de Dados Abertos
+do Poder Executivo Estadual, pois auxilia o planejamento das ações que visam a abertura e
+sustentação de dados nas organizações públicas.
+
+Este plano contém, de forma detalhada, as ações de implementação e promoção de abertura
+
+
+
+
+                                                                                                      2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+de dados deste órgão/entidade. Contém os responsáveis pela implantação, as bases de dados
+que serão priorizadas para abertura à sociedade e o cronograma de disponibilização dos dados.
+
+Este documento baseia-se na Política de Dados Abertos do Estado do Espírito Santo,
+estabelecida pelo Decreto nº 5139-R/2022. Será revisado a cada dois anos e publicado no sítio
+institucional para divulgação à sociedade.
+
+
+2. Responsáveis
+
+Com base no Decreto nº 5139-R/2022, os responsáveis pela elaboração, aprovação, publicação
+e manutenção das bases de dados foram designados pela autoridade máxima deste
+órgão/entidade conforme publicado em <Portaria ou instrumento equivalente, ver documento
+Modelo Portaria>.
+
+
+
+ Responsável              Setor, telefone e e-mail         Função / Perfil
+
+ João           Adriano   Setor: Gabinete                  Função: coordenar e elaborar o Plano
+ Dallapicola Veenings     Telefone: (27) 3636 7075         de Dados Abertos.
+                          E-mail:                          Perfil: ter conhecimento das atividades
+                          joao.veenings@secult.es.gov.br   finalísticas do órgão e sobre as
+                                                           informações que serão publicadas.
+
+ Marcos Orlando Arpini    Setor: CNI                       Função: publicar e atualizar as bases de
+                          Telefone: (27) 3636 7065         dados no Portal de Dados Abertos
+                                                           (www.dados.es.gov.br).
+                        E-mail:                            Perfil: ter familiaridade com sistemas de
+                        marcos.arpini@secult.es.gov.br     informação e não fazer parte da UECI.
+
+Renato Luiz Duarte de   Setor: GETD                        Função: orientar as unidades sobre o
+Morais                  Telefone: (27) 3636 7054           cumprimento das normas referentes a
+                        E-mail:                            dados abertos e garantir o cumprimento
+                        renato.morais@secult.es.gov.br     das mesmas.
+                                                           Perfil: habilidade de comunicação com
+                                                           as áreas e servidor da UECI.
+
+Pedro Sobrinho Porto    Setor: SUBGE                       Função: prestar assistência quanto ao
+Virgolino               Telefone: (27) 3636 7005           uso de dados e garantia da publicação
+                        E-mail:                            do Plano de Dados Abertos.
+                        Pedro.virgolino@secult.es.gov.br   Perfil: Não deve ser servidor integrante
+                                                           da UECI. Deve ser autoridade designada
+
+
+
+
+                                                                                                       PÁGINA 2 / 7
+                                                           nos termos do art. 29 da Lei nº 9.871, de
+                                                           09 de julho de 2012.
+
+
+
+
+                                                                                                       09/11/2022 15:41
+                                                                                                       2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+   3. Inventário de dados
+
+   O inventário de dados foi elaborado em conjunto com as áreas finalísticas e com base no Plano de Classificação Documental (PCD).
+
+                                                                           Inventário de Dados
+
+
+
+
+                                                                                                                                                                               PÁGINA 3 / 7
+                                                                     Periodicidade               A base está                          Unidade responsável
+Número                                                                               Formato                                                                 Possui conteúdo
+                Título da Base            Descrição de conteúdo           de                    disponível em      Fonte dos Dados     (setor ou nome do
+da base                                                                              da base                                                                     sigiloso?
+                                                                      atualização              dados.es.gov.br?
+
+
+
+
+                                                                                                                                                                               09/11/2022 15:41
+                                                                                                                                          responsável)
+
+  1       Parceiras com OSC - Lei n.º   Parcerias com Organizações    Semestral        Xls           Sim           Coordenação de      Subsecretaria de           Sim
+          13.019/2014                   da Sociedade da Civil -                                                      Convênios         Estado de Gestão
+
+
+
+
+                                                                                                                                                                               2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+                                        Termos de Fomento e                                                                             Administrativa
+                                        Colaboração
+
+  2       Convênios    -   Decreto      Convênios com todas as        Semestral        Xls           Sim           Coordenação de      Subsecretaria de           Sim
+          Estadual n.º 2.737-R, de      esferas com transferência                                                    Convênios         Estado de Gestão
+          19/04/2011                    de Recursos Públicos                                                                            Administrativa
+
+  3       Contratos  -     Lei    n.º   Contratos firmados com a      Semestral        Xls           Sim              Grupo            Subsecretaria de           Sim
+          8.666/1993                    Secretaria da Cultura                                                      Administrativo      Estado de Gestão
+                                                                                                                                        Administrativa
+
+  4       Termos FUNCULTURA - Lei       Termos do FUNCULTURA            Anual          Xls           Sim          Gerência do Fundo     Subsecretaria de          Sim
+          Complementar n.º 458, de      celebrados                                                                   Estadual de      Estado de Fomento e
+          21/10/2008                                                                                                   Cultura         Incentivo à Cultura
+5   Lei de Incentivo à Cultura    LICC - Projetos Habilitados   Anual   Xls   Sim      Gerência de          Subsecretaria de     Sim
+    Capixaba LICC – Lei n.º                                                         Incentivo à Cultura   Estado de Fomento e
+    11.246/2021 que alterou a                                                                              Incentivo à Cultura
+    Lei n.º 7.000/2001
+
+6   Programa                de    Fundo a Fundo – Planos de     Anual   Xls   Sim       Gerência do         Subsecretaria de     Sim
+    Coinvestimento da Cultura -   Ação aprovados                                     Sistema Estadual     Estado de Fomento e
+
+
+
+
+                                                                                                                                       PÁGINA 4 / 7
+    Fundo a Fundo, Decreto n.º                                                           de Cultura        Incentivo à Cultura
+    4.960-R, de 27/08/2021
+
+
+
+
+                                                                                                                                       09/11/2022 15:41
+                                                                                                                                       2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+                GOVERNO DO ESTADO DO ESPÍRITO SANTO
+                SECRETARIA DE ESTADO DE CONTROLE E TRANSPARÊNCIA
+
+
+
+4. Cronograma de divulgação dos dados
+
+O cronograma contendo todas as bases relacionadas no inventário que serão priorizadas para abertura, assim como a sequência de divulgação com
+as respectivas datas, estão registradas no quadro a seguir:
+
+                                            Cronograma de divulgação das Bases de Dados priorizadas (*1)
+
+
+
+
+                                                                                                                                                                PÁGINA 5 / 7
+                                                        Data da publicação
+                                                                                            Unidade responsável
+
+
+
+
+                                                                                                                                                                09/11/2022 15:41
+              Número e Título da base                     (semestre/ano)                                                      Contato do setor ou responsável
+                                                                                      (setor ou nome do responsável)
+                                                               (*2)
+
+
+
+
+                                                                                                                                                                2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+ 1.   Parceiras com OSC - Lei n.º 13.019/2014                                    Subsecretaria de Estado de Gestão
+                                                          2º sem / 2022                                                              (27) 3636 7075
+                                                                                 Administrativa
+
+ 2.   Convênios - Decreto Estadual n.º 2.737-R, de                               Subsecretaria de Estado de Gestão
+                                                          2º sem / 2022                                                              (27) 3636 7075
+      19/04/2011                                                                 Administrativa
+
+ 3.   Contratos - Lei n.º 8.666/1993                                             Subsecretaria de     Estado   de    Gestão
+                                                          2º sem / 2022                                                              (27) 3636 7080
+                                                                                 Administrativa
+
+ 4.   Termos FUNCULTURA - Lei Complementar n.º                                   Subsecretaria de Estado de Fomento e
+                                                          1º sem / 2023                                                          (27) 3636 7115 / 7116
+      458, de 21/10/2008                                                         Incentivo à Cultura
+
+ 5.   Lei de Incentivo à Cultura Capixaba LICC – Lei                             Subsecretaria de Estado de Fomento e
+      n.º 11.246/2021 que alterou a Lei n.º               1º sem / 2023          Incentivo à Cultura                                 (27) 3636 7071
+      7.000/2001
+ 6.   Programa de Coinvestimento da Cultura -                   Subsecretaria de Estado de Fomento e
+      Fundo a Fundo, Decreto n.º 4.960-R, de    1º sem / 2023   Incentivo à Cultura                    (27) 3636 7112
+      27/08/2021
+
+
+
+
+___________________________________________
+
+
+
+
+                                                                                                                        PÁGINA 6 / 7
+João Adriano Dallapicola Veenings
+Responsável pela elaboração do PDA
+Assinado eletronicamente
+
+
+
+
+                                                                                                                        09/11/2022 15:41
+___________________________________________
+Fabricio Noronha Fernandes
+
+
+
+
+                                                                                                                        2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+Secretário de Estado da Cultura
+Assinado eletronicamente
+ASSINATURAS (2)
+                   Documento original assinado eletronicamente, conforme MP 2200-2/2001, art. 10, § 2º, por:
+     JOÃO ADRIANO DALLAPICOLA VEENINGS                                        FABRICIO NORONHA FERNANDES
+        ASSESSOR ESPECIAL NIVEL IV QCE-03                                            SECRETARIO DE ESTADO
+              GAB - SECULT - GOVES                                                  SECULT - SECULT - GOVES
+          assinado em 09/11/2022 12:08:01 -03:00                                 assinado em 09/11/2022 15:41:29 -03:00
+
+
+           INFORMAÇÕES DO DOCUMENTO
+           Documento capturado em 09/11/2022 15:41:29 (HORÁRIO DE BRASÍLIA - UTC-3)
+           por JOÃO ADRIANO DALLAPICOLA VEENINGS (ASSESSOR ESPECIAL NIVEL IV QCE-03 - GAB - SECULT - GOVES)
+           Valor Legal: ORIGINAL | Natureza: DOCUMENTO NATO-DIGITAL
+
+           A disponibilidade do documento pode ser conferida pelo link: https://e-docs.es.gov.br/d/2022-6BP33X
+
+
+
+
+                                                                                                                          PÁGINA 7 / 7
+                                                                                                                          09/11/2022 15:41
+                                                                                                                          2022-6BP33X - E-DOCS - DOCUMENTO ORIGINAL
+

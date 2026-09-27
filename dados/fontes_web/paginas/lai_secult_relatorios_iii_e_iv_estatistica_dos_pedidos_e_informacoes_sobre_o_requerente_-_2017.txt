@@ -1,0 +1,65 @@
+# Fonte: https://secult.es.gov.br/media/2022/Relat%C3%B3rios%20III%20e%20IV%20%E2%80%93%20Estat%C3%ADstica%20dos%20pedidos%20e%20informa%C3%A7%C3%B5es%20sobre%20o%20requerente%20-%202017.pdf
+# Coletado (UTC): 2026-09-27T07:05:54Z
+# sha256 do original: 6318bedf6b3a92108729b356e7d93751a539c0f123ab82ceaf3e5647cab56de5
+# Last-Modified (servidor): Sun, 27 Sep 2026 07:05:53 GMT
+# PDF CreationDate: Fri Dec 15 12:48:22 2017 UTC
+# PDF ModDate: Fri Dec 15 12:48:22 2017 UTC
+
+                             Relatório Anual – 2017
+     Relatórios III e IV – Estatística dos pedidos e informações sobre o
+                                   requerente
+Este documento faz parte da publicação anual do relatório de atividades da Lei de Acesso à Informação,
+conforme especificado no art. 44 do Decreto Estadual nº 3.152, de 26 de novembro de 2012, que
+regulamenta a Lei de Acesso à Informação do Estado do Espírito Santo, Lei nº 9.871, de 09 de julho de
+2012.
+
+Órgão/Entidade: Secretaria de Estado da Cultura
+
+Situação dos pedidos
+Assunto      Quantidade Percentual
+Encerrada         8          100%
+
+
+Resultado do atendimento
+Assunto      Quantidade Percentual
+Fornecida         8          100%
+
+
+Pedidos por assunto
+                Assunto                Quantidade Percentual
+                                           8         100%
+SIC - Dados cadastrais                     2         25%
+SIC - Cópia de documentos                  2         25%
+SIC - Recurso de negativa                  1        12,50%
+
+SIC - Conduta de Servidor                  1        12,50%
+
+SIC - Acompanhamento de Processos          1        12,50%
+
+SIC - Solic. de Documentos                 1        12,50%
+
+
+
+Pedidos por município
+   Assunto       Quantidade Percentual
+                         8      100%
+Vitória                  5     62,50%
+Vila Velha               1     12,50%
+Todo o Estado            1     12,50%
+Não se aplica         1       12,50%
+
+
+Pedidos por canal de comunicação
+Assunto    Quantidade Percentual
+                  8       100%
+Internet          5       62,50%
+E-mail            1       12,50%
+Telefone          2        25%
+
+
+Perfil do solicitante
+Tipo de solicitante   Quantidade       Percentual
+                          8              100%
+Pessoa Física             6               75%
+Pessoa Jurídica           2               25%
+
