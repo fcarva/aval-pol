@@ -72,3 +72,31 @@ RESOLVE:
 Vitória, 27 de Janeiro de 2022.
 MARCELO ALTOÉ — Secretário de Estado da Fazenda
 Protocolo 790854
+
+---
+
+# PORTARIA SEFAZ Nº 83-R, DE 26 DE SETEMBRO DE 2022
+
+- **Fonte:** DIO-ES, Executivo, terça-feira, 27 de setembro de 2022, pp. 18-19. Coletada pelo relé
+  (`analise/rede/consultas_publicas.py`, busca `consultar_dio_teto`) em `dados/externos/dio_teto_trechos.csv`,
+  ids `7440_18` e `7440_19`; conferida em 27/09/2026.
+- **Uso:** resolve o teto de 2022, antes "indeterminado" no artigo: R$ 10 milhões (Portaria 09-R) + R$ 5 milhões
+  (esta portaria) = R$ 15 milhões, o valor que o anexo de captação da SECULT e o Portal da Transparência informam.
+
+*Amplia o montante de recursos disponíveis para o financiamento dos projetos culturais no ano de 2022.*
+
+O SECRETÁRIO DE ESTADO DA FAZENDA, no uso das atribuições que lhe confere o art. 98, II, da Constituição Estadual; e
+Considerando o disposto no parágrafo único do artigo 4º do Decreto nº 5.035-R, de 15 de dezembro de 2021;
+
+RESOLVE:
+
+**Art. 1º** Ampliar em R$ 5.000.000,00 (cinco milhões de reais) o montante de recursos disponíveis no ano de 2022 para
+o financiamento dos projetos culturais, fixado pela Portaria nº 09-R, de 27 de janeiro de 2022.
+
+**Art. 2º** Esta Portaria entra em vigor na data de sua publicação.
+
+Vitória, 26 de setembro de 2022.
+MARCELO ALTOÉ — Secretário de Estado da Fazenda
+
+*Na mesma busca: Portaria SEFAZ nº 57-S, de 8 de maio de 2024 (DIO-ES de 28/05/2024), amplia em R$ 10 milhões o
+montante de 2024 fixado pela Portaria nº 06-R (de R$ 15 para R$ 25 milhões), coerente com o Quadro 1.*

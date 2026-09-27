@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `a8100b5b0235682d…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `9ce305d8d9ff497e…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -36,13 +36,13 @@
   - ☐ **[1.1.2]** A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu rapidamente: o teto anual de captação, o montante fixado pela SEFAZ, passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026. [nota de rodapé: teto2022]
     - citações: ESPÍRITO SANTO, 2021b
     - checagem de dados: D05 ✔ (`dados/externos/licc_teto_vs_icms.csv`)
-    - ☐ *Nota de rodapé (teto2022):* Para 2022, a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e o anexo de captação da SECULT informa R\$ 15 milhões disponíveis (R\$ 11,5 milhões validados), valor que a lista do Portal da Transparência atribui à mesma portaria (ESPÍRITO SANTO, 2026). Sem ato de ampliação localizado, o teto de 2022 fica indeterminado.
-      - citações: ESPÍRITO SANTO, 2026
-      - checagem de dados: D65b ✔ (`analise/tabelas/16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378)`); D65 ✔ (`analise/tabelas/03f_captacao_anual_secult.csv`)
+    - ☐ *Nota de rodapé (teto2022):* Para 2022, a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, ampliou o montante em R\$ 5 milhões (DIO-ES, 2026): o teto de 2022 foi de R\$ 15 milhões, valor que o anexo de captação da SECULT e a lista do Portal da Transparência informam (ESPÍRITO SANTO, 2026), dos quais R\$ 11,5 milhões foram validados.
+      - citações: DIO-ES, 2026; ESPÍRITO SANTO, 2026
+      - checagem de dados: D65b ✔ (`analise/tabelas/16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378)`); D65 ✔ (`dados/externos/dio_teto_trechos.csv (DIO-ES, 27/09/2022, p. 18-19: Portaria SEFAZ nº 83-R)`); D65c ✔ (`analise/tabelas/03f_captacao_anual_secult.csv`)
   - ☐ **[1.1.3]** De 2023 a 2025, a captação esgotou o teto: os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano (em 2025, 62 projetos validados somam R\$ 24,64 milhões, e um ainda "em análise na SEFAZ" completa os R\$ 25 milhões; os números de 2025 contam os 63).
     - checagem de dados: D07 ✔ (`artigo/auditoria/auditoria_captacao_anual.csv (auditar_captacao.py, sobre o anexo oficial de 2025)`); N45 ✔ (`artigo/auditoria/auditoria_captacao_anual.csv (2023-2025)`)
     - ⚠ números sem checagem automática (conferir na fonte citada): 25, 63
-  - ☐ **[1.1.4]** A demanda supera o teto: nos cinco ciclos de habilitação (2022-2026), 463 projetos foram autorizados a captar, somados, R\$ 184 milhões (459 com valor válido), acima da soma dos tetos do período, de no máximo R\$ 111 milhões. [nota de rodapé: repo]
+  - ☐ **[1.1.4]** A demanda supera o teto: nos cinco ciclos de habilitação (2022-2026), 463 projetos foram autorizados a captar, somados, R\$ 184 milhões (459 com valor válido), acima da soma dos tetos do período, de R\$ 111 milhões. [nota de rodapé: repo]
     - checagem de dados: D06 ✔ (`analise/tabelas/03_anual.csv (valor autorizado`); D06b ✔ (`artigo/auditoria/auditoria_captacao_anual.csv (maior entre portaria e montante impresso, 2022-2026) < 03_anual.csv`)
     - ☐ *Nota de rodapé (repo):* Todos os números deste artigo vêm dos anexos oficiais da SECULT ("Lista de projetos habilitados" e "Recurso financeiro captado", de 2022 a 2026), de bases públicas do IBGE, do Tesouro Nacional (SICONFI) e do Portal da Transparência do ES. A lista de habilitados foi transcrita na versão disponível em 3 set. 2026 (repositório licc.gov); a SECULT atualizou o arquivo em 10 set. 2026, e os status publicados podem ter mudado desde então. Dados, scripts e tabelas: <https://github.com/fcarva/aval-pol>.
       - ⚠ números sem checagem automática (conferir na fonte citada): 3, 10
@@ -92,8 +92,8 @@
 - **Colunas:** Elemento · Regra vigente · Norma
   - ☐ **Benefício ao patrocinador** — Crédito presumido de até 100% do patrocínio, compensado com o ICMS a recolher — Lei 7.000/2001, art. 5º-B, IX; Dec. 5.035-R/2021, art. 10
     - ⚠ números sem checagem automática (conferir na fonte citada): 100%
-  - ☐ **Teto anual** — Fixado pela SEFAZ até 31/01, ampliável no exercício, limitado a 2% do ICMS estadual do ano anterior: R\$ 10 mi em 2022, 15 mi (2023), 25 mi (2024 e 2025), 31 mi (2026) — Dec. 5.035-R/2021, art. 4º; Dec. 5.210-R/2022; portarias SEFAZ
-    - ⚠ números sem checagem automática (conferir na fonte citada): 31, 01, 2%, 10, 15, 25
+  - ☐ **Teto anual** — Fixado pela SEFAZ até 31/01, ampliável no exercício, limitado a 2% do ICMS estadual do ano anterior: R\$ 15 mi em 2022 (10 mi ampliados em setembro) e 2023, 25 mi em 2024 e 2025, 31 mi em 2026 — Dec. 5.035-R/2021, art. 4º; Dec. 5.210-R/2022; portarias SEFAZ
+    - ⚠ números sem checagem automática (conferir na fonte citada): 31, 01, 2%, 15, 10, 25
   - ☐ **Patrocinador** — Pessoa jurídica contribuinte do ICMS fora do Simples Nacional, até 20%, 15%, 10% ou 5% do ICMS recolhido no ano anterior, conforme a faixa de imposto — Dec. 5.035-R/2021, arts. 2º e 10, § 1º; LC 123/2006, art. 24; IN 001/2026, art. 40
     - ⚠ números sem checagem automática (conferir na fonte citada): 20%, 15%, 10%, 5%
   - ☐ **Proponentes** — Pessoa jurídica com finalidade cultural e sede no ES há 2 anos; até 3 inscrições por ano — Dec. 5.035-R/2021, art. 5º; IN 001/2025, art. 13
@@ -548,7 +548,7 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
   - conferência: VERIFIED
 - ☐ DEKKER, Erwin; RODRIGUES, Ana Carolina. The political economy of Brazilian cultural policy: a case study of the Rouanet Law. **Journal of Public Finance and Public Choice**, v. 34, n. 2, p. 149-171, 2019. DOI: 10.1332/251569119X15675896589688.
   - conferência: VERIFIED
-- ☐ DIO-ES – DEPARTAMENTO DE IMPRENSA OFICIAL DO ESPÍRITO SANTO. **Diário Oficial dos Poderes do Estado**: avisos de habilitação e de depósito da LICC, 2022-2026. Vitória: DIO-ES, 2026. Disponível em: https://ioes.dio.es.gov.br. Acesso em: 27 set. 2026.
+- ☐ DIO-ES – DEPARTAMENTO DE IMPRENSA OFICIAL DO ESPÍRITO SANTO. **Diário Oficial dos Poderes do Estado**: atos e avisos da LICC, 2022-2026. Vitória: DIO-ES, 2026. Disponível em: https://ioes.dio.es.gov.br. Acesso em: 27 set. 2026.
   - conferência: sem_doi
 - ☐ DJIMEU, Eric W.; HOUNDOLO, Deo-Gracias. Power calculation for causal inference in social science: sample size and minimum detectable effect determination. **Journal of Development Effectiveness**, v. 8, n. 4, p. 508-527, 2016. DOI: 10.1080/19439342.2016.1244555.
   - conferência: VERIFIED
@@ -656,7 +656,7 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
 
 - ☐ [2.1.4]: 100%
 - ☐ linha «Benefício ao patrocinador»: 100%
-- ☐ linha «Teto anual»: 31, 01, 2%, 10, 15, 25
+- ☐ linha «Teto anual»: 31, 01, 2%, 15, 10, 25
 - ☐ linha «Patrocinador»: 20%, 15%, 10%, 5%
 - ☐ linha «Proponentes»: 2, 3
 - ☐ linha «Linhas e limite por projeto»: 1, 300, 001

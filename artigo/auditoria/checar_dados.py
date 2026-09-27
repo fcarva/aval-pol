@@ -228,12 +228,14 @@ CHECAGENS = [
     ("D06", "463 projetos foram autorizados a captar, somados, R\\$ 184 milhões (459 com valor válido)",
      f"{int(anual.loc[TOTAL, 'processos'])} projetos foram autorizados a captar, somados, R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
      f"({int(anual.loc[TOTAL, 'autorizado_n'])} com valor válido)", T + "03_anual.csv (valor autorizado; R$ 500,00 impresso é tratado como ausente)"),
-    ("D65b", "valor que a lista do Portal da Transparência atribui à mesma portaria",
-     (lambda r: "atribui à mesma portaria" if ("09-R/2022" in str(r["limite_rotulo"]) and float(r["limite_impresso"]) == 15e6) else "?")(
-         ler(TAB / "16_transparencia_resumo.csv").set_index("ano_captacao").loc[2022]),
-     T + "16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378)"),
-    ("D06b", "acima da soma dos tetos do período, de no máximo R\\$ 111 milhões",
-     f"no máximo R\\$ {num(sum(max(float(a), float(b)) for a, b in zip(_capt_anual['teto_portarias_sefaz'], _capt_anual['montante_impresso'])) / 1e6)} milhões"
+    ("D65b", "valor que o anexo de captação da SECULT e a lista do Portal da Transparência informam",
+     (lambda r, a: "informam" if ("09-R/2022" in str(r["limite_rotulo"]) and float(r["limite_impresso"]) == 15e6
+                                  and float(a) == 15e6) else "?")(
+         ler(TAB / "16_transparencia_resumo.csv").set_index("ano_captacao").loc[2022],
+         anu.loc[2022, "montante_declarado"]),
+     T + "16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378); 03f_captacao_anual_secult.csv"),
+    ("D06b", "acima da soma dos tetos do período, de R\\$ 111 milhões",
+     f"de R\\$ {num(sum(max(float(a), float(b)) for a, b in zip(_capt_anual['teto_portarias_sefaz'], _capt_anual['montante_impresso'])) / 1e6)} milhões"
      if sum(max(float(a), float(b)) for a, b in zip(_capt_anual['teto_portarias_sefaz'], _capt_anual['montante_impresso'])) < anual.loc[TOTAL, 'autorizado_total'] else "?",
      "artigo/auditoria/auditoria_captacao_anual.csv (maior entre portaria e montante impresso, 2022-2026) < 03_anual.csv"),
     ("D07", "em 2025, 62 projetos validados somam R\\$ 24,64 milhões, e um ainda",
@@ -271,10 +273,17 @@ CHECAGENS = [
     ("D64", "as reservas I e IV captaram exatamente o valor reservado",
      "exatamente" if all(abs(cota.loc[(2025, k), "captado_sobre_reservado"] - 1) < 1e-9 for k in ("I", "IV")) else "?",
      T + "03f_captados_por_cota.csv"),
-    ("D65", "a Portaria SEFAZ nº 09-R fixou R\\$ 10 milhões, e o anexo de captação da SECULT informa R\\$ 15 milhões disponíveis (R\\$ 11,5 milhões validados)",
-     f"fixou R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões, e o anexo de captação da SECULT informa R\\$ "
-     f"{num(anu.loc[2022, 'montante_declarado'] / 1e6)} milhões disponíveis (R\\$ {num(anu.loc[2022, 'total_validado'] / 1e6, 1)} milhões",
-     T + "03f_captacao_anual_secult.csv; dados/externos/licc_teto_vs_icms.csv"),
+    ("D65", "a Portaria SEFAZ nº 09-R fixou R\\$ 10 milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, ampliou o montante em R\\$ 5 milhões (DIO-ES, 2026): o teto de 2022 foi de R\\$ 15 milhões",
+     (lambda amp: f"fixou R\\$ {num(teto.loc[2022, 'teto_renuncia'] / 1e6)} milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, "
+                  f"ampliou o montante em R\\$ {num(amp / 1e6)} milhões (DIO-ES, 2026): o teto de 2022 foi de R\\$ "
+                  f"{num((teto.loc[2022, 'teto_renuncia'] + amp) / 1e6)} milhões")(
+         float(re.search(r"Ampliar em R\$ ([\d.]+),00 \([^)]*\) o montante de recursos disponíveis no ano de 2022 para o "
+                         r"financiamento dos projetos culturais, fixado pela Portaria nº 09-R",
+                         " ".join(" ".join(pd.read_csv(EXT / "dio_teto_trechos.csv")["trecho"].astype(str)).split()))
+               .group(1).replace(".", ""))),
+     "dados/externos/dio_teto_trechos.csv (DIO-ES, 27/09/2022, p. 18-19: Portaria SEFAZ nº 83-R); dados/externos/licc_teto_vs_icms.csv"),
+    ("D65c", "dos quais R\\$ 11,5 milhões foram validados",
+     f"R\\$ {num(anu.loc[2022, 'total_validado'] / 1e6, 1)} milhões foram validados", T + "03f_captacao_anual_secult.csv"),
     ("D16", "(2022; 2023; 2024) | 16%; 30%; 45% |",
      "; ".join(pct(S[c]["taxa_expiracao_sobre_resolvidos"]) for c in S), T + "03_status_por_ciclo.csv"),
     ("D17", "(2022 → 2026) | 13% → 41% |",
@@ -394,7 +403,7 @@ CHECAGENS = [
 # ---- versão de 24/09/2026: seções 4-6 reescritas (teoria da mudança, auditoria das premissas, perguntas H1-H3).
 # Checagens D01-D64 cujo trecho saiu do texto foram retiradas; ficam as que ainda se aplicam.
 T7 = T + "07_"
-CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D06b", "D07", "D65b", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
+CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D06b", "D07", "D65b", "D65c", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
 CHECAGENS += [
     ("N02", "entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
     ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
