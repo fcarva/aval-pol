@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/editais-2026
-# Coletado (UTC): 2026-09-27T07:25:37Z
+# Coletado (UTC): 2026-09-27T07:32:22Z
 # sha256 do original: 7ee20ef9365cce7eaea259646e7eff7ba5e26807b06c648a08b3035abfd4af7e
 
 SECULT - Secretaria da Cultura
