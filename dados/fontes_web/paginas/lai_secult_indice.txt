@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/relatorios-da-lai
-# Coletado (UTC): 2026-09-27T15:54:15Z
+# Coletado (UTC): 2026-09-27T20:04:51Z
 # sha256 do original: e8b65bf4f9b95bac4675b59fd37a2c962b8372ec182660ac4226668669328dcd
 
 SECULT - Secretaria da Cultura

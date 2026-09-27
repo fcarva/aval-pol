@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/ciclo-2025-editais
-# Coletado (UTC): 2026-09-27T15:54:00Z
+# Coletado (UTC): 2026-09-27T20:04:37Z
 # sha256 do original: 6ad4e42bb6b1b2d61bcfe224bb41436cefd2ff3b832302804eef3a67bb5cf130
 
 SECULT - Secretaria da Cultura
