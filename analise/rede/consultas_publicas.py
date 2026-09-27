@@ -14,6 +14,9 @@
    /busca/busca/buscar/query/<página>/di:<início>/df:<fim>/?q="termo", paginação a partir de zero), para os atos da LICC:
    portarias do montante, designação da CAP, avisos de habilitação e resultados. Grava só o trecho em volta do termo,
    com CPF mascarado; o texto da página inteira (outros atos, outras pessoas) não é gravado.
+4. Portal da Transparência, "Incentivos vigentes" e "Relação de beneficiários e valores renunciados" (2022-2025, CSV,
+   valores da EFD não necessariamente auditados pela SEFAZ): só as linhas da LICC são gravadas; do resto, só o
+   cabeçalho, a contagem de linhas e os rótulos de benefício (diagnóstico), sem dado de contribuinte.
 
 Saídas (dados/externos/):
   cnpj_patrocinadores.csv          uma linha por CNPJ de patrocinador
@@ -24,7 +27,9 @@ Saídas (dados/externos/):
   mapa_casamento_resumo.csv        quantos registros foram lidos e quantos casaram, por entidade
   dio_licc_trechos.csv             um trecho por ocorrência do termo no DIO: data, diário, página, termo, trecho
   dio_licc_diagnostico.txt         rotas e formatos de data tentados, com status e início da resposta
-Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio]
+  transparencia_beneficiarios_licc.csv   linhas da LICC nos CSVs de incentivos vigentes e de beneficiários
+  transparencia_beneficiarios_diagnostico.txt  por arquivo: status, codificação, separador, cabeçalho, linhas, rótulos
+Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio|beneficiarios]
 """
 from __future__ import annotations
 
@@ -312,6 +317,59 @@ def consultar_dio() -> None:
     print(f"DIO: {len(linhas)} trechos; formato de data {escolhido}")
 
 
+TRANSP = "https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/{}"
+ARQ_BENEF = {"vigentes": 311, "beneficiarios_2022": 544, "beneficiarios_2023": 543, "beneficiarios_2024": 437,
+             "beneficiarios_2025": 538}
+LICC_RX = re.compile(r"11[.\s]?246|INCENTIVO\s+[ÀA]\s+CULTURA|CULTURA\s+CAPIXABA|\bLICC\b", re.I)
+
+
+def consultar_beneficiarios() -> None:
+    import io
+    from collections import Counter
+    EXT.mkdir(parents=True, exist_ok=True)
+    diag, saida = [], []
+    for nome, did in ARQ_BENEF.items():
+        url = TRANSP.format(did)
+        try:
+            r = requests.get(url, headers=UA, timeout=(15, 300))
+        except requests.RequestException as e:
+            diag.append(f"## {nome} {url}: erro {e}")
+            continue
+        bruto = r.content
+        cod = "utf-8"
+        try:
+            texto = bruto.decode("utf-8-sig")
+        except UnicodeDecodeError:
+            texto, cod = bruto.decode("latin-1"), "latin-1"
+        amostra = texto[:5000]
+        sep = max([";", ",", "\t", "|"], key=amostra.count)
+        linhas = list(csv.reader(io.StringIO(texto), delimiter=sep))
+        cab = linhas[0] if linhas else []
+        corpo = linhas[1:]
+        # rótulos de benefício: colunas de texto com poucos valores distintos (sem nome de contribuinte)
+        rotulos = []
+        for j, c in enumerate(cab):
+            vals = Counter(l[j] for l in corpo if j < len(l))
+            numericos = sum(n for k, n in vals.items() if re.fullmatch(r"[\d.,\s-]*", k))
+            if (1 < len(vals) <= 400 and numericos < 0.5 * sum(vals.values())
+                    and not re.search(r"cnpj|cpf|raz|nome|contribuinte|inscri", c, re.I)):
+                rotulos.append(f"  coluna '{c}': {len(vals)} valores; mais frequentes: "
+                               + "; ".join(f"{k[:60]} ({n})" for k, n in vals.most_common(25)))
+        # a Lei 11.246/2021 também criou o incentivo ao esporte (LIEC): linhas do esporte ficam de fora (só LICC)
+        casadas = [l for l in corpo if LICC_RX.search(" ".join(l))]
+        licc = [l for l in casadas if not re.search(r"ESPORT", " ".join(l), re.I)]
+        for l in licc:
+            saida.append({"arquivo": nome, "url": url, **{c or f"col{j}": (l[j] if j < len(l) else "") for j, c in enumerate(cab)}})
+        diag.append(f"## {nome} {url}\nstatus {r.status_code}; {len(bruto)} bytes; content-type {r.headers.get('content-type')}; "
+                    f"codificação {cod}; separador {sep!r}; linhas {len(corpo)}; linhas da LICC {len(licc)} "
+                    f"(fora {len(casadas) - len(licc)} do esporte)\n"
+                    f"cabeçalho: {cab}\n" + "\n".join(rotulos))
+        time.sleep(1)
+    pd.DataFrame(saida).to_csv(EXT / "transparencia_beneficiarios_licc.csv", index=False)
+    (EXT / "transparencia_beneficiarios_diagnostico.txt").write_text("\n\n".join(diag) + "\n", encoding="utf-8")
+    print(f"beneficiários: {len(saida)} linhas da LICC; ver transparencia_beneficiarios_diagnostico.txt")
+
+
 def main() -> None:
     so = sys.argv[sys.argv.index("--so") + 1] if "--so" in sys.argv else "tudo"
     if so in ("cnpj", "tudo"):
@@ -320,6 +378,8 @@ def main() -> None:
         consultar_cnpjs(cnpjs_proponentes(), "cnpj_proponentes.csv")
     if so in ("mapa", "tudo"):
         consultar_mapa()
+    if so in ("beneficiarios", "tudo"):
+        consultar_beneficiarios()
     if so in ("dio", "tudo"):
         consultar_dio()
 
