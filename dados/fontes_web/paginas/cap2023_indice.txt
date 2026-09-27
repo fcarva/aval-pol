@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/comissao-de-avaliacao-permanente-cap-2023
-# Coletado (UTC): 2026-09-27T15:05:10Z
+# Coletado (UTC): 2026-09-27T15:23:33Z
 # sha256 do original: abfd8e9e416da6188f2b7c5e4da1dee257f9334b39c178bab6660019f00a8a8a
 
 SECULT - Secretaria da Cultura
