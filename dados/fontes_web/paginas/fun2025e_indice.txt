@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/edital-2025
-# Coletado (UTC): 2026-09-27T14:50:19Z
+# Coletado (UTC): 2026-09-27T15:05:26Z
 # sha256 do original: b2ab13d10d0e0bae913d77b4592d27a119c239926139e0bbe39cb9fb85ecc25d
 
 SECULT - Secretaria da Cultura

@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/cap-2024
-# Coletado (UTC): 2026-09-27T14:50:04Z
+# Coletado (UTC): 2026-09-27T15:05:12Z
 # sha256 do original: 8a750f388dee09fc6beb17735d8e0b61985209071e67f13bafd05b63b62aa086
 
 SECULT - Secretaria da Cultura
