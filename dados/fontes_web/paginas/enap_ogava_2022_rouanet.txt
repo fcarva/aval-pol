@@ -1,0 +1,1172 @@
+# Fonte: https://repositorio.enap.gov.br/bitstreams/1111500b-fe3f-4012-b5ae-e252b5551986/download
+# Coletado (UTC): 2026-09-27T02:43:26Z
+# sha256 do original: 1d1142a499d4d8c9a2602c1374ba7618535b96ea5cc3c6c0a9016b680255eba4
+
+Expediente
+
+Presidente
+Diogo Costa
+                                          O Evidência Express (EvEx), iniciativa da Diretoria
+Diretora-Executiva                        de Altos Estudos da Escola Nacional de
+Rebeca Loureiro de Brito                  Administração Pública (Enap), é uma equipe de
+                                          pesquisadores focada em reunir, sintetizar e
+Diretora de Altos Estudos                 fornecer    evidências    para       o    desenho,
+Diana Coutinho
+                                          monitoramento e avaliação de políticas públicas.
+                                          A missão do EvEx é gerar produtos ágeis,
+Diretor de Educação Executiva
+Rodrigo Torres                            priorizando a qualidade das informações.
+
+                                          Avaliações completas de uma política pública são
+Diretor de Desenvolvimento Profissional
+Paulo Marques                             intensivas em tempo e custos, necessitando de
+                                          uma visão sistêmica do problema e do tema
+Diretora de Inovação                      investigado. A fim de agilizar os processos de
+Bruna Santos                              avaliação, o EvEx se propõe a produzir atividades
+                                          de consolidação do conhecimento disponível e
+Diretora de Gestão Interna
+                                          produção de novos pontos de vista.
+Alana Regina Biagi Silva Lisboa
+                                          Os resultados dos produtos EvEx apoiam
+Coordenação Geral de Ciência
+                                          tomadores de decisão do setor público federal,
+de Dados
+                                          subsidiando avaliações Ex Ante ou Ex Post.
+Leonardo Monasterio
+                                          Beneficiam também os gestores públicos locais,
+Autoria                                   demais pesquisadores, alunos, docentes,
+Bruno Ogava                               servidores e entidades da sociedade civil.
+César Augusto Galvão
+Willian Adamczyk                          Os produtos do EvEx analisam evidências
+                                          qualitativas e quantitativas acerca de um
+Capa e Diagramação                        problema, podendo ser demandados de forma
+Samyra Lima                               avulsa ou em pacotes, sobre:
+Equipe EvEx
+                                          - Magnitude e evolução do problema no Brasil e
+Imagens                                   no mundo.
+Unsplash
+                                          - Causas e consequências do problema.
+
+                                          - Soluções de enfrentamento do problema
+                                          existentes no Brasil e no mundo.
+
+                                          - Público-alvo ou afetado pelo problema ou
+                                          política.
+
+                                          - Evidências de impacto de soluções existentes.
+
+                                          Para maiores informações, entre em contato:
+                                          evidencia.express@enap.gov.br
+
+                                          Boa Leitura!
+Sumário Executivo
+
+
+ No Brasil, a Lei Rouanet visa oferecer incentivos financeiros a projetos culturais por meio de
+ renúncia fiscal, estimulando a doação de parte dos impostos de pessoas físicas e jurídicas.
+
+ A Lei Rouanet é criticada por sofrer muita influência dos interesses de doadores com grande
+ poder econômico ou midiático.
+
+ O Quadratic Funding é um mecanismo alternativo de financiamento que busca equilibrar o
+ poder econômico valorizando também o número de doadores de um projeto.
+
+ Para averiguar sua adequação a incentivos culturais, realizamos simulações de Quadratic Funding
+ e duas variações a partir de dados da Lei Rouanet.
+
+ Em sua formulação original, o Quadratic Funding pode destinar valores elevados de recursos
+ financeiros para projetos de pequena escala ou de menor escopo.
+
+ A introdução de valores máximos para os projetos resolve o problema de poder econômico, mas
+ permanece sujeito à distorções e manipulações por um grande número de doações.
+
+ A distribuição de doadores na Lei Rouanet é desigual, problema que pode ser agravado pelo
+ Quadratic Funding. A aplicação aos dados gerou distribuições de recursos mais desiguais que a
+ original.
+
+ A prévia divisão dos recursos entre diferentes áreas, seguida da aplicação do Quadratic Funding
+ a cada área, ameniza as questões anteriores, mas pode gerar sobra de recursos financeiros.
+
+ Mecanismos de Quadratic Funding precisam ser refinados e adaptados caso se deseje a aplicação
+ ao financiamento da cultura. Porém, adicionar níveis de complexidade faz com que o QF se
+ distancie do seu propósito original.
+    Sumário
+
+
+
+
+1       Introdução . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+2       Metodologia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+2.1     Dados . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+2.2     Métodos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+2.2.1 Quadratic Funding Puro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+2.2.2 Quadratic Funding com Cap . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+2.2.3 Basket Quadratic Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+3       Incentivos atuais à Cultura e a Lei Rouanet . . . . . . . . . . . . . . . . . . . . . 12
+3.1     Estatísticas Descritivas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+3.2     Distribuição de Recursos com a Lei Rouanet . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+4       Simulação: Quadratic Funding Puro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+5       Simulação: Quadratic Funding com Cap . . . . . . . . . . . . . . . . . . . . . . . 19
+
+6       Simulação: Basket Quadratic Funding . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+6.1     Distribuição igualitária de recursos entre áreas . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+6.2     Distribuição proporcional de recursos entre áreas . . . . . . . . . . . . . . . . . . . . . . . 23
+
+7       Discussão e Considerações Finais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
+        Referências Bibliográficas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+  1. Introdução
+
+
+       Bens e serviços culturais transmitem ideias, símbolos e modos de vida de uma sociedade. Nessa
+definição se enquadram tanto apresentações artísticas e produtos audiovisuais, quanto atividades que
+visem a preservação do patrimônio cultural e histórico de um povo (UNESCO, 2009). Particular a esses
+bens e serviços, sua produção e consumo não contribuem apenas com o desenvolvimento econômico
+de uma região, mas também com o seu desenvolvimento social (DESARROLLO; CUÉLLAR, 1996).
+Sendo assim, o consumo de bens e serviços culturais traz benefícios maiores para a sociedade do que
+apenas a satisfação pessoal de quem os consome e utiliza. Fenômenos como a criação e manutenção
+da identidade de uma população, a preservação de objetos de estudo em coleções de museus e a
+preservação do patrimônio histórico são consequências de tal consumo.
+       Na decisão de investimento, os indivíduos costumam levar em conta apenas o benefício
+privado, e não o coletivo. Consequentemente, os benefícios sociais do consumo de bens e serviços
+culturais acabam não sendo completamente contabilizados nos mecanismos de mercado. A oferta e
+financiamento de serviços culturais acaba ficando aquém dos montantes socialmente desejados. Isso
+ocorre porque todos aqueles beneficiados pelo consumo cultural realizado por um indivíduo não têm
+como retribuir financeiramente os benefícios recebidos. Também, mesmo se tal possibilidade existisse,
+sempre haveriam “caroneiros”1 , aqueles que receberiam benefícios compartilhados mais valiosos do
+que o valor que optariam por contribuir financeiramente aos demais (SAMUELSON, 1954).
+       Outra possível explicação para a dificuldade de financiamento da produção de bens e serviços
+culturais reside no fato de que a tecnologia para a produção não permite grandes ganhos de produ-
+tividade. Por exemplo, a evolução tecnológica altera pouco o tempo de prática com instrumentos
+musicais necessário para se conduzir uma apresentação, ou então o tempo de ensaio que um grupo
+de teatro precisa para executar uma peça. Assim, a medida em que o avanço tecnológico aumenta
+a produtividade para bens de consumo e serviços em geral, comparativamente, o custo do trabalho
+para se produzir bens e serviços culturais aumenta, levando a subprovisão e subfinanciamento. Esse
+fenômeno é conhecido na literatura como doença dos custos de Baumol (BAUMOL; BOWEN, 1965).
+       Dada a natureza dessa questão, vários mecanismos que visam mitigar o problema de sub-
+provisão de bens e de subfinanciamento de serviços culturais já foram tentados ao redor do mundo,
+seja através de intervenções no mercado ou diretamente através do Estado. No Brasil, se faz uso do
+Programa Nacional de Apoio à Cultura (PRONAC), instituído pela Lei nº 8.313 de 23 de dezembro
+de 1991, popularmente conhecida como Lei Rouanet. Esse programa abre a possibilidade para que
+pessoas físicas e jurídicas doem parte das suas contribuições do Imposto de Renda em apoio direto a
+  1 Free riders, no jargão econômico
+Capítulo 1 - Introdução                                                                                               6
+
+
+projetos culturais, com a União então renunciando ao recebimento de tal montante.
+       Apesar de elogiado pela classe artística em geral, o desenho da Lei Rouanet não está isento de
+críticas. A principal delas se refere à capacidade que grandes doadores têm em decidir quais projetos
+serão mais financiados, o que por sua vez pode levar a uma concentração de recursos nos projetos
+que trazem maiores benefícios privados para tais doadores2 , indo na contramão da proposta inicial.
+Assim, o desenho atual pode não estar de acordo com o que seria o financiamento ótimo de projetos
+culturais, uma vez que projetos beneficiados por uma ou outra grande doação podem receber mais
+financiamento do que projetos beneficiados por muitos doadores de menor poder econômico. Por outro
+lado, o desenho atual da Lei Rouanet é eficiente em capturar a intensidade do gosto dos doadores pelos
+projetos culturais beneficiados. Como, então, é possível encontrar um equilíbrio entre a liberdade dos
+doadores em financiar seus projetos preferidos e ao mesmo tempo restringir sua influência?
+       Uma forma alternativa para a redistribuição dos recursos oriundos das renúncias fiscais, a qual
+busca justamente alcançar o equilíbrio anteriormente mencionado, é a conhecida como Quadratic
+Funding, sugerida por Buterin, Hitzig e Weyl (2019). Inspirada no mecanismo de escolha social
+chamado de quadratic voting (POSNER; WEYL, 2017), ela redistribuiria a soma total dos recursos
+coletados entre diferentes projetos culturais de forma proporcional ao quadrado da soma das raízes
+quadradas das doações direcionadas as cada projeto. Desse modo é reduzida a influência das doações
+individuais em prol de uma maior influência do número de doações.
+       Além de alcançar o equilíbrio já mencionado, o Quadratic Funding tem outras propriedades
+desejáveis, como a flexibilidade em se dividir a redistribuição dos recursos em rodadas de financiamento
+e a flexibilidade em relação a moeda adotada e a inflação por ela sofrida. Mais ainda, esse mecanismo
+desincentiva a fragmentação e atomização de projetos culturais, uma vez que cada metade de um
+projeto que se dividisse em dois menores, com perfis semelhantes de doadores, receberia apenas um
+quarto do total que seria recebido por um único projeto. Logo, a adoção do Quadratic Funding também
+poderia trazer benefícios ao agente regulador, podendo diminuir os custos de fiscalização dos projetos
+culturais beneficiados.
+       Assim, o presente relatório tem como objetivo analisar de forma descritiva como ocorre a
+distribuição dos recursos através do vigente mecanismo da Lei Rouanet, além de simular como tais
+recursos seriam redistribuídos através do Quadratic Funding e outros mecanismos dele derivados.
+Naturalmente, este relatório também se propõe a comparar as distribuições dos recursos sobre os
+diferentes mecanismos.
+       As simulações realizadas alertam que, embora o Quadratic Funding redistribua os recursos
+de financiamento entre os projetos de forma socialmente desejável do ponto de vista teórico, sua
+implementação deve ser feita com cautela. Alguns problemas práticos não antevistos pela teoria podem
+surgir, como o excesso de financiamento para projetos de pequena escala e o aprofundamento da
+desigualdade dos valores recebidos entre os projetos, além de comportamentos indesejáveis como
+
+  2 Esse fenômeno é conhecido na literatura de provisão de bens públicos como tyranny of the few ou tyranny of the rich.
+Capítulo 1 - Introdução                                                                                 7
+
+
+tentativas de fraude e conluio. Contudo, variações mais complexas do Quadratic Funding podem ser
+adotadas de modo a contornar tais problemas, mas há o risco delas se afastarem demais da proposta
+inicial.
+           Além desta introdução, este relatório é composto por outros seis capítulos. No próximo capítulo
+é descrito o processo de obtenção dos dados e os métodos utilizados nas simulações. No terceiro são
+apresentadas estatísticas descritivas dos dados provenientes da Lei Rouanet e é mostrada como ocorre
+sua distribuição de recursos. Nos capítulos 4, 5 e 6 são mostrados os resultados das simulações do
+Quadratic Funding Puro, do Quadratic Funding com Cap e das especificações do Basket Quadratic
+Funding, respectivamente. Por fim, o capítulo 7 encerra com a discussão dos resultados e considerações
+finais.
+  2. Metodologia
+
+
+2.1    Dados
+       Os dados utilizados nas análises e simulações deste relatório foram coletados da API do
+Portal de Visualização do Sistema de Apoio às Leis de Incentivo a Cultura (VerSalic)1 . A partir
+de tal processo foram construídas duas bases de dados, uma contendo informações referentes aos
+projetos, cujas propostas de captação de recursos através da Lei Rouanet foram aprovadas e outra,
+contendo informações a respeito das doações realizadas para cada projeto. Ao todo foram obtidos
+dados referentes a 105.841 projetos, dos quais 23.962 foram capazes de captar recursos através da Lei
+Rouanet. Também foram obtidos dados referentes a 305.798 doações destinadas a 22.510 projetos
+distintos, dos quais temos informações a respeito de 22.385 (99,4%) desses.
+       Para ter garantia da qualidade dos dados, optamos por fazer uso apenas dos projetos dos quais
+obtivemos informações precisas a respeito das doações recebidas e consideramos apenas aqueles que
+receberam ao menos uma doação, isso restringiu nossa amostra para 21.736 projetos. Também optamos
+por restringir nossa análise a projetos culturais iniciados após o começo do ano de 2010 e terminados
+em data anterior ao final do ano de 2019, de modo a garantir que as informações a respeito dos projetos
+considerados e de suas respectivas doações tenham sido checadas pelo órgão regulador. Além disso,
+excluímos “projetos guarda-chuva” da nossa análise, ou seja, desconsideramos grandes projetos que
+captam recursos e os redistribuem entre projetos menores. Assim, os valores totais e número de
+projetos não devem ser lidos como representativos da Lei Rouanet, por considerarmos apenas uma
+amostra das doações realizadas, uma vez que priorizamos a qualidade das simulações realizadas. Ao
+final do processo de limpeza de dados restaram informações referentes a 14.536 projetos em nossa
+amostra final, 64,9% do total presente em ambas as bases de dados iniciais.
+       Em relação aos dados de doações, optamos por agrupar múltiplas contribuições de um mesmo
+doador, em um mesmo ano, para um mesmo projeto, como uma única doação. Frequentemente,
+observamos nos dados que projetos recebem doações escalonadas ao longo dos meses de um mesmo
+doador. Tratamos tais doações como uma única a fim de: i) preservar a igualdade do peso de decisão
+de cada indivíduo; e ii) evitar incentivos à fraude por meio do fracionamento das doações. Esse
+agrupamento reduziu o número absoluto de doações de 305.798 para 201.268.
+
+
+
+
+  1 <http://api.salic.cultura.gov.br/doc/>. Último acesso em 18/02/2022.
+Capítulo 2 - Metodologia                                                                                              9
+
+
+2.2      Métodos
+         A partir dos dados obtidos nós investigamos como ocorreram a distribuição dos recursos de
+financiamento de projetos culturais, oriundos de renúncias fiscais, através do mecanismo vigente da
+Lei Rouanet. Além disso, foram realizados três exercícios de simulação para compreender como tal
+distribuição de recursos ocorreria através do Quadratic Funding e de duas variações dele derivadas.
+As diferentes formulações são:
+        Quadratic Funding Puro: redistribui os recursos de financiamento de modo proporcional ao
+        quadrado das somas das raízes quadradas das doações recebidas por cada projeto, diminuindo a
+        influência dos valores das doações e realçando a do número de doadores
+        Quadratic Funding com Cap: um projeto não pode receber quantia maior do que um valor
+        previamente estipulado pelo órgão regulador
+        Basket Quadratic Funding: incorpora o Cap e visa distribuir os recursos de financiamento de
+        modo a fazer com que a soma dos valores recebidos por projetos de uma mesma área seja uma
+        proporção previamente estipulada dos recursos totais.
+         O mecanismo vigente de financiamento de projetos culturais pela Lei Rouanet é direto e de
+fácil compreensão. Segundo esse mecanismo, o valor total captado por um projeto i, VCiRouanet , é a
+soma ao longo dos anos dos totais dos valores doados pelos doadores para aquele projeto em cada ano.
+Na literatura essa forma de distribuição de recursos é chamada de Private Contribution Mechanism e
+está explicitada pela fórmula abaixo:
+
+                                                                             !
+                                                          2019      J
+                                         VCiRouanet =      ∑       ∑ Di jt                                        (2.1)
+                                                         t=2010    j=1
+
+
+na qual temos um total de I projetos, sendo então cada projeto identificado por um número de 1 a I
+e um projeto i. De modo semelhante, temos também um total de J doadores, identificados por j, e
+períodos anuais de tempo t os quais podem assumir os valores de 2010 a 2019. Assim, o valor doado
+para um projeto i pelo doador j no ano t é denotado como Di jt .
+         Cada projeto pode possuir um valor nominal máximo do total de doações o qual pode receber,
+tal valor é definido individualmente para cada projeto por um órgão regulador e será denotado por Capi .
+Além disso, cada projeto i foi enquadrado em uma área, entre oito possíveis2 , a qual será chamada de
+Ai .
+
+2.2.1    Quadratic Funding Puro
+
+         Como anteriormente mencionado, o Quadratic Funding busca diminuir a influência de doadores
+com grande poder econômico sobre o processo de escolha social de quais projetos culturais devem ser
+incentivados, sem deixar de considerar a intensidade dos gostos desses mesmos doadores. Para tanto,
+   2 As áreas são: artes cênicas, artes integradas, artes visuais, audiovisual, humanidades, museus e memória, música, e
+
+patrimônio cultural.
+Capítulo 2 - Metodologia                                                                                   10
+
+
+ele redistribui todos os recursos captados com doações ocorridas em um mesmo período de tempo
+de modo proporcional ao quadrado das somas das raízes quadradas das doações recebidas por cada
+projeto. Matematicamente, sendo V RQF
+                                   it o valor recebido pelo projeto i pelo mecanismo de Quadratic
+Funding no ano t e V RQF
+                      i o total recebido por ele ao longo de todos os anos, a redistribuição dos
+recursos segue a seguinte fórmula:
+
+                                                                            2
+                                                                  J
+                                                      !                p
+                                          I    J                 ∑ j=1 Di jt
+                             V RQF
+                                it =     ∑ ∑ Di jt         ×                   2                      (2.2)
+                                                              I      J
+                                                                         p
+                                         i=1 j=1             ∑i=1 ∑ j=1 Di jt
+
+                                                           2019
+                                              V RQF
+                                                 i =       ∑ V RQF
+                                                                it                                      (2.3)
+                                                       t=2009
+
+         Note que, na primeira fórmula, o termo do lado esquerdo do produto representa a soma de
+todas as doações direcionadas a todos os projetos durante um mesmo ano, enquanto o termo do lado
+direito representa a proporção do quadrado da soma das raízes quadradas das doações direcionadas ao
+projeto i em relação a mesma soma dos demais projetos.
+
+2.2.2    Quadratic Funding com Cap
+
+         Uma consequência do mecanismo de Quadratic Funding é o fato do valor a ser recebido por
+um projeto crescer quadraticamente no número de doações por ele recebidas3 , assim sua adoção pode
+incentivar ações perversas por parte dos doadores. Exemplos de ações desse tipo são fraudes e conluios.
+A fraude ocorre quando um único doador tenta se passar por múltiplos. Os conluios se configuram
+quando um grupo de doadores age de forma coordenada com base em seus interesses privados de modo
+a prejudicar demais doadores (BUTERIN; HITZIG; WEYL, 2019). Uma forma de limitar o impacto
+dessas ações perversas é a imposição de limites aos valores que podem ser recebidos pelos projetos, de
+modo individual e condizente com o escopo de cada um deles.
+         Aliado ao fato anterior, no contexto com o qual estamos lidando já há valores máximos
+estabelecidos para o quanto cada projeto pode receber. Esses valores são escolhidos por um órgão
+regulador, com base na documentação apresentada por cada proponente no momento de submissão
+do projeto, para que possa captar recursos através da Lei Rouanet. Assim, também simulamos uma
+variante chamada Quadratic Funding com Cap, na qual esses limites são implementados. Sendo
+   QFCap
+V Ri       o valor recebido pelo projeto i e Capi o valor máximo que pode ser recebido por esse projeto,
+a redistribuição dos recursos foi feita em rodadas anuais através do seguinte algoritmo:
+
+   1. Foram identificados os projetos que deveriam ser totalmente financiados no ano t, ou seja aqueles
+        projetos em que V RQF
+                           it > Capi ;
+                                                   QFCap
+   2. Para esses projetos foi designado V Rit              = Capi . O mesmo valor foi subtraído do total de
+
+  3 Para ver isso basta considerar o cenário em que cada doação não nula tem o valor de exatamente uma unidade
+
+monetária, de modo a fazer com que cada projeto recebesse o quadrado do número de seus doadores.
+Capítulo 2 - Metodologia                                                                            11
+
+
+        recursos a serem redistribuídos no ano t;
+   3. A fórmula do QF foi aplicada novamente, excluindo dela os projetos que foram totalmente
+        financiados na rodada anterior;
+   4. Foram identificados os projetos que passaram a ser totalmente financiados;
+   5. Os passos 2, 3 e 4 foram repetidos até não serem identificados novos projetos totalmente
+        financiáveis e os valores encontrados na última interação foram designados aos respectivos
+        projetos;
+   6. O valor de Capi foi atualizado para a simulação do ano t + 1, sendo subtraído dele o que seria
+        recebido pelo projeto i no ano t;
+   7. O processo é repetido para cada ano considerado e os valores a serem recebidos em cada ano são
+                                        QFCap
+        somados para o cálculo de V Ri          .
+         Implementando esse algoritmo, todos os projetos que receberiam algum valor positivo pelo
+mecanismo de Quadratic Funding Puro passam a receber um valor maior através do mecanismo com
+Cap, exceto aqueles que receberiam valores maiores do que seus respectivos Capi .
+
+2.2.3    Basket Quadratic Funding
+
+         Frente à necessidade de escolha estratégica ou política de incentivar determinadas áreas cul-
+turais, o formulador de política pública pode desejar interferir na redistribuição dos recursos. Consi-
+derando essa possibilidade, elaboramos uma variação do mecanismo de Quadratic Funding na qual
+um agente externo pode escolher uma proporção αA dos recursos totais a serem destinados para os
+projetos de uma área A, ao mesmo tempo em que respeite o valor limite a ser recebido por um projeto.
+Essa variação segue um algoritmo semelhante ao do Quadratic Funding com Cap, mas duas alterações
+são feitas para distribuir os recursos em cada ano:
+
+                                                                                   2
+                                                                        ∑Jj=1 Di jt
+                                                            !                 p
+                                                    I   J
+                        V RQFBasket
+                           it       =       αAi ∑ ∑ Di jt       ×                      2        (2.4)
+                                                                   IAit
+                                                                         
+                                                                            J
+                                                                                p
+                                                i=1 j=1           ∑i=1 ∑ j=1 Di jt
+
+em que IAit é o número total de projetos no ano t que se enquadram na mesma área Ai do projeto i.
+A redistribuição da porção destinada a área Ai , da soma de todas as doações direcionadas a todos os
+projetos, no ano t, passa a ser proporcional ao quadrado da soma das raízes quadradas das doações
+direcionadas aos projetos compreendidos na mesma área do projeto i no ano t. Note que neste
+mecanismo pode haver excesso de recursos a serem redistribuídos se a quantia destinada a uma área
+for maior do que a soma dos limites dos valores a serem recebidos dos projetos dessa área.
+         O capítulo seguinte traz um diagnóstico da distribuição de recursos da Lei Rouanet na sua
+implementação atual, de acordo com os dados da amostra verificada. Após, cada capítulo realiza as
+simulações do Quadratic Funding em suas três variações.
+  3. Incentivos atuais à Cultura e a Lei Rouanet
+
+
+       Nesse capítulo mostraremos as estatísticas descritivas a respeito do mecanismo vigente de
+incentivo à cultura da Lei Rouanet. Na primeira seção constam informações referente a projetos,
+doações e doadores, as quais são comuns a esse mecanismo e aos demais simulados. Na segunda seção
+são mostradas estatísticas especificamente relacionadas a como ocorre distribuição de recursos sob o
+atual mecanismo da Lei Rouanet.
+
+3.1    Estatísticas Descritivas
+       A partir dos processos de obtenção e tratamento de dados descritos no capítulo anterior, foi
+construída uma base com dados referentes a 14.536 projetos, que receberam ao menos uma doação dos
+mais de 25 mil doadores considerados. Em média, cada projeto foi beneficiado por 6,2 doadores1 , com
+doações no valor médio de R$ 123,6 mil (corrigidos a reais de dezembro de 2021 pelo IPCA).
+       As Figuras 3.1 e 3.2 abaixo mostram como os projetos se distribuem entre as oito diferentes
+áreas de classificação e quantos doadores direcionaram seus recursos para cada área. Em geral, áreas
+com maior número de projetos foram agraciadas por mais doadores. A maior exceção a essa regra
+foi a área de Audiovisual, na qual constam 8,64% dos projetos, mas foi beneficiada por apenas 4%
+dos doadores. As duas maiores áreas em número de projetos, Artes Cênicas e Músicas, constam com
+percentuais proporcionalmente maiores de número de doadores, fenômeno que também ocorre em
+menor escala para Patrimônio Cultural e Museus e Memória.
+                                Figura 3.1: Número acumulado de projetos por área entre 2010 e 2019.
+
+                                   Artes Cênicas                                                 4933 (33,94%)
+
+                                          Música                                         3820 (26,28%)
+           Área dos projetos
+
+
+
+
+                                    Humanidades                            2401 (16,52%)
+
+                                      Audiovisual                1256 (8,64%)
+
+                                    Artes Visuais                1237 (8,51%)
+
+                               Patrimônio Cultural       500 (3,44%)
+
+                                 Artes Integradas       380 (2,61%)
+
+                               Museus e Memória      9 (0,06%)
+
+                                                                           Frequência
+                                                       Fonte: elaborado pelos autores.
+
+
+  1 Um mesmo doador pode fazer doações para múltiplos projetos.
+Capítulo 3 - Incentivos atuais à Cultura e a Lei Rouanet                                                                         13
+
+
+                                      Figura 3.2: Número acumulado de doadores por área entre 2010 e 2019.
+
+                                             Artes Cênicas                                                     39454 (39,82%)
+
+                                                   Música                                                34055 (34,37%)
+           Área dos projetos
+
+
+
+                                             Humanidades                   9043 (9,13%)
+
+                                             Artes Visuais              6145 (6,2%)
+
+                                      Patrimônio Cultural              4772 (4,82%)
+
+                                               Audiovisual          3961 (4%)
+
+                                        Artes Integradas         1583 (1,6%)
+
+                                      Museus e Memória         71 (0,07%)
+
+                                                                                         Frequência
+                                                                   Fonte: elaborado pelos autores.
+
+
+       A seguir, a Figura 3.3 mostra a evolução do volume total de recursos captados por ano. A linha
+verde mostra o volume total de recursos captados pelos projetos considerados em nossos exercícios de
+simulação, enquanto a linha escura mostra a mesma informação considerando todos os projetos do
+quais obtivemos dados. Como pode ser visto, ambas as linhas começam de forma praticamente paralela,
+mas passam a seguir trajetórias opostas a partir de 2017. Isso ocorre porque limitamos a amostra
+usada nos exercícios de simulação a projetos terminados até o fim de 2019, de modo a desconsiderar
+desproporcionalmente mais os projetos recentes e os com maiores períodos de duração.
+
+
+             Figura 3.3: Evolução do total de recursos captados por ano entre 2010 e 2019.
+           Milhões de reais de 2021
+
+
+
+
+                                      2000
+
+
+                                      1500
+
+
+                                      1000
+
+
+                                       500
+
+
+                                                2010   2011     2012     2013     2014    2015    2016     2017    2018   2019
+                                                                                      Ano
+
+                                                                 Amostra irrestrita      Amostra usada nas simulações
+
+
+                                                             Notas: valores em milhões de reais de 2021.
+                                                                  Fonte: elaborado pelos autores.
+Capítulo 3 - Incentivos atuais à Cultura e a Lei Rouanet                                              14
+
+
+       Como mostrado na Figura 3.3, o volume total de recursos captados cresce rapidamente entre os
+anos de 2010 e 2011, permanecendo relativamente estável até o período de início da recente recessão
+econômica brasileira. Enquanto para a amostra irrestrita o volume de recursos volta a crescer a partir
+de 2017, ele inicia tendência de queda acentuada na amostra usadas nas simulações. Essa queda
+acentuada se deve à truncagem dos dados pelo ano de término, como exposto no parágrafo anterior, e
+não deve comprometer as simulações feitas, uma vez que nelas são consideradas rodadas anuais de
+redistribuição de recursos de financiamento.
+       Por fim, a Figura 3.4 mostra quem foram os 10 maiores doadores para os projetos considerados
+em nossa amostra. Note que todos são pessoas jurídicas situadas entre as maiores empresas estatais
+e privadas do Brasil, algo esperado visto que os valores doados são uma fração abatida do valor do
+Imposto de Renda ao qual a União renunciou. É digno de nota que, enquanto o doador médio destinou
+R$ 481 mil aos projetos em nossa amostra, o Banco do Brasil, o maior doador, destinou valor 853
+vezes maior e a Samsung, a décima maior doadora, destinou valor 241 vezes maior. Isso deixa explícito
+a influência desproporcional que grandes agentes econômicos têm em escolher quais projetos culturais
+serão financiados pela Lei Rouanet.
+      Figura 3.4: Ranking dos 10 maiores doadores de recursos acumulados entre 2010 e 2019.
+                                   Banco do Brasil                                           410.51
+                                               Vale                                         385.93
+                     Petrobrás (Petróleo Brasileiro)                                315.73
+                                           BNDES                                   292.49
+                      Bradesco Vida e Previdência                            247.49
+                                              Cielo                       208.79
+           Cia Brasileira de Metalurgia e Mineração                 154.9
+                                        Banco Itau               119.93
+                                  Banco Bradesco                 118.72
+                                          Samsung                116.37
+
+                                   Notas: valores em milhões de reais de 2021.
+                                        Fonte: elaborado pelos autores.
+
+
+
+3.2    Distribuição de Recursos com a Lei Rouanet
+       A influência do poder econômico dos doadores na escolha do nível de financiamento dos
+projetos culturais fica evidente na Figura 3.5, onde cada ponto representa um projeto que conseguiu
+captar qualquer valor positivo de recursos através da Lei Rouanet no período considerado. Note que não
+há nenhuma correlação clara entre o número de doadores e os recursos recebidos em termos percentuais
+do valor máximo aprovado pelo órgão regulador, embora os projetos sejam menos concentrados a
+medida que o número de doadores aumenta. Assumindo que o número de doadores esteja positivamente
+correlacionado com o interesse público em um dado projeto, essa evidência corrobora com o argumento
+Capítulo 3 - Incentivos atuais à Cultura e a Lei Rouanet                                                           15
+
+
+de que o mecanismo vigente de incentivo a projetos culturais pode estar longe do socialmente desejado.
+ Figura 3.5: Percentual do total aprovado recebido através da Lei Rouanet por número de doadores.
+                                  100
+             Pontos percentuais
+
+
+
+
+                                   75
+
+
+                                   50
+
+
+                                   25
+
+
+                                    0
+                                          0             10             20              30         40          50
+                                                                   Número de doadores
+Notas: colocamos limite ao número de doadores para melhor visualização. Em azul a tendência linear.
+Fonte: elaborado pelos autores.
+
+
+        Abaixo, a Figura 3.6 mostra quanto dos recursos captados através da Lei Rouanet foi destinado
+para cada área, em termos absolutos e relativos. Como esperado, as duas maiores áreas em número
+de doadores, Artes Cênicas e Música, são as que recebem mais recursos da Lei Rouanet, porém a
+proporção menor de recursos (34% e 22%) em relação a de doadores (40% e 34%) indica que as
+doações recebidas por projetos dessas áreas costumam ter valor menor. Também é visível como as
+áreas de Artes Visuais, Patrimônio Cultural, e Audiovisual, as quais concentram respectivamente
+6,1%, 4,9%, e 3,7% dos doadores, recebem respectivamente 14,1%, 9,5%, e 7,4% dos recursos totais,
+sinalizando que costumam receber doações maiores do que a média. Por fim, Artes Integradas, e
+Museus e Memórias, as menores áreas tanto em número de doadores quanto em número de projetos
+também o são nos totais captados através das doações.
+                                  Figura 3.6: Total de recursos destinados para cada área na Lei Rouanet.
+
+                                        Artes Cênicas                                          4186,09 (34.65%)
+
+                                              Música                                2698,91 (22.34%)
+             Área dos projetos
+
+
+
+
+                                        Artes Visuais                       1706,38 (14.13%)
+
+                                  Patrimônio Cultural                1152,28 (9.54%)
+
+                                        Humanidades                977,77 (8.09%)
+
+                                          Audiovisual             895,49 (7.41%)
+
+                                    Artes Integradas          459,91 (3.81%)
+
+                                  Museus e Memória       3 (0,02%)
+
+                                                                         Milhões de reais de 2021
+                                                             Fonte: elaborado pelos autores.
+Capítulo 3 - Incentivos atuais à Cultura e a Lei Rouanet                                                      16
+
+
+       Por fim, a Tabela 3.1 traz os 10 projetos culturais mais beneficiados pela Lei Rouanet, em
+valores absolutos. Em sua maioria são grandes e recorrentes projetos das áreas de Patrimônio Cultural
+e Artes Visuais. É especialmente interessante a presença de quatro planos anuais de atividades do
+Itaú Cultural, cujos projetos receberam enormes doações de pessoas jurídicas relacionadas ao banco
+homônimo. O fato anterior evidencia a influência de interesses privados na destinação dos recursos de
+financiamento.
+     Tabela 3.1: Projetos que receberam o maior volume de recursos por meio da Lei Rouanet.
+ PRONAC     Nome                                            Área                     Nº doadores Valor recebido
+   107097   Museu da Imagem e do Som - MIS/RJ             Patrimônio Cultural            16           63.80
+   108960   Itaú Cultural - Plano de Atividades 2011      Artes Integradas                4           53.04
+   119340   30ª Bienal de São Paulo                       Artes Visuais                  43           39.49
+  1111923   Itaú Cultural - Plano de Atividades 2012      Artes Visuais                   6           37.37
+  1113323   Restauração do Palácio do Campo das Princesas Patrimônio Cultural            18           33.76
+   128313   Itaú Cultural - Plano de Atividades 2013      Patrimônio Cultural             7           32.08
+   178343   O Fantasma da Ópera                           Artes Cênicas                  29           28.51
+   151899   32ª Bienal de São Paulo                       Artes Visuais                  43           27.54
+   139298   Itaú Cultural - Plano de Atividades 2014      Patrimônio Cultural             6           26.98
+   121187   Museu Judaico de São Paulo                    Patrimônio Cultural            59           26.72
+                             Notas: valores recebidos em milhões de reais de 2021.
+                                        Fonte: elaborado pelos autores.
+   4. Simulação: Quadratic Funding Puro
+
+
+        Nesse capítulo serão mostrados os resultados da simulação da redistribuição dos recursos
+oriundos de renúncia fiscal doados a projetos culturais caso essa seguisse o mecanismo de Quadratic
+Funding Puro descrito no Capítulo 2.
+        As vantagens e fragilidades da adoção do Quadratic Funding em sua forma pura ficam evidentes
+na Figura 4.1. De modo similar à Figura 3.5, cada ponto representa um projeto que receberia algum
+valor positivo de recursos caso o mecanismo de Quadratic Funding Puro fosse adotado. Como pode
+ser visto, passa a existir uma correlação positiva entre o número de doadores e os recursos que seriam
+recebidos, o que seria mais próximo do ótimo social. Entretanto, pode ocorrer desse mecanismo acabar
+destinando valores que vão muito além do necessário para a execução dos projetos em questão. Em
+nossa simulação, tal excesso ocorreria para todos os projetos cujos pontos se situam acima da linha
+vermelha, a qual demarca os 100 pontos percentuais da razão entre o valor que seria recebido e o total
+de valor aprovado de cada projeto (Cap).
+                   Figura 4.1: Percentual do cap recebido no QF Puro por número de doadores.
+                                 600
+
+                                 500
+            Pontos percentuais
+
+
+
+
+                                 400
+
+                                 300
+
+                                 200
+
+                                 100
+
+                                   0
+                                       0   10      20             30             40            50
+                                                Número de doadores
+Notas: colocamos limite ao número de doadores para melhor visualização. Em azul a tendência linear. Em vermelho a
+linha que demarca os 100 pontos percentuais.
+Fonte: elaborado pelos autores.
+
+
+        Embora possa ser um problema ao nível individual dos projetos, o excesso de financiamento não
+aparenta ser muito distorcivo no agregado por áreas, como evidencia a Figura 4.2. Como o Quadratic
+Funding diminui, mas não elimina completamente, a influência de grandes doações, a distribuição
+de recursos entre as área segue o mesmo ordenamento do que o da Lei Rouanet. Ainda assim, é
+digno de nota que as áreas que recebem doações individuais com valor médio menor, Artes Cênicas e
+Capítulo 4 - Simulação: Quadratic Funding Puro                                                                                       18
+
+
+Música, passam a receber uma proporção maior dos recursos totais, enquanto as três áreas que recebem
+doações individuais com valor médio maior, Artes Visuais, Patrimônio Cultural, e Audiovisual, passam
+a receber valores agregados ligeiramente menores.
+                                 Figura 4.2: Total de recursos destinados para cada área no QF Puro.
+
+                                   Artes Cênicas                                                       4831,5 (40%)
+
+                                          Música                                      3225,9 (26.7%)
+           Área dos projetos
+
+
+
+
+                                    Artes Visuais                      1654,91 (13.7%)
+
+                               Patrimônio Cultural              948,53 (7.85%)
+
+                                    Humanidades             529,23 (4.38%)
+
+                                      Audiovisual          478,01 (3.96%)
+
+                                 Artes Integradas          409,98 (3.39%)
+
+                               Museus e Memória        1,78 (0.01%)
+
+                                                                      Milhões de reais de 2021
+                                                          Fonte: elaborado pelos autores.
+
+
+       Comparativamente, a Tabela 4.1 mostra quais seriam os 10 maiores beneficiados caso o
+Quadratic Funding Puro fosse adotado. A maioria desses projetos passaria a ser das áreas de Artes
+Cênicas e Música, com números de doadores em ordem de magnitude maior do que os dos projetos
+cujas captações de recursos via Lei Rouanet são maiores. Além disso, os valores que seriam recebidos
+por esses projetos ultrapassariam em algumas vezes os maiores valores da Lei Rouanet.
+  Tabela 4.1: Projetos que receberiam o maior volume de recursos com Quadratic Funding Puro.
+ PRONAC    Nome                                                            Área             Nº doadores Valor simulado   Valor Rouanet
+  128451   Turnê Nacional de Dança e Teatro                                Artes Cênicas       1201         359.54           3.65
+ 1210125   Guerra e Paz. Itinerância Belo Horizonte e Paris                Artes Visuais       824          261.69          16.99
+  149327   Temporada Pólobh &#x2013; 2ª Edição                             Artes Cênicas       602          224.01           2.40
+  110182   OSMG e CLMG - Programação 2011                                  Música              705          187.16           4.69
+  139942   Concertos pela Cidade 2014 - OSMG e CLMG                        Música               593         130.46           3.07
+  108162   Orquestra Filarmônica de Minas Gerais - Plano 2011              Música              845          124.93           3.03
+  139080   Temporada PoloBh de Artes Cênicas                               Artes Cênicas       301          107.41           2.36
+  105504   OSB - Temporada 2010/2011                                       Música              217          100.64          26.67
+  138574   Instituto Tomie Ohtake - Plano 2014                             Artes Visuais        42           89.33          23.69
+  175950   Cine Theatro Brasil - Plano 2018                                Artes Cênicas       309           89.14           4.41
+                                               Notas: valores recebidos em milhões de reais de 2021.
+                                                          Fonte: elaborado pelos autores.
+
+
+       Assim, o Quadratic Funding Puro pode ser eficaz em reduzir a influência dos doadores de
+maior poder econômico, mas acaba criando outros problemas como o excesso de financiamento, o qual
+fica evidente na comparação das duas últimas coluna da Tabela 4.1. A fim de remediar o excesso de
+recursos recebidos por projetos com muitos doadores, introduz-se um teto de recebimento na simulação
+do Quadratic Funding Caps.
+   5. Simulação: Quadratic Funding com Cap
+
+
+        Nesse capítulo são mostrados os resultados da simulação baseada no mecanismo de Quadratic
+Funding com Cap, o qual implementa a fórmula do Quadratic Funding ao mesmo tempo em que
+respeita os limites máximos que podem ser recebidos por cada projeto. O procedimento para sua
+implementação está descrito no Capítulo 2.
+        A Figura 5.1 deixa evidente que, ao contrário da distribuição da Lei Rouanet, o Quadratic
+Funding com Cap cria uma correlação positiva entre o número de doadores e os valores que seriam
+recebidos pelos projetos, embora essa correlação seja mais sútil do que a criada pelo Quadratic Funding
+Puro. Além disso, a introdução de um limite na redistribuição de recursos evita que projetos com
+muitos doadores recebam recursos em excesso, dados o escopo e a escala de cada projeto.
+       Figura 5.1: Percentual do cap recebido através do QF com Cap por número de doadores.
+                                  100
+             Pontos percentuais
+
+
+
+
+                                   75
+
+
+                                   50
+
+
+                                   25
+
+
+                                    0
+                                        0   10       20             30             40             50
+                                                  Número de doadores
+Notas: colocamos limite ao número de doadores para melhor visualização. Em azul a tendência linear.
+Fonte: elaborado pelos autores.
+
+
+        A agregação dos recursos redistribuídos para cada área via Quadratic Funding com Cap,
+mostrada na Figura 5.2, se assemelha em proporções e ordenamento à agregação análoga realizada
+para a Lei Rouanet (Figura 3.6). A diferença mais aparente entre as duas é a posição em que a área
+de Humanidades se encontra, recebendo valor total menor quando se faz do Quadratic Funding com
+Cap. Isso indica que as maiores diferenças provocadas pela implementação do Quadratic Funding
+Puro ocorreriam por causa dos projetos que receberiam quantias excessivas, algo corrigido quando os
+limites são considerados.
+Capítulo 5 - Simulação: Quadratic Funding com Cap                                                                                      20
+
+
+                               Figura 5.2: Total de recursos destinados para cada área no QF com cap.
+
+                                   Artes Cênicas                                                     4191,21 (34.7%)
+
+                                          Música                                    2678,54 (22.17%)
+           Área dos projetos
+
+
+
+                                    Artes Visuais                            1880,65 (15.57%)
+
+                               Patrimônio Cultural                  1234,23 (10.22%)
+
+                                      Audiovisual              806,87 (6.68%)
+
+                                    Humanidades                795,64 (6.59%)
+
+                                 Artes Integradas           488,33 (4.04%)
+
+                               Museus e Memória        4,37 (0.04%)
+
+                                                                      Milhões de reais de 2021
+                                                          Fonte: elaborado pelos autores.
+
+
+       A Tabela 4.1 mostra outras semelhanças entre a atual forma de financiar projetos culturais e o
+Quadratic Funding com Cap. A maioria dos grandes projetos de Patrimônio Cultural e Artes Visuais
+os quais receberam o maior volume de recursos pela Lei Rouanet também o seriam caso essa variação
+do Quadratic Funding fosse de fato implementada. Mais ainda, esses mesmos projetos passariam a
+receber um volume maior de recursos. Apesar disso, vale notar que haveria alguma abertura de espaço
+para projetos apoiados por muitos doadores, como é o caso do realizado pela Orquestra Sinfônica
+Brasileira (OSB) e dos planos anuais do Instituto Tomie Ohtake.
+ Tabela 5.1: Projetos que receberiam o maior volume de recursos no Quadratic Funding com Cap.
+ PRONAC    Nome                                                       Área                  Nº doadores   Valor simulado   Valor Rouanet
+ 107097    Museu da Imagem e do Som - MIS/RJ                          Patrimônio Cultural      16             67.30           63.80
+ 1111923   Itaú Cultural - Plano de Atividades 2012                   Artes Visuais              6            66.90           37.37
+ 108960    Itaú Cultural - Plano de Atividades 2011                   Artes Integradas          4             59.58           53.04
+ 151899    32ª Bienal de São Paulo                                    Artes Visuais             43            52.56           27.54
+ 119340    30ª Bienal de São Paulo                                    Artes Visuais             43            49.11           39.49
+ 128313    Itaú Cultural - Plano de Atividades 2013                   Patrimônio Cultural       7             47.96           32.08
+ 1113323   Restauração do Palácio do Campo das Princesas              Patrimônio Cultural       18            46.71           33.76
+ 172109    Instituto Tomie Ohtake - Plano 2018                        Artes Visuais            39             46.35           11.91
+ 138574    Instituto Tomie Ohtake - Plano 2014                        Artes Visuais            42             41.79           23.69
+ 105504    OSB - Temporada 2010/2011                                  Música                   217            37.24           26.67
+                                               Notas: valores recebidos em milhões de reais de 2021.
+                                                          Fonte: elaborado pelos autores.
+   6. Simulação: Basket Quadratic Funding
+
+
+        Nesse capítulo mostra-se os resultados das simulações baseadas no mecanismo de Basket
+Quadratic Funding, as quais buscam implementar o Quadratic Funding com Cap de forma a dar mais
+poder ao órgão regulador sobre quais áreas devem ter seus projetos priorizados. Foram simuladas duas
+abordagens: uma primeira na qual os recursos totais são divididos igualmente entre as áreas e, uma
+segunda, na qual a redistribuição é proporcional ao número de projetos em cada área. Escolheu-se
+esses critérios objetivos, mas nada impediria que incentivos fossem estabelecidos de maneira ad hoc.
+
+6.1     Distribuição igualitária de recursos entre áreas
+        À primeira vista, a Figura 6.1 pode fazer parecer que houve redução na correlação positiva entre
+o número de doadores de um projeto e o valor recebido. Entretanto a correlação se intensifica quando
+são considerados os projetos de uma mesma área1 . Além disso, sendo uma variação do Quadratic
+Funding com Cap, o Basket Quadratic Funding com distribuição igualitária de recursos entre áreas
+não sofre com o problema de excesso de financiamento para projetos individuais, porém pode ocorrer
+de sobrarem recursos quando consideramos as áreas nas quais os projetos são agregados.
+
+
+
+  Figura 6.1: Percentual do cap recebido através do Basket QF igualitário por número de doadores.
+                                  100
+             Pontos percentuais
+
+
+
+
+                                   75
+
+
+                                   50
+
+
+                                   25
+
+
+                                    0
+                                        0   10       20             30             40             50
+                                                  Número de doadores
+Notas: colocamos limite ao número de doadores para melhor visualização. Em azul a tendência linear.
+Fonte: elaborado pelos autores.
+
+
+
+
+   1 Esse fenômeno estatístico no qual uma tendência aparece em grupos de dados, mas difere quando esses grupos são
+
+combinados é chamado de Paradoxo de Simpson.
+Capítulo 6 - Simulação: Basket Quadratic Funding                                                                                       22
+
+
+       O cenário de sobra de recursos é visível na Figura 6.2, no qual seria esperado que todas as barras
+presentes tivessem o mesmo tamanho, ou seja, que todas as áreas recebessem a mesma quantidade de
+recursos. Essa situação de sobra ocorre quando a soma dos limites dos projetos de uma área é menor
+do que o volume de recursos que deveriam ser destinados. Assim, metade das áreas consideradas
+acaba por não fazer uso da totalidade dos recursos destinados à elas. Esse problema é extremamente
+pronunciado na área de Museus e Memória, a qual possui apenas 9 (0,07%) projetos classificados
+como tal. As áreas de Humanidades, Audiovisual e Artes Integradas também receberiam o mesmo
+montante de R$ 1,183 bi, mas demandariam valores inferiores, ocorrendo a sobra de recursos.
+     Figura 6.2: Total de recursos usados no financiamento de projetos por área no Basket QF.
+
+                               Patrimônio Cultural                                                   1183,52 (16.64%)
+
+                                          Música                                                     1183,52 (16.64%)
+           Área dos projetos
+
+
+
+
+                                    Artes Visuais                                                    1183,52 (16.64%)
+
+                                   Artes Cênicas                                                     1183,52 (16.64%)
+
+                                    Humanidades                                                1027,67 (14.45%)
+
+                                      Audiovisual                                             1000,27 (14.06%)
+
+                                 Artes Integradas                  340,9 (4.79%)
+
+                               Museus e Memória        10,41 (0.15%)
+
+                                                                      Milhões de reais de 2021
+                                                          Fonte: elaborado pelos autores.
+
+
+       Quanto aos projetos que seriam os maiores recebedores caso o Basket Quadratic Funding
+igualitário fosse adotado, listados na Tabela 6.1, vale destacar que todos podem ser enquadrados como
+projetos regulares para a manutenção de institutos culturais e museus, além do financiamento da Bienal
+de São Paulo.
+     Tabela 6.1: Projetos que receberiam o maior volume de recursos no Basket QF igualitário.
+ PRONAC    Nome                                                       Área                  Nº doadores   Valor simulado   Valor Rouanet
+ 151899    32ª Bienal de São Paulo                                    Artes Visuais             43            38.59           27.54
+ 172109    Instituto Tomie Ohtake - Plano 2018                        Artes Visuais             39            37.93           11.91
+ 1111923   Itaú Cultural - Plano de Atividades 2012                   Artes Visuais              6            37.22           37.37
+ 107097    Museu da Imagem e do Som - MIS/RJ                          Patrimônio Cultural       16            37.16           63.80
+ 128313    Itaú Cultural - Plano de Atividades 2013                   Patrimônio Cultural       7             29.90           32.08
+ 183722    MASP - Plano 2019                                          Patrimônio Cultural       94            28.82           24.38
+ 1113323   Restauração do Palácio do Campo das Princesas              Patrimônio Cultural       18            28.04           33.76
+ 162563    Instituto Tomie Ohtake - Plano 2017                        Artes Visuais             58            27.67           21.45
+ 163365    MASP - Plano 2017                                          Artes Visuais             46            27.59           16.38
+ 127873    Museu da Cana de Açúcar                                    Patrimônio Cultural       25            27.51           12.26
+                                               Notas: valores recebidos em milhões de reais de 2021.
+                                                          Fonte: elaborado pelos autores.
+
+
+       Praticamente todos esses projetos de Artes Visuais e Patrimônio Cultural também figurariam
+como os maiores recebedores de recursos caso o mecanismo adotado fosse o Quadratic Funding
+Capítulo 6 - Simulação: Basket Quadratic Funding                                                                  23
+
+
+com Cap, mas passariam a receber menos recursos no cenário dessa simulação. Ainda assim, em sua
+maioria, esses projetos receberiam quantidades semelhantes ou maiores de recursos em relação a Lei
+Rouanet. Uma exceção a esse padrão é projeto do Museu da Imagem e do Som, o qual receberia apenas
+58% das doações que conseguiu arrecadar com a Lei Rouanet. Não temos como avaliar esse efeito,
+mas para muitos projetos, receber apenas um valor parcial pode inviabilizar o projeto como um todo.
+
+6.2     Distribuição proporcional de recursos entre áreas
+        Uma outra forma proposta para a implementação do Basket Quadratic Funding é a divisão
+dos recursos totais entre as áreas de modo proporcional ao número de projetos em cada uma delas.
+Como é visível na Figura 6.3, a correlação positiva entre o número de doadores de um projeto e o valor
+recebido pelo mesmo é maior do que a da divisão igualitária entre as áreas. Além disso, a divisão de
+modo proporcional ao número de projetos soluciona o problema de excesso de financiamento para
+projetos individuais.
+Figura 6.3: Percentual do cap recebido através do Basket QF proporcional por número de doadores.
+                                 100
+            Pontos percentuais
+
+
+
+
+                                  75
+
+
+                                  50
+
+
+                                  25
+
+
+                                   0
+                                       0   10       20             30             40            50
+                                                Número de doadores
+Notas: colocamos limite ao número de doadores para melhor visualização. Em azul a tendência ajustada por LOESS.
+Fonte: elaborado pelos autores.
+
+
+        Na prática, o problema da sobra de recursos destinados a uma área deixa de ser uma questão,
+embora o mesmo teoricamente ainda possa acontecer. Como pode ser visto na Figura 6.4, os totais
+de recursos destinados para cada área pelo mecanismo de Basket Quadratic Funding proporcional é
+praticamente coincidente com a proporção de projetos culturais classificados em cada uma das áreas
+(Figura 3.1), seguindo o mesmo ordenamento e representando frações similares do todo.
+Capítulo 6 - Simulação: Basket Quadratic Funding                                                                                  24
+
+
+                                 Figura 6.4: Total de recursos destinados para cada área no Basket QF.
+
+                                    Artes Cênicas                                                    2790,73 (35.43%)
+
+                                           Música                                            2146,8 (27.25%)
+            Área dos projetos
+
+
+
+                                     Humanidades                         1041,41 (13.22%)
+
+                                     Artes Visuais                 683,21 (8.67%)
+
+                                       Audiovisual                674,93 (8.57%)
+
+                                Patrimônio Cultural          325,06 (4.13%)
+
+                                  Artes Integradas         209,84 (2.66%)
+
+                                Museus e Memória        5,87 (0.07%)
+
+                                                                        Milhões de reais de 2021
+                                                           Fonte: elaborado pelos autores.
+
+
+       Por fim, na Tabela 6.2 constam quais seriam os maiores recebedores de financiamento caso
+o Basket Quadratic Funding proporcional fosse adotado. Em relação à variação igualitária desse
+mesmo mecanismo, os projetos de Patrimônio Cultural praticamente deixam de constar na lista, dando
+lugar a projetos de Artes Cênicas e Música. Contudo, tais projetos continuam sendo majoritariamente
+relacionados ao financiamento de institutos culturais, museus e eventos regulares, se excetuando o
+espetáculo O Fantasma da Ópera, o qual seria o segundo maior recebedor.
+    Tabela 6.2: Projetos que receberiam o maior volume de recursos no Basket QF proporcional.
+ PRONAC Nome                                                     Área                  Nº doadores   Valor simulado   Valor Rouanet
+   151899     32ª Bienal de São Paulo             Artes Visuais                               43         32.53           27.54
+   178343     O Fantasma da Ópera                 Artes Cênicas                               29         28.65           28.51
+   162563     Instituto Tomie Ohtake - Plano 2017 Artes Visuais                               58         27.67           21.45
+   119340     30ª Bienal de São Paulo             Artes Visuais                               43         27.34           39.49
+   138574     Instituto Tomie Ohtake - Plano 2014 Artes Visuais                               42         26.83           23.69
+  1410807     Instituto Tomie Ohtake - Plano 2015 Artes Visuais                               46         24.67           23.14
+   177178     MASP - Plano 2018                   Artes Visuais                               82         22.56           17.78
+   175954     OSM - Temporada 2018                Música                                      70         21.73           18.36
+   184425     OSM - Temporada 2019                Música                                      63         21.37           17.09
+   183722     MASP - Plano 2019                   Patrimônio Cultural                         94         19.91           24.38
+                                                Notas: valores recebidos em milhões de reais de 2021.
+                                                           Fonte: elaborado pelos autores.
+
+
+       Por fim, a próxima seção traz uma discussão das diferentes implementações do Quadratic
+Funding propostas e analisa os efeitos sobre a concentração de recursos destinados aos projetos. À luz
+desses resultados, discute-se a adequação dos mecanismos de QF para políticas de incentivos culturais.
+   7. Discussão e Considerações Finais
+
+
+        Bens e serviços culturais podem sofrer de problemas de subprovisão e subfinanciamento
+privados, seja por trazerem satisfação individual a quem os consome e afetando positivamente toda a
+sociedade ou seja por, alternativamente, terem custos relativos de produção cada vez maiores a medida
+em que a tecnologia avança. Para amenizar a situação, busca-se implementar arranjos institucionais
+para incentivar a produção cultural. No Brasil, adotou-se renúncias fiscais de Imposto de Renda
+destinado para projetos culturais, a partir da promulgação da Lei Rouanet. Dentre as principais críticas
+à Lei Rouanet, pode-se citar o nível de influência que agentes com grande poder econômico têm na
+decisão de quais projetos culturais serão mais incentivados, isto é, quais receberão maiores doações.
+        O Quadratic Funding é uma proposta alternativa de mecanismo de incentivo via financiamento,
+visando equilibrar a influência de doações individuais e o número de doações. Em teoria, sob um
+conjunto de hipóteses, ele redistribuiria os recursos totais entre diferentes projetos culturais de modo a
+alcançar uma nova alocação socialmente desejável. Na prática, a implementação do Quadratic Funding
+poderia ocasionar novos problemas. Para lançar luz sobre como seria o desempenho do Quadratic
+Funding e possíveis variações, expomos neste relatório os resultados de exercícios de simulação
+realizados usando dados referentes aos projetos culturais beneficiados pela Lei Rouanet.
+        A Tabela 7.1 mostra estatísticas descritivas, o índice de Gini e o coeficiente de correlação de
+Kendall calculados para as distribuições de recursos em cada implementação do Quadratic Funding
+testada1 . O Quadratic Funding Puro gera uma distribuição mais dispersa e mais desigual do que a da
+Rouanet atual, além de ter destinado valores muito altos para alguns poucos projetos. O respeito aos
+limites de captação aprovados para cada projeto faz com que esses problemas sejam atenuados, mas
+permanecendo ainda superior à atual Lei Rouanet. Enquanto isso, as duas especificações do Basket
+Quadratic Funding têm valor médio, desvio-padrão e valor máximo menores, mas isso não é suficiente
+para que elas se tornem mais igualitárias do que a distribuição da Lei Rouanet.
+        O coeficiente de correlação de Kendall (tau) mostra o relacionamento entre a posição dos
+projetos ordenados de acordo com o valor total recebido. Todas as comparações foram feitas em
+relação à distribuição original na Lei Rouanet. Assim, pode-se concluir que o Quadratic Funding Puro
+e o Quadratic Funding com Cap geram distribuições de recursos semelhantes à da Lei Roaunet, com
+coeficientes de correlação de 0,74 e 0,78, respectivamente. Divergências ocorrem com a implementação
+do Basket Quadratic Funding, em que a distribuição igualitária é a que mais se afastaria da ordem de
+recursos originalmente distribuídos.
+   1 Para calcular o coeficiente de correlação de Kendall foram usadas as distribuições dos valores reais captados pelos
+
+projetos via Lei Rouanet e dos valores reais que seriam recebidos através do uso de cada um dos mecanismos simulados.
+Capítulo 7 - Discussão e Considerações Finais                                                                                                           26
+
+
+                                                    Tabela 7.1: Estatísticas descritivas de desigualdade e correlação.
+   Mecanismo                                                         Valor médio         Desvio-padrão      Maior valor      Gini        Kendall corr
+   Lei Rouanet                                                              0.83             1.91                63.8        0.66            1
+   QF Puro                                                                  0.83             6.07               359.54       0.87           0.74
+   QF com Cap                                                               0.83             2.59                67.3        0.76           0.78
+   Basket QF igualitário                                                    0.49             1.62               38.59        0.77           0.53
+   Basket QF proporcional                                                   0.54             1.42                32.53       0.72           0.62
+                                                    Notas: valores em milhões de reais de 2021, exceto índice de Gini e Kendall.
+                                                                         Fonte: elaborado pelos autores.
+
+
+       A Figura 7.1 retrata com mais detalhes a desigualdade das distribuições provenientes de
+cada mecanismo, representando as suas curvas de Lorenz. Essas curvas consideram a porcentagem
+acumulada de projetos no eixo horizontal e a porcentagem acumulada dos valores que seriam recebidos
+no eixo vertical. A reta de 45º mostra o comportamento de uma distribuição perfeitamente igualitária,
+onde qualquer fração dos projetos receberia a mesma fração dos recursos totais acumulados. Quanto
+mais distante uma curva de Lorenz está da reta de 45º, mais desigual é a distribuição. A partir dessas
+curvas é possível ver que 25% dos maiores projetos da Rouanet ficam com 75% dos recursos totais. Já
+no Quadratic Funding Puro, a concentração é maior, com 5% dos projetos recebendo 75% do total.
+       Figura 7.1: Curvas de Lorenz das distribuições geradas pelos mecanismos simulados.
+
+                                                    1.00
+                Percentagem acumulada de recursos
+
+
+
+
+                                                    0.75
+
+
+
+
+                                                    0.50
+
+
+
+
+                                                    0.25
+
+
+
+
+                                                    0.00
+
+                                                           0.00               0.25             0.50              0.75             1.00
+                                                                               Percentagem acumulada de projetos
+
+                                                                  Rouanet      QF Puro     QF Cap     QF Basket Igual    QF Basket Prop
+
+
+                                                                              Fonte: elaborado pelos autores.
+Capítulo 7 - Discussão e Considerações Finais                                                      27
+
+
+       Concluímos que o uso de mecanismos de Quadratic Funding para financiamento da cultura deve
+ser feito com cautela. Em teoria, a aplicação do Quadratic Funding deveria aproximar a distribuição
+de recursos do socialmente desejável, mas isso não significa que a distribuição resultante será mais
+igualitária. De fato, os mecanismos de Quadratic Funding geram distribuições mais desiguais na
+presença de projetos com muitos doadores, como é o caso dos dados de nossas simulações. Mais ainda,
+essa implementação pode sofrer de outros problemas práticos, como tentativas de fraude e conluio,
+cujas implicações e soluções são discutidas na literatura, mas fogem ao escopo deste trabalho. De todo
+modo, há que se ter cuidado ao introduzir variações muito complexas do Quadratic Funding, já que
+podem se afastar demais do se propósito original de um mecanismo simples e de fácil entendimento.
+  Referências Bibliográficas
+
+
+
+
+BAUMOL, W. J.; BOWEN, W. G. On the performing arts: the anatomy of their economic problems.
+The American economic review, JSTOR, v. 55, n. 1/2, p. 495–502, 1965. Citado na página 5.
+
+BUTERIN, V.; HITZIG, Z.; WEYL, E. G. A flexible design for funding public goods. Management
+Science, INFORMS, v. 65, n. 11, p. 5171–5187, 2019. Citado 2 vezes nas páginas 6 e 10.
+
+DESARROLLO, U. C. M. de Cultura y; CUÉLLAR, J. P. de. Our Creative Diversity: Report of the
+World Commission on Culture and Development: Summary Version. [S.l.]: World Comission on
+Culture and Development, 1996. Citado na página 5.
+
+POSNER, E. A.; WEYL, E. G. Quadratic voting and the public good: introduction. Public Choice,
+Springer, v. 172, n. 1, p. 1–22, 2017. Citado na página 6.
+
+SAMUELSON, P. A. The pure theory of public expenditure. The Review of Economics and Statistics,
+The MIT Press, v. 36, n. 4, p. 387–389, 1954. Citado na página 5.
+
+UNESCO. The 2009 UNESCO framework for cultural statistics. [S.l.]: UNESCO Ins-
+titute for Statistics Montreal, 2009. <http://uis.unesco.org/sites/default/files/documents/
+unesco-framework-for-cultural-statistics-2009-en_0.pdf>. Acessado em: 2022-17-02. Citado na
+página 5.
+Realização:
+

@@ -1,0 +1,143 @@
+# Fonte: https://repositorio.enap.gov.br/items/e65189ba-6767-4cae-a706-b4aaa4c0ce14/full
+# Coletado (UTC): 2026-09-27T02:43:28Z
+# sha256 do original: 2fb4a07bdc4867b550f032d7804d1eac31be805545c8f4388d98ac408288e43d
+
+Financiamento quadrático para os incentivos à cultura no Brasil: simulações sobre a Lei Rouanet
+
+ Pular para o conteúdo principal
+
+Comunica BR
+Acesso à informação
+Participe
+Legislação
+Órgãos do Governo
+Financiamento quadrático para os incentivos à cultura no Brasil: simulações sobre a Lei Rouanet
+ Página do item simplificado 
+dc.contributor.author
+Ogava, Bruno
+dc.contributor.author
+Galvão, César Augusto
+dc.contributor.author
+Adamczyk, Willian
+dc.contributor.other
+Evidência Express (EvEx)
+pt_BR
+dc.date.accessioned
+2022-05-16T20:01:09Z
+dc.date.available
+2022-05-16T20:01:09Z
+dc.date.issued
+2022-04
+dc.description.abstract
+Bens e serviços culturais transmitem ideias, símbolos e modos de vida de uma sociedade. Nessa
+definição se enquadram tanto apresentações artísticas e produtos audiovisuais, quanto atividades que
+visem a preservação do patrimônio cultural e histórico de um povo (UNESCO, 2009). Particular a esses
+bens e serviços, sua produção e consumo não contribuem apenas com o desenvolvimento econômico
+de uma região, mas também com o seu desenvolvimento social (DESARROLLO; CUÉLLAR, 1996).
+Sendo assim, o consumo de bens e serviços culturais traz benefícios maiores para a sociedade do que
+apenas a satisfação pessoal de quem os consome e utiliza. Fenômenos como a criação e manutenção
+da identidade de uma população, a preservação de objetos de estudo em coleções de museus e a
+preservação do patrimônio histórico são consequências de tal consumo.
+pt_BR
+dc.description.additional
+Iniciativa da Enap criada em parceria com a UnB, a qual possibilitou formar um time de pesquisadores para produzir produtos ágeis (em sua maioria relatórios) que são utilizados para melhorar a tomada de decisão do governo relacionada ao desenho, monitoramento e avaliação de políticas públicas.
+pt_BR
+dc.description.classification
+Orçamento e Finanças
+pt_BR
+dc.description.classification
+Políticas Sociais
+pt_BR
+dc.description.physical
+29 páginas
+pt_BR
+dc.identifier.uri
+https://repositorio.enap.gov.br/handle/1/7004
+dc.language.iso
+Idioma::Português:portuguese:pt
+pt_BR
+dc.location.country
+País::BR:Brasil
+pt_BR
+dc.publisher
+Escola Nacional de Administração Pública (Enap)
+pt_BR
+dc.publisher
+Universidade de Brasília (UnB)
+pt_BR
+dc.rights.holder
+Escola Nacional de Administração Pública (Brasil)
+pt_BR
+dc.rights.license
+Termo::Licença Padrão ENAP: É permitida a reprodução e a exibição para uso educacional ou informativo, desde que respeitado o crédito ao autor original e citada a fonte (http://www.enap.gov.br). Permitida a inclusão da obra em Repositórios ou Portais de Acesso Aberto, desde que fique claro para os usuários esses “termos de uso” e quem é o detentor dos direitos autorais, a Escola Nacional de Administração Pública (ENAP). Proibido o uso comercial. Permitida a criação de obras derivadas, desde que respeitado o crédito ao autor original. Essa licença é compatível com a Licença Creative Commons (by-nc-sa).
+pt_BR
+dc.subject
+financiamento
+pt_BR
+dc.subject
+cultura
+pt_BR
+dc.subject
+lei rouanet
+pt_BR
+dc.subject.ods
+16. Paz, justiça e instituições eficazes - Promover sociedades pacíficas e inclusivas par ao desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis.
+pt_BR
+dc.title
+Financiamento quadrático para os incentivos à cultura no Brasil: simulações sobre a Lei Rouanet
+pt_BR
+dc.type
+Folders/Cartilhas
+pt_BR
+dc.type
+Manual/Modelo
+pt_BR
+Arquivos
+ Pacote original 
+Agora exibindo 
+1 - 1 de 1
+Carregando...
+ Nome: 
+2022.03.04 - Financiamento quadrático para os incentivos à cultura no Brasil.pdf
+ Tamanho: 
+3.67 MB
+ Formato: 
+ Adobe Portable Document Format 
+ Descrição: 
+ Financiamento quadrático para os incentivos à cultura no Brasil 
+ Baixar 
+Coleções
+Evidência Express (EvEx)
+
+## Links da página
+- [Comunica BR](https://www.gov.br/secom/pt-br/acesso-a-informacao/comunicabr)
+- [Acesso à informação](https://www.gov.br/acessoainformacao/pt-br)
+- [Participe](https://www.gov.br/pt-br/participacao-social/)
+- [Legislação](https://www4.planalto.gov.br/legislacao/)
+- [Órgãos do Governo](https://www.gov.br/pt-br/orgaos-do-governo)
+- [](https://repositorio.enap.gov.br/home)
+- [Comunidades & Coleções](https://repositorio.enap.gov.br/community-list)
+- [Estatísticas](https://repositorio.enap.gov.br/statistics/items/e65189ba-6767-4cae-a706-b4aaa4c0ce14)
+- [Sobre a Biblioteca Digital](https://repositorio.enap.gov.br/sobre)
+- [Esqueceu sua senha?](https://repositorio.enap.gov.br/forgot)
+- [](https://repositorio.enap.gov.br/)
+- [Cursos da Enap](https://repositorio.enap.gov.br/communities/896efb02-7455-4dcb-8302-7334b7c13c50)
+- [Educação Executiva](https://repositorio.enap.gov.br/communities/37743a89-8fd6-4c89-9df5-c6914d60b415)
+- [Evidência Express (EvEx)](https://repositorio.enap.gov.br/collections/0c0baa23-18ba-4a55-9a2c-89cc5b2cdbae)
+- [Página do item simplificado](https://repositorio.enap.gov.br/items/e65189ba-6767-4cae-a706-b4aaa4c0ce14)
+- [Baixar](https://repositorio.enap.gov.br/bitstreams/1111500b-fe3f-4012-b5ae-e252b5551986/download)
+- [A Escola](https://www.enap.gov.br/)
+- [Cursos](https://www.enap.gov.br/pt/cursos)
+- [Biblioteca Graciliano Ramos](https://www.enap.gov.br/pt/servicos/biblioteca-graciliano-ramos)
+- [Central de Conteúdo](https://www.enap.gov.br/pt/acontece/central-de-conteudo)
+- [](https://www.instagram.com/eaboraenap/)
+- [](https://www.facebook.com/enaboraenap/)
+- [](https://twitter.com/enaboraenap)
+- [](https://www.linkedin.com/school/enaboraenap/)
+- [](https://www.youtube.com/enaboraenap)
+- [DSpace software](https://www.dspace.org/)
+- [LYRASIS](https://www.lyrasis.org/)
+- [Política de privacidade](https://repositorio.enap.gov.br/info/privacy)
+- [Termos de uso](https://repositorio.enap.gov.br/info/end-user-agreement)
+- [Accessibility settings](https://repositorio.enap.gov.br/info/accessibility)
+- [Enviar uma sugestão](https://repositorio.enap.gov.br/info/feedback)
