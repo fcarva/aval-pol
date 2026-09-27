@@ -18,7 +18,6 @@ N06,CONFERE,293; 198,analise/tabelas/07_funil_por_ciclo.csv,| Habilitados com si
 N07,CONFERE,84%; 70%; 55%,analise/tabelas/07_funil_por_ciclo.csv,| Taxa de captação entre os resolvidos | 84%; 70%; 55% |
 N08,CONFERE,78%; 74%,analise/tabelas/07_funil_captacao_anual.csv,| Valor com patrocinador que coube no teto | 78%; 74% |
 N10,CONFERE,14,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,14 municípios do interior nunca tiveram projeto habilitado
-N11,CONFERE,dos 95 que,analise/tabelas/07_funil_por_ciclo.csv,a comparação dos 95 que expiraram
 N12,CONFERE,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",analise/tabelas/03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52%"
 N14,CONFERE,71% contra 57%,analise/tabelas/03_status_conversao_recorrencia_2023_2024.csv,Recorrentes captam mais (71% contra 57%)
 N15,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024
@@ -39,16 +38,13 @@ N36,CONFERE,restam 14 municípios,analise/tabelas/03_coortes_primeira_presenca_c
 N38,CONFERE,79% dos coletivos e 78% dos individuais,analise/tabelas/07_mapa_agentes_cobertura.csv,79% dos coletivos e 78% dos individuais não informam município
 N39,CONFERE,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71",analise/tabelas/07_mapa_quadro_h3.csv,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71"
 N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"só com os coletivos, o efeito mínimo passa de 5 pontos"
-N41,CONFERE,são 463 processos e 467 registros,analise/tabelas/03_anual.csv; 07_funil_por_ciclo.csv,são 463 processos e 467 registros por ciclo
 N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)
-N43,CONFERE,"até 28 de janeiro, e a de 30%, até 20 de maio",analise/tabelas/09_cotas_2025_2026.csv,"a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio"
 N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
 N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor
 N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos listados pela SECULT somam exatamente o montante de cada ano
 N46,CONFERE,"caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao),"a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%"
-N47,CONFERE,com um projeto ainda em análise,"artigo/auditoria/auditoria_captacao_anual.csv; anexo de 2025, cota I","e a de 30%, até 20 de maio, com um projeto ainda em análise"
-N48,CONFERE,"60 decisores × 12 tarefas (1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 13,4",analise/tabelas/10_poder_conjoint.csv (60 × 12),"| H1: experimento conjunto | 60 decisores × 12 tarefas (1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 13,4 |"
-N49,CONFERE,diferenças de 7 a 13 pontos,analise/tabelas/10_poder_conjoint.csv (60 × 12),O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores
+N48,CONFERE,"30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |"
+N49,CONFERE,"diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30"
 N50,CONFERE,"somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões",analise/tabelas/10_taxa_servico_permitida_2025.csv,"os dois primeiros limites somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões"
 N51,CONFERE,Até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Até 13% do valor captado em 2025 poderia remunerar captação e elaboração
 N52,CONFERE,até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Captação e elaboração poderiam levar até 13% do valor captado em 2025
@@ -56,3 +52,6 @@ N53,CONFERE,até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mi
 N54,CONFERE,até 25%,analise/tabelas/10_rubricas_teto_in.csv (2025),a divulgação pode consumir até 25% dos recursos
 N56,CONFERE,"são 41 pareceristas credenciados, de 4 a 20 por área",analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026),"são 41 pareceristas credenciados, de 4 a 20 por área"
 N55,CONFERE,das 26 patrocinadoras,analise/tabelas/03_patrocinadores_concentracao.csv,a listagem parte das 26 patrocinadoras de 2025
+N57,CONFERE,ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63),analise/tabelas/11_teto_projeto_por_ano.csv,"O teto por projeto fixa um piso de projetos, ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63)"
+N58,CONFERE,36% dos habilitados do ciclo 2025,analise/tabelas/03_bunching_teto.csv,36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil
+N59,CONFERE,"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil",analise/tabelas/11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos),"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil"

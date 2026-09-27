@@ -93,10 +93,10 @@ SETAS = [
 PREMISSAS = [
     ("H4", "Exclusão na entrada",
      "Quem não chega a grandes contribuintes (projeto pequeno, interior, estreante) consegue entrar e captar?"),
-    ("H2", "Decisão centralizada",
+    ("H2", "Decisão concentrada",
      "O parecer só qualifica; entre os habilitados, decidem a empresa e a fila dos termos. O público não escolhe."),
     ("H1", "Marketing",
-     "A empresa escolhe pelo valor público do projeto ou pela marca que expõe sem custo?"),
+     "A escolha pela marca, retorno privado da empresa, deixa de fora bem público que a população valorizaria?"),
     ("H3", "Taxa de serviço",
      "Quanto do recurso fica com captação, elaboração e divulgação (até 10%, 5% e 25%)?"),
     ("H5", "Entrega verificável",

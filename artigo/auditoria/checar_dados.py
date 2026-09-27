@@ -67,6 +67,8 @@ aud = pd.read_csv(Path(__file__).with_name("auditoria_captacao_anual.csv")).set_
 aud25 = aud.loc[2025]
 cj = ler(TAB / "10_poder_conjoint.csv")
 cj60 = cj[(cj.respondentes == 60) & (cj.tarefas == 12)]
+cj30 = cj[(cj.respondentes == 30) & (cj.tarefas == 12)]
+teto11 = ler(TAB / "11_teto_projeto_por_ano.csv").set_index("ano")
 taxa25 = ler(TAB / "10_taxa_servico_permitida_2025.csv").iloc[0]
 rub = ler(TAB / "10_rubricas_teto_in.csv")
 par = pd.read_csv(TAB / "10_pareceristas_por_area.csv", dtype={"tabela_area": str}).set_index("tabela_area")
@@ -389,7 +391,6 @@ CHECAGENS += [
      T7 + "funil_captacao_anual.csv"),
     ("N10", "14 municípios do interior nunca tiveram projeto habilitado", str(int(coorte.loc["nunca (2022-2026)", "municipios"])),
      T + "03_coortes_primeira_presenca_canonico.csv"),
-    ("N11", "a comparação dos 95 que expiraram", f"dos {N0_07} que", T7 + "funil_por_ciclo.csv"),
     ("N12", "Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",
      f"{ {2: 'Duas'}.get(int(float(patr['empresas_para_metade'])), '?')} empresas somam metade da renúncia de 2025; energia e gás, "
      f"{pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}", T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
@@ -441,15 +442,10 @@ CHECAGENS += [
      T7 + "mapa_quadro_h3.csv"),
     ("N40", "só com os coletivos, o efeito mínimo passa de 5 pontos",
      f"passa de {int(poder07[poder07.unidade == 'município (coletivos)']['emd_pontos'].min() * 100)} pontos", T7 + "poder_hipoteses.csv"),
-    ("N41", "são 463 processos e 467 registros por ciclo",
-     f"são {int(anual.loc[TOTAL, 'processos'])} processos e {int(fun07['habilitados'].sum())} registros",
-     T + "03_anual.csv; 07_funil_por_ciclo.csv"),
     ("N42", "com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)",
      f"de {pct(1 - reent['captaram_ate_2026'].sum() / reent['projetos_recusados'].sum())} "
      f"({int(reent['projetos_recusados'].sum() - reent['captaram_ate_2026'].sum())} dos {int(reent['projetos_recusados'].sum())} recusados",
      T + "09_reentrada_resumo.csv"),
-    ("N43", "a cota de 50% se completou com termos recebidos até 28 de janeiro, e a de 30%, até 20 de maio",
-     f"até {cota_completa(2025, 4)}, e a de 30%, até {cota_completa(2025, 1)}", T + "09_cotas_2025_2026.csv"),
     ("N44", "e os 53 a 95 proponentes habilitados por ciclo",
      f"os {int(comp07['proponentes'].min())} a {int(comp07['proponentes'].max())} proponentes", T7 + "composicao_por_ciclo.csv (2022-2026)"),
     ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
@@ -461,15 +457,14 @@ CHECAGENS += [
      f"caiu de {pct(fx(2022, 'até 400 mil'))} no ciclo 2022 para {pct(fx(2024, 'até 400 mil'))} em 2024, enquanto no teto ficou entre "
      f"{pct(min(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))} e {pct(max(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))}",
      T + "03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao)"),
-    ("N47", "e a de 30%, até 20 de maio, com um projeto ainda em análise",
-     f"com { {1: 'um projeto'}.get(int(aud25['projetos_em_analise']), '?')} ainda em análise",
-     "artigo/auditoria/auditoria_captacao_anual.csv; anexo de 2025, cota I"),
     # revisão de 27/09/2026 (nova moldura): taxa de serviço, tetos das rubricas e poder do experimento conjunto
-    ("N48", "| H1: experimento conjunto | 60 decisores × 12 tarefas (1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 13,4 |",
-     f"{int(cj60.respondentes.iloc[0])} decisores × {int(cj60.tarefas.iloc[0])} tarefas ({milhar(cj60.perfis.iloc[0])} perfis) | $p_0$ = 0,5; "
-     f"ρ = 0 ou 0,1 no decisor | {num(cj60.emd_pontos.min(), 1)} a {num(cj60.emd_pontos.max(), 1)}", T + "10_poder_conjoint.csv (60 × 12)"),
-    ("N49", "O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores",
-     f"diferenças de {num(cj60.emd_pontos.min())} a {num(cj60.emd_pontos.max())} pontos", T + "10_poder_conjoint.csv (60 × 12)"),
+    ("N48", "| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |",
+     f"{int(cj30.respondentes.iloc[0])} a {int(cj60.respondentes.iloc[0])} decisores × {int(cj60.tarefas.iloc[0])} tarefas "
+     f"({milhar(cj30.perfis.iloc[0])} a {milhar(cj60.perfis.iloc[0])} perfis) | $p_0$ = 0,5; "
+     f"ρ = 0 ou 0,1 no decisor | {num(cj60.emd_pontos.min(), 1)} a {num(cj30.emd_pontos.max(), 1)}", T + "10_poder_conjoint.csv (30 e 60 × 12)"),
+    ("N49", "O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",
+     f"diferenças de {num(cj60.emd_pontos.min())} a {num(cj60.emd_pontos.max())} pontos na probabilidade de escolha com 60 decisores, "
+     f"e de {num(cj30.emd_pontos.min())} a {num(cj30.emd_pontos.max())} com 30", T + "10_poder_conjoint.csv (30 e 60 × 12)"),
     ("N50", "os dois primeiros limites somam R\\$ 3,36 milhões, 13% dos R\\$ 25 milhões",
      f"somam R\\$ {num(float(taxa25.max_taxa_servico) / 1e6, 2)} milhões, {pct(float(taxa25.max_taxa_servico_sobre_captado))} dos R\\$ "
      f"{num(float(taxa25.valor_captado) / 1e6)} milhões", T + "10_taxa_servico_permitida_2025.csv"),
@@ -488,6 +483,16 @@ CHECAGENS += [
      T + "10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026)"),
     ("N55", "a listagem parte das 26 patrocinadoras de 2025", f"das {int(float(patr['empresas']))} patrocinadoras",
      T + "03_patrocinadores_concentracao.csv"),
+    # revisão de 27/09/2026 (atas e teto por projeto)
+    ("N57", "O teto por projeto fixa um piso de projetos, ao menos 50 com os R\\$ 25 milhões de 2025 (captaram 63)",
+     f"ao menos {int(teto11.loc[2025, 'minimo_projetos_todos_no_teto'])} com os R\\$ {num(teto11.loc[2025, 'montante'] / 1e6)} milhões de 2025 "
+     f"(captaram {int(teto11.loc[2025, 'projetos_que_captaram'])})", T + "11_teto_projeto_por_ano.csv"),
+    ("N58", "36% dos habilitados do ciclo 2025 pediram exatamente R\\$ 500 mil",
+     f"{pct(bunch.loc['2025', 'pct_exatamente_500mil'])} dos habilitados do ciclo 2025", T + "03_bunching_teto.csv"),
+    ("N59", "até 2023, 5% do montante anual; desde 2024, R\\$ 500 mil",
+     f"até 2023, {num(teto11.loc[2023, 'pct_montante'])}% do montante anual; desde 2024, R\\$ {num(teto11.loc[2024, 'teto_geral_montante_final'] / 1e3)} mil"
+     if bool(teto11.loc[2023, "trechos_conferidos_no_texto"]) and bool(teto11.loc[2024, "trechos_conferidos_no_texto"]) else "?",
+     T + "11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos)"),
 ]
 
 
