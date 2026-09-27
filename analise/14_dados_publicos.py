@@ -107,7 +107,7 @@ def patrocinadores() -> tuple[pd.DataFrame, pd.DataFrame]:
 def proponentes_mapa() -> pd.DataFrame:
     a = pd.read_csv(EXT / "mapa_agentes_proponentes.csv")
     h = pd.read_csv(PROC / "habilitados.csv").drop_duplicates("numero_processo")
-    h["chave"] = h["proponente"].map(carregar.chave_proponente)
+    h["chave"] = h["chave_proponente"]  # a recalculada guarda o CPF mascarado dos MEIs
     chaves = h["chave"].nunique()
     # um proponente pode ter mais de um agente com o mesmo nome: as áreas se somam, sem repetir
     areas = (a.assign(area=a["area_atuacao"].fillna("").str.split("; ")).explode("area")

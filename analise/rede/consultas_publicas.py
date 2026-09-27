@@ -141,7 +141,8 @@ def chave_titulo(s) -> str:
 def consultar_mapa() -> None:
     EXT.mkdir(parents=True, exist_ok=True)
     h = pd.read_csv(RAIZ / "dados" / "processados" / "habilitados.csv")
-    prop = {carregar.chave_proponente(p) for p in h["proponente"].dropna()}
+    # chave canônica já gravada: recalcular a partir de "proponente" deixa o CPF mascarado (XXXXXXXXXXX) dos MEIs
+    prop = set(h["chave_proponente"].dropna())
     prop.discard("")
     titulos = {chave_titulo(t): p for t, p in zip(h["projeto"], h["numero_processo"]) if chave_titulo(t)}
     resumo = []
