@@ -5,7 +5,7 @@ PPGEco/UFES, profs. Ana Carolina Giuberti e Renato Nunes de Lima Seixas):
 **avaliação do desenho** da Lei de Incentivo à Cultura Capixaba (LICC) e
 **proposta de avaliação de impacto**. Entrega: **28/09/2026**, Word ou PDF,
 Times New Roman 12, espaçamento simples, **10 a 15 páginas** incluindo tabelas,
-gráficos e referências. Trabalho em dupla.
+gráficos e referências. Trabalho individual (autor único: voz impessoal no texto, sem 1ª pessoa do plural).
 
 Seções obrigatórias (instruções da disciplina): introdução com caracterização do
 problema/necessidade; caracterização da política; breve revisão da literatura
@@ -64,7 +64,7 @@ público não passa pelo mecanismo da LICC), conferidos na Crossref, sem nomear 
   slides), resultados potenciais, validade interna/externa, amostragem e poder
   (slides PECO, 3ie WP26, Gertler et al.), guias do IJSN/SiMAPP.
 - Uso de IA segue a Portaria CNPq 2664/2026: conteúdo de IA não é submetido como
-  autoria humana; os autores revisam e respondem pelo texto; declaração de uso
+  autoria humana; o autor revisa e responde pelo texto; declaração de uso
   de IA vai anexa.
 
 ## Rede
