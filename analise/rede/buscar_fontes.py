@@ -248,6 +248,8 @@ def baixar(pid: str, url: str) -> dict:
     if r is not None and r.status_code == 200:
         ct = r.headers.get("content-type", "")
         registro.update(content_type=ct, bytes=str(len(r.content)), sha256=hashlib.sha256(r.content).hexdigest())
+        # datas que permitem ordenar versões de um mesmo anexo (ex.: "RECURSO FINANCEIRO CAPTADO - 2025 (1..17)")
+        datas = [f"# Last-Modified (servidor): {r.headers['last-modified']}"] if r.headers.get("last-modified") else []
         if "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
             texto = docx_para_texto(r.content)
         elif "pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf"):
@@ -255,10 +257,14 @@ def baixar(pid: str, url: str) -> dict:
             tmp.write_bytes(r.content)
             texto = subprocess.run(["pdftotext", "-layout", str(tmp), "-"], capture_output=True,
                                    text=True).stdout
+            info = subprocess.run(["pdfinfo", str(tmp)], capture_output=True, text=True).stdout
+            datas += [f"# PDF {m.group(1)}: {m.group(2).strip()}"
+                      for m in re.finditer(r"^(CreationDate|ModDate):\s*(.+)$", info, flags=re.M)]
         else:
             r.encoding = r.encoding or r.apparent_encoding
             texto = html_para_texto(r.text, r.url)
-        cab = f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n\n"
+        cab = (f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n"
+               + "".join(d + "\n" for d in datas) + "\n")
         destino.write_text(cab + mascarar(texto)[0], encoding="utf-8")
         registro["arquivo"] = str(destino.relative_to(RAIZ))
     return registro
