@@ -281,6 +281,7 @@ def chave_proponente(nome: str) -> str:
     s = normalizar(re.sub(r"\(.*?\)", " ", str(nome)))  # "(Em análise na SEFAZ) ..." sai
     s = re.sub(r"^\d{2} \d{3} \d{3} ", "", s)  # raiz de CNPJ no início (MEI)
     s = re.sub(r" \d{11}$", "", s)  # CPF no fim (razão social de MEI)
+    s = re.sub(r" (x{11}|x{3} x{3} x{3} x{2})$", "", s)  # o mesmo CPF já mascarado (analise/rede/mascarar_cpf.py)
     # sufixos societários saem em qualquer posição ("Alpha Empreendimentos LTDA - Galpão
     # de Ideias"); "me" e "sa" só no fim, porque podem ser palavra do nome.
     toks = [t for t in s.split() if t not in {"ltda", "eireli", "epp", "mei"}]
@@ -295,7 +296,7 @@ def chave_proponente(nome: str) -> str:
 # Regras de natureza jurídica, aplicadas NESTA ORDEM ao nome como publicado:
 REGRAS_NATUREZA = [
     ("mei_ei", "MEI/empresário individual",
-     r"(\b\d{11}\b|^\d{2}\.?\d{3}\.?\d{3}\s|\bmei\b)"),
+     r"(\b\d{11}\b|\bx{11}\b|\bx{3}\.x{3}\.x{3}-x{2}\b|^\d{2}\.?\d{3}\.?\d{3}\s|\bmei\b)"),  # CPF, também mascarado
     ("empresa_sufixo", "Empresa (sufixo societário explícito)",
      r"\b(ltda|eireli|epp|s\s*/?\s*a|me)\b\.?\s*[-;.]?\s*$|\bltda\b|\beireli\b|\bepp\b|\bs/a\b"),
     ("osc", "Associação/instituto/fundação e outras entidades associativas",

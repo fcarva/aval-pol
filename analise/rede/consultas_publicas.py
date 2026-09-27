@@ -30,7 +30,7 @@ Saídas (dados/externos/):
   transparencia_beneficiarios_licc.csv   linhas da LICC nos incentivos vigentes; nas relações de beneficiários, as
                                          linhas dos patrocinadores da LICC (renúncia total, todos os incentivos)
   transparencia_beneficiarios_diagnostico.txt  por arquivo: status, codificação, separador, cabeçalho, linhas, rótulos
-Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio|beneficiarios]
+Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio|dio_teto|beneficiarios]
 """
 from __future__ import annotations
 
@@ -385,6 +385,49 @@ def consultar_beneficiarios() -> None:
     print(f"beneficiários: {len(saida)} linhas da LICC; ver transparencia_beneficiarios_diagnostico.txt")
 
 
+# atos do teto anual (montante) que não citam "LICC": busca por período curto e filtro de contexto (auditoria de
+# lacunas, rodada 4: o teto de 2022 é indeterminado no artigo por falta do ato de ampliação de R$ 10 para R$ 15 mi)
+BUSCAS_DIO_TETO = [("projetos culturais", "2021-12-01", "2023-03-31"),
+                   ("5º-B", "2021-12-01", "2026-09-27"),
+                   ("Portaria nº 09-R", "2022-01-01", "2022-12-31"),
+                   ("Portaria nº 009-R", "2022-01-01", "2022-12-31")]
+CONTEXTO_TETO = re.compile(r"cultur|montante|incentivo", re.I)
+
+
+def consultar_dio_teto() -> None:
+    sys.path.insert(0, str(RAIZ / "analise" / "rede"))
+    from mascarar_cpf import mascarar
+    linhas, diag, vistos = [], [], set()
+    for termo, di, df in BUSCAS_DIO_TETO:
+        total = None
+        for pagina in range(0, 30):
+            d, msg = _dio_pagina(termo, pagina, di, df)
+            hits = ((d or {}).get("hits") or {}) if isinstance(d, dict) else {}
+            total = hits.get("total", total)
+            if isinstance(total, dict):
+                total = total.get("value")
+            lista = hits.get("hits") or []
+            if not lista:
+                break
+            for h in lista:
+                src = h.get("_source") or {}
+                if (h.get("_id"), termo) in vistos:
+                    continue
+                vistos.add((h.get("_id"), termo))
+                for j, t in enumerate(_trechos(str(src.get("conteudo") or ""), termo, antes=1500, depois=3000)):
+                    if not CONTEXTO_TETO.search(t):
+                        continue
+                    t, _ = mascarar(" ".join(t.split()))
+                    linhas.append({"termo": termo, "id": h.get("_id"), "trecho_n": j,
+                                   "data": "-".join(str(src.get(k, "")).zfill(2) for k in ("year", "month", "day")),
+                                   "pagina": src.get("pagina"), "trecho": t})
+            time.sleep(0.5)
+        diag.append(f"{termo} [{di} a {df}]: total informado {total}; trechos com contexto acumulados {len(linhas)}")
+    pd.DataFrame(linhas).to_csv(EXT / "dio_teto_trechos.csv", index=False)
+    (EXT / "dio_teto_diagnostico.txt").write_text("\n".join(diag) + "\n", encoding="utf-8")
+    print(f"DIO (teto): {len(linhas)} trechos")
+
+
 def main() -> None:
     so = sys.argv[sys.argv.index("--so") + 1] if "--so" in sys.argv else "tudo"
     if so in ("cnpj", "tudo"):
@@ -397,6 +440,8 @@ def main() -> None:
         consultar_beneficiarios()
     if so in ("dio", "tudo"):
         consultar_dio()
+    if so in ("dio_teto", "tudo"):
+        consultar_dio_teto()
 
 
 if __name__ == "__main__":

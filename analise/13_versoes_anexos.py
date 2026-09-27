@@ -128,7 +128,7 @@ def versoes_captados() -> tuple[pd.DataFrame, pd.DataFrame]:
         # fila: versões consistentes, em ordem de sufixo (conferida com as datas de recebimento onde há datas)
         usar.sort(key=lambda v: ordem_da_versao(ano, v))
         chaves = set().union(*[set(validos[v]) | set(indeferidos[v]) for v in usar]) if usar else set()
-        for chave in chaves:
+        for chave in sorted(chaves):  # ordem estável entre execuções (conjunto não tem ordem)
             val = [v for v in usar if validos[v][chave] > 0]
             ind = [v for v in usar if indeferidos[v][chave] > 0]
             fila.append({"ano": ano, "cnpj_raiz": chave[0], "valor": chave[1],

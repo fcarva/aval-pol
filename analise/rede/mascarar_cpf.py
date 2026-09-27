@@ -12,6 +12,8 @@ O relé (buscar_fontes.py) aplica mascarar() a toda página coletada.
 """
 from __future__ import annotations
 
+import csv
+import io
 import re
 import sys
 from pathlib import Path
@@ -22,6 +24,9 @@ CPF = re.compile(r"(?<![0-9A-Za-z./])\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?![0-9A-Za-z/]
 # razão social de MEI: nome seguido do CPF ("FULANO DE TAL 12345678901"), mesmo quando a célula seguinte da planilha
 # começa por dígitos (",28.096.224/0001-68"), caso que o padrão acima toma por decimal com vírgula
 CPF_MEI = re.compile(r"(?<=[A-Za-zÀ-ÿ] )\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?![0-9/]|\.\d)")
+# colunas numéricas que podem ter 11 dígitos sem ser CPF: capital social da Receita acima de R$ 10 bilhões (Ambev,
+# ArcelorMittal, Claro) foi mascarado por engano em 27/09/2026 e restaurado; nessas tabelas a coluna é pulada
+COLUNAS_PROTEGIDAS = {"capital_social"}
 ALVOS = ("dados/fontes_web/paginas/*.txt", "dados/licc/**/*.csv", "dados/licc/**/*.json", "dados/processados/*.csv",
          "analise/tabelas/*.csv", "dados/externos/*.csv")
 
@@ -38,13 +43,33 @@ def mascarar(texto: str) -> tuple[str, int]:
     return "\n".join(linhas), n
 
 
+def mascarar_arquivo(arq: Path, texto: str) -> tuple[str, int]:
+    """Como mascarar(), mas, num CSV com coluna protegida, campo a campo e sem tocar a coluna protegida."""
+    cab = texto.split("\n", 1)[0] + "\n"
+    if arq.suffix != ".csv" or not COLUNAS_PROTEGIDAS & set(next(csv.reader([cab]), [])):
+        return mascarar(texto)
+    linhas = list(csv.reader(io.StringIO(texto)))
+    prot = {i for i, h in enumerate(linhas[0]) if h in COLUNAS_PROTEGIDAS}
+    n = 0
+    for linha in linhas[1:]:
+        for i, v in enumerate(linha):
+            if i not in prot:
+                linha[i], k = mascarar(v)
+                n += k
+    if not n:
+        return texto, 0
+    saida = io.StringIO()
+    csv.writer(saida, lineterminator="\r\n" if "\r\n" in cab + "\n" else "\n").writerows(linhas)
+    return saida.getvalue(), n
+
+
 def main() -> int:
     conferir = "--conferir" in sys.argv
     total = 0
     for padrao in ALVOS:
         for arq in sorted(RAIZ.glob(padrao)):
             texto = arq.read_text(encoding="utf-8")
-            novo, n = mascarar(texto)
+            novo, n = mascarar_arquivo(arq, texto)
             if n:
                 total += n
                 print(f"{arq.relative_to(RAIZ)}: {n}")
