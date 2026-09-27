@@ -1,0 +1,1151 @@
+# Fonte: https://ioes.dio.es.gov.br/buscanova/assets/javascripts/application.7d10c6fa.js
+# Coletado (UTC): 2026-09-27T15:04:41Z
+# sha256 do original: 2fc489fa0927fb88428840f967caba63cc305bc1f691fbf294710d1fcb25d559
+# Last-Modified (servidor): Thu, 18 Jan 2024 13:06:59 GMT
+
+var fill;
+
+fill = function() {
+    $(".input__field").each(function() {
+        $(this).parent().addClass("input--filled");
+    });
+};
+
+$("#q").each(function() {
+    fill();
+    $(this).on("focus", function(e) {
+        $(this).parent().addClass("input--filled");
+    });
+    $(this).on("blur", function(e) {
+        if ($(this).val() === "" && !$(this).hasClass("alway") && $(".searched").length === 0) {
+            $(this).parent().removeClass("input--filled");
+        }
+    });
+    $(this).on("change", function(e) {
+        if ($(this).val() === "" && !$(this).hasClass("alway") && $(".searched").length === 0) {
+            $(this).parent().removeClass("input--filled");
+        } else {
+            $(this).parent().addClass("input--filled");
+        }
+    });
+});
+
+var TEMA_IONEWS, cliente;
+
+cliente = {
+    name: "Espírito Santo",
+    limiteAntigos: false,
+    showCalendar: true,
+    diarioNome: false,
+    menuAnos: "top",
+    SHARE: {
+        twitter: 1,
+        whatsapp: 1,
+        facebook: 1,
+        mail: 1
+    },
+    VIEWS: {
+        pdf: 1,
+        html: 1,
+        flip: 1
+    }
+};
+
+TEMA_IONEWS = "Es";
+
+var appControllers, appDirectives, busca;
+
+busca = angular.module("busca", [ "busca.controllers", "busca.directives", "ngSanitize", "ui.calendar", "ui.bootstrap", "ui.router" ]);
+
+busca.config([ "$stateProvider", "$locationProvider", "$urlRouterProvider", "$compileProvider", function($stateProvider, $locationProvider, $urlRouterProvider, $compileProvider) {
+    $stateProvider.state("busca", {
+        url: "/busca",
+        templateUrl: "/templates/search.html",
+        controller: "SearchController"
+    });
+    $stateProvider.state("subbusca", {
+        url: "/:tema/busca",
+        templateUrl: "/templates/search.html",
+        controller: "SearchController"
+    });
+    $urlRouterProvider.when("/", "busca").otherwise("busca");
+    $compileProvider.debugInfoEnabled(false);
+    return true;
+} ]);
+
+busca.run(function($rootScope) {
+    $rootScope.titulo = window.titulo;
+    $rootScope.indices = window.indice;
+    $rootScope._isNotMobile = function() {
+        var check;
+        check = false;
+        (function(a) {
+            if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) {
+                check = true;
+            }
+        })(navigator.userAgent || navigator.vendor || window.opera);
+        return !check;
+    }();
+});
+
+appDirectives = angular.module("busca.directives", []);
+
+appControllers = angular.module("busca.controllers", []);
+
+appDirectives.directive("paginate", [ "$timeout", "$rootScope", function($timeout, $rootScope) {
+    return {
+        restrict: "C",
+        replace: true,
+        scope: {
+            pages: "@paginatePages",
+            currentPage: "="
+        },
+        template: '<ul class="pagination">' + "</ul>",
+        controller: function($scope, $element, $attrs) {
+            var displayedPages, edges, halfDisplayed;
+            halfDisplayed = 1.5;
+            displayedPages = 3;
+            edges = 2;
+            $scope.getInterval = function() {
+                return {
+                    start: Math.ceil($scope.currentPage > halfDisplayed ? Math.max(Math.min($scope.currentPage - halfDisplayed, $scope.pages - displayedPages), 0) : 0),
+                    end: Math.ceil($scope.currentPage > halfDisplayed ? Math.min($scope.currentPage + halfDisplayed, $scope.pages) : Math.min(displayedPages, $scope.pages))
+                };
+            };
+            $scope.selectPage = function(pageIndex) {
+                $scope.currentPage = pageIndex * 1;
+                $scope.draw();
+                $scope.$apply();
+            };
+            $scope.appendItem = function(pageIndex, opts) {
+                var link, options;
+                options = void 0;
+                link = void 0;
+                pageIndex = pageIndex < 0 ? 0 : pageIndex < $scope.pages ? pageIndex : $scope.pages - 1;
+                options = $.extend({
+                    text: pageIndex + 1,
+                    classes: ""
+                }, opts || {});
+                if (pageIndex === $scope.currentPage && options.classes !== "prev" && options.classes !== "next") {
+                    link = $('<li class="active"><a href="javascript:void(0)">' + options.text + ' <span class="sr-only">(current)</span></a></li>');
+                } else {
+                    link = $('<li><a href="javascript:void(0)" class="page-link">' + options.text + "</a></li>");
+                    link.bind("click", function() {
+                        $scope.selectPage(pageIndex);
+                    });
+                }
+                if (options.classes) {
+                    link.addClass(options.classes);
+                }
+                $element.append(link);
+            };
+            $scope.draw = function() {
+                var begin, end, i, interval;
+                $($element).empty();
+                interval = $scope.getInterval();
+                i = void 0;
+                if (true) {
+                    $scope.appendItem($scope.currentPage - 1, {
+                        text: "&#171;",
+                        classes: "prev"
+                    });
+                }
+                if (interval.start > 0 && edges > 0) {
+                    end = Math.min(edges, interval.start);
+                    i = 0;
+                    while (i < end) {
+                        $scope.appendItem(+i);
+                        i++;
+                    }
+                    if (edges < interval.start) {
+                        $element.append('<li><span class="ellipse">...</span></li>');
+                    }
+                }
+                i = interval.start;
+                while (i < interval.end) {
+                    $scope.appendItem(i);
+                    i++;
+                }
+                if (interval.end < $scope.pages && edges > 0) {
+                    if ($scope.pages - edges > interval.end) {
+                        $element.append('<li><span class="ellipse">...</span></li>');
+                    }
+                    begin = Math.max($scope.pages - edges, interval.end);
+                    i = begin;
+                    while (i < $scope.pages) {
+                        $scope.appendItem(i);
+                        i++;
+                    }
+                }
+                if (true) {
+                    $scope.appendItem($scope.currentPage + 1, {
+                        text: " &#187;",
+                        classes: "next"
+                    });
+                }
+                if ($(window).scrollTop() > 10) {
+                    $("body").stop().animate({
+                        scrollTop: 1
+                    }, 500);
+                }
+            };
+        },
+        link: function(scope, element, attrs, controller) {
+            scope.$parent.drawPages = scope.draw;
+            $timeout(function() {
+                scope.draw();
+            }, 2e3);
+            $rootScope.draw = scope.draw;
+            scope.$watch(scope.paginatePages, function() {
+                scope.draw();
+            });
+        }
+    };
+} ]);
+
+appDirectives.directive("menuanos", [ "$timeout", "$compile", function($timeout, $compile) {
+    return {
+        restrict: "A",
+        scope: {
+            posicao: "=",
+            anos: "="
+        },
+        link: function(scope, element, attrs) {
+            var e;
+            e = element;
+            scope.montaDecadas = function() {
+                var a, ano, decada, _results;
+                scope.decadas = [];
+                scope.anos = scope.anos.sort(function(_this) {
+                    return function(a, b) {
+                        return a.key < b.key;
+                    };
+                }(this));
+                _results = [];
+                for (a in scope.anos) {
+                    ano = scope.anos[a];
+                    decada = Math.floor(ano.key / 10) * 10;
+                    if (!scope.decadas[decada]) {
+                        scope.decadas[decada] = {
+                            total: 0,
+                            anos: []
+                        };
+                    }
+                    scope.decadas[decada].total += Number(ano.doc_count);
+                    _results.push(scope.decadas[decada].anos.push(ano));
+                }
+                return _results;
+            };
+            scope.listaAnos = function(anos) {
+                var a, lista;
+                lista = "<ul class=" + (scope.posicao === "top" ? "dropdown-menu" : "") + ">";
+                for (a in anos) {
+                    lista += '<li class="checkbox">&nbsp;&nbsp;<label dropselect><input type="checkbox" ' + (scope.$parent.anosAtivos.indexOf(anos[a].key + "") > -1 ? 'checked="checked"' : "") + ' value="' + anos[a].key + '">' + anos[a].key + ' <span class="badge">' + (anos[a].doc_count + "").replace(/(\d)(?=(\d{3})+(?:\.\d+)?$)/g, "$1.") + (scope.posicao === "left" ? " matérias" : "") + "</span></label></li>";
+                }
+                return lista + "<ul>";
+            };
+            scope.drawMenuAnos = function() {
+                var d, nav;
+                e.html('<p class="navbar-text">Filtrar por anos: </p><ul class="nav navbar-nav"></ul>');
+                scope.montaDecadas();
+                nav = element.find(".navbar-nav");
+                for (d in scope.decadas) {
+                    nav.prepend("<li " + (scope.posicao === "top" ? 'class="dropdown"' : "") + '><a href="javascript:void(0)"' + (scope.posicao === "top" ? ' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"' : "") + ">" + d + ' <span class="badge">' + (scope.decadas[d].total + "").replace(/(\d)(?=(\d{3})+(?:\.\d+)?$)/g, "$1.") + (scope.posicao === "left" ? " matérias" : "") + "</span>" + (scope.posicao === "top" ? '<span class="caret"></span>' : "") + "</a>" + scope.listaAnos(scope.decadas[d].anos) + "</li>");
+                }
+                e.append('<button type="button" ng-hide="anosAtivos.length == 0" class="pull-right btn btn-default navbar-btn ng-cloak" ng-click="limparAnos()">Remover filtro</button>');
+                return $compile(e.contents())(scope);
+            };
+            scope.limparAnos = function() {
+                return scope.$parent.limparAnos();
+            };
+            scope.$watch("anos", function(n, o) {
+                scope.drawMenuAnos();
+            });
+        }
+    };
+} ]);
+
+appDirectives.directive("datefield", [ "$timeout", function($timeout) {
+    return {
+        restrict: "A",
+        scope: {
+            position: "@position"
+        },
+        link: function(scope, element, attrs) {
+            var endereco;
+            if (scope.position === "inicial") {
+                scope.toClose = function(selectedDate) {
+                    if (Object.prototype.toString.call(selectedDate) === "[object Date]" && !isNaN(selectedDate.getTime())) {
+                        $("#data-final").datepicker("option", "minDate", selectedDate);
+                    }
+                };
+            } else {
+                scope.toClose = function(selectedDate) {
+                    if (Object.prototype.toString.call(selectedDate) === "[object Date]" && !isNaN(selectedDate.getTime())) {
+                        $("#data-inicial").datepicker("option", "maxDate", selectedDate);
+                    }
+                };
+            }
+            endereco = document.location.toString().split("/busca");
+            element.datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "1956:",
+                maxDate: 0,
+                onSelect: function(ev) {
+                    var dateText, nv;
+                    dateText = ev;
+                    if (dateText) {
+                        nv = dateText.split("/");
+                        scope.$parent.setTheDate($(this).data("scopevar"), nv[2] + "" + nv[1] + "" + nv[0], true);
+                    }
+                },
+                onClose: function() {
+                    var ev;
+                    ev = element.datepicker("getDate");
+                    if (ev === null && scope.$parent[element.data("scopevar")] !== "") {
+                        return scope.$parent.setTheDate(element.data("scopevar"), "", true);
+                    }
+                }
+            });
+            scope.$parent.$watch(element.data("scopevar"), function(n, o) {
+                if (n !== o) {
+                    if (n !== "") {
+                        scope.toClose(new Date(n.substr(0, 4) + "-" + n.substr(4, 2) + "-" + (Number(n.substr(6, 2)) + 1)));
+                    } else {
+                        scope.toClose(0);
+                    }
+                }
+            });
+            $timeout(function() {
+                var nv;
+                nv = element.val().split("/");
+                return scope.toClose(new Date(nv[2] + "-" + nv[1] + "-" + nv[0]));
+            }, 100);
+            $(".openDate").unbind("click").bind("click", function(e) {
+                e.preventDefault();
+                $(this).parent().find(".input__field").focus().focus();
+            });
+        }
+    };
+} ]);
+
+appDirectives.directive("dropselect", [ "$timeout", function($timeout) {
+    return function(scope, element, attrs) {
+        scope.anosAtivos = scope.$parent.anosAtivos;
+        element.on("click", function(event) {
+            var $inp, $target, idx, val;
+            $target = $(event.currentTarget);
+            $inp = $target.find("input");
+            val = $inp.val();
+            idx = scope.anosAtivos.indexOf(val);
+            if (idx > -1) {
+                scope.anosAtivos.splice(idx, 1);
+                $timeout(function() {
+                    return $inp.prop("checked", false);
+                }, 0);
+            } else {
+                scope.anosAtivos.push(val);
+                $timeout(function() {
+                    return $inp.prop("checked", true);
+                }, 0);
+            }
+            $(event.target).blur();
+            scope.$parent.search();
+            return false;
+        });
+    };
+} ]);
+
+appDirectives.directive("help", function() {
+    return function(scope, element, attrs) {
+        element.on("click", function() {
+            $("#joyRideTipContent").joyride({
+                autoStart: true,
+                scroll: false,
+                modal: false,
+                expose: false
+            });
+        });
+    };
+});
+
+appDirectives.directive("mic", [ "$timeout", function($timeout) {
+    return {
+        restrict: "A",
+        link: function(scope, element, attrs) {
+            scope.final_transcript = "";
+            scope.recognizing = false;
+            scope.ignore_onend = void 0;
+            scope.start_timestamp = void 0;
+            element.unbind("click");
+            element.bind("click", function(e) {
+                return scope.startButton(e);
+            });
+            scope.startButton = function(event) {
+                if (scope.recognizing === true) {
+                    scope.recognition.stop();
+                    return;
+                }
+                scope.final_transcript = "";
+                scope.recognition.lang = "pt-BR";
+                scope.recognition.start();
+                scope.ignore_onend = false;
+                $("#q").parent().addClass("input--filled");
+                $("#q").attr("placeholder", "Fale sua busca");
+                $("#q").val("");
+                scope.start_timestamp = event.timeStamp;
+            };
+            if (!("webkitSpeechRecognition" in window)) {} else {
+                $("body").addClass("audiable");
+                scope.recognition = new webkitSpeechRecognition();
+                scope.recognition.continuous = true;
+                scope.recognition.interimResults = true;
+                scope.recognition.onstart = function() {
+                    scope.recognizing = true;
+                    $("#mic").addClass("active").append('<div class="ring"></div>');
+                    scope.proveFreio();
+                };
+                scope.proveFreio = function() {
+                    clearTimeout(scope.freio);
+                    return scope.freio = setTimeout(function() {
+                        return scope.finaliza();
+                    }, 2500);
+                };
+                scope.finaliza = function() {
+                    scope.recognition.stop();
+                };
+                scope.recognition.onerror = function(event) {
+                    $("#q").attr("placeholder", "");
+                    if (event.error === "no-speech") {
+                        scope.speechError("Não consigo ouvir seu microfone, ele está habilitado?");
+                        element.removeClass("active").find(".ring").remove();
+                        scope.ignore_onend = true;
+                    }
+                    if (event.error === "audio-capture") {
+                        element.removeClass("active").find(".ring").remove();
+                        scope.speechError("Não consigo ouvir seu microfone, ele está habilitado?");
+                        scope.ignore_onend = true;
+                    }
+                    if (event.error === "not-allowed") {
+                        if (event.timeStamp - scope.start_timestamp < 100) {
+                            scope.speechError("Seu microfone está bloqueado para este site. <br>Para que a busca por voz funcione ele deve ser liberado em seu navegador");
+                        }
+                        scope.ignore_onend = true;
+                    }
+                };
+                scope.speechError = function(msg) {
+                    scope.erro = {
+                        titulo: "Problemas de configuração",
+                        texto: msg,
+                        ok: true
+                    };
+                    return scope.showError();
+                };
+                scope.recognition.onend = function() {
+                    scope.recognizing = false;
+                    if (scope.ignore_onend) {
+                        return;
+                    }
+                    element.removeClass("active").find(".ring").remove();
+                    if (scope.final_transcript) {
+                        scope.recognizing = false;
+                        scope.queryTerm = scope.final_transcript;
+                        scope.search();
+                    }
+                };
+                return scope.recognition.onresult = function(event) {
+                    var i;
+                    scope.proveFreio();
+                    scope.interim_transcript = "";
+                    i = event.resultIndex;
+                    while (i < event.results.length) {
+                        if (event.results[i].isFinal) {
+                            scope.final_transcript += event.results[i][0].transcript;
+                        } else {
+                            scope.interim_transcript += event.results[i][0].transcript;
+                        }
+                        ++i;
+                    }
+                    $("#q").val(scope.final_transcript === "" ? scope.interim_transcript : scope.final_transcript);
+                };
+            }
+        }
+    };
+} ]);
+
+appDirectives.directive("keyboard", [ "$timeout", function($timeout) {
+    return {
+        restrict: "A",
+        link: function(scope, element, attrs) {
+            $("#q").keyboard({
+                layout: "portuguese-qwerty",
+                openOn: null,
+                css: {
+                    container: "dropdown-menu",
+                    buttonDefault: "btn btn-default",
+                    buttonHover: "btn-primary",
+                    buttonAction: "active",
+                    buttonDisabled: "disabled"
+                },
+                visible: function(e, keyboard, el) {
+                    $("#q").parent().addClass("input--filled");
+                    keyboard.$keyboard.css({
+                        bottom: 0,
+                        top: "auto",
+                        left: "auto",
+                        right: 0
+                    });
+                },
+                hidden: function(e, keyboard, el) {
+                    return $("#q").parent().removeClass("input--filled");
+                }
+            });
+            return element.click(function() {
+                var kb;
+                kb = $("#q").getkeyboard();
+                if (kb.isOpen) {
+                    return kb.close();
+                } else {
+                    return kb.reveal();
+                }
+            });
+        }
+    };
+} ]);
+
+busca.filter("sanitize", [ "$sce", function($sce) {
+    return function(htmlCode) {
+        return $sce.trustAsHtml(htmlCode);
+    };
+} ]);
+
+appControllers.controller("SearchCtrl", function($scope, $timeout, $location, $rootScope, $http, $compile, uiCalendarConfig) {
+    var activeFilters;
+    $scope.pages = 0;
+    $scope.pageSize = 10;
+    $scope.current = 0;
+    $scope.hits = {};
+    $scope.getStartDate = "";
+    $scope.getEndDate = "";
+    $scope.anosAtivos = [];
+    $scope.anos = [];
+    $scope.queryTerm = "";
+    $scope.fullSearch = false;
+    $scope.showEmpty = false;
+    $scope.startDate = "";
+    $scope.modal_mensagem = "";
+    $scope.endDate = "";
+    $scope.erro = {};
+    $scope.subtema = false;
+    $scope.filterTypes = {
+        data: "and"
+    };
+    activeFilters = {};
+    $scope.showCalendar = false;
+    $scope.dateToCalendar = {};
+    $scope.paraCompartilhar = {};
+    $scope.cliente = {
+        name: "IONEWS",
+        limiteAntigos: false,
+        showCalendar: true,
+        menuAnos: "top",
+        SHARE: {
+            twitter: 1,
+            whatsapp: 1,
+            facebook: 1,
+            mail: 1
+        },
+        VIEWS: {
+            pdf: 1,
+            html: 1,
+            flip: 1
+        }
+    };
+    $scope.eventsList = [];
+    $scope.events = [ $scope.eventsList ];
+    $scope.menuMobile = true;
+    $scope.baseURL = BASE_URL;
+    $scope._isNotMobile = $rootScope._isNotMobile;
+    if (!$scope._isNotMobile) {
+        $("body").addClass("mobile");
+    }
+    $scope.showMenuMobile = function() {
+        return $scope.menuMobile = !$scope.menuMobile;
+    };
+    $scope.busca_exata = THEME === "rj";
+    $scope.fullSearch = $scope.busca_exata;
+    $scope.paywall = THEME === "segrase";
+    $scope.uiConfig = {
+        calendar: {
+            height: 500,
+            editable: false,
+            monthNames: [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ],
+            dayNames: [ "Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado" ],
+            dayNamesShort: [ "Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb" ],
+            allDayDefault: true,
+            viewRender: function(view, element) {
+                var ano, c, mes;
+                c = uiCalendarConfig.calendars["diarios-antigos"].fullCalendar("getDate");
+                mes = c.month() + 1;
+                ano = c.year();
+                $scope.dateToCalendar = {
+                    start: ano + "-" + (mes < 10 ? "0" + mes : mes) + "-01",
+                    end: ano + "-" + (mes < 10 ? "0" + mes : mes) + "-" + c.daysInMonth()
+                };
+                $scope.search();
+                $scope.events[0] = $scope.eventsList;
+            },
+            eventRender: function(event, element) {
+                element.find(".fc-content").html(element.find(".fc-content").html().replace("[icon-pdf]", '<i class="fa fa-file-pdf-o"></i>'));
+                element.find(".fc-content").html(element.find(".fc-content").html().replace("[icon-view]", '<i class="fa fa-file-text-o"></i>'));
+                return element.attr("target", "blank");
+            },
+            header: {
+                left: "",
+                center: "title",
+                right: "prev,next"
+            }
+        }
+    };
+    $scope.addEvent = function(titulo, data, url, id) {
+        if (id) {
+            $scope.eventsList[id] = {
+                title: titulo,
+                start: data,
+                url: url
+            };
+        } else {
+            $scope.eventsList.push({
+                title: titulo,
+                start: data,
+                url: url
+            });
+        }
+        if (id) {
+            return id;
+        } else {
+            return $scope.eventsList.length - 1;
+        }
+    };
+    $scope.renderCalender = function() {
+        return $timeout(function() {
+            if (uiCalendarConfig.calendars["diarios-antigos"].length > 0) {
+                uiCalendarConfig.calendars["diarios-antigos"].fullCalendar("render");
+                return $timeout(function() {
+                    $(".fc-day-grid-container").css({
+                        height: "auto"
+                    });
+                    return $(".fc-scroller").removeClass("fc-scroller");
+                }, 10);
+            }
+        });
+    };
+    $scope.resetEvents = function() {
+        $scope.eventsList = [];
+        $scope.events = [ $scope.eventsList ];
+    };
+    if (typeof THEME !== "undefined" && THEME !== null) {
+        $scope.cliente = cliente;
+    }
+    $scope.changeCalendario = function() {
+        var el;
+        $scope.showCalendar = !$scope.showCalendar;
+        $scope.menuMobile = false;
+        if ($scope.showCalendar) {
+            $scope.resetEvents();
+            $(".calendarbox").html("");
+            el = $compile("<div class='calendar' ui-calendar='uiConfig.calendar' calendar='diarios-antigos' ng-model='events'></div>")($scope);
+            $(".calendarbox").append(el);
+            $scope.renderCalender();
+        } else {
+            if ($scope.queryTerm === "") {
+                $(".menu").removeClass("searched");
+                $("#q").focus();
+            }
+        }
+    };
+    $scope.getLimiteAntigos = function() {
+        if ($scope.cliente.limiteAntigos) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+    $scope.getLinkCompleto = function(item) {
+        return $scope.urlCompleto(item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id));
+    };
+    $scope.urlCompleto = function(id) {
+        return BASE_URL + ($scope.subtema ? "/" + $scope.subtema : "") + "/portal/edicoes/download/" + id;
+    };
+    $scope.getLinkPagina = function(item) {
+        return BASE_URL + ($scope.subtema ? "/" + $scope.subtema : "") + "/portal/edicoes/download/" + (item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id)) + "/" + $scope.toPrint(item.pagina);
+    };
+    $scope.getLinkPdfPagina = function(item) {
+        return $scope.urlPdfPagina(item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id), $scope.toPrint(item.pagina));
+    };
+    $scope.urlPdfPagina = function(id, pagina) {
+        return BASE_URL + ($scope.subtema ? "/" + $scope.subtema : "") + "/ver/" + id + "/" + pagina + "/" + ($scope.queryTerm ? encodeURIComponent($scope.queryTerm.replace(/\//g, "__")) : '""');
+    };
+    $scope.getSocialLink = function(destino, item) {
+        if (destino === "twitter") {
+            return "https://twitter.com/intent/tweet?original_referer=" + encodeURIComponent(BASE_URL) + "&text=Resultado%20da%20busca%20no%20Di%C3%A1rio%20Oficial&tw_p=tweetbutton&url=" + encodeURIComponent($scope.getLinkPdfPagina(item)) + "&via=ionews";
+        } else if (destino === "facebook") {
+            return "https://www.facebook.com/sharer/sharer.php?sdk=joey&u=" + encodeURIComponent($scope.getLinkPdfPagina(item)) + "&display=popup&ref=plugin&src=share_button";
+        } else if (destino === "whatsapp") {
+            return "https://wa.me/?text=Resultado%20da%20busca%20no%20Di%C3%A1rio%20Oficial:%20" + encodeURIComponent($scope.getLinkPdfPagina(item));
+        } else if (destino === "telegram") {
+            return "https://t.me/share/url?url=" + encodeURIComponent($scope.getLinkPdfPagina(item)) + "&text=Resultado%20da%20busca%20no%20Di%C3%A1rio%20Oficial&tw_p=tweetbutton";
+        }
+    };
+    $("#shareMail").on("shown.bs.modal", function() {
+        return $("#nome").focus();
+    });
+    $scope.mailModal = function(doc) {
+        $scope.toShare = doc;
+        $scope.paraCompartilhar.email = "";
+        $scope.paraCompartilhar.remetente = "";
+        $scope.paraCompartilhar.nome = "";
+        $("#shareMail").modal("show");
+        $scope.paraCompartilhar.mensagem = "Resultado da busca no Diário Oficial \n" + $scope.getLinkPdfPagina(doc);
+    };
+    $scope.linkSendMail = function() {
+        if (!$scope.paraCompartilhar.remetente || !$scope.paraCompartilhar.email) {
+            return false;
+        } else {
+            $scope.modal_mensagem = '<i class="fa fa-circle-o-notch fa-spin"></i> Enviando...';
+            $scope.showMsg();
+            $http({
+                method: "POST",
+                data: {
+                    remetente: $scope.paraCompartilhar.remetente,
+                    nome: $scope.paraCompartilhar.nome,
+                    destino: $scope.paraCompartilhar.email,
+                    assunto: "Resultado da busca no Diário Oficial",
+                    mensagem: $scope.paraCompartilhar.mensagem
+                },
+                url: BASE_URL + "/apifront/busca/share/send_mail/"
+            }).success(function(data, status, headers, config) {
+                $scope.modal_mensagem = data.mensagem;
+            }).error(function(data, status, headers, config) {
+                $scope.modal_mensagem = data.mensagem;
+            });
+        }
+    };
+    $scope.isSuplemento = function(doc) {
+        if (doc.suplemento === true && THEME.toLowerCase() === "iomat") {
+            return "(EDIÇÃO EXTRA)";
+        }
+        if (doc.suplemento === true) {
+            return "(SUPLEMENTO)";
+        }
+        if (doc.suplemento === false) {
+            return "";
+        }
+        return doc.suplemento + " - Pág. " + doc._source.pagina;
+    };
+    $scope.showMsg = function() {
+        return $("#mensagem").modal("show");
+    };
+    $scope.getLinkJornalPagina = function(item) {
+        return BASE_URL + ($scope.subtema ? "/" + $scope.subtema : "") + "/ver-flip/" + (item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id)) + "/#/e:" + (item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id)) + "/p:" + $scope.toPrint(item.pagina) + "?find=" + $scope.queryTerm;
+    };
+    $scope.getLinkHtml = function(item) {
+        return BASE_URL + ($scope.subtema ? "/" + $scope.subtema : "") + "/ver-html/" + (item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id)) + "/#/e:" + (item.edicao_id ? $scope.toPrint(item.edicao_id) : $scope.toPrint(item.diario_id));
+    };
+    $scope.getCurrent = function() {
+        return $scope.current;
+    };
+    $scope.isActive = function(field, term) {
+        return activeFilters.hasOwnProperty(field + term);
+    };
+    $scope.hasActive = function() {
+        var filters;
+        filters = Object.keys(activeFilters).map(function(k) {
+            return activeFilters[k];
+        });
+        return filters.length === 0;
+    };
+    $scope.toPrint = function(val) {
+        val = val === void 0 ? "" : val;
+        if (Object.prototype.toString.call(val) === "[object Array]") {
+            return val[0];
+        } else {
+            return val;
+        }
+    };
+    $scope.dateFilters = function() {
+        var str;
+        str = "";
+        if ($scope.startDate) {
+            str += "/di:" + $scope.startDate.substr(0, 4) + "-" + $scope.startDate.substr(4, 2) + "-" + $scope.startDate.substr(6, 2);
+        }
+        if ($scope.endDate) {
+            str += "/df:" + $scope.endDate.substr(0, 4) + "-" + $scope.endDate.substr(4, 2) + "-" + $scope.endDate.substr(6, 2);
+        }
+        if ($scope.showCalendar) {
+            str = "/di:" + $scope.dateToCalendar.start + "/df:" + $scope.dateToCalendar.end;
+        }
+        return str;
+    };
+    $scope.preTerm = function(str) {
+        var retorno;
+        str = str.replace(RegExp(" ?(.+?)\\+(.+) ?"), ' "$1 $2" ').replace(/\+/gi, " ").trim();
+        retorno = str;
+        if (str.indexOf('"') === -1) {
+            if ($scope.fullSearch === true) {
+                retorno = '"' + str + '"';
+            }
+        }
+        if ($scope.fullSearch === true) {
+            if ((str.match(/\"/g) || []).length % 2 > 0) {
+                retorno = str + '"';
+            }
+        }
+        if ($scope.fullSearch === false) {
+            retorno = retorno.replace(/\"/g, "");
+        }
+        return retorno.replace(/\s\s+/g, " ");
+    };
+    $scope.erro = {
+        titulo: "Erro",
+        texto: "O campo para busca deve ser preenchido com pelo menos 3 caracteres"
+    };
+    $scope.searchAllTerms = function() {
+        $scope.search();
+    };
+    $scope.isSearched = function() {
+        return $(".menu").hasClass("searched");
+    };
+    $scope.validateTipoEdicao = function(data, ids) {
+        var d, dataConf, m, y;
+        y = data.getFullYear();
+        m = +data.getMonth() + 1;
+        d = data.getDate();
+        dataConf = y + "-" + (m < 10 ? "0" + m : m) + "-" + (d < 10 ? "0" + d : d);
+        $http({
+            method: "GET",
+            url: BASE_URL + "/apifront/portal/edicoes/edicoes_from_data/" + dataConf + ".json"
+        }).success(function(data, status, headers, config) {
+            var dataUtil, itens, p;
+            if (data.erro === false) {
+                p = 0;
+                itens = data.itens;
+                for (m in itens) {
+                    dataUtil = new Date(itens[m].data.substr(6, 4) + "-" + itens[m].data.substr(3, 2) + "-" + itens[m].data.substr(0, 2));
+                    d = new Date(dataUtil.getTime() + 6e4 * dataUtil.getTimezoneOffset());
+                    $scope.addEvent("[icon-pdf] Baixar " + (itens[m].suplemento === 1 ? "Suplemento" : "Diário"), d, $scope.urlCompleto(itens[m].id), ids[p]);
+                    p += 1;
+                    $scope.addEvent("[icon-view] Visualizar " + (itens[m].suplemento === 1 ? "Suplemento" : "Diário") + " em PDF", d, $scope.urlPdfPagina(itens[m].id, 1), ids[p]);
+                    p += 1;
+                }
+                $scope.renderCalender();
+            }
+        }).error(function(data, status, headers, config) {});
+    };
+    $scope.search = function() {
+        $scope.menuMobile = false;
+        if ($scope.queryTerm.length < 3 && !$scope.showCalendar) {
+            $scope.erro = {
+                titulo: "Erro",
+                texto: "O campo para busca deve ser preenchido com pelo menos 3 caracteres"
+            };
+            $scope.showError();
+            return false;
+        }
+        $(".loader").addClass("loading");
+        $scope.hideError();
+        $http({
+            method: "GET",
+            url: BASE_URL + "/busca/busca/buscar/" + "query" + "/" + $scope.current + $scope.dateFilters() + ($scope.anosAtivos.length > 0 ? "/y:" + $scope.anosAtivos.join(",") : "") + "/?1=1" + "&q=" + (!$scope.showCalendar ? $scope.preTerm($scope.queryTerm.replace("&", "%26").replace(/(\/)/g, "%2F").replace(":", "")) || "*" : "*") + (TYPE === "materias" ? "&materias=1" : "") + ($scope.showCalendar ? "&calendario=1" : "") + ($scope.subtema ? "&subtheme=" + $scope.subtema : "")
+        }).success(function(data, status, headers, config) {
+            var d, dataUtil, i, ids, it, m, mes, res, _i, _j, _k, _len, _len1, _len2, _ref, _ref1, _ref2;
+            $(".loader").removeClass("loading");
+            $("html, body").animate({
+                scrollTop: 0
+            }, 200);
+            if (!$(".menu").hasClass("searched")) {
+                $(".menu").addClass("searched");
+            }
+            if (data.error || !data.hits) {
+                if (console && console.log) {
+                    console.log("O erro é: " + data.error.reason);
+                }
+                if (data.mensagem) {
+                    $scope.erro = {
+                        titulo: "Erro",
+                        texto: data.mensagem
+                    };
+                } else {
+                    $scope.erro = {
+                        titulo: "Erro",
+                        texto: "Houve um problema ao obter os resultados.<br>Se desejar, tente novamente."
+                    };
+                }
+                $scope.showError();
+            } else {
+                if (data.aggregations === void 0) {
+                    data.aggregations = {
+                        FileYear: {
+                            buckets: []
+                        },
+                        Edicoes: {
+                            buckets: []
+                        },
+                        TipoEdicao: {
+                            buckets: []
+                        }
+                    };
+                    _ref = data.facets.FileYear.terms;
+                    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                        it = _ref[_i];
+                        data.aggregations.FileYear.buckets.push({
+                            key: it.term,
+                            doc_count: it.count
+                        });
+                    }
+                    _ref1 = data.facets.Edicoes.terms;
+                    for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
+                        it = _ref1[_j];
+                        data.aggregations.Edicoes.buckets.push({
+                            key: it.term,
+                            doc_count: it.count
+                        });
+                    }
+                    _ref2 = data.facets.TipoEdicao.terms;
+                    for (_k = 0, _len2 = _ref2.length; _k < _len2; _k++) {
+                        it = _ref2[_k];
+                        data.aggregations.TipoEdicao.buckets.push({
+                            key: it.term,
+                            doc_count: it.count
+                        });
+                    }
+                }
+                if ($scope.showCalendar) {
+                    res = data.aggregations.group_by_data.buckets;
+                    for (i in res) {
+                        dataUtil = new Date(res[i].key);
+                        d = new Date(dataUtil.getTime() + 6e4 * dataUtil.getTimezoneOffset());
+                        mes = +d.getMonth() + 1;
+                        ids = [];
+                        for (m in res[i].group_by_edicao.buckets) {
+                            ids.push($scope.addEvent("[icon-view] Baixar Diário", d, $scope.urlCompleto(res[i].group_by_edicao.buckets[m].key)));
+                            ids.push($scope.addEvent("[icon-pdf] Visualizar em PDF", d, $scope.urlPdfPagina(res[i].group_by_edicao.buckets[m].key, 1)));
+                        }
+                        if (res[i].group_by_edicao.buckets.length > 1) {
+                            $scope.validateTipoEdicao(d, ids);
+                        }
+                    }
+                    $scope.renderCalender();
+                } else {
+                    res = data;
+                    if (data.aggregations.FileYear.buckets.length > $(".menu-anos .nav > li").length || $(".menu-anos .nav li").length === 0) {
+                        $scope.anos = data.aggregations.FileYear.buckets;
+                    }
+                    $scope.results = data;
+                    $scope.pages = res ? Math.ceil(res.hits.total / $scope.pageSize) : 0;
+                    $scope.hits = res.hits.hits;
+                    if (res.hits.total === 0 && $scope.fullSearch === "1") {
+                        $scope.showEmpty = true;
+                        $scope.searchAllTerms();
+                    } else {
+                        $timeout(function() {
+                            $scope.drawPages();
+                            if ($scope._isNotMobile) {
+                                $("#q").focus();
+                            }
+                            $scope.populateLocation();
+                        }, 300);
+                    }
+                }
+            }
+        }).error(function(data, status, headers, config) {});
+    };
+    $scope.showError = function() {
+        $("#modal").addClass("md-show");
+    };
+    $scope.hideError = function() {
+        $("#modal").removeClass("md-show");
+    };
+    $scope.getHits = function() {
+        var item, result, _i, _len, _ref;
+        result = [];
+        _ref = $scope.hits;
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+            item = _ref[_i];
+            if (item._source === void 0) {
+                item._source = item.fields;
+            }
+            result.push(item);
+        }
+        return result;
+    };
+    $scope.$watch("current", function(n, o) {
+        if (n !== o) {
+            if ($scope.queryTerm) {
+                $scope.search();
+            }
+        }
+    });
+    $scope.newSearch = function() {
+        $scope.current = 0;
+        $scope.showCalendar = false;
+        $scope.eventsList = [];
+        $scope.anos = [];
+        if ($scope.hasParam("di")) {
+            $scope.setTheDate("startDate", $scope.getParam("di"), false);
+        }
+        if ($scope.hasParam("df")) {
+            $scope.setTheDate("endDate", $scope.getParam("df"), false);
+        }
+        $scope.search();
+    };
+    $scope.filter = function(field, term) {
+        if ($scope.isActive(field, term)) {
+            delete activeFilters[field + term];
+        } else {
+            activeFilters[field + term] = field + ":" + term;
+        }
+        $scope.search();
+    };
+    $timeout(function() {
+        $scope.subtema = $scope.getSubtema();
+        if ($scope.subtema) {
+            $scope.baseURL = BASE_URL + "/" + $scope.subtema;
+            $scope.setCssSubtema();
+        }
+        if ($scope.hasParam("p")) {
+            $scope.current = $scope.getParam("p") - 1;
+        }
+        if ($scope.hasParam("di")) {
+            $scope.setTheDate("startDate", $scope.getParam("di"), false);
+            $scope.uiConfig.calendar.defaultDate = $scope.startDate.substr(0, 4) + "-" + $scope.startDate.substr(4, 2) + "-" + $scope.startDate.substr(6, 2);
+        }
+        if ($scope.hasParam("df")) {
+            $scope.setTheDate("endDate", $scope.getParam("df"), false);
+        }
+        if ($scope.hasParam("anos")) {
+            $scope.anosAtivos = $scope.getParam("anos").split(",");
+        }
+        if ($scope.hasParam("q") && $scope.getParam("q") !== "" && $scope.getParam("q") !== '""') {
+            $scope.queryTerm = $scope.getParam("q");
+            $(".menu").addClass("searched");
+            $scope.menuMobile = false;
+            setTimeout(function() {
+                fill();
+            }, 10);
+            if ($scope.queryTerm.indexOf('"') > -1) {
+                $scope.queryTerm = $scope.queryTerm.replace(/"([^"]+(?="))"/g, "$1");
+                $scope.fullSearch = true;
+            }
+        } else {
+            if (window.location.toString().match(/(192\.168|127\.0)/) === null) {
+                return $scope.changeCalendario();
+            }
+        }
+        if ($scope.queryTerm.length > 2) {
+            $scope.search();
+        }
+    }, 100);
+    $scope.limparAnos = function() {
+        $scope.anosAtivos = [];
+        return $scope.search();
+    };
+    $scope.getSubtema = function(param) {
+        var subtema;
+        subtema = $location.$$path;
+        subtema = subtema.substring(1, subtema.lastIndexOf("/p"));
+        if (subtema !== "/") {
+            return subtema;
+        } else {
+            return false;
+        }
+    };
+    $scope.setCssSubtema = function() {
+        var sublink;
+        if ($scope.subtema) {
+            if (!$("link[title=subtema]")[0]) {
+                sublink = $('<link rel="stylesheet" title="subtema" />');
+                sublink.attr("href", BASE_URL + "/theme/" + TEMA_IONEWS + "/css/subtemas/" + $scope.subtema + "_busca.css?v=" + Math.random());
+                return $("head").append(sublink);
+            }
+        }
+    };
+    $scope.getParam = function(param) {
+        var h, palavra, subtermo, subtermos, trms, valor;
+        subtermo = $location.$$path;
+        subtermo = subtermo.substring(subtermo.lastIndexOf("/p"));
+        subtermos = subtermo.split("=");
+        trms = {};
+        h = void 0;
+        h = 0;
+        while (h < subtermos.length) {
+            if (h > 0) {
+                palavra = subtermos[h - 1];
+                if (palavra.indexOf("/") === 0) {
+                    palavra = palavra.substring(1);
+                }
+                if (palavra.indexOf("&") > 0) {
+                    palavra = palavra.substring(palavra.lastIndexOf("&") + 1);
+                }
+                valor = subtermos[h];
+                if (valor.indexOf("&") > -1 && h !== subtermos.length - 1) {
+                    valor = valor.substr(0, valor.lastIndexOf("&"));
+                }
+                trms[palavra] = valor;
+            }
+            h++;
+        }
+        return trms[param];
+    };
+    $scope.hasParam = function(param) {
+        if ($location.$$path.indexOf(param + "=") > -1) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+    $scope.setTheDate = function(field, value, search) {
+        var novoValor;
+        novoValor = "";
+        $scope[field] = value;
+        $scope.anos = [];
+        if ($scope.startDate) {
+            novoValor = $scope.startDate.substr(6, 2) + "/" + $scope.startDate.substr(4, 2) + "/" + $scope.startDate.substr(0, 4);
+            if (novoValor !== $scope.getStartDate) {
+                $scope.getStartDate = novoValor;
+                $("#dataInicial").datepicker("setDate", novoValor);
+                if ($scope.showCalendar) {
+                    $scope.uiConfig.calendar.defaultDate = $scope.getStartDate.substr(6, 4) + "-" + $scope.getStartDate.substr(3, 2) + "-" + $scope.getStartDate.substr(0, 2);
+                }
+            }
+        } else {
+            $scope.getStartDate = "";
+            $("#dataInicial").datepicker("setDate", "");
+        }
+        if ($scope.endDate) {
+            novoValor = $scope.endDate.substr(6, 2) + "/" + $scope.endDate.substr(4, 2) + "/" + $scope.endDate.substr(0, 4);
+            if (novoValor !== $scope.getEndDate) {
+                $scope.getEndDate = novoValor;
+                $("#dataFinal").datepicker("setDate", novoValor);
+            }
+        } else {
+            $scope.getEndDate = "";
+            $("#dataFinal").datepicker("setDate", "");
+        }
+        fill();
+        if (search) {
+            $scope.search();
+        }
+    };
+    $scope.populateLocation = function() {
+        var base, redirect;
+        base = $location.$$absUrl.indexOf("#/") > 0 ? $location.$$absUrl.substr(0, $location.$$absUrl.indexOf("#/")) : $location.$$absUrl;
+        redirect = ($scope.subtema ? "/" + $scope.subtema : "") + "/p=" + (Number($scope.current) + 1) + "&q=" + $scope.queryTerm + ($scope.startDate ? "&di=" + $scope.startDate : "") + ($scope.endDate ? "&df=" + $scope.endDate : "") + ($scope.anosAtivos.length > 0 ? "&anos=" + $scope.anosAtivos.join(",") : "");
+        $location.path(redirect);
+    };
+    $scope.setTipoBusca = function(tipo) {
+        return $scope.search();
+    };
+});
