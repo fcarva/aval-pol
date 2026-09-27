@@ -1,0 +1,22 @@
+# Fonte: https://web.archive.org/web/20241208025605id_/https://secult.es.gov.br/Media/Secult/2024_3/PLANILHA%20-%20CONTROLE%20MENSAL%20(1).pdf
+# Coletado (UTC): 2026-09-27T07:16:34Z
+# sha256 do original: 674510a8a51ea6e9d24e99dadd91b83387e997b7c0e7bc186c8c200d65defedd
+# PDF CreationDate: Mon Nov 25 14:26:25 2024 UTC
+# PDF ModDate: Mon Nov 25 14:26:25 2024 UTC
+
+                                   RECURSO UTILIZADO
+
+VIAGENS EM           agosto          setembro          outubro         novembro       dezembro a março
+
+
+RECURSO INICIAL   R$ 100.000,00    R$ 100.000,00    R$ 100.000,00    R$ 100.000,00    R$ 400.000,00
+
+SALDO DO CICLO
+                     R$ 0,00       R$ 77.608,75     R$ 74.884,77     R$ 100.881,46     R$ 13.488,45
+ANTERIOR
+
+
+VALOR UTILIZADO   R$ 22.391,25     R$ 102.723,98    R$ 74.003,31     R$ 187.393,01    R$ 124.253,45
+
+TOTAL RESTANTE      R$ 77.608,75     R$ 74.884,77    R$ 100.881,46     R$ 13.488,45     R$ 289.235,00
+
