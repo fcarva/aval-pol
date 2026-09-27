@@ -1,7 +1,7 @@
 # Fonte: https://secult.es.gov.br/media/2026/Parecer%20T%C3%A9cnico%20Cultural%20LICC%20modelo%20padr%C3%A3o.docx
-# Coletado (UTC): 2026-09-27T20:06:52Z
+# Coletado (UTC): 2026-09-27T22:19:51Z
 # sha256 do original: 6aff6d49642a74d42379f5f35d7e8a356b2d6b1b080b12d1bfa90caa86a88214
-# Last-Modified (servidor): Sun, 27 Sep 2026 07:12:43 GMT
+# Last-Modified (servidor): Sun, 27 Sep 2026 14:58:23 GMT
 
 Da:
  | NOME DO PARECERISTA
