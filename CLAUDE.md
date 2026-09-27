@@ -13,8 +13,12 @@ sobre a política ou similares; desenho da política (com teoria da mudança) e 
 avaliação; proposta de avaliação de impacto com desenho da amostra, fonte de
 dados e cálculo do poder estatístico; conclusão; referências.
 
-**Fora do escopo:** financiamento quadrático ou qualquer redesenho do mecanismo.
-Avalia-se a política **como ela está**.
+**Escopo (revisto em 27/09/2026, a pedido do autor):** avalia-se a política **como ela está**, com a moldura
+de bens públicos (poder de mercado de grandes contribuintes, escolha ponderada pelo imposto de quem escolhe,
+centralização, apropriação por taxa de serviço, exclusão de pequenos e verificação da entrega) — de forma
+**tácita**. Mecanismos alternativos (financiamento quadrático, Hypercerts, Open Source Observer, Hitzig) inspiram
+a análise, mas **não são nomeados nem propostos no artigo**; ficam em `notas/`. Redesenho do mecanismo segue fora
+do texto. Ver `notas/desenho/06-poder-de-mercado-e-bens-publicos.md`.
 
 ## Onde ficam as coisas
 

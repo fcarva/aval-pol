@@ -1,0 +1,20 @@
+ano_in,rubrica,limite_pct,teto_reais,dispositivo,trecho,trecho_no_texto,arquivo
+2023,captação de recursos (empresa contratada),10.0,50000.0,"art. 18, par. único","ficando limitado ao teto de R$50.000,00",True,dados/fontes_web/paginas/secult_in_2023_pdf.txt
+2023,elaboração do projeto (empresa contratada),5.0,15000.0,"art. 19, par. único","ficando limitado ao teto de R$15.000,00",True,dados/fontes_web/paginas/secult_in_2023_pdf.txt
+2023,remuneração do agente cultural (PJ),33.3,,art. 17,poderá receber até 1/3 dos recursos incentivados,True,dados/fontes_web/paginas/secult_in_2023_pdf.txt
+2023,equipe técnica,30.0,,"art. 15, IV",técnica não poderão exceder 30% dos recursos,True,dados/fontes_web/paginas/secult_in_2023_pdf.txt
+2023,divulgação e impulsionamento,,,sem limite próprio na IN,,,dados/fontes_web/paginas/secult_in_2023_pdf.txt
+2024,captação de recursos (empresa contratada),10.0,50000.0,"art. 18, par. único","ficando limitado ao teto de R$50.000,00",True,dados/fontes_web/paginas/secult_in_2024_pdf.txt
+2024,elaboração do projeto (empresa contratada),5.0,15000.0,"art. 19, par. único","ficando limitado ao teto de R$15.000,00",True,dados/fontes_web/paginas/secult_in_2024_pdf.txt
+2024,remuneração do agente cultural (PJ),33.3,,art. 17,poderá receber até 1/3 dos recursos incentivados,True,dados/fontes_web/paginas/secult_in_2024_pdf.txt
+2024,equipe técnica,30.0,,"art. 15, IV",técnica não poderão exceder 30% dos recursos,True,dados/fontes_web/paginas/secult_in_2024_pdf.txt
+2024,divulgação e impulsionamento,,,sem limite próprio na IN,,,dados/fontes_web/paginas/secult_in_2024_pdf.txt
+2025,captação de recursos (empresa contratada),10.0,50000.0,"art. 27, par. único","ficando limitado ao teto de R$50.000,00",True,notas/politica/fontes/in-licc-001-2025.md
+2025,elaboração do projeto (empresa contratada),5.0,15000.0,"art. 28, par. único","ficando limitado ao teto de R$15.000,00",True,notas/politica/fontes/in-licc-001-2025.md
+2025,remuneração do agente cultural (PJ),33.3,,art. 26,poderá receber até 1/3 dos recursos,True,notas/politica/fontes/in-licc-001-2025.md
+2025,equipe técnica,30.0,,"art. 23, IV",não poderão ultrapassar 30%,True,notas/politica/fontes/in-licc-001-2025.md
+2025,divulgação e impulsionamento,25.0,,"art. 23, V",não poderão ultrapassar 25% dos recursos incentivados via LICC,True,notas/politica/fontes/in-licc-001-2025.md
+2026,"captação e/ou elaboração (despesa única, pode ser paga ao próprio agente)",10.0,50000.0,"art. 28, §§ 1º e 2º",A remuneração desse serviço pode ser paga ao próprio agente cultural,True,notas/politica/fontes/in-licc-001-2026.md
+2026,remuneração do agente cultural (PJ),33.3,,art. 26,poderá receber até 1/3 dos recursos incentivados,True,notas/politica/fontes/in-licc-001-2026.md
+2026,equipe técnica,30.0,,"art. 23, IV",técnica não poderão ultrapassar 30% dos recursos,True,notas/politica/fontes/in-licc-001-2026.md
+2026,divulgação e impulsionamento,25.0,,"art. 23, V","conteúdo, não poderão ultrapassar 25% dos recursos",True,notas/politica/fontes/in-licc-001-2026.md
