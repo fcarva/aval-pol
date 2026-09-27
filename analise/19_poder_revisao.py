@@ -22,6 +22,11 @@ primeiro estágio; o EMD do efeito local é o da forma reduzida dividido pelo pr
 H4, cumprimento parcial: o efeito local para quem responde à oferta é o da oferta dividido pela adesão; o EMD cresce
 na mesma razão (adesões de 25% e 50%, hipotéticas).
 
+H1, braço da população (auditoria do desenho, 27/09/2026): os mesmos perfis de projeto avaliados por uma amostra de
+residentes do ES; a premissa de H1 ("não deixa de fora bem público que a população valorizaria") é testada pela
+diferença entre o efeito de um atributo na escolha da empresa e na da população. EMD da diferença =
+raiz(EMD_empresas² + EMD_população²), com amostras independentes; 6 tarefas (12 perfis) por residente.
+
 Saída: analise/tabelas/19_poder_revisao.csv
 Uso: python analise/19_poder_revisao.py
 """
@@ -91,8 +96,26 @@ def h5() -> list[dict]:
     return linhas
 
 
+def emd_conjoint(respondentes: int, tarefas: int, icc: float) -> float:
+    m = 2 * tarefas
+    return 100 * poder.mde_binario(0.5, respondentes * m, T=0.5) * poder.efeito_desenho(m, icc, 0.0) ** 0.5
+
+
+def h1_populacao() -> list[dict]:
+    linhas = []
+    for R_emp in (30, 60):
+        for R_pop in (500, 1000):
+            for icc in (0.0, 0.1):
+                e_emp, e_pop = emd_conjoint(R_emp, 12, icc), emd_conjoint(R_pop, 6, icc)
+                linhas.append({"hipotese": "H1", "quadro": f"{R_emp} decisores × 12 tarefas; {R_pop} residentes × 6 tarefas",
+                               "desenho": "diferença de efeito do atributo: empresas − população", "p0": 0.5, "icc": icc,
+                               "emd_empresas": e_emp, "emd_populacao": e_pop,
+                               "emd_pontos": (e_emp ** 2 + e_pop ** 2) ** 0.5})
+    return linhas
+
+
 def main() -> None:
-    out = pd.DataFrame(h4() + h5())
+    out = pd.DataFrame(h4() + h5() + h1_populacao())
     out["fonte"] = ("analise/tabelas/07_mapa_quadro_h3.csv; analise/tabelas/09_reentrada_resumo.csv; fórmulas de "
                     "analise/05_poder_mde.py")
     out.to_csv(TAB / "19_poder_revisao.csv", index=False)

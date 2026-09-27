@@ -68,6 +68,7 @@ PREAMBULO = r"""% !TEX program = xelatex
   \setmathfont{texgyretermes-math.otf}
 \fi
 \usepackage{microtype}
+\usepackage{indentfirst}  % recua também o primeiro parágrafo de cada seção (uso brasileiro)
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{array}
@@ -82,9 +83,9 @@ PREAMBULO = r"""% !TEX program = xelatex
 \usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul]{hyperref}
 \urlstyle{same}
 
-% Espaçamento simples, sem recuo e com 4 pt entre parágrafos (o mesmo do .docx)
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{2pt plus 1pt minus 1pt}
+% Espaçamento simples; recuo de 1,25 cm na primeira linha (ABNT), sem espaço extra entre parágrafos
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt plus 1pt}
 \setlength{\emergencystretch}{1.5em}
 \frenchspacing  % espaço simples depois do ponto, como no português
 \setcounter{secnumdepth}{2}
@@ -109,7 +110,7 @@ PREAMBULO = r"""% !TEX program = xelatex
 \setlength{\LTpost}{0pt}
 
 % Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parskip}{1pt}}{\par}
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}}{\par}
 """
 
 
@@ -311,6 +312,9 @@ def gerar() -> None:
         r"\end{center}",
     ])
     info = rf"\hypersetup{{pdftitle={{{meta['title']}}}, pdflang={{pt-BR}}}}"
+    # resumo e palavras-chave sem recuo (ABNT NBR 6028)
+    tex = tex.replace("\\textbf{Resumo.}", "\\noindent\\textbf{Resumo.}", 1)
+    tex = tex.replace("\\textbf{Palavras-chave:}", "\\noindent\\textbf{Palavras-chave:}", 1)
     DIR.mkdir(parents=True, exist_ok=True)
     TEX.write_text(PREAMBULO + info + "\n\n\\begin{document}\n\n" + rosto + "\n\n" + tex.strip()
                    + "\n\n\\end{document}\n", encoding="utf-8")

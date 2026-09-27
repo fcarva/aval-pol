@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `9ce305d8d9ff497e…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `f28a6c4bb688810a…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -9,20 +9,19 @@
 
 ## Título
 
-- ☐ **[0.1]** Quem escolhe o que o Estado financia? Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto
+- ☐ **[0.1]** Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto
 
 ## Resumo e palavras-chave
 
 - **0.1** — *Passo:* O artigo em um parágrafo: mecanismo, o que se avalia, os achados de desenho e a proposta
   - ☐ **[0.1.1]** **Resumo.** A Lei de Incentivo à Cultura Capixaba (LICC) permite que empresas contribuintes do ICMS destinem a projetos culturais habilitados pela Secretaria da Cultura (SECULT) valores que recuperam integralmente como crédito presumido do imposto: o Estado paga, a empresa escolhe, e o público a quem o bem cultural se destina não entra na escolha.
-  - ☐ **[0.1.2]** Avalia-se o desenho como ele está, com a auditoria de cinco premissas da teoria da mudança a partir de normas, anexos oficiais e atas da comissão de 2022 a 2026, e estrutura-se uma avaliação de impacto.
-  - ☐ **[0.1.3]** A escolha não se mostra orientada pelo valor público: duas empresas respondem por metade da renúncia de 2025, e as peças de comunicação dos projetos trazem a marca do patrocinador.
+  - ☐ **[0.1.2]** Neste artigo, avalia-se o desenho da LICC: da teoria da mudança derivam-se cinco premissas, confrontadas com normas, anexos oficiais e atas da comissão de 2022 a 2026, que orientam uma proposta de avaliação de impacto.
+  - ☐ **[0.1.3]** A decisão de financiamento não mostra orientação evidente pelo valor público: duas empresas respondem por metade da renúncia de 2025, e o bem cultural oferecido à população confunde-se com o marketing das empresas.
     - checagem de dados: D03 ✔ (`analise/tabelas/03_patrocinadores_concentracao.csv`)
   - ☐ **[0.1.4]** A decisão se concentra em poucos atores: a habilitação qualifica sem priorizar, e o que excede o teto é racionado pela ordem de recebimento e validação dos termos de patrocínio.
   - ☐ **[0.1.5]** Até 13% do valor captado em 2025 poderia remunerar captação e elaboração, projetos pequenos captam cada vez menos, e só pessoas jurídicas contribuintes patrocinam.
     - checagem de dados: N51 ✔ (`analise/tabelas/10_taxa_servico_permitida_2025.csv`)
-  - ☐ **[0.1.6]** A entrega é indeterminada, porque a SECULT não publica o público alcançado.
-  - ☐ **[0.1.7]** Propõem-se quatro perguntas de avaliação, com estratégias, dados e poder estatístico, entre elas um experimento conjunto com decisores de empresas.
+  - ☐ **[0.1.6]** Propõem-se quatro perguntas de avaliação, com estratégias, dados e poder estatístico, entre elas um experimento conjunto com decisores de empresas.
 
 - **0.2** — *Passo:* Palavras-chave
   - ☐ **[0.2.1]** **Palavras-chave:** incentivo fiscal à cultura; gasto tributário; patrocínio; bens públicos; teoria da mudança; avaliação de impacto.
@@ -33,8 +32,7 @@
 - **1.1** — *Passo:* Apresenta a lei e dimensiona a política: teto anual, teto esgotado e demanda habilitada acima do teto
   - ☐ **[1.1.1]** A Lei estadual nº 11.246/2021 incluiu na lei do ICMS um crédito presumido correspondente ao valor que o contribuinte destina a projetos culturais credenciados pela Secretaria da Cultura (SECULT), com efeitos a partir de 2022 (ESPÍRITO SANTO, 2021a).
     - citações: ESPÍRITO SANTO, 2021a
-  - ☐ **[1.1.2]** A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu rapidamente: o teto anual de captação, o montante fixado pela SEFAZ, passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026. [nota de rodapé: teto2022]
-    - citações: ESPÍRITO SANTO, 2021b
+  - ☐ **[1.1.2]** A Lei de Incentivo à Cultura Capixaba (LICC) cresceu: o teto anual de captação, o montante fixado pela SEFAZ, passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026. [nota de rodapé: teto2022]
     - checagem de dados: D05 ✔ (`dados/externos/licc_teto_vs_icms.csv`)
     - ☐ *Nota de rodapé (teto2022):* Para 2022, a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, ampliou o montante em R\$ 5 milhões (DIO-ES, 2026): o teto de 2022 foi de R\$ 15 milhões, valor que o anexo de captação da SECULT e a lista do Portal da Transparência informam (ESPÍRITO SANTO, 2026), dos quais R\$ 11,5 milhões foram validados.
       - citações: DIO-ES, 2026; ESPÍRITO SANTO, 2026
@@ -48,31 +46,29 @@
       - ⚠ números sem checagem automática (conferir na fonte citada): 3, 10
 
 - **1.2** — *Passo:* Reconstrói o problema que a lei não declara e o enuncia
-  - ☐ **[1.2.1]** Nenhuma norma da LICC declara o problema que ela enfrenta; o diagnóstico precisa ser reconstruído.
-  - ☐ **[1.2.2]** O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2025).
+  - ☐ **[1.2.1]** O setor cultural capixaba é pequeno para o tamanho da economia do estado: em 2024, ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação entre as 27 unidades da federação (IBGE, 2025).
     - citações: IBGE, 2025
     - checagem de dados: D08 ✔ (`dados/externos/siic_uf.csv`)
     - ⚠ números sem checagem automática (conferir na fonte citada): 27
-  - ☐ **[1.2.3]** Na economia criativa, que soma às artes atividades de mercado como design e publicidade, o estado ficava perto da média: 8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição (SECULT, 2020).
+  - ☐ **[1.2.2]** Na economia criativa, que soma às artes atividades de mercado como design e publicidade, o estado ficava perto da média: 8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição (SECULT, 2020).
     - citações: SECULT, 2020
     - checagem de dados: N64 ✔ (`dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt (SECULT, Boletim 2T2020)`)
-  - ☐ **[1.2.4]** O contraste sugere que o atraso está no núcleo cultural, e não na atividade criativa como um todo.
-  - ☐ **[1.2.5]** A desigualdade relevante, porém, é interna: em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da do interior, e metade dos municípios do interior não tinha fundo municipal de cultura (IBGE, 2022).
+  - ☐ **[1.2.3]** O contraste sugere que o atraso está no núcleo cultural, que a LICC financia, e não na atividade criativa como um todo.
+  - ☐ **[1.2.4]** A desigualdade relevante, porém, é interna: em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da do interior, e metade dos municípios do interior não tinha fundo municipal de cultura (IBGE, 2022).
     - citações: IBGE, 2022
     - checagem de dados: D09 ✔ (`dados/externos/munic2021_cultura_es_resumo.csv`); D10 ✔ (`dados/externos/munic2021_cultura_es_resumo.csv`)
-  - ☐ **[1.2.6]** O problema é, assim, **a baixa e desigual capacidade de financiar a produção e a oferta cultural fora do circuito já consolidado**, com causas na restrição de financiamento de pequenos produtores, na concentração de equipamentos e na dependência de poucos financiadores.
+  - ☐ **[1.2.5]** O problema é, assim, a baixa e desigual capacidade de financiar a produção e a oferta cultural fora do circuito já consolidado, com causas na restrição de financiamento de pequenos produtores, na concentração de equipamentos e na dependência de poucos financiadores.
 
-- **1.3** — *Passo:* Justifica a avaliação: gasto fora do orçamento, decisão privada, regra instável
-  - ☐ **[1.3.1]** A avaliação da LICC se justifica por três razões.
+- **1.3** — *Passo:* Justifica a avaliação: gasto fora do orçamento e decisão privada
+  - ☐ **[1.3.1]** A avaliação da LICC se justifica por duas razões.
   - ☐ **[1.3.2]** Primeiro, trata-se de gasto público que não passa pelo lado da despesa do orçamento: a renúncia efetiva equivale a 14% a 21% do gasto estadual direto na função cultura em 2022-2025 (SECULT, 2026c; BRASIL, 2026).
     - citações: SECULT, 2026c; BRASIL, 2026
     - checagem de dados: D11 ✔ (`analise/tabelas/03f_captacao_anual_secult.csv (validado_sobre_f13_estado, 2022-2025)`)
   - ☐ **[1.3.3]** Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que expõe a política às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019).
     - citações: SILVA, 2017; DEKKER; RODRIGUES, 2019
-  - ☐ **[1.3.4]** Terceiro, a política é nova e muda de regra a cada ano.
 
 - **1.4** — *Passo:* Declara os objetivos e o roteiro do artigo
-  - ☐ **[1.4.1]** O artigo tem dois objetivos: avaliar o desenho da LICC **como ela está**, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder.
+  - ☐ **[1.4.1]** O artigo tem dois objetivos: avaliar o desenho da LICC, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder.
   - ☐ **[1.4.2]** A seção 2 caracteriza a política, a 3 revisa a literatura, a 4 reconstrói e audita a teoria da mudança, a 5 propõe a avaliação de impacto e a 6 conclui.
 
 
@@ -115,43 +111,33 @@
 
 - **2.3** — *Passo:* Destaca os três traços do arranjo que guiam a avaliação
   - ☐ **[2.3.1]** Três características do arranjo pesam na avaliação.
-  - ☐ **[2.3.2]** A primeira é a **delegação da escolha**: o Estado define quem pode receber; a empresa define quem recebe.
-  - ☐ **[2.3.3]** A segunda é a **instabilidade**: a SECULT edita uma instrução normativa por ano, fechou as inscrições em meados de 2024 e alterou o fluxo em meados de 2025 (SECULT, 2024b; 2025b); até 2024 a comissão habilitava antes da captação, e desde 2025 o projeto só vai à comissão com patrocinador (SECULT, 2025a, arts. 41-45).
+  - ☐ **[2.3.2]** A primeira é a delegação da escolha: o Estado define quem pode receber; a empresa define quem recebe.
+  - ☐ **[2.3.3]** A segunda é a instabilidade: a SECULT edita uma instrução normativa por ano, fechou as inscrições em meados de 2024 e alterou o fluxo em meados de 2025 (SECULT, 2024b; 2025b); até 2024 a comissão habilitava antes da captação, e desde 2025 o projeto só vai à comissão com patrocinador (SECULT, 2025a, arts. 41-45).
     - citações: SECULT, 2024b; 2025b; SECULT, 2025a, arts. 41-45
-  - ☐ **[2.3.4]** A terceira é a **pouca informação publicada**: os anexos não trazem o CNPJ do proponente, a sede nem indicador de resultado, e os inabilitados só aparecem, sem motivo, nos extratos das atas da comissão (SECULT, 2026f).
+  - ☐ **[2.3.4]** A terceira é a pouca informação publicada: os anexos não trazem dados cadastrais do proponente, o local de atuação nem indicadores de resultado, e os inabilitados só aparecem nos extratos das atas da comissão (SECULT, 2026f).
     - citações: SECULT, 2026f
 
 
 ## 3 Breve revisão da literatura
 
-- **3.1** — *Passo:* Situa a LICC na literatura: incentivo fiscal com decisão privada, falha de mercado, bens públicos e o crédito de 100% como extremo
+- **3.1** — *Passo:* Situa a LICC na literatura: incentivo fiscal com decisão privada e a cultura como bem público
   - ☐ **[3.1.1]** **Despesa tributária com decisão privada.** A literatura de economia da cultura trata o incentivo fiscal como um subsídio em que o doador decide a alocação e o Tesouro paga a conta: para Feld, O'Hare e Schuster (1983), os contribuintes americanos se tornaram "mecenas apesar de si mesmos", porque financiam pela renúncia escolhas que não fazem.
     - citações: O'Hare e Schuster (1983)
-  - ☐ **[3.1.2]** A justificativa econômica usual é de falha de mercado: a produtividade estagnada das artes ao vivo (BAUMOL; BOWEN, 1966) e os benefícios que a cultura gera também para quem não a consome, que fazem dela bem público ou meritório (THROSBY, 1994).
-    - citações: BAUMOL; BOWEN, 1966; THROSBY, 1994
-  - ☐ **[3.1.3]** Bens públicos são consumidos em grupo, e não por indivíduos, e por isso são "o tecido que conecta as pessoas" (HITZIG, 2021, tradução nossa); Buterin, Hitzig e Weyl (2019) tratam seu financiamento como formação de comunidades e mostram que, se o valor recebido cresce com o número de contribuintes, e não só com o total aportado, a provisão é ótima no modelo padrão.
+  - ☐ **[3.1.2]** A justificativa econômica é o caráter de bem público da cultura: bens públicos são consumidos em grupo, e não por indivíduos, e por isso são "o tecido que conecta as pessoas" (HITZIG, 2021, tradução nossa); Buterin, Hitzig e Weyl (2019) tratam seu financiamento como formação de comunidades e mostram que, se o valor recebido cresce com o número de contribuintes, e não só com o total aportado, a provisão é ótima no modelo dos autores.
     - citações: HITZIG, 2021, tradução nossa; Hitzig e Weyl (2019)
-  - ☐ **[3.1.4]** Nesse espectro de subsídios, o crédito de 100% da LICC ocupa o extremo: o doador não tem custo líquido algum.
-    - ⚠ números sem checagem automática (conferir na fonte citada): 100%
-  - ☐ **[3.1.5]** Sem custo, não há efeito-preço sobre o patrocínio, e restam duas margens: a troca de fonte (a empresa paga com ICMS o patrocínio que já faria com verba própria ou pela Rouanet) e o efeito sobre o projeto.
 
-- **3.2** — *Passo:* Traz a experiência da Lei Rouanet: concentração, mercado de patrocínios, adicionalidade e TCU
-  - ☐ **[3.2.1]** **A experiência brasileira com a Lei Rouanet.** A LICC reproduz o núcleo do mecenato federal, que acumula três décadas de crítica: concentração regional no Sudeste (SILVA, 2017), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e um "mercado de patrocínios" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013).
+- **3.2** — *Passo:* Traz a experiência da Lei Rouanet: concentração, mercado de patrocínios e adicionalidade
+  - ☐ **[3.2.1]** **A experiência brasileira com a Lei Rouanet.** A LICC reproduz o núcleo do mecenato federal, que acumula três décadas de debate: concentração regional no Sudeste (SILVA, 2017), concentração persistente de patrocinadores e proponentes (COSTA; MEDEIROS; BUCCO, 2017) e um "mercado de patrocínios" com intermediários e departamentos de marketing (BELEM; DONADONE, 2013).
     - citações: SILVA, 2017; COSTA; MEDEIROS; BUCCO, 2017; BELEM; DONADONE, 2013
   - ☐ **[3.2.2]** Dekker e Rodrigues (2019) concluem que a lei beneficiou sobretudo projetos já bem-sucedidos e que não está claro qual falha de mercado ela corrige, dúvida que vale para a LICC (seção 4.2).
     - citações: Dekker e Rodrigues (2019)
-  - ☐ **[3.2.3]** O Tribunal de Contas da União recomendou objetivos, indicadores e metas para as renúncias (BRASIL, 2014) e determinou que não se autorizasse captação a projetos com forte potencial lucrativo ou capacidade de atrair investimento privado (BRASIL, 2016).
-    - citações: BRASIL, 2014; BRASIL, 2016
-  - ☐ **[3.2.4]** Em 2010-2019, o maior doador destinou 853 vezes o valor do doador médio, e o número de doadores de um projeto não se relaciona com a parcela do aprovado que ele capta (OGAVA; GALVÃO; ADAMCZYK, 2022).
+  - ☐ **[3.2.3]** Em 2010-2019, o maior doador destinou 853 vezes o valor do doador médio, e o número de doadores de um projeto não se relaciona com a parcela do aprovado que ele capta (OGAVA; GALVÃO; ADAMCZYK, 2022).
     - citações: OGAVA; GALVÃO; ADAMCZYK, 2022
     - ⚠ números sem checagem automática (conferir na fonte citada): 853
 
-- **3.3** — *Passo:* Mostra que não há evidência causal no Brasil e que a externa aponta efeitos pequenos
-  - ☐ **[3.3.1]** **Evidência causal.** Não se localizou avaliação causal de incentivo cultural no Brasil; as avaliações encontradas de leis estaduais via ICMS são descritivas: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021).
+- **3.3** — *Passo:* Mostra que a evidência sobre incentivos estaduais no Brasil é descritiva
+  - ☐ **[3.3.1]** **Evidência causal.** Existem poucos trabalhos de avaliação do incentivo cultural no Brasil; as avaliações encontradas de leis estaduais via ICMS são descritivas: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021).
     - citações: TEIXEIRA *et al.*, 2021
-  - ☐ **[3.3.2]** Fora do Brasil, os créditos estaduais ao audiovisual nos Estados Unidos têm efeitos pequenos, restritos à própria atividade incentivada (THOM, 2018).
-    - citações: THOM, 2018
-  - ☐ **[3.3.3]** Para a LICC, que financia produções dispersas, os efeitos plausíveis são proximais e pequenos.
 
 
 ## 4 Desenho da política e sua avaliação
@@ -160,14 +146,13 @@
 ### 4.1 Teoria da mudança
 
 - **4.1.1** — *Passo:* Explica como a teoria da mudança é reconstruída e por que tem três cadeias
-  - ☐ **[4.1.1.1]** Como nenhuma norma da LICC explicita como ela produziria resultados, a teoria da mudança (Figura 1) é reconstruída pelos cinco passos do J-PAL: propósito, cadeia causal, premissas e riscos, hipótese causal e indicadores.
-  - ☐ **[4.1.1.2]** Na cadeia de resultados de Gertler *et al.* (2018), os produtos estão sob controle da agência; na LICC, o produto "projeto patrocinado" depende de um terceiro, a empresa.
+  - ☐ **[4.1.1.1]** A teoria da mudança da LICC (Figura 1) segue cinco passos: propósito, cadeia causal, premissas e riscos, hipótese causal e indicadores.
+  - ☐ **[4.1.1.2]** Na cadeia de resultados de Gertler *et al.* (2018), os produtos estão sob controle do órgão executor; na LICC, o produto "projeto patrocinado" depende de um terceiro, a empresa.
     - citações: Gertler *et al.* (2018)
-  - ☐ **[4.1.1.3]** Por isso a Figura 1 separa três cadeias, como recomendam White e Raitzer (2017): a entrada, o financiamento e a entrega, e indica quem decide em cada elo.
-    - citações: White e Raitzer (2017)
+  - ☐ **[4.1.1.3]** Por isso a Figura 1 separa três cadeias: a entrada, o financiamento e a entrega, e indica quem decide em cada elo.
 
 - **4.1.2** — *Passo:* Enuncia a hipótese causal no formato do J-PAL
-  - ☐ **[4.1.2.1]** Na forma do J-PAL, a hipótese causal é: *se* a SECULT abre a inscrição e habilita projetos culturais, e empresas contribuintes patrocinam parte deles com o ICMS que pagariam, *então* se forma um cardápio de projetos habilitados e um conjunto de projetos patrocinados e executados, *o que deveria levar* a mais bens culturais de acesso público, executados por proponentes mais diversos e mais capazes, *que ao final melhorarão* o acesso da população à cultura e reduzirão sua desigualdade territorial, *contribuindo para* ampliar e desconcentrar a capacidade de financiar a cultura no estado.
+  - ☐ **[4.1.2.1]** A hipótese causal é: *se* a SECULT abre a inscrição e habilita projetos culturais, e empresas contribuintes patrocinam parte deles com o ICMS que pagariam, *então* se forma um cardápio de projetos habilitados e um conjunto de projetos patrocinados e executados, *o que deveria levar* a mais bens culturais de acesso público, executados por proponentes mais diversos e mais capazes, *que ao final melhorarão* o acesso da população à cultura e reduzirão sua desigualdade territorial, *contribuindo para* ampliar e desconcentrar a capacidade de financiar a cultura no estado.
 
 - **4.1.3** — *Passo:* Define as cinco premissas testadas (H1 a H5) e os riscos
   - ☐ **[4.1.3.1]** Cada seta da cadeia carrega uma premissa, uma condição que precisa valer para que um passo leve ao seguinte (MAYNE, 2015).
@@ -181,7 +166,7 @@
   - ☐ **[4.1.3.8]** H1 a H4 perguntam quem decide e a que custo; H5, se o que se financia é adicional.
   - ☐ **[4.1.3.9]** Há dois riscos (efeitos não esperados): o teto fixo desloca outros projetos, e o crédito integral pode substituir o patrocínio próprio da empresa.
 
-### Figura 1 – Teoria da mudança da LICC, com as premissas testadas
+### Figura 1 – Teoria da mudança da LICC
 
 - **Figura 1 (textos da imagem, `analise/08_figura_teoria_da_mudanca.py`):**
   - ☐ Baixa e desigual capacidade de financiar a produção e a oferta cultural fora do circuito já consolidado
@@ -222,8 +207,8 @@
   - ☐ **[4.2.2.1]** **Problema e objetivos.** A lei não tem artigo de objetivos, e o decreto declara na ementa um objetivo de produto, "estimular a realização de projetos culturais"; suas onze finalidades de "interesse público", das quais o projeto atende **uma ou mais**, definem quem é elegível, não o que a política pretende alcançar (ESPÍRITO SANTO, 2021b, art. 3º).
     - citações: ESPÍRITO SANTO, 2021b, art. 3º
   - ☐ **[4.2.2.2]** Não há meta, magnitude esperada nem indicador.
-  - ☐ **[4.2.2.3]** A LICC não atende ao critério de que um programa declare resultados e magnitude esperados (BARROS; LIMA, 2017), nem ao padrão do TCU para renúncias, com objetivos, indicadores e metas (BRASIL, 2014).
-    - citações: BARROS; LIMA, 2017; BRASIL, 2014
+  - ☐ **[4.2.2.3]** A LICC não atende ao critério de que um programa declare resultados e magnitude esperados (BARROS; LIMA, 2017).
+    - citações: BARROS; LIMA, 2017
 
 - **4.2.3** — *Passo:* Avalia o funil de atrito e os indicadores da cadeia
   - ☐ **[4.2.3.1]** **Funil de atrito e indicadores.** O funil mede, elo a elo, quantos beneficiários potenciais chegam ao fim da cadeia (WHITE; RAITZER, 2017); suas etapas são os indicadores da cadeia, e os de resultado são os *Y* do Quadro 3.
@@ -233,7 +218,7 @@
   - ☐ **[4.2.3.3]** Nas etapas observadas, a maioria passa: 68% dos habilitados de 2022-2024 com situação resolvida captaram.
     - checagem de dados: N04 ✔ (`analise/tabelas/07_funil_por_ciclo.csv`)
 
-### Quadro 2 – Auditoria das premissas da teoria da mudança
+### Quadro 2 – Premissas da teoria da mudança
 
 - **Colunas:** Elo · Premissa · Contexto real · Situação
   - ☐ **Escolha (H1)** — A escolha pela marca, único retorno privado da empresa, não deixa de fora bem público que a população valorizaria — Duas empresas somam metade da renúncia de 2025; energia e gás, 52%. As peças de divulgação (até 25%) trazem a marca. Recorrentes captam mais (71% contra 57%); 48 pares patrocinador–proponente se repetem (44% do valor) — Não sustentada: evidência mista
@@ -306,7 +291,7 @@
     - citações: SECULT, 2026g
 
 - **4.2.8** — *Passo:* Audita H1: a marca como retorno privado e o peso de cada empresa pelo imposto
-  - ☐ **[4.2.8.1]** **Marketing (H1).** Com crédito integral, a empresa escolhe o destino do ICMS que pagaria e fica com a marca: as peças de comunicação, parte do objeto, trazem a marca do patrocinador em proporção à do Governo, e a divulgação pode consumir até 25% dos recursos (SECULT, 2025a, arts. 23, 55 e 64).
+  - ☐ **[4.2.8.1]** **Marketing (H1).** Com crédito integral, a empresa escolhe o destino do ICMS que pagaria e fica com o retorno de marketing: as peças de comunicação, parte do objeto, trazem a marca do patrocinador em proporção à do Governo, e a divulgação pode consumir até 25% dos recursos (SECULT, 2025a, arts. 23, 55 e 64).
     - citações: SECULT, 2025a, arts. 23, 55 e 64
     - checagem de dados: N54 ✔ (`analise/tabelas/10_rubricas_teto_in.csv (2025)`)
   - ☐ **[4.2.8.2]** Como o limite por patrocinador é uma fração do ICMS recolhido, o peso de cada empresa na escolha cresce com o imposto que ela paga, e a concentração da renúncia (Quadro 2) reflete também a do próprio imposto.
@@ -472,7 +457,7 @@
   - ☐ **[5.4.3.1]** Fonte: elaboração própria; `analise/tabelas/07_poder_hipoteses.csv`, `07_mapa_quadro_h3.csv`, `10_poder_conjoint.csv` e `19_poder_revisao.csv` (scripts `analise/07_hipoteses_h1_h3.py`, `10_poder_mercado_rubricas.py` e `19_poder_revisao.py`).
 
 - **5.4.4** — *Passo:* Interpreta o poder de cada desenho: margem, VI, conjunto, conglomerados e adesão
-  - ☐ **[5.4.4.1]** A comparação na margem do racionamento só detecta efeitos muito grandes, acima dos esperados (seção 3), e serve como verificação de robustez; para o efeito de receber em algum momento, o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos.
+  - ☐ **[5.4.4.1]** A comparação na margem do racionamento só detecta efeitos muito grandes e serve como verificação de robustez; para o efeito de receber em algum momento, o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos.
     - checagem de dados: N68 ✔ (`analise/tabelas/19_poder_revisao.csv`)
   - ☐ **[5.4.4.2]** Com os recusados de 2025 e 2026 (LAI), se dobrarem a margem, o EMD de receber agora cai para 20 a 24 pontos.
     - checagem de dados: N69 ✔ (`analise/tabelas/19_poder_revisao.csv`)
@@ -528,15 +513,11 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
   - conferência: VERIFIED
 - ☐ BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, para que e quando fazer? *In*: MENEZES FILHO, Naercio Aquino; PINTO, Cristine Campos de Xavier (org.). **Avaliação econômica de projetos sociais**. 3. ed. São Paulo: Fundação Itaú Social, 2017. p. 13-37.
   - conferência: sem_doi
-- ☐ BAUMOL, William J.; BOWEN, William G. **Performing arts**: the economic dilemma. New York: The Twentieth Century Fund, 1966.
-  - conferência: sem_doi
 - ☐ BELEM, Marcela Purini; DONADONE, Julio Cesar. A Lei Rouanet e a construção do "mercado de patrocínios culturais". **NORUS – Novos Rumos Sociológicos**, Pelotas, v. 1, n. 1, 2013. Disponível em: https://periodicos.ufpel.edu.br/index.php/NORUS/article/view/2761.
   - conferência: sem_doi
 - ☐ BERTRAND, Marianne; BOMBARDINI, Matilde; FISMAN, Raymond; TREBBI, Francesco. Tax-exempt lobbying: corporate philanthropy as a tool for political influence. **American Economic Review**, v. 110, n. 7, p. 2065-2102, 2020. DOI: 10.1257/aer.20180615.
   - conferência: VERIFIED
 - ☐ BRASIL. Lei Complementar nº 123, de 14 de dezembro de 2006. Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte. **Diário Oficial da União**, Brasília, 15 dez. 2006. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm. Acesso em: 27 set. 2026.
-  - conferência: sem_doi
-- ☐ BRASIL. Tribunal de Contas da União. **Acórdão nº 1.205/2014 – Plenário**. Relator: Raimundo Carreiro. Brasília, 14 maio 2014.
   - conferência: sem_doi
 - ☐ BRASIL. Tribunal de Contas da União. **Acórdão nº 191/2016 – Plenário**. Relator: Augusto Sherman Cavalcanti. Brasília, 3 fev. 2016.
   - conferência: sem_doi
@@ -622,10 +603,6 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
   - conferência: sem_doi
 - ☐ TEIXEIRA, Lusvânio Carlos; XAVIER, Wescley Silva; FARIA, Evandro Rodrigues de; BRAVIM, Márcio Teixeira. Relação entre os equipamentos e políticas culturais dos municípios de Minas Gerais e a captação de recursos via Lei Estadual de Incentivo à Cultura. **Interações**, Campo Grande, v. 22, n. 2, p. 405-419, 2021. DOI: 10.20435/inter.v22i2.2965.
   - conferência: VERIFIED
-- ☐ THOM, Michael. Lights, camera, but no action? Tax and economic development lessons from state motion picture incentive programs. **The American Review of Public Administration**, v. 48, n. 1, p. 33-51, 2018. DOI: 10.1177/0275074016651958.
-  - conferência: VERIFIED
-- ☐ THROSBY, David. The production and consumption of the arts: a view of cultural economics. **Journal of Economic Literature**, v. 32, n. 1, p. 1-29, 1994.
-  - conferência: sem_doi
 - ☐ WHITE, Howard; RAITZER, David A. **Impact evaluation of development interventions**: a practical guide. Mandaluyong City: Asian Development Bank, 2017. DOI: 10.22617/TCS179188-2.
   - conferência: VERIFIED
 - ☐ WILLIAMS, Martin J. External validity and policy adaptation: from impact evaluation to policy design. **The World Bank Research Observer**, v. 35, n. 2, p. 158-191, 2020. DOI: 10.1093/wbro/lky010.
@@ -633,14 +610,13 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
 
 ## Números a conferir à mão
 
-191 frases e linhas de tabela; 50 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
+182 frases e linhas de tabela; 50 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
 
-### Dado ou literatura (14)
+### Dado ou literatura (13)
 
 - ☐ [1.1.3]: 25, 63
-- ☐ [1.2.2]: 27
-- ☐ [3.1.4]: 100%
-- ☐ [3.2.4]: 853
+- ☐ [1.2.1]: 27
+- ☐ [3.2.3]: 853
 - ☐ linha «Escolha (H1)»: 25%
 - ☐ linha «Entrega (H5)»: 30%
 - ☐ [4.2.4.1]: 2026
