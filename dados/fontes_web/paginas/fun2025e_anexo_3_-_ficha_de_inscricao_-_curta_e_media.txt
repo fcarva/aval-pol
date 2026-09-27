@@ -1,0 +1,483 @@
+# Fonte: https://secult.es.gov.br/media/editais2025/ANEXO%203%20-%20Ficha%20de%20Inscri%C3%A7%C3%A3o%20-%20Curta%20e%20M%C3%A9dia.pdf
+# Coletado (UTC): 2026-09-27T03:32:33Z
+# sha256 do original: 4c4dcf4aa038bc1abac5d6bc2e0ed0d2ad3064cdeb0f7346f0bf8fe886abbd2f
+
+     EDITAL 29/2025 - SELEÇÃO DE PROJETOS DE PRODUÇÃO DE CURTA E MÉDIA-METRAGEM -
+                                        FUNCULTURA 2025
+
+                               ANEXO 3 - FICHA DE INSCRIÇÃO
+Tipo de proponente:
+( ) MEI - Microempreendedor individual
+( ) Pessoa Jurídica
+
+
+Escolha o tipo de obra a ser produzida:
+( ) Curta e Média-Metragem de Ficção
+( ) Curta e Média-Metragem Documentários
+( ) Curta e Média-Metragem de Animação
+
+
+Escolha a linha de fomento que vai se inscrever:
+( ) Linha de Fomento 1 – Projetos de Produção de Curta e Média-Metragem de Ficção.
+( ) Linha de Fomento 2 – Projetos de Produção de Curta e Média-Metragem Documentários.
+( ) Linha de Fomento 3 – Projetos de Produção de Curta e Média-Metragem de Animação
+( ) Linha de Fomento 4 – Projetos de Produção de Curta e Média-Metragem de Diretor Estreante
+
+
+I. IDENTIFICAÇÃO PESSOA FÍSICA / RESPONSÁVEL PELA INSCRIÇÃO OU RESPONSÁVEL LEGAL
+
+     1. Nome:                                                                                .
+
+     2. Nome Social (opcional):                                                          .
+
+     3. CPF:                                                                             .
+
+     4. Data de Nascimento:       / /
+
+    5. Faixa Etária
+    ( ) Até 19 anos
+    ( ) 20 a 29 anos
+    ( ) 30 a 39 anos
+    ( ) 40 a 49 anos
+    ( ) 50 a 49 anos
+    ( ) 50 a 59 anos
+    ( ) Acima de 60 anos
+    6. Nacionalidade:
+    ( ) Brasileiro(a)
+    ( ) Brasileiro(a) naturalizado(a)
+    ( ) Estrangeiro(a)
+
+    7. Endereço (logradouro/ número/ complemento):                                                .
+
+    8. CEP:                                                                                          .
+
+    9. Bairro:                                                                                       .
+
+    10. Município:                                                                               .
+
+    11. Telefone: ( )                                                                             .
+
+    12. E-mail:                                                                                       .
+
+    13. Endereço eletrônico/virtual/participação em rede social:                                  .
+
+     14. Identidade de gênero
+Para auxiliar em sua resposta, entende-se:
+Cisgênero: pessoa cuja identidade de gênero corresponde ao gênero que lhe foi atribuído no nascimento
+Transexual: pessoa que se identifica com um gênero diferente do que lhe foi atribuído no nascimento
+Não-binário; cuja identidade não se limita a masculino/feminino
+Mulher Cis
+Homem Cis
+Mulher Trans/travesti
+Homem Trans
+Não Binárie/outra variabilidade
+Não declarada
+
+     15. Orientação sexual
+
+Heterosexual
+Homosexual
+Bisexual
+Outra orientação
+Não sei/não quero declarar
+
+     16. É de povo ou comunidade tradicional?
+
+Não pertenço
+Comunidade extrativista
+Comunidade ribeirinha
+Comunidade rural
+Povos indígenas/originários
+Comunidades de pescadores(as) artesanais
+Povos ciganos
+Povos de terreiro
+Povos de quilombola
+Pomeranos
+    17. Renda individual (aqui, a partir do comunicado, houve uma simplificação e melhoria nas
+        respostas, uma vez que o valor em salário mínimo gerava confusão e as divisões de
+        respostas haviam incongruências)
+
+Sem rendimento
+R$1,00 a R$500,00
+R$501,00 a R$1.000,00
+R$1.001,00 a R$2.000,00
+R$2.001,00 a R$3.000,00
+R$3.001,00 a R$5.000,00
+R$5.001,00 a R$10.000,00
+R$10.001,00 a R$20.000,00
+R$20.001,00 a R$100.000,00
+R$100.001,00 ou mais
+
+    18. Escolaridade (aqui, a partir do comunicado, houve uma simplificação e melhoria nas
+        respostas, uma vez que o valor em salário mínimo gerava confusão e as divisões de
+        respostas haviam incongruências)
+
+Não possui educação formal
+Fundamental incompleto ou equivalente
+Fundamental completo ou equivalente
+Médico incompleto ou equivalente
+Médio completo ou equivalente
+Superior incompleto ou equivalente
+Superior completo
+Pós-graduação incompleto
+Pós-graduação completo
+Não sei / não quero informar
+
+    19. Faturamento anual da PJ no último ano (inclusão dessa pergunta para PJ)
+
+Até R$81.000,00
+Entre R$81.001,00 e R$360.000,00
+Entre R$36.001,00 e R$1.000.000,00
+Entre R$1.000.001,00 e R$4.800.000,00
+Acima de R$4.800.001,00
+
+20. Raça/cor:
+    ( ) Branca
+    ( ) Preta
+    ( ) Amarela
+    ( ) Parda
+    ( ) Indígena
+    ( ) Sem declaração
+
+
+    21. Pessoa com deficiências:
+    ( ) Física
+    ( ) Auditiva
+    ( ) Visual
+    ( ) Intelectual
+    ( ) Múltipla
+    ( )Autista TEA
+    ( ) Não sou pessoa com deficiência
+
+    22. Qual o tipo de vínculo de trabalho mais recente?
+    ( ) Autônomo/informal
+    ( ) Empregado CLT
+    ( ) Contrato de prestador de serviço (pessoa
+    física)
+    ( ) Servidor público
+    ( ) Não sei/Não quero informar
+
+      23. Principal área de atuação no campo artístico-cultural:
+( ) Antropologia
+( ) Arqueologia
+( ) Arquitetura-Urbanismo
+( ) Arquivo
+( ) Arte de Rua
+( ) Arte digital
+( ) Artes clássicas
+( ) Artes do espetáculo
+( ) Artes Integradas
+( ) Artes Visuais
+( ) Artesanato
+( ) Audiovisual
+( ) Capoeira
+( ) Carnaval
+( ) Cinema
+( ) Circo
+( ) Cultura afro-brasileira
+( ) Cultura cigana
+( ) Cultura DEF
+( ) Cultura digital
+( ) Cultura e comunicação
+( ) Cultura e direitoshumanos
+( ) Cultura e educação
+( ) Cultura e esporte
+( ) Cultura e meio ambiente
+( ) Cultura e saúde
+( ) Cultura LGBTQIAPN+
+( ) Cultura negra
+( ) Cultura popular
+( ) Cultura hip-hop efunk
+( ) Cultura, infânciae adolescência
+( ) Culturas dos povos das comunidades tradicionais de matriz africana
+( ) Culturas dos povos indígenas
+( ) Culturas dos povos nômades
+( ) Culturas estrangeiras
+( ) Culturas populares
+( ) Culturas quilombolas
+( ) Dança
+( ) Design
+( ) Direito Autoral
+( ) Economia criativa
+( ) Economia da cultura
+( ) Expressões artísticas culturais afro-brasileiras
+( ) Festas populares
+( ) Festejos juninos
+( ) Filosofia
+( ) Fotografia
+( ) Gastronomia
+( ) História e Cultura
+( ) Humor
+( ) Intercâmbio cultural
+( ) Jogos eletrônicos
+( ) Jornalismo e cultura
+( ) Leitura
+( ) Literatura
+( ) Livro
+( ) Mídias livre
+( ) Mídias sociais
+( ) Moda
+( ) Museu
+( ) Música
+( ) Música erudita
+( ) Música popular
+( ) Novas mídias
+( ) Patrimônio imaterial
+( ) Patrimônio material
+( ) Performance
+( ) Pesquisa em cultura
+( ) Povos de terreiro
+( ) Produção e gestão cultural
+( ) Quilombola
+( ) Rádio
+( ) Teatro
+( ) Televisão
+( ) Turismo e cultura
+( ) Outra Outra principal área de atuação no campo artístico-cultural:   .
+
+      24. Acessou recursos públicos do fomento à cultura nos últimos 5 anos?
+( ) Sim
+( ) Não
+( ) Não sei informar
+
+II. IDENTIFICAÇÃO PESSOA JURÍDICA
+      1. Tipo de pessoa jurídica:
+( ) Com fins lucrativos
+( ) Sem fins lucrativos
+      2. Cargo/função do representante legal da empresa:
+( ) Proprietário
+( ) Presidente
+( ) Diretor Geral
+( ) Diretor Comercial
+( ) Diretor Administrativo
+( ) Diretor de Produção
+( ) Gerente de Marketing
+( ) Gerente de Contratos
+( ) Gerente de Produção
+( ) Outro
+      3. Razão social:
+      4. Nome fantasia:
+      5. CNPJ:
+      6. Data de fundação/instituição: / /
+
+      7. Tempo de existência da pessoa jurídica:
+( ) Até 01 ano
+( ) Entre 02 e 05 anos
+( ) Entre 06 e 15 anos
+( ) Entre 16 e 25 anos
+( ) Entre 26 e 35 anos
+( ) Acima de 35 anos
+
+    8. Quantas pessoas fazem parte da empresa?
+
+    9. Endereço (logradouro/número/complemento):
+
+    10. CEP:
+
+    11. Bairro:
+
+    12. Município:                                                          _
+
+    13. Telefone: ( )
+        _________________________________________________________________
+    14. Email:                                                              .
+
+      15. Há pessoas com deficiência na PJ?
+( ) Não
+( ) Física
+( ) Auditiva
+( ) Visual
+( ) Intelectual
+( ) Múltipla
+      16. Há pessoas transgênero na PJ?
+( ) Não
+( ) Sim
+
+III. IDENTIFICAÇÃO MEI
+1. Razão social:                                                      .
+2. Nome fantasia:                                                     .
+3. CNPJ:                                                              .
+4. Data de fundação do MEI:                                           .
+5. Tempo de existência da MEI:
+( ) Até 01 ano
+( ) Entre 02 e 05 anos
+( ) Entre 06 e 15 anos,
+( ) Entre 16 e 25 anos
+( ) Entre 26 e 35 anos
+( ) Acima de 35 anos
+       6. CNAE principal:                                         .
+       7. Outras CNAEs:                                           .
+
+
+ III. IDENTIFICAÇÃO GRUPOS E COLETIVOS
+
+    1. Este projeto será desenvolvido por um grupo ou coletivo:
+( ) Sim
+( ) Não
+
+    2. Nome do grupo ou coletivo:                                 .
+
+    3. E-mail do grupo ou coletivo:                               .
+
+    4. Telefone: ( )                                              .
+
+    5. Endereço da sede:                                          .
+
+    6. CEP:                                                           .
+
+    7. Bairro:                                                        .
+
+    8. Município:                                                 .
+
+    9. Há Pessoa com Deficiência - PCD no grupo/coletivo?
+( ) Não
+( ) Física
+( ) Auditiva
+( ) Visual
+( ) Intelectual
+( ) Múltipla
+      10. Há Pessoa Transgênero no grupo/coletivo?
+( ) Não
+( ) Sim
+
+
+ IV. INFORMAÇÕES SOBRE O PROJETO
+
+
+Nome do diretor (campo obrigatório):
+CPF do diretor (campo obrigatório):
+Endereço do diretor (campo obrigatório):
+É diretor estreante? Sim ( ) Não ( ) (campo obrigatório)
+
+
+    1. Título do projeto:                                                                 .
+
+    2. Identificação da linha:                                                            .
+
+    3. Objeto (Descreva sua proposta de forma objetiva e em poucas linhas,
+       apresentando a ideia principal):
+                                                                                          .
+
+
+    4. Detalhamento: (Detalhe melhor sua proposta, as ações previstas, se houve edições
+       anteriores e as quantidades. Explique porque seu projeto tem importância na
+       comunidade, região ou mesmo no cenário cultural do Espírito Santo. Descreva os
+       resultados que você espera com a execução do seu projeto.).
+       __________________________________________________________________
+    5. Proposta de direção (Apresentação dos procedimentos estilísticos que você
+       pretende utilizar no filme):
+       ___________________________________________________________________
+       ___________________________________________________________________
+       ___________________________________________________________________.
+
+    6. Plano de produção: Informe o plano de produção da obra, com cronograma e as
+       ações necessárias à completa execução da mesma, de acordo com o roteiro
+       apresentado.
+       Utilize quantas linhas precisar.
+
+          AÇÕES                                   DURAÇÃO (nº de dias ou meses)
+
+          Pré-produção
+
+
+
+
+          Produção
+     Pós-produção
+
+
+
+
+7. Equipe do projeto: (Escreva o nome das pessoas envolvidas na realização do
+   projeto e as funções que vão desempenhar. Lembre-se de anexar o currículo da
+   equipe principal e que este é também um item de avaliação. Insira quantas linhas
+   quiser. Caso existam funções ainda sem a escolha do profissional até o momento
+   da inscrição, escreva “a definir”.)
+                                                                .
+
+8. Ações de Acessibilidade: (Medidas de acessibilidade física, atitudinal e
+   comunicacional, nos termos do disposto na Lei nº 13.146, de 6 de julho de 2015 (Lei
+   Brasileira de Inclusão da Pessoa com Deficiência)
+   Liste e detalhe abaixo todas as medidas de acessibilidade que serão realizadas.
+  ____________________________________________________________________
+  _____________________________________________________________________
+
+
+9. Planilha de custos: (A partir do modelo do anexo 4, construa a planilha de custos
+   discriminando as despesas necessárias para a realização do projeto, prevendo
+   inclusive os tributos devidos).
+
+10. Currículo/portfólio: (Insira aqui o currículo/portfólio do proponente e do
+    grupo/participantes do projeto, com registro de ações e projetos já realizados,
+    matérias de jornal, reportagens, publicações, fotos, declarações, entre outros,
+    utilizando, se necessário, link de sites, como por exemplo, YouTube e Vimeo).
+
+11. Co-produção: (Insira aqui os documentos para co-produção, se for o caso).
+
+
+
+12. Plano de distribuição da obra: (Insira aqui o plano de distribuição da obra,
+    informando as ações a serem realizadas visando à distribuição da obra produzida,
+    com previsão de formatos e períodos de ocorrência).
+
+13. Plano de comunicação: (Informe detalhadamente como pretende fazer a divulgação
+    das ações previstas no projeto e quais materiais deverão ser produzidos - peças
+    gráficas e material digital -, além da estratégia para alcance de diferentes públicos)
+    _____________________________________________________________________
+    _____________________________________________________________________
+    _____________________________________________________________________
+
+14. Licenciamento ou pré-licenciamento da obra: (Insira aqui o documento com
+      estratégias de licenciamento ou pré-licenciamento da obra (caso houver).
+
+
+NO CASO DE ESCOLHA DO TIPO DE OBRA 1 (CURTA E MÉDIA-METRAGEM DE FICÇÃO):
+
+      1. Anexar o roteiro da obra, com descrição detalhada dos seguintes aspectos, de
+      modo a garantir a compreensão da obra:
+         a. Apresentação das personagens, incluindo seus perfis físico e psicológico, e as
+            relações que estabelecem entre si.
+         b. Cenas e diálogos.
+
+
+      2. Anexar plano de locações e/ou cenários. No processo de produção do filme,
+      deverão ser utilizados pelo menos 80% das locações no Estado do Espírito Santo
+
+
+NO CASO DE ESCOLHA DO TIPO DE OBRA 2 (CURTA E MÉDIA-METRAGEM DOCUMENTÁRIO):
+
+      1. Anexar documento com a descrição do(s) objeto(s), com máximo de 10 (dez)
+      linhas para cada objeto – apresentando como e com quem o proponente irá realizar
+      o curta ou telefilme. Exemplos: personagens reais, produtos materiais e imateriais da
+      ação humana, materiais de arquivo, manifestações da natureza, etc.
+
+      2. Anexar documento com a hipótese sobre o tema, com máximo de 01 (uma) lauda
+      – Descrição da visão original sobre os temas abordados, referências de linguagem a
+      serem utilizadas, inclusive citações de outros documentários de seu conhecimento
+      e/ou outras, que tenham proposta semelhante.
+
+      3. Anexar documento com estratégia(s) de abordagem do projeto, com máximo de
+      15 (quinze) linhas para cada estratégia – exposição de como o diretor se relacionará
+      com cada objeto eleito.
+      Exemplos: modalidades de entrevista; modalidades de relação da câmera com os
+      personagens; construção de paisagens sonoras e/ou imagens abstratas; introdução
+      proposital de ruídos sonoros e/ou visuais; modalidades de locução sobre imagem;
+      formas de tratamento dos materiais de arquivo sonoros e/ou visuais; etc.
+      Informar, ainda, qual a sugestão de estrutura da obra, detalhando como pretende
+      organizar as Estratégia(s) de Abordagem no corpo do documentário.
+
+      4. Anexar documento com metodologia de trabalho, detalhando os meios a serem
+      utilizados para alcançar os objetivos descritos.
+
+
+NO CASO DE ESCOLHA DO TIPO DE OBRA 3 (CURTA E MÉDIA-METRAGEM ANIMAÇÃO):
+
+      1.Anexar o roteiro da obra, com descrição detalhada dos seguintes aspectos, de
+      modo a garantir a compreensão da obra:
+         a. Apresentação das personagens, incluindo seus perfis físico e psicológico, e as
+            relações que estabelecem entre si.
+         b. Cenas e diálogos.
+2. Anexar o storyboard, contendo, no mínimo, 01 (uma) sequência de desenhos ou
+10 (dez) desenhos de conceito (desenhos que indiquem os parâmetros estéticos a
+serem utilizados).
+
