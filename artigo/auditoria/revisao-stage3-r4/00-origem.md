@@ -28,7 +28,7 @@ A rodada 3 revisou a moldura (H1 a H5). Esta rodada põe o texto à prova em tr�
 | `checar_dados.py` | 60/60 |
 | `auditar_captacao.py` | 75/75 |
 | `checar_referencias.py` | 55 referências; 19 DOIs conferidos, sem divergência; nenhum `[VERIFICAR]` |
-| Nomes fora do escopo (financiamento quadrático, Hypercerts, OSO) | 0 ocorrências; Hitzig e Buterin, Hitzig e Weyl entram como literatura, pela exceção do `CLAUDE.md` |
+| Nomes fora do escopo (financiamento quadrático, Hypercerts, OSO) | 0 ocorrências no corpo do texto; o termo aparece só no título da obra de Ogava *et al.* (2022), na lista de referências. Hitzig e Buterin, Hitzig e Weyl entram como literatura, pela exceção do `CLAUDE.md` |
 | CPF no repositório (`mascarar_cpf.py --conferir`) | 0 ocorrências |
 
 ### Afirmações atribuídas a autores (conferidas no texto ou no resumo da fonte)
@@ -51,5 +51,5 @@ A rodada 3 revisou a moldura (H1 a H5). Esta rodada põe o texto à prova em tr�
 | Fonte | O que dá | Resultado |
 | --- | --- | --- |
 | DIO-ES, "Aviso de resultado… habilitação" | processo, proponente, CNPJ, valor e data | 264 processos com CNPJ. Com o Portal, **385 de 463 habilitados (83%)** têm CNPJ público. Nos 81 processos presentes nas duas fontes, o CNPJ coincide em 79. Ciclos: 2022, 88%; 2023, 86%; 2024, 93%; 2025, 71%; 2026, 72% (`analise/tabelas/18_cobertura_cnpj.csv`) |
-| DIO-ES, "Aviso de depósito de patrocínio" | patrocinador, CNPJ, valor do crédito presumido, projeto e data | 386 depósitos (2022-2026). Casam com os termos do Portal 20 de 48 (2022), 41 de 71 (2023), 66 de 110 (2024) e 78 de 96 (2025). Mediana de 30 a 48 dias entre a "data do processo" e o aviso. Há 69 depósitos publicados em 2026, ano que o Portal ainda não lista (`18_deposito_x_portal.csv`) |
+| DIO-ES, "Aviso de depósito de patrocínio" | patrocinador, CNPJ, valor do crédito presumido, projeto e data | 386 depósitos (2022-2026), um aviso por parcela. Pelo menos um depósito localizado para 267 dos 325 termos do Portal (82%; 77% do valor): 38 de 48 (2022), 58 de 71 (2023), 89 de 110 (2024) e 82 de 96 (2025). Mediana de 32 a 48 dias entre a "data do processo" e o primeiro aviso. Há 65 depósitos de 2026 sem termo no Portal, que ainda não lista o ano (`18_deposito_x_portal.csv`; ligação por termo em `dados/processados/dio_deposito_x_termo.csv`). Pela Portaria Conjunta SEFAZ/SECULT nº 01-R/2022, arts. 5º e 6º, o crédito só é apropriado depois desse aviso |
 | Portal, "data do processo" × recebimento no anexo de 2025 | ordem da fila | 62 termos; a data do processo vem 19 dias depois do recebimento (mediana; de 2 a 377); correlação de postos de 0,91 (`16_data_processo_x_recebimento_2025.csv`) |

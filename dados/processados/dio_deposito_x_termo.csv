@@ -1,0 +1,314 @@
+termo_id,ano,processo,projeto,cnpj_patrocinador,valor_termo,data_processo,data_dio,valor_dio,projeto_dio,deposito_integral,similaridade,defasagem_dias
+0,2022,2022-DLFVH,3ª Live Cultural da Festa do Carro de Boi 2022,36001790000177,36628.87,2022-04-26,2022-05-26,36628.87,3ª Live Cultural da Festa do Carro de Boi 2022,True,1.0,30.0
+12,2022,2022-05N9Z,Singulares,34307295000165,130994.41,2022-07-04,2022-08-03,130994.41,Singulares.,True,1.0,30.0
+18,2022,2022-JJS7Q,"""MAIS CULTURA NAS ESCOLAS""",28152650000171,100000.0,2022-07-04,2022-08-08,100000.0,MAIS CULTURA NAS ESCOLAS;,True,1.0,35.0
+16,2022,2022-DK8GT,Festival MoV.Cidade 2022,28152650000171,300000.0,2022-08-18,2022-08-09,300000.0,Festival MoV.Cidade 2022,True,1.0,-9.0
+22,2022,2022-Z91ZF,O Canto do Beija Flor,07571746004515,20000.0,2022-08-03,2022-08-11,20000.0,O Canto do Beija Flor,True,1.0,8.0
+9,2022,2022-KG76B,"""28º Festival de Cinema de Vitória - Reencontro""",17469701010482,500000.0,2022-06-08,2022-08-16,500000.0,28º Festival de Cinema de VItória - Reencontro,True,1.0,69.0
+20,2022,2022-ZZ8WC,"""Do Forte da Barra ao Batalhão Tibúrcio: cinco séculos de história""",17469701010482,244720.0,2022-07-15,2022-08-16,244720.0,Do Forte da Barra ao Batalhão Tibúrcio: cinco séculos de história,True,1.0,32.0
+24,2022,2022-4LJGV,Coral Arcelor,17469701010482,499927.52,2022-07-25,2022-08-17,499927.52,Coral Arcelor.,True,1.0,23.0
+26,2022,2022-L2BVZ,24º Festival De Inverno Da Sanfona E Da Viola De São Pedro Do Itabapoana,17469701010482,100000.0,2022-08-03,2022-08-18,100000.0,24º Festival de Inverno da Sanfona e da Viola de São Pedro do Itabapoana,True,1.0,15.0
+27,2022,2022-PHX83,Montanhas Contemporâneas Capixabas,00827783000181,472723.0,2022-08-03,2022-08-31,472723.0,Montanhas Contemporâneas Capixabas.,True,1.0,28.0
+31,2022,2022-K3M60,“A TRUPE BARROCA - CONCERTO DE NATAL 2022”,28152650000171,160583.58,2022-09-09,2022-10-13,160583.58,A TRUPE BARROCA CONCERTO DE NATAL 2022,True,1.0,34.0
+33,2022,2022-LR2T1,"""Vírgula""",28152650000171,114625.44,2022-09-19,2022-10-14,114625.44,VÍRGULA,True,1.0,25.0
+28,2022,2022-WHK4V,29º Festival de Cinema de Vitória,28152650000171,250000.0,2022-09-06,2022-10-18,250000.0,29º Festival de Cinema de Vitória,True,1.0,42.0
+42,2022,2022-HZ46T,"""Montagem e turnê do espetáculo teatral ""A SÓS""",34307295000165,54465.33,2022-11-07,2022-11-24,54465.33,Montagem e Turnê do Espetáculo Teatral “A SÓS”,True,1.0,17.0
+38,2022,2022-9RVGV,6ª edição Manguinhos Jazz & Blues Festival,17469701010482,500000.0,2022-10-20,2022-12-27,500000.0,6ª edição Manguinhos Jazz & Blues Festival,True,1.0,68.0
+45,2022,2022-HD6BK,Natal da Paz e do Bem,28152650000171,150000.0,2022-12-19,2023-01-19,150000.0,Natal da Paz e do Bem,True,1.0,31.0
+48,2023,2022-JBZVN,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2023,17469701010482,480712.0,2023-02-15,2023-04-05,480712.0,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2023,True,1.0,49.0
+49,2023,2022-MFF4T,"Manutenção do ensino musical gratuito para crianças, adolescentes e jovens da Escola Municipal Agrícola através do Instituto Cultural das Montanhas",11636462000116,5803.08,2023-01-23,2023-04-19,5803.08,"Manutenção do ensino musical gratuito para crianças, adolescentes e jovens da Escola Municipal Agrícola através do Instituto Cultural das Montanhas",True,1.0,86.0
+55,2023,2022-220W3,Águas do Itapemirim,39786983000179,250000.0,2023-02-13,2023-04-19,250000.0,ÁGUAS DO ITAPEMIRIM,True,1.0,65.0
+56,2023,2022-220W3,Águas do Itapemirim,00827783000181,228513.64,2023-02-13,2023-04-19,228513.64,ÁGUAS DO ITAPEMIRIM,True,1.0,65.0
+68,2023,2023-PH2D3,"Festa da Penha 2023 ""Com Maria, chamados a Servir""",17469701010482,500000.0,2023-04-03,2023-04-24,500000.0,"Festa da Penha 2023 “Com Maria, chamados a Servir”",True,1.0,21.0
+60,2023,2022-Z2R6J,As Quatro Estações de Vivaldi,34307295000165,29427.03,2023-03-09,2023-04-26,29427.03,“As Quatro Estações de Vivaldi”,True,1.0,48.0
+61,2023,2022-RTPHL,Carnaval de Congo de Máscaras de Roda D’Água de Cariacica-2023,34307295000165,150000.0,2023-03-09,2023-04-26,150000.0,Carnaval de Congo de Máscaras de Roda D’Água de Cariacica-2023 35,True,1.0,48.0
+77,2023,2022-19NNC,ESPETÁCULO ALICE NO PAÍS DAS MARAVILHAS,34307295000165,107126.41,2023-05-03,2023-05-09,107126.41,Espetáculo Alice no País das Maravilhas,True,1.0,6.0
+71,2023,2022-RTPHL,Carnaval de Congo de Máscaras de Roda D’Água de Cariacica-2023,01751402000190,70000.0,2023-04-10,2023-05-18,70000.0,Carnaval de Congo de Máscaras de Roda D’Água de Cariacica-2023,True,1.0,38.0
+72,2023,2022-1810C,"Travessia - O parto à margem, no rio Piraquê-Açu",31790710000196,61811.34,2023-04-11,2023-05-31,61811.34,"Travessia - O parto à margem, no rio Piraquê-Açu",True,1.0,50.0
+76,2023,2022-DRBWG,Raiar da Liberdade,28152650000171,165866.0,2023-05-02,2023-05-31,165866.0,Raiar da Liberdade,True,1.0,29.0
+75,2023,2022-PS1Q5,Crias.Lab 2023,28154847000301,58912.14,2023-04-27,2023-06-07,58912.14,Crias.Lab 2023,True,1.0,41.0
+74,2023,2022-61S2R,FECSTA -6 - FESTIVAL DE CINEMA DE SANTA TERESA/ES,28154847000301,200000.0,2023-04-26,2023-06-26,200000.0,Fecsta -6 - Festival de Cinema De Santa Teresa - ES,True,1.0,61.0
+86,2023,2022-B0CCP,Prêmio da Música Capixaba - 2a. Edição,34307295000165,6519.43,2023-05-25,2023-06-26,6519.43,Prêmio da Música Capixaba - 2a. Edição,True,1.0,32.0
+82,2023,2022-C4V42,Algazarra Coral: formação vocal e responsabilidade social – ano 2023’,34307295000165,40000.0,2023-05-19,2023-06-28,40000.0,Algazarra Coral: formação vocal e responsabilidade social - ano 2023,True,1.0,40.0
+93,2023,2023-5F2QL,95a. Festa de São Pedro - edição 2023,03845717000122,100000.0,2023-06-14,2023-06-28,100000.0,95a. Festa de São Pedro edição 2023,True,1.0,14.0
+95,2023,2023-5F2QL,95a. Festa de São Pedro - edição 2023,05805349000114,37231.0,2023-06-14,2023-06-28,37231.0,95a. Festa de São Pedro edição 2023,True,1.0,14.0
+94,2023,2023-5F2QL,95a. Festa de São Pedro - edição 2023,28152650000171,180000.0,2023-06-14,2023-07-05,180000.0,95a. Festa de São Pedro edição 2023,True,1.0,21.0
+81,2023,2022-MFF4T,"Manutenção do ensino musical gratuito para crianças, adolescentes e jovens da Escola Municipal Agrícola através do Instituto Cultural das Montanhas",28152650000171,156196.92,2023-05-19,2023-07-10,156196.92,"Manutenção do ensino musical gratuito para crianças, adolescentes e jovens da Escola Municipal Agrícola através do Instituto Cultural das Montanhas",True,1.0,52.0
+88,2023,2022-61S2R,FECSTA - 6 - FESTIVAL DE CINEMA DE SANTA TERESA - ES,28152650000171,294479.0,2023-05-30,2023-07-10,294479.0,Fecsta -6 - Festival De Cinema De Santa Teresa - ES,True,1.0,41.0
+78,2023,2022-QNZ17,"Nano Viana, 20 anos",02632609000109,249999.95,2023-05-04,2023-07-18,249999.95,"Nano Viana, 20 anos",True,1.0,75.0
+80,2023,2022-3Q613,Formemus 2023,28152650000171,226250.0,2023-05-16,2023-07-24,226250.0,Formemus 2023,True,1.0,69.0
+97,2023,2022-PKJ52,Carnaval Cultural de Mimoso do Sul/ES - 2023,17469701010482,477512.0,2023-06-14,2023-07-25,477512.0,Carnaval Cultural de Mimoso do Sul/ES - 2023,True,1.0,41.0
+98,2023,2022-D7K3C,Natal de Encantos - 2023,17469701010482,500000.0,2023-06-16,2023-07-27,500000.0,Natal de Encantos - 2023,True,1.0,41.0
+101,2023,2022-B0CCP,Prêmio da Música Capixaba - 2a. Edição,17469701010482,231299.0,2023-06-23,2023-08-08,231299.0,Prêmio da Música Capixaba - 2a. Edição,True,1.0,46.0
+87,2023,2022-7D9CX,ENCONTRO DAS PRETAS - 9ª EDIÇÃO,28152650000171,125000.0,2023-05-25,2023-08-09,125000.0,Encontro das Pretas - 9ª Edição,True,1.0,76.0
+112,2023,2023-LGC1J,25º Festival de Inverno da Sanfona e da Viola de São Pedro do Itabapoana,28152650000171,500000.0,2023-07-03,2023-08-09,500000.0,25º Festival de Inverno da Sanfona e da Viola de São Pedro do Itabapoana,True,1.0,37.0
+114,2023,2022-MVWBR,FESTIVAL NACIONAL DE TEATRO DE CIDADE DE VITORIA 19ª EDIÇÃO,17469701010482,487000.0,2023-07-14,2023-08-11,487000.0,Festival Nacional de Teatro de Cidade de Vitória 19ª Edição,True,1.0,28.0
+89,2023,2022-PS1Q5,Crias.Lab 2023,28152650000171,150000.0,2023-06-05,2023-08-25,150000.0,Crias.Lab 2023,True,1.0,81.0
+100,2023,2022-XJ2XH,Narrativas Periféricas,06248349000476,361429.89,2023-06-20,2023-08-25,361429.89,Narrativas Periféricas,True,1.0,66.0
+51,2023,2022-NCX4M,1ª Etapa do Museu do Mosteiro Zen,17469701010482,368043.02,2023-01-26,2023-09-13,368043.02,1ª Etapa do Museu do Mosteiro Zen,True,1.0,230.0
+113,2023,2022-HZM71,ORIGRAFFES (ORIGINAL GRAFFITI ESPÍRITO SANTO),28152650000171,250000.0,2023-07-14,2023-09-15,250000.0,Origraffes (Original Graffiti Espírito Santo),True,1.0,63.0
+119,2024,2023-XP8G3,Mostra Povoar,34307295000165,200000.0,2024-01-24,2024-02-27,200000.0,MOSTRA POVOAR,True,1.0,34.0
+122,2024,2023-S55BB,Reencontros - Ocupações Artísticas no Museu Capixaba do Negro MUCANE,34307295000165,200000.0,2024-01-24,2024-02-27,200000.0,REENCONTROS OCUPAÇÕES ARTÍSTICAS NO MUSEU CAPIXABA DO NEGRO MUCANE,True,1.0,34.0
+134,2024,2022-2ZKZG,Carnaval Multicultural de Atílio Vivácqua/ES - 2023,28152650000171,366127.0,2024-02-07,2024-03-04,366127.0,Carnaval Multicultural de Atílio Vivácqua/ES - 2023,True,1.0,26.0
+131,2024,2023-KTH9X,Coral ArcelorMittal 2023,17469701010482,500000.0,2024-02-06,2024-03-11,500000.0,Coral ArcelorMittal 2023,True,1.0,34.0
+145,2024,2023-1J09J,V Festival Internacional de Violão do Espírito Santo (FIVES) e VI Concurso Latino-Americano de Violão Maurício de Oliveira,28152650000171,305796.62,2024-02-08,2024-03-12,305796.62,“V Festival Internacional de Violão do Espírito Santo (FIVES) e VI Concurso Latino-Americano de Violão Maurício de Oliveira”,True,1.0,33.0
+146,2024,2023-BLDNJ,MAIS CULTURA NAS ESCOLAS 2ª EDIÇÃO,28152650000171,373361.6,2024-02-08,2024-03-13,373361.6,MAIS CULTURA NAS ESCOLAS 2ª EDIÇÃO,True,1.0,34.0
+147,2024,2023-WTBGJ,Formemus,28152650000171,250000.0,2024-02-08,2024-03-13,250000.0,Formemus,True,1.0,34.0
+148,2024,2022-WT5FZ,Caravana Combiousa - Expedição Monte Aghá,28152650000171,237047.39,2024-02-08,2024-03-13,237047.39,Caravana Combiousa Expedição Monte Aghá,True,1.0,34.0
+157,2024,2022-2LCF5,"O Fabuloso Mundo das Cores - Heidi Liebermann,",34307295000165,225000.0,2024-02-20,2024-03-18,225000.0,O Fabuloso Mundo das Cores - Heidi Liebermann,True,1.0,27.0
+144,2024,2023-MB46K,II Festival De Música Primavera Teresense,28152650000171,315269.65,2024-02-08,2024-03-20,315269.65,II FESTIVAL DE MÚSICA PRIMAVERA TERESENSE,True,1.0,41.0
+159,2024,2022-2QL0F,"ASA ""ATELIER SOCIAL ARTE""",39786983000411,249305.1,2024-02-21,2024-03-20,249305.1,ASA “ATELIER SOCIAL ARTE”,True,1.0,28.0
+160,2024,2022-2QL0F,"ASA ""ATELIER SOCIAL ARTE""",11277336000112,250000.0,2024-02-21,2024-03-20,250000.0,ASA “ATELIER SOCIAL ARTE”,True,1.0,28.0
+149,2024,2023-S55BB,Reencontros - Ocupações Artísticas no Museu Capixaba do Negro MUCANE,28152650000171,250000.0,2024-02-15,2024-03-21,250000.0,Reencontros - Ocupações Artísticas no Museu Capixaba do Negro MUCANE,True,1.0,35.0
+143,2024,2023-32MFD,26º Festival de Inverno da Sanfona e da Viola de São Pedro do Itabapoana,28152650000171,250000.0,2024-02-08,2024-03-22,250000.0,26º Festival de Inverno da Sanfona e da Viola de São Pedro do Itabapoana,True,1.0,43.0
+162,2024,2023-FK5W3,R2R Música para Todos,11277336000112,250000.0,2024-02-22,2024-04-03,250000.0,R2R Música para Todos,True,1.0,41.0
+175,2024,2023-FK5W3,R2R Música para Todos,39786983000179,250000.0,2024-03-13,2024-04-03,250000.0,R2R Música para Todos,True,1.0,21.0
+150,2024,2022-595FN,Roda de Boteco- Grande Vitória,07526557001181,500000.0,2024-02-15,2024-04-16,500000.0,Roda de Boteco- Grande Vitória,True,1.0,61.0
+161,2024,2023-8N872,NADO,11277336000112,250000.0,2024-02-21,2024-04-16,250000.0,Nado,True,1.0,55.0
+164,2024,2023-F8CC5,Festival MC 2024,17469701010482,299808.74,2024-02-23,2024-04-16,299808.74,Festival MC 2024,True,1.0,53.0
+168,2024,2023-8N872,NADO,39786983000179,200000.0,2024-03-05,2024-04-16,200000.0,Nado,True,1.0,42.0
+169,2024,2023-8N872,NADO,45901867000156,50000.0,2024-03-05,2024-04-16,50000.0,Nado,True,1.0,42.0
+176,2024,2023-VV8MK,"''Festa da Penha 2024 “Ó Vem Conosco, Vem Caminhar!”",17469701010482,489894.09,2024-03-14,2024-04-16,489894.09,"Festa da Penha 2024 “Ó Vem Conosco, Vem Caminhar!",True,1.0,33.0
+127,2024,2022-40RJ2,Modernização museológica do Museu Aberto das Tartarugas Marinhas da Fundação Projeto Tamar em Vitória/ES,17469701010482,700000.0,2024-02-05,2024-05-14,700000.0,Modernização museológica do Museu Aberto das Tartarugas Marinhas da Fundação Projeto Tamar em Vitória/ES,True,1.0,99.0
+179,2024,2023-L11TR,150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo,39786983000179,200000.0,2024-05-28,2024-06-19,200000.0,‘’150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo”,True,1.0,22.0
+180,2024,2023-L11TR,150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo,39786983001736,75000.0,2024-05-28,2024-06-19,75000.0,‘’150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo”,True,1.0,22.0
+181,2024,2023-L11TR,150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo,11277336000465,42380.4,2024-05-28,2024-06-19,42380.4,‘’150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo”,True,1.0,22.0
+182,2024,2023-L11TR,150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo,11277336000899,30000.0,2024-05-28,2024-06-19,30000.0,‘’150 anos da Imigração Italiana no Espírito Santo - Brasil - Exposição Itinerante “As Colônias Italianas no Espírito Santo”,True,1.0,22.0
+189,2024,2024-0VL47,12ª Itália Unita,31759699000100,150000.0,,2024-07-11,150000.0,12ª Itália Unita,True,1.0,
+190,2024,2024-0VL47,12ª Itália Unita,27451582001312,17000.0,,2024-07-11,17000.0,12ª Itália Unita,True,1.0,
+191,2024,2024-0VL47,12ª Itália Unita,27451582000189,9000.0,,2024-07-11,9000.0,12ª Itália Unita,True,1.0,
+192,2024,2024-0VL47,12ª Itália Unita,31790710000196,150000.0,,2024-07-11,150000.0,12ª Itália Unita,True,1.0,
+193,2024,2024-0VL47,12ª Itália Unita,27555390000112,104860.56,,2024-07-11,104860.56,12ª Itália Unita,True,1.0,
+197,2024,2022-VVS3B,Residência Artística - Flávia Dalla Bernardina,01973495000521,58116.0,2024-06-20,2024-07-11,58116.0,Residência Artística - Flávia Dalla Bernardina,True,1.0,21.0
+188,2024,2024-FPDG3,31º Festival de Cinema de Vitória”;,17469701010482,500000.0,2024-06-03,2024-07-24,500000.0,31º Festival de Cinema de Vitória,True,1.0,51.0
+198,2024,2023-NK2V6,"ESCOLA DE FOTÓGRAFOS CEGOS, NOVOS OLHARES: TERRITÓRIOS",05069718000310,120000.0,2024-06-20,2024-07-24,120000.0,"Escola de Fotógrafos Cegos, Novos Olhares: Territórios",True,1.0,34.0
+199,2024,2023-KQRL6,Som das Caieiras - Concertos,03845717000122,250000.0,2024-06-20,2024-07-24,250000.0,Som das Caieiras - Concertos,True,1.0,34.0
+200,2024,2023-KQRL6,Som das Caieiras - Concertos,11277336000627,20000.0,2024-06-20,2024-07-24,20000.0,Som das Caieiras - Concertos,True,1.0,34.0
+201,2024,2023-KQRL6,Som das Caieiras - Concertos,01465864000141,150000.0,2024-06-20,2024-07-24,150000.0,Som das Caieiras - Concertos,True,1.0,34.0
+202,2024,2023-KQRL6,Som das Caieiras - Concertos,11277336000112,39000.0,2024-06-20,2024-07-24,39000.0,Som das Caieiras - Concertos,True,1.0,34.0
+203,2024,2023-KQRL6,Som das Caieiras - Concertos,39786983001221,41000.0,2024-06-20,2024-07-24,41000.0,Som das Caieiras - Concertos,True,1.0,34.0
+195,2024,2024-17HKP,46ª Festa da Polenta,28168102000482,81502.28,2024-06-12,2024-08-02,81502.28,46ª Festa da Polenta,True,1.0,51.0
+211,2024,2023-G9CPF,Circulação do Espetáculo “Fuscalhaço,17469701010482,349745.99,2024-06-24,2024-08-06,349745.99,Circulação do Espetáculo “Fuscalhaço”,True,1.0,43.0
+219,2024,2023-9CL2D,Festival do Sol,40432544011858,419115.58,2024-06-26,2024-08-06,419115.58,Festival do Sol,True,1.0,41.0
+217,2024,2022-92247,"Jogo Digital: ""12 Anos no ES""",11277336000708,100000.0,2024-06-26,2024-08-12,100000.0,Jogo Digital: “12 Anos no ES”,True,1.0,47.0
+206,2024,2023-GNGTZ,Turma da Acao,39786983001655,50000.0,2024-06-24,2024-08-23,50000.0,Turma da Ação,True,1.0,60.0
+207,2024,2023-GNGTZ,Turma da Acao,17615289000156,7638.35,2024-06-24,2024-08-23,7638.35,Turma da Ação,True,1.0,60.0
+208,2024,2023-GNGTZ,Turma da Acao,11277336000112,100000.0,2024-06-24,2024-08-23,100000.0,Turma da Ação,True,1.0,60.0
+209,2024,2023-GNGTZ,Turma da Acao,11277336000384,140000.0,2024-06-24,2024-08-23,140000.0,Turma da Ação,True,1.0,60.0
+210,2024,2023-GNGTZ,Turma da Acao,45901867000156,50000.0,2024-06-24,2024-08-23,50000.0,Turma da Ação,True,1.0,60.0
+221,2024,2023-RC4LK,Jose Carlos Vilar. Precisão e suavidade,17469701010482,490437.23,2024-07-02,2024-08-27,490437.23,Jose Carlos Vilar. Precisão e suavidade,True,1.0,56.0
+233,2025,2023-VM876,Restauração e revitalização do casarão Família Baptista,27555390000546,120000.0,2025-01-24,2025-02-21,120000.0,Restauração e Revitalização do Casarão Família Baptista,True,1.0,28.0
+234,2025,2023-VM876,Restauração e revitalização do casarão Família Baptista,31759699000282,43797.08,2025-01-24,2025-02-21,43797.08,Restauração e Revitalização do Casarão Família Baptista,True,1.0,28.0
+257,2025,2024-HZSBS,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2025,28152650000171,500000.0,2025-02-03,2025-02-25,500000.0,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2025,True,1.0,22.0
+232,2025,2023-8Z0GK,Oficinas de Formação Música Clássica,28152650000171,499620.0,2025-01-23,2025-02-27,499620.0,Oficinas de Formação Música Clássica,True,1.0,35.0
+236,2025,2023-XPZLT,Filarmônica de Mulheres do Espírito Santo: música e representatividade,39786983000179,440074.42,2025-01-24,2025-02-27,440074.42,Filarmônica de Mulheres do Espírito Santo: Música e Representatividade,True,1.0,34.0
+248,2025,2023-WMPXZ,Estúdio Escola de Animação,28152650000171,499998.0,2025-01-30,2025-02-27,499998.0,Estúdio Escola de Animação,True,1.0,28.0
+251,2025,2024-X6HWG,2ª Festa da Palavra,28152650000171,483000.0,2025-01-30,2025-02-27,483000.0,2ª Festa da Palavra,True,1.0,28.0
+271,2025,2024-0GZ3G,FESTIVAL NACIONAL DE CAPOEIRA,00827783000505,281690.0,2025-02-06,2025-02-27,281690.0,2º Festival Nacional de Capoeira,True,1.0,21.0
+238,2025,2024-HT8QP,Orquestra Brasileira de Cantores Cegos - 3º Repertório,28152650000171,400000.0,2025-01-27,2025-03-11,400000.0,Orquestra Cantores Cegos - 3º Repertório Brasileira de,True,1.0,43.0
+239,2025,2023-42TC3,ESCOLA DE MÚSICA TOCANDO EM FRENTE,28152650000171,499560.0,2025-01-27,2025-03-11,499560.0,Escola De Música Tocando Em Frente,True,1.0,43.0
+240,2025,2023-SCGXC,Circulação de Espetáculo - Igrejas Históricas Capixabas,28152650000171,499543.0,2025-01-27,2025-03-11,499543.0,Circulação de Espetáculo Igrejas Históricas Capixabas,True,1.0,43.0
+250,2025,2024-7862T,MÚSICA E ARTES NA CAPITAL VITÓRIA,28152650000171,500000.0,2025-01-30,2025-03-11,500000.0,Música e Artes na Capital Vitória Es,True,1.0,40.0
+267,2025,2023-LC19F,Compondo na Rua,28152650000171,396394.83,2025-02-05,2025-03-11,396394.83,Compondo na Rua,True,1.0,34.0
+268,2025,2024-L44FD,Laboratório dos Sonhos,28152650000171,441301.51,2025-02-05,2025-03-11,441301.51,Laboratório dos Sonhos,True,1.0,34.0
+272,2025,2022-HH970,"ENCANTANDO PESSOAS, CELEBRANDO A NATUREZA",28152650000171,316411.12,2025-02-06,2025-03-11,316411.12,"Encantando Pessoas, Celebrando a Natureza",True,1.0,33.0
+261,2025,2024-VM90J,Musicalização Agrícola,28152650000171,500000.0,2025-02-04,2025-03-14,500000.0,Musicalização Agrícola,True,1.0,38.0
+262,2025,2024-B7ZFZ,Corais das Montanhas,28152650000171,500000.0,2025-02-04,2025-03-14,500000.0,Corais das Montanhas,True,1.0,38.0
+273,2025,2023-1PRSJ,ENCONTRO DE CULTURAS POPULARES E TRADICIONAIS,28152650000171,365748.0,2025-02-06,2025-03-14,365748.0,Encontro de Culturas Populares e Tradicionais,True,1.0,36.0
+266,2025,2023-5V13M,Cidades 20-30,04330073000100,130000.0,2025-02-05,2025-03-20,130000.0,Cidades 20-30,True,1.0,43.0
+264,2025,2023-5V13M,Cidades 20-30,00827783000505,260000.0,2025-02-05,2025-03-26,260000.0,Cidades 20-30,True,1.0,49.0
+265,2025,2023-5V13M,Cidades 20-30,39786983001221,93550.0,2025-02-05,2025-03-26,93550.0,Cidades 20-30,True,1.0,49.0
+294,2025,2024-LNTS6,208ª FESTA DO DIVINO ESPÍRITO SANTO DE VIANA-ES,02689900000113,50000.0,2025-02-17,2025-03-26,50000.0,208ª Festa do Divino Espírito Santo de Viana-ES,True,1.0,37.0
+279,2025,2023-D2859,Tecer Folias,45901867000156,57000.0,2025-02-10,2025-03-27,57000.0,Tecer Folias,True,1.0,45.0
+280,2025,2023-D2859,Tecer Folias,00827783000181,250000.0,2025-02-10,2025-03-27,250000.0,Tecer Folias,True,1.0,45.0
+281,2025,2023-D2859,Tecer Folias,39786983001736,150000.0,2025-02-10,2025-03-27,150000.0,Tecer Folias,True,1.0,45.0
+289,2025,2023-BL62F,Festival Batidas do Mundo,04023387000152,150000.0,,2025-03-31,150000.0,Festival Batidas do Mundo,True,1.0,
+247,2025,2023-GNGTZ,Turma da Ação,11277336000112,150000.0,2025-01-30,2025-04-03,150000.0,Turma da Ação,True,1.0,63.0
+276,2025,2023-CV6RH,Orquestra de Câmara Infanto-juvenil João XXIII,00827783002044,297210.57,2025-02-07,2025-04-03,297210.57,Orquestra de Câmara Infanto-juvenil João XXIII,True,1.0,55.0
+290,2025,2023-TQ8C9,Ecos Culturais do Convento,00827783000181,230000.0,2025-02-13,2025-04-03,230000.0,Ecos Culturais do Convento,True,1.0,49.0
+291,2025,2023-TQ8C9,Ecos Culturais do Convento,39786983000179,250000.0,2025-02-13,2025-04-03,250000.0,Ecos Culturais do Convento,True,1.0,49.0
+245,2025,2024-2C95T,A Fantástica Carpintaria - Programa Educativo,11277336000112,77000.0,2025-01-29,2025-04-08,77000.0,A Fantástica Carpintaria Programa Educativo,True,1.0,69.0
+269,2025,2024-WCJ53,"Mãos Criativas - Artesanato, Sustentabilidade e Cultura",00827783000181,250000.0,2025-02-05,2025-04-08,250000.0,"Mãos Criativas - Artesanato, Sustentabilidade e Cultura",True,1.0,62.0
+270,2025,2024-WCJ53,"Mãos Criativas - Artesanato, Sustentabilidade e Cultura",39786983000179,249999.0,2025-02-05,2025-04-08,249999.0,"Mãos Criativas - Artesanato, Sustentabilidade e Cultura",True,1.0,62.0
+287,2025,2023-BL62F,Festival Batidas do Mundo,00827783000181,250000.0,,2025-04-08,250000.0,Festival Batidas do Mundo,True,1.0,
+288,2025,2023-BL62F,Festival Batidas do Mundo,39786983000179,94000.0,,2025-04-08,94000.0,Festival Batidas do Mundo,True,1.0,
+274,2025,2023-WQW4G,Quintal do CSE: Intervenções Socioespaciais Identitárias,00827783002044,250000.0,2025-02-06,2025-04-09,250000.0,Quintal do CSE: Intervenções Socioespaciais Identitárias,True,1.0,62.0
+282,2025,2023-6HNH7,A Escola vai ao Teatro,00827783002044,136375.69,2025-02-10,2025-04-10,136375.69,A Escola vai ao Teatro,True,1.0,59.0
+283,2025,2023-NB5P3,14ª Festa Folclórica de Santo Antônio do Muqui,28152650000171,331937.73,2025-02-11,2025-04-10,331937.73,15ª Festa Folclórica de Santo Antônio do Muqui,True,1.0,58.0
+292,2025,2024-0QFT9,Teatro vai à escola - De onde vem o dinheiro,39786983000179,200000.0,2025-02-14,2025-04-10,200000.0,Teatro vai à escola - De onde vem o dinheiro?,True,1.0,55.0
+297,2025,2022-CC9TK,Baile Voador: 11º edição - Carnaval 2025,07526557001181,500000.0,2025-02-21,2025-04-14,500000.0,Baile Voador: 11º edição Carnaval 2025,True,1.0,52.0
+243,2025,2024-2C95T,A Fantástica Carpintaria - Programa Educativo,39786983000179,250000.0,2025-01-29,2025-04-15,250000.0,A Fantástica Carpintaria Programa Educativo,True,1.0,76.0
+244,2025,2024-2C95T,A Fantástica Carpintaria - Programa Educativo,39786983000411,173000.0,2025-01-29,2025-04-15,173000.0,A Fantástica Carpintaria Programa Educativo,True,1.0,76.0
+258,2025,2024-D8SGC,4A Mostra CineMarias,28152650000171,500000.0,2025-02-03,2025-04-15,500000.0,4A Mostra CineMarias,True,1.0,71.0
+299,2025,2024-LNTS6,208ª FESTA DO DIVINO ESPÍRITO SANTO DE VIANA-ES,03380787000233,80000.0,2025-03-18,2025-04-15,80000.0,208ª Festa Do Divino Espírito Santo De Viana-ES,True,1.0,28.0
+284,2025,2023-6MBHB,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",45901867000318,49855.55,2025-02-11,2025-05-05,49855.55,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",True,1.0,83.0
+286,2025,2023-6MBHB,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",00827783000505,250000.0,2025-02-11,2025-05-05,250000.0,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",True,1.0,83.0
+285,2025,2023-6MBHB,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",39786983000179,200000.0,2025-02-11,2025-05-29,200000.0,"Tratamento Técnico do Acervo Gráfico Editorial do Jornal Correio Popular de Cariacica/ES: Inventário, Conservação e Digitalização",True,1.0,107.0
+313,2025,2025-C1KRL,Festival Internacional de Jazz e Bossa Nova de Santa Teresa - Santa Jazz 2025 12ª edição,00827783002044,250000.0,2025-05-09,2025-05-29,250000.0,Festival Internacional de Jazz e Bossa Nova de Santa Teresa - Santa Jazz 2025 12ª edição,True,1.0,20.0
+316,2025,2025-QW9S1,47ª Festa da Polenta,06955576000199,500000.0,2025-05-13,2025-06-04,500000.0,47ª Festa da Polenta,True,1.0,22.0
+307,2025,2023-K1BQH,Galpão De Ideias — Tornando Ideias Realidade,03845717001528,70000.0,2025-04-08,2025-06-13,70000.0,Galpão de Ideias - Tornando Ideias Realidade,True,1.0,66.0
+308,2025,2023-K1BQH,Galpão De Ideias — Tornando Ideias Realidade,03845717002508,50000.0,2025-04-08,2025-06-13,50000.0,Galpão de Ideias - Tornando Ideias Realidade,True,1.0,66.0
+309,2025,2023-K1BQH,Galpão De Ideias — Tornando Ideias Realidade,03845717001285,75000.0,2025-04-08,2025-06-13,75000.0,Galpão de Ideias - Tornando Ideias Realidade,True,1.0,66.0
+317,2025,2025-DV11N,Roda de Boteco 2025,07526557001181,500000.0,2025-05-22,2025-06-30,500000.0,Roda de Boteco 2025,True,1.0,39.0
+320,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31790710000196,150000.0,2025-06-11,2025-07-15,150000.0,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,34.0
+321,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31759699000363,61123.0,2025-06-11,2025-07-15,61123.0,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,34.0
+322,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31759699000100,65000.0,2025-06-11,2025-07-15,65000.0,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,34.0
+305,2025,2023-R7GC8,FESTIVAL RAÍZES DO SAMBA,03845717001870,125000.0,2025-03-31,2025-07-22,125000.0,Festival Raízes do Samba,True,1.0,113.0
+306,2025,2023-R7GC8,FESTIVAL RAÍZES DO SAMBA,03845717001790,103914.45,2025-03-31,2025-07-22,103914.45,Festival Raízes do Samba,True,1.0,113.0
+324,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31759699000444,5012.99,2025-07-10,2025-08-06,5012.99,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,27.0
+319,2025,2023-1FDSB,73°Encontro Nacional de Folias de Reis,28152650000171,500000.0,2025-06-04,2026-08-21,500000.0,74º Encontro Nacional de Folias de Reis,True,1.0,443.0
+53,2023,2022-65X12,Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo,39786983000179,249311.04,2023-02-12,2023-03-28,249311.04,Livro “Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo”,True,0.889,44.0
+54,2023,2022-65X12,Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo,00827783000181,250000.0,2023-02-12,2023-04-28,250000.0,Livro “Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo”,True,0.889,75.0
+314,2025,2025-C1KRL,Festival Internacional de Jazz e Bossa Nova de Santa Teresa - Santa Jazz 2025 12ª edição,03845717000122,250000.0,2025-05-09,2025-06-13,250000.0,Festival Internacional de Jazz e Bossa Nova de Santa Teresa - Santa Jazz 2025,True,0.889,35.0
+318,2025,2023-9RT9Q,10º FESTIVAL NACIONAL DE CINEMA AMBIENTAL DO ESPÍRITO SANTO – CINE.EMA,06248349000476,480000.0,2025-05-27,2025-12-10,480000.0,11º Cine.Ema - Festival Nacional de Cinema Ambiental do Espírito Santo - Itinerância,True,0.889,197.0
+275,2025,2022-W21MB,Programa de Residência do Mosteiro Zen Morro da Vargem,28152650000171,499955.2,2025-02-07,2025-03-14,499955.2,Programa de Residência do Mosteiro Zen Morro da Vargem 2023,True,0.857,35.0
+63,2023,2022-1810C,“Travessia - o parto à margem no Piraquê-Açu,34307295000165,60000.0,2023-03-20,2023-04-26,60000.0,"Travessia - O parto à margem, no rio Piraquê-Açu",True,0.833,37.0
+204,2024,2023-7ND2S,Marien Calixte Jazz Music Festival,17469701010482,500000.0,2024-06-21,2024-07-22,500000.0,Marien Calixte Jazz Music Festival 2024,True,0.833,31.0
+230,2025,2023-QCBWF,Carna Surpresa – O Carnaval da Barra do Jucu,05069718000310,200000.0,2025-01-22,2025-02-11,200000.0,Carna Surpresa 2024 - O Carnaval da Barra do Jucu,True,0.833,20.0
+252,2025,2023-PCDF2,"Projeto Raízes da Aldeia: Cultura, Artesanato e Resgate",11277336000112,250000.0,2025-01-30,2025-04-08,250000.0,"Raízes da Aldeia: Cultura, Artesanato e Resgate",True,0.833,68.0
+14,2022,2022-MWSV5,Festival de Cinema de Santa Teresa,28152650000171,195487.84,2022-07-04,2022-08-05,195487.84,5º FECSTA - Festival de Cinema de Santa Teresa,True,0.8,32.0
+229,2025,2023-4Z9J3,Boa vista Carnaval Capixaba,03845717000122,492000.0,2025-01-16,2025-02-11,492000.0,Boa Vista Carnaval Capixaba 2025,True,0.8,26.0
+17,2022,2022-DK8GT,Festival MoV.Cidade 2022,07526557001181,200000.0,2022-08-18,2022-09-09,200000.0,MOV.CIDADE 2022,True,0.75,22.0
+152,2024,2022-CR61F,MAESTRO MAX CARVALHO,27227982000105,162000.0,2024-02-16,2024-03-18,162000.0,Projeto Maestro Max Carvalho,True,0.75,31.0
+163,2024,2023-MZ120,FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,39786983000179,250000.0,2024-02-22,2024-04-03,250000.0,Festival Internacional de Jazz e Bossa de Santa Teresa - Santajazz - 10ª Edição,True,0.75,41.0
+172,2024,2023-MZ120,FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,39786983001736,110000.0,2024-03-13,2024-04-03,110000.0,Festival Internacional de Jazz e Bossa de Santa Teresa - Santajazz - 10ª Edição,True,0.75,21.0
+173,2024,2023-MZ120,FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,11277336000708,80000.0,2024-03-13,2024-04-03,80000.0,Festival Internacional de Jazz e Bossa de Santa Teresa - Santajazz - 10ª Edição,True,0.75,21.0
+196,2024,2023-69GRL,Prêmio da Música Capixaba,17469701010482,500000.0,2024-06-20,2024-07-15,500000.0,Prêmio da Música Capixaba 2024,True,0.75,25.0
+220,2024,2022-1557P,CineMarias Mulheres Protagonistas,17469701010482,97417.44,2024-07-01,2024-07-25,97417.44,CineMarias Mulheres Protagonistas - 2023,True,0.75,24.0
+66,2023,2022-2LCF5,O Fabuloso Mundo das Cores - Heidi Liebermann,34307295000165,100000.0,2023-03-27,2023-05-31,100000.0,O Fabuloso Mudo das Cores - Heidi Liebermann,True,0.714,65.0
+84,2023,2022-2LCF5,O Fabuloso Mundo das Cores - Heidi Liebermann,34307295000165,25000.0,2023-05-22,2023-06-28,25000.0,O Fabuloso Mudo das Cores - Heidi Liebermann,True,0.714,37.0
+259,2025,2022-2NDS4,A Paixão Segundo São João de J. S. Bach,28152650000171,161912.01,2025-02-03,2025-03-11,161912.01,A Paixão Segundo São João de J. S. Bach (Residência Artística),True,0.714,36.0
+117,2023,2022-8VR5D,RODA DE BOTECO,07526557001181,250000.0,2023-07-17,2023-09-27,250000.0,Roda de Boteco (Colatina),True,0.667,72.0
+255,2025,2023-83NRF,FESTIVAL ORIGRAFFES,28152650000171,500000.0,2025-01-31,2025-02-27,500000.0,Festival Origraffes - 7° Edição,True,0.667,27.0
+256,2025,2023-0NZB3,Encontro da Chefs,34307295000165,489200.0,2025-01-31,2025-02-27,489200.0,Encontro da Chefs 2024,True,0.667,27.0
+254,2025,2024-PM31K,Crias.Lab,28152650000171,500000.0,2025-01-31,2025-03-11,500000.0,Crias.Lab 2024,True,0.667,39.0
+29,2022,2022-20250,“IV FESTIVAL INTERNACIONAL DE VIOLÃO DO ESPÍRITO SANTO (FIVES) E V CONCURSO...,28152650000171,123378.09,2022-09-06,2022-10-18,123378.09,IV FESTIVAL INTERNACIONAL DE VIOLÃO DO ESPÍRITO SANTO (FIVES) E V CONCURSO LATINO-AMERICANO DE VIOLÃO MAURÍCIO DE OLIVEIRA,True,0.636,42.0
+187,2024,2023-K799N,96ª Festa de São Pedro,39786983000179,170484.16,2024-06-03,2024-06-19,170484.16,96ª Festa de São Pedro - Edição 2024,True,0.6,16.0
+186,2024,2023-K799N,96ª Festa de São Pedro,03845717000122,250000.0,2024-06-03,2024-06-20,250000.0,96ª Festa de São Pedro Edição 2024,True,0.6,17.0
+311,2025,2025-SXX99,97ª FESTA DE SÃO PEDRO,03845717000122,250000.0,2025-04-30,2025-05-21,250000.0,97ª Festa de São Pedro Edição 2025,True,0.6,21.0
+312,2025,2025-SXX99,97ª FESTA DE SÃO PEDRO,39786983000179,250000.0,2025-04-30,2025-05-27,250000.0,97ª Festa de São Pedro Edição 2025,True,0.6,27.0
+165,2024,2023-GJ366,Samba Que Eu Quero Ver,39786983000179,250000.0,2024-02-29,2024-04-03,250000.0,Samba Que Eu Quero Ver Mostra Cultural de Bamba,True,0.571,34.0
+300,2025,2024-XDJHX,Samba que Eu Quero Ver,03845717000556,125000.0,2025-03-19,2025-06-09,125000.0,Samba que Eu Quero Ver Mostra Cultural de Bamba,True,0.571,82.0
+301,2025,2024-XDJHX,Samba que Eu Quero Ver,03845717001366,125000.0,2025-03-19,2025-06-09,125000.0,Samba que Eu Quero Ver Mostra Cultural de Bamba,True,0.571,82.0
+302,2025,2024-XDJHX,Samba que Eu Quero Ver,03845717001609,125000.0,2025-03-19,2025-06-30,125000.0,Samba que Eu Quero Ver Mostra Cultural de Bamba,True,0.571,103.0
+303,2025,2024-XDJHX,Samba que Eu Quero Ver,03845717000203,125000.0,2025-03-19,2025-07-22,125000.0,Samba que Eu Quero Ver Mostra Cultural de Bamba,True,0.571,125.0
+67,2023,2022-64KD3,8ª TendaLab,17469701010482,500000.0,2023-03-28,2023-06-22,500000.0,8ª TendaLab - Verão,True,0.5,86.0
+96,2023,2022-1MLZT,XAPURI,03845717000122,111709.82,2023-06-14,2023-07-06,111709.82,Projeto Xapuri,True,0.5,22.0
+47,2022,2022-0PP25,"""5@ Sinfônica Igrejas Históricas Capixabas""",28152650000171,299510.0,2022-12-27,2023-01-31,299510.0,Históricas Capixabas PROCESSO: 2021-84FCX CONTRATADA: JUDICIAL. OI 5@ Sinfônica Igrejas,True,0.444,35.0
+171,2024,2023-R3WJX,MOINHO VITÓRIA,28129260001667,53009.91,2024-03-07,2024-11-28,53009.91,"Moinho Vitória: Remoção, Restauro e Reinstalação",True,0.4,266.0
+246,2025,2024-8XRF4,Festival Delírio Tropical,34307295000165,500000.0,2025-01-29,2025-02-27,500000.0,Festival Delírio Tropical DIÁRIO OFICIAL DOS PODERES DO ESTADO,True,0.375,29.0
+99,2023,2022-FJR20,Festival MC 2023,07526557001181,200000.0,2023-06-20,2023-08-07,200000.0,Festival MC 2023 {Mostra Cena Capixaba Ciclo nº 2},True,0.333,48.0
+177,2024,2024-R7H5X,Festival da Cultura Italiana,39786983000179,103893.0,2024-05-28,2024-07-24,103893.0,Festival da Cultura Italiana - Tudo começou aqui.... “Noi Siamo La Storia”,True,0.333,57.0
+178,2024,2024-R7H5X,Festival da Cultura Italiana,03845717000122,300000.0,2024-05-28,2024-07-24,300000.0,Festival da Cultura Italiana - Tudo começou aqui.... “Noi Siamo La Storia”,True,0.333,57.0
+133,2024,2023-QQ6B5,Carnaval Folclórico dos Bois Pintadinhos de Muqui-ES – 2024,28152650000171,500000.0,2024-02-07,2026-02-11,500000.0,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2026,True,0.3,735.0
+170,2024,2023-BWFJ7,A Fantástica Carpintaria,17469701010482,110000.0,2024-03-05,2024-04-29,110000.0,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,True,0.286,55.0
+249,2025,2024-HGG9K,INSTITUTO DAS PRETAS.ORG,28152650000171,499999.84,2025-01-30,2025-03-11,499999.84,#EP10 - Encontro das Pretas 10 Anos,True,0.286,40.0
+216,2024,2022-C4V42,Algazarra Coral,34307295000165,183418.64,2024-06-26,2024-08-15,183418.64,Algazarra Coral: formação vocal e responsabilidade social - ano 2023,True,0.25,50.0
+2,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,03028906000102,70000.0,2022-05-18,2022-05-31,50000.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,13.0
+3,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,04850382000101,100000.0,2022-05-18,2022-05-31,71425.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,13.0
+4,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,03264284000111,100000.0,2022-05-18,2022-05-31,71425.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,13.0
+5,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,05904268000171,80000.0,2022-05-18,2022-05-31,57150.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,13.0
+7,2022,2022-MRJRS,“Escola de Fotógrafos Cegos e Exposição ‘Quando Fecho os Olhos Vejo Mais Perto”,34307295000165,465965.0,2022-05-18,2022-06-02,155965.0,ESCOLA DE FOTÓGRAFOS CEGOS E EXPOSIÇÃO: “QUANDO FECHO OS OLHOS VEJO MAIS PERTO”,False,1.0,15.0
+1,2022,2022-HZ46T,"Montagem e turnê do espetáculo teatral ""A SÓS""",00483394000186,164969.54,2022-05-17,2022-06-22,82485.0,Montagem e turnê do espetáculo teatral “A SÓS”,False,1.0,36.0
+2,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,03028906000102,70000.0,2022-05-18,2022-06-30,20000.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,43.0
+3,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,04850382000101,100000.0,2022-05-18,2022-06-30,28575.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,43.0
+4,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,03264284000111,100000.0,2022-05-18,2022-06-30,28575.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,43.0
+5,2022,2022-RWW2K,9ª edição do FESTIVAL INTERNACIONAL DE JAZZ E BOSSA DE SANTA TERESA,05904268000171,80000.0,2022-05-18,2022-06-30,22850.0,9ª edição do Festival Internacional de Jazz e Bossa de Santa Teresa,False,1.0,43.0
+8,2022,2022-M5V6Q,“Corpo Afro – Manutenção de grupo e manifestações negro-brasileiras”,34307295000165,271215.0,2022-05-18,2022-06-30,90405.0,Corpo Afro - Manutenção de grupo e manifestações negro-brasileiras,False,1.0,43.0
+1,2022,2022-HZ46T,"Montagem e turnê do espetáculo teatral ""A SÓS""",00483394000186,164969.54,2022-05-17,2022-07-26,82484.54,Montagem e turnê do espetáculo teatral “A SÓS”,False,1.0,70.0
+8,2022,2022-M5V6Q,“Corpo Afro – Manutenção de grupo e manifestações negro-brasileiras”,34307295000165,271215.0,2022-05-18,2022-08-03,90405.0,Corpo Afro - Manutenção de Grupo e Manifestações Negro-brasileiras;,False,1.0,77.0
+13,2022,2022-Z1XJQ,Festival CRIAS.LAB 2022,34307295000165,500000.0,2022-07-04,2022-08-15,175000.0,FESTIVAL CRIAS.LAB 2022,False,1.0,42.0
+7,2022,2022-MRJRS,“Escola de Fotógrafos Cegos e Exposição ‘Quando Fecho os Olhos Vejo Mais Perto”,34307295000165,465965.0,2022-05-18,2022-08-29,156500.0,Escola de Fotógrafos Cegos e Exposição: “Quando Fecho os Olhos Vejo Mais Perto”.,False,1.0,103.0
+19,2022,2022-87D66,"""Música e Artes na Capital Vitória/ES""",34307295000165,382721.25,2022-07-08,2022-09-09,126721.25,MÚSICA E ARTES NA CAPITAL VITÓRIA/ES,False,1.0,63.0
+13,2022,2022-Z1XJQ,Festival CRIAS.LAB 2022,34307295000165,500000.0,2022-07-04,2022-10-07,150000.0,FESTIVAL CRIAS.LAB 2022,False,1.0,95.0
+30,2022,2022-S80KH,"""7ª TendaLab""",34307295000165,500000.0,2022-09-09,2022-10-11,170000.0,7ª TENDALAB,False,1.0,32.0
+35,2022,2022-BFTK4,Escola de Música Tocando em Frente,34307295000165,200370.0,2022-09-23,2022-10-25,100370.0,“Escola de Música Tocando em Frente”,False,1.0,32.0
+30,2022,2022-S80KH,"""7ª TendaLab""",34307295000165,500000.0,2022-09-09,2022-10-31,165000.0,7ª TendaLab,False,1.0,52.0
+19,2022,2022-87D66,"""Música e Artes na Capital Vitória/ES""",34307295000165,382721.25,2022-07-08,2022-11-04,128000.0,MÚSICA E ARTES NA CAPITAL VITÓRIA/ES,False,1.0,119.0
+30,2022,2022-S80KH,"""7ª TendaLab""",34307295000165,500000.0,2022-09-09,2022-11-24,165000.0,7ª TENDALAB,False,1.0,76.0
+35,2022,2022-BFTK4,Escola de Música Tocando em Frente,34307295000165,200370.0,2022-09-23,2022-11-24,100000.0,Escola de Música Tocando em Frente,False,1.0,62.0
+36,2022,2022-KSSWD,“FESTIVAL NACIONAL DE CAPOEIRA”,34307295000165,158560.0,2022-09-27,2022-11-24,79280.0,FESTIVAL NACIONAL DE CAPOEIRA,False,1.0,58.0
+40,2022,2022-05G2G,"""Mostra Povoar""",34307295000165,254301.01,2022-11-07,2022-11-24,127301.01,MOSTRA POVOAR,False,1.0,17.0
+41,2022,2022-49MMM,"""Moqueca Pop Festival""",34307295000165,314563.15,2022-11-07,2022-11-24,157563.15,Moqueca Pop Festival,False,1.0,17.0
+36,2022,2022-KSSWD,“FESTIVAL NACIONAL DE CAPOEIRA”,34307295000165,158560.0,2022-09-27,2022-12-21,79280.0,Festival Nacional de Capoeira,False,1.0,85.0
+37,2022,2022-82W8Z,"""ORQUESTRA BRASILEIRA DE CANTORES CEGOS""",34307295000165,492965.0,2022-09-28,2022-12-21,246482.5,Orquestra Brasileira De Cantores Cegos,False,1.0,84.0
+40,2022,2022-05G2G,"""Mostra Povoar""",34307295000165,254301.01,2022-11-07,2022-12-21,127000.0,Mostra Povoar,False,1.0,44.0
+41,2022,2022-49MMM,"""Moqueca Pop Festival""",34307295000165,314563.15,2022-11-07,2022-12-21,157000.0,Moqueca Pop Festival,False,1.0,44.0
+50,2023,2022-Z2KZF,A Fantástica Carpintaria,39639745000130,115468.47,2023-01-24,2023-04-04,33868.57,A Fantástica Carpintaria,False,1.0,70.0
+57,2023,2022-7D9CX,ENCONTRO DAS PRETAS - 9ª EDIÇÃO,34307295000165,250000.0,2023-03-09,2023-04-26,125000.0,Encontro das Pretas - 9ª Edição,False,1.0,48.0
+58,2023,2022-3Q613,Formemus 2023,34307295000165,226250.0,2023-03-09,2023-04-26,113250.0,Formemus 2023,False,1.0,48.0
+59,2023,2022-05G2G,MOSTRA POVOAR,34307295000165,146921.91,2023-03-09,2023-04-26,146921.01,Mostra Povoar,False,1.0,48.0
+65,2023,2022-B0CCP,Prêmio da Música Capixaba - 2a. Edição,34307295000165,224779.57,2023-03-23,2023-04-26,112779.57,Prêmio da Música Capixaba - 2a. Edição,False,1.0,34.0
+58,2023,2022-3Q613,Formemus 2023,34307295000165,226250.0,2023-03-09,2023-05-25,113000.0,Formemus 2023,False,1.0,77.0
+65,2023,2022-B0CCP,Prêmio da Música Capixaba - 2a. Edição,34307295000165,224779.57,2023-03-23,2023-05-25,112000.0,Prêmio da Música Capixaba - 2a. Edição,False,1.0,63.0
+50,2023,2022-Z2KZF,A Fantástica Carpintaria,39639745000130,115468.47,2023-01-24,2023-06-15,15910.44,A Fantástica Carpintaria,False,1.0,142.0
+62,2023,2022-CP09H,Ready to Rock,28921954000156,50069.42,2023-03-20,2023-06-22,16689.8,Ready to Rock,False,1.0,94.0
+85,2023,2022-185J7,Centro Cultural Luz Del Fuego,34307295000165,161983.12,2023-05-22,2023-07-04,81983.12,Centro Cultural Luz Del Fuego,False,1.0,43.0
+91,2023,2022-R4K8H,Memórias do Quilombo Monte Alegre,34307295000165,181698.8,2023-06-05,2023-07-05,91698.8,Memórias do Quilombo Monte Alegre,False,1.0,30.0
+83,2023,2022-83B3M,State of Coffee,34307295000165,232500.0,2023-05-22,2023-07-25,116250.0,State of Coffee,False,1.0,64.0
+85,2023,2022-185J7,Centro Cultural Luz Del Fuego,34307295000165,161983.12,2023-05-22,2023-07-25,80000.0,Centro Cultural Luz Del Fuego,False,1.0,64.0
+50,2023,2022-Z2KZF,A Fantástica Carpintaria,39639745000130,115468.47,2023-01-24,2023-07-27,15910.45,A Fantástica Carpintaria,False,1.0,184.0
+91,2023,2022-R4K8H,Memórias do Quilombo Monte Alegre,34307295000165,181698.8,2023-06-05,2023-07-27,90000.0,Memórias do Quilombo Monte Alegre,False,1.0,52.0
+110,2023,2023-JXCJ3,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA 2023,00381613000116,90000.0,2023-06-30,2023-07-31,45000.0,Cappitella - Festa do Cappelletti e aa Tagliatella 2023,False,1.0,31.0
+104,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,07548056000124,67386.46,2023-06-25,2023-08-22,22462.15,23 º Festival Nacional de Teatro de Guaçuí,False,1.0,58.0
+105,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,09492311000190,60000.0,2023-06-25,2023-08-22,20000.0,23 º Festival Nacional de Teatro de Guaçuí,False,1.0,58.0
+107,2023,2023-JXCJ3,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA 2023,05989287000148,250000.0,2023-06-30,2023-08-25,83333.33,Cappitella - Festa do Cappelletti e da Tagliatella 2023,False,1.0,56.0
+108,2023,2023-JXCJ3,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA 2023,27942085003794,100000.0,2023-06-30,2023-08-25,50000.0,Cappitella - Festa do Cappelletti e da Tagliatella 2023,False,1.0,56.0
+106,2023,2023-Z3J6P,JAZZ VITÓRIA FESTIVAL,03845717000122,500000.0,2023-06-27,2023-08-29,250000.0,Jazz Vitória Festival,False,1.0,63.0
+106,2023,2023-Z3J6P,JAZZ VITÓRIA FESTIVAL,03845717000122,500000.0,2023-06-27,2023-11-23,250000.0,JAZZ VITÓRIA FESTIVAL,False,1.0,149.0
+128,2024,2022-H0SNV,BRAVOS - A Vila do Fim do Mundo,07260084000141,259378.33,2024-02-05,2024-03-18,70000.0,BRAVOS - A Vila do Fim do Mundo,False,1.0,42.0
+151,2024,2022-CP09H,Ready to Rock,31819139000195,123350.15,2024-02-16,2024-03-21,41000.0,Ready to Rock,False,1.0,34.0
+153,2024,2022-NLCS2,"Construir, Tocar e Cantar para Transformar",30563332000145,104424.69,2024-02-19,2024-03-21,34808.23,"Construir, Tocar e Cantar para Transformar",False,1.0,31.0
+137,2024,2023-674P6,Música e Artes na Capital Vitória/ES (Segunda Edição),34307295000165,500000.0,2024-02-08,2024-04-23,165000.0,Música e Artes na Capital Vitória/ES (Segunda Edição),False,1.0,75.0
+138,2024,2023-72GQM,Capacitação para fazedores de alegorias e adereços da Escola de Samba Unidos da Piedade,03845717000122,499863.38,2024-02-08,2024-04-24,200000.0,Capacitação para fazedores de alegorias e adereços da Escola de Samba Unidos da Piedade,False,1.0,76.0
+135,2024,2023-BWFJ7,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,39639745000130,112126.3,2024-02-08,2024-04-29,18687.72,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,False,1.0,81.0
+136,2024,2023-BWFJ7,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,34307295000165,200000.0,2024-02-08,2024-04-29,100000.0,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,False,1.0,81.0
+140,2024,2023-KNQFG,Raiar da Liberdade,34307295000165,202999.26,2024-02-08,2024-04-30,102999.26,Raiar da Liberdade,False,1.0,82.0
+139,2024,2023-WXS00,Moqueca Pop Verão - Edição Marataízes,34307295000165,250000.0,2024-02-08,2024-05-03,125000.0,Moqueca Pop Verão - Edição Marataízes,False,1.0,85.0
+138,2024,2023-72GQM,Capacitação para fazedores de alegorias e adereços da Escola de Samba Unidos da Piedade,03845717000122,499863.38,2024-02-08,2024-05-22,150000.0,Capacitação para fazedores de alegorias e adereços da Escola de Samba Unidos da Piedade,False,1.0,104.0
+120,2024,2022-CP09H,Ready to Rock,00412876000145,160000.0,2024-01-24,2024-05-28,53000.0,Ready to Rock,False,1.0,125.0
+121,2024,2023-WTBGJ,Formemus,34307295000165,250000.0,2024-01-24,2024-05-28,125000.0,Formemus,False,1.0,125.0
+140,2024,2023-KNQFG,Raiar da Liberdade,34307295000165,202999.26,2024-02-08,2024-05-28,100000.0,Raiar da Liberdade,False,1.0,110.0
+151,2024,2022-CP09H,Ready to Rock,31819139000195,123350.15,2024-02-16,2024-05-28,41350.15,Ready to Rock,False,1.0,102.0
+158,2024,2023-MJHMK,FESTIVAL NOVOS CANTORES - 2ª EDIÇÃO,05069718000310,476619.0,2024-02-20,2024-05-28,176619.0,Festival Novos Cantores 2ª Edição,False,1.0,98.0
+137,2024,2023-674P6,Música e Artes na Capital Vitória/ES (Segunda Edição),34307295000165,500000.0,2024-02-08,2024-05-29,170000.0,Música e Artes na Capital Vitória/ES (Segunda Edição),False,1.0,111.0
+142,2024,2022-1557P,CineMarias Mulheres Protagonistas - 2023,34307295000165,300000.0,2024-02-08,2024-06-04,150000.0,CineMarias Mulheres Protagonistas - 2023,False,1.0,117.0
+120,2024,2022-CP09H,Ready to Rock,00412876000145,160000.0,2024-01-24,2024-06-28,54000.0,Ready to Rock,False,1.0,156.0
+130,2024,2023-4TB56,Orquestra Jovem Capixaba - Concertos na Grande Vitória,34307295000165,285485.0,2024-02-06,2024-06-28,140000.0,Orquestra Jovem Capixaba - Concertos na Grande Vitória,False,1.0,143.0
+158,2024,2023-MJHMK,FESTIVAL NOVOS CANTORES - 2ª EDIÇÃO,05069718000310,476619.0,2024-02-20,2024-06-28,150000.0,Festival Novos Cantores 2ª Edição,False,1.0,129.0
+194,2024,2024-17HKP,46ª Festa da Polenta,27277961000102,381033.64,2024-06-12,2024-08-08,127011.21,46ª Festa da Polenta,False,1.0,57.0
+222,2024,2023-GXJLN,JAZZ VITÓRIA FESTIVAL 2024,03845717000122,500000.0,2024-07-03,2024-08-12,125000.0,Jazz Vitória Festival 2024,False,1.0,40.0
+135,2024,2023-BWFJ7,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,39639745000130,112126.3,2024-02-08,2024-08-30,11212.63,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,False,1.0,204.0
+166,2024,2022-CP09H,Ready to Rock,28135184000116,49463.81,2024-03-04,2024-08-30,12365.96,Ready to Rock,False,1.0,179.0
+128,2024,2022-H0SNV,BRAVOS - A Vila do Fim do Mundo,07260084000141,259378.33,2024-02-05,2024-10-10,49378.33,BRAVOS - A Vila do Fim do Mundo,False,1.0,248.0
+222,2024,2023-GXJLN,JAZZ VITÓRIA FESTIVAL 2024,03845717000122,500000.0,2024-07-03,2024-10-10,125000.0,JAZZ VITÓRIA FESTIVAL 2024,False,1.0,99.0
+135,2024,2023-BWFJ7,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,39639745000130,112126.3,2024-02-08,2024-11-11,22425.26,A Fantástica Carpintaria: design circular aplicado a quintais urbanos,False,1.0,277.0
+241,2025,2023-0J1G1,A DANÇA: UNIVERSO EM EXPANSÃO,71189278000520,136397.0,2025-01-28,2025-02-18,45465.66,A Dança: Universo em Expansão,False,1.0,21.0
+263,2025,2023-PRGRB,FECSTA 7 - FESTIVAL DE CINEMA DE SANTA TERESA,31731169000145,264403.77,2025-02-04,2025-02-25,46270.66,Fecsta 7 - Festival de Cinema de Santa Teresa - ES,False,1.0,21.0
+241,2025,2023-0J1G1,A DANÇA: UNIVERSO EM EXPANSÃO,71189278000520,136397.0,2025-01-28,2025-03-20,42965.66,A Dança: Universo em Expansão,False,1.0,51.0
+104,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,07548056000124,67386.46,2023-06-25,2025-03-27,18841.57,25º Festival Nacional de Teatro de Guaçuí,False,1.0,641.0
+105,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,09492311000190,60000.0,2023-06-25,2025-03-27,14769.41,25º Festival Nacional de Teatro de Guaçuí,False,1.0,641.0
+298,2025,2024-8TB7C,Raiar da Liberdade,27340074000808,239751.08,2025-03-12,2025-05-09,39958.52,Raiar da Liberdade,False,1.0,58.0
+104,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,07548056000124,67386.46,2023-06-25,2025-05-29,18841.59,25º Festival Nacional de Teatro de Guaçuí,False,1.0,704.0
+105,2023,2022-B6CR0,23 º Festival Nacional de Teatro de Guaçuí,09492311000190,60000.0,2023-06-25,2025-05-29,14769.42,25º Festival Nacional de Teatro de Guaçuí,False,1.0,704.0
+298,2025,2024-8TB7C,Raiar da Liberdade,27340074000808,239751.08,2025-03-12,2025-06-30,39958.51,Raiar da Liberdade,False,1.0,110.0
+298,2025,2024-8TB7C,Raiar da Liberdade,27340074000808,239751.08,2025-03-12,2025-06-30,39958.51,Raiar da Liberdade do do,False,1.0,110.0
+241,2025,2023-0J1G1,A DANÇA: UNIVERSO EM EXPANSÃO,71189278000520,136397.0,2025-01-28,2025-11-03,2500.0,A Dança: Universo em Expansão,False,1.0,279.0
+10,2022,2022-MWSV5,“5º FECSTA - Festival de Cinema de Santa Teresa”,28154847000301,206671.44,2022-07-04,2026-05-20,200000.0,Fecsta 9 - Festival de Cinema de Santa Teresa - ES,False,1.0,1416.0
+218,2024,2023-MQSDZ,Congo de Máscaras de Roda D’Água de Cariacica,27990092000150,250000.0,2024-06-26,2024-11-19,125000.0,Congo de Máscaras de Roda D’Água de Cariacica-2024,False,0.833,146.0
+253,2025,2023-QCBWF,Carna Surpresa – O Carnaval da Barra do Jucu,31819139000195,50000.0,2025-01-31,2025-02-20,25000.0,Carna Surpresa 2024 - O Carnaval da Barra do Jucu,False,0.833,20.0
+227,2024,2023-3RCKP,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA,27942085003794,234482.4,2024-07-08,2024-08-08,78160.8,Cappitella - Festa do Cappelletti e da Tagliatella 2024,False,0.8,31.0
+253,2025,2023-QCBWF,Carna Surpresa – O Carnaval da Barra do Jucu,31819139000195,50000.0,2025-01-31,2025-04-09,25000.0,“Carna Barra - O Carnaval da Barra do Jucu”,False,0.8,68.0
+227,2024,2023-3RCKP,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA,27942085003794,234482.4,2024-07-08,2026-06-23,83333.0,Cappitella - Festa do Cappelletti e da Tagliatella 2025,False,0.8,715.0
+225,2024,2023-3RCKP,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA,10607920000126,100000.0,2024-07-08,2026-06-30,41666.67,Cappitella - Festa Do Cappelletti E Da Tagliatella 2025,False,0.8,722.0
+226,2024,2023-3RCKP,CAPPITELLA – FESTA DO CAPPELLETTI E DA TAGLIATELLA,00381613000116,138000.0,2024-07-08,2026-06-30,42000.0,Cappitella - Festa Do Cappelletti E Da Tagliatella 2025,False,0.8,722.0
+116,2023,2022-8VR5D,RODA DE BOTECO,27497684000135,80000.0,2023-07-17,2023-09-27,52000.0,Roda de Boteco (Colatina),False,0.667,72.0
+116,2023,2022-8VR5D,RODA DE BOTECO,27497684000135,80000.0,2023-07-17,2023-09-29,28000.0,Roda de Boteco (Colatina),False,0.667,74.0
+123,2024,2022-8LMZ7,Residência Literária nas Monstanhas do Caparaó,00483394000186,161622.55,2024-01-24,2024-02-27,80811.27,RESIDÊNCIA LITERÁRIA NAS MONTANHAS DO CAPARAÓ,False,0.667,34.0
+129,2024,2023-4MWGM,"Escola De Fotógrafos Cegos: A Exposição, 4 Cidade",34307295000165,487271.84,2024-02-06,2024-06-04,160000.0,"Escola de Fotógrafos Cegos, A Exposição: 4 Cidades",False,0.667,119.0
+34,2022,2022-W3TL3,"Gravações, em Muqui, de cenas do filme ""De tanto amar"" com Vera Fischer e grande elenco",34307295000165,500000.0,2022-09-23,2022-11-24,250000.0,"“Gravações, em Muqui, de Cenas do Filme de Tanto Amar”",False,0.545,62.0
+34,2022,2022-W3TL3,"Gravações, em Muqui, de cenas do filme ""De tanto amar"" com Vera Fischer e grande elenco",34307295000165,500000.0,2022-09-23,2022-12-21,250000.0,"Gravações, em Muqui, de cenas do filme de tanto amar",False,0.545,89.0
+69,2023,2022-1MLZT,XAPURI,34307295000165,250000.0,2023-04-03,2023-06-22,125000.0,Projeto Xapuri,False,0.5,80.0
+32,2022,2022-1KLD7,"""E quem se importa?""",34307295000165,408881.87,2022-09-13,2022-10-25,138881.87,“E quem se importa?” Distribuição e Comercialização de longa-metragem,False,0.333,42.0
+32,2022,2022-1KLD7,"""E quem se importa?""",34307295000165,408881.87,2022-09-13,2022-11-24,135000.0,“E Quem Se Importa?” Distribuição e Comercialização de Longa-Metragem,False,0.333,72.0
+32,2022,2022-1KLD7,"""E quem se importa?""",34307295000165,408881.87,2022-09-13,2022-12-21,135000.0,“E quem se importa?” Distribuição e Comercialização de longa-metragem,False,0.333,99.0

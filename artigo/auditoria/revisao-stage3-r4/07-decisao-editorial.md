@@ -43,7 +43,7 @@ remove correlated-error risk." Estado: `NOT_CALIBRATED`.
 
 | Item | Fonte | O quê | Onde | Linhas |
 | --- | --- | --- | --- | --- |
-| RV4-1 | R1 M2, DA1 | Declarar o EMD do efeito local de H5 (de 69 a 85 pontos, primeiro estágio de 0,41) e o cenário com os recusados de 2025-2026 por LAI (de 20 a 24 pontos). Declarar que o efeito local de H4 tem o EMD da Tabela 2 dividido pela adesão | §5.4, depois de "serve como verificação de robustez" | +3 |
+| RV4-1 | R1 M2, DA1 | Declarar o EMD do efeito local de H5 (de 69 a 84 pontos, primeiro estágio de 0,41) e o cenário com os recusados de 2025-2026 por LAI (de 20 a 24 pontos). Declarar que o efeito local de H4 tem o EMD da Tabela 2 dividido pela adesão | §5.4, depois de "serve como verificação de robustez" | +3 |
 | RV4-2 | R1 M1, DA2 | H4 com todos os 71 municípios do interior (35 ou 36 por grupo, regra de 30 a 50 de Gertler *et al.*, 2018, p. 314); braços e intensidade sorteados entre agentes dos municípios tratados; diferença entre braços com EMD de 2,3 a 4,9 pontos; só com coletivos, 26 por grupo, abaixo da regra | §5.2 (H4); §5.4 | +2 |
 | RV4-3 | R1 M5, R3 P1, DA3 | Chave de ligação: o Portal (quem captou) e os avisos de habilitação no Diário Oficial cobrem 385 dos 463 habilitados (83%); a LAI fica para o restante e para os inabilitados. Referência nova: DIO-ES (2026), busca no Diário Oficial | §5.3; Quadro 4 (linha dos extratos: "CNPJ na habilitação"); Referências | +1 |
 | RV4-4 | EIC E1, R2 D1, DA4 | Uma oração: os indicadores da cadeia (passo 5) são as etapas do funil da Tabela 1, e os de resultado, os *Y* do Quadro 3; os que faltam (inscritos, público) coincidem com os elos tracejados da Figura 1 | §4.2, Funil de atrito | +1 |
@@ -54,7 +54,7 @@ remove correlated-error risk." Estado: `NOT_CALIBRATED`.
 | --- | --- | --- |
 | SG4-1 | EIC E2, R2 D2 | Nomear dois riscos do passo 3: o deslocamento de outros projetos pelo teto e a substituição do patrocínio próprio da empresa pelo crédito integral |
 | SG4-2 | R1 M3, DA5 | O teste da ordem da fila começa com dado público: a "data do processo" do Portal tem correlação de postos de 0,91 com o recebimento em 2025 |
-| SG4-3 | R1 M4 | Datar o tratamento pelo aviso de depósito (386 depósitos; de 20 dos 48 termos em 2022 a 78 dos 96 em 2025); os 69 depósitos de 2026 antecipam o ano que o Portal não lista |
+| SG4-3 | R1 M4 | Datar o tratamento pelo aviso de depósito, que valida o repasse (Portaria Conjunta 01-R/2022, arts. 5º e 6º): 386 depósitos, com ao menos um localizado para 267 dos 325 termos de 2022-2025 (82%); os 65 depósitos de 2026 antecipam o ano que o Portal não lista |
 | SG4-4 | R3 P2 | Conclusão: "publicar **em formato aberto**" |
 | SG4-5 | R2 D4 | Renomear a coluna "montante" de `09_racionamento_por_ano.csv` para "montante declarado no anexo" (fora do texto) |
 
@@ -70,9 +70,9 @@ O artigo tem 15 páginas, e os obrigatórios somam cerca de 7 linhas. A compensa
 
 | Número | Arquivo | Script |
 | --- | --- | --- |
-| 69 a 85; 20 a 24; 2,3 a 4,9; 26 e 35,5 por grupo; adesão | `analise/tabelas/19_poder_revisao.csv` | `analise/19_poder_revisao.py` |
+| 69 a 84; 20 a 24; 2,3 a 4,9; 26 e 35,5 por grupo; adesão | `analise/tabelas/19_poder_revisao.csv` | `analise/19_poder_revisao.py` |
 | 385 de 463 (83%); 79 de 81 | `analise/tabelas/18_cobertura_cnpj.csv` | `analise/18_dio_avisos_habilitacao.py` |
-| 386 depósitos; 20/48 a 78/96 | `analise/tabelas/18_deposito_x_portal.csv` | idem |
+| 386 depósitos; 267 de 325 termos (82%) | `analise/tabelas/18_deposito_x_portal.csv` | idem |
 | 0,91; 19 dias | `analise/tabelas/16_data_processo_x_recebimento_2025.csv` | `analise/16_transparencia_licc.py` |
 
 Cada número que entrar no texto ganha uma checagem em `artigo/auditoria/checar_dados.py`.
@@ -81,3 +81,34 @@ Cada número que entrar no texto ganha uma checagem em `artigo/auditoria/checar_
 
 Os revisores não alteram o manuscrito. A aplicação dos itens RV4-1 a RV4-4, e dos sugeridos que o autor escolher,
 depende da decisão do autor.
+
+## Aplicação (27/09/2026, noite)
+
+O autor pediu para "seguir com revisões". Os quatro obrigatórios e três sugeridos entraram no manuscrito, agora com
+sha256 `a8100b5b0235682d162314d54349833f667f36eb316f948e488bf47554efa364`:
+
+| Item | Onde entrou |
+| --- | --- |
+| RV4-1 | §5.4: EMD do efeito local de H5 (primeiro estágio de 0,41; de 69 a 84 pontos); cenário com os recusados de 2025-2026 por LAI (de 20 a 24 pontos); EMD de H4 para quem adere |
+| RV4-2 | §5.2 (H4): oferta sorteada entre os 71 municípios e braços sorteados entre agentes; saturação exploratória. §5.4: regra de 30 a 50 conglomerados por grupo (Gertler *et al.*, 2018); 35 ou 36 municípios por grupo; braços com EMD de 2,3 a 4,9 pontos; coletivos com 26 por grupo |
+| RV4-3 | §5.3: CNPJ pelo Portal e pelos avisos de habilitação (385 de 463, 83%); LAI só para o restante e os inabilitados. Quadro 4 e referência DIO-ES (2026) |
+| RV4-4 | §4.2: "Funil de atrito e indicadores" (as etapas do funil são os indicadores da cadeia; os *Y* do Quadro 3, os de resultado) |
+| SG4-1 | §4.1: dois riscos (deslocamento pelo teto e substituição do patrocínio próprio) |
+| SG4-3 | Quadro 4: data de cada depósito (82% dos termos de 2022-2025); hora de protocolo pública só nos validados de 2025; eventos datados de 18 projetos no Mapa |
+| SG4-4 | §6: "publicar, em formato aberto" |
+
+**Não entrou:** SG4-2 (teste da ordem pelo Portal), por falta de espaço; fica nas notas.
+
+**Compensação para manter 15 páginas:**
+- Na §4.2 (H2), saiu a comparação com a lei do Rio Grande do Sul e suas duas referências, em linha com o pedido de
+  focar só na LICC. Fica o contraste com o Funcultura, da mesma secretaria.
+- A Tabela 2 ganhou colunas mais equilibradas.
+- O parágrafo "O que fica aberto" foi condensado.
+- A sigla LAI passou a ser definida na primeira ocorrência (§5.2).
+
+**Conferência:**
+- `checar_dados.py`: 68/68, com nove checagens novas (N65 a N72) e N24, N40, N48 e N65 ajustadas ao texto;
+- `auditar_captacao.py`: 75/75;
+- `checar_referencias.py`: 54 referências;
+- PDF (XeLaTeX) com 15 páginas, sem glifos ausentes nem linhas estouradas;
+- zip do Overleaf compilado numa pasta limpa: artigo com 15 páginas, declaração com 1.

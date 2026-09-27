@@ -17,9 +17,11 @@ Regras:
 - "AVISO DE DEPÓSITO DE PATROCÍNIO – LICC": um item por "Patrocinador ... CNPJ ... Valor do crédito presumido ...
   Beneficiário ... Projeto contemplado"; o trecho coletado é uma janela em volta do termo buscado, e um aviso longo
   pode ficar cortado (itens a menos, nunca inventados);
-- depósito × termo do Portal: mesmo CNPJ do patrocinador, mesmo valor (centavos) e nome de projeto parecido
-  (Jaccard de palavras >= 0,2), um para um, o mais parecido primeiro; a defasagem é a data do DIO menos a "data do
-  processo" do Portal (que não é a de protocolo; ver analise/16), e o que não casa é contado, não forçado;
+- depósito × termo do Portal: mesmo CNPJ do patrocinador e nome de projeto parecido; o aviso é por depósito, e o
+  termo pode ser depositado em parcelas (ver deposito_x_portal); a defasagem é a data do DIO do primeiro depósito
+  menos a "data do processo" do Portal (que não é a de protocolo; ver analise/16), e o que não casa é contado, não
+  forçado. Pela Portaria Conjunta SEFAZ/SECULT nº 01-R/2022, arts. 5º e 6º, o crédito presumido só pode ser apropriado
+  depois da publicação desse resumo no Diário Oficial: o aviso é o ato que valida o repasse;
 - o nome do beneficiário não é gravado (pode ser pessoa física); fica o projeto, que é público.
 
 Saídas:
@@ -27,6 +29,7 @@ Saídas:
   analise/tabelas/18_cobertura_cnpj.csv           por ciclo: habilitados, com CNPJ no DIO, no Portal, em algum dos
                                                    dois, e concordância de CNPJ entre as fontes
   dados/processados/dio_avisos_deposito.csv       um depósito por patrocinador × valor × projeto, com a data do DIO
+  dados/processados/dio_deposito_x_termo.csv      cada depósito ligado a um termo do Portal (integral ou parcela)
   analise/tabelas/18_deposito_x_portal.csv        por ano do Portal: termos, termos com depósito localizado, valor,
                                                    defasagem (dias) da "data do processo" ao aviso; depósitos sem termo
 Uso: python analise/18_dio_avisos_habilitacao.py
@@ -87,44 +90,66 @@ def depositos() -> pd.DataFrame:
     return a.drop_duplicates(["cnpj_patrocinador", "valor_dio", "projeto_dio"]).reset_index(drop=True)
 
 
-def deposito_x_portal(dep: pd.DataFrame) -> pd.DataFrame:
+def deposito_x_portal(dep: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Liga cada termo do Portal aos avisos de depósito do mesmo patrocinador (CNPJ) e do mesmo projeto.
+
+    O aviso é por depósito, e um termo pode ser depositado em parcelas (metade, um terço, um quarto do valor): cada
+    depósito vai a um só termo, o de nome mais parecido, e a soma dos depósitos de um termo não passa do seu valor.
+    1ª passada: mesmo valor (depósito integral), Jaccard >= 0,2; 2ª: parcelas, Jaccard >= 0,3.
+    """
     t = pd.read_csv(PROC / "transparencia_licc_termos.csv", dtype={"cnpj_patrocinador": str})
     t = t[~t["valor_zero"]].reset_index(drop=True)
-    t["tid"], t["v"] = t.index, t["valor"].round(2)
-    a = dep.assign(did=dep.index, v=dep["valor_dio"].round(2))
-    m = t.merge(a, on=["cnpj_patrocinador", "v"])
+    t["tid"] = t.index
+    a = dep.assign(did=dep.index)
+    m = t.merge(a, on="cnpj_patrocinador")
     m["sim"] = [len(palavras(x) & palavras(y)) / max(1, len(palavras(x) | palavras(y)))
                 for x, y in zip(m["projeto"], m["projeto_dio"])]
-    m["defasagem_dias"] = (pd.to_datetime(m["data_dio"]) - pd.to_datetime(m["data_processo"])).dt.days
-    m = m[m["sim"] >= 0.2].sort_values(["sim", "defasagem_dias"], ascending=[False, True])
-    usados_t, usados_d, par = set(), set(), []
-    for _, r in m.iterrows():
-        if r["tid"] in usados_t or r["did"] in usados_d:
-            continue
-        usados_t.add(r["tid"]); usados_d.add(r["did"]); par.append(r)
-    k = pd.DataFrame(par)
+    m["integral"] = m["valor"].round(2) == m["valor_dio"].round(2)
+    usados_d, soma, ligacoes = set(), {}, []
+    for integral, corte in ((True, 0.2), (False, 0.3)):
+        cand = m[(m["integral"] == integral) & (m["sim"] >= corte)].sort_values(["sim", "data_dio"],
+                                                                               ascending=[False, True])
+        for _, r in cand.iterrows():
+            if r["did"] in usados_d or (integral and r["tid"] in soma):
+                continue
+            if soma.get(r["tid"], 0.0) + r["valor_dio"] > r["valor"] + 0.01:
+                continue
+            usados_d.add(r["did"])
+            soma[r["tid"]] = soma.get(r["tid"], 0.0) + r["valor_dio"]
+            ligacoes.append({"termo_id": r["tid"], "ano": r["ano"], "processo": r["processo"], "projeto": r["projeto"],
+                             "cnpj_patrocinador": r["cnpj_patrocinador"], "valor_termo": r["valor"],
+                             "data_processo": r["data_processo"], "data_dio": r["data_dio"],
+                             "valor_dio": r["valor_dio"], "projeto_dio": r["projeto_dio"],
+                             "deposito_integral": integral, "similaridade": round(r["sim"], 3)})
+    k = pd.DataFrame(ligacoes)
+    k["defasagem_dias"] = (pd.to_datetime(k["data_dio"]) - pd.to_datetime(k["data_processo"])).dt.days
+    por_termo = k.groupby(["termo_id", "ano"], as_index=False).agg(
+        depositos=("valor_dio", "size"), valor_depositado=("valor_dio", "sum"),
+        primeiro_deposito=("data_dio", "min"), defasagem_primeiro=("defasagem_dias", "min"))
     out = t.groupby("ano").agg(termos=("valor", "size"), valor_termos=("valor", "sum"))
-    g = k.groupby("ano")
+    g = por_termo.groupby("ano")
     out["termos_com_deposito"] = g.size()
-    out["valor_com_deposito"] = g["valor"].sum()
-    out["defasagem_mediana"] = g["defasagem_dias"].median()
-    out["defasagem_p25"] = g["defasagem_dias"].quantile(0.25)
-    out["defasagem_p75"] = g["defasagem_dias"].quantile(0.75)
-    out["defasagem_negativa"] = k[k["defasagem_dias"] < 0].groupby("ano").size()
-    out = out.fillna({"termos_com_deposito": 0, "defasagem_negativa": 0}).reset_index()
-    sem = a[~a["did"].isin(k["did"])]
+    out["termos_deposito_integral"] = k[k["deposito_integral"]].groupby("ano")["termo_id"].nunique()
+    out["valor_depositado_localizado"] = g["valor_depositado"].sum()
+    out["pct_valor_localizado"] = out["valor_depositado_localizado"] / out["valor_termos"]
+    out["defasagem_mediana"] = g["defasagem_primeiro"].median()
+    out["defasagem_p25"] = g["defasagem_primeiro"].quantile(0.25)
+    out["defasagem_p75"] = g["defasagem_primeiro"].quantile(0.75)
+    out = out.fillna({"termos_com_deposito": 0, "termos_deposito_integral": 0}).reset_index()
+    sem = a[~a["did"].isin(usados_d)]
     out = pd.concat([out, pd.DataFrame([{"ano": f"depósitos sem termo no Portal, publicados em {ano}", "termos": n}
                                         for ano, n in sem["data_dio"].str[:4].value_counts().sort_index().items()])])
     out["fonte"] = ("DIO-ES, avisos de depósito de patrocínio (dados/externos/dio_licc_trechos.csv); Portal da "
                     "Transparência (dados/processados/transparencia_licc_termos.csv)")
-    return out
+    return out, k
 
 
 def main() -> None:
     dep = depositos()
     dep.to_csv(PROC / "dio_avisos_deposito.csv", index=False)
-    dp = deposito_x_portal(dep)
+    dp, lig = deposito_x_portal(dep)
     dp.to_csv(TAB / "18_deposito_x_portal.csv", index=False)
+    lig.to_csv(PROC / "dio_deposito_x_termo.csv", index=False)
     print(dp.drop(columns=["fonte"]).to_string(index=False))
     a = avisos()
     a.to_csv(PROC / "dio_avisos_habilitacao.csv", index=False)

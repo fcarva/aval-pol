@@ -3,7 +3,7 @@
 **Contra-argumento mais forte.** A proposta chama H5 de "a mais importante e a mais difícil". Mas nenhum dos desenhos
 de H5 detecta um efeito plausível com os dados que existem:
 - a margem do racionamento detecta de 28 a 34 pontos;
-- a leitura por VI detecta de 69 a 85 pontos.
+- a leitura por VI detecta de 69 a 84 pontos.
 
 E o único desenho de H4 que o texto prefere, só com coletivos, não atende à regra mínima de conglomerados do próprio
 material da disciplina. A proposta corre o risco de parecer mais pronta do que é.

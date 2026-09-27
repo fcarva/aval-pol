@@ -39,13 +39,13 @@ todos os agentes atende.
 Regra dos slides (s. 32): "cumprimento parcial ou atrito exigem amostra maior". O texto anuncia dois efeitos locais,
 mas a Tabela 2 só mostra a forma reduzida:
 - **H5, receber em algum momento.** A recusa é o instrumento, e o primeiro estágio é de 13/32 = 0,406. O EMD do efeito
-  local é o da forma reduzida dividido por 0,406: **de 69 a 85 pontos**. Com uma amostra de 64 projetos, essa leitura
+  local é o da forma reduzida dividido por 0,406: **de 69 a 84 pontos**. Com uma amostra de 64 projetos, essa leitura
   não é informativa. Se a LAI trouxer os recusados de 2025 e 2026 e isso dobrar a margem (cenário), o EMD de receber
   agora cai para 20 a 24 pontos.
 - **H4, efeito para quem adere.** Divide-se o EMD pela adesão. Com todos os agentes e adesão de 25%, fica de 11 a 34
   pontos; com adesão de 50%, de 5,6 a 17.
 
-**Pedido:** uma oração na §5.4 com o EMD do efeito local de H5, de 69 a 85 pontos, e a regra de H4 (dividir pela
+**Pedido:** uma oração na §5.4 com o EMD do efeito local de H5, de 69 a 84 pontos, e a regra de H4 (dividir pela
 adesão). O parágrafo final da §5.4 já diz que a margem "só detecta efeitos muito grandes". Falta dizer que a leitura
 por VI detecta ainda menos e que o cenário com LAI é o que torna H5 testável.
 
@@ -64,11 +64,13 @@ entre os primeiros e os últimos da fila. Isso também responde ao DA5.
 ## M4. Data do tratamento: avisos de depósito (sugerido)
 
 Os avisos de depósito do Diário Oficial dão a data em que o patrocínio entrou:
-- 386 depósitos de 2022 a 2026;
-- casam com 20 dos 48 termos do Portal em 2022 e com 78 dos 96 em 2025;
-- mediana de 30 a 48 dias depois da "data do processo".
+- 386 depósitos de 2022 a 2026, um aviso por parcela (metade, um terço, um quarto do termo);
+- pelo menos um depósito localizado para 267 dos 325 termos do Portal (82%; 77% do valor);
+- mediana de 32 a 48 dias entre a "data do processo" e o primeiro depósito;
+- pela Portaria Conjunta SEFAZ/SECULT nº 01-R/2022, arts. 5º e 6º, o crédito só é apropriado depois do aviso, que
+  valida o repasse.
 
-A janela fixa do resultado de H5 pode começar no depósito, e não na validação. Os 69 depósitos de 2026 antecipam o
+A janela fixa do resultado de H5 pode começar no depósito, e não na validação. Os 65 depósitos de 2026 sem termo no Portal antecipam o
 ano que o Portal ainda não lista. No Quadro 4, "data de cada repasse" passa a ter cobertura declarada.
 
 ## M5. Chave de ligação (obrigatório; coincide com R3 P1)

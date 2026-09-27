@@ -428,8 +428,8 @@ CHECAGENS += [
     ("N22", "293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes",
      f"{N1_07 + N0_07} projetos habilitados em 2022-2024 com situação resolvida, de {H1B_NOTA.split(' proponentes')[0].split('; ')[-1]}",
      T7 + "poder_hipoteses.csv (nota)"),
-    ("N24", "| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
-     f"{int(PROJ_REC.sum())} recusados × {int(PROJ_REC.sum())} validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | "
+    ("N24", "| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
+     f"{int(PROJ_REC.sum())} recusados × {int(PROJ_REC.sum())} validados | $p_0$ de 0,2 a 0,6 | "
      + faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv"),
     ("N25", "| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |",
      linha_h3("coletivos") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos"), T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
@@ -455,7 +455,7 @@ CHECAGENS += [
      f"há {int(quadro_h3.loc['coletivos', 'N'])} coletivos em {int(quadro_h3.loc['coletivos', 'J'])} municípios e "
      f"{milhar(quadro_h3.loc['coletivos e individuais', 'N'])} agentes, somados os individuais, nos {int(quadro_h3.loc['coletivos e individuais', 'J'])}",
      T7 + "mapa_quadro_h3.csv"),
-    ("N40", "só com os coletivos, o efeito mínimo passa de 5 pontos",
+    ("N40", "são 26 por grupo, e o efeito mínimo passa de 5 pontos",
      f"passa de {int(poder07[poder07.unidade == 'município (coletivos)']['emd_pontos'].min() * 100)} pontos", T7 + "poder_hipoteses.csv"),
     ("N42", "com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)",
      f"de {pct(1 - reent['captaram_ate_2026'].sum() / reent['projetos_recusados'].sum())} "
@@ -473,9 +473,9 @@ CHECAGENS += [
      f"{pct(min(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))} e {pct(max(fx(c, 'exatamente 500 mil') for c in (2022, 2023, 2024)))}",
      T + "03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao)"),
     # revisão de 27/09/2026 (nova moldura): taxa de serviço, tetos das rubricas e poder do experimento conjunto
-    ("N48", "| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |",
+    ("N48", "| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |",
      f"{int(cj30.respondentes.iloc[0])} a {int(cj60.respondentes.iloc[0])} decisores × {int(cj60.tarefas.iloc[0])} tarefas "
-     f"({milhar(cj30.perfis.iloc[0])} a {milhar(cj60.perfis.iloc[0])} perfis) | $p_0$ = 0,5; "
+     f"| $p_0$ = 0,5; "
      f"ρ = 0 ou 0,1 no decisor | {num(cj60.emd_pontos.min(), 1)} a {num(cj30.emd_pontos.max(), 1)}", T + "10_poder_conjoint.csv (30 e 60 × 12)"),
     ("N49", "O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",
      f"diferenças de {num(cj60.emd_pontos.min())} a {num(cj60.emd_pontos.max())} pontos na probabilidade de escolha com 60 decisores, "
@@ -528,6 +528,49 @@ CHECAGENS += [
      f"{int(conc16.loc['2022-2025', 'proponentes_em_mais_de_um_ano'])} de {int(conc16.loc['2022-2025', 'proponentes_cnpj'])} "
      f"proponentes voltaram a captar ("
      f"{pct(conc16.loc['2022-2025', 'valor_de_quem_captou_em_mais_de_um_ano'])} do valor)", T + "16_concentracao_proponentes.csv"),
+]
+
+# revisão r4 (27/09/2026): avisos do Diário Oficial (analise/18) e poder refeito (analise/19)
+_cob18 = ler(TAB / "18_cobertura_cnpj.csv").set_index("ciclo")
+_dep18 = ler(TAB / "18_deposito_x_portal.csv")
+_dep18 = _dep18[_dep18["ano"].astype(str).str.fullmatch(r"\d{4}")]
+_p19 = ler(TAB / "19_poder_revisao.csv")
+_q3 = ler(TAB / "07_mapa_quadro_h3.csv").set_index("quadro")
+_ev = pd.read_csv(EXT / "mapa_eventos_licc.csv")
+_rec16 = ler(TAB / "16_data_processo_x_recebimento_2025.csv").dropna(subset=["dias_depois_do_recebimento"])
+
+
+def _faixa(mask, casas: int = 0) -> str:
+    v = _p19.loc[mask, "emd_pontos"]
+    return f"{num(v.min(), casas)} a {num(v.max(), casas)}"
+
+
+_h5 = _p19["hipotese"].eq("H5")
+_todos = _p19["quadro"].eq("coletivos e individuais")
+_primeiro = float(_p19.loc[_h5 & _p19["desenho"].str.contains("algum momento"), "desenho"].iloc[0]
+                  .split("estágio ")[1].rstrip(")"))
+_J = int(_q3.loc["coletivos e individuais", "J"])
+CHECAGENS += [
+    ("N65", "juntas, cobrem 385 dos 463 habilitados (83%)",
+     f"cobrem {int(_cob18.loc['todos', 'cnpj_em_alguma_fonte'])} dos {int(_cob18.loc['todos', 'habilitados'])} habilitados "
+     f"({pct(_cob18.loc['todos', 'pct_em_alguma_fonte'])})", T + "18_cobertura_cnpj.csv"),
+    ("N66", "data de cada depósito (82% dos termos de 2022-2025)",
+     f"({pct(_dep18['termos_com_deposito'].sum() / _dep18['termos'].sum())} dos termos de "
+     f"{_dep18['ano'].astype(int).min()}-{_dep18['ano'].astype(int).max()})", T + "18_deposito_x_portal.csv"),
+    ("N67", "eventos datados de 18 projetos",
+     f"eventos datados de {_ev.loc[_ev['ocorrencias'] > 0, 'numero_processo'].nunique()} projetos",
+     "dados/externos/mapa_eventos_licc.csv"),
+    ("N68", "o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos",
+     f"primeiro estágio ({num(_primeiro, 2)}) e vai a {_faixa(_h5 & _p19['desenho'].str.contains('algum momento'))} pontos",
+     T + "19_poder_revisao.csv"),
+    ("N69", "o EMD de receber agora cai para 20 a 24 pontos",
+     f"cai para {_faixa(_h5 & _p19['desenho'].str.contains('2025-2026'))} pontos", T + "19_poder_revisao.csv"),
+    ("N70", "são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",
+     f"são {_J // 2} ou {-(-_J // 2)} municípios em cada, e a diferença entre os braços tem EMD de "
+     f"{_faixa(_todos & _p19['desenho'].str.startswith('c)'), 1)} pontos", T + "19_poder_revisao.csv; 07_mapa_quadro_h3.csv"),
+    ("N71", "Só com os coletivos, são 26 por grupo",
+     f"são {int(_q3.loc['coletivos', 'J']) // 2} por grupo", T + "07_mapa_quadro_h3.csv"),
+    ("N72", "sorteada entre os 71 municípios do interior", f"entre os {_J} municípios", T + "07_mapa_quadro_h3.csv"),
 ]
 
 

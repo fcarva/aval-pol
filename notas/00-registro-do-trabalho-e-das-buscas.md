@@ -178,7 +178,7 @@ pedido, porque traz uma data que ordena a fila.
 ## 6. Pendências
 
 - ~~Analisar os 1.026 trechos do Diário Oficial~~: feito para os avisos de habilitação (CNPJ de 83% dos habilitados, com o Portal) e de depósito (386 depósitos datados), em `analise/18_dio_avisos_habilitacao.py`. Faltam as portarias do teto e as designações da comissão.
-- Revisão da rodada 4 (painel ARS completo, poder refeito em `analise/19_poder_revisao.py`): `artigo/auditoria/revisao-stage3-r4/`; os itens RV4-1 a RV4-4 aguardam a decisão do autor.
+- Revisão da rodada 4 (painel ARS completo, poder refeito em `analise/19_poder_revisao.py`): `artigo/auditoria/revisao-stage3-r4/`; RV4-1 a RV4-4 aplicados (ver `07-decisao-editorial.md`, Aplicação). Auditoria de lacunas e do pipeline em `08-auditoria-lacunas-e-pipeline.md`: todos os scripts rodados de novo; chave do proponente e capital social corrigidos.
 - Obter as transcrições do YouTube localmente (`yt-dlp` com cookies do navegador) ou pela opção "Mostrar
   transcrição".
 - Enviar os pedidos de LAI; o material serve para a 2ª parte da disciplina.

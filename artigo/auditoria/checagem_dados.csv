@@ -27,7 +27,7 @@ N19,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv
 N20,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88"
 N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% do índice de Theil
 N22,CONFERE,"293 projetos habilitados em 2022-2024 com situação resolvida, de 172",analise/tabelas/07_poder_hipoteses.csv (nota),"293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes"
-N24,CONFERE,"32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34",analise/tabelas/07_poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv,"| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |"
+N24,CONFERE,"32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34",analise/tabelas/07_poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv,"| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34 |"
 N25,CONFERE,"52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |"
 N26,CONFERE,"71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |"
 N27,CONFERE,(3 em 56,analise/tabelas/07_funil_por_ciclo.csv,(3 em 56 resolvidos no ciclo 2025)
@@ -37,13 +37,13 @@ N34,CONFERE,até 28/01,analise/tabelas/09_cotas_2025_2026.csv,"em 2025, a cota d
 N36,CONFERE,restam 14 municípios,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,e restam 14 municípios do interior sem projeto
 N38,CONFERE,79% dos coletivos e 78% dos individuais,analise/tabelas/07_mapa_agentes_cobertura.csv,79% dos coletivos e 78% dos individuais não informam município
 N39,CONFERE,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71",analise/tabelas/07_mapa_quadro_h3.csv,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71"
-N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"só com os coletivos, o efeito mínimo passa de 5 pontos"
+N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"são 26 por grupo, e o efeito mínimo passa de 5 pontos"
 N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)
 N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
 N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor
 N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano
 N46,CONFERE,"caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao),"a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%"
-N48,CONFERE,"30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |"
+N48,CONFERE,"30 a 60 decisores × 12 tarefas | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |"
 N49,CONFERE,"diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30"
 N50,CONFERE,"somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões",analise/tabelas/10_taxa_servico_permitida_2025.csv,"os dois primeiros limites somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões"
 N51,CONFERE,Até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Até 13% do valor captado em 2025 poderia remunerar captação e elaboração
@@ -59,3 +59,11 @@ N59,CONFERE,"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil",analise/t
 N64,CONFERE,"8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição","dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt (SECULT, Boletim 2T2020)","8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição"
 N61,CONFERE,48 pares patrocinador–proponente se repetem (44% do valor),analise/tabelas/16_pares_recorrentes.csv; dados/processados/transparencia_licc_termos.csv,48 pares patrocinador–proponente se repetem (44% do valor)
 N62,CONFERE,44 de 107 proponentes voltaram a captar (68% do valor),analise/tabelas/16_concentracao_proponentes.csv,44 de 107 proponentes voltaram a captar (68% do valor)
+N65,CONFERE,cobrem 385 dos 463 habilitados (83%),analise/tabelas/18_cobertura_cnpj.csv,"juntas, cobrem 385 dos 463 habilitados (83%)"
+N66,CONFERE,(82% dos termos de 2022-2025),analise/tabelas/18_deposito_x_portal.csv,data de cada depósito (82% dos termos de 2022-2025)
+N67,CONFERE,eventos datados de 18 projetos,dados/externos/mapa_eventos_licc.csv,eventos datados de 18 projetos
+N68,CONFERE,"primeiro estágio (0,41) e vai a 69 a 84 pontos",analise/tabelas/19_poder_revisao.csv,"o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos"
+N69,CONFERE,cai para 20 a 24 pontos,analise/tabelas/19_poder_revisao.csv,o EMD de receber agora cai para 20 a 24 pontos
+N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
+N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"
+N72,CONFERE,entre os 71 municípios,analise/tabelas/07_mapa_quadro_h3.csv,sorteada entre os 71 municípios do interior
