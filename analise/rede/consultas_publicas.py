@@ -178,6 +178,11 @@ def consultar_mapa() -> None:
                             "area_atuacao": "; ".join((a.get("terms") or {}).get("area") or []),
                             "municipio": a.get("En_Municipio"),
                             "criado": ((a.get("createTimestamp") or {}).get("date") or "")[:10]})
+    # nome de agente individual pode trazer CPF (MEI): mascarado antes de gravar
+    sys.path.insert(0, str(RAIZ / "analise" / "rede"))
+    from mascarar_cpf import mascarar
+    for c in casados:
+        c["nome"] = mascarar(str(c["nome"] or ""))[0]
     pd.DataFrame(casados).to_csv(EXT / "mapa_agentes_proponentes.csv", index=False)
     resumo.append({"entidade": "agent", "lidos": lidos, "casados": len(casados),
                    "chaves_de_proponente": len(prop), "proponentes_casados": len({c["chave"] for c in casados})})
