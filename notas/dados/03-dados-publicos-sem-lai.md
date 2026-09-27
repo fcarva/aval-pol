@@ -57,8 +57,14 @@ Não há ainda planilha de 2026.
 | 2025 | 96 (+1 com valor zero) | R\$ 25.000.000,00 | R\$ 25.000.000,00 | 93 de 95 |
 
 - 2023-2025 fecham ao centavo.
-- Em 2022 o Portal soma R\$ 146.910,22 a mais que o anexo da SECULT. A renúncia realizada informada pela SEFAZ é a do
-  Portal (R\$ 11,686 mi, seção 3). Qual das duas listas está incompleta é indeterminado.
+- Em 2022 o Portal soma R\$ 146.910,22 a mais que o anexo da SECULT, e a diferença se explica toda:
+  - um termo de R\$ 150.000,00 (processo 2022-RWW2K, festival de jazz, patrocinador sociedade anônima) está no
+    Portal e não no anexo;
+  - três valores divergem por digitação: R\$ 311.332,22 × 311.332,00; R\$ 314.563,15 × 314.653,15; R\$ 465.965,00 ×
+    468.965,00.
+
+  A renúncia realizada informada pela SEFAZ é a do Portal (R\$ 11,686 mi, seção 3). Qual digitação está certa é
+  indeterminado.
 - **100% dos 204 processos** do Portal estão na lista de habilitados: o CNPJ do proponente passa a existir para todo
   projeto que captou em 2022-2025.
 - CNPJ do proponente: 107 distintos com dígito verificador válido. Seis termos de 2024 (R\$ 751 mil, um proponente)
