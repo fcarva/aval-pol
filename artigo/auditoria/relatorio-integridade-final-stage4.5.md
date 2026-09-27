@@ -82,3 +82,23 @@
   https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf) traz "porte da empresa", "data de início da
   atividade", "CNAE fiscal principal" e "município".
 - A LC 187/2021 não foi coletada (erro no Planalto) e não entra no artigo.
+
+## Adendo de 27/09/2026 (noite): nova moldura das hipóteses
+
+- **O que mudou:** H1 marketing, H2 centralização, H3 taxa de serviço, H4 exclusão e H5 entrega. Motivo e fontes em
+  `notas/desenho/06-poder-de-mercado-e-bens-publicos.md`. Resposta à revisão colada em
+  `revisao-stage3-r3/00-origem-e-resposta.md`.
+- **Fatos de norma novos, conferidos no texto das normas** (`analise/10_poder_mercado_rubricas.py` confere cada
+  trecho):
+  - patrocinador é pessoa jurídica contribuinte do ICMS;
+  - as empresas do Simples Nacional não emitem carta de intenção (IN 001/2026, art. 40, § 3º);
+  - captação até 10%/R\$ 50 mil e elaboração até 5%/R\$ 15 mil (2023-2025);
+  - em 2026, despesa única de até 10%, que pode ser paga ao proponente;
+  - divulgação até 25%, limite novo em 2025;
+  - marca no objeto (art. 64).
+- **Números novos:** checagens N48-N56, todas conferem (57/57).
+- **Referências:**
+  - entraram Hainmueller *et al.* (2014, DOI conferido) e Ogava *et al.* (2022, Enap; trecho da p. 15 conferido no
+    PDF coletado pelo relé);
+  - saíram Bradbury (2020), Teixeira, Xavier e Faria (2024) e Guimarães (2020).
+- **Formato:** 15 páginas; nenhum glifo ausente; nenhuma linha estourada.

@@ -65,6 +65,15 @@ def fx(ciclo: int, faixa_valor: str) -> float:
 # auditoria independente da captação (artigo/auditoria/auditar_captacao.py): somas termo a termo nos anexos oficiais
 aud = pd.read_csv(Path(__file__).with_name("auditoria_captacao_anual.csv")).set_index("ano_captacao")
 aud25 = aud.loc[2025]
+cj = ler(TAB / "10_poder_conjoint.csv")
+cj60 = cj[(cj.respondentes == 60) & (cj.tarefas == 12)]
+taxa25 = ler(TAB / "10_taxa_servico_permitida_2025.csv").iloc[0]
+rub = ler(TAB / "10_rubricas_teto_in.csv")
+par = pd.read_csv(TAB / "10_pareceristas_por_area.csv", dtype={"tabela_area": str}).set_index("tabela_area")
+
+
+def rub25(chave: str) -> pd.Series:
+    return rub[(rub.ano_in == 2025) & rub.rubrica.str.startswith(chave)].iloc[0]
 coorte = ler(TAB / "03_coortes_primeira_presenca_canonico.csv").set_index("primeiro_ciclo")
 f13m = ler(TAB / "03e_f13_municipal_rmgv_interior.csv")
 d1 = ler(TAB / "05_poder_d1_proponente.csv")
@@ -215,10 +224,9 @@ CHECAGENS = [
      f"{pct(munic.loc[('cinema', 'RMGV'), 'pct_pop_em_mun_com_sim'])} da população da Região Metropolitana da Grande Vitória (RMGV) "
      f"vivia em município com cinema, contra {pct(munic.loc[('cinema', 'Interior'), 'pct_pop_em_mun_com_sim'])}",
      "dados/externos/munic2021_cultura_es_resumo.csv"),
-    ("D10", "metade dos municípios do interior não tinha fundo municipal de cultura e só 16% tinham plano municipal",
+    ("D10", "metade dos municípios do interior não tinha fundo municipal de cultura",
      ("metade" if abs(munic.loc[("fundo_municipal_cultura", "Interior"), "pct_mun_sim_sobre_validos"] - 0.5) < 0.01 else "?")
-     + f" dos municípios do interior não tinha fundo municipal de cultura e só "
-       f"{pct(munic.loc[('plano_municipal_cultura', 'Interior'), 'pct_mun_sim_sobre_validos'])}",
+     + " dos municípios do interior não tinha fundo municipal de cultura",
      "dados/externos/munic2021_cultura_es_resumo.csv"),
     ("D11", "a renúncia efetiva equivale a 14% a 21% do gasto estadual direto", f"{pct(min(F13_EF))} a {pct(max(F13_EF))}",
      T + "03f_captacao_anual_secult.csv (validado_sobre_f13_estado, 2022-2025)"),
@@ -366,7 +374,7 @@ CHECAGENS = [
 T7 = T + "07_"
 CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D07", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
 CHECAGENS += [
-    ("N02", "Entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
+    ("N02", "entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
     ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
      f"{milhar(mapa07.loc['todos', 'agentes'])} ({milhar(mapa07.loc['coletivo (type=2)', 'agentes'])})", T7 + "mapa_cultural_universo.csv"),
     ("N04", "68% dos habilitados de 2022-2024 com situação resolvida captaram", pct(N1_07 / (N1_07 + N0_07)), T7 + "funil_por_ciclo.csv"),
@@ -379,17 +387,12 @@ CHECAGENS += [
     ("N08", "| Valor com patrocinador que coube no teto | 78%; 74% |",
      f"{pct(1 / cap07.loc[2023, 'demanda_com_patrocinador_sobre_montante'])}; {pct(1 / cap07.loc[2024, 'demanda_com_patrocinador_sobre_montante'])}",
      T7 + "funil_captacao_anual.csv"),
-    ("N09", "Estreantes: 56 no ciclo 2024, 26 em 2025, 40 em 2026",
-     f"{int(comp07.loc[2024, 'estreantes_janela_2'])} no ciclo 2024, {int(comp07.loc[2025, 'estreantes_janela_2'])} em 2025, {int(comp07.loc[2026, 'estreantes_janela_2'])} em 2026",
-     T7 + "composicao_por_ciclo.csv"),
     ("N10", "14 municípios do interior nunca tiveram projeto habilitado", str(int(coorte.loc["nunca (2022-2026)", "municipios"])),
      T + "03_coortes_primeira_presenca_canonico.csv"),
-    ("N11", "Os 95 que expiraram", f"Os {N0_07} que", T7 + "funil_por_ciclo.csv"),
+    ("N11", "a comparação dos 95 que expiraram", f"dos {N0_07} que", T7 + "funil_por_ciclo.csv"),
     ("N12", "Duas empresas somam metade da renúncia de 2025; energia e gás, 52%",
      f"{ {2: 'Duas'}.get(int(float(patr['empresas_para_metade'])), '?')} empresas somam metade da renúncia de 2025; energia e gás, "
      f"{pct(macro.loc['Energia e gás (serviço regulado)', 'share'])}", T + "03_patrocinadores_concentracao.csv; 03_patrocinadores_macrossetor.csv"),
-    ("N13", "Captação de 68% dos habilitados na RMGV e 63% no interior",
-     f"{pct(conv_ter.loc['RMGV', 'taxa_execucao'])} dos habilitados na RMGV e {pct(conv_ter.loc['Interior', 'taxa_execucao'])}", T + "03_status_conversao_rmgv_interior_2022_2024.csv"),
     ("N14", "Recorrentes captam mais (71% contra 57%)",
      f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'recorrente')].taxa_execucao.iloc[0]))} contra "
      f"{pct(float(rec[(rec.ciclo == '2023-2024') & (rec.proponente == 'estreante')].taxa_execucao.iloc[0]))}", T + "03_status_conversao_recorrencia_2023_2024.csv"),
@@ -401,31 +404,24 @@ CHECAGENS += [
     ("N17", "Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86% da renúncia",
      f"Das {ROU_T} empresas que patrocinaram em 2025, {ROU_N} também aparecem como incentivadoras da Lei Rouanet, e elas responderam por {pct(ROU_SH)}",
      T7 + "patrocinadores_na_rouanet.csv"),
-    ("N18", "caiu de 74% (ciclo 2024) para 57% (2025)",
-     f"{pct(comp07.loc[2024, 'pct_valor_rmgv_atribuivel'])} (ciclo 2024) para {pct(comp07.loc[2025, 'pct_valor_rmgv_atribuivel'])}", T7 + "composicao_por_ciclo.csv"),
     ("N19", "A RMGV tem 49% da população e fica com 67% do valor atribuível a um município em 2022-2026",
      f"{pct(rmgv.loc['RMGV', 'share_pop_censo2022'])} da população e fica com {pct(rmgv.loc['RMGV', 'share_autorizado_atribuivel'])}",
      T + "03_territorio_rmgv_interior.csv"),
     ("N20", "O Gini do valor entre os 78 municípios é 0,88", num(float(terr["gini_valor_78"]), 2), T + "03_territorio_indicadores.csv"),
     ("N21", "explica só 7% da desigualdade", pct(float(terr["pct_theil_entre_grupos"])), T + "03_territorio_indicadores.csv"),
-    ("N22", "São 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes",
+    ("N22", "293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes",
      f"{N1_07 + N0_07} projetos habilitados em 2022-2024 com situação resolvida, de {H1B_NOTA.split(' proponentes')[0].split('; ')[-1]}",
      T7 + "poder_hipoteses.csv (nota)"),
-    ("N23", "| H1b: captou × expirou, 2022-2024 | 293 projetos (*T* = 0,68), 172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75) | $p_0$ de 0,2 a 0,6; ρ = 0 ou 0,2 | 14 a 20 |",
-     faixa_emd("captou × expirou, 2022-2024 (observacional)"), T7 + "poder_hipoteses.csv"),
-    ("N24", "| H1b: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
+    ("N24", "| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
      f"{int(PROJ_REC.sum())} recusados × {int(PROJ_REC.sum())} validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | "
      + faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv"),
-    ("N25", "| H3: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |",
+    ("N25", "| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |",
      linha_h3("coletivos") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos"), T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
-    ("N26", "| H3: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |",
+    ("N26", "| H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |",
      linha_h3("coletivos e individuais") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos e individuais"),
      T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
     ("N27", "(3 em 56 resolvidos no ciclo 2025)",
      f"({int(fun07.loc[2025, 'expirou'])} em {int(fun07.loc[2025, 'captou'] + fun07.loc[2025, 'expirou'])}", T7 + "funil_por_ciclo.csv"),
-    ("N29", "172 proponentes ($\\bar m$ = 1,70; *cv* = 0,75)",
-     f"$\\bar m$ = {num(float(poder07[poder07.desenho.str.startswith('captou')]['m'].iloc[0]), 2)}; *cv* = "
-     f"{num(float(H1B_NOTA.split('cv = ')[1].split(';')[0]), 2)}", T7 + "poder_hipoteses.csv (m; nota)"),
     ("N30", "Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte",
      f"{int(reent.loc[2023, 'captaram_no_ano_seguinte'])} dos {int(reent.loc[2023, 'projetos_recusados'])} recusados em 2023 e "
      f"{int(reent.loc[2024, 'captaram_no_ano_seguinte'])} dos {int(reent.loc[2024, 'projetos_recusados'])} recusados em 2024",
@@ -433,15 +429,8 @@ CHECAGENS += [
     ("N31", "os de 32 projetos recusados em 2023 e 2024", f"os de {int(PROJ_REC.sum())} projetos", "dados/processados/indeferidos_2023_2024.csv"),
     ("N34", "em 2025, a cota de 50% se completou com termos recebidos até 28/01",
      f"até {cota_completa(2025, 4, curto=True)}", T + "09_cotas_2025_2026.csv"),
-    ("N35", "caiu de 59% no ciclo 2024 para 46% em 2025 e voltou a 55% em 2026",
-     f"caiu de {pct(1 - comp07.loc[2024, 'pct_proponentes_em_t_1_ou_t_2'])} no ciclo 2024 para "
-     f"{pct(1 - comp07.loc[2025, 'pct_proponentes_em_t_1_ou_t_2'])} em 2025 e voltou a {pct(1 - comp07.loc[2026, 'pct_proponentes_em_t_1_ou_t_2'])}",
-     T7 + "composicao_por_ciclo.csv (1 - pct_proponentes_em_t_1_ou_t_2)"),
     ("N36", "e restam 14 municípios do interior sem projeto", f"restam {int(coorte.loc['nunca (2022-2026)', 'municipios'])} municípios",
      T + "03_coortes_primeira_presenca_canonico.csv"),
-    ("N37", "83% contra 52% dos que pediram até R\\$ 200 mil, em 2022-2024",
-     f"{pct(faixa_val.loc['exatamente 500 mil', 'taxa_execucao'])} contra {pct(faixa_val.loc['até 200 mil', 'taxa_execucao'])}",
-     T + "03_status_conversao_por_faixa_valor_2022_2024.csv"),
     ("N38", "79% dos coletivos e 78% dos individuais não informam município",
      f"{pct(mapacob.loc['coletivos', 'sem_municipio'] / mapacob.loc['coletivos', 'cadastrados'])} dos coletivos e "
      f"{pct(mapacob.loc['individuais', 'sem_municipio'] / mapacob.loc['individuais', 'cadastrados'])} dos individuais",
@@ -475,6 +464,30 @@ CHECAGENS += [
     ("N47", "e a de 30%, até 20 de maio, com um projeto ainda em análise",
      f"com { {1: 'um projeto'}.get(int(aud25['projetos_em_analise']), '?')} ainda em análise",
      "artigo/auditoria/auditoria_captacao_anual.csv; anexo de 2025, cota I"),
+    # revisão de 27/09/2026 (nova moldura): taxa de serviço, tetos das rubricas e poder do experimento conjunto
+    ("N48", "| H1: experimento conjunto | 60 decisores × 12 tarefas (1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 13,4 |",
+     f"{int(cj60.respondentes.iloc[0])} decisores × {int(cj60.tarefas.iloc[0])} tarefas ({milhar(cj60.perfis.iloc[0])} perfis) | $p_0$ = 0,5; "
+     f"ρ = 0 ou 0,1 no decisor | {num(cj60.emd_pontos.min(), 1)} a {num(cj60.emd_pontos.max(), 1)}", T + "10_poder_conjoint.csv (60 × 12)"),
+    ("N49", "O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores",
+     f"diferenças de {num(cj60.emd_pontos.min())} a {num(cj60.emd_pontos.max())} pontos", T + "10_poder_conjoint.csv (60 × 12)"),
+    ("N50", "os dois primeiros limites somam R\\$ 3,36 milhões, 13% dos R\\$ 25 milhões",
+     f"somam R\\$ {num(float(taxa25.max_taxa_servico) / 1e6, 2)} milhões, {pct(float(taxa25.max_taxa_servico_sobre_captado))} dos R\\$ "
+     f"{num(float(taxa25.valor_captado) / 1e6)} milhões", T + "10_taxa_servico_permitida_2025.csv"),
+    ("N51", "Até 13% do valor captado em 2025 poderia remunerar captação e elaboração",
+     f"Até {pct(float(taxa25.max_taxa_servico_sobre_captado))}", T + "10_taxa_servico_permitida_2025.csv"),
+    ("N52", "Captação e elaboração poderiam levar até 13% do valor captado em 2025",
+     f"até {pct(float(taxa25.max_taxa_servico_sobre_captado))}", T + "10_taxa_servico_permitida_2025.csv"),
+    ("N53", "A captação pode custar até 10% (R\\$ 50 mil) e a elaboração do projeto até 5% (R\\$ 15 mil)",
+     f"até {num(rub25('captação').limite_pct)}% (R\\$ {num(rub25('captação').teto_reais / 1e3)} mil) e a elaboração do projeto até "
+     f"{num(rub25('elaboração').limite_pct)}% (R\\$ {num(rub25('elaboração').teto_reais / 1e3)} mil)", T + "10_rubricas_teto_in.csv (2025)"),
+    ("N54", "a divulgação pode consumir até 25% dos recursos",
+     f"até {num(rub25('divulgação').limite_pct)}%", T + "10_rubricas_teto_in.csv (2025)"),
+    ("N56", "são 41 pareceristas credenciados, de 4 a 20 por área",
+     f"são {int(par.loc['distintos (todas as áreas)', 'pareceristas'])} pareceristas credenciados, de "
+     f"{int(par.drop('distintos (todas as áreas)').pareceristas.min())} a {int(par.drop('distintos (todas as áreas)').pareceristas.max())} por área",
+     T + "10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026)"),
+    ("N55", "a listagem parte das 26 patrocinadoras de 2025", f"das {int(float(patr['empresas']))} patrocinadoras",
+     T + "03_patrocinadores_concentracao.csv"),
 ]
 
 

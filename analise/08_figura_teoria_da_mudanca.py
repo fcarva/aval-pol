@@ -61,7 +61,7 @@ CAIXAS = {
     "ins": [("ins", None, "Teto anual de renúncia de ICMS (imposto que a população deixa de arrecadar) · "
              "SECULT, pareceristas, CAP e SEFAZ · Mapa Cultural", None)],
     "ent": [("a1", "A1 · Inscrição no edital", "on-line, com CNPJ e documentos", "agente cultural"),
-            ("a2", "A2 · Parecer e CAP", "parecer técnico e mérito, resultado binário", "SECULT e CAP")],
+            ("a2", "A2 · Parecer e CAP", "parecer sem nota; a CAP habilita ou não", "SECULT e CAP")],
     "ofe": [("p1", "P1 · Cardápio de projetos habilitados", "autorização para captar por um ano", None)],
     "fin": [("a3", "A3 · Escolha e termo", "a empresa escolhe e compromete o ICMS", "empresa"),
             ("a4", "A4 · Validação no teto", "termos validados até esgotar a cota", "SEFAZ")],
@@ -76,14 +76,14 @@ CAIXAS = {
 # Setas: (origem, destino, tracejada, marcador)
 SETAS = [
     ("prob", "ins", False, None),
-    ("ins", "a1", True, "H3"),
+    ("ins", "a1", True, "H4"),
     ("a1", "a2", True, None),
-    ("a2", "p1", False, "H2a"),
-    ("p1", "a3", False, "H1a"),
+    ("a2", "p1", False, "H2"),
+    ("p1", "a3", False, "H1"),
     ("a3", "a4", False, None),
-    ("a4", "p2", False, "H2b"),
-    ("p2", "p3", False, None),
-    ("p3", "ri1", True, "H1b"),
+    ("a4", "p2", False, None),
+    ("p2", "p3", False, "H3"),
+    ("p3", "ri1", True, "H5"),
     ("p3", "ri2", False, None),
     ("ri1", "rf", False, None),
     ("ri2", "rf", False, None),
@@ -91,16 +91,16 @@ SETAS = [
 
 # Cartões das premissas: (marcador, título, texto)
 PREMISSAS = [
-    ("H3", "Atrito na entrada",
-     "Quem tem projeto de valor público consegue se inscrever (CNPJ, documentos, patrocinador)?"),
-    ("H2a", "Qualifica, não prioriza",
-     "O parecer decide se o projeto entra; entre os habilitados, quem recebe depende da empresa e da fila."),
-    ("H1a", "Escolha da empresa",
-     "A empresa escolhe por marca e visibilidade, e não por interesse público?"),
-    ("H2b", "Racionamento no teto",
-     "Termos com patrocinador recusados ao esgotar o teto; em 2025, a cota de 50% fechou em 28/01."),
-    ("H1b", "Adicionalidade",
-     "O projeto financiado aconteceria sem a LICC? E chega ao público?"),
+    ("H4", "Exclusão na entrada",
+     "Quem não chega a grandes contribuintes (projeto pequeno, interior, estreante) consegue entrar e captar?"),
+    ("H2", "Decisão centralizada",
+     "O parecer só qualifica; entre os habilitados, decidem a empresa e a fila dos termos. O público não escolhe."),
+    ("H1", "Marketing",
+     "A empresa escolhe pelo valor público do projeto ou pela marca que expõe sem custo?"),
+    ("H3", "Taxa de serviço",
+     "Quanto do recurso fica com captação, elaboração e divulgação (até 10%, 5% e 25%)?"),
+    ("H5", "Entrega verificável",
+     "O bem cultural aconteceria sem a LICC? Chega ao público, e o declarado é entregue?"),
 ]
 
 CSS = """

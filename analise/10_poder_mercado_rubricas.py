@@ -120,10 +120,21 @@ def poder_conjoint() -> pd.DataFrame:
 
 
 def pareceristas() -> pd.DataFrame | None:
+    """Lista de credenciados da SECULT (18/09/2026): uma tabela por área, com o mesmo parecerista em até três áreas.
+    Conta pareceristas distintos (pelo número de encaminhamento) e o tamanho de cada tabela. Não grava nomes."""
     arq = PAG / "secult_pareceristas_credenciados_2026.txt"
     if not arq.exists():
         return None
-    return None  # preenchido depois de ler a estrutura da lista (ver notas/desenho/06)
+    texto = arq.read_text(encoding="utf-8")
+    linha = re.compile(r"^\s*\d+\s+(2025-[A-Z0-9]{6})\s+\d{2}/\d{2}/\d{4}\s+\d{2}:\d{2}:\d{2}", flags=re.M)
+    blocos = texto.split("Colocação")[1:]
+    tamanhos = [len(linha.findall(b)) for b in blocos]
+    distintos = len(set(linha.findall(texto)))
+    linhas = [{"tabela_area": i + 1, "pareceristas": n} for i, n in enumerate(tamanhos)]
+    linhas.append({"tabela_area": "distintos (todas as áreas)", "pareceristas": distintos})
+    df = pd.DataFrame(linhas)
+    df["fonte"] = "dados/fontes_web/paginas/secult_pareceristas_credenciados_2026.txt"
+    return df
 
 
 def main() -> None:
@@ -133,6 +144,10 @@ def main() -> None:
     s.to_csv(TAB / "10_taxa_servico_permitida_2025.csv", index=False)
     c = poder_conjoint()
     c.to_csv(TAB / "10_poder_conjoint.csv", index=False)
+    pa = pareceristas()
+    if pa is not None:
+        pa.to_csv(TAB / "10_pareceristas_por_area.csv", index=False)
+        print(pa.to_string(index=False))
     print(t[["ano_in", "rubrica", "limite_pct", "teto_reais", "trecho_no_texto"]].to_string(index=False))
     print(s.T.to_string())
     print(c.to_string(index=False))
