@@ -263,7 +263,7 @@ Resultado de cada rota (relé, runs 36301577545 e 36302216421):
 | Relatórios da LAI da SECULT | pedidos e respostas | só estatísticas até 2018, antes da LICC |
 | Planilhas "controle mensal" | pareciam da LICC | são do edital de Circulação e Intercâmbio (R\$ 100 mil por mês) |
 | Manual de marcas LICC/Funcultura | regra de proporcionalidade das logomarcas (H1) | PDF só com imagem e truncado em 1 MB: sem texto |
-| YouTube por espelho (Invidious) | legendas em português que o runner não obtém | **funciona**: a live Tira-Dúvidas tem legenda automática em português. Pedidas as legendas de 11 vídeos |
+| YouTube por espelho (Invidious, Piped) | legendas em português que o runner não obtém | **esgotada**. O Invidious confirma que a live Tira-Dúvidas tem legenda automática em português, mas devolve o arquivo vazio para os 11 vídeos. O Piped deu erro 526; o yewtu.be pede verificação de navegador; o nerdvpn deu 403. Saída: abrir "Mostrar transcrição" no YouTube pelo navegador do autor, ou rodar `yt-dlp --cookies-from-browser` localmente com `dados/fontes_web/videos.tsv` |
 
 ### A fila de 2024 nas versões do anexo de captação
 

@@ -12,7 +12,9 @@ com base na Lei nº 12.527/2011 (LAI). Formato pedido: planilha (CSV ou XLSX). D
 Para cada inscrição na LICC (oportunidades do Mapa Cultural 265, 479, 1415, 1878 e 2317, e fases Parecerista, CAP e
 Publicação final):
 1. número da inscrição e do processo (E-Docs), data de envio;
-2. linha de financiamento (IN, art. 9º, I a VI) e área ou segmento cultural;
+2. linha de financiamento (IN, art. 9º, I a VI) e área ou segmento cultural. A linha já está registrada no Mapa
+   Cultural: nas oportunidades de 2025 e 2026 ela é a "categoria" da inscrição, com as seis linhas do art. 9º, mas as
+   inscrições não são públicas (`publishedRegistrations: false`; `dados/fontes_web/paginas/mapa_api_licc_fases_publicacao.txt`);
 3. município da sede do proponente e municípios de execução; natureza jurídica (associação, empresa, MEI);
 4. valor solicitado e valor habilitado;
 5. identificador pseudonimizado do parecerista designado e data da designação;
