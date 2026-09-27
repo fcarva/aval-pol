@@ -1,0 +1,226 @@
+# Fonte: https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-
+# Coletado (UTC): 2026-09-27T15:37:51Z
+# sha256 do original: dca15c7b1b8c7aa6a5b3f6ea37c6f9a0c8eff1a06e695329a464d2a470dc83d0
+
+What are public goods and how do they link people in a society? - EXPeditions
+What are public goods and how do they link people in a society?
+Zoë Hitzig, PhD candidate at Harvard, addresses the role public goods play in society.
+Zoë Hitzig
+Research fellow
+View Author ->
+Zoë Hitzig
+Research fellow
+13 Sept 2021
+Listen
+Share
+Citation-ready summary
+Zoë Hitzig, PhD candidate at Harvard, addresses the role public goods play in society.
+Author:
+
+Zoë Hitzig
+Last updated:
+
+13 Sept 2021
+Canonical URL:
+
+https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-
+Key Points
+When everyone acts in their own self-interest, resources owned by everyone become useful to no one.
+Public goods are necessary linking features in society and can’t be provided by profitable ventures or enterprises.
+The current system of funding and allocating public goods is rigid and not necessarily designed with the needs of ordinary people in mind.
+
+The commons
+
+Photo by RikoBest
+
+In order to understand why public goods are so important in our society, why they’re so difficult to wrap our heads around and to figure out how to provide in the correct way, it’s useful to think about one of the oldest situations or metaphors in social science, political science and economics.
+
+That metaphor is the tragedy of the commons, a parable which goes: in the olden days, there is a commons which is owned by everyone, by all of the hundreds of people in the village. The commons is a great place for everyone to send their cattle to graze. Everyone has cattle because it’s the olden days. The problem with this is that if everyone sends their cattle to graze, then the commons will be completely unusable by anyone because it will be totally overused.
+
+So, one of the main problems here is that when everyone acts in their own self-interest, then the resource that is owned by everyone, the commons, is useful to no one.
+
+Non-excludable and non-rivalrous
+
+A public good is something that is non-excludable and non-rivalrous. So, if it’s not excludable, like the commons or a park, you can’t keep anyone from entering it. Something that’s non-rivalrous means that when I have some of it, it doesn’t take any of it away from you. If I go hiking in a big national park one day and my friend goes hiking the next day, there’s no less national park available because there were two people instead of just one. That’s the classic definition of a public good.
+
+Why are these public goods so important? Well, let’s think about what sorts of things satisfy these definitions. Some of them are pieces of infrastructure that we really couldn’t live without. Everyone needs a lighthouse in the harbour to signal to the boats finding their way back, but, at the same time, no one wants to take responsibility for building the lighthouse.
+
+In addition, public parks are extremely important to the health of our cities and our societies, and yet, if you tried to set up a private venture, a company, to provide a public park, it wouldn’t go so well. No one would really see that as a profitable business idea.
+
+The fabric that connects
+
+There are things that can’t really be provided in a private market. You could provide tolls to cover some of the costs of producing the road, the public good, or you could ask people to contribute a few dollars when they enter a national park, as a way of covering some of the upkeep costs; but this is never going to be a profitable venture, like selling cars, for example.
+
+Why are these public goods so important to everything that we do? A lot of the time they are the fabric that connects people in society. They are the things that are consumed not by individuals, like cars or TVs or mobile phones, but as a group. They’re valuable not just because I can go to the park to sit and read my book and have a nice time, but because in doing that, I am participating in something that is collective.
+
+Value of public goods
+
+Photo by Number1411
+
+You can’t set up a profitable enterprise to produce and sell knowledge, though people do try in modern times. You can’t exclude people from knowing something. The fact that I know something, doesn’t mean that there’s less of that knowledge in the world for someone else to know. Knowledge and culture are also, in many ways, public goods.
+
+In those examples, we see the value that we get from consuming the public good. I get personal value from reading a book or an internet article about something that I didn’t know about before, but that knowledge I acquire connects me to others. To me, that’s what’s so amazing about public goods and why it is so necessary that we find good ways, good institutions, that allow us to figure out which public goods are most important to people – and how we should fund them. The problem is we can’t do this through private markets – it’s fundamentally impossible – so we have to come up with new ideas for funding them.
+
+Funding and allocating
+
+All of our societies have institutions in place for funding and allocating public goods and deciding which public goods are worthy of producing. In most liberal democracies, we have systems of taxation and representative democracy that are supposed to create proxies for figuring out what is worth funding through the elected officials and through those who represent the needs of their constituents and then through taxation. So, in the most basic sense, the idea here is that through our system of taxation, we raise funds and we choose how to both redistribute those funds across society and decide which public goods we should fund – which is a really difficult problem.
+
+Funding public goods
+
+We would probably like to produce things that a small number of people want while we are producing things that a large number of people want. The systems in place, with legislative bodies elected through representative democracies aligned with a system of taxation, end up skewing towards a majority view, where in order to build something – a new park, a public school or a community centre – we have to have a majority of people on board.
+
+Given that political processes are inherently imperfect, and majority voting is actually a very high bar, a lot of the time this system for funding public goods isn’t very well fit to figuring out the needs and preferences of ordinary people. It’s therefore really important to think about how our system of raising money through taxation and then allocating it through representative democracy or other means can be more flexible and better incorporate individuals’ preferences.
+
+Democracy in public goods
+
+Photo by M-SUR
+
+A lot of what I’m suggesting here is that the ways in which we currently fund and allocate public goods are not just skewed towards particular groups or towards majority groups rather than minority groups – that they’re not rigid and inflexible. The ideas that I’m most excited about are ideas that allow us to generate institutions that are much more flexible in terms of gathering information about what people care about and to actually use that information in real time to change what we are providing.
+
+Taiwan, for example, has set up a platform where everything is digital. Any citizen on this platform can propose a change or a public work that they’d like to see. In real time, everyone has an app that they can vote on and allocate points or tokens to.
+
+For me, the most important thing about choosing which public goods to fund – and at what level – is democracy: that the goods are produced and funded in line with what people actually care about. The only way to figure out what people care about is to generate institutions of participatory democracy where people can express not only whether they want a public good or not but also the intensity of that preference in a way that will actually be taken into account by lawmakers.
+
+Discover more about
+
+Public goods and economic democracy
+
+Buterin, V., Hitzig, Z., & Weyl, E. G. (2019). 
+A Flexible Design for Funding Public Goods
+. 
+Management Science 65
+(11), 4951–5448.
+
+Hitzig, Z., Meagher, M., & Veiga, A., et al. (2020). 
+Economic Democracy and Market Power
+. SSRN. 
+Antitrust Chronicle, Competition Policy International
+.
+
+Continue exploring
+Society & Gender
+Feminist activism across the generations
+Maxine Molyneux
+Environment
+Beneath the polar ice sheets
+EXP for Wikimedia
+Culture & Ideas
+Citizen knowledge
+Henrietta L. Moore
+Health
+New cancer treatments and the search for drivers
+Albert Tauler
+Culture & Ideas
+Shakespeare and male and female bodies
+David Hillman
+Culture & Ideas
+The power of life
+Didier Queloz
+Explore this knowledge network
+All EXPs
+All journeys
+All experts
+More from 
+Zoë Hitzig
+Economics & Politics
+Continue exploring...
+Society & Gender
+Feminist activism across the generations
+Maxine Molyneux
+Environment
+Beneath the polar ice sheets
+EXP for Wikimedia
+Culture & Ideas
+Citizen knowledge
+Henrietta L. Moore
+Health
+New cancer treatments and the search for drivers
+Albert Tauler
+Culture & Ideas
+Shakespeare and male and female bodies
+David Hillman
+Culture & Ideas
+The power of life
+Didier Queloz
+0:00
+ / 
+0:00
+Continue exploring...
+Continue exploring...
+HIDE 
+Society & Gender
+Feminist activism across the generations
+Maxine Molyneux
+Environment
+Beneath the polar ice sheets
+EXP for Wikimedia
+Culture & Ideas
+Citizen knowledge
+Henrietta L. Moore
+Health
+New cancer treatments and the search for drivers
+Albert Tauler
+Culture & Ideas
+Shakespeare and male and female bodies
+David Hillman
+Culture & Ideas
+The power of life
+Didier Queloz
+
+## Links da página
+- [](https://www.joinexpeditions.com/)
+- [Search](https://www.joinexpeditions.com/search)
+- [Authors](https://www.joinexpeditions.com/experts)
+- [Journeys](https://www.joinexpeditions.com/collections)
+- [Collections](https://www.joinexpeditions.com/partners)
+- [Courses](https://www.joinexpeditions.com/courses)
+- [Sign up](https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-)
+- [](https://www.joinexpeditions.com/experts/515-zo-hitzig)
+- [Zoë Hitzig](https://www.joinexpeditions.com/experts/515-zo-hitzig)
+- [View Author ->](https://www.joinexpeditions.com/experts/515-zo-hitzig)
+- [https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-](https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-)
+- [A Flexible Design for Funding Public Goods](https://doi.org/10.1287/mnsc.2019.3337)
+- [Economic Democracy and Market Power](https://ssrn.com/abstract=3595066)
+- [Feminist activism across the generations](https://www.joinexpeditions.com/exps/69-feminist-activism-across-the-generations)
+- [Maxine Molyneux](https://www.joinexpeditions.com/experts/139-maxine-molyneux)
+- [](https://www.joinexpeditions.com/exps/69-feminist-activism-across-the-generations)
+- [Beneath the polar ice sheets](https://www.joinexpeditions.com/exps/1377-beneath-the-polar-ice-sheets)
+- [EXP for Wikimedia](https://www.joinexpeditions.com/experts/4714-exp-for-wikimedia)
+- [](https://www.joinexpeditions.com/exps/1377-beneath-the-polar-ice-sheets)
+- [Citizen knowledge](https://www.joinexpeditions.com/exps/1400-citizen-knowledge)
+- [Henrietta L. Moore](https://www.joinexpeditions.com/experts/4715-henrietta-moore)
+- [](https://www.joinexpeditions.com/exps/1400-citizen-knowledge)
+- [New cancer treatments and the search for drivers](https://www.joinexpeditions.com/exps/743-new-cancer-treatments-and-the-search-for-drivers)
+- [Albert Tauler](https://www.joinexpeditions.com/experts/1356-albert-tauler)
+- [](https://www.joinexpeditions.com/exps/743-new-cancer-treatments-and-the-search-for-drivers)
+- [Shakespeare and male and female bodies](https://www.joinexpeditions.com/exps/697-shakespeare-and-male-and-female-bodies)
+- [David Hillman](https://www.joinexpeditions.com/experts/1277-david-hillman)
+- [](https://www.joinexpeditions.com/exps/697-shakespeare-and-male-and-female-bodies)
+- [The power of life](https://www.joinexpeditions.com/exps/1364-the-power-of-life)
+- [Didier Queloz](https://www.joinexpeditions.com/experts/4712-didier-queloz)
+- [](https://www.joinexpeditions.com/exps/1364-the-power-of-life)
+- [All EXPs](https://www.joinexpeditions.com/exps)
+- [All journeys](https://www.joinexpeditions.com/collections)
+- [All experts](https://www.joinexpeditions.com/experts)
+- [More from Zoë Hitzig](https://www.joinexpeditions.com/experts/515-zo-hitzig)
+- [Economics & Politics](https://www.joinexpeditions.com/exps/topics/economics-politics)
+- [LEARN MORE →](https://www.joinexpeditions.com/exps/332-what-are-public-goods-and-how-do-they-link-people-in-a-society-)
+- [Our story](https://www.joinexpeditions.com/our-story)
+- [Events](https://www.joinexpeditions.com/events)
+- [Our Advisory Editorial Board](https://www.joinexpeditions.com/editorial-board)
+- [Become a partner](https://www.joinexpeditions.com/contact)
+- [FAQs](https://www.joinexpeditions.com/faqs)
+- [For AI agents](https://www.joinexpeditions.com/for-ai-agents)
+- [Terms & Conditions](https://www.joinexpeditions.com/terms-conditions)
+- [Privacy Policy](https://www.joinexpeditions.com/privacy-policy)
+- [Cookies policy](https://www.joinexpeditions.com/privacy-policy#cookies)
+- [Contact us](https://www.joinexpeditions.com/contact)
+- [](https://www.facebook.com/joinexpeditions?utm_source=website)
+- [](https://instagram.com/joinexpeditions?utm_source=website)
+- [](https://x.com/joinexpeditions?utm_source=website)
+- [](https://www.linkedin.com/company/joinexpeditions?utm_source=website)
+- [](https://www.youtube.com/@joinexpeditions?utm_source=website)
+- [](https://open.spotify.com/show/0FsaJnjsPTwgb8aowIPZMi?utm_source=website)
+- [](https://podcasts.apple.com/us/podcast/expeditions-the-living-library-of-knowlegde/id1817172820?utm_source=website)
+- [](https://substack.com/@joinexpeditions?utm_source=website)
+- [](https://linktr.ee/joinexpeditionslinks?utm_source=website)

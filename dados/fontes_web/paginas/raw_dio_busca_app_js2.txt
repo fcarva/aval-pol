@@ -1,5 +1,5 @@
 # Fonte: https://ioes.dio.es.gov.br/buscanova/assets/javascripts/application.7d10c6fa.js
-# Coletado (UTC): 2026-09-27T15:23:04Z
+# Coletado (UTC): 2026-09-27T15:37:48Z
 # sha256 do original: 2fc489fa0927fb88428840f967caba63cc305bc1f691fbf294710d1fcb25d559
 # Last-Modified (servidor): Thu, 18 Jan 2024 13:06:59 GMT
 
