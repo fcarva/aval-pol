@@ -21,10 +21,9 @@ N12,CONFERE,"Duas empresas somam metade da renúncia de 2025; energia e gás, 52
 N14,CONFERE,71% contra 57%,analise/tabelas/03_status_conversao_recorrencia_2023_2024.csv,Recorrentes captam mais (71% contra 57%)
 N15,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024
 N16,CONFERE,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo",analise/tabelas/03_coortes_primeira_presenca_canonico.csv,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então"
-N17,CONFERE,"Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86%",analise/tabelas/07_patrocinadores_na_rouanet.csv,"Das 26 empresas que patrocinaram em 2025, 13 também aparecem como incentivadoras da Lei Rouanet, e elas responderam por 86% da renúncia"
 N19,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor atribuível a um município em 2022-2026
 N20,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88"
-N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% da desigualdade
+N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% do índice de Theil
 N22,CONFERE,"293 projetos habilitados em 2022-2024 com situação resolvida, de 172",analise/tabelas/07_poder_hipoteses.csv (nota),"293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes"
 N24,CONFERE,"32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34",analise/tabelas/07_poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv,"| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados antes do esgotamento | $p_0$ de 0,2 a 0,6 | 28 a 34 |"
 N25,CONFERE,"52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |"

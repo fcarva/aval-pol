@@ -109,7 +109,7 @@ PREAMBULO = r"""% !TEX program = xelatex
 \setlength{\LTpost}{0pt}
 
 % Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parskip}{1.5pt}}{\par}
+\newenvironment{referencias}{\raggedright\setlength{\parskip}{1pt}}{\par}
 """
 
 

@@ -23,11 +23,12 @@ Regras aplicadas em todas as rotas:
 | **Termos por projeto, com CNPJ do proponente** | Portal da Transparência ES, seção 07 (Download/378, 379, 439, 536) | **feito** (seção 2) | `analise/16_transparencia_licc.py` → `dados/processados/transparencia_licc_termos.csv`, `16_*.csv` |
 | **Renúncia realizada** | Portal da Transparência ES, seção 08 (Download/376, 426, 486, 545, 546) | **feito** (seção 3) | `16_renuncia_sefaz.csv` |
 | Perfil dos patrocinadores | Receita Federal via BrasilAPI (minhareceita.org de reserva), 134 CNPJs dos anexos | feito (seção 4) | `consultas_publicas.py` → `dados/externos/cnpj_patrocinadores.csv`; `14_patrocinadores_*.csv` |
-| Perfil dos proponentes | Receita, 107 CNPJs de proponentes das listas do Portal | no relé | `consultas_publicas.py` → `dados/externos/cnpj_proponentes.csv` |
+| Perfil dos proponentes | Receita, 107 CNPJs de proponentes das listas do Portal | **feito** (seção 2A) | `consultas_publicas.py` → `dados/externos/cnpj_proponentes.csv`; `analise/17_proponentes_receita.py` → `17_*.csv` |
 | Área de atuação dos proponentes | Mapa Cultural ES, 25.443 agentes | feito: 131 de 235 proponentes (seção 5) | `mapa_agentes_proponentes.csv`; `14_proponentes_mapa_area.csv` |
 | Rastro de entrega | Mapa Cultural ES, 1.738 eventos com ocorrências | feito (seção 5) | `14_entrega_mapa.csv` |
 | Estimativa da renúncia | LDO 2023-2026, PLOA 2026 | feito (seção 3) | `dados/fontes_web/paginas/ldo_es_*.txt` |
-| Atos da LICC no DIO | Diário Oficial do ES, rota de busca `/busca/busca/buscar/query/<pág>/di:AAAA-MM-DD/df:AAAA-MM-DD/?1=1&q="termo"` (lida no script do site, `raw_dio_busca_app_js2.txt`) | no relé, termos só da LICC | `consultas_publicas.py` → `dados/externos/dio_licc_trechos.csv` |
+| Atos da LICC no DIO | Diário Oficial do ES, rota de busca `/busca/busca/buscar/query/<pág>/di:AAAA-MM-DD/df:AAAA-MM-DD/?1=1&q="termo"` (lida no script do site, `raw_dio_busca_app_js2.txt`) | **coletado**: 485 páginas com "Lei de Incentivo à Cultura Capixaba", 529 com "LICC", 1.026 trechos (a analisar) | `consultas_publicas.py` → `dados/externos/dio_licc_trechos.csv` |
+| Renúncia total dos patrocinadores | Portal, "Relação de beneficiários e valores renunciados" 2022-2025 (CNPJ, razão social, total; todos os incentivos somados, sem separar a LICC) | no relé: linhas dos patrocinadores da LICC | `transparencia_beneficiarios_licc.csv` |
 | Relatórios de gestão do governador (2022-2025) | SEFAZ, prestação de contas | no relé | `sefaz_relatorio_gestao_*` |
 | Renúncia nas contas do governador | Pareceres prévios do TCE-ES (exercícios 2023 e 2024) | **negativo**: a LICC não aparece | `tcees_parecer_previo_*.txt` |
 
@@ -93,6 +94,24 @@ que se renova, observável sem LAI.
   - 2025: R\$ 19,0 mi (76% dos R\$ 25 mi) até fevereiro;
   - 2022: o ano fecha em R\$ 11,7 mi, abaixo do limite, sem esgotar.
 - É a corrida do primeiro trimestre, descrita com dado oficial. A data exata de protocolo continua no pedido 4 da LAI.
+
+## 2A. Quem capta: perfil dos proponentes na Receita
+
+Fonte: `17_proponentes_resumo.csv` e `17_mesma_sede.csv`. Os 107 CNPJs de proponentes que captaram em 2022-2025
+(R\$ 75,9 mi) têm resposta da Receita. Porte, natureza e sede são os de hoje.
+
+| Dimensão | Resultado (parcela do valor captado) |
+| --- | --- |
+| Natureza jurídica | associação privada 47% (45 proponentes); sociedade limitada 46% (49); fundação 4%; empresário individual 3% (8) |
+| Porte | "demais" 51%; microempresa 35% (48); EPP 14% |
+| MEI hoje | 4 proponentes, 1% do valor |
+| Atividade (CNAE) | organizações associativas 40%; cinema e vídeo 18%; atividades artísticas e de espetáculos 16%; eventos (8230) 7% |
+| Sede | RMGV 75% (78 proponentes); interior 25% (29) |
+| Idade no ano da primeira captação | 10 anos ou mais 59% (65 proponentes); 5 a 10 anos 17%; 3 a 5 anos 11%; 1 a 3 anos 13%; **nenhum com menos de 1 ano** |
+
+- Quem capta é, em regra, organização antiga, da RMGV, associação ou produtora limitada. A regra de dois anos de sede
+  explica a ausência de CNPJ novo, mas não o peso das organizações com dez anos ou mais: incumbência, para H4.
+- Patrocinador e proponente com sede no mesmo município: 24% a 32% do valor por ano (2022-2025).
 
 ## 3. Renúncia prevista e realizada (SEFAZ)
 

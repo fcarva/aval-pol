@@ -18,7 +18,9 @@ de bens públicos (poder de mercado de grandes contribuintes, escolha ponderada 
 centralização, apropriação por taxa de serviço, exclusão de pequenos e verificação da entrega) — de forma
 **tácita**. Mecanismos alternativos (financiamento quadrático, Hypercerts, Open Source Observer, Hitzig) inspiram
 a análise, mas **não são nomeados nem propostos no artigo**; ficam em `notas/`. Redesenho do mecanismo segue fora
-do texto. Ver `notas/desenho/06-poder-de-mercado-e-bens-publicos.md`.
+do texto. Ver `notas/desenho/06-poder-de-mercado-e-bens-publicos.md`. **Exceção (27/09/2026, tarde, comentários do
+autor no PDF):** Buterin, Hitzig e Weyl (2019) entram como literatura (bens públicos e formação de comunidades; o
+público não passa pelo mecanismo da LICC), conferidos na Crossref, sem nomear o mecanismo nem propô-lo à LICC.
 
 ## Onde ficam as coisas
 
