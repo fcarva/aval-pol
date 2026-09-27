@@ -50,7 +50,7 @@ jobs:
       - name: Dependências
         run: |
           sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
-          pip install -q requests pandas numpy beautifulsoup4 yt-dlp
+          pip install -q requests pandas numpy beautifulsoup4 yt-dlp openpyxl xlrd
 
       - name: DOIs e buscas bibliográficas
         timeout-minutes: 20

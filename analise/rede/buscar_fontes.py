@@ -251,7 +251,9 @@ def baixar(pid: str, url: str) -> dict:
         registro.update(content_type=ct, bytes=str(len(r.content)), sha256=hashlib.sha256(r.content).hexdigest())
         # datas que permitem ordenar versões de um mesmo anexo (ex.: "RECURSO FINANCEIRO CAPTADO - 2025 (1..17)")
         datas = [f"# Last-Modified (servidor): {r.headers['last-modified']}"] if r.headers.get("last-modified") else []
-        if "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
+        if eh_planilha(ct, url, r.content):
+            texto = planilha_para_texto(r.content)
+        elif "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
             texto = docx_para_texto(r.content)
         elif "pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf"):
             tmp = Path("/tmp") / f"{pid}.pdf"
@@ -288,7 +290,7 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
         # página HTML coletada antes de o texto trazer a lista de links: coleta de novo uma vez
         sem_links = ja_tem and "pdf" not in man[pid].get("content_type", "").lower() \
             and "## Links da página" not in destino.read_text(encoding="utf-8")
-        if not forcar and ja_tem and not sem_links:
+        if not forcar and ja_tem and not sem_links and not texto_binario(destino):
             continue
         man[pid] = baixar(pid, url)
         print(f"{pid}: {man[pid]['status']}")
@@ -330,7 +332,7 @@ def seguir_indices(man: dict, forcar: bool) -> None:
             nome = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode()
             pid = f"{pref}_{slug(nome)}"[:120].rstrip("_.-")
             destino = PAG_DIR / f"{pid}.txt"
-            if forcar or man.get(pid, {}).get("status") != "200" or not destino.exists():
+            if forcar or man.get(pid, {}).get("status") != "200" or not destino.exists() or texto_binario(destino):
                 man[pid] = baixar(pid, href)
                 time.sleep(1)
             linhas.append({"rotulo": rotulo, "url": href, "id": pid, "status": man[pid]["status"]})
@@ -434,6 +436,78 @@ def listar_canais() -> None:
         w.writeheader()
         w.writerows(linhas)
     print(f"canais: {len(linhas)} vídeos com título relevante")
+
+
+def eh_planilha(ct: str, url: str, conteudo: bytes) -> bool:
+    """ODS, XLSX ou XLS, pelo tipo declarado, pela extensão ou pelo conteúdo do zip."""
+    if any(x in ct.lower() for x in ("spreadsheet", "excel", "opendocument.spreadsheet")):
+        return True
+    if url.lower().split("?")[0].endswith((".ods", ".xlsx", ".xls")):
+        return True
+    if conteudo[:2] == b"PK":
+        import io
+        import zipfile
+        try:
+            nomes = zipfile.ZipFile(io.BytesIO(conteudo)).namelist()
+        except zipfile.BadZipFile:
+            return False
+        return "xl/workbook.xml" in nomes or ("content.xml" in nomes and b"opendocument.spreadsheet" in conteudo[:200])
+    return False
+
+
+def ods_para_linhas(conteudo: bytes) -> dict[str, list[list[str]]]:
+    """Leitor mínimo de ODS (zip com content.xml), sem dependência externa: abas, linhas e células com repetição."""
+    import io
+    import xml.etree.ElementTree as ET
+    import zipfile
+    ns = {"table": "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
+          "text": "urn:oasis:names:tc:opendocument:xmlns:text:1.0",
+          "office": "urn:oasis:names:tc:opendocument:xmlns:office:1.0"}
+    raiz = ET.fromstring(zipfile.ZipFile(io.BytesIO(conteudo)).read("content.xml"))
+    abas = {}
+    for tab in raiz.iter(f"{{{ns['table']}}}table"):
+        linhas = []
+        for row in tab.iter(f"{{{ns['table']}}}table-row"):
+            rep_l = min(int(row.get(f"{{{ns['table']}}}number-rows-repeated", "1")), 1000)
+            cel = []
+            for c in row:
+                if not c.tag.endswith(("table-cell", "covered-table-cell")):
+                    continue
+                rep = min(int(c.get(f"{{{ns['table']}}}number-columns-repeated", "1")), 200)
+                valor = c.get(f"{{{ns['office']}}}value") or c.get(f"{{{ns['office']}}}date-value") or \
+                    " ".join("".join(t.itertext()) for t in c.iter(f"{{{ns['text']}}}p"))
+                cel += [valor.strip()] * rep
+            while cel and not cel[-1]:
+                cel.pop()
+            if cel:
+                linhas += [cel] * rep_l
+        abas[tab.get(f"{{{ns['table']}}}name", f"aba{len(abas) + 1}")] = linhas
+    return abas
+
+
+def planilha_para_texto(conteudo: bytes) -> str:
+    """Cada aba vira um bloco CSV precedido de "## Planilha: <nome>"."""
+    import csv as _csv
+    import io
+    if b"opendocument.spreadsheet" in conteudo[:200]:
+        abas = ods_para_linhas(conteudo)
+    else:
+        import pandas as pd
+        abas = {n: df.dropna(how="all").fillna("").astype(str).values.tolist()
+                for n, df in pd.read_excel(io.BytesIO(conteudo), sheet_name=None, header=None, dtype=str).items()}
+    partes = []
+    for nome, linhas in abas.items():
+        buf = io.StringIO()
+        _csv.writer(buf).writerows(linhas)
+        partes.append(f"## Planilha: {nome}\n{buf.getvalue()}")
+    return "\n".join(partes)
+
+
+def texto_binario(destino: Path) -> bool:
+    """Texto gravado antes de o relé saber ler planilhas: começa com o zip ("PK") depois do cabeçalho."""
+    t = destino.read_text(encoding="utf-8", errors="replace")
+    corpo = t.split("\n\n", 1)[1] if t.startswith("# Fonte") and "\n\n" in t else t
+    return corpo.lstrip().startswith("PK")
 
 
 def docx_para_texto(conteudo: bytes) -> str:
