@@ -1,4 +1,4 @@
 entidade,lidos,casados,chaves_de_proponente,proponentes_casados,titulos_licc,titulos_casados,select
-agent,25443,138,239.0,117.0,,,
+agent,25443,154,235.0,131.0,,,
 project,2373,60,,,448.0,54.0,
 event,1738,84,,,448.0,24.0,"id,name,terms,createTimestamp,project.name,occurrences.{startsOn,space.En_Municipio}"

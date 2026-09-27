@@ -1,37 +1,51 @@
 agente_id,nome,chave,tipo,area_atuacao,municipio,criado
 353,Starley Bonfim Silva,starley bonfim silva,Individual,Design; Artes Visuais,Serra,2020-10-05
+471,Jonathan da Silva Santos,jonathan da silva santos,Individual,Música,Vitória,2020-10-05
 694,Árvore Casa das Artes,arvore casa das artes,Coletivo,Arte de Rua; Cultura e Educação; Teatro,Vitória,2020-10-06
 736,Acordes Centro de Música e Artes,acordes centro de musica e artes,Coletivo,Arquivos; Arte de Rua; Artes Visuais; Cultura e Educação; Livro; Música; Produção Cultural; Culturas Populares; Gestão Cultural; Patrimônio Cultural Material,Vitória,2020-10-06
 971,LUDMILA RODRIGUES GRAMELISCH,ludmila rodrigues gramelisch,Individual,Culturas Populares; Patrimônio Cultural Imaterial; Cultura e Educação; Cultura e Saúde,Cariacica,2020-10-07
 1002,Evandro Jhonny Amorim Teixeira Marvila,evandro jhonny amorim teixeira marvila,Individual,,,2020-10-07
+1032,DAIANE MATHEUS PESSOA,daiane matheus pessoa,Individual,Dança; Produção Cultural; Teatro; Música,Serra,2020-10-07
+1093,João Paulo Stein Loureiro,joao paulo stein loureiro,Individual,Teatro; Música; Arte de Rua; Circo,,2020-10-08
 1537,WANYA DE SIQUEIRA MAYHÉ,wanya de siqueira mayhe,Individual,Gestão Cultural,,2020-10-14
 2122,Marina Jordem Almança Possatti,marina jordem almanca possatti,Individual,"Literatura; Cultura, Meio Ambiente e Sustentabilidade",,2020-10-20
+2322,MARCO ANTONIO REIS DA SILVA,marco antonio reis da silva,Individual,Teatro; Cultura e Educação; Produção Cultural,Cachoeiro de Itapemirim,2020-10-22
 2712,Miranda & Cerutti Eventos Culturais Ltda,miranda cerutti eventos culturais,Coletivo,Dança,Vitória,2020-10-27
+3619,Laudeni Sales Martins,laudeni sales martins,Individual,Dança; Cultura Negra; Produção Cultural; Fotografia; Gestão Cultural; Pesquisa,Cariacica,2020-11-09
+3699,Brenda Caetano Perim,brenda caetano perim,Individual,Teatro; Cultura e Educação; Pesquisa,Cachoeiro de Itapemirim,2020-11-10
 3738,ELEANDRO DA SILVA,eleandro da silva,Individual,Culturas Populares; Patrimônio Cultural Imaterial; Cultura Negra; Cultura e Educação; Produção Cultural; Cultura e Saúde; Cultura e Esporte,Cariacica,2020-11-11
+3747,Washington Luiz Sieleman Almeida,washington luiz sieleman almeida,Individual,Música; Sociologia; Antropologia; Produção Cultural,,2020-11-11
 3805,Anderson Marta Valfré,anderson marta valfre,Individual,"Arte de Rua; Artesanato; Literatura; Cultura, Meio Ambiente e Sustentabilidade; Teatro; Produção Cultural; Cultura e Educação; Artes Visuais; Audiovisual e Mídias Interativas; Cinema",Linhares,2020-11-12
 3826,Galpão Produções Artísticas e Culturais LTDA,galpao producoes artisticas e culturais,Coletivo,Audiovisual e Mídias Interativas; Música,,2020-11-12
 3891,Caju Produções LTDA ME,caju producoes,Coletivo,Audiovisual e Mídias Interativas,Vitória,2020-11-13
 3931,Programa de Promoção e Assistência Social Casa Verde,programa de promocao e assistencia social,Coletivo,Música,,2020-11-13
 3950,"Instituto de Desenvolvimento Social e Gestão de Produção Cultural, Artística e Audiovisual - Marlin Azul",instituto de desenvolvimento social e gestao de producao cultural artistica e audiovisual marlin azul,Coletivo,Audiovisual e Mídias Interativas,,2020-11-14
 4025,Instituto Brasil de Cultura e Arte - IBCA,instituto brasil de cultura e arte ibca,Coletivo,Audiovisual e Mídias Interativas; Música,,2020-11-16
+4210,Paulo Henrique Falqueto da Silva,paulo henrique falqueto da silva,Individual,Produção Cultural; Cultura e Turismo; Economia Criativa e da Cultura; Gestão Cultural; Cultura e Educação,Afonso Cláudio,2020-11-17
 4305,Ladart Produções e Consultoria Ltda ME,ladart producoes e consultoria,Coletivo,Audiovisual e Mídias Interativas; Cinema; Produção Cultural; Economia Criativa e da Cultura; Cultura e Educação,,2020-11-19
 4389,Instituto Manguerê,instituto manguere,Coletivo,Culturas Populares; Artes Circenses; Audiovisual e Mídias Interativas; Dança; Cultura Negra; Economia Criativa e da Cultura; Gestão Cultural; Patrimônio Cultural,,2020-11-19
 4519,Instituto Raizes,instituto raizes,Coletivo,Cultura Negra; Culturas Populares; Cultura LGBTQIAPN+; Patrimônio Cultural; Patrimônio Cultural Imaterial,Vitória,2020-11-21
+4685,Dennys Batista Serafim,dennys batista serafim,Individual,Música,,2020-11-23
 4718,Fabio Samora,fabio samora,Individual,Culturas Populares,,2020-11-23
 4753,Lúmen Produções Audiovisuais Ltda - ME,lumen producoes audiovisuais,Coletivo,Cinema; Audiovisual e Mídias Interativas,,2020-11-23
 5003,MM Projetos Culturais,mm projetos culturais,Coletivo,Música,,2020-11-25
 5014,Editora Cousa,editora cousa,Coletivo,Livro; Leitura; Literatura,,2020-11-25
+5033,Leonardo Gonçalves Pereira,leonardo goncalves pereira,Individual,Música,,2020-11-25
+5078,Danyel Ferreira Sueth 08636705711,danyel ferreira sueth,Coletivo,Teatro; Música; Literatura; Audiovisual e Mídias Interativas,Alegre,2020-11-26
 5123,Movimento Cultural Tambores Esperança,movimento cultural tambores esperanca,Coletivo,Dança; Patrimônio Cultural; Teatro; Artes Visuais; Artesanato; Audiovisual e Mídias Interativas; Culturas Populares; Música; Economia Criativa e da Cultura; Filosofia; Cultura e Educação; Produção Cultural; Leitura,,2020-11-26
 5124,Bloco Surpresa,bloco surpresa,Coletivo,Culturas Populares; Arte de Rua; Dança; Teatro; Produção Cultural; Música; Patrimônio Cultural Imaterial,Vila Velha,2020-11-26
 5169,Fabio Samora,fabio samora,Individual,Culturas Populares; Teatro; Música,Fundão,2020-11-26
 5287,Monique Cruz Studio de Dança,monique cruz studio de danca,Coletivo,Dança; Produção Cultural; Gestão Cultural,São Mateus,2020-11-27
 5506,Editora Maré,editora mare,Coletivo,Literatura; Livro; Design; Comunicação; Arte Digital; Economia Criativa e da Cultura; Leitura,,2020-12-01
+5519,Gustavo Binda Faria,gustavo binda faria,Individual,Design; Comunicação; Economia Criativa e da Cultura; Leitura; Livro; Literatura; Novas Mídias; Produção Cultural,,2020-12-01
+5521,Gustavo Binda Faria,gustavo binda faria,Individual,Design,,2020-12-01
 5647,Instituto Cultural Música Viva,instituto cultural musica viva,Coletivo,Música; Produção Cultural; Cultura e Educação,Vitória,2020-12-02
 6071,Bule Estúdio Criativo  Produções Artísticas Ltda,bule estudio criativo producoes artisticas,Coletivo,Cinema; Dança; Teatro; Audiovisual e Mídias Interativas; Gestão Cultural; Produção Cultural; Filosofia; Arte de Rua; Artes Visuais,Vila Velha,2020-12-13
 6145,"Grupo Teatral Gota, Pó e Poeira",grupo teatral gota po e poeira,Coletivo,Teatro,Guaçuí,2020-12-21
 6285,Instituto GG5 de Desenvolvimento Comunitário,instituto gg5 de desenvolvimento comunitario,Coletivo,Outra,Vila Velha,2021-01-04
 6341,Grupo Moxuara Produções Artísticas LTDA - ME,grupo moxuara producoes artisticas,Coletivo,Patrimônio Cultural,,2021-01-10
 6351,Grupo Moxuara Produções Artísticas,grupo moxuara producoes artisticas,Coletivo,"Música; Culturas Populares; Cultura e Educação; Literatura; Cultura, Meio Ambiente e Sustentabilidade; Patrimônio Cultural; Patrimônio Cultural Material; Patrimônio Cultural Imaterial",,2021-01-11
+6436,Marcos Alberto Penitenti Neto,marcos alberto penitenti neto,Individual,Música; Culturas Populares; Produção Cultural,,2021-01-18
 7052,Centro Cultural Araçá,centro cultural araca,Individual,,São Mateus,2021-03-19
 7520,WB Produções Artísticas e Culturais Ltda,wb producoes artisticas e culturais,Coletivo,Teatro,,2021-04-06
 7621,Fabio Ravera Lyrio,fabio ravera lyrio,Individual,Culturas Populares,Vargem Alta,2021-04-07
@@ -60,6 +74,7 @@ agente_id,nome,chave,tipo,area_atuacao,municipio,criado
 12475,Associação dos Moradores da Comunidade de São Pedro do Itabapoana,associacao dos moradores da comunidade de sao pedro do itabapoana,Coletivo,Patrimônio Cultural,,2022-01-18
 12629,Mito Games LTDA ME,mito games,Coletivo,Cultura e Educação; Audiovisual e Mídias Interativas; Cinema; Jogos Eletrônicos/Games,,2022-01-20
 12792,Claraboia Imagem e Comunicação LTDA,claraboia imagem e comunicacao,Coletivo,Comunicação; Música; Fotografia; Produção de Eventos; Artes Visuais,,2022-01-21
+12945,Yago Figueira Costa,yago figueira costa,Individual,Artes Visuais,,2022-01-23
 12991,LUPINO PRODUÇÕES,lupino producoes,Coletivo,Cinema; Produção Cultural,,2022-01-24
 13008,PURI PRODUÇÕES E EVENTOS LTDA,puri producoes e eventos,Coletivo,Produção Cultural; Audiovisual e Mídias Interativas,,2022-01-24
 13159,Cine Teatro Ribalta,cine teatro ribalta,Coletivo,Teatro,Vitória,2022-01-25
@@ -69,6 +84,7 @@ agente_id,nome,chave,tipo,area_atuacao,municipio,criado
 14138,ASSOCIACAO FESTA DA CAPPITELLA - AFECAPI,associacao festa da cappitella afecapi,Coletivo,Culturas Populares; Economia Criativa e da Cultura; Gastronomia; Cultura Italiana; Patrimônio Cultural Imaterial; Culturas Tradicionais e Populares,Nova Venécia,2022-03-14
 14240,Júlia Sodré - Gestão de Projetos Musicais,julia sodre gestao de projetos musicais,Individual,Música,,2022-04-18
 14441,Instituto Modus Vivendi,instituto modus vivendi,Coletivo,Patrimônio Cultural,,2022-06-24
+14457,Dennys Batista Serafim,dennys batista serafim,Individual,Música,,2022-06-26
 14467,INSTITUTO TODOS OS CANTOS,instituto todos os cantos,Individual,Música; Gestão Cultural; Produção Cultural,,2022-06-27
 14718,Mover-se Cia. de Dança,mover se cia de danca,Coletivo,Dança,,2022-08-10
 14975,INSTITUTO SALOMAO VIX,instituto salomao vix,Coletivo,Culturas Populares; Arte de Rua; Música; Cultura e Educação; Design de Moda,Vitória,2022-09-20
