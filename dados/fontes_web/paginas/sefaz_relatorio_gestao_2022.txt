@@ -1,0 +1,1889 @@
+# Fonte: https://sefaz.es.gov.br/media/Tesouro%20Estadual/Presta%C3%A7%C3%A3o%20de%20contas%20do%20governador/Relat%C3%B3rio%20de%20Gest%C3%A3o%20-%202022.pdf
+# Coletado (UTC): 2026-09-27T15:23:09Z
+# sha256 do original: 707569a05deff24fedea3d343495c2dad9b4518e9041d0f5ef1080771c014747
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:23:06 GMT
+# PDF CreationDate: Wed May  3 14:37:16 2023 UTC
+# PDF ModDate: Wed May  3 14:37:16 2023 UTC
+
+                 GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+               PRESTAÇÃO DE CONTAS ANUAL
+
+
+
+
+                          RELATÓRIO DE GESTÃO
+
+     ANEXO II – ITEM 02 - IN TCEES Nº 68, DE 08/12/2020
+
+
+
+
+Gestor responsável: José Renato Casagrande
+Exercício: 2022
+
+
+
+
+                                           ABRIL – 2023
+
+
+
+
+                                                 1
+
+
+           Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+CONSIDERAÇÕES INICIAIS
+
+O presente relatório tem por objetivo abordar o desempenho e a conformidade da gestão do
+Governo do Estado do Espírito Santo no exercício de 2022, no tocante aos aspectos de
+natureza orçamentária, financeira, fiscal, operacional e patrimonial, em relação à legislação
+em vigor.
+
+
+Este documento está organizado de acordo com as disposições da Instrução Normativa
+TCEES n° 68, de 08 de dezembro de 2020, a qual dispõe sobre a composição e a forma de
+envio das prestações de contas anuais ao Tribunal de Contas do Estado do Espírito Santo -
+TCEES.
+
+
+As informações contábeis que integram o presente relatório foram extraídas do Sistema
+Integrado de Gestão das Finanças Públicas do Espírito Santo - SIGEFES e contemplam os
+dados contábeis consolidados de todos os Poderes e Órgãos da Administração Pública
+Estadual integrantes dos orçamentos Fiscal e da Seguridade Social, em obediência ao art.
+56 da Lei Complementar nº 101, de 04 de maio de 2000 (Lei de Responsabilidade Fiscal -
+LRF).
+
+
+1. ATENDIMENTO AOS LIMITES CONSTITUCIONAIS
+
+
+Em 2022, o Estado do Espírito Santo cumpriu os limites mínimos constitucionais de
+aplicação em saúde e educação. Para fins de sua verificação, utiliza-se como base a Receita
+Líquida de Impostos (RLI), que agrega todas as receitas de impostos e transferências
+constitucionais, deduzidos os repasses aos municípios.
+
+
+Neste sentido, a RLI em 2022 foi de R$ 16,985 bilhões (R$ 15,09 bilhões em 2021) para
+fins de aplicação em Despesas com Ações e Serviços Públicos de Saúde – ASPS, e de R$
+16,994 bilhões, para fins de aplicação em Despesas com Manutenção e Desenvolvimento do
+Ensino – MDE.
+
+
+Essa diferença de R$ 9,294 milhões, na apuração da RLI, refere-se aos recursos recebidos
+no âmbito do Inciso V do art. 5º da Emenda Constitucional nº 123, de 14 de julho de 2022,
+sobre os quais incidiram apenas as seguintes vinculações (Inciso VI, § 5º do art. 5º):
+
+
+a) a repartição com os Municípios na proporção a que se refere o inciso IV do caput do art.
+158 da Constituição Federal; e
+
+
+
+
+                                                   2
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+b) a inclusão na base de cálculo para efeitos de aplicação do art. 212 e do inciso II do caput
+do art. 212-A da Constituição Federal.
+
+
+1.1. SAÚDE
+
+
+Em 2022 foram aplicados R$ 4,03 bilhões em despesas com saúde, incluindo recursos
+próprios e recursos transferidos de outros entes. Essas despesas abrangeram gastos com
+equipamentos,       obras,   manutenção    de    hospitais    públicos,   convênios      com    hospitais
+terceirizados, municipais e filantrópicos, além de organizações sociais, dentre outras
+despesas.
+
+
+Desse total de R$ 4,03 bilhões, as despesas com pessoal e encargos sociais somaram R$
+769,3 milhões (19%) e as outras despesas correntes totalizaram R$ 3,022 bilhões (75%).
+Já os investimentos em saúde foram de R$ 187,7 milhões (5%) e as inversões financeiras
+totalizaram R$ 51 milhões (1%). A distribuição desses recursos pode ser visualizada no
+gráfico a seguir:
+
+
+
+
+Para fins de verificação da aplicação do mínimo constitucional, que leva em conta
+basicamente as despesas custeadas com recursos de impostos e transferências, em 2022
+foram consideradas despesas no valor de R$ 2,659 bilhões, representando 15,66 % da
+receita líquida de impostos. Esse percentual aplicado em saúde é 3,66 pontos percentuais
+superior ao mínimo constitucional exigido.
+
+
+
+
+                                                   3
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                  GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+1.2. EDUCAÇÃO
+
+
+O Governo Estadual aplicou, em 2022, para fins de limite constitucional, o montante de R$
+4,377 bilhões na construção, na ampliação, na reforma e na manutenção de unidades
+escolares, centros de educação de jovens e adultos, espaços esportivos, alimentação e
+transporte escolar, bolsas de estudo, materiais, mobiliário, equipamentos de informática e
+também na remuneração do magistério, incluindo o resultado líquido das transferências do
+FUNDEB. O montante aplicado correspondeu a 25,76 % da receita líquida de impostos.
+
+
+As despesas com manutenção e desenvolvimento do ensino totalizaram R$ 3,069 bilhões,
+mas cabe ressaltar que parte dessas despesas não são computadas para fins de limite
+constitucional. Desse montante, os investimentos totalizaram R$ 618,9 milhões (20%), os
+gastos com pessoal e encargos sociais totalizaram R$ 1,348 bilhão (44%) e as outras
+despesas correntes somaram R$ 1,102 bilhão (36%).
+
+
+O gráfico a seguir ilustra essa repartição das despesas com manutenção e desenvolvimento
+do ensino no ano de 2022:
+
+
+
+
+Além disso, em 2022 o Estado do Espírito Santo repassou ao Fundo de Manutenção e
+Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação –
+FUNDEB o valor de R$ 3,183 bilhões. No entanto, retornou para o Tesouro do Estado
+apenas R$ 1,636 bilhão, ocasionando um resultado líquido negativo de R$ 1,547 bilhão nas
+transferências ao FUNDEB.
+
+
+                                                  4
+
+
+            Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Cabe destacar que os recursos do FUNDEB que não retornam ao Tesouro do Estado são
+distribuídos entre os Municípios capixabas, pois o Fundo é formado com recursos do Estado
+e dos Municípios, e a redistribuição desses recursos ocorre de forma proporcional ao número
+de alunos matriculados nas respectivas redes de ensino. Dos recursos do retorno do
+FUNDEB, 70,88% foram aplicados na remuneração dos profissionais do magistério da
+educação básica, atendendo assim ao disposto no artigo 60, XII, do Ato das Disposições
+Constitucionais Transitórias da Constituição Federal, que determina que o percentual não
+pode ser inferior a 70%.
+
+
+Na apuração do mínimo constitucional são considerados os recursos provenientes dos
+impostos aplicados em manutenção e desenvolvimento do ensino, mais o resultado líquido
+negativo que o Estado tem na transferência dos recursos do FUNDEB.
+
+
+1.3. REGRA DE OURO
+
+
+A Lei de Responsabilidade Fiscal exige ação planejada e responsável, estabelece limites e
+introduz importantes regras a respeito das operações de crédito, dentre elas, a regra de
+ouro no artigo 12, § 2º, estabelecendo que “o montante previsto para as receitas de
+operações de crédito não poderá ser superior ao das despesas de capital constantes do
+projeto de lei orçamentária”. Contudo, esse artigo da LRF encontra-se com eficácia
+suspensa pelo Supremo Tribunal Federal - STF.
+
+
+A Constituição Federal de 1988, no art. 167, inciso III, estabelece que as realizações de
+operações de crédito não podem exceder as despesas de capital, ressalvadas as
+provenientes de créditos adicionais com finalidade precisa, aprovados pelo Poder Legislativo
+por maioria absoluta. Assim a “regra de ouro” continua válida amparada pelo texto
+constitucional. Esse procedimento objetiva inibir o endividamento público para financiar
+despesas correntes.
+
+
+A Tabela a seguir avalia o cumprimento da regra de ouro constitucional para o exercício de
+2022:
+
+
+
+
+                                                   5
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                           GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                                   RELATÓRIO RESUMIDO DA EXECUÇÃO ORÇAMENTÁRIA
+    DEMONSTRATIVO DAS RECEITAS DE OPERAÇÕES DE CRÉDITO E DESPESAS DE CAPITAL (REGRA DE OURO)
+                                         ORÇAMENTOS FISCAL E DA SEGURIDADE SOCIAL
+                                                JANEIRO A DEZEMBRO DE 2022
+
+
+RREO – ANEXO 9 (LRF, art.53, § 1º, inciso I)                                                                        Em reais
+                                                       PREVISÃO               RECEITAS            SALDO NÃO REALIZADO
+RECEITAS
+                                                     ATUALIZADA (a)        REALIZADAS (b)             (c) = (a - b)
+
+Receitas de Operações de Crédito (I)                  1.427.249.111,00         515.356.237,11                 911.892.873,89
+
+
+
+                                                        DOTAÇÃO              DESPESAS             SALDO NÃO EXECUTADO
+DESPESAS
+                                                     ATUALIZADA (d)       EMPENHADAS (e)               (f) = (d - e)
+
+Despesa de Capital                                    7.854.640.331,45       5.523.653.717,72               2.330.986.613,73
+
+  Investimentos                                       6.032.625.865,80       4.054.439.281,01               1.978.186.584,79
+
+  Inversões Financeiras                               1.373.820.834,65       1.053.486.303,21                 320.334.531,44
+
+  Amortização da Dívida                                 448.193.631,00         415.728.133,50                  32.465.497,50
+
+(-) Incentivos Fiscais a Contribuintes                             0,00                   0,00                           0,00
+(-) Incentivos Fiscais a Contribuinte por
+                                                        893.150.000,65         840.273.826,87                  52.876.173,78
+Instituições Financeiras
+DESPESA DE CAPITAL LÍQUIDA (II)                       6.961.490.330,80       4.683.379.890,85               2.278.110.439,95
+
+
+
+RESULTADO PARA APURAÇÃO DA REGRA DE
+                                                     5.534.241.219,80       4.168.023.653,74               1.366.217.566,06
+OURO (III) = (II – I)
+
+Fonte: SIGEFES – SEFAZ/SUBSET/GECOG/SUFIC
+NOTAS EXPLICATIVAS:
+1 -Em observância à orientação emanada da Secretaria do Tesouro Nacional que entendeu tratar-se de despesas correntes, o valor
+de R$ 26.073.218,24 relativo à amortização do parcelamento da contribuição ao PIS/PASEP, o mesmo NÃO está sendo computado
+na linha “Amortização da Dívida”, não obstante tal despesa ter sido classificada na Natureza 469071 (item patrimonial 4183).
+2 - Mediante apontamentos realizados pela SECONT, pela SEFAZ e pela SEP, encontra-se em análise, no âmbito do Poder
+Executivo, o enquadramento da CETURB como empresa estatal dependente, nos termos do art. 2º, III, da Lei Complementar nº
+101/2000, bem como a eventual transição da referida empresa para os orçamentos fiscal e da seguridade social (OFSS). Ante o
+exposto, destaca-se que, caso a CETURB integrasse o OFSS, em 2022, como empresa estatal dependente, o impacto neste
+demonstrativo, na coluna de despesas empenhadas e linha de Investimentos, seria de R$ 59.529,85, passando de R$
+4.054.439.281,01 para R$ 4.04.498.810,86, bem como na linha da apuração da regra de ouro, na mesma coluna e mesmo valor
+impactado, seria de R$ 4.194.096.872,38 passando para R$ 4.194.156.402,23.
+
+
+
+
+1.4. TRANSFERÊNCIA DE RECURSOS ORÇAMENTÁRIOS AOS PODERES LEGISLATIVO,
+JUDICIÁRIO, AO MINISTÉRIO PÚBLICO E DEFENSORIA PÚBLICA (CF/88, art.168)
+
+
+Com o objeto de garantir autonomia econômica e administrativa do Poder Judiciário, da
+Assembleia Legislativa, bem como, do Tribunal de Contas, do Ministério Público e da
+Defensoria Pública, a Constituição da República de 1988, em seu art. 168, determinou que
+até o dia 20 de cada mês o Poder Executivo deverá realizar a transferência de recursos em
+duodécimos para estes Poderes e Órgãos autônomos.
+
+
+Os quadros a seguir demonstram o montante de repasse em duodécimos transferidos no
+exercício de 2022, bem como os recursos repassados para que os Poderes pudessem
+custear o déficit financeiro junto ao RPPS.
+                                                              6
+
+
+                   Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                       Recebimento de Transferência do Duodécimo (R$)
+
+
+                       Transferência do Duodécimo                                           2022
+
+Assembleia Legislativa do Estado do Espírito Santo                                         220.438.009,00
+Tribunal de Contas do Estado do Espírito Santo                                             171.078.405,00
+
+Tribunal de Justiça do Estado do Espírito Santo                                            998.159.510,73
+Ministério Público do Estado do Espírito Santo                                             438.308.074,04
+Defensoria Pública do Estado do Espírito Santo                                               77.995.341,01
+
+Total                                                                                  1.905.979.339,78
+Fonte: SIGEFES
+
+
+
+            Recebimento de Transferência para Cobertura do Déficit do RPPS (R$)
+
+
+           Transferência para Cobertura do Déficit do RPPS                                 2022
+
+ Assembleia Legislativa do Estado do Espírito Santo                                        37.913.999,96
+
+ Tribunal de Contas do Estado do Espírito Santo                                            34.383.504,45
+ Tribunal de Justiça do Estado do Espírito Santo                                          235.688.032,98
+
+ Ministério Público do Estado do Espírito Santo                                            44.952.991,37
+ Defensoria Pública do Estado do Espírito Santo                                            24.039.999,96
+ Total                                                                                  376.978.528,72
+
+Fonte: SIGEFES
+
+
+
+2. ATENDIMENTO AOS LIMITES ESTABELECIDOS PELA LRF
+
+Em 2022, o Estado do Espírito Santo cumpriu os limites fixados pela LRF para as despesas
+com pessoal, dívida pública, operações de crédito, garantias e contragarantias e inscrição
+dos restos a pagar.
+
+
+Para verificação dos limites estabelecidos pela Lei Complementar n° 101/2000, o parâmetro
+é a Receita Corrente Líquida – RCL, que compreende todas as receitas correntes do Estado,
+tais como receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de
+serviços, transferências correntes e outras receitas correntes, deduzidas as transferências
+constitucionais e legais aos municípios e ao FUNDEB, bem como as contribuições dos
+servidores ao regime próprio de previdência, a compensação financeira entre os regimes
+geral e próprio de previdência, e as restituições de receitas. Em 2022 e 2021 estes foram os
+valores da RCL:
+
+
+
+                                                    7
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                                     Receita Corrente Líquida (R$)
+
+                    RCL (em Reais)                                  2022                      2021
+RECEITA CORRENTE LÍQUIDA                                      21.250.420.141,80 18.821.227.339,89
+( - ) Transferências obrigatórias da União relativas às
+                                                                      8.080.042,82           24.989.986,00
+emendas individuais (art. 166-A, § 1º, da CF)
+ RECEITA CORRENTE LÍQUIDA AJUSTADA PARA
+                                                         21.242.340.098,98 18.796.237.353,89
+ CÁLCULO DOS LIMITES DE ENDIVIDAMENTO
+ ( - ) Transferências obrigatórias da União relativas às
+                                                              48.627.718,92     23.550.693,00
+ emendas de bancada (art. 166, § 16, da CF)
+ RECEITA CORRENTE LÍQUIDA AJUSTADA PARA
+ CÁLCULO DOS LIMITES DA DESPESA COM                      21.193.712.380,06 18.772.686.660,89
+ PESSOAL
+Fonte: Relatório Resumido da Execução Orçamentária (RREO)
+
+
+2.1. DESPESA COM PESSOAL
+
+
+A Constituição Federal de 1988, em seu artigo 169, determinou que a “despesa com pessoal
+ativo e inativo da União, dos Estados, do Distrito Federal e dos Municípios não poderá
+exceder os limites estabelecidos em Lei Complementar”.
+
+
+A LRF, em seus artigos 19, 20, 22 e 59, versa sobre os limites de despesa com pessoal,
+previstos na Constituição Federal, e estabelece os limites de despesas com pessoal em
+relação à RCL.
+
+
+A tabela abaixo demonstra que, em 2022 e em 2021, o Estado do Espírito Santo cumpriu o
+limite legal estabelecido pela LRF para as Despesas com Pessoal.
+
+
+                                   Limites da Despesa com Pessoal
+
+                                                              Limite           Limite              Limite
+         Especificação               2022        2021
+                                                             Máximo         Prudencial            de Alerta
+ Poder Executivo                    37,48%       34,81%             49%            46,55%             44,10%
+
+ Consolidado Geral                  45,50%       43,07%             60%               57%                54%
+ Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+Em 2022, a despesa consolidada com pessoal do Governo do Estado do Espírito Santo, para
+fins da LRF, representou 45,50% da RCL, que foi de R$ 21,193 bilhões, ficando abaixo do
+limite de alerta.
+
+
+Da mesma forma, a despesa com pessoal do Poder Executivo representou 37,48% da RCL,
+não ultrapassando os limites prudencial e de alerta correspondentes.
+
+
+
+
+                                                     8
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+2.2. DÍVIDA CONSOLIDADA LÍQUIDA – DCL
+
+
+A Dívida Consolidada Líquida - DCL corresponde ao valor da Dívida Pública Consolidada
+menos as Disponibilidades de Caixa, as Aplicações Financeiras e os Demais Haveres
+Financeiros.
+
+
+Os limites da dívida são definidos pela Resolução nº 40/2001, do Senado Federal, conforme
+estabelecido no artigo 52 da Constituição Federal.
+
+
+A tabela abaixo apresenta o resumo do Demonstrativo da Dívida Consolidada Líquida, nos
+exercícios de 2022 e 2021, o qual demonstra que, em 2022, a Dívida Consolidada Líquida
+totalizou -R$ 881 milhões, correspondendo ao percentual de -4,15% da RCL e atendendo ao
+limite estabelecido pela Resolução do Senado Federal.
+
+
+                  Demonstrativo da Dívida Consolidada Líquida em 2022 e 2021 (R$)
+
+                                                                   2022                      2021
+            Dívida Consolidada Líquida                                        %
+                                                               Valor                     Valor      % RCL
+                                                                             RCL
+
+Limite definido por Resolução do Senado Federal           42.484.680.197 200       37.592.474.708    200
+Dívida Consolidada Líquida                                 -881.047.592 -4,15        371.918.026 1,98
+
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+O Demonstrativo da Dívida Consolidada Líquida abrange todos os Poderes do Estado e
+compõe o Relatório de Gestão Fiscal - RGF, com o objetivo de assegurar a transparência das
+obrigações contraídas pelos entes da Federação e verificar os limites de endividamento de
+que trata a legislação, além de outras informações relevantes sobre o tema.
+
+
+2.3. OPERAÇÕES DE CRÉDITO
+
+
+De acordo com a LRF (artigo 29, inciso III), operação de crédito corresponde ao
+compromisso financeiro assumido em razão de mútuo, abertura de crédito, emissão e aceite
+de título, aquisição financiada de bens, recebimento antecipado de valores provenientes da
+venda a termo de          bens e serviços, arrendamento mercantil e outras operações
+assemelhadas, inclusive com o uso de derivativos financeiros.
+
+
+Conforme a Resolução nº 43/2001, artigo 7º, inciso I, do Senado Federal, o limite para
+operações de crédito internas e externas é de 16% sobre a RCL, e o limite para operação de
+crédito por antecipação da receita é de 7% sobre a RCL.
+
+
+
+                                                     9
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Vale lembrar que, conforme estabelece a referida Resolução, não são consideradas, para
+fins de verificação do limite, as operações de crédito contratadas pelos estados com a
+União, com organismos multilaterais de crédito ou com instituições oficiais federais de
+crédito ou de fomento, com a finalidade de financiar projetos de investimento para a
+melhoria da administração das receitas e da gestão fiscal, financeira e patrimonial, no
+âmbito de programa proposto pelo Poder Executivo Federal.
+
+
+A tabela abaixo demonstra que no percentual de comprometimento das receitas de
+operações de crédito realizadas, em relação à RCL, o Estado atendeu ao disposto na
+Resolução nº 43/2001, ficando abaixo do limite estabelecido.
+
+
+                               Operações de Crédito em 2022 e 2021 (R$)
+
+                                                                 2022                        2021
+              Operações de Crédito
+                                                           Valor        % RCL         Valor          % RCL
+Limite definido por Resolução do Senado Federal
+                                                3.398.774.415             16       3.007.397.977      16
+para Operações Internas e Externas
+
+Operações de Crédito Internas e Externas                 515.356.237     2,43      235.240.781       1,25
+Limite definido pelo Senado Federal para
+                                                1.486.963.806             7        1.315.736.615       7
+Operações de Crédito por Antecipação de Receita
+Operações de Crédito por Antecipação de
+                                                             -             -             -             -
+Receita
+
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+2.4. GARANTIAS E CONTRAGARANTIAS
+
+
+O saldo de garantias concedidas pelo Governo do Estado, ao final de dezembro de 2022, foi
+de R$ 137,8 milhões, representando 0,65% da RCL ajustada para cálculo dos limites de
+endividamento, que foi de R$ 21,242 bilhões. Portanto, foi atendido o limite máximo de
+22%, estabelecido pelo artigo 9º da Resolução do Senado nº 43/2001. Vide tabela abaixo:
+
+
+                               Garantias concedidas em 2022 e 2021 (R$)
+
+                                                                 2022                         2021
+            Garantias Concedidas
+                                                           Valor         % RCL          Valor         % RCL
+Limite definido   por   Resolução    do   Senado
+                                                         4.673.314.821     22       4.135.172.218          22
+Federal
+
+Total de Garantias                                        137.794.265     0,65        50.443.123       0,27
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+
+
+                                                    10
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                          GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+2.5. INSCRIÇÃO DOS RESTOS A PAGAR E DISPONIBILIDADE DE CAIXA
+
+
+Os restos a pagar são as despesas empenhadas e não pagas até o término do exercício.
+Dividem-se em restos a pagar processados (despesas liquidadas e não pagas) e restos a
+pagar não processados (despesas empenhadas e não liquidadas).
+
+
+Para a inscrição de despesas em restos a pagar, o ente público deve comprovar que possui
+recursos disponíveis para honrar os compromissos e observar se os recursos são legalmente
+vinculados à finalidade específica para a qual serão utilizados.
+
+
+O Estado do Espírito Santo inscreveu em restos a pagar o montante de R$ 2,047 bilhões em
+2022, sendo R$ 785,981 milhões processados e R$ 1,261 bilhão não processados.
+
+
+Dessa forma, o Estado do Espírito Santo encerrou 2022 com uma disponibilidade líquida de
+caixa de R$ 6,357 bilhões, incluindo recursos não vinculados (R$ 2,258 bilhões) e recursos
+vinculados (R$ 4,098 bilhões). Na apuração da disponibilidade líquida já estão descontadas
+as obrigações financeiras, inclusive os restos a pagar inscritos, conforme demonstrado no
+quadro a seguir:
+                                  Demonstrativo da Disponibilidade de Caixa (R$)
+
+                                                OBRIGAÇÕES FINANCEIRAS
+                                                                                                               Disponibilidade
+                                                           Restos a                                            de Caixa Líquida
+                      Restos a Pagar Liquidados e           Pagar                                                   (Após a
+ Disponibilidade                                                                           Restos a Pagar
+                               Não Pagos                Empenhados          Demais                               inscrição em
+ de Caixa Bruta                                                                            Empenhados e
+                                                            e Não         Obrigações                                RAP não
+                                                                                           Não Liquidados
+                                                        Liquidados de     Financeiras                          processados do
+                                                                                            do Exercício
+                      De Exercícios                       Exercícios                                               exercício)
+                                       Do Exercício       Anteriores
+                       Anteriores
+
+   9.099.340.573,97    76.424.650,95   785.981.004,11     19.907.508,35   598.666.202,44    1.261.369.738,51     6.356.991.469,61
+Fonte: Relatório Resumido da Execução Orçamentária (RREO)
+
+
+
+3. ANÁLISE DAS METAS ESTABELECIDAS NA LDO
+
+
+A Lei nº 11.354/21 (LDO 2022) estabeleceu as metas fiscais para o triênio 2022-2024 e
+também as diretrizes para a elaboração do orçamento referente ao exercício de 2022.
+
+
+A receita total foi estimada na LDO em R$ 17.614 milhões e a despesa total foi definida em
+R$ 17.606 milhões. Já a meta de resultado primário foi fixada em -R$ 1.144 milhões;
+enquanto que a meta de resultado nominal foi fixada em -R$ 459 milhões.
+
+
+Do ponto de vista da LOA, a receita total foi estimada para 2022 em R$ 20.273 milhões,
+idêntica à despesa total. E, ao final do exercício, a receita total realizada foi de R$ 24.021
+milhões e a despesa total realizada foi de R$ 22.785 milhões.
+
+                                                              11
+
+
+                   Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+O resultado primário, que é obtido a partir das receitas primárias, subtraídas das despesas
+primárias, tem como meta para o ano de 2022 o valor de -R$ 1.144 milhões. O Estado do
+Espírito Santo obteve um resultado superavitário de R$ 550 milhões. Indicando, dessa
+forma, o cumprimento da meta estabelecida.
+
+
+A meta de resultado nominal pode ser obtida a partir do resultado primário, mediante a
+soma da conta de juros (juros ativos menos juros passivos). No exercício de 2022, a meta
+prevista na LDO para o resultado nominal era de aproximadamente -R$ 459 milhões, e o
+valor realizado foi de R$ 1.118 milhões. Dessa forma, indicando, também, o cumprimento
+da meta.
+
+
+
+
+                                                  12
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+O quadro a seguir demonstra os valores previstos e realizados para o resultado primário e
+nominal no exercício de 2022:
+
+
+
+
+Portanto, a partir dos resultados apresentados acima, conclui-se pela indicação do
+cumprimento tanto da (i) meta de resultado primário quanto da (ii) meta de resultado
+nominal fixados no Anexo de Metas Fiscais da LDO 2022.
+
+
+
+
+4. O CUMPRIMENTO DOS PROGRAMAS PREVISTOS NA LOA E SUA CONSONÂNCIA
+COM A LDO E O PPA
+
+
+As informações acerca do cumprimento dos programas previstos na LOA e sua consonância
+com a LDO e o PPA encontram-se disponíveis em anexo (item II-02-RELGES-01).
+
+
+
+
+5. PRECATÓRIOS ESTADUAIS – INSCRIÇÃO, BAIXA E PAGAMENTOS
+
+
+As informações acerca da política adotada pelo Estado do Espírito Santo para pagamento de
+precatórios, referente ao exercício de 2022, encontram-se disponíveis em anexo (item II-
+02-RELGES-02).
+
+
+As informações acerca de inscrição, baixa e pagamentos de precatórios do Governo do
+Estado do Espírito Santo, referente ao exercício de 2022, encontram-se disponíveis em
+anexo (item II-18-RELPRE).
+
+
+
+                                                  13
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+6. GASTOS COM PUBLICIDADE
+
+
+Os gastos com publicidade dos Órgãos e Entidades da Administração Pública do Governo do
+Estado do Espírito Santo constantes do Orçamento Fiscal e de Seguridade Social, em 2022,
+totalizaram um montante de R$ 43,642 milhões. Segue abaixo o demonstrativo, de forma
+consolidada, das despesas com ações de publicidade e propaganda, incluídos os gastos com
+publicidade institucional, legal, e de utilidade pública:
+
+
+                                GASTOS COM PUBLICIDADE - 2022
+                                                                                       Despesas
+                              Unidade Gestora                                        Orçamentárias
+                                                                                      Pagas (R$)
+010101 - ASSEMBLEIA LEGISLATIVA DO ESTADO DO ESPÍRITO SANTO                                        2.427.250,63
+020101 - TRIBUNAL DE CONTAS DO ESTADO DO ESPÍRITO SANTO                                                4.295,01
+
+                                                                                                       1.750,20
+030901 - FUNDO ESPECIAL DO PODER JUDICIÁRIO DO ESTADO DO ESPÍRITO SANTO
+050101 - MINISTÉRIO PÚBLICO DO ESTADO DO ESPÍRITO SANTO                                              17.639,65
+060101 - DEFENSORIA PÚBLICA DO ESTADO DO ESPÍRITO SANTO                                                7.884,59
+060901 - FUNDO DE APARELHAMENTO DA DEFENSORIA PÚBLICA                                                74.579,89
+100101 - SECRETARIA DA CASA CIVIL                                                                      2.381,45
+100102 - SECRETARIA DA CASA MILITAR                                                                  24.341,21
+100103 - SECRETARIA DE ESTADO DE CONTROLE E TRANSPARÊNCIA                                            58.586,58
+100104 - SUPERINTENDÊNCIA ESTADUAL DE COMUNICAÇÃO SOCIAL                                          32.294.675,70
+100109 - SECRETARIA DE ESTADO DO GOVERNO                                                             30.618,06
+100201 - RÁDIO E TELEVISÃO ESPÍRITO SANTO                                                            16.526,72
+160101 - PROCURADORIA GERAL DO ESTADO                                                                20.696,72
+190101 - VICE-GOVERNADORIA DO ESTADO                                                                   2.256,11
+220101 - SECRETARIA DE ESTADO DA FAZENDA                                                            224.704,26
+220202 - JUNTA COMERCIAL DO ESTADO DO ESPIRITO SANTO                                                 34.850,88
+270101 - SECRETARIA DE ESTADO DE ECONOMIA E PLANEJAMENTO                                             28.902,67
+270201 - INSTITUTO JONES DOS SANTOS NEVES                                                            26.946,70
+280101 - SECRETARIA DE ESTADO DE GESTÃO E RECURSOS HUMANOS                                          801.452,34
+280201 - ESCOLA DE SERVIÇO PÚBLICO DO ESPÍRITO SANTO                                                 75.165,19
+280203 - INSTITUTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO DO ESPÍRITO                             43.913,48
+SANTO
+310101 - SECRETARIA DE ESTADO DA AGRICULTURA, ABASTECIMENTO, AQUICULTURA E                          448.871,76
+PESCA
+
+                                                                                                    168.259,20
+310201 - INSTITUTO DE DEFESA AGROPECUÁRIA E FLORESTAL DO ESPÍRITO SANTO
+
+                                                                                                    118.376,48
+310202 - INSTITUTO CAPIXABA DE PESQUISA, ASSISTÊNCIA TÉCNICA E EXTENSÃO RURAL
+310203 - CENTRAIS DE ABASTECIMENTO DO ESPÍRITO SANTO                                                 47.682,48
+320101 - SECRETARIA DE ESTADO DA CIÊNCIA, TECNOLOGIA, INOVAÇÃO, EDUCAÇÃO PROF.                       50.267,61
+E DESENV. ECONÔMICO
+
+                                                                                                    108.279,03
+320202 - FUNDAÇÃO DE AMPARO À PESQUISA E INOVAÇÃO DO ESPÍRITO SANTO
+
+                                                                                                     58.927,73
+320203 - INSTITUTO DE PESOS E MEDIDAS DO ESTADO DO ESPÍRITO SANTO
+
+                                                       14
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+320204 - AGÊNCIA DE DESENVOLVIMENTO DAS MICRO E PEQUENAS EMPRESAS E DO                              99.843,01
+EMPREENDEDORISMO
+320206 - AGÊNCIA DE REGULAÇÃO DE SERVIÇOS PÚBLICOS                                                  37.525,42
+
+350101 - SECRETARIA DE ESTADO DE MOBILIDADE E INFRAESTRUTURA                                        17.310,47
+350201 - DEPARTAMENTO DE EDIFICAÇÕES E DE RODOVIAS DO ESTADO DO ESPÍRITO                           350.775,36
+SANTO
+360101 - SECRETARIA DE ESTADO DE SANEAMENTO, HABITAÇÃO E DESENVOLVIMENTO                           146.843,05
+URBANO
+370101 - SECRETARIA DE ESTADO DO TURISMO                                                            23.966,92
+390101 - SECRETARIA DE ESTADO DE ESPORTES E LAZER                                                  145.775,14
+400101 - SECRETARIA DE ESTADO DA CULTURA                                                            61.273,24
+400102 - ARQUIVO PÚBLICO DO ESTADO DO ESPÍRITO SANTO                                                 5.635,45
+
+                                                                                                    34.717,07
+410101 - SECRETARIA DE ESTADO DE MEIO AMBIENTE E RECURSOS HÍDRICOS
+
+                                                                                                   229.873,11
+410201 - INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS
+410202 - AGÊNCIA ESTADUAL DE RECURSOS HÍDRICOS                                                      25.618,77
+420101 - SECRETARIA DE ESTADO DA EDUCAÇÃO                                                          414.928,87
+420201 - FACULDADE DE MÚSICA DO ESPÍRITO SANTO                                                     265.421,00
+440901 - FUNDO ESTADUAL DE SAÚDE                                                                  1.543.314,40
+440910 - HOSPITAL INFANTIL NOSSA SENHORA DA GLÓRIA                                                 258.351,78
+440911 - HOSPITAL DOUTOR DORIO SILVA                                                               191.920,62
+440912 - HOSPITAL ADAUTO BOTELHO                                                                    25.115,64
+
+                                                                                                    30.376,22
+440913 - CENTRO DE REABILITAÇÃO FÍSICA DO ESTADO DO ESPÍRITO SANTO
+440914 - HOSPITAL ANTONIO BEZERRA DE FARIAS                                                         13.514,19
+440916 - HOSPITAL E MATERNIDADE SILVIO AVIDOS                                                       82.228,39
+440917 - HOSPITAL DOUTOR ROBERTO ARNIZAUT SILVARES                                                 127.976,50
+
+                                                                                                     1.771,25
+440918 - CENTRO DE ATENDIMENTO PSIQUIÁTRICO ARISTIDES ALEXANDRE CAMPOS
+440919 - COLONIA PEDRO FONTES                                                                        1.224,13
+440920 - HOSPITAL DOUTORA RITA DE CASSIA                                                            54.181,95
+440921 - UNIDADE INTEGRADA JERÔNIMO MONTEIRO                                                        32.929,60
+440922 - HOSPITAL SÃO JOSÉ DO CALÇADO                                                               49.853,79
+440923 - HOSPITAL JOÃO DOS SANTOS NEVES                                                             13.621,13
+
+                                                                                                    80.412,95
+440926 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE CACHOEIRO ITAPEMIRIM
+440927 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE SÃO MATEUS                                           31.923,78
+440928 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE COLATINA                                             85.913,45
+440929 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE VITÓRIA                                              74.529,95
+
+                                                                                                   136.765,52
+450101 - SECRETARIA DE ESTADO DA SEGURANÇA PÚBLICA E DEFESA SOCIAL
+450102 - POLÍCIA CIVIL DO ESTADO DO ESPÍRITO SANTO                                                 292.069,38
+450103 - POLÍCIA MILITAR DO ESTADO DO ESPÍRITO SANTO                                               177.562,65
+
+                                                                                                    70.557,14
+450104 - CORPO DE BOMBEIROS MILITAR DO ESTADO DO ESPÍRIDO SANTO
+450105 - DIRETORIA DE SAÚDE DA POLÍCIA MILITAR                                                      64.024,76
+450202 - DEPARTAMENTO ESTADUAL DE TRÂNSITO                                                         301.275,48
+450904 - FUNDO ESPECIAL DE REEQUIPAMENTO DO CORPO BOMBEIROS MILITAR DO                               3.085,75
+ESPÍRITO SANTO
+460101 - SECRETARIA DE ESTADO DA JUSTIÇA                                                           107.203,58
+
+
+                                                       15
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                       GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                                                                                                     19.158,32
+460202 - INSTITUTO ESTADUAL DE PROTEÇÃO E DEFESA DO CONSUMIDOR
+470101 - SECRETARIA DE ESTADO DE TRABALHO, ASSISTÊNCIA E DESENVOLVIMENTO                            111.837,04
+SOCIAL
+480101 - SECRETARIA DE ESTADO DE DIREITOS HUMANOS                                                    37.690,67
+
+                                                                                                    226.352,66
+480201 - INSTITUTO DE ATENDIMENTO SOCIOEDUCATIVO DO ESPÍRITO SANTO
+
+                                                                                                    316.032,32
+600201 - INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DO ESPÍRITO SANTO
+ Total                                                                                          43.642.364,20
+Fonte: SIGEFES
+
+
+
+7. A POLÍTICA DE RECUPERAÇÃO DOS CRÉDITOS INSCRITOS EM DÍVIDA ATIVA
+
+
+As informações acerca da política de recuperação dos créditos inscritos em dívida ativa
+encontram-se disponíveis em anexo (item II-02-RELGES–02).
+
+
+7.1.    PROVISIONAMENTOS PARA PERDAS REGISTRADOS EM CONTAS DE AJUSTES DA
+DÍVIDA ATIVA
+
+
+7.1.1. DÍVIDA ATIVA TRIBUTÁRIA
+
+
+Os valores constantes da dívida ativa tributária, regulamentada a partir da legislação
+pertinente, abrangem os créditos tributários a favor da Fazenda Pública cuja certeza e
+liquidez foram apuradas, por não terem sido efetivamente recebidos nas datas aprazadas.
+É, portanto, uma fonte potencial de fluxos de caixa, com impacto positivo pela recuperação
+de valores, espelhando créditos a receber, sendo contabilmente reconhecida no ativo.
+Segue abaixo o quadro da dívida ativa tributária, cuja contabilização tem por base dados
+gerados pelo Sistema de Informações Tributárias – SIT:
+
+
+                                Dívida Ativa Tributária em 2022 e 2021 (R$)
+
+                                                      2022                                 2021
+   Dívida Ativa Tributária                                     Não                                 Não
+                                         Circulante                           Circulante
+                                                            Circulante                          Circulante
+Dívida Ativa Tributária                   141.701.871 32.406.493.206            44.863.524 27.490.871.276
+(-) Ajuste de Perdas de Dívida
+                                          129.993.329 29.400.825.574            41.267.533 25.287.342.339
+Ativa Tributária
+Total                                     11.708.542 3.005.667.632              3.595.991 2.203.528.937
+Fonte: SIGEFES
+
+
+
+No exercício de 2023, houve registro de ajuste no saldo da conta de dívida ativa tributária,
+no montante de (R$ 357.495.540), em virtude de registro equivocado ocorrido em 2022.
+Desta forma, o saldo atualizado é de R$ 32.190.699.537.
+                                            16
+
+
+                 Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Ajustes de Perdas de Dívida Ativa Tributária
+
+
+A partir do exercício de 2022, o Estado do Espírito Santo passou utilizar a metodologia da
+média ponderada de recebimentos passados, tendo como base os valores inscritos nos
+últimos três exercícios, para fins de mensuração do valor recuperável dos créditos inscritos
+em dívida ativa, nos termos do parágrafo único, do art.13, do Decreto Estadual n° 5089-R,
+de 15 de fevereiro de 2022.
+
+
+A   metodologia,    baseada     no   histórico    de    recebimentos     passados,     utilizada   nessas
+demonstrações, baseia-se em duas variáveis principais, que é a apresentada a seguir:
+
+
+       Média percentual de recebimentos passados; e
+
+
+       Saldo atualizado da conta de créditos inscritos em Dívida Ativa.
+
+
+A média percentual de recebimentos passados utiliza uma média ponderada dos
+recebimentos com relação aos montantes inscritos dos três últimos exercícios. Essa média
+ponderada de recebimentos é calculada em cada um dos três últimos exercícios pela divisão
+da média mensal de recebimentos em cada exercício pela média anual dos saldos mensais.
+A partir da média ponderada dos recebimentos dos três últimos exercícios, calcula-se a
+média percentual de recebimentos pela divisão da soma desses percentuais dividida pelo
+número de meses correspondentes ao exercício.
+
+
+7.1.2. DÍVIDA ATIVA NÃO TRIBUTÁRIA
+
+
+São os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos
+compulsórios, contribuições estabelecidas em lei, multa de qualquer origem ou natureza,
+exceto as tributárias, foros, laudêmios, alugueis ou taxas de ocupação, custas processuais,
+preços de serviços prestados por estabelecimentos públicos, indenizações, reposições,
+restituições, alcances dos responsáveis definitivamente julgados, bem assim os créditos
+decorrentes de obrigações em moeda estrangeira, de sub-rogação de hipoteca, fiança, aval
+ou outra garantia, de contratos em geral ou de outras obrigações legais
+
+
+
+
+                                                   17
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                       GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                               Dívida Ativa Não Tributária em 2022 e 2021 (R$)
+
+                                                      2022                                2021
+Dívida Ativa Não Tributária                                     Não                                 Não
+                                           Circulante                         Circulante
+                                                             Circulante                          Circulante
+Dívida Ativa Não Tributária                  4.531.128        746.506.187         2.700.593      722.855.753
+(-) Ajuste de Perdas de Dívida
+                                             4.156.730        673.498.221         2.484.130      664.299.009
+Ativa Não Tributária
+Total                                         374.398         73.007.966          216.463        58.556.744
+Fonte: SIGEFES
+
+
+
+No exercício de 2023, houve registro de ajuste no saldo da conta de dívida ativa não
+tributária, no montante de (R$ 8.686.225), em virtude de registro equivocado ocorrido em
+2022. Desta forma, o saldo atualizado é de R$ 742.351.090.
+
+
+Ajustes de Perdas de Dívida Não Ativa Tributária
+
+
+A metodologia de cálculo do ajuste de perdas da dívida ativa não tributária foi a mesma
+utilizada para a dívida ativa tributária, cuja descrição consta no item 7.1.1.
+
+
+8. PARTICIPAÇÕES ACIONÁRIAS DO ESTADO
+
+
+Os investimentos em participações societárias dos Órgãos da Administração Direta e
+Entidades da Administração Indireta do Governo do Estado do Espírito Santo, em
+31/12/2022, foram avaliados pelo Método da Equivalência Patrimonial (MEP), pelo Método
+de Custo (MC) e pelo Método do Valor Justo (MVJ), assim como os Adiantamentos para
+Futuro    Aumento         de     Capital     (AFAC)     das       Investidoras/Controladoras        em   suas
+Coligadas/Investidas/Controladas.
+
+
+Investimentos em Participações Societárias derivam de operações nas quais a investidora
+adquire ações de outra sociedade, denominada investida.
+
+
+As   Participações      Societárias,    dependendo           da   intenção   da   investidora,   podem    ser
+classificadas em permanentes ou temporárias.
+
+
+Para fins contábeis, existem três métodos de avaliação de investimentos em participações
+societárias: Método da Equivalência Patrimonial (MEP), Método de Custo (MC) e o Método
+do Valor Justo (MVJ).
+
+
+
+                                                        18
+
+
+                 Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+As Participações Societárias Permanentes são adquiridas com a intenção de permanência e
+classificadas no “Ativo Não Circulante/Investimentos”, sendo avaliadas pelo MEP (Método da
+Equivalência Patrimonial) ou MC (Método de Custo).
+
+
+As   Participações   Societárias   Temporárias       são   adquiridas     exclusivamente        para   fins
+especulativos e classificadas no “Ativo Circulante” ou no “Ativo Não Circulante/Realizável à
+Longo Prazo”, sendo avaliadas pelo MVJ (Método do Valor Justo).
+
+
+8.1. REGISTRO DOS INVESTIMENTOS EM PARTICIPAÇÕES SOCIETÁRIAS AVALIADAS PELO
+MÉTODO DA EQUIVALÊNCIA PATRIMONIAL
+
+
+As participações em empresas sobre cuja administração se tenha influência significativa
+devem ser mensuradas ou avaliadas pelo Método da Equivalência Patrimonial (MEP).
+
+
+Coligadas são as sociedades nas quais a investidora tenha influência significativa.
+
+
+Influência Significativa é o poder de participar nas decisões sobre políticas financeiras e
+operacionais de uma investida, sem controlá-la ou se o investidor mantém direta ou
+indiretamente vinte por cento (20%) ou mais no poder de voto da investida.
+
+
+Controladas são as sociedades na qual a controladora, diretamente ou por meio de outras
+controladas (indiretamente), é titular de direitos de sócio que lhe assegurem, de modo
+permanente, preponderância nas deliberações sociais e o poder de eleger a maioria dos
+administradores e para que ocorra o controle, a investidora (controladora) tem que ter,
+direta ou indiretamente, mais de 50% das ações (ordinárias = capital votante) com direito a
+voto da investida (controlada). O capital social de uma companhia pode ser formado por
+ações preferenciais (que não tem direito a voto) e por ações ordinárias (que tem direito a
+voto), ou seja, o capital social = capital não votante + capital votante, sendo que o
+percentual máximo (0% ≤ preferenciais ≤ 50%) de ações preferenciais é de 50% e o
+percentual mínimo (50% ≤ ordinárias ≤ 100%) de ações ordinárias corresponde a 50% do
+capital social da sociedade.
+
+
+Pelo Método de Equivalência Patrimonial (MEP), o investimento é inicialmente registrado a
+preço de custo e o valor contábil é aumentado ou reduzido conforme o Patrimônio Líquido
+da investida aumente ou diminua em contrapartida à conta de resultado.
+
+
+
+
+                                                  19
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+A equivalência patrimonial é calculada duas vezes no decorrer do exercício: no primeiro
+semestre, tendo como base as demonstrações contábeis das empresas controladas de
+dezembro do exercício anterior; e em dezembro, tendo como base as demonstrações
+contábeis de outubro do próprio exercício.
+
+
+Segue abaixo a demonstração dos Investimentos avaliados pelo MEP de propriedade do
+Governo do Estado do Espírito Santo, para os anos 2022 e 2021:
+
+
+   a) Companhia Espírito Santense de Saneamento – CESAN:
+
+                     Companhia Espírito Santense de Saneamento
+Período de Apuração MEP na Investidora               31/12/2022                         31/12/2021
+Ações em Circulação                                   3.057.005.715                     2.885.394.940
+Ações Pertencentes ao Estado                          3.051.099.567                     2.879.642.773
+Percentual Participação Capital Social (%)                    99,81                             99,80
+Patrimônio Líquido (R$)                               3.272.660.696                     3.058.260.019
+Valor do Invest. Apurado pelo MEP (R$)               3.266.250.519                     3.051.374.021
+Saldo na conta “Investimentos” (R$) - (I)             3.051.374.021                     2.909.947.295
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)      66.683.360                        83.271.994
+Registro de Juros sobre Capital Próprio (R$) - (III)     70.738.339                        75.541.573
+Resultado do MEP (R$) - (IV)                           218.931.477                       133.696.305
+Valor Atual. Partic. Soc. (R$) V = (I+II-III+IV)     3.266.250.519                     3.051.374.021
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+Do total de 3.057.005.715 ações da CESAN, 426.533.922 pertencem à Administração
+Indireta   (Agência     de   Desenvolvimento        das    Micro    e   Pequenas      Empresas   e   do
+Empreendedorismo) e 2.624.565.645 pertencem à Administração Direta, totalizando
+99,81% do Capital Social da empresa.
+
+
+   b) Banco de Desenvolvimento do Estado do Espírito Santo – BANDES:
+               Banco de Desenvolvimento do Estado do Espírito Santo
+Período de Apuração MEP na Investidora              31/12/2022     31/12/2021
+Ações que compõem o Capital Social                  29.720.323.781 29.720.323.781
+Ações em Tesouraria (-)                               -801.536.738   -801.536.738
+Ações em Circulação                                 28.918.787.043 28.918.787.043
+Ações Pertencentes ao Estado                        25.311.840.268 25.311.840.268
+Percentual Participação Capital Social (%)                   87,53          87,53
+Patrimônio Líquido (R$)                                392.272.979    306.456.090
+Valor do Investimento Apurado pelo MEP (R$)           334.244.551    268.214.593
+Saldo na conta “Investimentos” (R$) - (I)              268.214.593    224.721.317
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)              -              -
+Resultado do MEP (R$) - (III)                          66.029.958     43.493.276
+Vlr. Atual. Partic. Soc. (R$) - IV = (I+II+III)       334.244.551    268.214.593
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+                                                   20
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Das ações do BANDES, 64.860.715 pertencem à Administração Indireta (Instituto Jones
+dos Santos Neves) e 25.246.979.553 pertencem à Administração Direta, de um total de
+29.706.246.368, perfazendo 85,21% do Capital Social da empresa.
+
+
+Em 2023, houve recálculo do método de equivalência patrimonial da referida empresa,
+referente ao exercício de 2022, ou seja, um aumento no MEP no montante de R$
+9.078.166. Desta forma, o saldo atualizado é de R$ 343.322.717.
+
+
+   c) Banco do Estado do Espírito Santo – BANESTES:
+
+                           Banco do Estado do Espírito Santo
+Período de Apuração MEP na Investidora               31/12/2022                         31/12/2021
+Ações em Circulação                                      315.912.860                      315.912.860
+Ações Pertencentes ao Estado                             292.289.933                      292.288.533
+Percentual Participação Capital Social (%)                     92,52                            92,52
+Patrimônio Líquido (R$)                                2.028.892.000                    1.851.693.000
+Valor do Investimento Apurado pelo MEP (R$)          1.877.202.485                     1.713.221.267
+Saldo na conta “Investimentos” (R$) - (I)              1.713.221.267                    1.470.412.559
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                -                        2.593.423
+Resultado do MEP (R$) - (III)                           163.981.218                      240.215.285
+Valor Atualizado Participações Societárias           1.877.202.485                     1.713.221.267
+(R$) - IV = (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+Do montante de 315.912.860 ações do BANESTES, 496.404 pertencem à Administração
+Indireta   (Agência     de   Desenvolvimento        das    Micro    e   Pequenas      Empresas   e   do
+Empreendedorismo e Instituto Jones dos Santos Neves) e 291.793.529 pertencem à
+Administração Direta, totalizando 92,52% do Capital Social da empresa.
+
+
+   d) Companhia de Transportes Urbanos da Grande Vitória – CETURB:
+
+                Companhia de Transportes Urbanos da Grande Vitória
+Período de Apuração MEP na Investidora            31/12/2022       31/12/2021
+Ações em Circulação                                    93.473.015     93.473.015
+Ações Pertencentes ao Estado                           93.472.994     93.472.994
+Percentual Participação Capital Social (%)                  99,99          99,99
+Patrimônio Líquido (R$)                                14.268.124      6.194.003
+Ajuste do PL pelo MEP (AFAC) (R$)                    - 26.897.876    -26.897.876
+Valor do Patrimônio Líquido Ajustado (R$)             -12.629.752    -20.703.873
+Valor do Investimento Apurado pelo MEP (R$)                     -              -
+Saldo na conta “Investimentos” (R$) - (I)                       -              -
+Resultado do MEP (R$) - (II)                                    -              -
+Valor Atualizado Participações Societárias (R$)                 -              -
+- III = (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+                                                   21
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+    e) Companhia de Habitação e Urbanização do Espírito Santo – COHAB:
+            Companhia de Habitação e Urbanização do Espírito Santo
+Período de Apuração MEP na Investidora          31/12/2022       31/12/2021
+
+Ações em Circulação                                               69.201.819.208        69.201.819.208
+Ações Pertencentes ao Estado                                      69.201.819.208        69.201.819.208
+Percentual Participação Capital Social (%)                                   100                   100
+Patrimônio Líquido (R$)                                               14.951.874            14.978.394
+Valor do Invest. Apurado pelo MEP (R$)                               14.951.874            14.978.394
+Saldo na conta “Investimentos” (R$) - (I)                             14.978.394            15.066.754
+Resultado do MEP (R$) - (II)                                            - 26.520              - 88.360
+Valor Atualizado Participações Societárias (R$)                      14.951.874            14.978.394
+- III = (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+
+   f) Fundo de Desenvolvimento e Participações do Estado do Espírito Santo – FUNDEPAR:
+      Fundo de Desenvolvimento e Participações do Estado do Espírito Santo
+Período de Apuração MEP na Investidora                            31/12/2022            31/12/2021
+Ações em Circulação                                                   105.000.000           105.000.000
+Ações Pertencentes ao Estado                                          105.000.000           105.000.000
+Percentual Participação Capital Social (%)                                       100               100
+Patrimônio Líquido (R$)                                               150.313.914           147.566.951
+Valor do Invest. Apurado pelo MEP (R$)                              150.313.914           147.566.951
+Saldo na conta “Investimentos” (R$) - (I)                            147.566.951           148.086.477
+Resultado do MEP (R$) - (II)                                          2.746.963             - 519.526
+Valor Atual. Participações Societárias (R$) - III                   150.313.914           147.566.951
+= (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+   g) Centrais de Abastecimento do Espírito Santo – CEASA:
+                     Centrais de Abastecimento do Espírito Santo
+Período de Apuração MEP na Investidora                 31/12/2022                       31/12/2021
+Ações em Circulação                                         3.159.557                        3.159.557
+Ações Pertencentes ao Estado                                3.039.545                        3.039.545
+Percentual Participação Capital Social (%)                      96,20                            96,20
+Patrimônio Líquido (R$)                                    10.085.422                        8.202.347
+Valor do Invest. Apurado pelo MEP (R$)                     9.702.339                        7.890.790
+Saldo na conta “Investimentos” (R$) - (I)                   7.890.790                       10.446.239
+Resultado do MEP (R$) - (II)                               1.811.549                      - 2.555.449
+Valor Atualizado Partic. Societárias (R$) - III =          9.702.339                        7.890.790
+(I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+
+                                                   22
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+    h) Fundo Garantidor de Parcerias Público-Privadas – FGP-ES:
+               Fundo Garantidor de Parcerias Público-Privadas – FGP-ES
+Período de Apuração MEP na Investidora                            31/12/2022            31/12/2021
+Ações em Circulação                                                    20.000.000            20.000.000
+Ações Pertencentes ao Estado                                           20.000.000            20.000.000
+Percentual Participação Capital Social (%)                                       100                  100
+Patrimônio Líquido (R$)                                                22.776.465            20.506.755
+Valor do Invest. Apurado pelo MEP (R$)                                22.776.465            20.506.755
+Saldo na conta “Investimentos” (R$) - (I)                              20.506.755            19.911.309
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                       -                              -
+Resultado do MEP (R$) - (III)                                          2.269.710               595.446
+Valor Atual. Participações Societárias (R$) - IV                      22.776.465            20.506.755
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+    i)   Fundo de Aval BANDES
+                                     Fundo de Aval BANDES
+Período de Apuração MEP na Investidora                            31/12/2022            31/12/2021
+Ações em Circulação                                                    22.042.000            20.000.000
+Ações Pertencentes ao Estado                                           20.000.000            20.000.000
+Percentual Participação Capital Social (%)                                    90,74                   100
+Patrimônio Líquido (R$)                                                21.855.183            19.530.871
+Valor do Invest. Apurado pelo MEP (R$)                                19.830.489            19.530.871
+Saldo na conta “Investimentos” (R$) - (I)                              19.530.871            19.782.600
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                       -                              -
+Resultado do MEP (R$) - (III)                                            299.618             - 251.729
+Valor Atual. Participações Societárias (R$) - IV                      19.830.489            19.530.871
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+
+
+    j) Companhia de Gás do Espírito Santo – ES GÁS
+                       Companhia de Gás do Espírito Santo – ES GÁS
+Período de Apuração MEP na Investidora                            31/12/2022            31/12/2021
+Ações Ordinárias que compõem o Capital Social                         493.692.000           493.692.000
+Ações Preferenciais que compõem o Capital Social                      142.474.000           142.474.000
+Ações Ordinárias pertencentes ao Estado                               251.783.000           251.783.000
+Ações Preferenciais pertencentes ao Estado                               2.550.000               2.550.000
+Percentual Participação Capital Social (%)                                    39,98                 39,98
+Patrimônio Líquido (R$)                                               725.923.000           701.400.000
+Valor do Invest. Apurado pelo MEP (R$)                              290.216.978           280.412.920
+Saldo na conta “Investimentos” (R$) - (I)                            280.412.920           257.815.160
+Resultado do MEP (R$) - (II)                                          9.804.058            22.597.760
+Valor Atual. Participações Societárias (R$) - III                   290.216.978           280.412.920
+= (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2022
+
+                                                   23
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+8.2.     RECONHECIMENTO           DOS     INVESTIMENTOS         EM    PARTICIPAÇÕES         SOCIETÁRIAS
+AVALIADAS PELO MÉTODO DE CUSTO
+
+
+Os investimentos em participação no capital social em outras sociedades serão avaliados
+pelo custo de aquisição, deduzido de provisão para perdas prováveis na realização do seu
+valor, quando essa perda estiver comprovada como permanente, e que não será modificado
+em razão do recebimento, sem custo para a companhia, de ações ou quotas bonificadas.
+
+
+O “Método de Custo” é aplicável aos investimentos em outras sociedades que não são
+coligadas (não há influência significativa) e nem controladas (possuir menos de 50% das
+ações ordinárias/capital votante e nem haver influência significativa na investida). Esse
+método baseia-se no fato de que a investidora registra somente as operações ou transações
+baseadas em atos formais, pois, de fato os dividendos são registrados como receita no
+momento em que são declarados e distribuídos, ou reconhecidos pela empresa investida.
+
+
+Por este método (MC), os investimentos são registrados pelo custo de aquisição, deduzido
+de provisão para perdas. A entidade investidora somente reconhece o rendimento na
+medida em que receber as distribuições de lucros do item investido. As distribuições
+provenientes de rendimentos sobre investimentos do ativo permanente são reconhecidas
+como receita patrimonial. Os ajustes apurados são contabilizados em contas de resultado.
+
+
+Segue abaixo, a demonstração do Investimento avaliado pelo MC (Método de Custo) de
+propriedade do Governo do Estado do Espírito Santo:
+
+
+   a) Companhia Docas do Espírito Santo – CODESA:
+                           Companhia Docas do Espírito Santo
+Período de Apuração MEP na Investidora            31/12/2022                            31/12/2021
+Valor da Partic. da União no Capital Social (R$)             -                             296.312.402
+Valor da Partic. do Estado no Capital Social (R$)            -                               1.627.695
+Valor do Capital Social da CODESA (R$)                       -                            297.940.097
+Valor Partic. do Estado no Capital Social (R$)               -                              1.627.695
+* Com base nas últimas Demonstrações publicadas.
+
+
+    b) Demais Unidades Gestoras
+                                 DEMAIS UNIDADES GESTORAS
+                                                   Saldo em                           Saldo em
+Sociedades                                     31/12/2022 (R$)                     31/12/2021 (R$)
+Outras                                                    43.301                             43.301
+
+
+
+
+                                                    24
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+8.3. REGISTRO DOS INVESTIMENTOS EM PARTICIPAÇÕES SOCIETÁRIAS AVALIADAS PELO
+MÉTODO DO VALOR JUSTO (PREÇO DE MERCADO)
+
+
+Os títulos patrimoniais de outras companhias mantidos pela investidora constituem um ativo
+financeiro que é um instrumento financeiro e podem ser classificadas como disponíveis para
+venda ou destinadas à negociação.
+
+
+As aplicações em instrumentos financeiros (investimentos temporários em ações de outras
+empresas) serão avaliadas pelo “Método do Valor Justo” (MVJ), quando se tratar de
+aplicações destinadas à negociação ou disponíveis para venda.
+
+
+“Valor Justo” (Fair Value) é o valor pelo qual um ativo pode ser negociado entre partes
+interessadas, conhecedoras do negócio e independentes entre si, com ausência de fatores
+que pressionem para a liquidação ou que caracterizem uma transação compulsória.
+
+
+Segue abaixo a demonstração dos Investimentos avaliados pelo MVJ (Método do Valor
+Justo) de propriedade dos Órgãos da Administração Direta (Centralizada) do Poder
+Executivo Estadual:
+
+
+                 220101 - SECRETARIA DE ESTADO DA FAZENDA
+                                            Saldo em       Saldo em
+Sociedades                              31/12/2022 (R$) 31/12/2021 (R$)
+Outras Participações                                2.500          2.500
+TOTAL                                               2.500          2.500
+
+
+     310101 - SECRETARIA DE ESTADO DA AGRICULTURA, ABASTECIMENTO,
+                             AQUICULTURA E PESCA
+                                            Saldo em       Saldo em
+Sociedades                              31/12/2022 (R$) 31/12/2021 (R$)
+Telenorte Leste Participações S/A                    13              36
+TOTAL                                                13              36
+
+
+                800102 - ADMINISTRAÇÃO GERAL A CARGO DA SEFAZ
+                                            Saldo em         Saldo em
+Sociedades                              31/12/2022 (R$) 31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                                        236                       556
+TIM Participações S/A                                                40.300                    44.590
+Telefônica Brasil S/A                                               164.472                   221.276
+Contax Participações S/A                                                  3                         7
+Petrobras Petróleo Brasileiro S/A                                 6.439.058                 6.356.959
+OI S/A                                                                  629                     1.857
+TOTAL                                                             6.644.698                 6.625.245
+                                                  25
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+Segue abaixo o saldo, em 31/12/2022, dos demais Investimentos avaliados pelo MVJ
+(Método do Valor Justo) de propriedade das Entidades da Administração Indireta
+(Descentralizada) do Poder Executivo:
+
+
+          220202 - JUNTA COMERCIAL DO ESTADO DO ESPIRITO SANTO
+                                          Saldo em         Saldo em
+Sociedades                             31/12/2022 (R$) 31/12/2021 (R$)
+OI S/A                                                8               26
+TIM S/A                                           2.294            2.411
+Telefônica Brasil S/A                             3.315            5.028
+TOTAL                                             5.617            7.465
+
+
+                   270201 - INSTITUTO JONES DOS SANTOS NEVES
+                                              Saldo em       Saldo em
+Sociedades                                31/12/2022 (R$) 31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                                          42                       103
+TIM S/A                                                                8.234                     8.731
+Telefônica Brasil S/A                                                 28.801                    36.191
+Banco do Estado do Espírito Santo S/A                                      -                     6.790
+OI S/A                                                                    39                       125
+TOTAL                                                                 37.116                    51.940
+
+
+                   280202 - DEPARTAMENTO DE IMPRENSA OFICIAL
+                                             Saldo em        Saldo em
+Sociedades                               31/12/2022 (R$) 31/12/2021 (R$)
+OI S/A                                                  7             22
+TOTAL                                                   7             22
+
+
+  280203 - INSTITUTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO DO
+                               ESPÍRITO SANTO
+                                            Saldo em        Saldo em
+Sociedades                               31/12/2022 (R$) 31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                       26              42
+TIM S/A                                             7.204           7.641
+Telefônica Brasil S/A                              29.415          36.962
+OI S/A                                                 46             126
+TOTAL                                              36.691          44.771
+
+
+
+
+                                                  26
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+ 310202 - INSTITUTO CAPIXABA PESQUISA ASSISTÊNCIA TÉCNICA E EXTENSÃO
+                                 RURAL
+                                        Saldo em         Saldo em
+Sociedades                           31/12/2022 (R$) 31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                   80              176
+TIM Participações S/A                          16.661           17.182
+Embratel Participações S/A                      9.089            7.619
+Telefônica Brasil S/A                          63.844           81.393
+Embraer S/A                                        14               25
+OI S/A                                            152              423
+TOTAL                                          89.840          106.818
+
+
+         310203 - CENTRAIS DE ABASTECIMENTO DO ESPÍRITO SANTO
+                                         Saldo em         Saldo em
+Sociedades                            31/12/2022 (R$) 31/12/2021 (R$)
+Outras Participações                                3               3
+TOTAL                                               3               3
+
+
+320204 - AGÊNCIA DE DESENVOLVIMENTO DAS MICRO E PEQUENAS EMPRESAS E
+                        DO EMPREENDEDORISMO
+                                       Saldo em         Saldo em
+Sociedades                          31/12/2022 (R$) 31/12/2021 (R$)
+Telemar Norte Leste S/A                          37              95
+TOTAL                                            37              95
+
+
+350201 - DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO ESPÍRITO
+                              SANTO
+                                       Saldo em        Saldo em
+Sociedades                         31/12/2022 (R$) 31/12/2021 (R$)
+Outras                                          102             102
+TOTAL                                           102             102
+
+
+                          440901 - FUNDO ESTADUAL DE SAÚDE
+                                                Saldo em                            Saldo em
+Sociedades                                   31/12/2022 (R$)                     31/12/2021 (R$)
+OI S/A                                                    92                                  13
+TOTAL                                                     92                                  13
+
+
+
+
+                                                  27
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                  450202 - DEPARTAMENTO ESTADUAL DE TRÂNSITO
+                                                          Saldo em                   Saldo em
+Sociedades                                             31/12/2022 (R$)            31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                                          118                      272
+Vivo Participações S/A                                                54.580                     61.398
+TIM Participações S/A                                                 18.030                     18.723
+Embratel Participações S/A                                              9.389                     9.389
+OI S/A                                                                    674                     1.333
+TOTAL                                                                 82.791                     91.115
+
+
+ 480201 - INSTITUTO DE ATENDIMENTO SOCIOEDUCATIVO DO ESPÍRITO SANTO
+                                                          Saldo em                   Saldo em
+Sociedades                                             31/12/2022 (R$)            31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                                            11                      76
+TIM Participações S/A                                                   5.387                     5.491
+Telenorte Leste Participações S/A                                             -                   8.330
+Telefônica Brasil S/A                                                 50.771                     54.102
+Telemar Norte Leste S/A                                                  227                     36.076
+TOTAL                                                                 56.396                    104.074
+
+
+    600201 - INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DO
+                               ESPÍRITO SANTO
+                                            Saldo em        Saldo em
+Sociedades                               31/12/2022 (R$) 31/12/2021 (R$)
+Telecomunicações Brasileiras S/A                    1.163           1.163
+TIM Participações S.A                               5.567           5.567
+Telefônica Brasil S.A                              21.158          21.158
+OI S/A                                                585             585
+TOTAL                                              28.473          28.473
+
+
+8.4.   REGISTRO DE APORTES PROVENIENTES DOS ADIANTAMENTOS PARA FUTURO
+AUMENTO DE CAPITAL
+
+
+Os “Adiantamentos para Futuro Aumento de Capital” (AFAC) são os recursos recebidos pela
+empresa de seus acionistas ou quotistas destinados a serem utilizados para aumento de
+capital. Os aportes correspondentes realizados ao longo do exercício de 2022 está descrito
+conforme o quadro a seguir:
+
+
+
+
+                                                  28
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                          Saldo em               Aumento/Redução                   Saldo em
+    Sociedades
+                       31/12/2021 (R$)                (R$)                      31/12/2022 (R$)
+CODESA S/A                            560.660                 - 560.660                                  -
+
+BANDES S/A                               3.433                           -                           3.433
+
+CESAN S/A                       114.661.021                144.350.697                      259.011.718
+
+CETURB S/A                        26.897.876                             -                      26.897.876
+
+INOVA                             24.000.000                51.000.000                          75.000.000
+
+Total                          166.122.990               194.790.037                       360.913.026
+
+
+9. ARRECADAÇÃO DOS TRIBUTOS ESTADUAIS
+
+
+As informações acerca da arrecadação dos tributos estaduais encontram-se disponíveis em
+anexo (item II-02-RELGES–04).
+
+
+10. O REFLEXO DA RENÚNCIA DE RECEITAS NO DESENVOLVIMENTO ECONÔMICO
+E SOCIAL DO ESTADO, CONSIDERANDO, INCLUSIVE, O REFLEXO NAS CONTAS
+PÚBLICAS ESTADUAIS
+
+As informações acerca do reflexo da renúncia de receitas no desenvolvimento econômico e
+social do Estado, considerando, inclusive, o reflexo nas contas públicas estaduais
+encontram-se disponíveis em anexo (item II-02-RELGES–03).
+
+11. A ADOÇÃO DE MEDIDAS DE COMPENSAÇÃO PARA A RENÚNCIA DE RECEITAS
+
+
+Não foram informadas na Lei de Diretrizes Orçamentárias do exercício de 2022 (Anexo de
+Metas Fiscais - AMF - Demonstrativo VII - Estimativa e Compensação da Renúncia de
+Receita (LRF, art. 4º, § 2º, inciso V)) as fontes de compensação da renúncia, pois o
+orçamento do Estado é feito com base na previsão da receita a ser efetivamente
+arrecadada, conforme possibilita o art. 14, inciso I da LRF, que reza: “I - demonstração pelo
+proponente de que a renúncia foi considerada na estimativa de receita da lei orçamentária,
+na forma do art. 12, e de que não afetará as metas de resultados fiscais previstas no anexo
+próprio da lei de diretrizes orçamentárias”.
+
+
+Entretanto, conforme disposto no artigo 4º, § 2º, inciso V, da Lei de Responsabilidade
+Fiscal – LRF (LC nº 101, de 4 de maio de 2000), integra o Anexo de Metas Fiscais da LDO o
+demonstrativo da estimativa e compensação da renúncia.
+
+
+
+
+                                                  29
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+12. ATENDIMENTOS DAS RECOMENDAÇÕES CONTIDAS NO PARECER PRÉVIO
+TCEES N° 55/2022
+
+
+O Parecer Prévio 00055/2022-3 - Plenário, relativo à Prestação de Contas Anual de
+Governador, referente ao exercício de 2021, fez as seguintes recomendações, em relação
+às quais informamos as providências para seu atendimento:
+
+
+RECOMENDAÇÕES 2021:
+
+
+10.1.1 - Ao Estado, para que, por meio do IPAJM, SEP e Sefaz, sob a supervisão do sistema
+de controle interno, crie fundo de oscilação de riscos, com previsão na avaliação atuarial, a
+fim de manter nível de estabilidade do plano de custeio do RPPS e garantir sua solvência.
+
+
+Atendimento: Com vistas a buscar subsídios quanto à viabilidade da criação de Fundo de
+Oscilação de Riscos, no decorrer do exercício de 2022, o IPAJM realizou as seguintes
+medidas:
+
+
+   (I) Consulta ao Conselho Nacional dos Dirigentes de Regimes Próprios de Previdência
+           Social (CONAPREV), com o objetivo de buscar esclarecimentos quanto aos
+           seguintes: a) Regimes Próprios de Previdência que possuem Fundo de Oscilação
+           de Risco;
+           b) Embasamento legal para criação de Fundo de Oscilação de Risco;
+           c) Normas e regras de utilização do Fundo de Oscilação de Risco.
+   (II)    Consulta ao responsável técnico pelos estudos atuariais do IPAJM sobre a criação
+           e utilização do Fundo de Oscilação de Riscos, bem como suas implicações legais;
+   (III)   Consulta à Procuradoria Geral do Estado (PGE) a respeito da obrigatoriedade
+           legal para criação do Fundo de Oscilação de Risco, tendo a PGE concluído pela
+           ausência de obrigatoriedade legal para a criação do Fundo de Oscilação de Risco.
+
+
+Considerando que as análises relativas à criação de Fundo de Oscilação de Riscos não foram
+concluídas em 2022, elas permanecem em andamento no exercício de 2023, sendo que as
+conclusões serão encaminhadas ao TCEES em momento ulterior.
+
+
+
+
+                                                  30
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                      GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+10.1.2 - À Sefaz, para que no exercício de sua competência de órgão responsável pela
+inscrição e controle da dívida ativa (LC 225/2002) e a Procuradoria Geral do Estado, a quem
+cabe a gerência da dívida ativa (LC 88/1996), em conformidade com os preceitos da NBC
+TSP Estrutura Conceitual (itens 3.10 a 3.16 e 5.6 a 5.13), e do MCASP 8ª edição (itens
+2.1.1 e 2.1.2), prossiga na adoção dos procedimentos necessários para implementação dos
+critérios de classificação para o reconhecimento e mensuração dos créditos a receber
+oriundos de financiamentos concedidos do Fundap, e dos créditos tributários, em especial os
+inscritos em dívida ativa, considerando os diferentes potenciais de recuperabilidade, nos
+termos do Decreto 5089-R, 15 de fevereiro de 2022, a fim de que os registros contábeis
+desses ativos e o correspondente ajuste para perdas espelhem a real possibilidade de
+recuperação econômico-financeira dos créditos.
+
+
+Atendimento: Encontra-se em implantação, no âmbito da Procuradoria Geral do Estado,
+sistema informatizado para inscrição e gestão da dívida ativa, estando previsto o requisito
+funcional que permitirá a classificação, o reconhecimento e a mensuração dos créditos a
+receber   inscritos    em   dívida   ativa,    considerando-se       os   diferentes     potenciais   de
+recuperabilidade, nos termos do Decreto nº 5089- R, de 15 de fevereiro de 2022. A
+previsão para finalização da implantação do referido sistema é outubro/2023, conforme
+cronograma abaixo:
+
+
+    Cronograma de Implantação – Sistema de Dívida Ativa/PGE – e-docs: 2023-9C840S
+
+
+
+
+                                                  31
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+10.1.3 - À Sefaz, para que no exercício de sua competência de órgão central do sistema de
+contabilidade estadual, adote os procedimentos necessários para que nas próximas
+demonstrações contábeis consolidadas a serem elaboradas e divulgadas, seja realizado o
+reconhecimento e a evidenciação dos créditos por competência, em observância à Estrutura
+Conceitual aplicada à Contabilidade do Setor Público – NBC TSP EC, Capítulo 1, item 1.1,
+Manual de Contabilidade Aplicado ao Setor Público – MCASP (item 3.4, parte I), Instrução
+de Pronunciamentos Contábeis da Secretaria do Tesouro Nacional – IPC 02 (itens 23 e 24),
+bem como ao item 1 do Anexo Único da IN TC 36/2016.
+
+
+Atendimento: Encontra-se em desenvolvimento, no âmbito da SEFAZ, projeto cujo objeto
+é o Reconhecimento dos Créditos Tributários a Receber por Competência, que possibilitará o
+registro e evidenciação contábil nos termos da Estrutura Conceitual aplicada à Contabilidade
+do Setor Público – NBC TSP EC, Capítulo 1, item 1.1, Manual de Contabilidade Aplicado ao
+Setor Público – MCASP, Instrução de Pronunciamentos Contábeis da Secretaria do Tesouro
+Nacional – IPC 02 (itens 23 e 24), bem como do item 1 do Anexo Único da IN TC 36/2016.
+
+
+10.1.4 - À Seag, Sesport, Sedu, Sesa, Fundo Estadual de Saúde, Sesp, PCES, PMES, Sejus
+e Fundo Previdenciário, para que implementem ações objetivando implantação integral dos
+controles analíticos e contábeis de bens móveis e imóveis, bem como os procedimentos
+relativos ao reconhecimento e mensuração destes bens, e suas respectivas depreciação,
+reavaliação e redução ao valor recuperável, em conformidade com os preceitos do MCASP
+8ª ed., Parte II, item 5, NBC TSP 07 e Instrução Normativa TC 36/2016 (Anexo Único - item
+8).
+
+
+Atendimento: As Unidades Gestoras citadas foram oficiadas pela Secretaria de Estado da
+Fazenda – SEFAZ, acerca das medidas realizadas e a realizar para atendimento das
+recomendações.
+
+
+A SEAG conclui a migração dos bens imóveis (exceto os bens de infraestrutura) para o
+SIGA, tendo iniciado o registro da depreciação de tais bens. Já em relação aos bens móveis,
+os procedimentos relativos à migração dos controles para o SIGA encontram-se em
+andamento, com a previsão para a finalização no exercício de 2023. Por fim, quanto aos
+bens de infraestrutura a SEAG está promovendo a análise junto ao DER/ES, visando a
+continuidade dos trâmites relativos à correta evidenciação e mensuração contábil de tais
+bens, conforme consta no processo nº 2022-CXLDH.
+
+
+
+
+                                                  32
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                       GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+A SESPORT está promovendo a análise e implementação de medidas de controle analítico e
+contábil   dos     bens    móveis     e   imóveis,    objetivando     o   controle    do   reconhecimento,
+mensuração, depreciação, reavaliação e redução ao valor recuperável, em conformidade
+com a legislação vigente, conforme consta no documento cadastrado no E-Docs sob nº
+2023-0T7M06.
+
+A SEDU está executando plano de ação, com vistas a promover a implantação integral dos
+controles analíticos e contábeis de bens móveis e imóveis, bem como os procedimentos
+relativos ao reconhecimento e mensuração destes bens, com previsão de finalização em
+novembro/2023, conforme abaixo:
+
+
+             Plano de Ação SEDU – Controle Analítico de Bens Móveis e Imóveis
+                                          (e-docs: 2022-ZHKX4R)
+
+
+
+
+A SESP finalizou a migração dos controles analíticos dos bens imóveis para o SIGA em
+agosto/2022, tendo iniciado os registros de depreciação destes bens a partir do referido
+período. Já em relação aos bens móveis, a SESP realiza o registro da depreciação desde o
+exercício de 2014.
+
+
+                                                      33
+
+
+                 Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+A SEJUS está executando plano de ação, com vistas a promover a implantação integral dos
+controles analíticos e contábeis de bens móveis e imóveis, bem como os procedimentos
+relativos ao reconhecimento e mensuração destes bens conforme, com previsão de
+finalização em dezembro/2023, conforme abaixo:
+
+              Plano de Ação – Ativo Imobilizado SEJUS – e-docs: 2023-D1GSZG
+
+
+
+
+A SESA está executando os trabalhos relativos à regularização dos bens móveis e imóveis,
+com vistas a promover o controle analítico destes bens mediante a utilização do SIGA,
+sendo   que   a   previsão     de    conclusão     dos    referidos    trabalhos    é   em       maio/2023
+(OF/SESA/GS/Nº 278/2023, cadastrado no E-Docs sob nº 2023-CFMG2T).
+
+
+
+
+                                                   34
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+A PCES está executando plano de ação, com vistas a promover a implantação integral dos
+controles analíticos e contábeis dos bens imóveis, bem como os procedimentos relativos ao
+reconhecimento e mensuração destes bens, com previsão de finalização em junho/2023
+(conforme demonstrado abaixo). Já em relação aos bens móveis, a PCES finalizou a
+migração tais bens para o SIGA e a depreciação mensal destes bens está sendo reconhecida
+mensalmente no SIGEFES.
+
+
+              Plano de Ação – PCES – Migração dos Bens Imóveis para o SIGA
+                                       E-docs: 2023-JZ5899
+
+
+
+
+O IPAJM está executando medidas, com vistas a promover a implantação integral dos
+controles analíticos e contábeis dos bens móveis e imóveis, bem como os procedimentos
+relativos ao reconhecimento e mensuração destes bens, conforme consta no documento E-
+docs nº 2023-3CL3VJ.
+
+
+10.1.5 – A SEGER, para que na qualidade de gestora do Sistema Integrado de Gestão
+Administrativa – SIGA, estabeleça, por meio de portaria, a obrigatoriedade de utilização do
+módulo de bens imóveis por parte da Sesport, Sedu, Sesa, Fundo Estadual de Saúde, Sesp,
+PCES, PMES, Sejus e Fundo Previdenciário, nos termos do artigo 4º, parágrafo único do
+Decreto 2.340/2009.
+
+
+
+
+                                                  35
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Atendimento: Com vistas a promover o integral cumprimento do disposto no art. 10, IX,
+do Decreto nº 3.126-R/2012, que estabelece a obrigatoriedade de utilização do SIGA para
+fins de organização, manutenção de cadastro e registro do patrimônio imobiliário sob
+responsabilidade dos órgãos e entidades do Poder Executivo Estadual, a SEGER vem
+reiterando, desde a operacionalização do módulo de patrimônio imobiliário do sistema SIGA,
+comunicação aos órgãos e entidades estaduais quanto à obrigatoriedade do uso do referido
+sistema para a gestão dos respectivos patrimônios imobiliários.
+
+
+10.1.6 - À Sefaz e Seger para que prossigam na adoção dos procedimentos para assegurar
+as apropriações por competência de férias a pagar, conforme dispõe a Estrutura Conceitual
+aplicada à Contabilidade do Setor Público – NBC TSP EC, Capítulo 1, item 1.1; c/c inciso II
+do artigo 50 da Lei de Responsabilidade Fiscal (LC 101/2000).
+
+
+Atendimento: Foram homologados os trabalhos de implantação dos procedimentos de
+contabilização das férias por competência. Os registros contábeis estão sendo realizados no
+SIGEFES desde a competência outubro/2022, bem como foi publicado o Capitulo 21 no
+MCONT-FOLHA, para orientação sobre os procedimentos contábeis aplicáveis aos órgãos e
+entidades do Poder Executivo Estadual.
+
+10.1.7 - À Sefaz para que no exercício de sua competência de órgão central de
+contabilidade do Estado providencie os meios necessários à obtenção dos relatórios a serem
+extraídos de seus sistemas de Tecnologia da Informação, a fim de providenciar a melhor
+estimativa contábil para a provisão da repartição de créditos tributários, nos termos do item
+6.4 NBC TSP EC e do MCASP (8ª edição, item 9.6.1 da parte II) e uma melhor segregação
+entre circulante e não circulante nos termos da NBC TSP 11. E que, visando o
+aperfeiçoamento do controle interno, avalie a necessidade de se elaborar uma política
+contábil para a contabilização das provisões de repartições de créditos tributários, ou de
+uma rotina administrativa que inclua uma etapa de revisão ou aprovação para o adequado
+registro contábil.
+
+Atendimento: Foi atualizado o Manual de Procedimentos Contábeis do Espírito Santo -
+MCONT, mediante a inclusão do item “25.3 - Provisão Para Repartição Dos Créditos
+Tributários”, tendo como objetivo prover orientação quanto aos procedimentos contábeis
+relativos à provisão para repartição dos créditos tributários aos municípios e provisão para
+repartição dos créditos tributários ao FUNDEB.
+
+
+
+
+                                                   36
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+10.1.8 - À Seger, para que, enquanto órgão central do sistema de controle patrimonial, na
+condição de responsável em planejar, coordenar, controlar e executar as atividades de
+patrimônio, em conjunto com a Semobi e DER, adote os procedimentos necessários ao
+ingresso das obras concluídas / finalizadas, bem como a implantação e registros dos
+procedimentos contábeis referentes à depreciação dos bens imóveis de infraestrutura, em
+conformidade com os preceitos da NBC TSP 07 (item 44), Instrução Normativa TC 36/2016
+(Anexo Único - item 8), e MCASP 8ª Edição (parte II, item 5.5).
+
+Atendimento:     Foi atualizado o Manual de Procedimentos Contábeis do Espírito Santo -
+MCONT, mediante a inclusão do Capítulo “6 - Contabilização De Obras Em Andamento”,
+tendo como objetivo prover orientação quanto aos procedimentos contábeis aplicáveis à
+conta de “imóveis em andamento”.            Foi também criado grupo de trabalho, por meio da
+Portaria Conjunta SEFAZ/SEGER/SEMOBI/DER-ES Nº 01-S, de 29 de setembro de 2022,
+para elaboração de Norma de Procedimento, visando promover melhorias no controle das
+obras em andamento, a qual está em fase de conclusão.
+
+
+
+
+                                                  37
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2022
+

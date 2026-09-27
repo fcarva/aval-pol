@@ -1,0 +1,83 @@
+# Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/239
+# Coletado (UTC): 2026-09-27T15:23:26Z
+# sha256 do original: c6201b04d2e9cac92b0d6f50f4e7bc736726abcb9a4a36c2d7704b5965f39392
+# PDF CreationDate: Thu Jul  8 18:09:23 2021 UTC
+# PDF ModDate: Thu Jul  8 18:09:23 2021 UTC
+
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+
+                                       Dados Abertos
+Dicionário de Dados
+          Versão: 1.0
+          Autor: Wesley Pestana Baratela
+          Data: 06/07/2021
+
+
+
+                                         Incentivos Fiscais
+Descrição dos campos
+
+Arquivo: Incentivos Vigentes
+
+ Campo                            Tipo              Descrição
+ ITEM                             número            Numeração os itens listados
+ ATO                              texto             Tipo de instrumento legal
+ NÚMERO                           número            Refere-se ao instrumento legal (número/ano)
+ EMENTA OU ASSUNTO                texto             Descrição do incentivo fiscal
+ DISPOSITIVO ESPECÍFICO           alfanumérico      Especifica dispositivo na lei
+ DATA DA PUBLICAÇÃO NO DOE        data              Data de publicação do ato no Diário Oficial
+ TERMO INICIAL                    data              Início da vigência do ato
+ TERMO FINAL                      data              Fim da vigência do ato
+ OBSERVAÇÕES                      texto             Informações adicionais
+
+
+Arquivo: Incentivos Não Vigentes
+
+ Campo                            Tipo              Descrição
+ ITEM                             número            Numeração os itens listados
+ ATO                              texto             Tipo de instrumento legal
+ NÚMERO                           número            Refere-se ao instrumento legal (número/ano)
+ EMENTA OU ASSUNTO                texto             Descrição do incentivo fiscal
+ DISPOSITIVO ESPECÍFICO           alfanumérico      Especifica dispositivo na lei
+ DATA DA PUBLICAÇÃO NO DOE        data              Data de publicação do ato no Diário Oficial
+ TERMO INICIAL                    data              Início da vigência do ato
+ TERMO FINAL                      data              Fim da vigência do ato
+ OBSERVAÇÕES                      texto             Informações adicionais
+
+
+
+Arquivo: Programa Compete - ES
+
+ Campo                            Tipo              Descrição
+ Razão Social                     texto             Razão Social do beneficiário do programa
+ Inscrição Est.                   número            Inscrição estadual cadastrado na SEFAZ
+ CNPJ                             número            Cadastro Nacional da Pessoa Jurídica
+ Município                        texto             Município onde se localiza o beneficiário
+ Portaria                         texto             Instrumento legal para adesão ao programa
+ Data                             data              Data da portaria
+ Início Vig.                      data              A partir de quando a portaria estará vigente
+ Port. Excl.                      alfanumérico      Instrumento legal para exclusão ao programa
+ Data Excl.                       data              A partir de quando será efetivada a exclusão
+
+
+
+Arquivo: Programa Invest - ES
+
+ Campo                            Tipo              Descrição
+               GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+Razão Social              texto          Razão Social do beneficiário do programa
+Inscr. Est.               número         Inscrição estadual cadastrado na SEFAZ
+CNPJ                      número         Cadastro Nacional da Pessoa Jurídica
+Número                    número         Número de contrato no programa
+Processo                  alfanumérico   Processo a que se refere o número de contrato
+Início Vig                data           A partir de quando a portaria estará vigente
+Final Vig                 data           A partir de quando será efetivada a exclusão
+Cancel.                   data           A partir de quando o contrato foi cancelado
+Prorrog.                  data           Vigência do contrato após prorrogação
+

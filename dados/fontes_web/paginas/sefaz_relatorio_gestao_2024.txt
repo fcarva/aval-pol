@@ -1,0 +1,1766 @@
+# Fonte: https://sefaz.es.gov.br/media/Tesouro%20Estadual/Presta%C3%A7%C3%A3o%20de%20contas%20do%20governador/RELAT%C3%93RIO%20DE%20GEST%C3%83O%20-%202024.pdf
+# Coletado (UTC): 2026-09-27T15:23:18Z
+# sha256 do original: 621d6a9dac6e53b798e138ec2b904401281ffad55ed90d4779819f589ee5fcd0
+# Last-Modified (servidor): Sun, 27 Sep 2026 15:23:16 GMT
+# PDF CreationDate: Fri Apr 11 14:28:44 2025 UTC
+# PDF ModDate: Fri Apr 25 18:19:43 2025 UTC
+
+                 GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+               PRESTAÇÃO DE CONTAS ANUAL
+
+
+
+
+                          RELATÓRIO DE GESTÃO
+
+     ANEXO II – ITEM 02 - IN TCEES Nº 68, DE 08/12/2020
+
+
+
+
+Gestor responsável: José Renato Casagrande
+Exercício: 2024
+
+
+
+
+                                           ABRIL – 2025
+                                                                                                           Assinado digitalmente por
+                                                                                                           JOSE RENATO
+                                                                                  JOSE RENATO              CASAGRANDE:XXXXXXXXXXX
+                                                                                  CASAGRANDE:XXXXXXXXXXX
+                                                                                                           Data: 2025.04.25 15:19:43 -
+                                                                                                           0300
+
+
+
+
+                                                 1
+
+
+           Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+CONSIDERAÇÕES INICIAIS
+
+O presente relatório tem por objetivo abordar o desempenho e a conformidade da gestão do
+Governo do Estado do Espírito Santo no exercício de 2024, no tocante aos aspectos de
+natureza orçamentária, financeira, fiscal, operacional e patrimonial, em relação à legislação
+em vigor.
+
+
+Este documento está organizado de acordo com as disposições da Instrução Normativa
+TCEES n° 68, de 08 de dezembro de 2020, a qual dispõe sobre a composição e a forma de
+envio das prestações de contas anuais ao Tribunal de Contas do Estado do Espírito Santo -
+TCEES.
+
+
+As informações contábeis que integram o presente relatório foram extraídas do Sistema
+Integrado de Gestão das Finanças Públicas do Espírito Santo - SIGEFES e contemplam os
+dados contábeis consolidados de todos os Poderes e Órgãos da Administração Pública
+Estadual integrantes dos orçamentos Fiscal e da Seguridade Social, em obediência ao art.
+56 da Lei Complementar nº 101, de 04 de maio de 2000 (Lei de Responsabilidade Fiscal -
+LRF).
+
+
+1. ATENDIMENTO AOS LIMITES CONSTITUCIONAIS
+
+
+O Estado do Espírito Santo cumpriu os limites mínimos constitucionais de aplicação em
+saúde e educação em 2024. Para fins de sua verificação, utiliza-se como base a Receita
+Líquida de Impostos (RLI), que agrega todas as receitas de impostos e transferências
+constitucionais, deduzidos os repasses aos municípios.
+
+
+Neste sentido, a RLI em 2024 foi de R$ 21.134.350.924,41 (R$ 18,625 bilhões em 2023)
+para fins de aplicação em Despesas com Ações e Serviços Públicos de Saúde – ASPS e
+Despesas com Manutenção e Desenvolvimento do Ensino – MDE.
+
+
+1.1. SAÚDE
+
+
+Em 2024 foram aplicados R$ 5,203 bilhões em despesas com saúde, incluindo recursos
+próprios e recursos transferidos de outros entes. Essas despesas abrangeram gastos com
+equipamentos,    obras,   manutenção       de    hospitais    públicos,   convênios      com    hospitais
+terceirizados, municipais e filantrópicos, além de organizações sociais, dentre outras
+despesas.
+
+
+
+
+                                                   2
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Desse total de R$ 5,203 bilhões, as despesas com Pessoal e Encargos Sociais somaram R$
+731 milhões (14,04%) e as Outras Despesas Correntes totalizaram R$ 4,124 bilhões
+(79,28%). Já as despesas com Investimentos na área da saúde foram de R$ 348 milhões
+(6,69%). No gráfico a seguir é demonstrada essa distribuição dos recursos aplicados em
+saúde:
+
+
+
+
+Para fins de verificação da aplicação do mínimo constitucional, que considera basicamente
+as despesas custeadas com recursos de impostos e transferências, em 2024 foram
+consideradas despesas no valor de R$ 3,261 bilhões, representando 15,43% da receita
+líquida de impostos. Esse percentual da RLI aplicado em saúde é 3,43 pontos percentuais
+superior ao mínimo constitucional exigido.
+
+
+1.2. EDUCAÇÃO
+
+
+Em 2024 o Governo Estadual aplicou, para fins de limite constitucional, o montante de R$
+5,436 bilhões na construção, na ampliação, na reforma e na manutenção de unidades
+escolares, centros de educação de jovens e adultos, espaços esportivos, alimentação e
+transporte escolar, bolsas de estudo, materiais, mobiliário, equipamentos de informática e
+também na remuneração do magistério, incluindo o resultado líquido das transferências do
+FUNDEB. O montante aplicado correspondeu a 25,72% da receita líquida de impostos.
+
+
+Neste sentido, na apuração do mínimo constitucional são considerados os recursos
+provenientes dos impostos aplicados em manutenção e desenvolvimento do ensino, mais o
+resultado líquido negativo que o Estado tem na transferência dos recursos do FUNDEB.
+
+
+                                                   3
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+O Estado do Espírito Santo repassou ao Fundo de Manutenção e Desenvolvimento da
+Educação Básica e de Valorização dos Profissionais da Educação – FUNDEB o valor de R$
+3,944 bilhões em 2024. No entanto, retornou para o Tesouro do Estado apenas R$ 1,908
+bilhão, ocasionando um resultado líquido negativo de R$ 2,036 bilhões nas transferências
+ao FUNDEB.
+
+
+Cabe destacar que os recursos do FUNDEB que não retornam ao Tesouro do Estado são
+distribuídos entre os Municípios capixabas, pois o Fundo é formado com recursos do Estado
+e dos Municípios, e a redistribuição desses recursos ocorre de forma proporcional ao número
+de alunos matriculados nas respectivas redes de ensino. Dos recursos do retorno do
+FUNDEB, 73,71% foram aplicados na remuneração dos profissionais do magistério da
+educação básica, atendendo assim ao disposto no artigo 60, XII, do Ato das Disposições
+Constitucionais Transitórias da Constituição Federal, que determina que o percentual não
+pode ser inferior a 70%.
+
+
+As despesas com educação efetivamente empenhadas pelo Estado do Espírito Santo em
+2024 totalizaram R$ 3,619 bilhões, mas cabe ressaltar que parte dessas despesas não são
+computadas para fins de limite constitucional. Desse montante, os                         Investimentos
+totalizaram R$ 494 milhões (13,65%), os gastos com Pessoal e Encargos Sociais
+totalizaram R$ 1,616 bilhão (44,66%) e as Outras Despesas Correntes somaram R$ 1,509
+bilhão (41,69%).
+
+
+Essa repartição das despesas com manutenção e desenvolvimento do ensino no ano de
+2024 é demonstrada no gráfico a seguir:
+
+
+
+
+                                                   4
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+1.3. REGRA DE OURO
+
+
+A Lei de Responsabilidade Fiscal exige ação planejada e responsável, estabelece limites e
+introduz importantes regras a respeito das operações de crédito, dentre elas, a regra de
+ouro no artigo 12, § 2º, estabelecendo que “o montante previsto para as receitas de
+operações de crédito não poderá ser superior ao das despesas de capital constantes do
+projeto de lei orçamentária”. Contudo, esse artigo da LRF encontra-se com eficácia
+suspensa pelo Supremo Tribunal Federal - STF.
+
+
+A Constituição Federal de 1988, no art. 167, inciso III, estabelece que as realizações de
+operações de crédito não podem exceder as despesas de capital, ressalvadas as
+provenientes de créditos adicionais com finalidade precisa, aprovados pelo Poder Legislativo
+por maioria absoluta. Assim, a “regra de ouro” continua válida, amparada pelo texto
+constitucional. Esse procedimento objetiva inibir o endividamento público para financiar
+despesas correntes.
+
+
+Na Tabela a seguir é demonstrado o cumprimento da regra de ouro constitucional para o
+exercício de 2024:
+
+
+
+
+1.4. TRANSFERÊNCIA DE RECURSOS ORÇAMENTÁRIOS AOS PODERES LEGISLATIVO,
+JUDICIÁRIO, AO MINISTÉRIO PÚBLICO E DEFENSORIA PÚBLICA (CF/88, art.168)
+
+
+Com o objeto de garantir a autonomia econômica e administrativa do Poder Judiciário, da
+Assembleia Legislativa, bem como, do Tribunal de Contas, do Ministério Público e da
+Defensoria Pública, a Constituição da República de 1988, em seu art. 168, determinou que
+até o dia 20 de cada mês o Poder Executivo deverá realizar a transferência de recursos em
+duodécimos para estes Poderes e Órgãos autônomos.
+
+                                                   5
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                         GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Nos quadros a seguir são demonstrados os montantes transferidos no exercício de 2024,
+segregando os repasses de duodécimos e os recursos repassados para que os Poderes
+pudessem custear o déficit financeiro junto ao RPPS.
+
+
+                            Recebimento de Transferência do Duodécimo (R$)
+
+                            Transferência do Duodécimo                                           2024
+
+Assembleia Legislativa do Estado do Espírito Santo                                              296.776.268,04
+Tribunal de Contas do Estado do Espírito Santo                                                  218.124.565,00
+
+Tribunal de Justiça do Estado do Espírito Santo                                               1.301.798.659,35
+Ministério Público do Estado do Espírito Santo                                                  513.067.835,00
+
+Defensoria Pública do Estado do Espírito Santo                                                    95.432.008,75
+Total                                                                                       2.425.199.336,14
+Fonte: SIGEFES
+
+
+
+                 Recebimento de Transferência para Cobertura do Déficit do RPPS (R$)
+
+                 Transferência para Cobertura do Déficit do RPPS                                2024
+
+  Assembleia Legislativa do Estado do Espírito Santo                                            44.533.215,34
+
+  Tribunal de Contas do Estado do Espírito Santo                                                36.271.001,95
+  Tribunal de Justiça do Estado do Espírito Santo                                             263.885.769,42
+
+  Ministério Público do Estado do Espírito Santo                                                48.517.048,08
+  Defensoria Pública do Estado do Espírito Santo                                                26.287.999,92
+
+  Total                                                                                      419.495.034,71
+Fonte: SIGEFES
+
+
+
+
+2. ATENDIMENTO AOS LIMITES ESTABELECIDOS PELA LRF
+
+Em 2024, o Estado do Espírito Santo cumpriu os limites fixados pela LRF para as despesas
+com pessoal, dívida pública, operações de crédito, garantias e contragarantias e inscrição
+dos restos a pagar.
+
+
+Para verificação dos limites estabelecidos pela Lei Complementar n° 101/2000, o parâmetro
+é a Receita Corrente Líquida – RCL, que compreende todas as receitas correntes do Estado,
+tais como receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de
+serviços, transferências correntes e outras receitas correntes, deduzidas as transferências
+constitucionais e legais aos municípios e ao FUNDEB, bem como as contribuições dos
+servidores ao regime próprio de previdência, a compensação financeira entre os regimes
+geral e próprio de previdência, e as restituições de receitas. Em 2024 e 2023 estes foram os
+valores da RCL:
+                                                         6
+
+
+                   Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+                                     Receita Corrente Líquida (R$)
+
+                    RCL (em Reais)                                  2024                      2023
+RECEITA CORRENTE LÍQUIDA                                     26.359.045.239,21 22.373.375.355,79
+( - ) Transferências obrigatórias da União relativas às
+                                                                    71.974.686,29            37.672.570,80
+emendas individuais (art. 166-A, § 1º, da CF)
+ RECEITA CORRENTE LÍQUIDA AJUSTADA PARA
+                                                         26.287.070.552,92 22.335.702.784,99
+ CÁLCULO DOS LIMITES DE ENDIVIDAMENTO
+ ( - ) Transferências obrigatórias da União relativas às
+                                                              85.989.298,56     29.229.462,00
+ emendas de bancada (art. 166, § 16, da CF)
+ RECEITA CORRENTE LÍQUIDA AJUSTADA PARA
+ CÁLCULO DOS LIMITES DA DESPESA COM                      26.201.081.254,36 22.306.473.322,99
+ PESSOAL
+Fonte: Relatório Resumido da Execução Orçamentária (RREO)
+
+
+2.1. DESPESA COM PESSOAL
+
+
+A Constituição Federal de 1988, em seu artigo 169, determinou que a “despesa com pessoal
+ativo e inativo da União, dos Estados, do Distrito Federal e dos Municípios não poderá
+exceder os limites estabelecidos em Lei Complementar”.
+
+
+A LRF, em seus artigos 19, 20, 22 e 59, versa sobre os limites de despesa com pessoal,
+previstos na Constituição Federal, e estabelece os limites de despesas com pessoal em
+relação à RCL.
+
+
+A tabela abaixo demonstra que, em 2024 e em 2023, o Estado do Espírito Santo cumpriu o
+limite legal estabelecido pela LRF para as Despesas com Pessoal.
+
+
+                                   Limites da Despesa com Pessoal
+
+                                                              Limite           Limite              Limite
+         Especificação               2024        2023
+                                                             Máximo         Prudencial            de Alerta
+ Poder Executivo                    36,05%       38,29%             49%            46,55%             44,10%
+
+ Consolidado Geral                  43,66%       46,42%             60%               57%                54%
+ Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+Em 2024, a despesa consolidada com pessoal do Governo do Estado do Espírito Santo, para
+fins da LRF, representou 43,66% da RCL, que foi de R$ 26,2 bilhões, ficando abaixo do
+limite de alerta.
+
+
+Da mesma forma, a despesa com pessoal do Poder Executivo representou 36,05% da RCL,
+não ultrapassando os limites prudencial e de alerta correspondentes.
+
+
+
+
+                                                     7
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+2.2. DÍVIDA CONSOLIDADA LÍQUIDA – DCL
+
+
+A Dívida Consolidada Líquida - DCL corresponde ao valor da Dívida Pública Consolidada
+menos as Disponibilidades de Caixa, as Aplicações Financeiras e os Demais Haveres
+Financeiros.
+
+
+Os limites da dívida são definidos pela Resolução nº 40/2001, do Senado Federal, conforme
+estabelecido no artigo 52 da Constituição Federal.
+
+
+A tabela abaixo apresenta o resumo do Demonstrativo da Dívida Consolidada Líquida, nos
+exercícios de 2024 e 2023, o qual demonstra que, em 2024, a Dívida Consolidada Líquida
+negativa de R$ 2,564 bilhões, correspondendo ao percentual de -9,76% da RCL e
+atendendo ao limite estabelecido pela Resolução do Senado Federal.
+
+
+                  Demonstrativo da Dívida Consolidada Líquida em 2024 e 2023 (R$)
+
+                                                                 2024                             2023
+          Dívida Consolidada Líquida                                           %                          %
+                                                              Valor                         Valor
+                                                                              RCL                        RCL
+
+Limite definido por Resolução do Senado Federal           52.574.141.105,84 200       44.671.405.569,98 200
+Dívida Consolidada Líquida                               -2.564.649.397,74 -9,76 -1.482.685.202,11 -6,64
+
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+O Demonstrativo da Dívida Consolidada Líquida abrange todos os Poderes do Estado e
+compõe o Relatório de Gestão Fiscal - RGF, com o objetivo de assegurar a transparência das
+obrigações contraídas pelos entes da Federação e verificar os limites de endividamento de
+que trata a legislação, além de outras informações relevantes sobre o tema.
+
+
+2.3. OPERAÇÕES DE CRÉDITO
+
+
+De acordo com a LRF (artigo 29, inciso III), operação de crédito corresponde ao
+compromisso financeiro assumido em razão de mútuo, abertura de crédito, emissão e aceite
+de título, aquisição financiada de bens, recebimento antecipado de valores provenientes da
+venda a termo de          bens e serviços, arrendamento mercantil e outras operações
+assemelhadas, inclusive com o uso de derivativos financeiros.
+
+
+Conforme a Resolução nº 43/2001, artigo 7º, inciso I, do Senado Federal, o limite para
+operações de crédito internas e externas é de 16% sobre a RCL, e o limite para operação de
+crédito por antecipação da receita é de 7% sobre a RCL.
+
+
+
+                                                     8
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Vale lembrar que, conforme estabelece a referida Resolução, não são consideradas, para
+fins de verificação do limite, as operações de crédito contratadas pelos estados com a
+União, com organismos multilaterais de crédito ou com instituições oficiais federais de
+crédito ou de fomento, com a finalidade de financiar projetos de investimento para a
+melhoria da administração das receitas e da gestão fiscal, financeira e patrimonial, no
+âmbito de programa proposto pelo Poder Executivo Federal.
+
+
+A tabela abaixo demonstra que no percentual de comprometimento das receitas de
+operações de crédito realizadas, em relação à RCL, o Estado atendeu ao disposto na
+Resolução nº 43/2001, ficando abaixo do limite estabelecido.
+
+
+                               Operações de Crédito em 2024 e 2023 (R$)
+
+                                                                   2024                         2023
+              Operações de Crédito
+                                                            Valor         % RCL          Valor         % RCL
+Limite definido por Resolução do Senado Federal
+                                                4.205.931.288,47            16     3.573.712.445,60      16
+para Operações Internas e Externas
+
+Operações de Crédito Internas e Externas              719.597.927,73       2,74    531.031.718,84       2,38
+Limite definido pelo Senado Federal para
+                                                1.840.094.938,70             7     1.563.499.194,95      7
+Operações de Crédito por Antecipação de Receita
+Operações de Crédito por Antecipação de
+                                                               -             -              -            -
+Receita
+
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+2.4. GARANTIAS E CONTRAGARANTIAS
+
+
+O saldo de garantias concedidas pelo Governo do Estado, ao final de dezembro de 2024, foi
+de R$ 188 milhões, representando 0,72% da RCL ajustada para cálculo dos limites de
+endividamento, que foi de R$ 26,2 bilhões. Portanto, foi atendido o limite máximo de 22%,
+estabelecido pelo artigo 9º da Resolução do Senado nº 43/2001. Vide tabela abaixo:
+
+
+                               Garantias concedidas em 2024 e 2023 (R$)
+
+                                                               2024                             2023
+            Garantias Concedidas
+                                                          Valor           % RCL         Valor          % RCL
+Limite definido   por   Resolução    do   Senado
+                                                     5.783.155.521,64      22     4.913.854.612,70      22
+Federal
+
+Total de Garantias                                   188.064.816,53       0,72    173.169.868,66       0,78
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+
+
+                                                     9
+
+
+               Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                          GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+2.5. INSCRIÇÃO DOS RESTOS A PAGAR E DISPONIBILIDADE DE CAIXA CONSOLIDADO
+
+
+Os restos a pagar são as despesas empenhadas e não pagas até o término do exercício.
+Dividem-se em restos a pagar processados (despesas liquidadas e não pagas) e restos a
+pagar não processados (despesas empenhadas e não liquidadas).
+
+
+Para a inscrição de despesas em restos a pagar, o ente público deve comprovar que possui
+recursos disponíveis para honrar os compromissos e observar se os recursos são legalmente
+vinculados à finalidade específica para a qual serão utilizados.
+
+
+O Estado do Espírito Santo inscreveu em restos a pagar o montante de R$ 2,189 bilhões em
+2024, sendo R$ 322,728 milhões processados e R$ 1,866 bilhões não processados.
+
+
+Dessa forma, no consolidado, o Estado do Espírito Santo encerrou 2024 com uma
+disponibilidade líquida de caixa de R$ 7,225 bilhões, incluindo recursos não vinculados (R$
+1,118 bilhão) e recursos vinculados (R$ 6,107 bilhões). Na apuração da disponibilidade
+líquida já estão descontadas as obrigações financeiras, inclusive os restos a pagar inscritos,
+conforme demonstrado no quadro a seguir:
+
+
+                                  Demonstrativo da Disponibilidade de Caixa (R$)
+
+                                                OBRIGAÇÕES FINANCEIRAS
+                                                                                                               Disponibilidade
+                                                           Restos a                                            de Caixa Líquida
+                      Restos a Pagar Liquidados e           Pagar                                                   (Após a
+ Disponibilidade                                                                           Restos a Pagar
+                               Não Pagos                Empenhados          Demais                               inscrição em
+ de Caixa Bruta                                                                            Empenhados e
+                                                            e Não         Obrigações                                RAP não
+                                                                                           Não Liquidados
+                                                        Liquidados de     Financeiras                          processados do
+                                                                                            do Exercício
+                      De Exercícios                       Exercícios                                               exercício)
+                                       Do Exercício       Anteriores
+                       Anteriores
+
+  10.307.441.775,65    94.788.900,74   322.727.748,91     34.394.190,95   764.532.745,36    1.866.180.241,83     7.224.817.947,86
+Fonte: Relatório de Gestão Fiscal (RGF)
+
+
+
+3. ANÁLISE DAS METAS ESTABELECIDAS NA LDO
+
+
+A Lei nº 12.122/2024 (LDO 2024 - Republicação) estabeleceu as metas fiscais para o triênio
+2024-2026, conforme previsão constante no art. 4º, §2º, da Lei nº 101/2000 (Lei de
+Responsabilidade Fiscal).
+
+
+A receita total foi estimada na LDO/24 (republicação) em R$ 24.519 milhões e a despesa
+total foi definida em R$ 25.574 milhões. Já a meta de resultado primário foi fixada em - R$
+1.703 milhão, enquanto a meta de resultado nominal foi fixada em - R$ 3.799 milhões.
+
+
+
+
+                                                              10
+
+
+                   Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                      GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+O resultado primário, que é obtido a partir das receitas primárias (exceto fontes do RPPS),
+subtraídas das despesas primárias (exceto fontes do RPPS), tem como meta para o ano de
+2024 o valor de - R$ 1.703 milhão. O Estado do Espírito Santo obteve um resultado
+superavitário de R$ 101 milhões. Indicando, dessa forma, o cumprimento da meta
+estabelecida.
+
+
+A meta de resultado nominal representa a diferença entre o saldo da dívida consolidada
+líquida (DCL) em 31 de dezembro do exercício anterior em relação ao saldo da DCL apurado
+em 31 de dezembro do exercício de referência.
+
+
+No exercício de 2024, a meta prevista na LDO para o resultado nominal era de - R$ 3.799
+milhões e o valor realizado foi de R$ 1.082 milhão. Dessa forma, indica, também, o
+cumprimento da meta.
+
+
+
+
+                                                     11
+
+
+                Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+O quadro a seguir demonstra os valores previstos e realizados para o resultado primário e
+nominal no exercício de 2024:
+
+
+
+
+Portanto, a partir dos resultados apresentados acima, conclui-se pela indicação do cumprimento tanto
+da (i) meta de resultado primário quanto da (ii) meta de resultado nominal fixados no Anexo de Metas
+Fiscais da LDO 2024 (Lei nº 12.122/2024 - Republicação) .
+
+
+
+4. O CUMPRIMENTO DOS PROGRAMAS PREVISTOS NA LOA E SUA CONSONÂNCIA
+COM A LDO E O PPA
+
+
+As informações acerca do cumprimento dos programas previstos na LOA e sua consonância
+com a LDO e o PPA encontram-se disponíveis em anexo (item II-02-RELGES-01).
+
+
+
+
+5. PRECATÓRIOS ESTADUAIS – INSCRIÇÃO, BAIXA E PAGAMENTOS
+
+
+As informações acerca da política adotada pelo Estado do Espírito Santo para pagamento de
+precatórios, referente ao exercício de 2024, encontram-se disponíveis em anexo (item II-
+02-RELGES-02).
+
+
+As informações acerca de inscrição, baixa e pagamentos de precatórios do Governo do
+Estado do Espírito Santo, referente ao exercício de 2024, encontram-se disponíveis em
+anexo (item II-18-RELPRE).
+
+
+
+                                                   12
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+6. GASTOS COM PUBLICIDADE
+
+
+Os gastos com publicidade dos Órgãos e Entidades da Administração Pública do Governo do
+Estado do Espírito Santo constantes do Orçamento Fiscal e de Seguridade Social, em 2024,
+totalizaram um montante de R$ 81,155 milhões. Segue abaixo o demonstrativo, de forma
+consolidada, das despesas com ações de publicidade e propaganda, incluídos os gastos com
+publicidade institucional, legal, e de utilidade pública:
+
+
+                              GASTOS COM PUBLICIDADE - 2024
+                                                                                      Despesas
+                            Unidade Gestora                                         Orçamentárias
+                                                                                     Pagas (R$)
+010101 - ASSEMBLEIA LEGISLATIVA DO ESTADO DO ESPÍRITO SANTO                                      3.766.741,74
+
+020101 - TRIBUNAL DE CONTAS DO ESTADO DO ESPÍRITO SANTO                                               7.007,55
+
+030901 - FUNDO ESPECIAL DO PODER JUDICIÁRIO DO ESTADO DO ES                                        15.793,12
+
+050101 - MINISTÉRIO PÚBLICO DO ESTADO DO ESPÍRITO SANTO                                            14.132,91
+
+060901 - FUNDO DE APARELHAMENTO DA DEFENSORIA PÚBLICA                                              87.872,32
+
+100101 - SECRETARIA DA CASA CIVIL                                                                   2.891,65
+
+100102 - SECRETARIA DA CASA MILITAR                                                                10.703,90
+
+100103 - SECRETARIA DE ESTADO DE CONTROLE E TRANSPARÊNCIA                                           9.805,32
+
+100104 - SUPERINTENDÊNCIA ESTADUAL DE COMUNICAÇÃO SOCIAL                                     71.294.361,85
+
+100109 - SECRETARIA DE ESTADO DO GOVERNO                                                           38.973,63
+
+100201 - RÁDIO E TELEVISÃO ESPÍRITO SANTO                                                           9.304,88
+
+160101 - PROCURADORIA GERAL DO ESTADO                                                              18.067,96
+
+190101 - VICE-GOVERNADORIA DO ESTADO                                                                1.977,44
+
+220101 - SECRETARIA DE ESTADO DA FAZENDA                                                           93.642,23
+
+220202 - JUNTA COMERCIAL DO ESTADO DO ESPIRITO SANTO                                               37.969,96
+
+270101 - SECRETARIA DE ESTADO DE ECONOMIA E PLANEJAMENTO                                            4.352,31
+
+270201 - INSTITUTO JONES DOS SANTOS NEVES                                                          16.769,40
+
+280101 - SECRETARIA DE ESTADO DE GESTÃO E RECURSOS HUMANOS                                        231.008,26
+
+280201 - ESCOLA DE SERVIÇO PÚBLICO DO ESPÍRITO SANTO                                              191.020,17
+
+280202 - DEPARTAMENTO DE IMPRENSA OFICIAL                                                             124,60
+
+280203 - INSTITUTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO ES                                    57.201,68
+
+
+
+
+                                                   13
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+280204 - ARQUIVO PÚBLICO DO ESTADO DO ESPÍRITO SANTO                                             10.392,42
+
+310101 - SECRETARIA DE ESTADO DA AGRICULTURA, ABASTECIMENTO,                                    283.424,51
+AQUICULTURA E PESCA
+
+310201 - INSTITUTO DE DEFESA AGROPECUÁRIA E FLORESTAL DO ES                                     160.979,38
+
+310202 - INSTITUTO CAPIXABA DE PESQUISA, ASSISTÊNCIA TÉCNICA E                                   50.547,84
+EXTENSÃO RURAL
+
+310203 - CENTRAIS DE ABASTECIMENTO DO ESPÍRITO SANTO                                            104.504,40
+
+320101 - SECRETARIA DE ESTADO DA CIÊNCIA, TECNOLOGIA, INOVAÇÃO E                                 38.196,64
+EDUCAÇÃO PROFISSIONAL
+
+320202 - FUNDAÇÃO DE AMPARO À PESQUISA E INOVAÇÃO DO ESPÍRITO SANTO                             130.814,38
+
+350101 - SECRETARIA DE ESTADO DE MOBILIDADE E INFRAESTRUTURA                                     17.825,17
+
+350201 - DEPARTAMENTO DE EDIFICAÇÕES E DE RODOVIAS DO ESTADO ES                                 276.376,84
+
+360101 - SECRETARIA DE ESTADO DE SANEAMENTO, HABITAÇÃO E                                         69.134,72
+DESENVOLVIMENTO URBANO
+
+370101 - SECRETARIA DE ESTADO DO TURISMO                                                         20.617,11
+
+390101 - SECRETARIA DE ESTADO DE ESPORTES E LAZER                                               132.773,17
+
+400101 - SECRETARIA DE ESTADO DA CULTURA                                                         55.743,26
+
+400102 - ARQUIVO PÚBLICO DO ESTADO DO ESPÍRITO SANTO                                               849,25
+
+410101 - SECRETARIA DE ESTADO DE MEIO AMBIENTE E RECURSOS HÍDRICOS                               61.119,94
+
+410201 - INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS                                250.931,18
+
+410202 - AGÊNCIA ESTADUAL DE RECURSOS HÍDRICOS                                                   26.004,41
+
+420101 - SECRETARIA DE ESTADO DA EDUCAÇÃO                                                       210.160,05
+
+420201 - FACULDADE DE MÚSICA DO ESPÍRITO SANTO                                                   25.569,13
+
+440901 - FUNDO ESTADUAL DE SAÚDE                                                                805.913,20
+
+440910 - HOSPITAL INFANTIL NOSSA SENHORA DA GLÓRIA                                              175.322,72
+
+440911 - HOSPITAL DOUTOR DORIO SILVA                                                             12.609,90
+
+440912 - HOSPITAL ADAUTO BOTELHO                                                                 11.315,49
+
+440913 - CENTRO DE REABILITAÇÃO FÍSICA DO ESTADO DO ESPÍRITO SANTO                               25.252,98
+
+440916 - HOSPITAL E MATERNIDADE SILVIO AVIDOS                                                    57.840,06
+
+440917 - HOSPITAL DOUTOR ROBERTO ARNIZAUT SILVARES                                               76.401,95
+
+440918 - CENTRO DE ATEND. PSIQUIÁTRICO ARISTIDES ALEXANDRE CAMPOS                                  490,34
+
+440919 - COLONIA PEDRO FONTES                                                                     1.045,61
+
+
+
+                                                  14
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                       GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+440920 - HOSPITAL DOUTORA RITA DE CASSIA                                                             36.545,95
+
+440921 - UNIDADE INTEGRADA JERÔNIMO MONTEIRO                                                         31.759,05
+
+440922 - HOSPITAL SÃO JOSÉ DO CALÇADO                                                                45.011,51
+
+440923 - HOSPITAL JOÃO DOS SANTOS NEVES                                                               6.154,66
+
+440926 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE CACHOEIRO ITAPEMIRIM                                  66.303,26
+
+440927 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE SÃO MATEUS                                            38.022,35
+
+440928 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE COLATINA                                              42.177,82
+
+440929 - SUPERINTENDÊNCIA REGIONAL DE SAÚDE DE VITÓRIA                                               66.137,66
+
+450101 - SECRETARIA DE ESTADO DA SEGURANÇA PÚBLICA E DEFESA SOCIAL                                   91.163,00
+
+450102 - POLÍCIA CIVIL DO ESTADO DO ESPÍRITO SANTO                                                  162.178,95
+
+450103 - POLÍCIA MILITAR DO ESTADO DO ESPÍRITO SANTO                                                162.669,40
+
+450104 - CORPO DE BOMBEIROS MILITAR DO ESTADO DO ESPÍRIDO SANTO                                      48.947,70
+
+450105 - DIRETORIA DE SAÚDE DA POLÍCIA MILITAR                                                       47.011,63
+
+450107 - POLICIA CIENTIFICA DO ESTADO DO ESPIRITO SANTO                                               9.047,28
+
+450202 - DEPARTAMENTO ESTADUAL DE TRÂNSITO                                                          199.770,45
+
+460101 - SECRETARIA DE ESTADO DA JUSTIÇA                                                            116.768,69
+
+460113 - POLÍCIA PENAL DO ESPIRITO SANTO                                                             45.202,74
+
+460202 - INSTITUTO ESTADUAL DE PROTEÇÃO E DEFESA DO CONSUMIDOR                                       33.931,68
+
+460904 - FUNDO ESTADUAL DE DEFESA DO CONSUMIDOR                                                        279,39
+
+470101 - SECRETARIA DE ESTADO DE TRAB., ASSISTÊNCIA E DESENV. SOCIAL                                101.912,56
+
+480101 - SECRETARIA DE ESTADO DE DIREITOS HUMANOS                                                    29.778,47
+
+480201 - INSTITUTO DE ATENDIMENTO SOCIOEDUCATIVO DO ESPÍRITO SANTO                                  170.459,09
+
+490101 - SECRETARIA DE ESTADO DE DESENVOLVIMENTO                                                      8.870,20
+
+490203 - AGÊNCIA DE DESENVOLVIMENTO DAS MICRO E PEQUENAS EMPRESAS E                                  94.090,54
+DO EMPREENDEDORISMO
+
+490204 - INSTITUTO DE PESOS E MEDIDAS DO ESTADO DO ESPÍRITO SANTO                                    32.634,67
+
+490205 - AGÊNCIA DE REGULAÇÃO DE SERVIÇOS PÚBLICOS                                                   82.284,18
+
+500101 - SECRETARIA ESTADUAL DAS MULHERES                                                            14.396,48
+
+600201 - INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DO ES                                    369.224,62
+
+
+Total                                                                                     81.154.612,91
+
+Fonte: SIGEFES
+
+                                                      15
+
+
+                 Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                               GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+7. A POLÍTICA DE RECUPERAÇÃO DOS CRÉDITOS INSCRITOS EM DÍVIDA ATIVA
+
+
+As informações acerca da política de recuperação dos créditos inscritos em dívida ativa
+encontram-se disponíveis em anexo (item II-02-RELGES–02).
+
+
+7.1.             PROVISIONAMENTOS PARA PERDAS REGISTRADOS EM CONTAS DE AJUSTES DA
+DÍVIDA ATIVA
+
+
+7.1.1. DÍVIDA ATIVA TRIBUTÁRIA
+
+
+Os valores constantes da dívida ativa tributária, regulamentada a partir da legislação
+pertinente, abrangem os créditos tributários a favor da Fazenda Pública cuja certeza e
+liquidez foram apuradas, por não terem sido efetivamente recebidos nas datas aprazadas.
+É, portanto, uma fonte potencial de fluxos de caixa, com impacto positivo pela recuperação
+de valores, espelhando créditos a receber, sendo contabilmente reconhecida no ativo.
+Segue abaixo o quadro da dívida ativa tributária, cuja contabilização tem por base dados
+gerados pelo Sistema de Informações Tributárias – SIT:
+
+
+                                             Dívida Ativa Tributária em 2024 e 2023 (R$)
+                                                                        2024                                              2023
+      Dívida Ativa Tributária                                                      Não                                            Não
+                                                           Circulante                                 Circulante
+                                                                                Circulante                                     Circulante
+Dívida Ativa Tributária                                       98.000.000 31.279.365.952 189.832.138 35.201.233.855
+(-) Ajuste de Perdas de Dívida
+                                                              91.469.956 29.195.077.032 174.053.143 32.275.252.355
+Ativa Tributária
+Total                                                         6.530.044 2.084.288.920 15.778.995 2.925.981.500
+Fonte: SIGEFES
+
+
+
+No exercício de 2024, o montante de R$ 12.042.504.186,62 foi desincorporado do ativo de
+créditos inscritos em dívida ativa tributária e registrado nas contas de controle, nos termos
+do parágrafo único, do artigo 12, do Decreto n° 5089-R, de 15 de fevereiro de 2022.
+
+
+No primeiro quadrimestre de 2025, foram realizados registros de ajustes decorrentes de
+retificação de erros, em virtude de valores contabilizados equivocadamente em 2024,
+conforme demonstrado na tabela abaixo:
+                                                                                                                                              Em R $
+
+RETIFICAÇÃO DE ERROS                                               SALDO EM 31/12/2024          AJUSTE EM 2025             SALDO ATUALIZADO
+DÍVIDA ATIVA TRIBUTÁRIA - NÃO CIRCULANTE                                   31.279.365.952,30            204.851.787,56            31.484.217.739,86
+(-) AJUSTE DE PERDAS DE DÍVIDA ATIVA TRIBUTÁRIA - NÃO CIRCULANTE          (29.195.077.032,01)          (191.201.898,40)          (29.386.278.930,41)
+Fonte: SIGEFES
+
+
+
+
+                                                                        16
+
+
+                       Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                       GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+Ajustes de Perdas de Dívida Ativa Tributária
+A partir do exercício de 2022, o Estado do Espírito Santo passou utilizar a metodologia da
+média ponderada de recebimentos passados, tendo como base os valores inscritos nos
+últimos três exercícios, para fins de mensuração do valor recuperável dos créditos inscritos
+em dívida ativa, nos termos do parágrafo único, do art.13, do Decreto Estadual n° 5089-R,
+de 15 de fevereiro de 2022.
+
+
+A   metodologia,       baseada     no   histórico   de     recebimentos     passados,     utilizada   nessas
+demonstrações, baseia-se em duas variáveis principais, que é a apresentada a seguir:
+       Média percentual de recebimentos passados; e
+       Saldo atualizado da conta de créditos inscritos em Dívida Ativa.
+
+
+A média percentual de recebimentos passados utiliza uma média ponderada dos
+recebimentos com relação aos montantes inscritos dos três últimos exercícios. Essa média
+ponderada de recebimentos é calculada em cada um dos três últimos exercícios pela divisão
+da média mensal de recebimentos em cada exercício pela média anual dos saldos mensais.
+A partir da média ponderada dos recebimentos dos três últimos exercícios, calcula-se a
+média percentual de recebimentos pela divisão da soma desses percentuais dividida pelo
+número de meses correspondentes ao exercício.
+
+
+7.1.2. DÍVIDA ATIVA NÃO TRIBUTÁRIA
+
+
+São os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos
+compulsórios, contribuições estabelecidas em lei, multa de qualquer origem ou natureza,
+exceto as tributárias, foros, laudêmios, alugueis ou taxas de ocupação, custas processuais,
+preços de serviços prestados por estabelecimentos públicos, indenizações, reposições,
+restituições, alcances dos responsáveis definitivamente julgados, bem assim os créditos
+decorrentes de obrigações em moeda estrangeira, de sub-rogação de hipoteca, fiança, aval
+ou outra garantia, de contratos em geral ou de outras obrigações legais.
+                              Dívida Ativa Não Tributária em 2024 e 2023 (R$)
+                                                     2024                                2023
+Dívida Ativa Não Tributária                                   Não                                 Não
+                                         Circulante                         Circulante
+                                                           Circulante                          Circulante
+Dívida Ativa Não Tributária                6.500.000       717.786.143          3.450.343       619.322.035
+(-) Ajuste de Perdas de Dívida
+                                           6.066.885       669.689.307          3.163.548       566.296.693
+Ativa Não Tributária
+Total                                        433.115       48.096.836            286.795        53.025.342
+Fonte: SIGEFES
+
+                                                      17
+
+
+                 Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+No exercício de 2024, o montante de R$ 12.595.807,38 foi desincorporado do ativo de
+créditos inscritos em dívida ativa não tributária e registrado nas contas de controle, nos
+termos do parágrafo único, do artigo 12, do Decreto n° 5089-R, de 15 de fevereiro de 2022.
+
+
+Ajustes de Perdas de Dívida Não Ativa Tributária
+A metodologia de cálculo do ajuste de perdas da dívida ativa não tributária foi a mesma
+utilizada para a dívida ativa tributária, cuja descrição consta no item 7.1.1.
+
+
+8. PARTICIPAÇÕES ACIONÁRIAS DO ESTADO
+
+
+Os investimentos em participações societárias dos Órgãos da Administração Direta e
+Entidades da Administração Indireta do Governo do Estado do Espírito Santo, em
+31/12/2024, foram avaliados pelo Método da Equivalência Patrimonial (MEP), pelo Método
+de Custo (MC) e pelo Método do Valor Justo (MVJ), assim como os Adiantamentos para
+Futuro   Aumento      de    Capital    (AFAC)      das      Investidoras/Controladoras          em     suas
+Coligadas/Investidas/Controladas.
+
+
+Investimentos em Participações Societárias derivam de operações nas quais a investidora
+adquire ações de outra sociedade, denominada investida.
+
+
+As   Participações   Societárias,   dependendo         da   intenção   da    investidora,    podem      ser
+classificadas em permanentes ou temporárias.
+
+
+Para fins contábeis, existem três métodos de avaliação de investimentos em participações
+societárias: Método da Equivalência Patrimonial (MEP), Método de Custo (MC) e o Método
+do Valor Justo (MVJ).
+
+
+As Participações Societárias Permanentes são adquiridas com a intenção de permanência e
+classificadas no “Ativo Não Circulante/Investimentos”, sendo avaliadas pelo MEP (Método da
+Equivalência Patrimonial) ou MC (Método de Custo).
+
+
+As   Participações   Societárias    Temporárias     são     adquiridas      exclusivamente      para   fins
+especulativos e classificadas no “Ativo Circulante” ou no “Ativo Não Circulante/Realizável à
+Longo Prazo”, sendo avaliadas pelo MVJ (Método do Valor Justo).
+
+
+
+
+                                                  18
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                     GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+8.1. REGISTRO DOS INVESTIMENTOS EM PARTICIPAÇÕES SOCIETÁRIAS AVALIADAS PELO
+MÉTODO DA EQUIVALÊNCIA PATRIMONIAL
+
+
+As participações em empresas sobre cuja administração se tenha influência significativa
+devem ser mensuradas ou avaliadas pelo Método da Equivalência Patrimonial (MEP).
+
+
+Coligadas são as sociedades nas quais a investidora tenha influência significativa.
+
+
+Influência Significativa é o poder de participar nas decisões sobre políticas financeiras e
+operacionais de uma investida, sem controlá-la ou se o investidor mantém direta ou
+indiretamente vinte por cento (20%) ou mais no poder de voto da investida.
+
+
+Controladas são as sociedades na qual a controladora, diretamente ou por meio de outras
+controladas (indiretamente), é titular de direitos de sócio que lhe assegurem, de modo
+permanente, preponderância nas deliberações sociais e o poder de eleger a maioria dos
+administradores e para que ocorra o controle, a investidora (controladora) tem que ter,
+direta ou indiretamente, mais de 50% das ações (ordinárias = capital votante) com direito a
+voto da investida (controlada). O capital social de uma companhia pode ser formado por
+ações preferenciais (que não tem direito a voto) e por ações ordinárias (que tem direito a
+voto), ou seja, o capital social = capital não votante + capital votante, sendo que o
+percentual máximo (0% ≤ preferenciais ≤ 50%) de ações preferenciais é de 50% e o
+percentual mínimo (50% ≤ ordinárias ≤ 100%) de ações ordinárias corresponde a 50% do
+capital social da sociedade.
+
+
+Pelo Método de Equivalência Patrimonial (MEP), o investimento é inicialmente registrado a
+preço de custo e o valor contábil é aumentado ou reduzido conforme o Patrimônio Líquido
+da investida aumente ou diminua em contrapartida à conta de resultado. A equivalência
+patrimonial é calculada duas vezes no decorrer do exercício: no primeiro semestre, tendo
+como base as demonstrações contábeis das empresas controladas de dezembro do exercício
+anterior; e em dezembro, tendo como base as demonstrações contábeis de outubro do
+próprio exercício.
+
+
+Segue abaixo a demonstração dos Investimentos avaliados pelo MEP de propriedade do
+Governo do Estado do Espírito Santo, para os anos 2024 e 2023:
+
+
+
+
+                                                  19
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+   a) Companhia Espírito Santense de Saneamento – CESAN:
+                     Companhia Espírito Santense de Saneamento
+Período de Apuração MEP na Investidora               31/12/2024                         31/12/2023
+Ações em Circulação                                   3.894.819.970                     3.474.054.607
+Ações Pertencentes ao Estado                          3.888.563.034                     3.467.959.116
+Percentual Participação Capital Social (%)                    99,84                             99,82
+Patrimônio Líquido (R$)                               4.186.995.898                     3.669.351.028
+Valor do Invest. Apurado pelo MEP (R$)               4.144.605.154                     3.662.912.862
+Saldo na conta “Investimentos” (R$) - (I)             3.662.912.862                     3.266.250.519
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)     318.361.328                       306.836.006
+Registro de Juros sobre Capital Próprio (R$) - (III)              -                        77.267.434
+Resultado do MEP (R$) - (IV)                           163.330.964                       167.093.771
+Valor Atual. Partic. Soc. (R$) V = (I+II-III+IV)     4.144.605.154                     3.662.912.862
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+Do total de 3.894.819.970 ações da CESAN, 475.421.181 pertencem à Administração
+Indireta   (Agência     de   Desenvolvimento        das    Micro    e   Pequenas      Empresas   e   do
+Empreendedorismo) e 3.413.141.853 pertencem à Administração Direta, totalizando
+99,84% do Capital Social da empresa.
+
+
+Em 2025, houve recálculo do método de equivalência patrimonial da referida empresa,
+referente ao exercício de 2024, ou seja, um aumento no MEP no montante de R$
+35.664.455. Desta forma, o saldo atualizado é de R$ 4.180.269.609.
+
+
+   b) Banco de Desenvolvimento do Estado do Espírito Santo – BANDES:
+               Banco de Desenvolvimento do Estado do Espírito Santo
+Período de Apuração MEP na Investidora              31/12/2024     31/12/2023
+Ações que compõem o Capital Social                  29.720.323.781 29.720.323.781
+Ações em Tesouraria (-)                               -801.536.738   -801.536.738
+Ações em Circulação                                 28.918.787.043 28.918.787.043
+Ações Pertencentes ao Estado                        25.311.840.268 25.311.840.268
+Percentual Participação Capital Social (%)                   87,53          87,53
+Patrimônio Líquido (R$)                                481.927.649    445.816.393
+Valor do Investimento Apurado pelo MEP (R$)           421.818.372    390.211.156
+Saldo na conta “Investimentos” (R$) - (I)              390.211.156    343.322.717
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)              -              -
+Resultado do MEP (R$) - (III)                          31.607.216     46.888.439
+Vlr. Atual. Partic. Soc. (R$) - IV = (I+II+III)       421.818.372    390.211.156
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+Das ações do BANDES, 64.860.715 pertencem à Administração Indireta (Instituto Jones
+dos Santos Neves) e 25.246.979.553 pertencem à Administração Direta, de um total de
+28.918.787.043, perfazendo 87,53% do Capital Social da empresa.
+
+
+
+                                                   20
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+   c) Banco do Estado do Espírito Santo – BANESTES:
+                           Banco do Estado do Espírito Santo
+Período de Apuração MEP na Investidora              31/12/2024                         31/12/2023
+Ações em Circulação                                     315.912.860                       315.912.860
+Ações Pertencentes ao Estado                            292.289.929                       292.289.933
+Percentual Participação Capital Social (%)                    92,52                             92,52
+Patrimônio Líquido (R$)                               2.351.251.000                     2.198.806.000
+Valor do Investimento Apurado pelo MEP (R$)         2.175.432.165                      2.034.386.502
+Saldo na conta “Investimentos” (R$) - (I)             2.034.386.502                     1.877.202.485
+Resultado do MEP (R$) - (II)                           141.045.663                       157.184.017
+Valor Atualizado Participações Societárias          2.175.432.165                      2.034.386.502
+(R$) - III = (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+Do montante de 315.912.860 ações do BANESTES, 496.400 pertencem à Administração
+Indireta   (Agência     de   Desenvolvimento        das    Micro    e   Pequenas      Empresas   e   do
+Empreendedorismo e ao Instituto Jones dos Santos Neves) e 291.793.529 pertencem à
+Administração Direta, totalizando 92,52% do Capital Social da empresa.
+
+
+    d) Companhia de Transportes Urbanos da Grande Vitória – CETURB:
+                Companhia de Transportes Urbanos da Grande Vitória
+Período de Apuração MEP na Investidora               31/12/2024       31/12/2023
+Ações em Circulação                                      120.370.891      93.473.015
+Ações Pertencentes ao Estado                             120.370.870      93.472.994
+Percentual Participação Capital Social (%)                      99,99          99,99
+Patrimônio Líquido (R$)                                    19.812.338     23.561.037
+Ajuste do PL pelo MEP (AFAC) (R$)                                   -   - 26.897.876
+Valor do Patrimônio Líquido Ajustado (R$)                           -     -3.336.839
+Valor do Investimento Apurado pelo MEP (R$)              19.812.334                -
+Transf. de AFAC p/conta "Investimentos" (R$) - (I)         26.897.876              -
+Resultado do MEP (R$) - (II)                              -7.085.542               -
+Vlr. Atualiz. Part. Societária (R$) - III = (I+II)       19.812.334                -
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+    e) Companhia de Habitação e Urbanização do Espírito Santo – COHAB:
+            Companhia de Habitação e Urbanização do Espírito Santo
+Período de Apuração MEP na Investidora          31/12/2024       31/12/2023
+
+Ações em Circulação                                                69.201.819.208       69.201.819.208
+Ações Pertencentes ao Estado                                       69.201.819.208       69.201.819.208
+Percentual Participação Capital Social (%)                                    100                  100
+Patrimônio Líquido (R$)                                                14.864.648           14.837.942
+Valor do Invest. Apurado pelo MEP (R$)                                14.864.648           14.837.942
+Saldo na conta “Investimentos” (R$) - (I)                              14.837.942           14.951.874
+Resultado do MEP (R$) - (II)                                              26.706             - 113.932
+Valor Atualizado Participações Societárias (R$)                       14.864.648           14.837.942
+- III = (I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+                                                   21
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+   f) Fundo de Desenvolvimento e Participações do Estado do Espírito Santo – FUNDEPAR:
+      Fundo de Desenvolvimento e Participações do Estado do Espírito Santo
+Período de Apuração MEP na Investidora                            31/12/2024            31/12/2023
+Ações em Circulação                                                   105.000.000           105.000.000
+Ações Pertencentes ao Estado                                          105.000.000           105.000.000
+Percentual Participação Capital Social (%)                                       100                 100
+Patrimônio Líquido (R$)                                               183.308.496           154.169.850
+Valor do Invest. Apurado pelo MEP (R$)                              183.308.496           154.169.850
+Saldo na conta “Investimentos” (R$) - (I)                            154.169.850           150.313.914
+Resultado do MEP (R$) - (II)                                         29.138.646             3.855.936
+Vlr. Atualiz. Part. Societária (R$) - III = (I+II)                  183.308.496           154.169.850
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+   g) Centrais de Abastecimento do Espírito Santo – CEASA:
+                     Centrais de Abastecimento do Espírito Santo
+Período de Apuração MEP na Investidora                 31/12/2024                       31/12/2023
+Ações em Circulação                                         3.159.557                       3.159.557
+Ações Pertencentes ao Estado                                3.039.545                       3.039.545
+Percentual Participação Capital Social (%)                      96,20                           96,20
+Patrimônio Líquido (R$)                                    20.594.297                      14.331.755
+Valor do Invest. Apurado pelo MEP (R$)                   19.812.047                       13.787.380
+Saldo na conta “Investimentos” (R$) - (I)                  13.787.380                       9.702.339
+Resultado do MEP (R$) - (II)                               6.024.667                       4.085.041
+Valor Atualizado Partic. Societárias (R$) - III =        19.812.047                       13.787.380
+(I+II)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+    h) Fundo Garantidor de Parcerias Público-Privadas – FGP-ES:
+               Fundo Garantidor de Parcerias Público-Privadas – FGP-ES
+Período de Apuração MEP na Investidora                            31/12/2024            31/12/2023
+Ações em Circulação                                                    20.000.000            20.000.000
+Ações Pertencentes ao Estado                                           20.000.000            20.000.000
+Percentual Participação Capital Social (%)                                       100                 100
+Patrimônio Líquido (R$)                                                28.135.848            25.442.967
+Valor do Invest. Apurado pelo MEP (R$)                                28.135.848            25.442.967
+Saldo na conta “Investimentos” (R$) - (I)                              25.442.967            22.776.465
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                       -                      -
+Resultado do MEP (R$) - (III)                                          2.692.881             2.666.502
+Valor Atual. Participações Societárias (R$) - IV                      28.135.848            25.442.967
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+
+
+                                                   22
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                    GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+    i)   Fundo de Aval BANDES
+                                     Fundo de Aval BANDES
+Período de Apuração MEP na Investidora                            31/12/2024            31/12/2023
+Ações em Circulação                                                    22.042.000            22.042.000
+Ações Pertencentes ao Estado                                           20.000.000            20.000.000
+Percentual Participação Capital Social (%)                                    90,74                   90,74
+Patrimônio Líquido (R$)                                                24.315.503            23.049.483
+Valor do Invest. Apurado pelo MEP (R$)                                22.062.883            20.914.149
+Saldo na conta “Investimentos” (R$) - (I)                              20.914.149            19.830.489
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                       -                       -
+Resultado do MEP (R$) - (III)                                          1.148.734             1.083.660
+Valor Atual. Participações Societárias (R$) - IV                      22.062.883            20.914.149
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+
+    j) Fundação Estadual de Inovação em Saúde – iNOVA Capixaba
+
+             Fundação Estadual de Inovação em Saúde – iNOVA Capixaba
+Período de Apuração MEP na Investidora                            31/12/2024            31/12/2023
+Ações em Circulação                                                    75.000.000            75.000.000
+Ações Pertencentes ao Estado                                           75.000.000            75.000.000
+Percentual Participação Capital Social (%)                                       100                   100
+Patrimônio Líquido (R$)                                                17.836.134            16.402.262
+Valor do Invest. Apurado pelo MEP (R$)                                17.836.134            16.402.262
+Saldo na conta “Investimentos” (R$) - (I)                              16.402.262                    -
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                       -                  75.000.000
+Resultado do MEP (R$) - (III)                                          1.433.872          - 58.597.738
+Valor Atual. Participações Societárias (R$) - IV                      17.836.134            16.402.262
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+
+    k) Fundação Carmélia de Cultura e Comunicação Pública
+                  Fundação Carmélia de Cultura e Comunicação Pública
+Período de Apuração MEP na Investidora                                        31/12/2024
+Ações em Circulação                                                                          22.000.000
+Ações Pertencentes ao Estado                                                                 22.000.000
+Percentual Participação Capital Social (%)                                                             100
+Patrimônio Líquido (R$)                                                                      10.261.719
+Valor do Invest. Apurado pelo MEP (R$)                                                      10.261.719
+Saldo na conta “Investimentos” (R$) - (I)                                                            -
+Transf. de AFAC p/conta "Investimentos" (R$) - (II)                                              8.000.000
+Resultado do MEP (R$) - (III)                                                                2.261.719
+Valor Atual. Participações Societárias (R$) - IV                                            10.261.719
+= (I+II+III)
+* Com base nas últimas Demonstrações publicadas em 31/10/2024
+
+
+                                                   23
+
+
+              Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+8.2.    RECONHECIMENTO          DOS     INVESTIMENTOS         EM    PARTICIPAÇÕES         SOCIETÁRIAS
+AVALIADAS PELO MÉTODO DE CUSTO
+
+
+Os investimentos em participação no capital social em outras sociedades serão avaliados
+pelo custo de aquisição, deduzido de provisão para perdas prováveis na realização do seu
+valor, quando essa perda estiver comprovada como permanente, e que não será modificado
+em razão do recebimento, sem custo para a companhia, de ações ou quotas bonificadas.
+
+
+O “Método de Custo” é aplicável aos investimentos em outras sociedades que não são
+coligadas (não há influência significativa) e nem controladas (possuir menos de 50% das
+ações ordinárias/capital votante e nem haver influência significativa na investida). Esse
+método baseia-se no fato de que a investidora registra somente as operações ou transações
+baseadas em atos formais, pois, de fato os dividendos são registrados como receita no
+momento em que são declarados e distribuídos, ou reconhecidos pela empresa investida.
+
+
+Por este método (MC), os investimentos são registrados pelo custo de aquisição, deduzido
+de provisão para perdas. A entidade investidora somente reconhece o rendimento na
+medida em que receber as distribuições de lucros do item investido. As distribuições
+provenientes de rendimentos sobre investimentos do ativo permanente são reconhecidas
+como receita patrimonial. Os ajustes apurados são contabilizados em contas de resultado.
+
+
+Segue abaixo, a demonstração do Investimento avaliado pelo MC (Método de Custo) de
+propriedade do Governo do Estado do Espírito Santo:
+
+
+                               DEMAIS UNIDADES GESTORAS
+                                                 Saldo em                           Saldo em
+Sociedades                                   31/12/2024 (R$)                     31/12/2023 (R$)
+Outras                                                  43.301                             43.301
+
+
+8.3. REGISTRO DOS INVESTIMENTOS EM PARTICIPAÇÕES SOCIETÁRIAS AVALIADAS PELO
+MÉTODO DO VALOR JUSTO (PREÇO DE MERCADO)
+
+
+Os títulos patrimoniais de outras companhias mantidos pela investidora constituem um ativo
+financeiro que é um instrumento financeiro e podem ser classificadas como disponíveis para
+venda ou destinadas à negociação.
+
+
+As aplicações em instrumentos financeiros (investimentos temporários em ações de outras
+empresas) serão avaliadas pelo “Método do Valor Justo” (MVJ), quando se tratar de
+aplicações destinadas à negociação ou disponíveis para venda.
+                                                  24
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+“Valor Justo” (Fair Value) é o valor pelo qual um ativo pode ser negociado entre partes
+interessadas, conhecedoras do negócio e independentes entre si, com ausência de fatores
+que pressionem para a liquidação ou que caracterizem uma transação compulsória.
+
+
+Segue abaixo a demonstração dos Investimentos avaliados pelo MVJ (Método do Valor
+Justo) de propriedade dos Órgãos da Administração Direta (Centralizada) do Poder
+Executivo Estadual:
+
+
+                 220101 - SECRETARIA DE ESTADO DA FAZENDA
+                                            Saldo em       Saldo em
+Sociedades                              31/12/2024 (R$) 31/12/2023 (R$)
+Outras Participações                                2.500          2.500
+TOTAL                                               2.500          2.500
+
+
+     310101 - SECRETARIA DE ESTADO DA AGRICULTURA, ABASTECIMENTO,
+                             AQUICULTURA E PESCA
+                                            Saldo em       Saldo em
+Sociedades                              31/12/2024 (R$) 31/12/2023 (R$)
+Telenorte Leste Participações S/A                      -             45
+TOTAL                                                  -             45
+
+
+                800102 - ADMINISTRAÇÃO GERAL A CARGO DA SEFAZ
+                                            Saldo em         Saldo em
+Sociedades                              31/12/2024 (R$) 31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                                        186                       259
+TIM Participações S/A                                                47.060                    58.273
+Telefônica Brasil S/A                                               205.788                   236.324
+Contax Participações S/A                                                  2                         9
+Petrobras Petróleo Brasileiro S/A                                 9.155.078                 9.141.636
+OI S/A                                                                  989                       200
+TOTAL                                                             9.409.103                 9.436.701
+
+
+Segue abaixo o saldo, em 31/12/2024, dos demais Investimentos avaliados pelo MVJ
+(Método do Valor Justo) de propriedade das Entidades da Administração Indireta
+(Descentralizada) do Poder Executivo:
+
+
+          220202 - JUNTA COMERCIAL DO ESTADO DO ESPIRITO SANTO
+                                          Saldo em         Saldo em
+Sociedades                             31/12/2024 (R$) 31/12/2023 (R$)
+OI S/A                                              126               28
+TIM S/A                                           2.686            3.324
+Telefônica Brasil S/A                             2.637            3.265
+TOTAL                                             5.449            6.617
+                                    25
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+                   270201 - INSTITUTO JONES DOS SANTOS NEVES
+                                              Saldo em       Saldo em
+Sociedades                                31/12/2024 (R$) 31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                                          34                        44
+TIM S/A                                                                9.615                    11.906
+Telefônica Brasil S/A                                                 35.124                    40.133
+OI S/A                                                                   558                       133
+TOTAL                                                                 45.331                    52.216
+
+
+                   280202 - DEPARTAMENTO DE IMPRENSA OFICIAL
+                                             Saldo em        Saldo em
+Sociedades                               31/12/2024 (R$) 31/12/2023 (R$)
+OI S/A                                                  -              2
+TOTAL                                                   -              2
+
+
+  280203 - INSTITUTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO DO
+                               ESPÍRITO SANTO
+                                            Saldo em        Saldo em
+Sociedades                               31/12/2024 (R$) 31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                       20              28
+TIM S/A                                             8.413          10.499
+Telefônica Brasil S/A                              35.872          40.989
+OI S/A                                                749              24
+TOTAL                                              45.054          51.540
+
+
+ 310202 - INSTITUTO CAPIXABA PESQUISA ASSISTÊNCIA TÉCNICA E EXTENSÃO
+                                 RURAL
+                                        Saldo em         Saldo em
+Sociedades                           31/12/2024 (R$) 31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                   62               87
+TIM Participações S/A                          19.331           24.164
+Embratel Participações S/A                      9.089            9.089
+Telefônica Brasil S/A                          78.994           91.206
+Embraer S/A                                        56               23
+OI S/A                                          2.158              482
+TOTAL                                         109.690          125.051
+
+
+         310203 - CENTRAIS DE ABASTECIMENTO DO ESPÍRITO SANTO
+                                         Saldo em         Saldo em
+Sociedades                            31/12/2024 (R$) 31/12/2023 (R$)
+Outras Participações                                3               3
+TOTAL                                               3               3
+
+                                                  26
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+350201 - DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO ESPÍRITO
+                              SANTO
+                                       Saldo em        Saldo em
+Sociedades                         31/12/2024 (R$) 31/12/2023 (R$)
+Outras                                          102             102
+TOTAL                                           102             102
+
+
+                          440901 - FUNDO ESTADUAL DE SAÚDE
+                                                Saldo em                            Saldo em
+Sociedades                                   31/12/2024 (R$)                     31/12/2023 (R$)
+OI S/A                                                    10                                  23
+TOTAL                                                     10                                  23
+
+
+                  450202 - DEPARTAMENTO ESTADUAL DE TRÂNSITO
+                                                          Saldo em                  Saldo em
+Sociedades                                             31/12/2024 (R$)           31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                                          114                     118
+Vivo Participações S/A                                                66.088                    54.580
+TIM Participações S/A                                                 23.572                    18.030
+Embratel Participações S/A                                             9.389                     9.389
+OI S/A                                                                11.044                      674
+TOTAL                                                               110.207                     82.791
+
+
+480201 - INSTITUTO DE ATENDIMENTO SOCIOEDUCATIVO DO ESPÍRITO SANTO
+                                                          Saldo em                  Saldo em
+Sociedades                                             31/12/2024 (R$)           31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                                            10                     10
+TIM Participações S/A                                                  4.871                     4.871
+Telefônica Brasil S/A                                                 50.956                    50.956
+Telemar Norte Leste S/A                                                   227                     227
+TOTAL                                                                 56.064                    56.064
+
+
+490203 - AGÊNCIA DE DESENVOLVIMENTO DAS MICRO E PEQUENAS EMPRESAS E
+                        DO EMPREENDEDORISMO
+                                       Saldo em         Saldo em
+Sociedades                          31/12/2024 (R$) 31/12/2023 (R$)
+Telemar Norte Leste S/A                         648              120
+TOTAL                                           648              120
+
+
+
+
+                                                  27
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+    600201 - INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DO
+                               ESPÍRITO SANTO
+                                            Saldo em        Saldo em
+Sociedades                               31/12/2024 (R$) 31/12/2023 (R$)
+Telecomunicações Brasileiras S/A                    1.163           1.163
+TIM Participações S.A                               5.567           5.567
+Telefônica Brasil S.A                              21.158          21.158
+OI S/A                                                585             585
+TOTAL                                              28.473          28.473
+
+
+8.4.    REGISTRO DE APORTES PROVENIENTES DOS ADIANTAMENTOS PARA FUTURO
+AUMENTO DE CAPITAL
+
+
+Os “Adiantamentos para Futuro Aumento de Capital” (AFAC) são os recursos recebidos pela
+empresa de seus acionistas ou quotistas destinados a serem utilizados para aumento de
+capital. Os aportes correspondentes realizados ao longo do exercício de 2024 está descrito
+conforme o quadro a seguir:
+
+
+                          Saldo em               Aumento/Redução                   Saldo em
+   Sociedades
+                       31/12/2023 (R$)                (R$)                      31/12/2024 (R$)
+BANDES S/A                               3.433              24.060.710                          24.064.143
+
+CESAN S/A                       249.280.703                -70.120.732                      179.159.971
+
+CETURB S/A                        26.897.876               -25.397.876                           1.500.000
+
+Total                          276.182.012                -71.457.898                      204.724.114
+
+
+9. ARRECADAÇÃO DOS TRIBUTOS ESTADUAIS
+
+
+As informações acerca da arrecadação dos tributos estaduais encontram-se disponíveis em
+anexo (item II-02-RELGES–03 e item II-02-RELGES–04).
+
+
+10. O REFLEXO DA RENÚNCIA DE RECEITAS NO DESENVOLVIMENTO ECONÔMICO
+E SOCIAL DO ESTADO, CONSIDERANDO, INCLUSIVE, O REFLEXO NAS CONTAS
+PÚBLICAS ESTADUAIS
+
+As informações acerca do reflexo da renúncia de receitas no desenvolvimento econômico e
+social do Estado, considerando, inclusive, o reflexo nas contas públicas estaduais
+encontram-se disponíveis em anexo (item II-02-RELGES–03).
+
+
+
+
+                                                  28
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+11. A ADOÇÃO DE MEDIDAS DE COMPENSAÇÃO PARA A RENÚNCIA DE RECEITAS
+
+
+Não foram informadas na Lei de Diretrizes Orçamentárias do exercício de 2024 (Anexo de
+Metas Fiscais - AMF - Demonstrativo VII - Estimativa e Compensação da Renúncia de
+Receita (LRF, art. 4º, § 2º, inciso V)) as fontes de compensação da renúncia, pois o
+orçamento do Estado é feito com base na previsão da receita a ser efetivamente
+arrecadada, conforme possibilita o art. 14, inciso I da LRF, que reza: “I - demonstração pelo
+proponente de que a renúncia foi considerada na estimativa de receita da lei orçamentária,
+na forma do art. 12, e de que não afetará as metas de resultados fiscais previstas no anexo
+próprio da lei de diretrizes orçamentárias”.
+
+
+Entretanto, conforme disposto no artigo 4º, § 2º, inciso V, da Lei de Responsabilidade
+Fiscal – LRF (LC nº 101, de 4 de maio de 2000), integra o Anexo de Metas Fiscais da LDO o
+demonstrativo da estimativa e compensação da renúncia.
+
+
+
+
+12. ATENDIMENTOS DAS RECOMENDAÇÕES CONTIDAS NO PARECER PRÉVIO
+TCEES N° 72/2024
+
+
+O Parecer Prévio 00072/2024 - Plenário, relativo à Prestação de Contas Anual de
+Governador, referente ao exercício de 2023, fez as seguintes recomendações, em relação
+às quais informamos as providências para seu atendimento:
+
+
+RECOMENDAÇÕES 2023:
+
+
+1.2.1 - À Sefaz, para que no exercício de sua competência, como Secretaria de Estado
+responsável pela consolidação do Balanço Geral do Estado, promova o ajuste metodológico
+nas provisões matemáticas previdenciárias (passivo atuarial), caso utilizado regime
+financeiro de repartição de capitais de cobertura para mensuração do plano de benefícios
+não programáveis, sendo necessária a adoção integral do método atuarial denominado
+crédito unitário projetado (PUC), como se o plano estivesse estruturado em regime
+financeiro de capitalização, em atendimento ao item 69 da NBC TSP 15 e item 4.3.3 da
+Parte III do MCASP 9ª ed. (subseção 3.6.4.2 da ITC 2230/2024-9).
+
+
+Atendimento: A recomendação foi integralmente atendida, visto que o estudo atuarial
+passou a apresentar, para fins da NBC TSP 15, as provisões matemáticas previdenciárias
+(passivo atuarial) mensuradas integralmente (tanto os benefícios programáveis quanto os
+benefícios não programáveis) pelo método atuarial denominado Crédito Unitário Projetado
+                                                  29
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+(PUC), possibilitando a contabilização o ajuste correspondente, em contas de controle, pelo
+IPAJM, com os devidos reflexos no Balanço Patrimonial Consolidado de 2024.
+
+
+1.2.2 - À Seger, para que no exercício de sua competência, como Secretaria de Estado
+responsável por planejar, coordenar, controlar e executar as atividades de patrimônio,
+adote medidas objetivando regularizar os registros contábeis de bens imóveis cedidos a
+terceiros (subseção 4.2.1 da ITC 2230/2024-9).
+
+
+Atendimento: A recomendação foi integralmente atendida. No decorrer de 2024, mediante
+os esforços conjuntos da SEFAZ e da SEGER, foram efetuadas as regularizações dos saldos
+das contas: “123219902 - Imóveis de Uso Especial em Poder de Terceiros” e “123219903 -
+Ativos de Infraestrutura e Imóveis do Patrimônio Cultural em Poder de Terceiros”, que não
+apresentam mais saldo no Balanço Patrimonial de 2024.
+
+
+1.2.3 -    À SEAG, SEMOBI, SETUR, SEJUS, PCES e ao DER-ES, para que realizem
+reconhecimento contábil e patrimonial dos imóveis concluídos, em observância aos
+normativos de procedimentos contábeis estabelecidos pela Sefaz, com especial atenção ao
+Manual de Contabilidade de Orientações Contábeis e Procedimentos Operacionais do Sigefes
+– MCONT e às Normas de Procedimento de Controle SCO 018 e 020 (subseção 4.2.2 da ITC
+2230/2024-9).
+
+
+Atendimento: A recomendação foi parcialmente atendida, com previsão para atendimento
+integral até o final de 2025.
+
+
+No decorrer de 2024, foram empreendidos grandes esforços visando o atendimento da
+presente recomendação. Ao final do exercício, a situação foi a seguinte, conforme
+informações prestadas pelos órgãos e entidades correspondentes, no âmbito da Declaração
+de Conformidade Contábil (DCC) referente ao 3º quadrimestre de 2024, e em respostas a
+solicitações efetuadas pela SEFAZ:
+
+
+   a) SEAG: Em virtude do grande volume de análises, não foi possível efetuar a
+       conciliação das contas por completo em 2024. Todavia, os trabalhos continuam
+       sendo realizados pela SEAG, com o acompanhamento da SEFAZ, com vistas a
+       finalizar em 2025;
+
+
+   b) SEMOBI e DER: Unidades Gestoras que possuem a maior representatividade nos
+       saldos das contas pertinentes aos “imóveis em andamento”, a SEMOBI e o DER, no
+
+                                                  30
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+       decorrer de 2024, envidaram grandes esforços para efetuar a conciliação dos saldos
+       das referidas contas. Conforme informações prestadas, que seguem em anexo, as
+       perspectivas indicam a finalização das ações de conciliação contábil até 30/06/2025;
+
+
+   c) SETUR: As conciliações foram iniciadas em 2024 e finalizadas em 28/02/2025,
+       conforme consta na DCC – 3º quadrimestre de 2024;
+
+
+   d) SEJUS: As regularizações foram finalizadas em fevereiro de 2024, conforme é
+       informado no OF/SEJUS/CONTABILIDADE/Nº001/2024 (em anexo);
+
+
+   e) PCES: Conforme as informações apresentadas na DCC referente ao 3º quadrimestre
+       de 2024, as conciliações foram efetuadas.
+
+
+1.2.4 - Ao chefe do Poder Executivo estadual e aos atuais responsáveis pelo IPAJM, pela
+SEP, e pela Sefaz, para que avaliem a criação do Fundo para Oscilação de Riscos, aplicável
+ao Fundo Financeiro e ao Fundo de Proteção Social dos Militares, a fim de manter o nível de
+estabilidade do plano de custeio do RPPS e garantir a sua solvência, considerando que,
+embora sua criação seja facultativa, esse fundo representa uma importante alternativa para
+a prevenção de riscos, em especial por estar inserido no contexto da política de previdência,
+que considera diversos fatores de longo prazo, além de hipóteses e estimativas que
+aumentam os riscos do sistema pela imprevisibilidade, justificando a importância da criação
+desse fundo por parte do Estado (subseções 3.6.2.1 e 3.8 da ITC 2230/2024-9).
+
+
+Atendimento: Avaliando-se o contexto previdenciário estadual, conclui-se que, no
+momento, a constituição de Fundo de Oscilação de Riscos não se revela necessária nem
+para o Fundo Financeiro, vinculado ao Regime Próprio de Previdência Social (RPPS), nem
+para o Fundo de Proteção Social dos Militares (FPS), conforme fundamentos a seguir:
+
+
+Fundo Financeiro – RPPS:
+
+
+      O modelo de segregação de massas adotado por meio da Lei Complementar
+       Estadual nº 282/2004 demonstrou-se eficaz na mitigação de riscos atuariais e
+       financeiros.   Essa   medida     estruturante     permitiu     a   formação     de   um   Fundo
+       Previdenciário superavitário, cujos recursos garantem a solvência do plano de
+       custeio a longo prazo e conferem estabilidade ao sistema como um todo;
+
+
+
+
+                                                  31
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+      O ES-PREVIDÊNCIA vem apresentando resultados consistentes de equilíbrio
+       atuarial, com capacidade de honrar seus compromissos presentes e futuros. Diante
+       dessa realidade, a constituição de um Fundo de Oscilação de Riscos acarretaria
+       custos administrativos e operacionais adicionais que não se justificam à luz da
+       atual estrutura saudável do sistema, podendo inclusive comprometer a eficiência na
+       alocação de recursos;
+
+
+      Ressalte-se que o conceito de fundo de oscilação é mais oportuno em regimes que
+       operam próximos ao ponto de desequilíbrio, ou que se encontram sujeitos a
+       volatilidades significativas nos parâmetros atuariais. Não é essa, contudo, a situação
+       atual do RPPS estadual, conforme evidenciado nos demonstrativos atuariais mais
+       recentes.
+
+
+Fundo de Proteção Social dos Militares (FPS)
+
+
+      O FPS foi instituído no âmbito da reforma da previdência dos militares federais
+       (Lei Federal nº 13.954/2019), cuja adoção pelos Estados seguiu os mesmos
+       parâmetros normativos, resultando em um modelo de repartição simples, sem
+       caráter capitalizável, portanto não sujeito à lógica atuarial tradicional que se
+       aplica aos RPPS;
+
+
+      Importa destacar que não há exigência legal de autossustentabilidade
+       financeira para o FPS, uma vez que se trata de política previdenciária orientada
+       pela legislação federal e custeada diretamente pelo Tesouro Estadual;
+
+
+      A análise atuarial do FPS aponta para um comportamento estável dos aportes
+       estatais a partir de 2058, com redução em 2084 e consolidação de um patamar
+       anual constante de aproximadamente R$ 1 bilhão a partir desse exercício;
+
+
+      Observa-se ainda uma trajetória suave de crescimento da despesa até 2059,
+       seguida de estabilidade. Esses dados confirmam que o FPS se estrutura como um
+       sistema previsível e controlável, do ponto de vista orçamentário e financeiro;
+
+
+      Por fim, destaca-se que os aportes ao FPS já estão devidamente integrados às
+       projeções de longo prazo das despesas do Estado, compondo os instrumentos
+       de planejamento fiscal e assegurando controle e transparência na gestão dos
+       compromissos previdenciários relativos à categoria militar.
+
+                                                  32
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+                   GOVERNO DO ESTADO DO ESPÍRITO SANTO
+
+
+
+Mediante o exposto, no que tange à criação de Fundo de Oscilação de Riscos, não se
+verifica, no presente momento, necessidade técnica nem para o Fundo Financeiro
+nem para o FPS, diante da estrutura atual e das projeções de médio e longo prazo.
+
+
+Ainda assim, o Estado permanece atento à evolução dos cenários previdenciários e às
+melhores práticas de governança, mantendo-se aberto à reavaliação futura da medida, caso
+alterações nos pressupostos atuariais ou financeiros venham a justificar sua adoção.
+
+
+
+
+                                                  33
+
+
+             Anexo II – Item 02 - Relatório de Gestão - da IN TCEES nº 68 – Exercício de 2024
+

@@ -1,5 +1,5 @@
 # Fonte: https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js
-# Coletado (UTC): 2026-09-27T15:04:38Z
+# Coletado (UTC): 2026-09-27T15:23:00Z
 # sha256 do original: 485431e2e8720a5d174733dbe1778730f57dd4f5716805487c9fae77e6146869
 # Last-Modified (servidor): Mon, 31 Aug 2026 20:26:49 GMT
 
