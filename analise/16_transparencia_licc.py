@@ -13,9 +13,10 @@ Só a aba "DADOS" é lida; as abas de gráfico (tabelas dinâmicas) e de legisla
 O que o dado é (e não é):
 - uma linha por termo de patrocínio (patrocinador × projeto), com o número do processo da SECULT, a "data do processo",
   o CNPJ do patrocinador e do proponente e o valor "oferecido";
-- a "data do processo" não é definida na planilha. A ordem das linhas segue essa data, e o total fecha no montante do
-  ano, o que sugere a data de protocolo do termo (a fila). Isso é hipótese, não fato: fica "indeterminado" até a
-  SEFAZ confirmar;
+- a "data do processo" não é definida na planilha. Não é a data de recebimento do termo: em 2025, onde o anexo da
+  SECULT imprime a data e a hora de recebimento de cada termo, a "data do processo" vem sempre depois (conferência em
+  16_data_processo_x_recebimento_2025.csv), mas na mesma ordem. Serve como ordem aproximada da fila, com defasagem;
+  o que ela data (validação? registro?) fica indeterminado;
 - linhas de continuação (outro patrocinador do mesmo projeto) vêm com processo, data ou projeto em branco. Herdam-nos
   da linha anterior, e a herança fica marcada (campo "herdado");
 - termo com valor zero fica na tabela e marcado ("valor_zero"); não é somado como patrocínio;
@@ -29,6 +30,12 @@ Saídas:
                                                    pela chave (CNPJ do patrocinador, valor), e os que sobram de cada lado
   analise/tabelas/16_fila_por_mes.csv              por ano e mês da "data do processo": termos e valor acumulado
   analise/tabelas/16_pares_recorrentes.csv         pares patrocinador (raiz do CNPJ) × proponente (CNPJ) em mais de um ano
+  analise/tabelas/16_concentracao_proponentes.csv  por ano e no total: proponentes (CNPJ), parcela dos 5 e dos 10
+                                                   maiores, HHI, e quantos captaram em mais de um ano
+  analise/tabelas/16_renuncia_sefaz.csv            renúncia da LICC prevista e realizada nos demonstrativos da SEFAZ
+                                                   (Portal da Transparência, seção 08), com o trecho conferido no arquivo
+  analise/tabelas/16_data_processo_x_recebimento_2025.csv  2025: "data do processo" × data de recebimento do anexo,
+                                                   só termos com chave CNPJ × valor única nos dois arquivos
 Uso: python analise/16_transparencia_licc.py
 """
 from __future__ import annotations
@@ -129,6 +136,81 @@ def ler_ano(ano: int) -> tuple[pd.DataFrame, dict]:
     return df, impresso
 
 
+def conferir_data_2025(t: pd.DataFrame) -> pd.DataFrame:
+    """Casa, pela chave única CNPJ do patrocinador × valor, a data do Portal com a data de recebimento do anexo de 2025."""
+    arq = PAG / f"{aud.ANEXOS[2025]}.txt"
+    rx = re.compile(r"(\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2})\s+R\$\s*([\d.]+,\d{2})\s+(\d{2}/\d{2}/\d{4}) às (\d{2}:\d{2})")
+    a = pd.DataFrame([(so_digitos(c), round(float(v.replace(".", "").replace(",", ".")), 2),
+                       pd.to_datetime(f"{d} {h}", dayfirst=True)) for c, v, d, h in rx.findall(arq.read_text(encoding="utf-8"))],
+                     columns=["cnpj_patrocinador", "valor", "recebimento_anexo"])
+    b = t[(t["ano"] == 2025) & ~t["valor_zero"]][["cnpj_patrocinador", "valor", "data_processo", "processo"]]
+    a = a[~a.duplicated(["cnpj_patrocinador", "valor"], keep=False)]
+    b = b[~b.duplicated(["cnpj_patrocinador", "valor"], keep=False)]
+    m = b.merge(a, on=["cnpj_patrocinador", "valor"], how="inner", validate="one_to_one")
+    m["dias_depois_do_recebimento"] = (m["data_processo"] - m["recebimento_anexo"].dt.normalize()).dt.days
+    m["fonte_anexo"] = f"dados/fontes_web/paginas/{arq.name}"
+    d = m["dias_depois_do_recebimento"].dropna()
+    rho = m[["data_processo", "recebimento_anexo"]].dropna().rank().corr().iloc[0, 1]
+    print(f"2025, data do processo × recebimento: {len(m)} termos casados, {len(d)} com as duas datas; "
+          f"antes {int((d < 0).sum())}, igual {int((d == 0).sum())}, depois {int((d > 0).sum())}; mediana {d.median():.0f} "
+          f"dias (mín. {d.min():.0f}, máx. {d.max():.0f}); correlação de postos {rho:.2f}")
+    return m
+
+
+# Demonstrativos da estimativa e execução da renúncia (seção 08; R$ mil), linha "Incentivo à Cultura". Cada valor sai
+# de um trecho literal do arquivo, conferido na leitura; ano_ref é o ano a que o valor se refere.
+RENUNCIA = [
+    ("transp370_376", 370376, 2022, "realizada", 11686, ",Incentivo à Cultura(f),11686,,10000,,10000,,10000"),
+    ("transp370_376", 370376, 2023, "prevista (LDO 2023)", 10000, ",Incentivo à Cultura(f),11686,,10000,,10000,,10000"),
+    ("transp370_426", 370426, 2023, "realizada", 15000, "CRÉDITO PRESUMIDO,Incentivo à Cultura (f),15000,15000,15000,15000"),
+    ("transp370_426", 370426, 2024, "prevista (LDO 2024)", 15000, "CRÉDITO PRESUMIDO,Incentivo à Cultura (f),15000,15000,15000,15000"),
+    ("transp370_486", 370486, 2024, "prevista (LDO 2024)", 15000, "Incentivo à Cultura (f),15000,25000,30000,30000,30000"),
+    ("transp370_486", 370486, 2024, "realizada", 25000, "Incentivo à Cultura (f),15000,25000,30000,30000,30000"),
+    ("transp370_486", 370486, 2025, "prevista (LDO 2025)", 30000, "Incentivo à Cultura (f),15000,25000,30000,30000,30000"),
+    ("transp370_545", 370545, 2025, "prevista", 30000, "CRÉDITO PRESUMIDO,Incentivo à Cultura (f),30000,25000"),
+    ("transp370_545", 370545, 2025, "realizada", 25000, "CRÉDITO PRESUMIDO,Incentivo à Cultura (f),30000,25000"),
+]
+IDS_DOWNLOAD = {"transp370_376": 376, "transp370_426": 426, "transp370_486": 486, "transp370_545": 545}
+
+
+def renuncia_sefaz() -> pd.DataFrame:
+    linhas = []
+    for arq, _, ano, tipo, valor, trecho in RENUNCIA:
+        texto = (PAG / f"{arq}.txt").read_text(encoding="utf-8")
+        if trecho not in texto:
+            raise SystemExit(f"{arq}: trecho não encontrado: {trecho}")
+        linhas.append({"ano_ref": ano, "tipo": tipo, "valor_mil_reais": valor, "trecho": trecho,
+                       "fonte_arquivo": f"dados/fontes_web/paginas/{arq}.txt",
+                       "fonte_url": URL.format(IDS_DOWNLOAD[arq])})
+    out = pd.DataFrame(linhas)
+    out["nota"] = ("R$ mil; o demonstrativo de 2023 (Download/376) cita a 'Lei nº 11.246/2001' e troca as finalidades da "
+                   "LICC e da LIEC nas notas (f) e (g), como a LDO 2023; o de 2026 (Download/546) soma cultura e esporte")
+    print(out[["ano_ref", "tipo", "valor_mil_reais"]].to_string(index=False))
+    return out
+
+
+def concentracao(t: pd.DataFrame) -> pd.DataFrame:
+    """Concentração do valor captado por proponente (CNPJ com DV válido); sem CNPJ válido fica de fora e é contado."""
+    pos = t[~t["valor_zero"]]
+    ok = pos[pos["cnpj_proponente_dv_ok"]]
+    anos_por = ok.groupby("cnpj_proponente")["ano"].nunique()
+    linhas = []
+    for ano, g in [("2022-2025", ok)] + list(ok.groupby("ano")):
+        v = g.groupby("cnpj_proponente")["valor"].sum().sort_values(ascending=False)
+        sh = v / v.sum()
+        fora = pos if ano == "2022-2025" else pos[pos["ano"] == ano]
+        linhas.append({"ano": ano, "proponentes_cnpj": len(v), "valor": round(v.sum(), 2),
+                       "pct_5_maiores": sh.head(5).sum(), "pct_10_maiores": sh.head(10).sum(),
+                       "hhi": float((sh ** 2).sum()),
+                       "proponentes_em_mais_de_um_ano": int((anos_por.loc[v.index] > 1).sum()),
+                       "valor_de_quem_captou_em_mais_de_um_ano": float(v[anos_por.loc[v.index] > 1].sum() / v.sum()),
+                       "termos_sem_cnpj_valido": int((~fora["cnpj_proponente_dv_ok"]).sum()),
+                       "valor_sem_cnpj_valido": round(fora.loc[~fora["cnpj_proponente_dv_ok"], "valor"].sum(), 2)})
+    out = pd.DataFrame(linhas)
+    print(out.to_string(index=False))
+    return out
+
+
 def main() -> None:
     todos, resumo = [], []
     for ano in ARQ:
@@ -197,6 +279,9 @@ def main() -> None:
         patrocinador=("patrocinador", "first"), proponente=("proponente", "first")).reset_index()
     rec = pares[pares["n_anos"] > 1].sort_values(["n_anos", "valor"], ascending=False)
     rec.to_csv(TAB / "16_pares_recorrentes.csv", index=False)
+    renuncia_sefaz().to_csv(TAB / "16_renuncia_sefaz.csv", index=False)
+    concentracao(t).to_csv(TAB / "16_concentracao_proponentes.csv", index=False)
+    conferir_data_2025(t).to_csv(TAB / "16_data_processo_x_recebimento_2025.csv", index=False)
     print(f"pares patrocinador×proponente: {len(pares)}; em mais de um ano: {len(rec)} "
           f"({rec['valor'].sum() / pares['valor'].sum():.1%} do valor)")
 
