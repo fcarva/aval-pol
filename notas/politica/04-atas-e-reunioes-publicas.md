@@ -245,3 +245,52 @@ Ver `notas/politica/fontes/rs-lic-analogo.md` (trechos literais da Sedac/RS e do
 
 - Transcrições (ver a seção 7).
 - Chamada própria da ES Gás (2023): o corpo da notícia não veio no HTML.
+
+## 10. Rotas alternativas para o que faltava (27/09/2026, madrugada)
+
+Pedido do autor: "procurar outra rota para resgatar contexto perdido ou não encontrado dos dados da CAP e da LICC".
+Resultado de cada rota (relé, runs 36301577545 e 36302216421):
+
+| Rota | O que buscou | Resultado |
+| --- | --- | --- |
+| Repositório `fcarva/licc.gov` | dados não trazidos para cá | nada novo: os brutos (`data/raw`) não são versionados lá |
+| Links já coletados e nunca seguidos | documentos da LICC citados em páginas coletadas | aviso no DIO (era o credenciamento de pareceristas, não depósitos), cartilha 2022, modelo do relatório de execução |
+| **Versões antigas dos anexos no servidor da SECULT** | o CMS guarda o arquivo substituído e acrescenta "(n)" ou "-n" ao novo | **18 versões recuperadas** (2024: 5; 2025: 11; 2026: 2) e 2 da lista de habilitados. Ver `analise/13_versoes_anexos.py` |
+| **Wayback Machine (CDX)** | tudo o que foi arquivado em `secult.es.gov.br/media` (16.725 capturas) | 83 arquivos da LICC nunca coletados. Recuperadas: listas "Projetos habilitados para captação" de 13/06/2022, 30/06/2022 e 12/12/2023; atas da comissão julgadora do credenciamento de pareceristas (2022-2023); datas de captura que datam as versões dos anexos |
+| Mapa Cultural, fases da LICC | inscrições das fases Parecerista, CAP e Publicação final (2024-2026) | as inscrições **não são públicas** (`publishedRegistrations: false`, respostas vazias). Mas a oportunidade de 2025 e 2026 registra como **categoria da inscrição as seis linhas do art. 9º**: a linha existe no sistema, e só a LAI a libera |
+| Mapa Cultural, projetos e eventos | entidades marcadas LICC | 19 projetos autodeclarados e 5 eventos com linguagem: cobertura pequena, só ilustrativa |
+| dados.es.gov.br (CKAN) | conjuntos de cultura e incentivo | nenhum da LICC (só contratos, convênios e parcerias da SECULT) |
+| Relatórios da LAI da SECULT | pedidos e respostas | só estatísticas até 2018, antes da LICC |
+| Planilhas "controle mensal" | pareciam da LICC | são do edital de Circulação e Intercâmbio (R\$ 100 mil por mês) |
+| Manual de marcas LICC/Funcultura | regra de proporcionalidade das logomarcas (H1) | PDF só com imagem e truncado em 1 MB: sem texto |
+| YouTube por espelho (Invidious) | legendas em português que o runner não obtém | **funciona**: a live Tira-Dúvidas tem legenda automática em português. Pedidas as legendas de 11 vídeos |
+
+### A fila de 2024 nas versões do anexo de captação
+
+`analise/tabelas/13_versoes_captados.csv` e `13_versoes_captados_fila.csv`:
+- As versões (0) a (4), a (4) capturada pela Wayback em 15/05/2024, trazem **58 termos validados somando exatamente
+  R\$ 15 milhões** (o montante antes da ampliação). A seção "indeferidos por ultrapassar o montante" cresce de 18
+  termos (R\$ 3,24 mi) para 31 (R\$ 7,29 mi).
+- Depois da ampliação para R\$ 25 milhões (Portaria SEFAZ 41-R/2024), a versão (5), com recebimentos até 11/06/2024,
+  traz 110 termos e R\$ 25 milhões. A atual, (6), traz 109 termos e 22 indeferidos (R\$ 8,80 mi).
+- Na chave patrocinador (raiz do CNPJ) × valor do termo, **23 termos (R\$ 5,04 mi) foram recusados antes e validados
+  depois da ampliação**, e cerca de 20 nunca foram validados. Quatro chaves são ambíguas, porque o mesmo patrocinador
+  tem o mesmo valor em projetos diferentes, e ficaram fora da contagem.
+- Para a 2ª parte da disciplina, é uma **segunda chance quase experimental** para H5: termos com patrocinador,
+  recusados pelo montante, uns validados pela ampliação e outros não. Resta saber qual regra decidiu quem entrou (a
+  ordem de protocolo?), e a fila da SEFAZ (LAI) responde. Não entra no artigo sem essa verificação.
+
+### 2025 e 2026
+
+- 2025: as versões (7) a (17) têm data de recebimento em cada termo, e a ordem dos sufixos confere com as datas:
+  - (7) até 01/04;
+  - (11) até 08/04;
+  - (13) até 14/04, capturada em 26/04;
+  - (15) até 28/04;
+  - (16) até 20/05, com 95 termos e R\$ 25 mi.
+
+  As versões (0) a (6) têm outro layout, e o leitor por colunas não reproduz o total impresso: ficam marcadas como
+  "inconsistente". Os totais impressos sobem de R\$ 8,4 mi para R\$ 25 mi.
+- 2026: a versão (0), com recebimentos até 19/02, já soma R\$ 25,67 mi, acima dos R\$ 25 mi iniciais. A data de
+  publicação é indeterminada, então não se sabe se ela saiu antes ou depois da ampliação para R\$ 31 mi (05/03). A (1),
+  até 02/03, soma R\$ 31,19 mi, e a atual R\$ 31,51 mi.
