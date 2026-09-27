@@ -1,0 +1,7 @@
+# Fonte: https://inv.nadeko.net/api/v1/captions/p68POFJdp8Y
+# Coletado (UTC): 2026-09-27T07:24:36Z
+# sha256 do original: 2e3d90997f36a106bd09a8dd4f57e6edfcab546573217e4d8f39526feebb8fae
+
+{"captions":[{"label":"Portuguese (auto-generated)","languageCode":"pt","url":"/api/v1/captions/p68POFJdp8Y?label=Portuguese+%28auto-generated%29"}]}
+
+## Links da página
