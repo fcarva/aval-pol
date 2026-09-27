@@ -66,6 +66,7 @@ def fx(ciclo: int, faixa_valor: str) -> float:
 # auditoria independente da captação (artigo/auditoria/auditar_captacao.py): somas termo a termo nos anexos oficiais
 aud = pd.read_csv(Path(__file__).with_name("auditoria_captacao_anual.csv")).set_index("ano_captacao")
 aud25 = aud.loc[2025]
+_capt_anual = ler(RAIZ / "artigo" / "auditoria" / "auditoria_captacao_anual.csv")
 cj = ler(TAB / "10_poder_conjoint.csv")
 cj60 = cj[(cj.respondentes == 60) & (cj.tarefas == 12)]
 cj30 = cj[(cj.respondentes == 30) & (cj.tarefas == 12)]
@@ -224,9 +225,17 @@ CHECAGENS = [
     ("D05", "passou de R\\$ 15 milhões em 2023 para R\\$ 31 milhões em 2026",
      f"R\\$ {num(teto.loc[2023, 'teto_renuncia'] / 1e6)} milhões em 2023 para R\\$ {num(teto.loc[2026, 'teto_renuncia'] / 1e6)} milhões",
      "dados/externos/licc_teto_vs_icms.csv"),
-    ("D06", "463 projetos foram habilitados a captar R\\$ 184 milhões nos cinco ciclos (459 com valor publicado)",
-     f"{int(anual.loc[TOTAL, 'processos'])} projetos foram habilitados a captar R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
-     f"nos cinco ciclos ({int(anual.loc[TOTAL, 'autorizado_n'])} com valor publicado)", T + "03_anual.csv"),
+    ("D06", "463 projetos foram autorizados a captar, somados, R\\$ 184 milhões (459 com valor válido)",
+     f"{int(anual.loc[TOTAL, 'processos'])} projetos foram autorizados a captar, somados, R\\$ {num(anual.loc[TOTAL, 'autorizado_total'] / 1e6)} milhões "
+     f"({int(anual.loc[TOTAL, 'autorizado_n'])} com valor válido)", T + "03_anual.csv (valor autorizado; R$ 500,00 impresso é tratado como ausente)"),
+    ("D65b", "valor que a lista do Portal da Transparência atribui à mesma portaria",
+     (lambda r: "atribui à mesma portaria" if ("09-R/2022" in str(r["limite_rotulo"]) and float(r["limite_impresso"]) == 15e6) else "?")(
+         ler(TAB / "16_transparencia_resumo.csv").set_index("ano_captacao").loc[2022]),
+     T + "16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378)"),
+    ("D06b", "acima da soma dos tetos do período, de no máximo R\\$ 111 milhões",
+     f"no máximo R\\$ {num(sum(max(float(a), float(b)) for a, b in zip(_capt_anual['teto_portarias_sefaz'], _capt_anual['montante_impresso'])) / 1e6)} milhões"
+     if sum(max(float(a), float(b)) for a, b in zip(_capt_anual['teto_portarias_sefaz'], _capt_anual['montante_impresso'])) < anual.loc[TOTAL, 'autorizado_total'] else "?",
+     "artigo/auditoria/auditoria_captacao_anual.csv (maior entre portaria e montante impresso, 2022-2026) < 03_anual.csv"),
     ("D07", "em 2025, 62 projetos validados somam R\\$ 24,64 milhões, e um ainda",
      f"{int(aud25['projetos_validados'])} projetos validados somam R\\$ {num(float(aud25['soma_validados']) / 1e6, 2)} milhões, e "
      f"{ {1: 'um'}.get(int(aud25['projetos_em_analise']), '?')} ainda",
@@ -385,7 +394,7 @@ CHECAGENS = [
 # ---- versão de 24/09/2026: seções 4-6 reescritas (teoria da mudança, auditoria das premissas, perguntas H1-H3).
 # Checagens D01-D64 cujo trecho saiu do texto foram retiradas; ficam as que ainda se aplicam.
 T7 = T + "07_"
-CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D07", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
+CHECAGENS = [c for c in CHECAGENS if c[0] in {"D03", "D05", "D06", "D06b", "D07", "D65b", "D08", "D09", "D10", "D11", "D22", "D33", "D65"}]
 CHECAGENS += [
     ("N02", "entre os 25.441 agentes cadastrados no Mapa Cultural", milhar(mapa07.loc["todos", "agentes"]), T7 + "mapa_cultural_universo.csv"),
     ("N03", "| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |",
@@ -456,7 +465,7 @@ CHECAGENS += [
      f"os {int(comp07['proponentes'].min())} a {int(comp07['proponentes'].max())} proponentes", T7 + "composicao_por_ciclo.csv (2022-2026)"),
     ("N28", "o retrato territorial cobre 74% do valor", pct(0.741), T + "03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)"),
     # revisão de 27/09/2026: captação auditada termo a termo e captação por porte do pedido
-    ("N45", "os termos listados pela SECULT somam exatamente o montante de cada ano",
+    ("N45", "os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano",
      "somam exatamente" if all(bool(aud.loc[a, "esgotou_montante"]) for a in (2023, 2024, 2025)) else "?",
      "artigo/auditoria/auditoria_captacao_anual.csv (2023-2025)"),
     ("N46", "a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",

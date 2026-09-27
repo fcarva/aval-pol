@@ -12,9 +12,9 @@ lang: pt-BR
 
 # 1 Introdução
 
-A Lei estadual nº 11.246/2021 incluiu na lei do ICMS um crédito presumido igual ao valor que o contribuinte destina a projetos culturais credenciados pela Secretaria da Cultura (SECULT), com efeitos a partir de 2022 (ESPÍRITO SANTO, 2021a). A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu rapidamente: o montante anual de renúncia passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026,[^teto2022] e 463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado). De 2023 a 2025, os termos listados pela SECULT somam exatamente o montante de cada ano; em 2025, 62 projetos validados somam R\$ 24,64 milhões, e um ainda "em análise na SEFAZ" completa os R\$ 25 milhões (os demais números de 2025 usam o anexo inteiro).[^repo]
+A Lei estadual nº 11.246/2021 incluiu na lei do ICMS um crédito presumido correspondente ao valor que o contribuinte destina a projetos culturais credenciados pela Secretaria da Cultura (SECULT), com efeitos a partir de 2022 (ESPÍRITO SANTO, 2021a). A Lei de Incentivo à Cultura Capixaba, como o mecanismo passou a ser chamado no regulamento (ESPÍRITO SANTO, 2021b), cresceu rapidamente: o teto anual de captação, o montante fixado pela SEFAZ, passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026.[^teto2022] De 2023 a 2025, a captação esgotou o teto: os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano (em 2025, 62 projetos validados somam R\$ 24,64 milhões, e um ainda "em análise na SEFAZ" completa os R\$ 25 milhões; os números de 2025 contam os 63). A demanda supera o teto: nos cinco ciclos de habilitação (2022-2026), 463 projetos foram autorizados a captar, somados, R\$ 184 milhões (459 com valor válido), acima da soma dos tetos do período, de no máximo R\$ 111 milhões.[^repo]
 
-[^teto2022]: Para 2022, a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e o anexo de captação da SECULT informa R\$ 15 milhões disponíveis (R\$ 11,5 milhões validados). Sem o ato de ampliação, o montante de 2022 fica indeterminado.
+[^teto2022]: Para 2022, a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e o anexo de captação da SECULT informa R\$ 15 milhões disponíveis (R\$ 11,5 milhões validados), valor que a lista do Portal da Transparência atribui à mesma portaria (ESPÍRITO SANTO, 2026). Sem ato de ampliação localizado, o teto de 2022 fica indeterminado.
 
 [^repo]: Todos os números deste artigo vêm dos anexos oficiais da SECULT ("Lista de projetos habilitados" e "Recurso financeiro captado", de 2022 a 2026), de bases públicas do IBGE, do Tesouro Nacional (SICONFI) e do Portal da Transparência do ES. A lista de habilitados foi transcrita na versão disponível em 3 set. 2026 (repositório licc.gov); a SECULT atualizou o arquivo em 10 set. 2026, e os status publicados podem ter mudado desde então. Dados, scripts e tabelas: <https://github.com/fcarva/aval-pol>.
 
@@ -22,7 +22,7 @@ Nenhuma norma da LICC declara o problema que ela enfrenta; o diagnóstico precis
 
 A avaliação da LICC se justifica por três razões. Primeiro, trata-se de gasto público que não passa pelo lado da despesa do orçamento: a renúncia efetiva equivale a 14% a 21% do gasto estadual direto na função cultura em 2022-2025 (SECULT, 2026c; BRASIL, 2026). Segundo, quem decide o destino do recurso é a empresa patrocinadora, e não o Estado, o que expõe a política às críticas de concentração e de lógica de marketing feitas à Lei Rouanet (SILVA, 2017; DEKKER; RODRIGUES, 2019). Terceiro, a política é nova e muda de regra a cada ano.
 
-O artigo tem dois objetivos: avaliar o desenho da LICC **como ela está**, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder. A seção 2 caracteriza a política; a seção 3 revisa a literatura; a seção 4 reconstrói a teoria da mudança e audita suas premissas; a seção 5 transforma as premissas em perguntas de avaliação de impacto; a seção 6 conclui.
+O artigo tem dois objetivos: avaliar o desenho da LICC **como ela está**, sem propor redesenho do mecanismo, e estruturar uma avaliação de impacto, com desenho amostral, fontes de dados e cálculo de poder. A seção 2 caracteriza a política, a 3 revisa a literatura, a 4 reconstrói e audita a teoria da mudança, a 5 propõe a avaliação de impacto e a 6 conclui.
 
 # 2 Caracterização da política
 
@@ -79,6 +79,18 @@ Aplicam-se as perguntas usuais de avaliação de desenho: o problema está formu
 
 **Funil de atrito.** O funil mede, elo a elo, quantos beneficiários potenciais chegam ao fim da cadeia (WHITE; RAITZER, 2017). A Tabela 1 mostra que ele se estreita onde não há dado: entre os 25.441 agentes cadastrados no Mapa Cultural e os 53 a 95 proponentes habilitados por ciclo, não se sabe quantos se inscreveram. Nas etapas observadas, a maioria passa: 68% dos habilitados de 2022-2024 com situação resolvida captaram.
 
+**Quadro 2 – Auditoria das premissas da teoria da mudança**
+
+| Elo | Premissa | Contexto real | Situação |
+|----------|-------------------------|------------------------------------|--------------|
+| Escolha (H1) | A escolha pela marca, único retorno privado da empresa, não deixa de fora bem público que a população valorizaria | Duas empresas somam metade da renúncia de 2025; energia e gás, 52%. As peças de divulgação (até 25%) trazem a marca. Recorrentes captam mais (71% contra 57%); 48 pares patrocinador–proponente se repetem (44% do valor) | Não sustentada: evidência mista |
+| Habilitação e validação (H2) | A decisão sobre recurso público segue critério público | Parecer sem nota nem ordem. Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024; em 2025, a cota de 50% se completou com termos recebidos até 28/01. O público não escolhe | Não assegurada pelo desenho |
+| Custos (H3) | O recurso incentivado chega ao bem cultural, e não à intermediação | Captação e elaboração poderiam levar até 13% do valor captado em 2025; em 2026, a taxa pode ir ao proponente. Não há planilha de custos publicada | Indeterminada: sem planilhas |
+| Entrada (H4) | Quem não chega a grandes contribuintes consegue se inscrever e captar | A inscrição exige CNPJ com finalidade cultural, sede e certidão; só pessoa jurídica contribuinte patrocina. 14 municípios do interior nunca tiveram projeto habilitado; pedidos até R\$ 400 mil captaram 79% em 2022 e 27% em 2024; 44 de 107 proponentes voltaram a captar (68% do valor) | Não sustentada: evidência mista |
+| Entrega (H5) | O projeto financiado não aconteceria sem a LICC e chega ao público | A maior reserva do teto (30%) vai a eventos com mais de dez anos; o público alcançado não é publicado | Indeterminada: sem dado |
+
+Fonte: elaboração própria, no formato do mecanismo de mapeamento de Williams (2020), com base nas normas do Quadro 1, em SECULT (2026b; 2026c; 2026d), no Portal da Transparência (ESPÍRITO SANTO, 2026) e nas tabelas `03_*.csv`, `07_*.csv`, `09_*.csv`, `10_*.csv`, `14_*.csv` e `16_*.csv` de `analise/tabelas/`.
+
 **Tabela 1 – Funil de atrito da LICC**
 
 | Etapa | Valor | Período |
@@ -91,18 +103,6 @@ Aplicam-se as perguntas usuais de avaliação de desenho: o problema está formu
 | Público alcançado e gratuidade | não publicado | — |
 
 Fonte: elaboração própria com base em SECULT (2026b; 2026c) e na API pública do Mapa Cultural do Espírito Santo (SECULT, 2026d). Tabelas de origem: `analise/tabelas/07_funil_por_ciclo.csv`, `07_funil_captacao_anual.csv` e `07_mapa_cultural_universo.csv`.
-
-**Quadro 2 – Auditoria das premissas da teoria da mudança**
-
-| Elo | Premissa | Contexto real | Situação |
-|----------|-------------------------|------------------------------------|--------------|
-| Escolha (H1) | A escolha pela marca, único retorno privado da empresa, não deixa de fora bem público que a população valorizaria | Duas empresas somam metade da renúncia de 2025; energia e gás, 52%. As peças de divulgação (até 25%) trazem a marca. Recorrentes captam mais (71% contra 57%); 48 pares patrocinador–proponente se repetem (44% do valor) | Não sustentada: evidência mista |
-| Habilitação e validação (H2) | A decisão sobre recurso público segue critério público | Parecer sem nota nem ordem. Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024; em 2025, a cota de 50% se completou com termos recebidos até 28/01. O público não escolhe | Não assegurada pelo desenho |
-| Custos (H3) | O recurso incentivado chega ao bem cultural, e não à intermediação | Captação e elaboração poderiam levar até 13% do valor captado em 2025; em 2026, a taxa pode ir ao proponente. Não há planilha de custos publicada | Indeterminada: sem planilhas |
-| Entrada (H4) | Quem não chega a grandes contribuintes consegue se inscrever e captar | A inscrição exige CNPJ com finalidade cultural, sede e certidão; só pessoa jurídica contribuinte patrocina. 14 municípios do interior nunca tiveram projeto habilitado; pedidos até R\$ 400 mil captaram 79% em 2022 e 27% em 2024; 44 de 107 proponentes voltaram a captar (68% do valor) | Não sustentada: evidência mista |
-| Entrega (H5) | O projeto financiado não aconteceria sem a LICC e chega ao público | A maior reserva do teto (30%) vai a eventos com mais de dez anos; o público alcançado não é publicado | Indeterminada: sem dado |
-
-Fonte: elaboração própria, no formato do mecanismo de mapeamento de Williams (2020), com base nas normas do Quadro 1, em SECULT (2026b; 2026c; 2026d), no Portal da Transparência (ESPÍRITO SANTO, 2026) e nas tabelas `03_*.csv`, `07_*.csv`, `09_*.csv`, `10_*.csv`, `14_*.csv` e `16_*.csv` de `analise/tabelas/`.
 
 **Exclusão na entrada (H4).** Pessoa física não se inscreve, e o microempreendedor individual tem limite de valor (SECULT, 2025a, arts. 17 e 19). Do lado de quem financia, só pessoa jurídica contribuinte do ICMS patrocina (ESPÍRITO SANTO, 2021b, art. 2º), e as optantes do Simples Nacional, que não podem destinar valor a título de incentivo fiscal (BRASIL, 2006, art. 24), tampouco emitem a carta de intenção (SECULT, 2026a, art. 40): o público financia, pelo imposto que deixa de ser arrecadado, mas nem ele nem a pequena empresa local escolhem o que financiar. A difusão territorial desacelerou: 39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então, e restam 14 municípios do interior sem projeto. Entre os que pediram até R\$ 400 mil, a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%. O teto por projeto fixa um piso de projetos, ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63), e os pedidos se acumulam nele: 36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil. O acúmulo, porém, também ocorre se quem já tem patrocinador pede o teto. O custo de entrada é o que a literatura chama de custo administrativo (MOYNIHAN; HERD; HARVEY, 2015); ele pode excluir sem selecionar ou funcionar como triagem (FINKELSTEIN; NOTOWIDIGDO, 2019), e só uma variação exógena desse custo distingue os dois casos.
 
@@ -179,7 +179,7 @@ A fórmula segue Djimeu e Houndolo (2016), com α = 5% bicaudal e poder de 80%. 
 | H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |
 | H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |
 
-Fonte: elaboração própria; `analise/tabelas/07_poder_hipoteses.csv`, `07_mapa_quadro_h3.csv` e `10_poder_conjoint.csv` (scripts `analise/07_hipoteses_h1_h3.py` e `10_poder_mercado_rubricas.py`, com as funções de `analise/05_poder_mde.py`).
+Fonte: elaboração própria; `analise/tabelas/07_poder_hipoteses.csv`, `07_mapa_quadro_h3.csv` e `10_poder_conjoint.csv` (scripts `analise/07_hipoteses_h1_h3.py` e `10_poder_mercado_rubricas.py`).
 
 A comparação na margem do racionamento só detecta efeitos muito grandes, acima dos esperados (seção 3), e serve como verificação de robustez. O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30. O desenho de H4 detecta efeitos de poucos pontos se incluir os agentes individuais, que precisariam de CNPJ (MEI) para se inscrever; só com os coletivos, o efeito mínimo passa de 5 pontos. Com poder baixo, uma estimativa "significativa" tende a exagerar o efeito verdadeiro (GELMAN; CARLIN, 2014), o que recomenda pré-registrar a análise e corrigir comparações múltiplas.
 
@@ -193,7 +193,7 @@ A LICC é um gasto tributário que mais que dobrou de 2023 a 2026, sem problema 
 
 Sem alterar o mecanismo, a gestão pode declarar objetivos, metas e indicadores e publicar os inscritos, com CNPJ, sede e motivo de inabilitação; a captação por cota; a fila de termos, com datas de protocolo e validação, também dos recusados; e custos, contrapartidas e público alcançado.
 
-Das quatro perguntas de avaliação, a da entrega (H5) é a mais importante e a de resposta mais difícil: mais da metade dos recusados por falta de teto captou no ano seguinte, e comparar quem recebe com quem não recebe exige resultado datado e a fila de termos com as datas. Se a adicionalidade na margem for baixa, ampliar o teto financia sobretudo o que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega. Limitações dos dados: a situação publicada aproxima a captação, a estreia é medida por nome de proponente, e o retrato territorial cobre 74% do valor.
+Das quatro perguntas, a da entrega (H5) é a mais importante e a mais difícil: mais da metade dos recusados por falta de teto captou no ano seguinte, e comparar quem recebe com quem não recebe exige resultado datado e a fila de termos com as datas. Se a adicionalidade na margem for baixa, ampliar o teto financia sobretudo o que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega. Limitações dos dados: a situação publicada aproxima a captação, a estreia é medida por nome de proponente, e o retrato territorial cobre 74% do valor.
 
 # Referências
 

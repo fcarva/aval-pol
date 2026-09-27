@@ -1,7 +1,9 @@
 id,status,recalculado,fonte,trecho
 D03,CONFERE,duas,analise/tabelas/03_patrocinadores_concentracao.csv,duas empresas respondem por metade da renúncia de 2025
 D05,CONFERE,R\$ 15 milhões em 2023 para R\$ 31 milhões,dados/externos/licc_teto_vs_icms.csv,passou de R\$ 15 milhões em 2023 para R\$ 31 milhões em 2026
-D06,CONFERE,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado),analise/tabelas/03_anual.csv,463 projetos foram habilitados a captar R\$ 184 milhões nos cinco ciclos (459 com valor publicado)
+D06,CONFERE,"463 projetos foram autorizados a captar, somados, R\$ 184 milhões (459 com valor válido)","analise/tabelas/03_anual.csv (valor autorizado; R$ 500,00 impresso é tratado como ausente)","463 projetos foram autorizados a captar, somados, R\$ 184 milhões (459 com valor válido)"
+D65b,CONFERE,atribui à mesma portaria,"analise/tabelas/16_transparencia_resumo.csv (LIMITE PORTARIA SEFAZ Nº 09-R/2022 = 15.000.000, Download/378)",valor que a lista do Portal da Transparência atribui à mesma portaria
+D06b,CONFERE,no máximo R\$ 111 milhões,"artigo/auditoria/auditoria_captacao_anual.csv (maior entre portaria e montante impresso, 2022-2026) < 03_anual.csv","acima da soma dos tetos do período, de no máximo R\$ 111 milhões"
 D07,CONFERE,"62 projetos validados somam R\$ 24,64 milhões, e um ainda","artigo/auditoria/auditoria_captacao_anual.csv (auditar_captacao.py, sobre o anexo oficial de 2025)","em 2025, 62 projetos validados somam R\$ 24,64 milhões, e um ainda"
 D08,CONFERE,"4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª",dados/externos/siic_uf.csv,"ocupava 4,2% dos trabalhadores do ES, contra 5,8% no país, a 18ª participação"
 D09,CONFERE,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%",dados/externos/munic2021_cultura_es_resumo.csv,"95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34%"
@@ -39,7 +41,7 @@ N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"só com os
 N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)
 N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
 N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor
-N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos listados pela SECULT somam exatamente o montante de cada ano
+N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano
 N46,CONFERE,"caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao),"a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%"
 N48,CONFERE,"30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas (720 a 1.440 perfis) | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |"
 N49,CONFERE,"diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30"
