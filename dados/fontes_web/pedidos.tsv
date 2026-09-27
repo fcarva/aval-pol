@@ -265,3 +265,9 @@ ldo_es_2025	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20D
 ldo_es_2024	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202024.pdf	custo fiscal: LDO 2024 (endereço inferido)
 ldo_es_2023	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202023.pdf	custo fiscal: LDO 2023 (endereço inferido)
 ploa_es_2026	https://planejamento.es.gov.br/media/Or%C3%A7amento/Or%C3%A7amentos/Or%C3%A7amento_Anual_2026/PLOA/PLOA%202026.pdf	custo fiscal: demonstrativo regionalizado dos benefícios (CF, art. 165, § 6º) no projeto de LOA 2026
+raw_transp_obterfilhos_377	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/377?NivelAnterior=0	rota: Portal da Transparência, seção 07 (projetos beneficiados pela Lei de Incentivo à Cultura e ao Esporte), estrutura
+raw_transp_obterfilhos_370	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/370?NivelAnterior=0	rota: Portal da Transparência, seção 08 (demonstrativos da estimativa e execução da renúncia), estrutura
+raw_transp_obterfilhos_1	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/1?NivelAnterior=0	rota: Portal da Transparência, seção 01 (legislação e dicionário de dados)
+raw_transp_obterfilhos_2	https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/2?NivelAnterior=0	rota: Portal da Transparência, seção 02 (incentivos vigentes: o crédito presumido da LICC?)
+raw_dio_buscanova_get	https://ioes.dio.es.gov.br/buscanova?q=Lei%20de%20Incentivo%20%C3%A0%20Cultura%20Capixaba	rota DIO: a busca aceita GET?
+raw_dio_home_js	https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js	rota DIO: script do portal (endpoints)
