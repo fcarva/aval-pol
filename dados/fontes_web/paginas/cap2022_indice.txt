@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/GrupodeArquivos/comissao-de-avaliacao-de-projetos-cap
-# Coletado (UTC): 2026-09-27T20:04:25Z
+# Coletado (UTC): 2026-09-27T20:10:35Z
 # sha256 do original: 3d34e3b7d68cc44ff599805b2e40f59af4a4032c1d5fabfc6b44840ab94ea3ce
 
 SECULT - Secretaria da Cultura
