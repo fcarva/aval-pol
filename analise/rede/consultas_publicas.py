@@ -27,7 +27,8 @@ Saídas (dados/externos/):
   mapa_casamento_resumo.csv        quantos registros foram lidos e quantos casaram, por entidade
   dio_licc_trechos.csv             um trecho por ocorrência do termo no DIO: data, diário, página, termo, trecho
   dio_licc_diagnostico.txt         rotas e formatos de data tentados, com status e início da resposta
-  transparencia_beneficiarios_licc.csv   linhas da LICC nos CSVs de incentivos vigentes e de beneficiários
+  transparencia_beneficiarios_licc.csv   linhas da LICC nos incentivos vigentes; nas relações de beneficiários, as
+                                         linhas dos patrocinadores da LICC (renúncia total, todos os incentivos)
   transparencia_beneficiarios_diagnostico.txt  por arquivo: status, codificação, separador, cabeçalho, linhas, rótulos
 Uso: python analise/rede/consultas_publicas.py [--so cnpj|proponentes|mapa|dio|beneficiarios]
 """
@@ -122,6 +123,11 @@ def consultar_cnpjs(cnpjs: list[str] | None = None, nome: str = "cnpj_patrocinad
         if not d:
             d, fonte = get_json(f"https://minhareceita.org/{c}"), "minhareceita"
         linha = {k: (d or {}).get(k, "") for k in CAMPOS_CNPJ}
+        # razão social de MEI traz o CPF do titular: mascarado antes de gravar (repositório público)
+        sys.path.insert(0, str(RAIZ / "analise" / "rede"))
+        from mascarar_cpf import mascarar
+        for k in ("razao_social", "nome_fantasia"):
+            linha[k] = mascarar(str(linha[k] or ""))[0]
         linha.update(cnpj=c, fonte=fonte if d else "sem resposta",
                      consultado_utc=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()))
         linhas.append(linha)
@@ -320,7 +326,7 @@ def consultar_dio() -> None:
 TRANSP = "https://transparencia.es.gov.br/Comum/incentivosfiscais/Download/{}"
 ARQ_BENEF = {"vigentes": 311, "beneficiarios_2022": 544, "beneficiarios_2023": 543, "beneficiarios_2024": 437,
              "beneficiarios_2025": 538}
-LICC_RX = re.compile(r"11[.\s]?246|INCENTIVO\s+[ÀA]\s+CULTURA|CULTURA\s+CAPIXABA|\bLICC\b", re.I)
+LICC_RX = re.compile(r"(?<!\d)11[.\s]?246(?!\d)|INCENTIVO\s+[ÀA]\s+CULTURA|CULTURA\s+CAPIXABA|\bLICC\b", re.I)
 
 
 def consultar_beneficiarios() -> None:
@@ -355,8 +361,12 @@ def consultar_beneficiarios() -> None:
                     and not re.search(r"cnpj|cpf|raz|nome|contribuinte|inscri", c, re.I)):
                 rotulos.append(f"  coluna '{c}': {len(vals)} valores; mais frequentes: "
                                + "; ".join(f"{k[:60]} ({n})" for k, n in vals.most_common(25)))
-        # a Lei 11.246/2021 também criou o incentivo ao esporte (LIEC): linhas do esporte ficam de fora (só LICC)
-        casadas = [l for l in corpo if LICC_RX.search(" ".join(l))]
+        # a Lei 11.246/2021 também criou o incentivo ao esporte (LIEC): linhas do esporte ficam de fora (só LICC).
+        # As relações de beneficiários só trazem CNPJ, razão social e total renunciado (todos os incentivos somados):
+        # delas se gravam os patrocinadores da LICC (raiz do CNPJ nos anexos de captação), empresa a empresa.
+        raizes = {c[:8] for c in cnpjs_patrocinadores()}
+        casadas = [l for l in corpo if LICC_RX.search(" ".join(l))
+                   or (nome.startswith("beneficiarios") and l and re.sub(r"\D", "", l[0])[:8] in raizes)]
         licc = [l for l in casadas if not re.search(r"ESPORT", " ".join(l), re.I)]
         for l in licc:
             saida.append({"arquivo": nome, "url": url, **{c or f"col{j}": (l[j] if j < len(l) else "") for j, c in enumerate(cab)}})
