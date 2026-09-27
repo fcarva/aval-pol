@@ -1,0 +1,34 @@
+# Fonte: https://yewtu.be/api/v1/captions/KvXStH6-Iy4?lang=pt
+# Coletado (UTC): 2026-09-27T07:31:52Z
+# sha256 do original: 95f1bac5ec5d956697cf8e241408ddd11a69da46e6fb1a55ee06649efc67b70b
+# Last-Modified (servidor): Wed, 05 Aug 2026 20:17:18 GMT
+
+Verifying your browserâ¦
+
+Checking your browser
+
+Starting verificationâ¦
+
+This takes a couple of seconds and happens automatically.
+
+          If you can't pass the test, whitelist your extensions on this
+          website, update your browser and use a modern web browser (Firefox/Chrome/Safari).
+
+          You may try the automated checks a second time. Some checks may fail
+          once and succeed on a second try.
+
+Reload now.
+
+          Still having trouble?
+
+          Ask for help by sending an email at 
+
+          with the browser that you are using and this reference ID:
+
+no_id_generated
+
+And solve an image challenge instead.
+
+## Links da página
+- [Reload now.](https://yewtu.be/api/v1/captions/KvXStH6-Iy4?lang=pt)
+- [And solve an image challenge instead.](https://yewtu.be/antibot/captcha)
