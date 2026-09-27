@@ -78,6 +78,15 @@ jobs:
         if: always()
         run: bash analise/rede/devolver.sh "índices seguidos"
 
+      - name: Consultas públicas (CNPJ dos patrocinadores; Mapa Cultural cruzado com a LICC)
+        timeout-minutes: 45
+        continue-on-error: true
+        run: python -u analise/rede/consultas_publicas.py
+
+      - name: Devolver consultas públicas por commit
+        if: always()
+        run: bash analise/rede/devolver.sh "consultas públicas"
+
       - name: Legendas de vídeos (YouTube)
         timeout-minutes: 30
         continue-on-error: true

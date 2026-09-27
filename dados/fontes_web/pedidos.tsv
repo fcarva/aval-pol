@@ -252,3 +252,16 @@ yt_inv2_pt_KvXStH6-Iy4	https://inv.nadeko.net/api/v1/captions/KvXStH6-Iy4?label=
 yt_inv3_pt_KvXStH6-Iy4	https://inv.nadeko.net/api/v1/captions/KvXStH6-Iy4?lang=pt	legenda (Invidious, por código de idioma)
 yt_inv4_pt_KvXStH6-Iy4	https://yewtu.be/api/v1/captions/KvXStH6-Iy4?lang=pt	legenda (outra instância Invidious)
 yt_inv5_pt_KvXStH6-Iy4	https://invidious.nerdvpn.de/api/v1/captions/KvXStH6-Iy4?lang=pt	legenda (outra instância Invidious)
+raw_dio_portal_html	https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial	rota DIO: HTML bruto do portal (scripts com os endpoints da busca)
+raw_dio_home_html	https://ioes.dio.es.gov.br/	rota DIO: HTML bruto da página inicial
+dio_publicacao_exemplo	https://ioes.dio.es.gov.br/apifront/portal/edicoes/publicacoes_ver_conteudo/579363	rota DIO: formato de uma publicação avulsa (endpoint apifront)
+transparencia_es_incentivos	https://transparencia.es.gov.br/comum/incentivosfiscais	rota: Portal da Transparência do ES, incentivos, isenções e beneficiários (crédito presumido da LICC?)
+raw_transparencia_es_incentivos	https://transparencia.es.gov.br/comum/incentivosfiscais	rota: HTML bruto da página de incentivos (endpoints de dados)
+sedes_transparencia_incentivos	https://sedes.es.gov.br/transparencia-e-governanca-dos-incentivos-tributarios	rota: transparência e governança dos incentivos tributários (SEDES)
+secult_planilha_avaliacao_pontuacao_2022	https://secult.es.gov.br/media/2022/Planilha%20Avalia%C3%A7%C3%A3o%20e%20Pontua%C3%A7%C3%A3o%20dos%20Projetos.pdf	H2: planilha de avaliação e pontuação de projetos (2022): da LICC ou do Funcultura?
+wb_secult_planilha_avaliacao_pontuacao_2022	https://web.archive.org/web/20260429231741id_/https://secult.es.gov.br/media/2022/Planilha%20Avalia%C3%A7%C3%A3o%20e%20Pontua%C3%A7%C3%A3o%20dos%20Projetos.pdf	H2: cópia arquivada da mesma planilha
+ldo_es_2026	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202026.pdf	custo fiscal: demonstrativo da renúncia de receita (LRF, art. 4º, § 2º, V) com a LICC
+ldo_es_2025	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202025.pdf	custo fiscal: LDO 2025 (endereço inferido do de 2026)
+ldo_es_2024	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202024.pdf	custo fiscal: LDO 2024 (endereço inferido)
+ldo_es_2023	https://planejamento.es.gov.br/Media/Sep/Or%C3%A7amento/Lei%20de%20Diretrizes%20Or%C3%A7ament%C3%A1rias/LDO%202023.pdf	custo fiscal: LDO 2023 (endereço inferido)
+ploa_es_2026	https://planejamento.es.gov.br/media/Or%C3%A7amento/Or%C3%A7amentos/Or%C3%A7amento_Anual_2026/PLOA/PLOA%202026.pdf	custo fiscal: demonstrativo regionalizado dos benefícios (CF, art. 165, § 6º) no projeto de LOA 2026

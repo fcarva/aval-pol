@@ -6,7 +6,8 @@ Crossref, OpenAlex, SECULT, SALIC e demais fontes oficiais ficam bloqueados. O w
 
 Entradas (editadas à mão e versionadas):
   dados/fontes_web/dois.txt        um DOI por linha → metadados da Crossref e do OpenAlex
-  dados/fontes_web/pedidos.tsv     id<TAB>url<TAB>nota → página (HTML → texto; PDF → texto via pdftotext)
+  dados/fontes_web/pedidos.tsv     id<TAB>url<TAB>nota → página (HTML → texto; PDF → texto via pdftotext;
+                                   id com prefixo raw_ grava o HTML/JS bruto, para achar endpoints de API)
   dados/fontes_web/buscas.tsv      id<TAB>consulta → busca bibliográfica na Crossref e no OpenAlex (referências sem DOI)
   dados/fontes_web/salic_anos.txt  anos AA do SALIC (ex.: 23) → roda analise/03a_salic_rouanet_uf.py
   dados/fontes_web/seguir.tsv      prefixo<TAB>url<TAB>regex<TAB>nota → baixa o índice e cada link cujo rótulo ou
@@ -260,6 +261,9 @@ def baixar(pid: str, url: str) -> dict:
             info = subprocess.run(["pdfinfo", str(tmp)], capture_output=True, text=True).stdout
             datas += [f"# PDF {m.group(1)}: {m.group(2).strip()}"
                       for m in re.finditer(r"^(CreationDate|ModDate):\s*(.+)$", info, flags=re.M)]
+        elif pid.startswith("raw_"):  # HTML ou JS bruto, para achar endpoints de API (scripts incluídos)
+            r.encoding = r.encoding or r.apparent_encoding
+            texto = r.text
         else:
             r.encoding = r.encoding or r.apparent_encoding
             texto = html_para_texto(r.text, r.url)
