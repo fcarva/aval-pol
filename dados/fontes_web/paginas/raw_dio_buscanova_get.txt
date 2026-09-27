@@ -1,5 +1,5 @@
 # Fonte: https://ioes.dio.es.gov.br/buscanova?q=Lei%20de%20Incentivo%20%C3%A0%20Cultura%20Capixaba
-# Coletado (UTC): 2026-09-27T20:04:15Z
+# Coletado (UTC): 2026-09-27T20:10:25Z
 # sha256 do original: 992f1087f3b52f20a934ada77065e0af993fa66031ef4040047ce4c00c080675
 # Last-Modified (servidor): Thu, 15 Feb 2024 05:38:59 GMT
 
