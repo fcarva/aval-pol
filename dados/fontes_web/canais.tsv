@@ -1,0 +1,3 @@
+id	url	regex	nota
+secult_es	https://www.youtube.com/channel/UCTVPxpgqn2fYVNsuOtvbTbQ	(?i)LICC|incentivo|\bCAP\b|conselho estadual de cultura|\bCEC\b|cultura em dados|funcultura|patroc|reuni[ãa]o	canal da Secult ES: reuniões públicas e lives
+tve_es	https://www.youtube.com/@tveespiritosanto	(?i)LICC|incentivo à cultura|cultura em dados|funcultura|secult	TVE ES: lives da Secult transmitidas pela TV pública

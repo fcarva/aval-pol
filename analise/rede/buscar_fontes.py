@@ -9,16 +9,24 @@ Entradas (editadas à mão e versionadas):
   dados/fontes_web/pedidos.tsv     id<TAB>url<TAB>nota → página (HTML → texto; PDF → texto via pdftotext)
   dados/fontes_web/buscas.tsv      id<TAB>consulta → busca bibliográfica na Crossref e no OpenAlex (referências sem DOI)
   dados/fontes_web/salic_anos.txt  anos AA do SALIC (ex.: 23) → roda analise/03a_salic_rouanet_uf.py
+  dados/fontes_web/seguir.tsv      prefixo<TAB>url<TAB>regex<TAB>nota → baixa o índice e cada link cujo rótulo ou
+                                   endereço casa com a regex (ex.: extratos das atas da CAP, ano a ano)
+  dados/fontes_web/videos.tsv      id<TAB>url<TAB>nota → legenda em português do vídeo (yt-dlp), em texto com tempos
+  dados/fontes_web/canais.tsv      id<TAB>url<TAB>regex<TAB>nota → lista os vídeos do canal cujo título casa
 
 Saídas:
   dados/fontes_web/doi/<slug>.json        metadados essenciais da Crossref e do OpenAlex (com resumo)
   dados/fontes_web/doi_resumo.csv         uma linha por DOI: status nas duas bases, título, ano, periódico
   dados/fontes_web/paginas/<id>.txt       texto da página ou do PDF (o PDF em si não é versionado)
   dados/fontes_web/buscas/<id>.json       até 5 candidatos da Crossref e 5 do OpenAlex por consulta
+  dados/fontes_web/seguir/<prefixo>.tsv   links do índice que casaram: rótulo, url, id, status
+  dados/fontes_web/transcricoes/<id>.txt  legenda com marca de tempo, cabeçalho com título, canal, data e duração
+  dados/fontes_web/videos_canal.tsv       vídeos dos canais que casaram com a regex (para a leva seguinte)
   dados/fontes_web/manifesto.csv          id, url, status HTTP, tipo, bytes, sha256, data da coleta (UTC)
 
 Idempotente: o que já está no manifesto com status 200 não é buscado de novo (use --forcar).
-Etapas: --etapa refs (DOIs e buscas), --etapa paginas, --etapa salic, ou todas (padrão). O workflow
+Etapas: --etapa refs (DOIs e buscas), --etapa paginas, --etapa seguir, --etapa videos, --etapa canal,
+--etapa salic, ou todas (padrão). O workflow
 roda as etapas separadas e faz um commit depois de cada uma: página lenta ou SALIC não seguram o resto.
 Não envia e-mail nem identificação pessoal às APIs; o User-Agent aponta para o repositório.
 """
@@ -31,6 +39,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -230,6 +239,31 @@ def html_para_texto(html: str, base: str = "") -> str:
     return texto + "\n\n## Links da página\n" + "\n".join(f"- [{r}]({h})" for r, h in links)
 
 
+def baixar(pid: str, url: str) -> dict:
+    """Baixa uma página, PDF ou .docx, grava o texto (CPF mascarado) em paginas/<pid>.txt e devolve o registro."""
+    destino = PAG_DIR / f"{pid}.txt"
+    r = get(url, allow_redirects=True)
+    registro = {"id": pid, "url": url, "status": str(r.status_code) if r is not None else "erro",
+                "coletado_utc": agora()}
+    if r is not None and r.status_code == 200:
+        ct = r.headers.get("content-type", "")
+        registro.update(content_type=ct, bytes=str(len(r.content)), sha256=hashlib.sha256(r.content).hexdigest())
+        if "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
+            texto = docx_para_texto(r.content)
+        elif "pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf"):
+            tmp = Path("/tmp") / f"{pid}.pdf"
+            tmp.write_bytes(r.content)
+            texto = subprocess.run(["pdftotext", "-layout", str(tmp), "-"], capture_output=True,
+                                   text=True).stdout
+        else:
+            r.encoding = r.encoding or r.apparent_encoding
+            texto = html_para_texto(r.text, r.url)
+        cab = f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n\n"
+        destino.write_text(cab + mascarar(texto)[0], encoding="utf-8")
+        registro["arquivo"] = str(destino.relative_to(RAIZ))
+    return registro
+
+
 def buscar_paginas(man: dict, forcar: bool) -> None:
     arq = BASE / "pedidos.tsv"
     if not arq.exists():
@@ -246,28 +280,150 @@ def buscar_paginas(man: dict, forcar: bool) -> None:
             and "## Links da página" not in destino.read_text(encoding="utf-8")
         if not forcar and ja_tem and not sem_links:
             continue
-        r = get(url, allow_redirects=True)
-        registro = {"id": pid, "url": url, "status": str(r.status_code) if r is not None else "erro",
-                    "coletado_utc": agora()}
-        if r is not None and r.status_code == 200:
-            ct = r.headers.get("content-type", "")
-            registro.update(content_type=ct, bytes=str(len(r.content)), sha256=hashlib.sha256(r.content).hexdigest())
-            if "wordprocessingml" in ct.lower() or url.lower().split("?")[0].endswith(".docx"):
-                texto = docx_para_texto(r.content)
-            elif "pdf" in ct.lower() or url.lower().endswith(".pdf"):
-                tmp = Path("/tmp") / f"{pid}.pdf"
-                tmp.write_bytes(r.content)
-                texto = subprocess.run(["pdftotext", "-layout", str(tmp), "-"], capture_output=True,
-                                       text=True).stdout
-            else:
-                r.encoding = r.encoding or r.apparent_encoding
-                texto = html_para_texto(r.text, r.url)
-            cab = f"# Fonte: {url}\n# Coletado (UTC): {registro['coletado_utc']}\n# sha256 do original: {registro['sha256']}\n\n"
-            destino.write_text(cab + mascarar(texto)[0], encoding="utf-8")
-            registro["arquivo"] = str(destino.relative_to(RAIZ))
-        man[pid] = registro
-        print(f"{pid}: {registro['status']}")
+        man[pid] = baixar(pid, url)
+        print(f"{pid}: {man[pid]['status']}")
         time.sleep(1)
+
+
+def ler_tsv(nome: str) -> list[dict]:
+    arq = BASE / nome
+    if not arq.exists():
+        return []
+    with arq.open(encoding="utf-8") as f:
+        return [r for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+                if (r.get("id") or r.get("prefixo")) and not (r.get("id") or r.get("prefixo")).startswith("#")]
+
+
+def seguir_indices(man: dict, forcar: bool) -> None:
+    """Baixa cada índice de seguir.tsv e, dele, todo link cujo rótulo ou endereço casa com a regex."""
+    from urllib.parse import unquote, urljoin
+
+    from bs4 import BeautifulSoup
+    PAG_DIR.mkdir(parents=True, exist_ok=True)
+    (BASE / "seguir").mkdir(parents=True, exist_ok=True)
+    for p in ler_tsv("seguir.tsv"):
+        pref, url, rx = p["prefixo"].strip(), p["url"].strip(), re.compile(p["regex"].strip())
+        man[f"{pref}_indice"] = baixar(f"{pref}_indice", url)  # o índice traz as datas de atualização
+        r = get(url, allow_redirects=True)
+        if r is None or r.status_code != 200:
+            print(f"{pref}: índice {r.status_code if r is not None else 'erro'}")
+            continue
+        r.encoding = r.encoding or r.apparent_encoding
+        vistos, linhas = set(), []
+        for a in BeautifulSoup(r.text, "html.parser").find_all("a", href=True):
+            href = urljoin(r.url, a["href"])
+            rotulo = " ".join(a.get_text(" ").split()) or (a.get("title") or "")
+            if href in vistos or not href.startswith("http") or not (rx.search(rotulo) or rx.search(unquote(href))):
+                continue
+            vistos.add(href)
+            nome = unquote(href.rstrip("/").split("/")[-1]).rsplit(".", 1)[0]
+            nome = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode()
+            pid = f"{pref}_{slug(nome)}"[:120].rstrip("_.-")
+            destino = PAG_DIR / f"{pid}.txt"
+            if forcar or man.get(pid, {}).get("status") != "200" or not destino.exists():
+                man[pid] = baixar(pid, href)
+                time.sleep(1)
+            linhas.append({"rotulo": rotulo, "url": href, "id": pid, "status": man[pid]["status"]})
+        with (BASE / "seguir" / f"{pref}.tsv").open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["rotulo", "url", "id", "status"], delimiter="\t")
+            w.writeheader()
+            w.writerows(linhas)
+        print(f"{pref}: {len(linhas)} links; {sum(l['status'] == '200' for l in linhas)} com 200")
+
+
+def vtt_para_texto(vtt: str) -> str:
+    """Legenda .vtt em linhas "[hh:mm:ss] fala", sem as repetições da legenda rolante do YouTube."""
+    saida, anterior = [], ""
+    for bloco in re.split(r"\n\s*\n", vtt):
+        linhas = bloco.splitlines()
+        i = next((k for k, l in enumerate(linhas) if "-->" in l), None)
+        if i is None:
+            continue
+        inicio = linhas[i].split(".")[0].strip()
+        for fala in (re.sub(r"<[^>]+>", "", l).strip() for l in linhas[i + 1:]):
+            if fala and fala != anterior:
+                saida.append(f"[{inicio}] {fala}")
+                anterior = fala
+    # a legenda automática repete a linha anterior no bloco seguinte: fica só a primeira ocorrência
+    vistos, limpo = set(), []
+    for l in saida:
+        fala = l.split("] ", 1)[1]
+        if fala not in vistos:
+            limpo.append(l)
+        vistos = {fala} | (vistos if len(vistos) < 3 else set())
+    return "\n".join(limpo)
+
+
+def buscar_videos(man: dict, forcar: bool) -> None:
+    """Legenda em português (manual, se houver; senão automática) de cada vídeo de videos.tsv, via yt-dlp."""
+    destino_dir, tmp = BASE / "transcricoes", Path("/tmp/yt")
+    destino_dir.mkdir(parents=True, exist_ok=True)
+    tmp.mkdir(parents=True, exist_ok=True)
+    for p in ler_tsv("videos.tsv"):
+        vid, url = p["id"].strip(), p["url"].strip()
+        chave, destino = f"video:{vid}", destino_dir / f"{vid}.txt"
+        if not forcar and man.get(chave, {}).get("status") == "200" and destino.exists():
+            continue
+        registro = {"id": chave, "url": url, "status": "erro", "coletado_utc": agora()}
+        erro = ""
+        for extra in ([], ["--extractor-args", "youtube:player_client=tv,web_safari,mweb"]):
+            cmd = ["yt-dlp", "--skip-download", "--write-info-json", "--write-subs", "--write-auto-subs",
+                   "--sub-langs", "pt-BR,pt,pt-orig,pt.*", "--sub-format", "vtt", "--no-progress",
+                   "-o", str(tmp / "%(id)s.%(ext)s"), *extra, url]
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+            legendas = sorted(tmp.glob(f"{vid}*.vtt"))
+            if legendas:
+                break
+            erro = (proc.stderr.strip().splitlines() or ["sem legenda em português"])[-1][:300]
+        info_arq = tmp / f"{vid}.info.json"
+        info = json.loads(info_arq.read_text(encoding="utf-8")) if info_arq.exists() else {}
+        if legendas:
+            manual = set(info.get("subtitles") or {})
+            # preferência: legenda manual em português; depois a automática no idioma original
+            legendas.sort(key=lambda a: (a.name.split(".")[-2] not in manual, "orig" not in a.name))
+            leg = legendas[0]
+            lang = leg.name.split(".")[-2]
+            bruto = leg.read_bytes()
+            texto = vtt_para_texto(bruto.decode("utf-8", "replace"))
+            cab = "\n".join([
+                f"# Fonte: {url}", f"# Título: {info.get('title', '')}", f"# Canal: {info.get('channel') or info.get('uploader', '')}",
+                f"# Data de publicação: {info.get('upload_date', '')}", f"# Duração (s): {info.get('duration', '')}",
+                f"# Legenda: {lang}; automática: {'não' if lang in manual else 'sim'}",
+                f"# Coletado (UTC): {registro['coletado_utc']}", f"# sha256 da legenda .vtt: {hashlib.sha256(bruto).hexdigest()}",
+                f"# Nota: {p.get('nota', '')}", "", ""])
+            destino.write_text(cab + mascarar(texto)[0] + "\n", encoding="utf-8")
+            registro.update(status="200", content_type="text/vtt", bytes=str(len(bruto)),
+                            sha256=hashlib.sha256(bruto).hexdigest(), arquivo=str(destino.relative_to(RAIZ)))
+        else:
+            registro["status"] = f"erro: {erro}"
+        man[chave] = registro
+        print(f"{chave}: {registro['status']}")
+        time.sleep(2)
+
+
+def listar_canais() -> None:
+    """Lista os vídeos e transmissões de cada canal de canais.tsv cujo título casa com a regex."""
+    linhas = []
+    for p in ler_tsv("canais.tsv"):
+        cid, base, rx = p["id"].strip(), p["url"].strip().rstrip("/"), re.compile(p["regex"].strip())
+        for aba in ("videos", "streams"):
+            proc = subprocess.run(["yt-dlp", "--flat-playlist", "--ignore-errors", "--print",
+                                   "%(id)s\t%(title)s\t%(upload_date)s\t%(duration)s", f"{base}/{aba}"],
+                                  capture_output=True, text=True, timeout=900)
+            n = 0
+            for l in proc.stdout.splitlines():
+                partes = l.split("\t")
+                if len(partes) == 4 and rx.search(partes[1]):
+                    linhas.append({"canal": cid, "aba": aba, "id": partes[0], "titulo": partes[1],
+                                   "data": partes[2], "duracao_s": partes[3],
+                                   "url": f"https://www.youtube.com/watch?v={partes[0]}"})
+                n += 1
+            print(f"{cid}/{aba}: {n} vídeos listados; erro: {proc.stderr.strip().splitlines()[-1:] }")
+    with (BASE / "videos_canal.tsv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["canal", "aba", "id", "titulo", "data", "duracao_s", "url"], delimiter="\t")
+        w.writeheader()
+        w.writerows(linhas)
+    print(f"canais: {len(linhas)} vídeos com título relevante")
 
 
 def docx_para_texto(conteudo: bytes) -> str:
@@ -309,6 +465,16 @@ def main() -> None:
         man = ler_manifesto()
         buscar_paginas(man, forcar)
         gravar_manifesto(man)
+    if etapa in ("seguir", "tudo"):
+        man = ler_manifesto()
+        seguir_indices(man, forcar)
+        gravar_manifesto(man)
+    if etapa in ("videos", "tudo"):
+        man = ler_manifesto()
+        buscar_videos(man, forcar)
+        gravar_manifesto(man)
+    if etapa in ("canal", "tudo"):
+        listar_canais()
     if etapa in ("salic", "tudo"):
         rodar_salic()
 

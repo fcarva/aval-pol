@@ -1,0 +1,10 @@
+prefixo	url	regex	nota
+cap2022	https://secult.es.gov.br/GrupodeArquivos/comissao-de-avaliacao-de-projetos-cap	(?i)extrato|\bata\b	H2/H5: extratos das atas da CAP 2022 (habilitados, diligências, inabilitados; data da habilitação)
+cap2023	https://secult.es.gov.br/comissao-de-avaliacao-permanente-cap-2023	(?i)extrato|calend	H2/H5: extratos das atas da CAP 2023
+cap2024	https://secult.es.gov.br/cap-2024	(?i)extrato|calend	H2/H5: extratos das atas da CAP 2024
+cap2025	https://secult.es.gov.br/cap-2025	(?i)extrato|calend	H2/H5: extratos das atas da CAP 2025
+cap2026	https://secult.es.gov.br/cap-2026	(?i)extrato|calend|designa	H2/H5: extratos das atas da CAP 2026 e calendário
+in2022	https://secult.es.gov.br/instrucao-normativa	(?i)(instru|normativa).*\.pdf$	teto por projeto em 2022 (5% do montante?) e linhas de financiamento
+fun2025c	https://secult.es.gov.br/ciclo-2025-editais	(?i)29[-_ ]?2025|29%202025|curta	H2 (contraste): edital Funcultura 29/2025, curtas; atas com nota, linhas e faixas de município
+fun2025e	https://secult.es.gov.br/edital-2025	(?i)29[-_ ]?2025|29%202025|curta	H2 (contraste): edital Funcultura 29/2025 (se estiver nesta página)
+fun2026	https://secult.es.gov.br/editais-2026	(?i)29[-_ ]?2025|29%202025|curta	H2 (contraste): edital Funcultura 29/2025 (se estiver nesta página)
