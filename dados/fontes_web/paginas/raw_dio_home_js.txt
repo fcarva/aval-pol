@@ -1,0 +1,419 @@
+# Fonte: https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js
+# Coletado (UTC): 2026-09-27T14:49:56Z
+# sha256 do original: 485431e2e8720a5d174733dbe1778730f57dd4f5716805487c9fae77e6146869
+# Last-Modified (servidor): Mon, 31 Aug 2026 20:26:49 GMT
+
+var EDICAO_ID = 0;
+
+$(document).ready(function(){
+    //buscando ultima data de um diario válido
+    ultima_data();
+    // ultimos_diarios();
+
+    // Mobile: move "Pesquisa Agendada" para depois do form de busca
+    // Desktop: restaura para posição original na coluna esquerda
+    var $acimaSecao = $('.acima-secao-inputs');
+    var $colunaOriginal = $acimaSecao.parent(); // guarda referência da coluna esquerda original
+
+    function posicionarPesquisaAgendada() {
+        if (window.innerWidth <= 768) {
+            // só move se ainda estiver na coluna original
+            if ($acimaSecao.parent()[0] === $colunaOriginal[0]) {
+                $acimaSecao.detach().insertAfter('.busca-inputs');
+            }
+        } else {
+            // só restaura se não estiver na coluna original
+            if ($acimaSecao.parent()[0] !== $colunaOriginal[0]) {
+                $colunaOriginal.prepend($acimaSecao.detach());
+            }
+        }
+    }
+
+    posicionarPesquisaAgendada();
+    $(window).on('resize', posicionarPesquisaAgendada);
+
+    $(".data").datepicker({
+        format: 'dd/mm/yyyy',
+        language: 'pt-BR',
+        autoclose: true,
+        todayBtn: true
+    });
+
+
+    $('.busca_palavra .btn').on('click', function() {
+        var i = $('.busca_palavra');
+        var datai = '';
+        var dataf = '';
+        if (i.find('.q').val().length == 0) {
+            i.find('span').remove();
+            i.find('input:eq(1)').after('<span style="color: #900; font-size: 12px; padding: 0px 6px; margin-left: 20px; background: #ffc;white-space: nowrap">É necessária uma palavra chave para a busca.</span>');
+            return false;
+        }
+        if ($('#dataBuscaInicial').val().length > 0) {
+            var datat = $('#dataBuscaInicial').val().split('/');
+            datai = '&di=' + datat[2] + datat[1] + datat[0];
+        }
+        if ($('#dataBuscaFinal').val().length > 0) {
+            var datat = $('#dataBuscaFinal').val().split('/');
+            dataf = '&df=' + datat[2] + datat[1] + datat[0];
+        }
+        var uri = i.attr('action').split('#')[0];
+        var data = i.find('.q').val();
+        data = data.replace(/\"/g, '');
+        var comp = '';
+        if (i.find('input:radio[name=psq]:checked').length == 0 || i.find('input:radio[name=psq]:checked').val() == "completa") {
+            comp = '%22';
+        }
+        tema = '';
+        if (i[0].hasAttribute("tema")) {
+            tema = '/' + i.attr('tema');
+        }
+        i.attr('action', uri + '#' + tema + '/p=1&q=' + comp + data + comp + datai + dataf);
+        i.submit();
+    });
+    $('.busca-topo button').on('click', function() {
+        var i = $('.busca-topo');
+        var uri = i.attr('action').split('#')[0];
+        var data = i.find('[name=q]').val();
+        i.attr('action', uri + '#/p=1&q=' + data);
+        i.submit();
+    });
+
+    $("#outros-diarios").unbind('change').bind('change', function() {
+        document.location = BASE_URL + $(this).val();
+    });
+
+    $('#dataFiltro').parent().on('changeDate', function(ev) {
+        dia = ev.date.getDate();
+        mes = ev.date.getMonth()+1;
+        ano = ev.date.getFullYear();
+        from_data(ano+'-'+(mes > 9 ? mes : '0'+mes)+'-'+(dia > 9 ? dia : '0'+dia));
+    });
+
+    // $("#selectEdicaoPortal").change(function(){
+        // EDICAO_ID = $('#selectEdicaoPortal').val();
+        // carregarImagem(EDICAO_ID);
+        // var op = $( "#selectEdicaoPortal option:selected" );
+        // $('#numero-edicao').html(formatar(op.data('numero')))
+        // $('#numero-edicao-aba').html(formatar(op.data('numero')))
+        // $('#edicao-nome').html(op.data('nome'))
+        // return false;
+    // });
+
+    $("#selectEdicaoExtras").change(function(){
+        EDICAO_ID = $('#selectEdicaoExtras').val();
+        carregarImagem(EDICAO_ID);
+        var op = $( "#selectEdicaoExtras option:selected" );
+        $('#numero-edicao').html(formatar(op.data('numero')))
+        $('#numero-edicao-aba').html(formatar(op.data('numero')))
+        $('#edicao-nome').html(op.data('nome'))
+        return false;
+    });
+
+    $('#dataEdicaoPortal').unbind('change').bind('change', function() {
+        $('.busca_data').submit();
+    });
+});
+
+function validaHash(form){
+    if($(form).attr('action').indexOf('#') == -1) {
+        $(form).find('.btn').click();
+        return false;
+    }
+}
+
+function ultima_data() {
+
+    $.ajax({
+        url: BASE_URL + '/apifront/portal/edicoes/edicoes_from_data.json',
+        data: {
+          subtheme: SUBTEMA
+        }
+    }).done(function ( obj ) {
+        if (obj.erro){
+            alert(obj.msg);
+            return;
+        }
+
+        if(obj.itens && obj.itens[0]) {
+            obj.itens.sort(function(a, b) {
+                return a.id - b.id;
+            });
+            $("#dataEdicaoPortal").val(obj.itens[0].data);
+
+            var op = "";
+            for(var t in obj.itens){
+                op += '<option value="'+obj.itens[t].id+'" '+((EDICAO_ID == obj.itens[t].id) ? 'selected="selected"' : '')+'>'+obj.itens[t].tipo_edicao_nome+'</option>'
+            }
+
+            EDICAO_ID = obj.itens[0].id;
+            carregarImagem(EDICAO_ID);
+            definirUrlDiarios(EDICAO_ID);
+
+            $('#numero-edicao').html(formatar(obj.itens[0].numero))
+            $('#numero-edicao-aba').html(formatar(obj.itens[0].numero))
+            $('#edicao-nome').html(formatar(obj.itens[0].tipo_edicao_nome));
+            changeFace();
+        }
+        $("#tipoedicao").html(op);
+    });
+
+    $('#btn-autenticidade').on('click', function() {
+        var hash = $('#hash').val();
+        if (hash != '') {
+            $.ajax({
+                'url': BASE_URL + '/portal/edicoes/consulta_autenticidade/' + hash  + '.json',
+                'success': function(data) {
+                    $('#autenticidade-texto').html(data.msg);
+                    if (data.error != true) {
+                        $('#autenticidade-header').html('Código Válido');
+                        $('a#autenticidade-download').attr('href', BASE_URL + ((SUBTEMA) ? '/' + SUBTEMA : '') + '/portal/edicoes/download/' + data.Edicao.id).show();
+                    } else {
+                        $('a#autenticidade-download').attr('href', '').hide();
+                        $('#autenticidade-header').html('Código Inválido');
+                    }
+                    $('#modal-autenticidade').modal();
+                }
+            });
+        }
+    });
+}
+
+function ultimos_diarios(){
+    $.ajax({
+        url: BASE_URL  + '/apifront/portal/edicoes/ultimas_edicoes.json',
+        data: {subtheme: SUBTEMA}
+    }).done(function ( obj ) {
+
+        if (obj.erro){
+            return;
+        }
+        var levls = {};
+        if (obj.itens.length > 0){
+
+            for (var t in obj.itens){
+                if(!levls[obj.itens[t].data]){
+                    levls[obj.itens[t].data] = [];
+                }
+                var curr = {'nome': obj.itens[t].tipo_edicao_nome, 'id': obj.itens[t].id, 'numero': obj.itens[t].numero};
+                if (obj.itens[t].suplemento == 1){
+                    curr.nome = curr.nome + ' SUPLEMENTO';
+                }
+                levls[obj.itens[t].data].push(curr);
+            }
+        }
+
+        var op = '';
+        for (var t in levls){
+            if(op != '') op += '</optgroup>';
+            op += '<optgroup label="'+t+'">';
+            for(var g in levls[t]){
+                op += '<option value="'+levls[t][g].id+'" data-nome="'+levls[t][g].nome+'" data-numero="'+levls[t][g].numero+'">'+levls[t][g].nome+'</option>';
+            }
+
+        }
+
+        $("#selectEdicaoPortal").html(op);
+    });
+}
+
+function carregarImagem(edicao_id) {
+    definirUrlDiarios(edicao_id);
+    if (edicao_id > 0){
+        var url = (CDN_URL != '' ? CDN_URL : BASE_URL) + '/apifront/portal/edicoes/imagem_diario/' + edicao_id + '/1/imagem';
+        var imagem = $('<div class="processing"></div>');
+        $("#imagemCapa").parent().append(imagem);
+        $("#imagemCapa").fadeOut('fast');
+        var im = new Image();
+        im.onload = function(){
+            $("#imagemCapa").attr('src', url).fadeIn('fast');
+            $("#imagemCapa").parent().find(".processing").fadeOut('slow', function(){
+                $(this).remove();
+            });
+        }
+        im.src = url;
+    }
+}
+
+function definirUrlDiarios(edicao_id, dados) {
+    if (edicao_id > 0) {
+
+        var urlPdf = BASE_URL + '/portal/visualizacoes/pdf/'+edicao_id+'/#e:' + edicao_id;
+        var urlHTML = BASE_URL  + '/portal/visualizacoes/html/'+edicao_id+'/#e:' + edicao_id;
+        var urlJornal = BASE_URL  + '/portal/visualizacoes/jornal/'+edicao_id+'/#e:' + edicao_id;
+        var urlFull = (CDN_URL != '' ? CDN_URL : BASE_URL) + '/portal/edicoes/download/' + edicao_id;
+
+        var urlSocial = BASE_URL + '/portal/edicoes/download/' + edicao_id;
+
+        hrefFb = $("#shareDiarioFb").data('baseurl');
+        suplemento = $("#shareDiarioFb").data('suplemento');
+        hrefTw = $("#shareDiarioTwt").data('baseurl');
+        hrefWpp = $("#shareDiarioWpp").data('baseurl');
+
+        suplementar = '';
+
+        if (suplemento) {
+            suplementar = 'suplementar ';
+        }
+
+        desc = 'Consulte a edição ' + suplementar + 'de ' + $('#dataEdicaoPortal').val() + ' do Diário Oficial do Espirito Santo. É só clicar no link e o download será automático: ';
+        if (dados != undefined) {
+            desc = 'Consulte a edição ' + suplementar + 'n° ' + dados.itens[0].numero + ' de ' + dados.itens[0].data + ' do Diário Oficial do Espirito Santo. É só clicar no link e o download será automático: ';
+        }
+
+        $("#shareDiarioTwt").attr('href', hrefTw + desc + '&url=' + encodeURIComponent( urlSocial));
+        $("#shareDiarioFb").attr('href', hrefFb + encodeURIComponent(urlSocial));
+        $("#shareDiarioWpp").attr('href', hrefWpp + desc + encodeURIComponent(urlSocial));
+
+        $("#downloadPdf").attr('href', urlPdf);
+        $("#downloadHTML").attr('href', urlHTML);
+        $("#downloadJornal").attr('href', urlJornal);
+
+        $("#downloadPdfXs").attr('href', urlPdf);
+        $("#downloadHTMLXs").attr('href', urlHTML);
+        $("#downloadJornalXs").attr('href', urlJornal);
+
+        $("#baixar-diario-completo").attr('href', urlFull);
+        $("#downloadDiario").attr('href', urlFull);
+
+    }
+}
+
+function exibirEdicaoExtra(exibir) {
+    if (exibir) {
+        $('#selectEdicaoExtras').show();
+    } else {
+        $('#selectEdicaoExtras').hide();
+    }
+}
+
+function populaAbas(obj) {
+    $('#selectEdicaoExtras option:gt(1)').remove();
+
+    if (obj.length < 1) {
+      $('#selectEdicaoExtras').html('<option>Edições Extras</option>');
+      exibirEdicaoExtra(false);
+      return;
+    }
+
+    var levls = {};
+    var count = 0;
+
+    for (var t in obj) {
+        if (obj[t].suplemento.length <= 1) {
+          $('#selectEdicaoPortal').data('idDio', obj[0].id);
+
+          $('.secao-inputs #selectEdicaoPortal').unbind('click').bind('click', function(e) {
+              e.preventDefault();
+              EDICAO_ID = $(this).data('idDio');
+              console.log(EDICAO_ID);
+              carregarImagem(EDICAO_ID);
+          });
+
+          continue;
+        }
+
+        if (!levls[obj[t].data]) {
+            levls[obj[t].data] = [];
+        }
+
+        var curr = {'nome': obj[t].tipo_edicao_nome, 'id': obj[t].id, 'numero': obj[t].numero};
+        if (obj[t].suplemento.length > 1) {
+            curr.nome = 'Edição Extra ' + (count+1);
+        }
+
+        levls[obj[t].data].push(curr);
+        count++;
+    }
+
+    if (count < 1) {
+      $('#selectEdicaoExtras').html('<option>Nenhuma Edição Extra</option>');
+      exibirEdicaoExtra(false);
+      return;
+    }
+
+    var op = '<option>Edições Extras</option>';
+    for (var t in levls) {
+      for (var g in levls[t]) {
+          op += '<option value="'+levls[t][g].id+'" data-nome="'+levls[t][g].nome+'" data-numero="'+levls[t][g].numero+'">'+levls[t][g].nome+'</option>';
+      }
+    }
+
+    $("#selectEdicaoExtras").html(op);
+    exibirEdicaoExtra(true);
+}
+
+function formatar(n)
+{
+  var x1 = n+'';
+
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + '.' + '$2');
+  }
+  return x1;
+}
+
+function from_data(data){
+    $.ajax({
+        url: BASE_URL + '/apifront/portal/edicoes/edicoes_from_data/'+data+'.json?',
+        data: {subtheme: SUBTEMA}
+    }).done(function ( obj ) {
+        if (obj.erro){
+            alert(obj.msg);
+            return;
+        }
+
+        var op = "";
+        if(data.length > 0) {
+            if (obj.itens && obj.itens[0]) {
+                for (var t in obj.itens) {
+                    if (obj.itens[t].suplemento.length == 0) {
+                        principal = obj.itens[t].id;
+                    }
+                }
+
+                obj.itens.sort(function(a, b) {
+                    return a.id - b.id;
+                });
+                for (var t in obj.itens) {
+                    op += '<option value="' + obj.itens[t].id + '" ' + ((EDICAO_ID == obj.itens[t].id) ? 'selected="selected"' : '')
+                    + '>' + obj.itens[t].numero + ' - ' +  obj.itens[t].tipo_edicao_nome + '</option>'
+                }
+                EDICAO_ID = principal;
+                carregarImagem(EDICAO_ID);
+                populaAbas(obj.itens);
+                $('#numero-edicao').html(formatar(obj.itens[0].numero))
+                $('#numero-edicao-aba').html(formatar(obj.itens[0].numero))
+            }
+        }
+        $("#tipoedicao").html(op);
+
+    });
+}
+
+function changeFace() {
+    var datat = $('#dataEdicaoPortal').val().split('/');
+    dataf = datat[2] + '-' + datat[1] + '-' + datat[0];
+    from_data(dataf);
+    var i = $('.busca_data');
+    i.find('.erro').remove();
+    return false;
+}
+
+function mudarLabelEdicao(edicao_id) {
+    $.ajax({
+        url: BASE_URL + '/apifront/portal/edicoes/busca_edicao/' + edicao_id,
+        data: {
+            subtheme: SUBTEMA
+        }
+    }).done(function(data) {
+        var obj = jQuery.parseJSON(data);
+        if (obj.erro) {
+            alert(obj.msg);
+            return;
+        }
+        $('#numero-edicao').html(formatar(obj.Edicao.numero))
+        $('#numero-edicao-aba').html(formatar(obj.Edicao.numero))
+    });
+}

@@ -1,6 +1,6 @@
 # Fonte: https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial
-# Coletado (UTC): 2026-09-27T14:34:04Z
-# sha256 do original: 387ca5152d248ec94efa3c65144bd85b6e2ac48a9d45676388a98a5242bd2131
+# Coletado (UTC): 2026-09-27T14:49:40Z
+# sha256 do original: 2f784d028d8b3a2aa4c48c414ddbc766da7c124fc406f7ea0f746fa617251aa5
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -162,7 +162,7 @@
                 <!-- Consulta de Autenticidade-->
                 <form class="row consulta_autententicidade">
                     <div>
-                        <input name="_Token[fields]" autocomplete="off" value="yhipeDbfdgGCQ6rlNqk3axnFvU0wKEYHVPI7OS8oBWL" type="hidden">
+                        <input name="_Token[fields]" autocomplete="off" value="7Jk1KAjI3lsBvtw9fHDGZquRd5Mcp0YoOzUWCS2yeLT" type="hidden">
                         <input type="text" id="hash" placeholder="Código de Autenticidade" id="consultaAutenticidade">
                         <input type="submit" value="OK" id="btn-autenticidade" onclick="return false">
                     </div>

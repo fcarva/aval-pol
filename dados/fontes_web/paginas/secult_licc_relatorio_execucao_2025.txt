@@ -1,5 +1,5 @@
 # Fonte: https://secult.es.gov.br/media/2025/Anexo%20IX%20-%20RELAT%C3%93RIO%20DE%20EXECU%C3%87%C3%83O%20-2.docx
-# Coletado (UTC): 2026-09-27T14:33:58Z
+# Coletado (UTC): 2026-09-27T14:49:34Z
 # sha256 do original: 507ad62e7b1d639f52f65628a9338dd3b1d26356cff3419fa51b364b3344a39a
 # Last-Modified (servidor): Sun, 27 Sep 2026 07:16:00 GMT
 

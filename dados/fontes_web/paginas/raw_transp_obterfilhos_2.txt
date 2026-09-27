@@ -1,0 +1,49 @@
+# Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/2?NivelAnterior=0
+# Coletado (UTC): 2026-09-27T14:49:52Z
+# sha256 do original: a5893e2b36816047c8705243d2da5b45442d56a3936fa3d77eeedec11f7abdf8
+
+        <li>
+            <a target="_blank">
+                * O arquivo &quot;Rela&#231;&#227;o de Benefici&#225;rios e Valores Renunciados&quot; apresenta valores declarados pelo pr&#243;prio contribuinte na Escritura&#231;&#227;o Fiscal Digital (EFD).
+            </a>
+        </li>
+        <li>
+            <a target="_blank">
+                * Os valores apresentados n&#227;o foram, necessariamente, auditados ou homologados pela SEFAZ.
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/311">
+                Incentivos fiscais vigentes (formato CSV)
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/10">
+                Incentivos fiscais vigentes (formato PDF)
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/11">
+                Incentivos fiscais vigentes (formato XLS)
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/544">
+                Rela&#231;&#227;o de Benefici&#225;rios e Valores Renunciados - 2022 (Formato CSV) *
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/543">
+                Rela&#231;&#227;o de Benefici&#225;rios e Valores Renunciados - 2023 (Formato CSV) *
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/437">
+                Rela&#231;&#227;o de Benefici&#225;rios e Valores Renunciados - 2024 (Formato CSV) *
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/538">
+                Rela&#231;&#227;o de Benefici&#225;rios e Valores Renunciados - 2025 (Formato CSV) *
+            </a>
+        </li>

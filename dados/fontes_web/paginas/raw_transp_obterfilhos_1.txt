@@ -1,0 +1,79 @@
+# Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/1?NivelAnterior=0
+# Coletado (UTC): 2026-09-27T14:49:50Z
+# sha256 do original: 21b896c7607dd77363e5e651aaa1d4bcdbe0a2968f4cfb15c1cc233c6142aa57
+
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/239">
+                Dicion&#225;rio de Dados
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://facafacil.es.gov.br/Servicos/Detalhes/2986?IdUnidade=2">
+                Isen&#231;&#227;o de ICMS na aquisi&#231;&#227;o de ve&#237;culo automotor novo - PcD
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://facafacil.es.gov.br/Servicos/Detalhes/2985?IdUnidade=2">
+                Isen&#231;&#227;o de ICMS na aquisi&#231;&#227;o de ve&#237;culo automotor novo - Taxista
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://facafacil.es.gov.br/Servicos/Detalhes/2952?IdUnidade=2">
+                Isen&#231;&#227;o de IPVA de &#244;nibus do sistema regular de transporte de passageiros
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://facafacil.es.gov.br/Servicos/Detalhes/2953?IdUnidade=2">
+                Isen&#231;&#227;o de IPVA de ve&#237;culo automotor - PcD
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://facafacil.es.gov.br/Servicos/Detalhes/2959?IdUnidade=2">
+                Isen&#231;&#227;o de IPVA de ve&#237;culo automotor - Taxista
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp160.htm">
+                Lei complementar n&#186; 160/2017	
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://transparencia.es.gov.br/Orcamento/LDO">
+                Lei de Diretrizes Or&#231;ament&#225;rias (LDO)
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/6">
+                Lei n&#186; 10.550/2016 - Programa Invest-ES
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/7">
+                Lei n&#186; 10.568/2018 - Programa Compete-ES
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/371">
+                Lei n&#186; 11.246/2021 - Lei de Incentivo &#224; Cultura e ao Esporte Capixaba
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://secult.es.gov.br/Not%C3%ADcia/eventos-de-apresentacao-da-lei-de-incentivo-a-cultura-capixaba-licc-percorrem-estado">
+                Outras normas e orienta&#231;&#245;es sobre a Lei de Incentivo &#224; Cultura Capixaba
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://sesport.es.gov.br/lei-de-incentivo-ao-esporte">
+                Outras normas e orienta&#231;&#245;es sobre a Lei de Incentivo ao Esporte Capixaba
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://sedes.es.gov.br/compete-es">
+                Outras normas e orienta&#231;&#245;es sobre o Programa Compete-ES
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://sedes.es.gov.br/invest-es">
+                Outras normas e orienta&#231;&#245;es sobre o Programa Invest-ES
+            </a>
+        </li>

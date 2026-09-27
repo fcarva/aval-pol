@@ -1,0 +1,34 @@
+# Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/370?NivelAnterior=0
+# Coletado (UTC): 2026-09-27T14:49:49Z
+# sha256 do original: 0709deac56b5880c2249813260d913ad826105c38498f870b8a7677d2ae7b585
+
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/380">
+                1. Metodologia para Estimativa de Gastos Tribut&#225;rios para LDO
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/376">
+                Demonstrativos da Estimativa (2023) e Execu&#231;&#227;o (2022) da Ren&#250;ncia de Receita
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/426">
+                Demonstrativos da Estimativa (2024) e Execu&#231;&#227;o (2023) da Ren&#250;ncia de Receita
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/486">
+                Demonstrativos da Estimativa (2025) e Execu&#231;&#227;o (2024) da Ren&#250;ncia de Receita
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/546">
+                Demonstrativos da Estimativa (2026) da Ren&#250;ncia de Receita
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="/Comum/incentivosfiscais/Download/545">
+                Demonstrativos da Execu&#231;&#227;o (2025) da Ren&#250;ncia de Receita
+            </a>
+        </li>
