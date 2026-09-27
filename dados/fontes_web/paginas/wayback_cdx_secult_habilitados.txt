@@ -1,0 +1,30 @@
+# Fonte: https://web.archive.org/cdx/search/cdx?url=secult.es.gov.br/lista-de-projetos-habilitados&output=json&fl=timestamp,original,statuscode,digest
+# Coletado (UTC): 2026-09-27T07:04:42Z
+# sha256 do original: ebb04920b322d0c2139936a248d1246bda4a4163eeddd158c41e9e9f1a322d5c
+
+[["timestamp","original","statuscode","digest"],
+["20220409004723","https://secult.es.gov.br/lista-de-projetos-habilitados","200","JI2647ZRC5T5APJ5YQHRTQHNAU2YMWDZ"],
+["20220517173117","https://secult.es.gov.br/lista-de-projetos-habilitados","200","V3OAJNHYQ4GMCQ6OU7DFEWKI7VAOSH54"],
+["20220619021706","https://secult.es.gov.br/lista-de-projetos-habilitados","200","RW6XC7ALFFSVF6X2NX5Z6F6J2FIY5XTV"],
+["20220624010054","https://secult.es.gov.br/lista-de-projetos-habilitados","200","ZUFW3QA4CWTC23YWSXWLP2MWJJYEDH3U"],
+["20220812085403","https://secult.es.gov.br/lista-de-projetos-habilitados","200","YYTRRUA27R7EAOCHR65Z7S7QHCJFABFL"],
+["20221014145112","https://secult.es.gov.br/lista-de-projetos-habilitados","200","BF4GSHVKWQMAUCMZVBELRBHXC5LMWW7W"],
+["20221126123121","https://secult.es.gov.br/lista-de-projetos-habilitados","200","5GXFO3KWICAMXXG5VC7Z2ODLA5LHNJUE"],
+["20230331000051","https://secult.es.gov.br/lista-de-projetos-habilitados","200","PKDZQOTIO7KT5GT47M3IYI35BCGI4UM4"],
+["20230922214330","https://secult.es.gov.br/lista-de-projetos-habilitados","200","6EZKDVVA4VQ5CDDQM6C2YFJQHG3BDSPO"],
+["20240419214143","https://secult.es.gov.br/lista-de-projetos-habilitados","200","SJ47VHJDNE6X6CHKZ3VNQKL5SODSYZ6O"],
+["20240515000012","https://secult.es.gov.br/lista-de-projetos-habilitados","200","BVZLMKDOKNV77TQJW4O3WIY2CZCY3TUD"],
+["20240804081134","https://secult.es.gov.br/lista-de-projetos-habilitados","200","RSH22AO4UR74MMECPAL4OXRV6QR2RBKH"],
+["20241114205135","https://secult.es.gov.br/lista-de-projetos-habilitados","200","JX3NRDIHVPOG6TNHL5UWJV6P255QFPOT"],
+["20250114230800","https://secult.es.gov.br/lista-de-projetos-habilitados","200","KJT6THZF46DGM63WFSI54GT2VR45B4WB"],
+["20250210031711","https://secult.es.gov.br/lista-de-projetos-habilitados","200","G6KUFK4UG3MLPMW4TJOGSPZP27BCB2H4"],
+["20250418004836","https://secult.es.gov.br/lista-de-projetos-habilitados","200","RVLXGUSVDXEZNTTXWB3TENSWGZ4I4NVD"],
+["20250715071755","https://secult.es.gov.br/lista-de-projetos-habilitados","200","6IG2QWCF6ZIL3XV24R52BB3AECF5WJDF"],
+["20251009044434","https://secult.es.gov.br/lista-de-projetos-habilitados","200","X6IZLF5VT3FSEXMXBF5ZMI3IR4HK76F5"],
+["20251217092129","https://secult.es.gov.br/lista-de-projetos-habilitados","200","ZY2KORI23RZKBFLQIYL4DJB2YT3BCFAA"],
+["20260413050032","https://secult.es.gov.br/lista-de-projetos-habilitados","200","CMIFIMROWNQLF7E67L4XF63XFYDFFSNH"],
+["20260417234318","https://secult.es.gov.br/lista-de-projetos-habilitados","200","XDMJZMRI5EPDTKIEKS774AGOQOX72DS5"],
+["20260608051200","https://secult.es.gov.br/lista-de-projetos-habilitados","200","QVOS4OYHJSMRVOT4JS6NPOMMZSSFV3BY"],
+["20260822102732","https://secult.es.gov.br/lista-de-projetos-habilitados","200","JWOMLXV32CK7PTCOVSPN7PGKNRVSGATB"]]
+
+## Links da página

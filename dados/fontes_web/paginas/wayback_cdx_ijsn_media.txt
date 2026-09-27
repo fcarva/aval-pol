@@ -1,0 +1,23 @@
+# Fonte: https://web.archive.org/cdx/search/cdx?url=ijsn.es.gov.br/media/&matchType=prefix&output=json&fl=timestamp,original,mimetype,statuscode&collapse=urlkey&filter=original:.*[Cc][Uu][Ll][Tt][Uu][Rr][Aa].*&limit=5000
+# Coletado (UTC): 2026-09-27T07:04:48Z
+# sha256 do original: 698f985c63552f9c3286cf0700546ef56fecbd5615ee60b8f707d0fe72813b90
+
+[["timestamp","original","mimetype","statuscode"],
+["20250731165303","https://ijsn.es.gov.br/Media/IJSN/_Profiles/c4d8c6e6/2637868c/Boletim_de_Agricultura-v2.png?v=638642250337333270","image/png","200"],
+["20250421084642","https://ijsn.es.gov.br/Media/IJSN/_Profiles/c4d8c6e6/79004ee4/Funcultura10anos.jpg","image/jpeg","200"],
+["20250421074022","https://ijsn.es.gov.br/Media/IJSN/_Profiles/c4d8c6e6/79004ee4/Funcultura10anos.jpg?v=638641911882298040","image/jpeg","200"],
+["20240615081245","https://ijsn.es.gov.br/Media/IJSN/_Profiles/c4d8c6e6/a8f59c0e/Boletim_de_Agricultura-v2.png","image/png","200"],
+["20240615081308","https://ijsn.es.gov.br/Media/IJSN/_Profiles/c4d8c6e6/a8f59c0e/Boletim_de_Agricultura-v2.png?v=638052307348569970","warc/revisit","-"],
+["20250117001042","https://ijsn.es.gov.br/Media/IJSN/Imagens/users/Boletins/Boletim_de_Agricultura-v2.png","image/png","200"],
+["20250516183013","https://ijsn.es.gov.br/Media/IJSN/Imagens/users/FUNCULTURA.png","image/png","200"],
+["20250517181044","https://ijsn.es.gov.br/Media/IJSN/Imagens/users/funcultura_foto.jpg","image/jpeg","200"],
+["20250420040010","https://ijsn.es.gov.br/Media/IJSN/Imagens/users/Relatorios/Funcultura10anos.jpg","image/jpeg","200"],
+["20251015020635","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/boletins/2.%20Agricultura-1.pdf","application/pdf","200"],
+["20240414191532","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/boletins/2.%20Agricultura.pdf","application/pdf","200"],
+["20240615081301","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/boletins/Boletim_Tecnico_Agricultura_PAM2014.pdf","application/pdf","200"],
+["20240615081214","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/boletins/BoletimAgricultura_2012-2014.pdf","application/pdf","200"],
+["20240615081311","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/boletins/ijsn_BoletimAgricultura_2013-2015.pdf","application/pdf","200"],
+["20250421065425","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/relatorios/Pesquisa_Funcultura.pdf","application/pdf","200"],
+["20251219122326","https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/relatorios/Pesquisa_Funcultura.pdf?utm_source=chatgpt.com","application/pdf","200"]]
+
+## Links da página

@@ -1,0 +1,7 @@
+# Fonte: https://inv.nadeko.net/api/v1/captions/KvXStH6-Iy4
+# Coletado (UTC): 2026-09-27T07:05:04Z
+# sha256 do original: b78dea03d3a4d58b2a24569cbbbdce77ac39c13960fa0d010130b3a21ab83a4a
+
+{"captions":[{"label":"Portuguese (auto-generated)","languageCode":"pt","url":"/api/v1/captions/KvXStH6-Iy4?label=Portuguese+%28auto-generated%29"}]}
+
+## Links da página

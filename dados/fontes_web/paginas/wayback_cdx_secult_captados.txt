@@ -1,0 +1,25 @@
+# Fonte: https://web.archive.org/cdx/search/cdx?url=secult.es.gov.br/recursos-financeiros-captados&output=json&fl=timestamp,original,statuscode,digest
+# Coletado (UTC): 2026-09-27T07:04:35Z
+# sha256 do original: f99044ed03573fea55b29be4a4c4a9d3ba9b3ec554ecc933555f48e7d5aa5671
+
+[["timestamp","original","statuscode","digest"],
+["20230922214246","https://secult.es.gov.br/recursos-financeiros-captados","200","Z3DG4ZJ3VU6ZSI256IYSVC4DFKKMRPIQ"],
+["20231207213616","https://secult.es.gov.br/recursos-financeiros-captados","200","DW4XL3X7N7ICY6UHYTKY4K6YBEUI6IVK"],
+["20240221081837","https://secult.es.gov.br/recursos-financeiros-captados","200","GZK64D5BTQAJYOSDFULFGJRTMTOYXVVS"],
+["20240514234234","https://secult.es.gov.br/recursos-financeiros-captados","200","I6W6N7DUKCGHFDUS42JHGCBW2EVIKJEV"],
+["20240620085324","https://secult.es.gov.br/recursos-financeiros-captados","200","JBDCCBMYCCE3X5MOIWD54H4ZYA4BZ4MQ"],
+["20240917051959","https://secult.es.gov.br/recursos-financeiros-captados","200","7QLEJN3RGJIJERQJ4QRZ2TDYHX2KXPII"],
+["20250115010159","https://secult.es.gov.br/recursos-financeiros-captados","200","3EVG4K6CLV5FDZ5GVEE7BKX4TILDHVXX"],
+["20250119130908","https://secult.es.gov.br/recursos-financeiros-captados","200","TEZ6S3MCMEZV2DFUSH5YN27ZOKSZJTSJ"],
+["20250307182157","https://secult.es.gov.br/recursos-financeiros-captados","200","XY4YTFWSS7GWZUDQ6LZCAFZ6QORC4C2W"],
+["20250418004759","https://secult.es.gov.br/recursos-financeiros-captados","200","V76225ZVNIG2X7XFXNN53R3W43XC7RA5"],
+["20250613040431","https://secult.es.gov.br/recursos-financeiros-captados","200","4T3OYI4SCYJWR7BBDW66BRON7ZUVZLFK"],
+["20250914084437","https://secult.es.gov.br/recursos-financeiros-captados","200","ZE6R4WJUXUMV7OBXH73QDEKSNPJJSM6Q"],
+["20251115023359","https://secult.es.gov.br/recursos-financeiros-captados","200","MIGK4KN27V7QYHRUTI7KX62JRU4UZNE2"],
+["20251217092014","https://secult.es.gov.br/recursos-financeiros-captados","200","3ZMDZDAQFGPNYY4GMVD42U44ZKWFOTOV"],
+["20260128184019","https://secult.es.gov.br/recursos-financeiros-captados","200","LXHQHD6V5SA5XFC3EKOUIVBZM2MF2AVQ"],
+["20260311070328","https://secult.es.gov.br/recursos-financeiros-captados","200","XURVWKIYLBJPIJV6C4UFRVRJXN6XJVXE"],
+["20260417231433","https://secult.es.gov.br/recursos-financeiros-captados","200","ZQDHWHERY4TCD3ZNLDOGVQN2AISV74B4"],
+["20260518213346","https://secult.es.gov.br/recursos-financeiros-captados","200","C554LDDDCWPZOETQQI5WQ6V7Q5TZZ4Z3"]]
+
+## Links da página

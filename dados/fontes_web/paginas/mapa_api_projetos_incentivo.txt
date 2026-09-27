@@ -1,0 +1,7 @@
+# Fonte: https://mapa.cultura.es.gov.br/api/project/find?@select=id,name,type,terms,createTimestamp&name=LIKE(*Incentivo*Cultura*)&@limit=2000
+# Coletado (UTC): 2026-09-27T07:03:46Z
+# sha256 do original: dce306431194f68fab8afd4ca24678f11c80f5ade0eb02069d4b43d7b3335783
+
+[{"id":747,"name":"Lei de Incentivo \u00e0 Cultura Capixaba ","createTimestamp":{"date":"2022-01-11 20:20:37.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"terms":{"tag":[]},"type":{"id":9,"name":"Edital"},"@entityType":"project"},{"id":1355,"name":"Premio de Incentivo \u00e0 Cultura Virg\u00ednia Tamanini Santa Teresa","createTimestamp":{"date":"2023-03-14 18:31:34.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"},"terms":{"tag":[]},"type":{"id":9,"name":"Edital"},"@entityType":"project"}]
+
+## Links da página
