@@ -1,0 +1,12 @@
+processo,etapa,data,cnpj_patrocinador,valor,fonte
+2025-RC8N2,termo no Portal (2025),2025-06-11,31790710000196,150000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,termo no Portal (2025),2025-06-11,31759699000363,61123.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,termo no Portal (2025),2025-06-11,31759699000100,65000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,termo no Portal (2025),2025-07-10,31790710000196,75000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,termo no Portal (2025),2025-07-10,31759699000444,5012.99,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,aviso de depósito no DIO,2025-07-15,31759699000100,65000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,aviso de depósito no DIO,2025-07-15,31790710000196,150000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,aviso de depósito no DIO,2025-07-15,31759699000363,61123.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,aviso de depósito no DIO,2025-08-06,31790710000196,75000.0,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,aviso de depósito no DIO,2025-08-06,31759699000444,5012.99,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"
+2025-RC8N2,anexo de 2025: valor captado marcado em análise,,,356135.99,"captados_2025.csv; transparencia_licc_termos.csv; dio_avisos_deposito.csv (título exato, sem acento)"

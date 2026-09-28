@@ -46,6 +46,16 @@ RAIZ = Path(__file__).resolve().parents[1]
 PROC = RAIZ / "dados" / "processados"
 TAB = RAIZ / "analise" / "tabelas"
 
+# cabeçalho corrido das páginas do DIO, que cai no meio de um aviso quando ele atravessa a página (achado na Fase A,
+# 28/09/2026: o depósito de R$ 75 mil da 13ª Italia Unita, de 06/08/2025, se perdia por isso)
+CABECALHO = re.compile(r"DI[ÁA]RIO OFICIAL DOS PODERES DO ESTADO(?:\s+E\s?X\s?E\s?C\s?U\s?T\s?I\s?V\s?O)?"
+                       r"(?:\s+\d{1,3}(?![\d.,/)]))?", re.I)  # e o número da página, sem comer valores (45.000,00) nem o item ("6) Patrocinador")
+
+
+def limpo(trecho) -> str:
+    return re.sub(r"\s+", " ", CABECALHO.sub(" ", str(trecho)))
+
+
 AVISO = re.compile(r"Processo\s*n?[°º]?\s*:?\s*(\d{4}-[A-Z0-9]{5})\s*Proponente\s*:?\s*(.{2,160}?)\s*Cnpj\s*:?\s*"
                    r"([\d./-]{14,20})\s*Valor\s*:?\s*R\$\s*([\d.,]+)", re.I)
 
@@ -54,7 +64,7 @@ def avisos() -> pd.DataFrame:
     d = pd.read_csv(RAIZ / "dados" / "externos" / "dio_licc_trechos.csv")
     regs = []
     for _, r in d.iterrows():
-        t = re.sub(r"\s+", " ", str(r["trecho"]))
+        t = limpo(r["trecho"])
         for m in AVISO.finditer(t):
             valor = m.group(4).rstrip(".,")
             regs.append({"processo": m.group(1).upper(), "proponente_dio": m.group(2).strip(" -–,"),
@@ -80,7 +90,7 @@ def depositos() -> pd.DataFrame:
     d = pd.read_csv(RAIZ / "dados" / "externos" / "dio_licc_trechos.csv")
     regs = []
     for _, r in d.iterrows():
-        for m in DEPOSITO.finditer(re.sub(r"\s+", " ", str(r["trecho"]))):
+        for m in DEPOSITO.finditer(limpo(r["trecho"])):
             regs.append({"data_dio": r["data"], "pagina_dio": r["pagina"], "id_dio": r["id"],
                          "patrocinador_dio": m.group(1).strip(), "cnpj_patrocinador": re.sub(r"\D", "", m.group(2)),
                          "valor_dio": pd.to_numeric(m.group(3).rstrip(".,").replace(".", "").replace(",", "."),

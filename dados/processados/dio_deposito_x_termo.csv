@@ -102,6 +102,7 @@ termo_id,ano,processo,projeto,cnpj_patrocinador,valor_termo,data_processo,data_d
 257,2025,2024-HZSBS,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2025,28152650000171,500000.0,2025-02-03,2025-02-25,500000.0,Carnaval Folclórico do Boi Pintadinho de Muqui/ES - 2025,True,1.0,22.0
 232,2025,2023-8Z0GK,Oficinas de Formação Música Clássica,28152650000171,499620.0,2025-01-23,2025-02-27,499620.0,Oficinas de Formação Música Clássica,True,1.0,35.0
 236,2025,2023-XPZLT,Filarmônica de Mulheres do Espírito Santo: música e representatividade,39786983000179,440074.42,2025-01-24,2025-02-27,440074.42,Filarmônica de Mulheres do Espírito Santo: Música e Representatividade,True,1.0,34.0
+246,2025,2024-8XRF4,Festival Delírio Tropical,34307295000165,500000.0,2025-01-29,2025-02-27,500000.0,Festival Delírio Tropical,True,1.0,29.0
 248,2025,2023-WMPXZ,Estúdio Escola de Animação,28152650000171,499998.0,2025-01-30,2025-02-27,499998.0,Estúdio Escola de Animação,True,1.0,28.0
 251,2025,2024-X6HWG,2ª Festa da Palavra,28152650000171,483000.0,2025-01-30,2025-02-27,483000.0,2ª Festa da Palavra,True,1.0,28.0
 271,2025,2024-0GZ3G,FESTIVAL NACIONAL DE CAPOEIRA,00827783000505,281690.0,2025-02-06,2025-02-27,281690.0,2º Festival Nacional de Capoeira,True,1.0,21.0
@@ -155,6 +156,7 @@ termo_id,ano,processo,projeto,cnpj_patrocinador,valor_termo,data_processo,data_d
 322,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31759699000100,65000.0,2025-06-11,2025-07-15,65000.0,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,34.0
 305,2025,2023-R7GC8,FESTIVAL RAÍZES DO SAMBA,03845717001870,125000.0,2025-03-31,2025-07-22,125000.0,Festival Raízes do Samba,True,1.0,113.0
 306,2025,2023-R7GC8,FESTIVAL RAÍZES DO SAMBA,03845717001790,103914.45,2025-03-31,2025-07-22,103914.45,Festival Raízes do Samba,True,1.0,113.0
+323,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31790710000196,75000.0,2025-07-10,2025-08-06,75000.0,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,27.0
 324,2025,2025-RC8N2,13ª ITALIA UNITA – Festa da Imigração Italiana de Aracruz - Município de Guaraná,31759699000444,5012.99,2025-07-10,2025-08-06,5012.99,13ª ITALIA UNITA - Festa da Imigração Italiana de Aracruz - Município de Guaraná,True,1.0,27.0
 319,2025,2023-1FDSB,73°Encontro Nacional de Folias de Reis,28152650000171,500000.0,2025-06-04,2026-08-21,500000.0,74º Encontro Nacional de Folias de Reis,True,1.0,443.0
 53,2023,2022-65X12,Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo,39786983000179,249311.04,2023-02-12,2023-03-28,249311.04,Livro “Baía das Tartarugas: Riqueza marinha na capital do Espírito Santo”,True,0.889,44.0
@@ -196,7 +198,6 @@ termo_id,ano,processo,projeto,cnpj_patrocinador,valor_termo,data_processo,data_d
 96,2023,2022-1MLZT,XAPURI,03845717000122,111709.82,2023-06-14,2023-07-06,111709.82,Projeto Xapuri,True,0.5,22.0
 47,2022,2022-0PP25,"""5@ Sinfônica Igrejas Históricas Capixabas""",28152650000171,299510.0,2022-12-27,2023-01-31,299510.0,Históricas Capixabas PROCESSO: 2021-84FCX CONTRATADA: JUDICIAL. OI 5@ Sinfônica Igrejas,True,0.444,35.0
 171,2024,2023-R3WJX,MOINHO VITÓRIA,28129260001667,53009.91,2024-03-07,2024-11-28,53009.91,"Moinho Vitória: Remoção, Restauro e Reinstalação",True,0.4,266.0
-246,2025,2024-8XRF4,Festival Delírio Tropical,34307295000165,500000.0,2025-01-29,2025-02-27,500000.0,Festival Delírio Tropical DIÁRIO OFICIAL DOS PODERES DO ESTADO,True,0.375,29.0
 99,2023,2022-FJR20,Festival MC 2023,07526557001181,200000.0,2023-06-20,2023-08-07,200000.0,Festival MC 2023 {Mostra Cena Capixaba Ciclo nº 2},True,0.333,48.0
 177,2024,2024-R7H5X,Festival da Cultura Italiana,39786983000179,103893.0,2024-05-28,2024-07-24,103893.0,Festival da Cultura Italiana - Tudo começou aqui.... “Noi Siamo La Storia”,True,0.333,57.0
 178,2024,2024-R7H5X,Festival da Cultura Italiana,03845717000122,300000.0,2024-05-28,2024-07-24,300000.0,Festival da Cultura Italiana - Tudo começou aqui.... “Noi Siamo La Storia”,True,0.333,57.0
@@ -228,6 +229,7 @@ termo_id,ano,processo,projeto,cnpj_patrocinador,valor_termo,data_processo,data_d
 30,2022,2022-S80KH,"""7ª TendaLab""",34307295000165,500000.0,2022-09-09,2022-11-24,165000.0,7ª TENDALAB,False,1.0,76.0
 35,2022,2022-BFTK4,Escola de Música Tocando em Frente,34307295000165,200370.0,2022-09-23,2022-11-24,100000.0,Escola de Música Tocando em Frente,False,1.0,62.0
 36,2022,2022-KSSWD,“FESTIVAL NACIONAL DE CAPOEIRA”,34307295000165,158560.0,2022-09-27,2022-11-24,79280.0,FESTIVAL NACIONAL DE CAPOEIRA,False,1.0,58.0
+37,2022,2022-82W8Z,"""ORQUESTRA BRASILEIRA DE CANTORES CEGOS""",34307295000165,492965.0,2022-09-28,2022-11-24,246482.5,Orquestra Brasileira de Cantores Cegos,False,1.0,57.0
 40,2022,2022-05G2G,"""Mostra Povoar""",34307295000165,254301.01,2022-11-07,2022-11-24,127301.01,MOSTRA POVOAR,False,1.0,17.0
 41,2022,2022-49MMM,"""Moqueca Pop Festival""",34307295000165,314563.15,2022-11-07,2022-11-24,157563.15,Moqueca Pop Festival,False,1.0,17.0
 36,2022,2022-KSSWD,“FESTIVAL NACIONAL DE CAPOEIRA”,34307295000165,158560.0,2022-09-27,2022-12-21,79280.0,Festival Nacional de Capoeira,False,1.0,85.0
