@@ -3,8 +3,8 @@
 Usa o pandoc (pacote pypandoc_binary) com o modelo artigo/modelo/referencia-abnt.docx
 (Times New Roman 12, espaçamento simples, margens 3/3/2/2 cm) e depois ajusta as tabelas
 com python-docx: fonte 10, tabelas abertas no padrão AER/Springer (filete em cima, sob o cabeçalho e embaixo, sem
-grade), rótulo do título em negrito e "Fonte" em itálico. Caminhos de dados viram links para o GitHub e DOIs para
-doi.org (artigo/links.py). Com --pdf, converte
+grade), rótulo do título em negrito e "Fonte" em itálico. Caminhos de dados viram links permanentes para o GitHub,
+DOIs para doi.org e o ano de cada citação um link para a entrada das Referências (artigo/links.py). Com --pdf, converte
 também para PDF pelo LibreOffice, só para conferir o número de páginas (10 a 15).
 
 Uso: python artigo/gerar_docx.py [--pdf]
@@ -24,7 +24,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt
 
-from links import codigo_em_links_md, dois_em_links
+from links import citacoes_em_links, codigo_em_links_md, dois_em_links
 
 ART = Path(__file__).resolve().parent
 MD = ART / "rascunho-artigo.md"
@@ -121,7 +121,7 @@ def ajustar_tabelas(caminho: Path) -> None:
 
 
 def main() -> None:
-    texto = codigo_em_links_md(dois_em_links(MD.read_text(encoding="utf-8")))
+    texto = citacoes_em_links(codigo_em_links_md(dois_em_links(MD.read_text(encoding="utf-8"))))
     pypandoc.convert_text(
         texto, "docx", format="markdown", outputfile=str(DOCX),
         extra_args=[f"--reference-doc={MODELO}", f"--resource-path={ART}", "--wrap=none"],

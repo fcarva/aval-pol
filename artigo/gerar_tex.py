@@ -10,8 +10,11 @@ e a Figura 1 são montados aqui, no padrão do .docx (artigo/gerar_docx.py):
 - quadros e tabelas abertos, no padrão de periódicos de economia (AER, Springer): só filetes horizontais
   (booktabs), sem grade; quadros longos se dividem entre páginas com cabeçalho repetido; tabelas e quadros
   curtos flutuam ([!htbp]);
-- hiperlinks: caminhos de dados e scripts apontam para o GitHub, DOIs para doi.org (artigo/links.py), e as
-  menções a quadros, tabelas, figura e seções levam ao objeto;
+- hiperlinks: caminhos de dados e scripts apontam para o GitHub em link permanente (commit publicado), DOIs para
+  doi.org, o ano de cada citação autor-data para a entrada das Referências (artigo/links.py), e as menções a
+  quadros, tabelas, figura e seções levam ao objeto;
+- referências separadas por meia linha em branco (ABNT NBR 6023 pede uma; não cabe nas 15 páginas); sem linhas órfãs e viúvas; metadados e marcadores
+  do PDF (título, autor, assunto, palavras-chave);
 - Figura 1 em PDF vetorial, numa página própria logo após a primeira menção.
 
 Também gera latex/declaracao-ia.tex a partir de artigo/declaracao-uso-ia.md (a declaração vai separada do artigo).
@@ -30,7 +33,7 @@ from pathlib import Path
 import pypandoc
 import yaml
 
-from links import dois_em_links, url_caminho
+from links import citacoes_em_links, dois_em_links, url_caminho
 
 ART = Path(__file__).resolve().parent
 MD = ART / "rascunho-artigo.md"
@@ -80,7 +83,8 @@ PREAMBULO = r"""% !TEX program = xelatex
 \usepackage{xurl}
 \usepackage{xcolor}
 \definecolor{azul}{RGB}{25,70,140}
-\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul]{hyperref}
+\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul, bookmarksnumbered=true,
+  bookmarksopen=true, pdfdisplaydoctitle=true]{hyperref}
 \urlstyle{same}
 
 % Espaçamento simples; recuo de 1,25 cm na primeira linha (ABNT), sem espaço extra entre parágrafos
@@ -88,6 +92,10 @@ PREAMBULO = r"""% !TEX program = xelatex
 \setlength{\parskip}{0pt plus 1pt}
 \setlength{\emergencystretch}{1.5em}
 \frenchspacing  % espaço simples depois do ponto, como no português
+% sem linhas órfãs (primeira linha do parágrafo no pé da página) nem viúvas (última no topo)
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
 \setcounter{secnumdepth}{2}
 \titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection}{0.5em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.5em}{}
@@ -111,8 +119,9 @@ PREAMBULO = r"""% !TEX program = xelatex
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
-% Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}}{\par}
+% Referências (ABNT NBR 6023): alinhadas à esquerda, espaço simples, separadas por meia linha em branco (a linha
+% inteira da norma levaria o artigo a 16 páginas, acima do limite de 15)
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{0.5\baselineskip}}{\par}
 """
 
 
@@ -128,7 +137,10 @@ def preparar(md: str) -> str:
     for i in range(0, len(partes), 2):
         for letra, cmd in {"α": r"\alpha", "β": r"\beta", "ρ": r"\rho"}.items():
             partes[i] = partes[i].replace(letra, f"${cmd}$")
-    md = dois_em_links("".join(partes))
+    relatorio: list[str] = []
+    md = citacoes_em_links(dois_em_links("".join(partes)), relatorio)
+    for linha in relatorio:
+        print("citações:", linha)
 
     def caminho(m: re.Match) -> str:
         url = url_caminho(m.group(1))
@@ -313,7 +325,10 @@ def gerar() -> None:
         rf"{conv(meta['date'])}\par",
         r"\end{center}",
     ])
-    info = rf"\hypersetup{{pdftitle={{{meta['title']}}}, pdflang={{pt-BR}}}}"
+    chave = re.search(r"\*\*Palavras-chave:\*\*\s*(.+)", MD.read_text(encoding="utf-8"))
+    palavras = chave.group(1).strip().rstrip(".").replace(";", ",") if chave else ""
+    info = (rf"\hypersetup{{pdftitle={{{meta['title']}}}, pdfauthor={{{'; '.join(autores)}}}, "
+            rf"pdfsubject={{{meta.get('subject', '')}}}, pdfkeywords={{{palavras}}}, pdflang={{pt-BR}}}}")
     # resumo e palavras-chave sem recuo (ABNT NBR 6028)
     tex = tex.replace("\\textbf{Resumo.}", "\\noindent\\textbf{Resumo.}", 1)
     tex = tex.replace("\\textbf{Palavras-chave:}", "\\noindent\\textbf{Palavras-chave:}", 1)

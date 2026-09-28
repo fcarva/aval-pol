@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `82625184ce5c4728…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `19c3e53a2f0112fa…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -16,7 +16,7 @@
 - **0.1** — *Passo:* O artigo em um parágrafo: mecanismo, o que se avalia, os achados de desenho e a proposta
   - ☐ **[0.1.1]** **Resumo.** A Lei de Incentivo à Cultura Capixaba (LICC) permite que empresas contribuintes do ICMS destinem a projetos culturais habilitados pela Secretaria da Cultura (SECULT) valores que recuperam integralmente como crédito presumido do imposto: o Estado paga, a empresa escolhe, e o público não entra na equação.
   - ☐ **[0.1.2]** Neste artigo, avalia-se o desenho da LICC: a partir da teoria da mudança derivam-se cinco premissas, por meio de normas, anexos oficiais e atas da comissão de 2022 a 2026, que orientam uma proposta de avaliação de impacto.
-  - ☐ **[0.1.3]** A decisão de financiamento não mostra orientação evidente pelo valor público: duas empresas respondem por metade da renúncia de 2025, e o bem cultural oferecido à população confunde-se com o marketing das empresas.
+  - ☐ **[0.1.3]** A decisão de alocação dos recursos não demonstra orientação evidente pelo valor público: duas empresas respondem por metade da renúncia de 2025, e o bem cultural oferecido à população confunde-se com o marketing das empresas.
     - checagem de dados: D03 ✔ (`analise/tabelas/03_patrocinadores_concentracao.csv`)
   - ☐ **[0.1.4]** A decisão se concentra em poucos atores: a habilitação qualifica sem priorizar, e o que excede o teto é decidido pela ordem de recebimento e validação dos termos de patrocínio.
   - ☐ **[0.1.5]** Até 13% do valor captado em 2025 poderia remunerar captação e elaboração, projetos pequenos captam cada vez menos, e só pessoas jurídicas contribuintes patrocinam.
@@ -53,7 +53,7 @@
   - ☐ **[1.2.2]** Na economia criativa, que soma às artes atividades de mercado como design e publicidade, o estado ficava perto da média: 8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição (SECULT, 2020).
     - citações: SECULT, 2020
     - checagem de dados: N64 ✔ (`dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt (SECULT, Boletim 2T2020)`)
-  - ☐ **[1.2.3]** O contraste sugere a falta de coordenação entre tomadores de decisão e proponentes dos bens públicos culturais, que a LICC financia, e não um atraso da atividade criativa em execução.
+  - ☐ **[1.2.3]** O contraste sugere a falta de coordenação entre os tomadores de decisão e proponentes dos bens públicos culturais, que a LICC financia, e não um atraso da atividade criativa em execução.
   - ☐ **[1.2.4]** A desigualdade de infraestrutura também é interna: em 2021, 95% da população da Região Metropolitana da Grande Vitória (RMGV) vivia em município com cinema, contra 34% da do interior, e metade dos municípios do interior não tinha fundo municipal de cultura (IBGE, 2022).
     - citações: IBGE, 2022
     - checagem de dados: D09 ✔ (`dados/externos/munic2021_cultura_es_resumo.csv`); D10 ✔ (`dados/externos/munic2021_cultura_es_resumo.csv`)
@@ -114,16 +114,16 @@
   - ☐ **[2.3.2]** A primeira é a delegação da escolha: o Estado define quem pode receber; a empresa define quem recebe.
   - ☐ **[2.3.3]** A segunda é a instabilidade: a SECULT edita uma instrução normativa por ano, fechou as inscrições em meados de 2024 e alterou o fluxo em meados de 2025 (SECULT, 2024b; 2025b); até 2024 a comissão habilitava antes da captação, e desde 2025 o projeto só vai à comissão com patrocinador (SECULT, 2025a, arts. 41-45).
     - citações: SECULT, 2024b; 2025b; SECULT, 2025a, arts. 41-45
-  - ☐ **[2.3.4]** A terceira é a pouca informação publicada: os anexos não trazem dados dos projetos do proponente, o local de atuação nem indicadores de resultado, e os inabilitados só aparecem nos extratos das atas da comissão (SECULT, 2026f).
+  - ☐ **[2.3.4]** A terceira é a pouca informação publicada: os anexos não trazem dados dos projetos do proponente, o local de atuação, nem indicadores de resultado, e os inabilitados só aparecem nos extratos das atas da comissão (SECULT, 2026f).
     - citações: SECULT, 2026f
 
 
 ## 3 Breve revisão da literatura
 
 - **3.1** — *Passo:* Situa a LICC na literatura: incentivo fiscal com decisão privada e a cultura como bem público
-  - ☐ **[3.1.1]** **Despesa tributária com decisão privada.** A literatura de economia da cultura trata o incentivo fiscal como um subsídio em que o doador decide a alocação e o Tesouro paga a conta: para Feld, O'Hare e Schuster (1983), os contribuintes se tornaram "mecenas apesar de si mesmos", porque financiam pela renúncia as escolhas que não fazem.
+  - ☐ **[3.1.1]** **Despesa tributária com decisão privada.** A literatura de economia da cultura trata o incentivo fiscal como um subsídio em que o doador decide a alocação e o Tesouro paga a conta: para Feld, O'Hare e Schuster (1983), os contribuintes se tornaram "mecenas apesar de si mesmos", porque financiam pela renúncia fiscal as escolhas sobre alocação de recursos que não fazem.
     - citações: O'Hare e Schuster (1983)
-  - ☐ **[3.1.2]** A dificuldade de financiamento de bens públicos e a falta de coordenação entre conselhos de pareceristas e as preferências do público justificam a investigação econômica e o papel do bem público para a cultura: bens públicos são consumidos em grupo, e não por indivíduos, e por isso são "o tecido que conecta as pessoas" (HITZIG, 2021, tradução nossa); Buterin, Hitzig e Weyl (2019) tratam seu financiamento como formação de comunidades e mostram que, se o valor recebido cresce com o número de contribuintes, e não só com o total aportado, a provisão é ótima no modelo de fundo de contrapartida e contribuição por parte do público.
+  - ☐ **[3.1.2]** A dificuldade de financiamento de bens públicos e a falta de coordenação entre o conselho de pareceristas e as preferências do público justificam a investigação econômica e o papel do bem público para a cultura: bens públicos são consumidos em grupo, e não por indivíduos, e por isso são "o tecido que conecta as pessoas" (HITZIG, 2021, tradução nossa); Buterin, Hitzig e Weyl (2019) tratam o financiamento de bens públicos como formação de comunidades e mostram que, se o valor recebido cresce com o número de contribuintes, e não só com o total aportado, a provisão é ótima no modelo de fundo de contrapartida e contribuições por parte do público.
     - citações: HITZIG, 2021, tradução nossa; Hitzig e Weyl (2019)
 
 - **3.2** — *Passo:* Traz a experiência da Lei Rouanet: concentração, mercado de patrocínios e adicionalidade
@@ -136,9 +136,9 @@
     - ⚠ números sem checagem automática (conferir na fonte citada): 853
 
 - **3.3** — *Passo:* Mostra que a evidência sobre incentivos estaduais no Brasil é descritiva
-  - ☐ **[3.3.1]** **Evidência causal.** Existem poucos trabalhos de avaliação do incentivo cultural no Brasil; as avaliações encontradas de leis estaduais via ICMS são correlacionais: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021).
+  - ☐ **[3.3.1]** **Evidência causal.** Existem poucos trabalhos de avaliação de impacto do incentivo cultural no Brasil; as avaliações encontradas de leis estaduais via ICMS são correlacionais: em Minas Gerais, a captação pela lei estadual concentrou-se na região metropolitana de Belo Horizonte, e municípios com museu, teatro ou cinema tinham mais chance de captar (TEIXEIRA *et al.*, 2021).
     - citações: TEIXEIRA *et al.*, 2021
-  - ☐ **[3.3.2]** A única avaliação da LICC, contratada pela SECULT ao IJSN com a FAPES em 2025, divulgou resultados preliminares com um "efeito multiplicador de 1,74" por real investido (IJSN, 2026; DIO-ES, 2026): a medida registra a atividade gerada pelo gasto, e não o que ocorreria sem o incentivo.
+  - ☐ **[3.3.2]** A única avaliação da LICC, contratada pela SECULT ao IJSN com a FAPES em 2025, divulgou resultados preliminares com um "efeito multiplicador de 1,74" por real investido (IJSN, 2026; DIO-ES, 2026): a medida simula a atividade gerada pelo gasto, e não o que ocorreria sem o incentivo.
     - citações: IJSN, 2026; DIO-ES, 2026
     - checagem de dados: N102 ✔ (`dados/fontes_web/firecrawl/ijsn_cultura_em_dados_2026.md (IJSN, notícia de 01/07/2026)`)
 
@@ -361,8 +361,8 @@
     - ⚠ números sem checagem automática (conferir na fonte citada): 0
   - ☐ **[5.1.3.2]** Se o recurso realiza os preteridos tanto quanto os escolhidos, um *V* positivo significa que a LICC financia onde o efeito é menor, e o efeito sobre os não tratados, parâmetro de quem decide expandir um programa (FOGUEL, 2017, p. 47), é o que importa para um teto que mais que dobrou de 2023 a 2026.
     - citações: FOGUEL, 2017, p. 47
-  - ☐ **[5.1.3.3]** O mecanismo tampouco registra quantos valorizam um projeto: 152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor, têm um só patrocinador (BUTERIN; HITZIG; WEYL, 2019).
-    - citações: BUTERIN; HITZIG; WEYL, 2019
+  - ☐ **[5.1.3.3]** O mecanismo tampouco registra quantos valorizam um projeto (BUTERIN; HITZIG; WEYL, 2019): 152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor, têm um só patrocinador (ESPÍRITO SANTO, 2026a).
+    - citações: BUTERIN; HITZIG; WEYL, 2019; ESPÍRITO SANTO, 2026a
     - checagem de dados: N84 ✔ (`analise/tabelas/20_patrocinadores_por_projeto.csv`)
   - ☐ **[5.1.3.4]** Duas premissas ficam fora do contrafactual: a regra da CAP (H2) entra pelo filtro que ela aplica, com os inabilitados, e a taxa de serviço (H3) é pergunta normativa (GERTLER *et al.*, 2018), respondida pela auditoria das despesas executadas, pedidas por LAI.
     - citações: GERTLER *et al.*, 2018
@@ -498,7 +498,7 @@
   - ☐ **[6.1.3]** A entrega, extremo da cadeia, é indeterminada, porque a SECULT não publica o público alcançado.
 
 - **6.2** — *Passo:* Recomenda o que a gestão pode fazer sem mudar o mecanismo
-  - ☐ **[6.2.1]** Sem alterar o mecanismo, a gestão pode declarar objetivos, metas e indicadores e publicar, em formato aberto, os inscritos, com CNPJ, sede e motivo de inabilitação; a captação por cota; a fila de termos, com datas de protocolo e validação, também dos recusados; e custos, contrapartidas e público alcançado.
+  - ☐ **[6.2.1]** Sem alterar o mecanismo, a gestão pode declarar objetivos, metas e indicadores e publicar, em formato aberto, os inscritos, entrega dos projetos, sede e motivo de inabilitação; a captação por cota; a fila de termos, com datas de protocolo e validação, também dos recusados; e custos, contrapartidas e público alcançado.
 
 - **6.3** — *Passo:* (a definir)
   - ☐ **[6.3.1]** A pergunta de impacto é se a renúncia vai para os projetos que dependem dela.
