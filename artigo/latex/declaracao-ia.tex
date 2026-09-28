@@ -35,7 +35,8 @@
 \usepackage{xurl}
 \usepackage{xcolor}
 \definecolor{azul}{RGB}{25,70,140}
-\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul]{hyperref}
+\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul, bookmarksnumbered=true,
+  bookmarksopen=true, pdfdisplaydoctitle=true]{hyperref}
 \urlstyle{same}
 
 % Espaçamento simples; recuo de 1,25 cm na primeira linha (ABNT), sem espaço extra entre parágrafos
@@ -43,6 +44,10 @@
 \setlength{\parskip}{0pt plus 1pt}
 \setlength{\emergencystretch}{1.5em}
 \frenchspacing  % espaço simples depois do ponto, como no português
+% sem linhas órfãs (primeira linha do parágrafo no pé da página) nem viúvas (última no topo)
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
 \setcounter{secnumdepth}{2}
 \titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection}{0.5em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.5em}{}
@@ -66,8 +71,9 @@
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{0pt}
 
-% Referências: alinhadas à esquerda, espaço simples, separadas por 3 pt
-\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}}{\par}
+% Referências (ABNT NBR 6023): alinhadas à esquerda, espaço simples, separadas por meia linha em branco (a linha
+% inteira da norma levaria o artigo a 16 páginas, acima do limite de 15)
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{0.5\baselineskip}}{\par}
 
 \begin{document}
 \thispagestyle{empty}
