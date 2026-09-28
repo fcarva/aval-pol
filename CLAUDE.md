@@ -80,6 +80,6 @@ servicodados.ibge.gov.br, api.openalex.org, transparencia.es.gov.br respondem).
 Na sessão em nuvem a rede fica restrita ao GitHub e aos registros de pacotes. Para buscar fontes, edite
 `dados/fontes_web/dois.txt` (DOIs), `buscas.tsv` (busca bibliográfica), `pedidos.tsv` (páginas e PDFs) ou
 `salic_anos.txt`, ou `seguir.tsv` (índice + links que casam com uma regex, p. ex. extratos das atas da CAP), `videos.tsv` (legendas do YouTube via yt-dlp) e `canais.tsv` (lista de vídeos de um canal) e faça push: o workflow `.github/workflows/buscar-fontes.yml` coleta num runner com rede
-aberta e devolve o resultado por commit em `dados/fontes_web/` (ver `analise/rede/buscar_fontes.py`; HTML, PDF e .docx viram texto). Leia fontes online com WebFetch/firecrawl;
+aberta e devolve o resultado por commit em `dados/fontes_web/` (ver `analise/rede/buscar_fontes.py`; HTML, PDF e .docx viram texto). Leia fontes online com WebFetch/firecrawl. **Firecrawl (Fase A, 28/09/2026):** na sessão em nuvem é ferramenta MCP, sem chave no ambiente, e não é chamável dos scripts; cada coleta vai para `dados/fontes_web/firecrawl/<id>.md` (cabeçalho com id, url, ferramenta, consulta, coletado_utc, nota) e entra no manifesto com `python analise/rede/registrar_firecrawl.py` (`--conferir` confere o sha256). Use-o para descoberta e HTML (inclusive sites com 403 no relé) e mande PDFs grandes ao relé (o Firecrawl estoura 60 s). `www3.al.es.gov.br` falha também pelo Firecrawl;
 APIs JSON (IBGE, OpenAlex, Crossref) podem ser consultadas e as tabelas
 derivadas salvas em `dados/`.

@@ -27,7 +27,7 @@ Regras aplicadas em todas as rotas:
 | Área de atuação dos proponentes | Mapa Cultural ES, 25.443 agentes | feito: 131 de 235 proponentes (seção 5) | `mapa_agentes_proponentes.csv`; `14_proponentes_mapa_area.csv` |
 | Rastro de entrega | Mapa Cultural ES, 1.738 eventos com ocorrências | feito (seção 5) | `14_entrega_mapa.csv` |
 | Estimativa da renúncia | LDO 2023-2026, PLOA 2026 | feito (seção 3) | `dados/fontes_web/paginas/ldo_es_*.txt` |
-| Atos da LICC no DIO | Diário Oficial do ES, rota de busca `/busca/busca/buscar/query/<pág>/di:AAAA-MM-DD/df:AAAA-MM-DD/?1=1&q="termo"` (lida no script do site, `raw_dio_busca_app_js2.txt`) | **coletado e lido**: 485 páginas com "Lei de Incentivo à Cultura Capixaba", 529 com "LICC", 1.026 trechos. Avisos de habilitação: 264 processos com CNPJ; com o Portal, 385 de 463 habilitados (83%); CNPJ igual em 79 de 81. Avisos de depósito de patrocínio: 386 depósitos datados (2022-2026), 205 casados com termos do Portal, 69 de 2026 | `consultas_publicas.py` → `dados/externos/dio_licc_trechos.csv`; `analise/18_dio_avisos_habilitacao.py` → `dados/processados/dio_avisos_{habilitacao,deposito}.csv`, `analise/tabelas/18_*.csv` |
+| Atos da LICC no DIO | Diário Oficial do ES, rota de busca `/busca/busca/buscar/query/<pág>/di:AAAA-MM-DD/df:AAAA-MM-DD/?1=1&q="termo"` (lida no script do site, `raw_dio_busca_app_js2.txt`) | **coletado e lido**: 485 páginas com "Lei de Incentivo à Cultura Capixaba", 529 com "LICC", 1.026 trechos. Avisos de habilitação: 264 processos com CNPJ; com o Portal, 385 de 463 habilitados (83%); CNPJ igual em 79 de 81. Avisos de depósito de patrocínio: 389 depósitos datados (2022-2026; eram 386 antes da correção do cabeçalho corrido do DIO, Fase A de 28/09/2026), 315 ligações depósito–termo do Portal (268 de 325 termos, 82%; 77,7% do valor), 72 de 2026 | `consultas_publicas.py` → `dados/externos/dio_licc_trechos.csv`; `analise/18_dio_avisos_habilitacao.py` → `dados/processados/dio_avisos_{habilitacao,deposito}.csv`, `analise/tabelas/18_*.csv` |
 | Renúncia total dos patrocinadores | Portal, "Relação de beneficiários e valores renunciados" 2022-2025 (CNPJ, razão social, total; todos os incentivos somados, sem separar a LICC) | no relé: linhas dos patrocinadores da LICC | `transparencia_beneficiarios_licc.csv` |
 | Relatórios de gestão do governador (2022-2025) | SEFAZ, prestação de contas | no relé | `sefaz_relatorio_gestao_*` |
 | Renúncia nas contas do governador | Pareceres prévios do TCE-ES (exercícios 2023 e 2024) | **negativo**: a LICC não aparece | `tcees_parecer_previo_*.txt` |
@@ -168,6 +168,23 @@ CPF mascarado.
   concluídos, são 15 de 178 (8%). A agenda pública **não serve** para verificar entrega: isso depende do relatório de
   execução (LAI, pedido 2).
 
+## 5A. Fase A (28/09/2026): Firecrawl e relé
+
+Pedido do autor: "coloque o pipeline de dados para rodar, com o firecrawl funcionando agora para fechar lacunas de
+contexto antes perdidas". O Firecrawl é ferramenta da sessão em nuvem, sem chave no ambiente: cada coleta vai para
+`dados/fontes_web/firecrawl/<id>.md` e entra no manifesto por `analise/rede/registrar_firecrawl.py`. O relatório por
+lacuna está em `artigo/auditoria/revisao-stage3-r6/00-lacunas-firecrawl.md`.
+
+| Rota | Resultado | Onde |
+| --- | --- | --- |
+| Avaliação oficial da LICC (IJSN/FAPES) | Termo de Cooperação nº 002/2025, de R\$ 365.203,60, com vigência de 06/2025 a 05/2027. Resultados preliminares em 01/07/2026: multiplicador de 1,74, insumo-produto | `notas/politica/fontes/ijsn-avaliacao-licc-e-ppa.md` |
+| Relatórios de avaliação do PPA (2022-2025), pelo relé | A LICC não tem ação, produto, indicador ou meta; aparece só no texto da ação 2298. A meta "1 estudo concluído" (ação 2111) é a avaliação | idem |
+| Etapas da captação por ano | Anexo = Portal = renúncia realizada = montante em 2023-2025. O termo "em análise" de 2025 está no Portal e tem depósitos publicados | `analise/21_etapas_captacao.py` → `21_*.csv` |
+| Recusados de 2023-2024 em outras fontes | 23 de 32 com algum registro (19 na LICC); só 2 registros do próprio projeto fora da LICC | `analise/22_recusados_outras_fontes.py` → `22_*.csv` |
+| Teixeira *et al.* (2021) | Conferido na SciELO (o relé tinha recebido 403) | `dados/fontes_web/firecrawl/scielo_teixeira_2021_leic_mg.md` |
+| Nota da SECULT sobre as regras de 2025-2026 (Século Diário, 23/01/2026) | Limite por CNPJ para "evitar a concentração de recursos e ampliar o acesso de novos agentes culturais" | `dados/fontes_web/firecrawl/seculodiario_in_licc_2026.md` |
+| API do SALIC | Documentação nova; o endpoint `/incentivadores` não existe mais (`/projetos`, `/proponentes`, `/propostas`) | `dados/fontes_web/paginas/salic_api_docs.txt` |
+
 ## 6. Resultados negativos (não repetir)
 
 - Mapa Cultural: inscrições e fases da LICC não são públicas (`publishedRegistrations: false`). A linha de
@@ -177,6 +194,9 @@ CPF mascarado.
 - licc.gov (repositório): brutos não versionados.
 - Relatórios de LAI da SECULT: só até 2018.
 - YouTube por espelhos: esgotado.
+- Assembleia Legislativa (`www3.al.es.gov.br`): o Firecrawl também falha (erro de túnel do proxy), como o relé.
+- YouTube pelo Firecrawl: volta a página sem a transcrição.
+- Número de inscritos por ciclo: nem notícias nem a página pública da oportunidade 2317 do Mapa trazem.
 - LDO 2025 e 2026: tabela de renúncia sem texto extraível. Os valores vêm dos demonstrativos do Portal (seção 3).
 
 ## 7. O que muda nos pedidos de LAI
