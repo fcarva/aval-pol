@@ -1,6 +1,6 @@
 # Fonte: https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial
-# Coletado (UTC): 2026-09-27T22:23:12Z
-# sha256 do original: 9d9f984349d1f7010d7b4bedd0a76170480591311ab65ed72ce5099aef9723d1
+# Coletado (UTC): 2026-09-28T03:11:35Z
+# sha256 do original: 6a26cd417e4a66c4951b2170159752f74f4e543b1e5edc3e2a760103e918d804
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -110,7 +110,7 @@
 
             <!-- Centro: Data e Hora -->
             <div class="datetime-center col-xs-12 col-sm-12 col-md-4">
-                <span class='dia-semana'>DOMINGO,&nbsp;</span><span class='date'> 27 DE SETEMBRO DE 2026</span>                <span class="time">&nbsp;/&nbsp;<span id="h"></span>H<span id="m"></span></span>
+                <span class='dia-semana'>SEGUNDA-FEIRA,&nbsp;</span><span class='date'> 28 DE SETEMBRO DE 2026</span>                <span class="time">&nbsp;/&nbsp;<span id="h"></span>H<span id="m"></span></span>
                 <i class="fa fa-clock-o relogio-vermelho"></i>
             </div>
 
@@ -162,7 +162,7 @@
                 <!-- Consulta de Autenticidade-->
                 <form class="row consulta_autententicidade">
                     <div>
-                        <input name="_Token[fields]" autocomplete="off" value="Wi6MO5fRFIULCBrjA0o19VuHmpbPlDYK3tcaN8JwSvX" type="hidden">
+                        <input name="_Token[fields]" autocomplete="off" value="zBfm1DhTj4gCVKiYex8G60XcLOJyq9RnSkl3uaFAdp2" type="hidden">
                         <input type="text" id="hash" placeholder="Código de Autenticidade" id="consultaAutenticidade">
                         <input type="submit" value="OK" id="btn-autenticidade" onclick="return false">
                     </div>

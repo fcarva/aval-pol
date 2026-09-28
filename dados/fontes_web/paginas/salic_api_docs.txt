@@ -1,0 +1,2247 @@
+# Fonte: https://api.salic.cultura.gov.br/docs
+# Coletado (UTC): 2026-09-28T03:12:16Z
+# sha256 do original: b573d594a31c9fcb1759c2bce11e3e6d1f5069dd584ebbfca4c19b62fc725cc3
+
+API SALIC API Documentation
+
+        MENU
+
+bash
+
+javascript
+
+Introduction
+
+SALIC API
+
+Formatos de Resposta
+
+Paginação
+
+Authenticating requests
+
+Endpoints
+
+GET api/{fallbackPlaceholder}
+
+Fornecedores
+
+/fornecedores
+
+/fornecedores/{fornecedor_id}
+
+/fornecedores/{fornecedor_id}/produtos
+
+Incentivadores
+
+/incentivadores
+
+/incentivadores/{incentivador_id}
+
+/incentivadores/{incentivador_id}/doacoes
+
+Projetos
+
+/projetos
+
+/projetos/areas
+
+/projetos/segmentos
+
+Proponentes
+
+/proponentes
+
+/proponentes/{proponente_id}
+
+Propostas
+
+/propostas
+
+/propostas/{proposta_id}
+
+View Postman collection
+
+View OpenAPI spec
+
+Documentation powered by Scribe ✍
+
+Last updated: September 24, 2026
+
+Introduction
+
+Essa é uma API aberta para acesso aos dados do portal 
+SALIC
+.
+
+Base URL
+: 
+https://api.salic.cultura.gov.br
+
+SALIC API
+
+Essa é uma API aberta para acesso aos dados do portal 
+SALIC
+.
+
+SALIC é um sistema que reúne dados a respeito de propostas de projetos culturais a serem incentivados pelo Ministério da Cultura (MINC) por meio da lei Rouanet.
+
+Veja mais informações 
+aqui
+.
+
+Formatos de Resposta
+
+Atualmente a API suporta exportação dos dados nos formatos 
+ HAL+JSON(padrão) 
+
+ XML e 
+ CSV. A escolha do formato deve ser definido a cada chamada, por meio do campo de cabeçalho Accept ou pelo parâmetro de pesquisa format.
+
+Paginação
+
+Para alguns recursos que possam gerar um grande volume de resultados, a API provê um sistema de paginação. Ao fazer sua requisição, basta fazer uso dos campos limit [1-100] e offset [0-Total-Count] para navegar pelos resultados. Você também pode se guiar pelos links first, self, prev, next, last contidos nas respostas. Sua resposta conterá campos count e total que se referem ao total de objetos retornados e total de entradas contidas na base de dados repectivamente. Adicionamente, um campo de cabeçalho chamado X-Total-Count será enviado junto às respostas, denotando também o total de entradas contidas na base de dados que atendam ao seu critério de busca.
+
+Authenticating requests
+
+This API is not authenticated.
+
+Endpoints
+
+GET api/{fallbackPlaceholder}
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/2UZ5i" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/2UZ5i"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (404):
+
+Show headers
+
+cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+
+{
+    "message": "Not Found",
+    "message_code": 404
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/{fallbackPlaceholder}
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+fallbackPlaceholder
+
+string
+
+Example: 
+2UZ5i
+
+Fornecedores
+
+Dados relativos a Fornecedores
+
+/fornecedores
+
+Busca fornecedores dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/fornecedores" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/fornecedores"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "fornecedores": [
+            {
+                "cgccpf": "00000000000000",
+                "nome": " Associação Inventor d Sonhos",
+                "email": "
+[email protected]
+",
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/fornecedores/38b986a79af95472d432c2fc34826c9616a52285d24d240f5a8ca28c10bb",
+                    "produtos": "http://localhost:8001/api/v1/fornecedores/38b986a79af95472d432c2fc34826c9616a52285d24d240f5a8ca28c10bb/produtos"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/fornecedores",
+        "first": "http://localhost:8001/api/v1/fornecedores?limit=2&offset=0",
+        "last": "http://localhost:8001/api/v1/fornecedores?limit=2&offset=355530",
+        "next": "http://localhost:8001/api/v1/fornecedores?limit=2&offset=2"
+    },
+    "count": 2,
+    "total": 355532
+}
+
+Example response (404, Fornecedor com os critérios fornecidos não encontrados):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, PRONAC ou cgccpf inválido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/fornecedores
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Query Parameters
+
+nome
+
+string
+
+optional
+
+Nome do fornecedor (valor exato ou parcial).
+
+fornecedor_id
+
+string
+
+optional
+
+id de identificacao do fornecedor.
+
+cgccpf
+
+string
+
+optional
+
+Cgc/Cpf do fornecedor.
+
+PRONAC
+
+string
+
+optional
+
+Número do PRONAC.
+
+limit
+
+integer
+
+optional
+
+Número de fornecedores a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+/fornecedores/{fornecedor_id}
+
+Busca fornecedores dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/fornecedores/consequatur" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/fornecedores/consequatur"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "cgccpf": "00000000000000",
+    "nome": " Associação Inventor d Sonhos",
+    "email": "
+[email protected]
+",
+    "_links": {
+        "self": "http://localhost:8001/api/v1/fornecedores/eea538e688641d71ca165a4edd111d9745661301f4ac8d96d2e49108fd9c",
+        "produtos": "http://localhost:8001/api/v1/fornecedores/eea538e688641d71ca165a4edd111d9745661301f4ac8d96d2e49108fd9c/produtos"
+    }
+}
+
+Example response (404, Fornecedor com id fornecido não encontrado):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, id inválido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/fornecedores/{fornecedor_id}
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+fornecedor_id
+
+string
+
+The ID of the fornecedor. Example: 
+consequatur
+
+/fornecedores/{fornecedor_id}/produtos
+
+Dado o id de um fornecedor, retorna informações relativas a todas os ítens ou serviços fornecidos por ele
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/fornecedores/{fornecedor_id}/produtos" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/fornecedores/{fornecedor_id}/produtos"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "produtos": [
+            {
+                "nome": "Contra-regra",
+                "id_comprovante_pagamento": 452151,
+                "id_planilha_aprovacao": 1752470,
+                "cgccpf": "00000000000000",
+                "_links": {
+                    "projeto": "http://localhost:8001/api/v1/projetos?PRONAC=158630",
+                    "fornecedor": "http://localhost:8001/api/v1/fornecedores/f49f8966916179d5d5896a2b95ddae247e29ba6d5b94c88e5d90a143c457"
+                },
+                "nome_fornecedor": " Associação Inventor d Sonhos",
+                "data_aprovacao": "2017-01-23 12:00:00",
+                "PRONAC": "158630",
+                "tipo_documento": "Nota Fiscal/Fatura",
+                "nr_comprovante": "00",
+                "data_pagamento": "2017-01-23 12:00:00",
+                "tipo_forma_pagamento": "Transferencia Bancaria",
+                "nr_documento_pagamento": "12301",
+                "valor_pagamento": 3.11,
+                "id_arquivo": 1623143,
+                "justificativa": "",
+                "nm_arquivo": "12.301 (6).PDF"
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/fornecedores/38b986a79af95472d432c2fc34826c9616a52285d24d240f5a8ca28c10bb/produtos",
+        "first": "http://localhost:8001/api/v1/fornecedores/38b986a79af95472d432c2fc34826c9616a52285d24d240f5a8ca28c10bb/produtos?limit=100&offset=0",
+        "last": "http://localhost:8001/api/v1/fornecedores/38b986a79af95472d432c2fc34826c9616a52285d24d240f5a8ca28c10bb/produtos?limit=100&offset=0"
+    },
+    "count": 27,
+    "total": 27
+}
+
+Example response (404, Nenhum item encontrado referente ao fornecedor com id fornecido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, id inválido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/fornecedores/{fornecedor_id}/produtos
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+fornecedor_id
+
+string
+
+optional
+
+id de identificacao do fornecedor.
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de fornecedores a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+Incentivadores
+
+Dados relativos a Incentivadores
+
+/incentivadores
+
+Dados detalhados de uma proposta
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/incentivadores" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/incentivadores"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "incentivadores": [
+            {
+                "nome": "BANCO DO BRASIL SA",
+                "municipio": "Brasília",
+                "UF": "DF",
+                "responsavel": ".",
+                "total_doado": 607580404.5337,
+                "tipo_pessoa": "juridica",
+                "cgccpf": "00000000000191",
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/incentivadores/591e1fd1a71720fa30281ae0d06d9c1c8e4dc66a4779896dc72be415c38b",
+                    "doacoes": "http://localhost:8001/api/v1/incentivadores/5a4f3a3e628b69927cd256545d9fd40b10dfdc610c3c460747bd2a0cea95/doacoes"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/incentivadores",
+        "first": "http://localhost:8001/api/v1/incentivadores?limit=2&offset=0",
+        "last": "http://localhost:8001/api/v1/incentivadores?limit=2&offset=108092",
+        "next": "http://localhost:8001/api/v1/incentivadores?limit=2&offset=2"
+    },
+    "count": 2,
+    "total": 108093
+}
+
+Example response (404, Nenhum incentivador encontrado com esses criterios):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametro fornecido invalido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/incentivadores
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de projetos a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+nome
+
+string
+
+optional
+
+Nome do incentivador (valor exato ou parcial).
+
+incentivador_id
+
+string
+
+optional
+
+id de identificacao do incentivador
+
+cgccpf
+
+string
+
+optional
+
+Cgc/Cpf do incentivador
+
+municipio
+
+string
+
+optional
+
+Cidade do incentivador (valor exato ou parcial)
+
+UF
+
+string
+
+optional
+
+Estado do incentivador no formato EE
+
+tipo_pessoa
+
+string
+
+optional
+
+Tipo de pessoa
+
+PRONAC
+
+string
+
+optional
+
+Número do PRONAC
+
+sort
+
+string
+
+optional
+
+Ordenar a busca por um dos campos : total_doado.Formato: sort=CAMPO ou sort=CAMPO:asc ou ainda sort=CAMPO:desc.
+Padrão : Internamente baseado no cgccpf
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+/incentivadores/{incentivador_id}
+
+Busca incentivadores dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/incentivadores/consequatur" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/incentivadores/consequatur"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "nome": "BANCO DO BRASIL SA",
+    "municipio": "Brasília",
+    "UF": "DF",
+    "responsavel": ".",
+    "total_doado": 607580404.5337,
+    "tipo_pessoa": "juridica",
+    "cgccpf": "00000000000191",
+    "_links": {
+        "self": "http://localhost:8001/api/v1/incentivadores/594f87bf33149fca135e19f1407bb9abcce78b7a361a11b95661300a24b2",
+        "doacoes": "http://localhost:8001/api/v1/incentivadores/af3a8df6d98b7e124ddd5199a4fb5fdd2bf226ff096ad1302b99d64bce9f/doacoes"
+    }
+}
+
+Example response (404, Nenhum incentivador encontrado com esses criterios):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametro fornecido invalido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/incentivadores/{incentivador_id}
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+incentivador_id
+
+string
+
+The ID of the incentivador. Example: 
+consequatur
+
+/incentivadores/{incentivador_id}/doacoes
+
+Dado o id de um incentivador, retorna informações relativas a todas as doações por ele feitas
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/incentivadores/{incentivador_id}/doacoes" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/incentivadores/{incentivador_id}/doacoes"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "doacoes": [
+            {
+                "PRONAC": "950962",
+                "valor": 200000,
+                "data_recibo": "1996-11-29",
+                "nome_projeto": "Via Brasil",
+                "cgccpf": "00000000000191",
+                "nome_doador": "BANCO DO BRASIL SA",
+                "_links": {
+                    "projeto": "http://localhost:8001/api/v1/projetos/950962",
+                    "incentivador": "http://localhost:8001/api/v1/incentivadores/fff42c48cdbd142b0ce04334447a69c361c2475e9d5eb368e430e26067f5"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/incentivadores/594f87bf33149fca135e19f1407bb9abcce78b7a361a11b95661300a24b2/doacoes",
+        "first": "http://localhost:8001/api/v1/incentivadores/231d7c19a4c77bacb207398572b75164d26e5778d2e229954b7a6718e1a2/doacoes?limit=100&offset=0",
+        "last": "http://localhost:8001/api/v1/incentivadores/231d7c19a4c77bacb207398572b75164d26e5778d2e229954b7a6718e1a2/doacoes?limit=100&offset=7100",
+        "next": "http://localhost:8001/api/v1/incentivadores/231d7c19a4c77bacb207398572b75164d26e5778d2e229954b7a6718e1a2/doacoes?limit=100&offset=100"
+    },
+    "count": 100,
+    "total": 7179
+}
+
+Example response (404, Incentivador com id fornecido não encontrado):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, cgccpf inválido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/incentivadores/{incentivador_id}/doacoes
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+incentivador_id
+
+string
+
+optional
+
+id de identificacao do incentivador
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de doações a serem retornadas.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+Projetos
+
+Dados relativos a Projetos
+
+/projetos
+
+Busca projetos dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/projetos?ano_captacao=17" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/projetos"
+);
+
+const params = {
+    "ano_captacao": "17",
+};
+Object.keys(params)
+    .forEach(key => url.searchParams.append(key, params[key]));
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "projetos": [
+            {
+                "PRONAC": "252246",
+                "nome": "Cia Rústica, 21 anos de invenções no sul do mundo: Residências Petrobras",
+                "providencia": "Proposta transformada em projeto e encaminhado para assinatura.",
+                "cgccpf": "08367241000185",
+                "situacao": "Projeto em avaliação documental",
+                "acessibilidade": "APRESENTAÇÕES DE ESPETÁCULOS: Acessibilidade FÍSICA: As apresentações de todos os espetáculos ocorrerão em espaços totalmente acessíveis fisicamente, garantindo condições adequadas para o acesso de pessoas com mobilidade reduzida. Esses locais contarão com infraestrutura adaptada, incluindo rampas de acesso, banheiros acessíveis e facilitadores para apoiar a locomoção, assegurando a participação plena e autônoma de todos os públicos. Acessibilidade de CONTEÚDO: 01 apresentação do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS contará com audiodescrição. 02 apresentações do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS contarão com intérprete de libras. 01 apresentação do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS contará com audiodescrição. 02 apresentações do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS contarão com intérprete de libras. 01 apresentação do espetáculo Cabaré da Vida Pequena em Campo Grande/MS contará com audiodescrição. 02 apresentações do espetáculo Cabaré da Vida Pequena em Campo Grande/MS contarão c com intérprete de libras. 01 apresentação do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS contará com audiodescrição. 02 apresentações do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS contarão ccom intérprete de libras. 01 apresentação do espetáculo Cabaré da Vida Pequena em Caruaru/PE contará com audiodescrição. 02 apresentações do espetáculo Cabaré da Vida Pequena em Caruaru/PE contarão com intérprete de libras. 01 apresentação do espetáculo Cabaré do Amor Rasgado em Caruaru/PE contará com audiodescrição. 02 apresentações do espetáculo Cabaré do Amor Rasgado em Caruaru/PE contarão c com intérprete de libras. AÇOES FORMATIVAS; OFICINAS E RODAS DE CONVERSA Acessibilidade FÍSICA: As apresentações de todos os espetáculos ocorrerão em espaços totalmente acessíveis fisicamente, garantindo condições adequadas para o acesso de pessoas com mobilidade reduzida. Esses locais contarão com infraestrutura adaptada, incluindo rampas de acesso, banheiros acessíveis e facilitadores para apoiar a locomoção, assegurando a participação plena e autônoma de todos os públicos. Acessibilidade de CONTEÚDO: 01 ação formativa em Porto Alegre/RS contará com audiodescrição, caso apresentem-se inscritos/ participantes com necessidade desta ferramenta de acessibilidade. 01 ação formativa em Porto Alegre/RS contará com mediação audiodescritiva, caso apresentem-se inscritos/ participantes com necessidade desta ferramenta de acessibilidade.",
+                "objetivos": "Objetivo Geral Promover a continuidade e desenvolvimento da Cia Rústica, importante núcleo de criação cênica do Sul do país, através de nova montagem, circulação e a difusão de 02 espetáculos cênicos, oficinas, encontros e rodas de conversa em diferentes regiões do Brasil, criando novas experiências e conexões no campo das artes da cena. A proposta busca também fomentar a economia criativa e as redes de colaboração artística, por meio da realização de residências e atividades culturais em espaços independentes, ao mesmo tempo em que oferece oportunidades para a reflexão crítica sobre a brasilidade e a relação entre arte e sociedade. Objetivo específico Montagem do espetáculo Cabaré da Vida Pequena02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Campo Grande/MS02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Campo Grande/MS02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Caruaru/PE02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Caruaru/PE02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Caruaru/PE02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Caruaru/PE01 Roda de conversa com universitários de Universidade pública- Porto Alegre/RS01 Oficina Poéticas Festivas na Zona Cultural - Porto Alegre/RS01 Laboratório de Produção e Gestão na Zona Cultural - Porto Alegre/RS01 Roda de conversa com universitários de Universidade pública - Campo Grande - MS01 Oficina Poéticas Festivas em Campo Grande - MS01 Laboratório de Produção e Gestão em Campo Grande - MS01 Roda de conversa com universitários de Universidade pública - Recife - PE01 Oficina Poéticas Festivas em Caruaru - PE01 Laboratório de Produção e Gestão em Caruaru – PE",
+                "justificativa": "O projeto Cia Rústica, 21 anos de invenções no sul do mundo: Residências Petrobras se apresenta como uma proposta multifacetada, que visa não apenas a circulação de dois espetáculos, mas também a promoção de um amplo diálogo entre artistas e comunidades em três regiões brasileiras distintas: Porto Alegre, Caruaru e Campo Grande. Ao articular uma série de atividades como encontros, rodas de conversa, ensaios abertos, oficinas e apresentações para escolas, ele busca criar novas conexões no campo das artes cênicas, abrangendo as áreas de criação, formação, produção e gestão. A Cia Rústica, com 21 anos de trajetória no cenário artístico gaúcho, cuja proposta se mantém fiel à pesquisa em torno das poéticas festivas e cabarés, ampliando a reflexão sobre as interações entre arte e sociedade. O uso do conceito de cabarés do \"sul do mundo\" serve como uma metáfora potente para um espaço de mistura, irreverência e questionamentos, onde o público é convidado a participar ativamente da experiência estética, não apenas observando, mas se envolvendo de forma crítica e sensorial. Um ponto inovador da proposta é a realização de residências em espaços culturais independentes de outras regiões do país, o que fortalece a economia criativa e abre caminho para novas redes de colaboração entre artistas, coletivos e públicos de diferentes cidades. Além disso, a presença da Cia Rústica na Zona Cultural, um espaço independente e colaborativo, amplia o caráter coletivo e de fortalecimento de empreendimentos artísticos. Os espetáculos propõem uma abordagem crítica e, ao mesmo tempo, sensível sobre a brasilidade, unindo diferentes expressões artísticas como música ao vivo, poesia, corpo e humor, com uma dinâmica de proximidade e interação entre artistas e público. Isso cria um espaço de reflexão e debate, equilibrando ética e estética de maneira criativa e engajada. Essa proposta não só valoriza as raízes culturais brasileiras, mas também fomenta o desenvolvimento de uma rede de artistas e públicos, promovendo a troca e o fortalecimento do cenário artístico nacional. A realização desse projeto é de grande importância por diversos motivos, tanto no campo artístico quanto social e cultural. Aqui estão algumas razões que justificam a relevância dessa proposta: Fortalecimento da Arte e Cultura Brasileira: O projeto propõe uma reflexão profunda sobre a brasilidade, utilizando os cabarés do \"sul do mundo\" como conceito, o que contribui para um diálogo contínuo sobre as diversas identidades culturais do Brasil. Através de espetáculos que mesclam humor, poesia, música e corpo, a Cia Rústica consegue criar um espaço de reflexão crítica sobre a sociedade brasileira, ao mesmo tempo em que fortalece as tradições culturais e as expressões artísticas locais. Promoção da Inclusão e Acessibilidade Cultural: Ao levar os espetáculos e atividades para diversas regiões do Brasil (Porto Alegre, Caruaru e Campo Grande), o projeto promove a democratização do acesso à arte. Muitas vezes, grandes produções culturais ficam restritas aos grandes centros urbanos, mas com esse projeto, artistas e públicos de diferentes regiões terão a oportunidade de vivenciar novas linguagens e refletir sobre questões sociais e culturais de maneira mais acessível. Fomento à Economia Criativa e Fortalecimento de Redes Locais: As residências artísticas em espaços culturais independentes são uma estratégia inovadora que fomenta a economia criativa nas cidades em questão. Ao articular essas residências, o projeto não apenas gera oportunidades para artistas locais, mas também fortalece redes de colaboração e cria novos circuitos de produção e consumo cultural, o que tem um impacto positivo na geração de emprego e renda no setor cultural. Valorização de Espaços Independentes e Coletivos Artísticos: A escolha da Zona Cultural como espaço de residência da Cia Rústica é um exemplo claro do compromisso do projeto com a valorização dos espaços independentes e coletivos. Esses espaços muitas vezes enfrentam desafios para se manter e operar, e ao fortalecê-los, o projeto contribui para o fortalecimento de uma cena artística mais plural, colaborativa e resistente. Desenvolvimento e Formação de Novos Públicos: Além de promover espetáculos e oficinas, o projeto cria um ambiente propício para a formação de novos públicos para as artes cênicas. A interação direta entre artistas e público nas rodas de conversa, ensaios abertos e apresentações para escolas cria uma atmosfera de proximidade e troca de saberes. Isso pode inspirar novos artistas e consolidar o gosto e o hábito de frequentar produções culturais entre as novas gerações. Experimentação Artística e Inovação nas Linguagens Cênicas: O projeto propõe uma abordagem inovadora em termos de formato, utilizando uma estrutura logística que possibilita a circulação de espetáculos em diferentes contextos e a realização de atividades interativas. A mistura de diferentes linguagens artísticas, como música ao vivo, dança, teatro e poesia, também cria uma experiência estética e sensorial única, estimulando a experimentação e a inovação no campo das artes da cena. Impacto Social e Político: Em tempos de grandes transformações sociais e políticas, a arte tem um papel crucial na reflexão crítica e na promoção de valores como a diversidade, a pluralidade e a inclusão. O projeto não só promove uma reflexão sobre o Brasil, mas também cria um espaço para que a arte seja um veículo de transformação e resistência, utilizando o humor, a irreverência e o corpo como formas de expressão política e social.Portanto, a realização desse projeto é fundamental para o fortalecimento da cena artística brasileira, para a democratização do acesso à cultura e para o desenvolvimento de novas redes de colaboração artística e econômica. Ele vai além da simples apresentação de espetáculos, promovendo um impacto cultural duradouro em diferentes regiões do Brasil. Para a realização deste projeto, se faz necessário o uso do Mecanismo Incentivo a Projetos Culturais enquadrado no Art. 1º da Lei 8313/91 o e no Art. 3º: Art. 1° : I - contribuir para facilitar, a todos, os meios para o livre acesso às fontes da cultura e o pleno exercício dos direitos culturais; II - promover e estimular a regionalização da produção cultural e artística brasileira, com valorização de recursos humanos e conteúdos locais; III - apoiar, valorizar e difundir o conjunto das manifestações culturais e seus respectivos criadores; IV - proteger as expressões culturais dos grupos formadores da sociedade brasileira e responsáveis pelo pluralismo da cultura nacional; V - salvaguardar a sobrevivência e o florescimento dos modos de criar, fazer e viver da sociedade brasileira; VI - preservar os bens materiais e imateriais do patrimônio cultural e histórico brasileiro; VII - desenvolver a consciência internacional e o respeito aos valores culturais de outros povos ou nações; VIII - estimular a produção e difusão de bens culturais de valor universal, formadores e informadores de conhecimento, cultura e memória; IX - priorizar o produto cultural originário do País. Art. 3° : II - fomento à produção cultural e artística, mediante:c) realização de exposições, festivais de arte, espetáculos de artes cênicas, de música e de folclore;e) realização de exposições, festivais de arte e espetáculos de artes cênicas ou congêneres;IV - estímulo ao conhecimento dos bens e valores culturais, mediante:a) distribuição gratuita e pública de ingressos para espetáculos culturais e artísticos;b) levantamentos, estudos e pesquisas na área da cultura e da arte e de seus vários segmentos;V - apoio a outras atividades culturais e artísticas, mediante:b) contratação de serviços para elaboração de projetos culturais;",
+                "etapa": "PRÉ-PRODUÇÃO: 40 dias: Reuniões com equipes de criação e produção para compreensão compartilhada de conceitos e procedimentos, Definição de cronograma detalhado de atividades, Desenvolvimento de identidade visual, criação de site especial, produção de imagens e textos, Alinhamento de agendas de artistas para ensaio da nova montagem, Alinhamento d e datas de apresentação com as 03 cidades e espaços. 50 dias: Continuação da pré-produção, incluindo reuniões online com equipes de Caruaru e Campo Grande, Alinhamento de datas e contrataçao de fornecedores e equipe de de Caruaru e Campo Grande, como produção e assessoria de imprensa locais, gestores dos espaços, monitores para diálogos com escolas, interprete de Libras, técnicos, fotógrafo, artistas dos grupos. Começo de ações de divulgação do projeto. 60 dias: Ensaios do espetáculo Cabaré da Vida Pequena, Desenvolvimento de figurinos, trilha sonora, dramaturgia, adereços e cenário, Início da residência do grupo Espiralar Encruza na Zona Cultural, As redes sociais serão alimentadas periodicamente com imagens, registros do processo, depoimentos e reflexões dos artistas. Definição da logística de viagem: hospedagem, transporte, alimentação, etc. 40 dias: Continuação dos ensaios, Divulgação intensificada em redes sociais, Contato com cursos de graduação, coletivos culturais, escolas e outras organizações para realização dos ensaios abertos, Conversas entre toda equipe e assessoria de acessibilidade, para qualificação e sensibilização, Desenvolvimento de peças de comunicação. 30 dias: Realização dos quatro ensaios abertos em Porto Alegre, com roda de conversa ao final, para público convidado, entre coletivos diversos, Contatos com associações e grupos de pessoas com deficiência auditiva e visual para agendamento e distribuição de ingressos gratuitos em sessões com acessibilidade, Contatos e agendamento com escolas públicas para apresentações gratuitas, Produção de conteúdo e execução da divulgação de estreia. 30 dias: Lançamento do projeto, 02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS 02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Porto Alegre/RS 02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS 02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Porto Alegre/RS 01 Roda de conversa com universitários de Universidade pública- Porto Alegre/RS 01 Oficina Poéticas Festivas na Zona Cultural - Porto Alegre/RS 01 Laboratório de Produção e Gestão na Zona Cultural - Porto Alegre/RS 30 dias: Finalização da produção para residências e apresentações em Caruaru e Campo Grande, 30 dias: Residência em Caruaru, com ações de divulgação específicas. 02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Caruaru/PE 02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Caruaru/PE 02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Caruaru/PE 02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Caruaru/PE 01 Roda de conversa com universitários de Universidade pública - Caruaru - PE 01 Oficina Poéticas Festivas na Zona Cultural - Caruaru - PE 01 Laboratório de Produção e Gestão na Zona Cultural - Caruaru – PE 30 dias: Residência em Campo Grande, com ações de divulgação específicas. 02 apresentações para público geral do espetáculo Cabaré da Vida Pequena em Campo Grande/MS 02 apresentações para instituições públicas do espetáculo Cabaré da Vida Pequena em Campo Grande/MS 02 apresentações para público geral do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS 02 apresentações para instituições públicas do espetáculo Cabaré do Amor Rasgado em Campo Grande/MS 01 Roda de conversa com universitários de Universidade pública - Campo Grande - MS 01 Oficina Poéticas Festivas na Zona Cultural - Campo Grande - MS 01 Laboratório de Produção e Gestão na Zona Cultural - Campo Grande - MS 60 dias: Avaliação das realizações, Agradecimentos, publicações em redes sociais e site com sínteses e retrospectivas, Organização de relatórios de publicações, registros das atividades, clipagem e dimensionamento dos resultados. Produção do relatório final para prestação de contas.",
+                "ficha_tecnica": "PATRICIA FAGUNDES - DIRETORA, IDEALIZADORA Diretora da empresa proponente Cia Rústica Patrícia Fagundes é encenadora, artista da cena, professora, produtora, pesquisadora, dramaturgista, mãe e o que for preciso no teatro. Docente associada no Departamento de Arte Dramática e no Programa de Pós-Graduação em Artes Cênicas da UFRGS. Coordena o grupo de pesquisa Fresta. Fez doutorado na Universidade Carlos III de Madrid, com a tese A Ética da Festividade na Criação Cênica (2010), mestrado em Londres – mas a ideia sempre foi morar e criar na cidade onde nasceu, Porto Alegre. Fundadora da Cia Rústica de Teatro, na qual dirigiu diversos espetáculos e outras experiências cênicas. Além de múltiplas indicações, recebeu o Prêmio Açorianos e Braskem de Direção por Sonho de Uma Noite de Verão e O Fantástico Circo Teatro de um Homem Só, assim como Prêmio Braskem de Melhor Espetáculo para: Sonho de Uma Noite de Verão, Natalício Cavalo, Cidade Proibida (Júri Popular) e Fala do Silêncio. Desenvolve investigações e criações relacionadas ao teatro como estado de encontro, cena no espaço urbano, criação de dramaturgia, festividade, misturas e cabarés do sul do mundo, diálogos entre arte e sociedade. Publicou vários artigos disponíveis em: www.ciarustica.com/artigos CIA RÚSTICA - PROPONENTE RESPONSÁVEL PELO GERENCIAMENTO DO PROJETO Rede de criação cênica sediada em Porto Alegre, sul do sul do mundo, como zona autônoma de trabalho entre artistas plurais. Desde 2004 desenvolve uma trajetória consistente de invenção e pesquisa, com diversos projetos premiados e reconhecidos pelo público. Investiga a cena como experiência e modo de conexão, na perspectiva de uma ética da festividade na criação: uma ética do encontro e da diversidade, que celebra o corpóreo, o prazer e o próximo. Compõe um pensamento não dissociado do corpo, em diálogos entre arte e sociedade, trânsitos entre humor e poesia, navegações entre a rua e o palco, combinações indisciplinadas entre teatro, música, vídeo, dança, circo, palavra, corpo, real, ficção. https://www.ciarustica.com/sobre-a-cia/ SANDRA POSSANI - ATRIZ Atriz, professora, produtora. Começou a fazer teatro em 1990 com o grupo Ói Nóis Aqui Traveiz, no RS, onde atuou em mais de 20 espetáculos. Participou do Grupo Depósito de Teatro desde sua fundação até 2009, atuando em: O Beijo no Asfalto, direção Patrícia Fagundes, Boca de Ouro, O Pagador de Promessas, Auto da Compadecida, com direção de Roberto Oliveira. No cinema, atuou nos filmes como O Homem que Copiava, Saneamento Básico e Cão sem Dono. Ganhou vários prêmios: 2005 - Prêmio Açorianos de Melhor Atriz pelo seu trabalho em Dr.Qs.Curiosas Qomédias; Prêmio Braskem e Prêmio Açorianos de Melhor Atriz pelo seu trabalho em A Megera Domada da Cia Rústica. Em Recife, onde residiu de 2009 a 2020, conquistou o Prêmio APACEPE de TEATRO de Melhor atriz por O Acidente e a menção honrosa no festival de cinema Cine-PE pelo filme Canção para minha irmã.De volta a Porto Alegre, retoma o trabalho e as parcerias que a constituem como artista. ANDRÉ VARELA - ATOR E PRODUTOR Produtor cultural e ator formado pela Casa de Teatro de Porto Alegre, graduado na UFRGS em Interpretação Teatral e em Publicidade e Propaganda. Colabora na Cia Rústica de Teatro desde 2013. Atuou em produções audiovisuais como o longa metragem Disforia (2020), na série A Bênção (2019 - Canal Brasil), em espetáculos teatrais como Cabaré do Amor Rasgado (2023), Remontagem (2017-2018), Moscas (2015-2016), A Coisa no Mar (2015), entre outras criações cênicas. Como produtor, trabalhou na execução de eventos culturais como o Festival Internacional de Artes Cênicas – Porto Alegre Em Cena – durante 7 anos, bem como de inúmeros espetáculos de teatro e dança. Como designer, realiza projetos gráficos para grupos e eventos de artes cênicas do sul do país como a Ânima Cia de Dança, a Ato Cia.Cênica, o coletivo Ecopoética e o Festival Internacional de Teatro de Rua de Porto Alegre. Realiza a composição de elenco (casting) em projetos audiovisuais de produtoras como Stink SP, Delicatessen Films, Barry Company, Iconoclast, Alice Filmes, Yatta, Bactéria e Druzina Content. RODRIGO SHALAKO - CENÓGRAFO Um dos mais requisitados cenógrafos do estado. Técnico em marcenaria e desenho industrial pelo SENAI (1997-1999). Vencedor do prêmio Açorianos de melhor cenografia de teatro em 2016 e 2017 com os espetáculos Ramal 340 do Coletivo Errática e Imobilhados do Mascara Encena. Coordenador de cenotécnica do Festival Palco Giratório desde 2015 e membro da equipe de cenotécnicos do Festival Porto Alegre em Cena desde 2012. Dentre os trabalhos mais recentes estão os espetáculos: Expresso Paraíso e Pátria Estrangeira/ Fremde Heimat da Ato Cia Cênica, Arena Selvagem do Grupo Cerco, Natalício Cavalo, Desmedida Naichthy Club, TREMOR. Sobre como as coisas foram chegar neste ponto, Cabaré da Mulher Braba e Cabaré do Amor Rasgado da Cia Rústica. JULIANA KERSTING - ATRIZ E BAILARINA Atriz, bailaora de flamenco e produtora, e atualmente, doutoranda no PPGAC/UFRGS. Mestra em Artes Cênicas com a pesquisa e o espetáculo de teatro feminista No te pongas flamenca! (2019). Integra desde 2007 a Cia de Flamenco Del Puerto e, em 2014, com a estreia do espetáculo de teatro para criança É PROIBIDO MIAR, cria com o artista Denis Gosch, a M.A.cia - teatro, dança e assemelhados, integrado por artistas e profissionais de acessibilidade. Desde 2018 participa do Coletivo Quântico e em 2023 integra o elenco do Projeto Cabarés do Sul do Mundo realizado pela Cia Rústica. Prêmio Tibicuera (2015) de melhor atriz coadjuvante em É Proibido Miar e Prêmio Açorianos de dança de melhor produção em nos espetáculos Esquinas (2012) e Flamenco Imaginário (2016). Trabalhou em Porto Alegre com diferentes coletivos: Oigalê, Sarcáustico, Mototóti e Cena Expandida.",
+                "impacto_ambiental": "",
+                "especificacao_tecnica": "nao se aplica",
+                "estrategia_execucao": "",
+                "democratizacao": "Das Medidas de Democratização de Acesso: De acordo com o Art. 46. o plano de distribuição desta proposta preve medidas de democratização do acesso, observados os seguintes limites: I - até 10% (dez por cento) para distribuição gratuita promocional por patrocinadores, havendo mais de um receberão em quantidade proporcional ao investimento efetuado; II - até 10% (dez por cento) para distribuição gratuita promocional pelo proponente em ações de divulgação do projeto; III - mínimo de 10% (dez por cento) para distribuição gratuita com caráter social ou educativo, incluindo professores de instituição públicas de ensino; IV - mínimo de 20% (vinte por cento) para comercialização em valores que não ultrapassem R$ 50,00 (cinquenta reais). § 1o As cotas previstas no inciso I, II e III poderão ser cumpridas com realizações de sessões exclusivas. § 2o A parametrização estabelecida no sistema observará o que segue: I - meia-entrada assegurada para estudantes em, no mínimo, 40% (quarenta por cento) do quantitativo total dos ingressos comercializados, conforme o art. 1o, § 10 da Lei no 12.933, de 26 de dezembro de 2013; II - meia-entrada assegurada para idosos em todos os ingressos comercializados, conforme o art. 23 da Lei no 10.741, de 1o de outubro de 2003; e III - meia-entrada para acesso a eventos artístico-culturais a estudantes, jovens de baixa renda portadores da Identidade Jovem (ID Jovem) e pessoas com deficiência, em todos os ingressos comercializados, conforme o do Decreto no 8.537, de 5 de outubro de 2015. § 3o Separadas as cotas previstas nos incisos I, II, III e IV do caput, os ingressos ou produtos culturais restantes poderão ser comercializados em valores a critério do proponente, desde que o preço médio do ingresso inteiro ou produto se limite a R$ 250,00 (duzentos e cinquenta reais). § 4o O valor total da receita prevista no projeto deve ser igual ou inferior ao Valor Total do Projeto conforme inciso LXVIII do ANEXO I. § 8o As obras audiovisuais resultantes de projetos de preservação de que trata o ANEXO I consideram-se licenciadas, a título não oneroso e não exclusivo, para exibição em plataformas públicas ou mantidas com recursos públicos e em estabelecimentos públicos de ensino e cultura quando: II - o proponente do projeto for o titular dos direitos autorais das obras ou tiver autorização expressa do titular para negociar a licença para exibição. De acordo com o Art. 47, às medidas de democratização de acesso, o projeto preve a adoção de: IV - garantir a captação e veiculação de imagens das atividades e de espetáculos por redes públicas de televisão e outros meios de comunicação gratuitos; V - realizar, gratuitamente, atividades paralelas aos projetos, tais como ensaios abertos, estágios, cursos, treinamentos, palestras, exposições e oficinas. O projeto conta com: Apresentações gratuitas 01 Roda de conversa com universitários de Universidade pública- Porto Alegre/RS - Ação gratuita 01 Oficina Poéticas Festivas na Zona Cultural - Porto Alegre/RS - Ação gratuita 01 Laboratório de Produção e Gestão na Zona Cultural - Porto Alegre/RS - Ação gratuita 01 Roda de conversa com universitários de Universidade pública - Campo Grande - MS - Ação gratuita 01 Oficina Poéticas Festivas em Campo Grande - MS - Ação gratuita 01 Laboratório de Produção e Gestão em Campo Grande - MS - Ação gratuita 01 Roda de conversa com universitários de Universidade pública - Recife - PE - Ação gratuita 01 Oficina Poéticas Festivas em Caruaru - PE - Ação gratuita 01 Laboratório de Produção e Gestão em Caruaru – PE - Ação gratuita",
+                "resumo": "O projeto propõe a criação e montagem do espetáculo CABARÉ DA VIDA PEQUENA e sua circulação junto ao espetáculo CABARÉ DO AMOR RASGADO, acompanhados por oficinas e residências em três regiões brasileiras, promovendo novas experiências e conexões no campo das artes da cena, abrangendo criação, formação, produção e gestão.",
+                "sinopse": "CABARÉ DO AMOR RASGADO Criado em 2023 na Zona Cultural , o espetáculo celebra o amor como força de vida. Uma ação que pode construir outras modos de convívio e partilha coletiva. Em tempos de ódio, o amor assumido como fundamento social e humano. Um cabaré sem vergonha de expor emoções, onde toda forma de amor vale à pena: romântico, fraterno, amor pelo mundo, por sonhos, ideias, amor família, amor como o que nos faz e nos leva além. – É um amor que abre brechas no mundo, ao mesmo tempo que é parte do mundo. Não está restrito à esfera do casal, se estende por várias dimensões de nossa existência, vai além da norma, do óbvio, do ensimesmado. No início da peça, tem um texto assim: “Um amor rasgado rasga o corpo, rasga o tempo. E ali vai se infiltrando, na fresta abrindo o mundo porque amor é abertura e transformação. É também mansidão. O que pulsa e nos coloca em movimento. Amor é revolução!” – explica a diretora Patrícia Fagundes. É parte do projeto Cabarés do Sul do Mundo. CABARÉ DA VIDA PEQUENA (MONTAGEM INÉDITA) O novo espetáculo da Cia Rústica, criado neste projeto, estreará na Residência Petrobras na Zona Cultural - em Porto Alegre/RS. Na sequência, também será apresentado em espaços independentes de coletivos artísticos das cidades de Caruaru - PE e Campo Grande - MS. A montagem lança um olhar à vida pequena e às histórias não contadas nas narrativas hegemônicas sobre o Rio Grande do Sul: histórias e canções de terreiros, do gaúcho pobre, do Pampa (o bioma mais destruído do Brasil), de pessoas indígenas e negras, de mulheres transformadoras, de artistas desconhecidos, de pessoas LGBTQIAPN+. Histórias vividas pela equipe e histórias coletadas em andanças e encontros, de gente anônima, que habita margens e desvios do discurso dominante. Além da branquitude e dos patrões de CTGs, do fetiche de “Europa” de Gramado, o sul do sul é feito de múltiplas matérias e povos, que ressoam a diversidade e a beleza do que somos e anunciam futuros do que podemos ser.",
+                "tipicidade": "Editais de Estatais",
+                "tipologia": "Seleção Petrobrás Cultural - Novos Eixos 2025",
+                "enquadradmento": "Artigo 18",
+                "mecanisnmo": "Mecenato",
+                "UF": "RS",
+                "municipio": "Porto Alegre",
+                "segmento": "Apresentação ou Performance de Teatro",
+                "data_inicio": "2025-08-09",
+                "data_termino": "2026-08-09",
+                "outras_fontes": 0,
+                "proponente": "GRUPO RUSTICO DE TEATRO LTDA.",
+                "ano_projeto": "25",
+                "local_realizacao": [
+                    {
+                        "municipio_ibge": "5300108",
+                        "municipio": "Brasília",
+                        "uf": "DF",
+                        "pais": "Brasil"
+                    },
+                    {
+                        "municipio_ibge": "310620",
+                        "municipio": "Belo Horizonte",
+                        "uf": "MG",
+                        "pais": "Brasil"
+                    }
+                ],
+                "valor_solicitado": 0,
+                "valor_aprovado": 0,
+                "valor_projeto": 0,
+                "valor_captado": 0,
+                "valor_proposta": 0,
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/projetos",
+                    "fornecedores": "http://localhost:8001/api/v1/fornecedores?PRONAC=252246",
+                    "incentivadores": "http://localhost:8001/api/v1/incentivadores?incentivador_id=252246",
+                    "proponente": "http://localhost:8001/api/v1/proponentes/5b8cdd955f4437ea099c2b1a907ea8ff74943d61a2cedb753b9cc0bd3806"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/projetos",
+        "first": "http://localhost:8001/api/v1/projetos?limit=2&offset=0",
+        "last": "http://localhost:8001/api/v1/projetos?limit=2&offset=135630",
+        "next": "http://localhost:8001/api/v1/projetos?limit=2&offset=2"
+    },
+    "count": 2,
+    "total": 135631
+}
+
+Example response (404, Projetos com esses parâmetros não encontrados):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametros fornecidos invalidos):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/projetos
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de projetos a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+PRONAC
+
+string
+
+optional
+
+Número do PRONAC.
+
+proponente
+
+string
+
+optional
+
+Nome do proponente do projeto (valor exato ou parcial).
+
+proponente_id
+
+string
+
+optional
+
+id de identificacao do proponente.
+
+cgccpf
+
+string
+
+optional
+
+Cgc/Cpf do proponente.
+
+nome
+
+string
+
+optional
+
+Nome do projeto (valor exato ou parcial).
+
+area
+
+string
+
+optional
+
+Código da Área do projeto.
+
+segmento
+
+string
+
+optional
+
+Código do Segmento do projeto.
+
+UF
+
+string
+
+optional
+
+Estado de origem no formato EE.
+
+ano_projeto
+
+string
+
+optional
+
+Ano em que o projeto foi aprovado em dois dígitos. Formato AA.
+
+data_inicio
+
+string
+
+optional
+
+Data inicial da execução do projeto no formato AAAA-MM-DD.
+
+data_termino
+
+string
+
+optional
+
+Data final da execução do projeto no formato AAAA-MM-DD.
+
+data_inicio_min
+
+string
+
+optional
+
+Define um período em que o valor da data inicial de execução deve ser maior ou igual. Formato AAAA-M-D.
+
+data_termino_min
+
+string
+
+optional
+
+Define um período em que o valor da data final da execução deve ser maior ou igual. Formato AAAA-MM-DD.
+
+data_inicio_max
+
+string
+
+optional
+
+Define um período em que o valor da data inicial de execução deve ser menor ou igual. Formato AAAA-MM-DD.
+
+data_termino_max
+
+string
+
+optional
+
+Define um período em que o valor da data final da execução deve ser menor ou igual. Formato AAAA-M-D.
+
+ano_captacao
+
+integer
+
+Ano da captação baseado na DtRecibo Example: 
+17
+
+sort
+
+string
+
+optional
+
+Ordenar a busca por um dos campos : PRONAC, ano_projeto, data_inicio, data_termino, valor_solicitado, outras_fontes,
+valor_captado, valor_proposta, valor_aprovado, valor_projeto. Formato: sort=CAMPO ou sort=CAMPO:asc ou ainda sort=CAMPO:desc.
+Padrão : ano_projeto:desc
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+/projetos/areas
+
+Retorna todas as áreas disponíveis
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/projetos/areas" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/projetos/areas"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "areas": [
+            {
+                "codigo": "1",
+                "nome": "Artes Cênicas",
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/projetos?area=1"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/projetos/areas"
+    }
+}
+
+Example response (404, Areas indisponiveis):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/projetos/areas
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+/projetos/segmentos
+
+Retorna todos os segmentos disponíveis
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/projetos/segmentos" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/projetos/segmentos"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "segmentos": [
+            {
+                "codigo": "11",
+                "nome": "Apresentação ou Performance de Teatro",
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/projetos?segmento=11"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/projetos/segmentos"
+    }
+}
+
+Example response (404, Segmentos indisponiveis):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/projetos/segmentos
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Proponentes
+
+Dados relativos a Proponentes
+
+/proponentes
+
+Busca proponentes dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/proponentes" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/proponentes"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "proponentes": [
+            {
+                "nome": "CLAUDEMI PEREIRA DOS SANTOS",
+                "cgccpf": "***000493**",
+                "tipo_pessoa": "fisica",
+                "responsavel": "CLAUDEMI PEREIRA DOS SANTOS",
+                "UF": "CE",
+                "municipio": "Fortaleza",
+                "total_captado": 0,
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/proponentes/e84d0163479e17a2f5c8123d190d6e7bdec7bea92423eeccb637f7",
+                    "projetos": "http://localhost:8001/api/v1/projetos?proponente_id=98b1a0639c6dc9a04aa71be6654bde8c2ac19216b7ae5c0c85f2eb"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/proponentes",
+        "first": "http://localhost:8001/api/v1/proponentes?limit=2&offset=0",
+        "last": "http://localhost:8001/api/v1/proponentes?limit=2&offset=59936",
+        "next": "http://localhost:8001/api/v1/proponentes?limit=2&offset=2"
+    },
+    "count": 2,
+    "total": 59937
+}
+
+Example response (404, Nenhum proponente com criterios fornecidos encontrados):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametros fornecidos inválidos):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/proponentes
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de proponentes a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+nome
+
+string
+
+optional
+
+Nome do proponente (valor exato ou parcial).
+
+cgccpf
+
+string
+
+optional
+
+Cgc/Cpf do proponente.
+
+proponente_id
+
+string
+
+optional
+
+id de identificacao do proponente.
+
+municipio
+
+string
+
+optional
+
+Cidade.
+
+UF
+
+string
+
+optional
+
+Estado.
+
+tipo_pessoa
+
+string
+
+optional
+
+Tipo de pessoa.
+
+sort
+
+string
+
+optional
+
+Ordenar a busca por um dos campos : total_captado.Formato: sort=CAMPO ou sort=CAMPO:asc ou ainda sort=CAMPO:desc.
+Padrão : Internamente baseado no cgccpf
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+/proponentes/{proponente_id}
+
+Busca proponentes dado um id fornecido
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/proponentes/consequatur" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/proponentes/consequatur"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "nome": "CLAUDEMI PEREIRA DOS SANTOS",
+    "cgccpf": "***000493**",
+    "tipo_pessoa": "fisica",
+    "responsavel": "CLAUDEMI PEREIRA DOS SANTOS",
+    "UF": "CE",
+    "municipio": "Fortaleza",
+    "total_captado": 0,
+    "_links": {
+        "self": "http://localhost:8001/api/v1/proponentes/09c1935b902e2da55551356e8e8d0c8c4b0073c71e784a82169080",
+        "projetos": "http://localhost:8001/api/v1/projetos?proponente_id=a6729a918b8bdf1e3c79b16a42d23c9e40cc53b8567c4d40cc105d"
+    }
+}
+
+Example response (404, Nenhum proponente com id fornecido encontrado):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametros fornecidos inválidos):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/proponentes/{proponente_id}
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+proponente_id
+
+string
+
+The ID of the proponente. Example: 
+consequatur
+
+Propostas
+
+Dados relativos a Propostas de projetos
+
+/propostas
+
+Busca propostas dado uma combinação de valores diversos de pesquisa
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/propostas" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/propostas"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "_embedded": {
+        "propostas": [
+            {
+                "acessibilidade": "Arte",
+                "objetivos": "Arte",
+                "justificativa": "Arte",
+                "etapa": "Arte",
+                "ficha_tecnica": "Arte",
+                "impacto_ambiental": "Não",
+                "especificacao_tecnica": "Não",
+                "estrategia_execucao": "Não",
+                "democratizacao": "Arte",
+                "resumo": "Produzir e publicar o livro Maquiando Pinturas onde o artista plástico e maquiador Ulysses Rabelo reproduzirá em pessoas telas de retratos de pintores conhecidos, através da maquiagem, dando vida aos quadros e transformando-os em imagens para o livro.",
+                "sinopse": "Arte",
+                "nome": "Arte",
+                "id": 18209,
+                "data_inicio": "2013-08-01",
+                "data_termino": "2014-03-30",
+                "data_aceite": "2010-04-14 19:30:55",
+                "data_arquivamento": null,
+                "mecanismo": "Mecenato",
+                "_links": {
+                    "self": "http://localhost:8001/api/v1/propostas/18209"
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": "http://localhost:8001/api/v1/propostas",
+        "first": "http://localhost:8001/api/v1/propostas?limit=2&offset=0",
+        "last": "http://localhost:8001/api/v1/propostas?limit=2&offset=386958",
+        "next": "http://localhost:8001/api/v1/propostas?limit=2&offset=2"
+    },
+    "count": 2,
+    "total": 386960
+}
+
+Example response (404, Propostas com esses parâmetros não encontrados):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametros fornecidos invalidos):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/propostas
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+Query Parameters
+
+limit
+
+integer
+
+optional
+
+Número de propostas a serem retornados.
+
+offset
+
+integer
+
+optional
+
+Número de paginação de resultados.
+
+nome
+
+string
+
+optional
+
+Nome do projeto (valor exato ou parcial).
+
+data_inicio
+
+string
+
+optional
+
+Data de início no formato aaaa-mm-dd
+
+data_termino
+
+string
+
+optional
+
+Data de finalização no formato aaaa-mm-dd.
+
+data_inicio_min
+
+string
+
+optional
+
+Data de início no formato aaaa-m-d
+
+data_termino_max
+
+string
+
+optional
+
+Data de finalização no formato aaaa-m-d.
+
+format
+
+string
+
+optional
+
+Formato de retorno
+
+/propostas/{proposta_id}
+
+Dados detalhados de uma proposta
+
+Example request:
+
+curl --request GET \
+    --get "https://api.salic.cultura.gov.br/api/v1/propostas/consequatur" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"
+
+const url = new URL(
+    "https://api.salic.cultura.gov.br/api/v1/propostas/consequatur"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response => response.json());
+
+Example response (200, Operação bem-sucedida):
+
+{
+    "acessibilidade": "Arte",
+    "objetivos": "Arte",
+    "justificativa": "Arte",
+    "etapa": "Arte",
+    "ficha_tecnica": "Arte",
+    "impacto_ambiental": "Não",
+    "especificacao_tecnica": "Não",
+    "estrategia_execucao": "Não",
+    "democratizacao": "Arte",
+    "resumo": "Produzir e publicar o livro Maquiando Pinturas onde o artista plástico e maquiador Ulysses Rabelo reproduzirá em pessoas telas de retratos de pintores conhecidos, através da maquiagem, dando vida aos quadros e transformando-os em imagens para o livro.",
+    "sinopse": "Arte",
+    "nome": "Arte",
+    "id": 18209,
+    "data_inicio": "2013-08-01",
+    "data_termino": "2014-03-30",
+    "data_aceite": "2010-04-14 19:30:55",
+    "data_arquivamento": null,
+    "mecanismo": "Mecenato",
+    "_links": {
+        "self": "http://localhost:8001/api/v1/propostas/18209"
+    }
+}
+
+Example response (404, Proposta com ID fornecido nao encontrado):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (405, Parametro fornecido invalido):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Example response (503, Erro interno):
+
+{
+    "message": "string",
+    "message_code": "string",
+    "more_info": "string"
+}
+
+Received response
+:
+
+Request failed with error:
+
+Tip: Check that you're properly connected to the network.
+If you're a maintainer of ths API, verify that your API is running and you've enabled CORS.
+You can check the Dev Tools console for debugging information.
+
+        Request   
+
+Try it out ⚡
+
+Cancel 🛑
+
+Send Request 💥
+
+GET
+
+api/v1/propostas/{proposta_id}
+
+Headers
+
+Content-Type
+
+Example: 
+application/json
+
+Accept
+
+Example: 
+application/json
+
+URL Parameters
+
+proposta_id
+
+string
+
+The ID of the proposta. Example: 
+consequatur
+
+bash
+
+javascript
+
+## Links da página
+- [MENU](https://api.salic.cultura.gov.br/docs)
+- [Introduction](https://api.salic.cultura.gov.br/docs#introduction)
+- [SALIC API](https://api.salic.cultura.gov.br/docs#salic-api)
+- [Formatos de Resposta](https://api.salic.cultura.gov.br/docs#formatos-de-resposta)
+- [Paginação](https://api.salic.cultura.gov.br/docs#paginacao)
+- [Authenticating requests](https://api.salic.cultura.gov.br/docs#authenticating-requests)
+- [Endpoints](https://api.salic.cultura.gov.br/docs#endpoints)
+- [GET api/{fallbackPlaceholder}](https://api.salic.cultura.gov.br/docs#endpoints-GETapi--fallbackPlaceholder-)
+- [Fornecedores](https://api.salic.cultura.gov.br/docs#fornecedores)
+- [/fornecedores](https://api.salic.cultura.gov.br/docs#fornecedores-GETapi-v1-fornecedores)
+- [/fornecedores/{fornecedor_id}](https://api.salic.cultura.gov.br/docs#fornecedores-GETapi-v1-fornecedores--fornecedor_id-)
+- [/fornecedores/{fornecedor_id}/produtos](https://api.salic.cultura.gov.br/docs#fornecedores-GETapi-v1-fornecedores--fornecedor_id--produtos)
+- [Incentivadores](https://api.salic.cultura.gov.br/docs#incentivadores)
+- [/incentivadores](https://api.salic.cultura.gov.br/docs#incentivadores-GETapi-v1-incentivadores)
+- [/incentivadores/{incentivador_id}](https://api.salic.cultura.gov.br/docs#incentivadores-GETapi-v1-incentivadores--incentivador_id-)
+- [/incentivadores/{incentivador_id}/doacoes](https://api.salic.cultura.gov.br/docs#incentivadores-GETapi-v1-incentivadores--incentivador_id--doacoes)
+- [Projetos](https://api.salic.cultura.gov.br/docs#projetos)
+- [/projetos](https://api.salic.cultura.gov.br/docs#projetos-GETapi-v1-projetos)
+- [/projetos/areas](https://api.salic.cultura.gov.br/docs#projetos-GETapi-v1-projetos-areas)
+- [/projetos/segmentos](https://api.salic.cultura.gov.br/docs#projetos-GETapi-v1-projetos-segmentos)
+- [Proponentes](https://api.salic.cultura.gov.br/docs#proponentes)
+- [/proponentes](https://api.salic.cultura.gov.br/docs#proponentes-GETapi-v1-proponentes)
+- [/proponentes/{proponente_id}](https://api.salic.cultura.gov.br/docs#proponentes-GETapi-v1-proponentes--proponente_id-)
+- [Propostas](https://api.salic.cultura.gov.br/docs#propostas)
+- [/propostas](https://api.salic.cultura.gov.br/docs#propostas-GETapi-v1-propostas)
+- [/propostas/{proposta_id}](https://api.salic.cultura.gov.br/docs#propostas-GETapi-v1-propostas--proposta_id-)
+- [View Postman collection](https://api.salic.cultura.gov.br/docs.postman)
+- [View OpenAPI spec](https://api.salic.cultura.gov.br/docs.openapi)
+- [Documentation powered by Scribe ✍](https://github.com/knuckleswtf/scribe)
+- [SALIC](http://salic.cultura.gov.br/cidadao/consultar)
+- [aqui](http://www.cultura.gov.br/programa-nacional-de-apoio-a-cultura-pronac-)
+- [[email protected]](https://api.salic.cultura.gov.br/cdn-cgi/l/email-protection)

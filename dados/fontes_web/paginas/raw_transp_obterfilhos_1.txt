@@ -1,5 +1,5 @@
 # Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/1?NivelAnterior=0
-# Coletado (UTC): 2026-09-27T22:23:21Z
+# Coletado (UTC): 2026-09-28T03:11:44Z
 # sha256 do original: 21b896c7607dd77363e5e651aaa1d4bcdbe0a2968f4cfb15c1cc233c6142aa57
 
         <li>
