@@ -1,6 +1,6 @@
 # Fonte: https://ioes.dio.es.gov.br/
-# Coletado (UTC): 2026-09-27T22:23:14Z
-# sha256 do original: 40f8b2d626ea794a71b5cba0c5f0d49988244cbefc6c4d9d34ff49cb42987413
+# Coletado (UTC): 2026-09-28T03:11:37Z
+# sha256 do original: e04664e1867276c0e94674e634c27066e20cd0d6294a28a1295fcde32726412a
 
 
 <!DOCTYPE html>
@@ -111,7 +111,7 @@
 
             <!-- Centro: Data e Hora -->
             <div class="datetime-center col-xs-12 col-sm-12 col-md-4">
-                <span class='dia-semana'>DOMINGO,&nbsp;</span><span class='date'> 27 DE SETEMBRO DE 2026</span>                <span class="time">&nbsp;/&nbsp;<span id="h"></span>H<span id="m"></span></span>
+                <span class='dia-semana'>SEGUNDA-FEIRA,&nbsp;</span><span class='date'> 28 DE SETEMBRO DE 2026</span>                <span class="time">&nbsp;/&nbsp;<span id="h"></span>H<span id="m"></span></span>
                 <i class="fa fa-clock-o relogio-vermelho"></i>
             </div>
 
