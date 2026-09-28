@@ -689,7 +689,16 @@ CHECAGENS += [
      "efeito multiplicador de 1,74" if "efeito multiplicador de 1,74" in (RAIZ / "dados" / "fontes_web" / "firecrawl" /
                                                                         "ijsn_cultura_em_dados_2026.md").read_text(encoding="utf-8") else "?",
      "dados/fontes_web/firecrawl/ijsn_cultura_em_dados_2026.md (IJSN, notícia de 01/07/2026)"),
+    ("N103", "a captação dos pedidos pequenos caiu a cada ciclo",
+     "caiu a cada ciclo" if (_f23.loc[("2022", "até 400 mil"), "taxa_captacao"] > _f23.loc[("2023", "até 400 mil"), "taxa_captacao"]
+                             > _f23.loc[("2024", "até 400 mil"), "taxa_captacao"]) else "?",
+     T + "23_captacao_por_faixa.csv (até R$ 400 mil: 2022 > 2023 > 2024)"),
 ]
+
+# versão final (28/09/2026): o autor retirou da §5.3 a frase "só 2 dos 32 recusados têm registro público do projeto".
+# A contagem era da busca, não da existência do registro (Funcultura e PNAB ficaram fora; o SALIC vai até 2025).
+_FORA_FINAL = {"N88"}
+CHECAGENS = [c for c in CHECAGENS if c[0] not in _FORA_FINAL]
 
 
 def main() -> int:

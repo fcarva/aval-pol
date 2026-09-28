@@ -47,7 +47,6 @@ N84,CONFERE,"152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor
 N80,CONFERE,os 86 inabilitados,analise/tabelas/12_cap_deliberacoes.csv,os 86 inabilitados das atas da CAP
 N74,CONFERE,captaram 79% em 2022 e 27% em 2024,analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv,pedidos até R\$ 400 mil captaram 79% em 2022 e 27% em 2024
 N87,CONFERE,coincide,"analise/tabelas/21_etapas_captacao.csv (anexo = Portal = renúncia realizada, 2023-2025)",e a soma coincide com a dos termos no Portal da Transparência e com a renúncia realizada informada pela SEFAZ
-N88,CONFERE,só 2 dos 32 recusados,analise/tabelas/22_recusados_outras_fontes.csv (PRONAC de mesmo título ou evento datado no Mapa),só 2 dos 32 recusados têm registro público do projeto
 N89,CONFERE,"caiu de 79% para 27%, e a dos maiores, de 90% para 73%",analise/tabelas/23_captacao_por_faixa.csv,"a captação dos pedidos até R\$ 400 mil caiu de 79% para 27%, e a dos maiores, de 90% para 73%"
 N90,CONFERE,"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação",analise/tabelas/13_versoes_captados_fila.csv (2024),"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação"
 N91,CONFERE,"os 32 projetos recusados em 2023 e 2024, os 95 habilitados",analise/tabelas/09_reentrada_resumo.csv; 07_funil_por_ciclo.csv,"os 32 projetos recusados em 2023 e 2024, os 95 habilitados de 2022-2024 cuja captação expirou"
@@ -62,3 +61,4 @@ N99,CONFERE,cai para 16 a 17 pontos,analise/tabelas/23_poder_secao5.csv,o EMD ca
 N100,CONFERE,detecta só 28 a 30 pontos,analise/tabelas/23_poder_secao5.csv,"com mais quatro ciclos, detecta só 28 a 30 pontos"
 N101,CONFERE,Mais da metade,analise/tabelas/09_reentrada_resumo.csv,Mais da metade dos recusados por falta de teto captou no ano seguinte
 N102,CONFERE,"efeito multiplicador de 1,74","dados/fontes_web/firecrawl/ijsn_cultura_em_dados_2026.md (IJSN, notícia de 01/07/2026)","""efeito multiplicador de 1,74"""
+N103,CONFERE,caiu a cada ciclo,analise/tabelas/23_captacao_por_faixa.csv (até R$ 400 mil: 2022 > 2023 > 2024),a captação dos pedidos pequenos caiu a cada ciclo

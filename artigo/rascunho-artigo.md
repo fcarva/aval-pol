@@ -32,7 +32,7 @@ A LICC é um **gasto tributário alocado por empresas**. O proponente inscreve o
 **Quadro 1 – Elementos do desenho da LICC**
 
 | Elemento | Regra vigente | Norma |
-|--------------|----------------------------------|------------------|
+|-----------------|----------------------------------------------------------|-------------------------|
 | Benefício ao patrocinador | Crédito presumido de até 100% do patrocínio, compensado com o ICMS a recolher | Lei 7.000/2001, art. 5º-B, IX; Dec. 5.035-R/2021, art. 10 |
 | Teto anual | Fixado pela SEFAZ até 31/01, ampliável no exercício, limitado a 2% do ICMS estadual do ano anterior: R\$ 15 mi em 2022 (10 mi ampliados em setembro) e 2023, 25 mi em 2024 e 2025, 31 mi em 2026 | Dec. 5.035-R/2021, art. 4º; Dec. 5.210-R/2022; portarias SEFAZ |
 | Patrocinador | Pessoa jurídica contribuinte do ICMS fora do Simples Nacional, até 20%, 15%, 10% ou 5% do ICMS recolhido no ano anterior, conforme a faixa de imposto | Dec. 5.035-R/2021, arts. 2º e 10, § 1º; LC 123/2006, art. 24; IN 001/2026, art. 40 |
@@ -95,7 +95,7 @@ Fonte: elaboração própria, no formato do mecanismo de mapeamento de Williams 
 **Tabela 1 – Funil de atrito da LICC**
 
 | Etapa | Valor | Período |
-|-------------------------------------------|---------------------------|--------------|
+|----------------------------------------------------|-------------------------|-----------------------|
 | Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) | set. 2026 |
 | Projetos inscritos | não publicado | — |
 | Projetos habilitados; proponentes por ciclo | 305; 53, 92 e 95 | ciclos 2022-2024 |
@@ -130,7 +130,7 @@ A hipótese do artigo é *V* > 0, concentrado nos projetos grandes e recorrentes
 **Quadro 3 – Parâmetros, grupos de comparação e regras de decisão**
 
 | Parâmetro | Grupo que o mede | Suposição | Conclusão se |
-|----------------|--------------------------|----------------------|---------------------------|
+|----------------------|---------------------------|-------------------|--------------------------------|
 | $\theta_1$ ≈ $E_{10}$: o que os escolhidos fariam sem a LICC | Termos recusados por esgotamento da cota, que tinham patrocinador | A recusa depende só da hora do protocolo | — |
 | $\theta_0$ = $E_{00}$: o que os preteridos fazem sem a LICC | Habilitados cuja captação expirou | Nenhuma: observável | — |
 | *V* = $\theta_1$ − $\theta_0$ (H1, H4) | Recusados × expirados, por faixa de valor | As duas acima | *V* > 0, maior nos pedidos grandes: a renúncia vai a quem menos depende dela |
@@ -148,12 +148,12 @@ O efeito na margem compara os últimos validados de cada cota com os recusados. 
 
 ## 5.3 Desenho da amostra e fontes de dados
 
-A amostra é o universo de cada grupo, sem sorteio: os 32 projetos recusados em 2023 e 2024, os 95 habilitados de 2022-2024 cuja captação expirou, os 86 inabilitados das atas da CAP de 2022 a 2026 e, para a margem, os últimos validados de cada cota; os ciclos seguintes somam-se aos mesmos grupos. O resultado precisa ser medido do mesmo modo em todos eles, e o relatório de execução só existe para quem recebeu. Por isso *Y* vem de uma pesquisa de acompanhamento com os proponentes, conferida em registros que independem da LICC. Esses registros, sozinhos, não bastam: fora da própria LICC, só 2 dos 32 recusados têm registro público do projeto. A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026a), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
+A amostra é o universo de cada grupo, sem sorteio: os 32 projetos recusados em 2023 e 2024, os 95 habilitados de 2022-2024 cuja captação expirou, os 86 inabilitados das atas da CAP de 2022 a 2026 e, para a margem, os últimos validados de cada cota; os ciclos seguintes somam-se aos mesmos grupos. O resultado precisa ser medido do mesmo modo em todos eles, e o relatório de execução só existe para quem recebeu. Por isso *Y* vem de uma pesquisa de acompanhamento com os proponentes, conferida em registros que independem da LICC. A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026a), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
 
 **Quadro 4 – Fontes de dados da avaliação**
 
 | Fonte | Conteúdo | Uso | Acesso |
-|----------------|------------------------|-----------------|------------|
+|--------------------------|-------------------------------------|----------------------|---------------|
 | Anexos de habilitados e captados, com as versões antigas | Status, valor e patrocinador; recusados por esgotamento (2023-2024) | Grupos $\theta_1$ e $\theta_0$; margem | Público |
 | Extratos das atas da CAP | Inabilitados de 2022 a 2026 | Filtro da CAP | Público |
 | Portal da Transparência; avisos do Diário Oficial | Termos com CNPJ de proponente e patrocinador; habilitação e depósitos | Chave de ligação; captação posterior | Público |
@@ -174,7 +174,7 @@ A fórmula segue Djimeu e Houndolo (2016), com α = 5% bicaudal e poder de 80%. 
 **Tabela 2 – Efeito mínimo detectável por contraste (pontos percentuais; $p_0$ de 0,3 a 0,7)**
 
 | Contraste | Grupos | Unidades | EMD |
-|----------------------------------|-----------------------------|--------------------|---------|
+|----------------------------|-------------------------------------------------|------------|-----------|
 | *V*: recusados × expirados | recusados de 2023-2024; expirados de 2022-2024 | 32 × 95 | 26 a 29 |
 | $\theta_0$ por faixa de valor | expirados até R\$ 400 mil × acima | 58 × 37 | 27 a 29 |
 | Filtro da CAP | expirados × inabilitados | 95 × 86 | 19 a 21 |
@@ -196,7 +196,7 @@ A LICC é um gasto tributário que mais que dobrou de 2023 a 2026, sem problema 
 
 Sem alterar o mecanismo, a gestão pode declarar objetivos, metas e indicadores e publicar, em formato aberto, os inscritos, entrega dos projetos, sede e motivo de inabilitação; a captação por cota; a fila de termos, com datas de protocolo e validação, também dos recusados; e custos, contrapartidas e público alcançado.
 
-A pergunta de impacto é se a renúncia vai para os projetos que dependem dela. Os grupos para respondê-la já existem pela regra atual, recusados por esgotamento da cota, habilitados sem patrocinador e inabilitados, e falta medir do mesmo modo, em todos, se os projetos se realizaram. Mais da metade dos recusados por falta de teto captou no ano seguinte, e a captação dos pedidos pequenos caiu a cada ciclo: se a seleção do mecanismo for positiva e maior nos pedidos grandes, ampliar o teto financia sobretudo o que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega.
+A pergunta de impacto é se a renúncia vai para os projetos que dependem dela. Os grupos para respondê-la já existem pela regra atual, recusados por esgotamento da cota, habilitados sem patrocinador e inabilitados, e falta medir do mesmo modo, em todos, se os projetos se realizaram. Mais da metade dos recusados por falta de teto captou no ano seguinte, e a captação dos pedidos pequenos caiu a cada ciclo: se a seleção do mecanismo for positiva e maior nos pedidos grandes, a renúncia vai a quem menos depende dela; se, além disso, o efeito na margem da fila for próximo de zero, ampliar o teto financia o que ocorreria de todo modo, e o valor público da LICC passa a depender menos do tamanho do teto que da regra que define quais projetos recebem a renúncia e do que se exige e se verifica na entrega.
 
 # Referências
 

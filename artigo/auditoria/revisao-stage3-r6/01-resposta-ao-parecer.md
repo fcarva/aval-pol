@@ -37,3 +37,18 @@
   - saem Angrist, Imbens e Rubin (1996), Baird *et al.* (2018), Eldridge, Ashby e Kerry (2006), Hainmueller, Hopkins
     e Yamamoto (2014) e Maestas, Mullen e Strand (2013), que ficaram sem citação.
 - **Conferido depois (28/09):** a lista dos modos de racionar (ordem de chegada, características observadas, características não observadas, sorteio) está em Gertler *et al.* (2018), na **p. 74**, e não na p. 75 do rascunho herdado. A citação foi corrigida. Fonte: `dados/fontes_web/paginas/gertler_2018_pt.txt` (relé, pedido `gertler_2018_pt`), entre os cabeçalhos das páginas 74 e 75.
+- **Versão final (28/09, pedido do autor):**
+  - **Sai da §5.3 a frase "só 2 dos 32 recusados têm registro público do projeto".** A contagem confere (1 PRONAC de mesmo
+    título e 1 evento datado no Mapa, `analise/tabelas/22_recusados_outras_fontes.csv`), mas ela mede a busca, não a
+    existência de registro: Funcultura e PNAB ficaram fora, o SALIC vai até os PRONACs de 2025 e o Mapa só cobre projetos
+    com processo ligado a evento. A própria tabela diz "sem registro observado; não quer dizer que não ocorreu". A frase
+    feria a regra 1 (ausência não é zero). A checagem N88 sai.
+  - **A última frase da conclusão foi refeita.** O texto anterior tirava "ampliar o teto financia sobretudo o que ocorreria
+    de todo modo" de *V* > 0. Pelo Quadro 3, essa é a leitura do EMPT na margem próximo de zero (H5); *V* > 0 e maior nos
+    pedidos grandes quer dizer "a renúncia vai a quem menos depende dela". O texto novo separa as duas condições. Troca
+    também "as decisões que importam passam a ser quem entra e o que se entrega" por "o valor público da LICC passa a
+    depender menos do tamanho do teto que da regra que define quais projetos recebem a renúncia e do que se exige e se
+    verifica na entrega". Nova checagem N103: a captação dos pedidos até R$ 400 mil caiu a cada ciclo (79%, 59%, 27%).
+  - **Diagramação:** as larguras das colunas dos Quadros 1, 3 e 4 e das Tabelas 1 e 2 foram redistribuídas, sem mudar o
+    texto. As referências continuam separadas por meia linha: a linha inteira da NBR 6023 foi testada e passa de 15
+    páginas.

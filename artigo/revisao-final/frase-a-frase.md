@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `19c3e53a2f0112fa…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `a1f47aa960672d32…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -414,9 +414,7 @@
     - checagem de dados: N80 ✔ (`analise/tabelas/12_cap_deliberacoes.csv`); N91 ✔ (`analise/tabelas/09_reentrada_resumo.csv`)
   - ☐ **[5.3.1.2]** O resultado precisa ser medido do mesmo modo em todos eles, e o relatório de execução só existe para quem recebeu.
   - ☐ **[5.3.1.3]** Por isso *Y* vem de uma pesquisa de acompanhamento com os proponentes, conferida em registros que independem da LICC.
-  - ☐ **[5.3.1.4]** Esses registros, sozinhos, não bastam: fora da própria LICC, só 2 dos 32 recusados têm registro público do projeto.
-    - checagem de dados: N88 ✔ (`analise/tabelas/22_recusados_outras_fontes.csv (PRONAC de mesmo título ou evento datado no Mapa)`)
-  - ☐ **[5.3.1.5]** A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026a), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
+  - ☐ **[5.3.1.4]** A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026a), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
     - citações: ESPÍRITO SANTO, 2026a; DIO-ES, 2026
     - checagem de dados: N65 ✔ (`analise/tabelas/18_cobertura_cnpj.csv`)
 
@@ -503,8 +501,8 @@
 - **6.3** — *Passo:* (a definir)
   - ☐ **[6.3.1]** A pergunta de impacto é se a renúncia vai para os projetos que dependem dela.
   - ☐ **[6.3.2]** Os grupos para respondê-la já existem pela regra atual, recusados por esgotamento da cota, habilitados sem patrocinador e inabilitados, e falta medir do mesmo modo, em todos, se os projetos se realizaram.
-  - ☐ **[6.3.3]** Mais da metade dos recusados por falta de teto captou no ano seguinte, e a captação dos pedidos pequenos caiu a cada ciclo: se a seleção do mecanismo for positiva e maior nos pedidos grandes, ampliar o teto financia sobretudo o que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega.
-    - checagem de dados: N101 ✔ (`analise/tabelas/09_reentrada_resumo.csv`)
+  - ☐ **[6.3.3]** Mais da metade dos recusados por falta de teto captou no ano seguinte, e a captação dos pedidos pequenos caiu a cada ciclo: se a seleção do mecanismo for positiva e maior nos pedidos grandes, a renúncia vai a quem menos depende dela; se, além disso, o efeito na margem da fila for próximo de zero, ampliar o teto financia o que ocorreria de todo modo, e o valor público da LICC passa a depender menos do tamanho do teto que da regra que define quais projetos recebem a renúncia e do que se exige e se verifica na entrega.
+    - checagem de dados: N101 ✔ (`analise/tabelas/09_reentrada_resumo.csv`); N103 ✔ (`analise/tabelas/23_captacao_por_faixa.csv (até R$ 400 mil: 2022 > 2023 > 2024)`)
 
 
 ## Referências
@@ -610,7 +608,7 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
 
 ## Números a conferir à mão
 
-190 frases e linhas de tabela; 46 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
+189 frases e linhas de tabela; 45 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
 
 ### Dado ou literatura (17)
 
