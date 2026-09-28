@@ -41,7 +41,7 @@ FIGURAS = ART.parent / "analise" / "figuras"
 FORMATO = "markdown-auto_identifiers+autolink_bare_uris"
 SEP = "XXSEPARADORXX"
 LIMITE_PAGINAS = 15
-FLUTUA_ATE = 5  # quadros com até 5 linhas de dados flutuam; tabelas sempre flutuam
+FLUTUA_ATE = 8  # quadros com até 8 linhas de dados flutuam (o Quadro 1, com 10, é longtable); tabelas sempre flutuam
 
 PREAMBULO = r"""% !TEX program = xelatex
 % Gerado por artigo/gerar_tex.py a partir de artigo/rascunho-artigo.md. Não edite à mão:
@@ -235,7 +235,7 @@ def figura_latex(bloco: dict, conv) -> str:
         rf"\phantomsection\label{{{ancora(bloco['titulo'])}}}",
         rf"{{\raggedright {rotulo(conv(bloco['titulo']))}\par}}",
         r"\vspace{6pt}",
-        rf"\centering\includegraphics[width=0.86\linewidth]{{figuras/{destino.name}}}\par",
+        rf"\centering\includegraphics[width=0.80\linewidth]{{figuras/{destino.name}}}\par",
         r"\vspace{4pt}",
         rf"{{\raggedright\footnotesize {fonte_tex(conv(bloco['fonte']))}\par}}",
         r"\end{figure}",

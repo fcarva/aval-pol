@@ -29,7 +29,6 @@ N20,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valo
 N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% do índice de Theil
 N22,CONFERE,"293 projetos habilitados em 2022-2024 com situação resolvida, de 172",analise/tabelas/07_poder_hipoteses.csv (nota),"293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes"
 N24,CONFERE,"32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34",analise/tabelas/07_poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv,"| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34 |"
-N25,CONFERE,"52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |"
 N26,CONFERE,"71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |"
 N27,CONFERE,(3 em 56,analise/tabelas/07_funil_por_ciclo.csv,(3 em 56 resolvidos no ciclo 2025)
 N30,CONFERE,6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024,analise/tabelas/09_reentrada_resumo.csv,Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte
@@ -53,7 +52,6 @@ N53,CONFERE,até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mi
 N54,CONFERE,até 25%,analise/tabelas/10_rubricas_teto_in.csv (2025),a divulgação pode consumir até 25% dos recursos
 N56,CONFERE,fraca com 41 pareceristas,analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026),mas é fraca com 41 pareceristas
 N55,CONFERE,das 26 patrocinadoras,analise/tabelas/03_patrocinadores_concentracao.csv,a listagem parte das 26 patrocinadoras de 2025
-N57,CONFERE,ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63),analise/tabelas/11_teto_projeto_por_ano.csv,"O teto por projeto fixa um piso de projetos, ao menos 50 com os R\$ 25 milhões de 2025 (captaram 63)"
 N58,CONFERE,36% dos habilitados do ciclo 2025,analise/tabelas/03_bunching_teto.csv,36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil
 N60,CONFERE,"de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",analise/tabelas/12_cap_deliberacoes.csv; 12_cap_reunioes.csv,"Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados"
 N59,CONFERE,"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil",analise/tabelas/11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos),"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil"
@@ -73,6 +71,9 @@ N79,CONFERE,"diferença de nota de 0,43 desvio-padrão",analise/tabelas/19_poder
 N81,CONFERE,"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior",analise/tabelas/13_versoes_captados_fila.csv (2024),"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior"
 N82,CONFERE,com as 20 que não viraram,analise/tabelas/13_versoes_captados_fila.csv (2024),a comparação com as 20 que não viraram
 N83,CONFERE,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos",analise/tabelas/09_reentrada_resumo.csv; 19_poder_revisao.csv,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos"
+N84,CONFERE,"152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor",analise/tabelas/20_patrocinadores_por_projeto.csv,"152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor"
+N85,CONFERE,de R\$ 23 milhões no ciclo 2022 para R\$ 47 milhões em 2024,"analise/tabelas/20_desenho_retroativo.csv (valor autorizado por ciclo, 03_anual.csv)",de R\$ 23 milhões no ciclo 2022 para R\$ 47 milhões em 2024
+N86,CONFERE,com os 64 validados sem recusa,analise/tabelas/20_desenho_retroativo.csv,com os 64 validados sem recusa
 N80,CONFERE,os 86 inabilitados,analise/tabelas/12_cap_deliberacoes.csv,os 86 inabilitados das atas da CAP
 N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
 N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"

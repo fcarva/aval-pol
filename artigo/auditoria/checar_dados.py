@@ -440,8 +440,6 @@ CHECAGENS += [
     ("N24", "| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34 |",
      f"{int(PROJ_REC.sum())} recusados × {int(PROJ_REC.sum())} validados | $p_0$ de 0,2 a 0,6 | "
      + faixa_emd("racionamento pelo teto 2023-2024"), T7 + "poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv"),
-    ("N25", "| H4: oferta por município, só coletivos | 52 municípios, 257 coletivos ($\\bar m$ = 4,9; *cv* = 1,32) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 5,5 a 13,4 |",
-     linha_h3("coletivos") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos"), T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
     ("N26", "| H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |",
      linha_h3("coletivos e individuais") + " | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | " + faixa_h3("coletivos e individuais"),
      T7 + "poder_hipoteses.csv; 07_mapa_quadro_h3.csv"),
@@ -507,9 +505,6 @@ CHECAGENS += [
     ("N55", "a listagem parte das 26 patrocinadoras de 2025", f"das {int(float(patr['empresas']))} patrocinadoras",
      T + "03_patrocinadores_concentracao.csv"),
     # revisão de 27/09/2026 (atas e teto por projeto)
-    ("N57", "O teto por projeto fixa um piso de projetos, ao menos 50 com os R\\$ 25 milhões de 2025 (captaram 63)",
-     f"ao menos {int(teto11.loc[2025, 'minimo_projetos_todos_no_teto'])} com os R\\$ {num(teto11.loc[2025, 'montante'] / 1e6)} milhões de 2025 "
-     f"(captaram {int(teto11.loc[2025, 'projetos_que_captaram'])})", T + "11_teto_projeto_por_ano.csv"),
     ("N58", "36% dos habilitados do ciclo 2025 pediram exatamente R\\$ 500 mil",
      f"{pct(bunch.loc['2025', 'pct_exatamente_500mil'])} dos habilitados do ciclo 2025", T + "03_bunching_teto.csv"),
     ("N60", "Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",
@@ -601,6 +596,20 @@ CHECAGENS += [
          ler(TAB / "09_reentrada_resumo.csv")["projetos_recusados"],
          _p19.loc[_p19["desenho"].str.contains("recusados necessários"), "recusados_por_braco"]),
      T + "09_reentrada_resumo.csv; 19_poder_revisao.csv"),
+    # revisão r5 (28/09/2026): financiamento centralizado (analise/20)
+    ("N84", "152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor",
+     (lambda d: f"{int(d['projetos'].iloc[0])} dos {int(d['projetos_no_periodo'].iloc[0])} projetos com termo em 2022-2025 "
+                f"({pct(d['pct_projetos'].iloc[0])}), com {pct(d['pct_valor'].iloc[0])} do valor")(
+         ler(TAB / "20_patrocinadores_por_projeto.csv").query("periodo == '2022-2025' and patrocinadores == '1'")),
+     T + "20_patrocinadores_por_projeto.csv"),
+    ("N85", "de R\\$ 23 milhões no ciclo 2022 para R\\$ 47 milhões em 2024",
+     (lambda d: f"de R\\$ {num(d.loc['2022', 'valor_autorizado'] / 1e6)} milhões no ciclo 2022 para R\\$ "
+                f"{num(d.loc['2024', 'valor_autorizado'] / 1e6)} milhões em 2024")(
+         ler(TAB / "20_desenho_retroativo.csv").query("desenho.str.contains('intensidade')", engine="python").set_index("celula")),
+     T + "20_desenho_retroativo.csv (valor autorizado por ciclo, 03_anual.csv)"),
+    ("N86", "com os 64 validados sem recusa",
+     (lambda d: f"com os {int(d.loc['validados sem recusa', 'n'])} validados sem recusa")(
+         ler(TAB / "20_desenho_retroativo.csv").set_index("celula")), T + "20_desenho_retroativo.csv"),
     ("N80", "os 86 inabilitados das atas da CAP",
      (lambda c: f"os {c.loc[c['situacao'] == 'inabilitado', 'processo'].nunique()} inabilitados")(ler(TAB / "12_cap_deliberacoes.csv")),
      T + "12_cap_deliberacoes.csv"),
