@@ -228,7 +228,12 @@ def preencher(md: str, v: dict[str, str], cs: list[dict]) -> str:
         if chave not in v:
             raise SystemExit(f"marcador sem valor: {chave}")
         return v[chave]
-    md = re.sub(r"\{\{([\w:]+)\}\}", marca, md)
+    return commits_em_links(re.sub(r"\{\{([\w:]+)\}\}", marca, md), cs)
+
+
+def commits_em_links(md: str, cs: list[dict]) -> str:
+    """Hash de commit entre crases → link para o commit no GitHub."""
+    por_sha = {c["curto"]: c for c in cs}
 
     def commit(m: re.Match) -> str:
         c = por_sha.get(m.group(1)[:7])
@@ -282,15 +287,15 @@ def declaracao(com_anexo: bool) -> str:
 def anexo(cs: list[dict]) -> tuple[str, dict]:
     meta, corpo = ler(MD_ANEXO)
     v = contagens(cs)
-    corpo = preencher(corpo, v, cs)
     for marcador, gerar in {"tabela-origens": tabela_origens, "tabela-areas": tabela_areas,
                             "tabela-rele": tabela_rele}.items():
         corpo = corpo.replace(f"[[{marcador}]]", gerar(cs))
+    corpo = preencher(corpo, v, cs)
     assert "[[" not in corpo, re.findall(r"\[\[[\w-]+\]\]", corpo)
     corpo = preparar(corpo)  # caminhos → links permanentes, citações → referências, DOIs → doi.org
     tex, ancoras = converter(corpo)
     tex = secoes(tex)
-    apendice, ancoras_ap = converter(preparar(cronologia(cs)))
+    apendice, ancoras_ap = converter(preparar(commits_em_links(cronologia(cs), cs)))
     tex += "\n\\section*{Apêndice – Cronologia dos commits}\n" + apendice
     tex = remissoes(tex, ancoras | ancoras_ap)
     titulo = rf"\begin{{center}}{{\bfseries {meta['title']}\par}}\end{{center}}" + "\n\\vspace{6pt}\n"
