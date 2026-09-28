@@ -37,7 +37,7 @@ hipótese e desenho experimental ou prospectivo de confirmação; o artigo não 
 | `ferramentas/academic-research-skills/` | Cópia do ARS (imbad0202); skills instaladas em `.claude/skills/` |
 | `notas/` | Sínteses: `disciplina/`, `politica/`, `literatura/`, `dados/`, `desenho/` |
 | `analise/` | Scripts Python, `tabelas/`, `figuras/` |
-| `artigo/` | Mini artigo: `rascunho-artigo.md` é a fonte única do texto; `gerar_docx.py` gera o Word e `gerar_tex.py` gera `latex/artigo.tex` (XeLaTeX; `--pdf` compila e confere as 15 páginas); `links.py` liga caminhos de dados ao GitHub (link permanente para o commit publicado), DOIs a doi.org e o ano de cada citação à entrada das Referências; a declaração de IA é separada (`declaracao-uso-ia.md`); `auditoria/` confere dados e referências no .md |
+| `artigo/` | Mini artigo: `rascunho-artigo.md` é a fonte única do texto; `gerar_docx.py` gera o Word e `gerar_tex.py` gera `latex/artigo.tex` (XeLaTeX; `--pdf` compila e confere as 15 páginas); `links.py` liga caminhos de dados ao GitHub (link permanente para o commit publicado), DOIs a doi.org e o ano de cada citação à entrada das Referências; a declaração de IA segue o modelo do PPGEco (`declaracao-uso-ia.md`) e tem um anexo com o registro do uso tirado do `git log` (`relatorio-uso-ia.md`), e `gerar_uso_ia.py` gera `latex/declaracao-ia.tex` (só a declaração) e `latex/uso-ia.tex` (declaração e anexo); `auditoria/` confere dados e referências no .md |
 
 ## Regras herdadas do licc.gov — valem para o artigo
 

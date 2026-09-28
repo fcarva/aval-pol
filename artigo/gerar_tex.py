@@ -17,7 +17,7 @@ e a Figura 1 são montados aqui, no padrão do .docx (artigo/gerar_docx.py):
   do PDF (título, autor, assunto, palavras-chave);
 - Figura 1 em PDF vetorial, numa página própria logo após a primeira menção.
 
-Também gera latex/declaracao-ia.tex a partir de artigo/declaracao-uso-ia.md (a declaração vai separada do artigo).
+A declaração de uso de IA (documento separado, no modelo do PPGEco) é gerada por artigo/gerar_uso_ia.py.
 
 Uso: python artigo/gerar_tex.py [--pdf]
      --pdf compila com XeLaTeX (latexmk), conta as páginas (limite: 15) e lista glifos ausentes.
@@ -37,7 +37,6 @@ from links import citacoes_em_links, dois_em_links, url_caminho
 
 ART = Path(__file__).resolve().parent
 MD = ART / "rascunho-artigo.md"
-MD_DECL = ART / "declaracao-uso-ia.md"  # documento separado, anexo à entrega
 DIR = ART / "latex"
 TEX = DIR / "artigo.tex"
 FIGURAS = ART.parent / "analise" / "figuras"
@@ -335,22 +334,11 @@ def gerar() -> None:
     DIR.mkdir(parents=True, exist_ok=True)
     TEX.write_text(PREAMBULO + info + "\n\n\\begin{document}\n\n" + rosto + "\n\n" + tex.strip()
                    + "\n\n\\end{document}\n", encoding="utf-8")
-    # declaração de uso de IA: documento separado, mesma formatação
-    decl = MD_DECL.read_text(encoding="utf-8")
-    decl = re.sub(r"^---\n.*?\n---\n", "", decl, flags=re.S)
-    decl = re.sub(r"<!--.*?-->", "", decl, flags=re.S).strip()
-    corpo_decl = pypandoc.convert_text(decl, "latex", format=FORMATO, extra_args=["--wrap=auto", "--columns=100"])
-    (DIR / "declaracao-ia.tex").write_text(
-        PREAMBULO + "\n\\begin{document}\n\\thispagestyle{empty}\n\\begin{center}{\\large\\bfseries Declaração de uso de "
-        "inteligência artificial\\par}\\end{center}\n\\vspace{6pt}\n" + corpo_decl.strip() + "\n\n\\end{document}\n",
-        encoding="utf-8")
     (DIR / "latexmkrc").write_text("# XeLaTeX (também no Overleaf)\n$pdf_mode = 5;\n", encoding="utf-8")
     print(TEX)
 
 
 def compilar() -> None:
-    subprocess.run(["latexmk", "-xelatex", "-interaction=nonstopmode", "-halt-on-error", "declaracao-ia.tex"],
-                   cwd=DIR, capture_output=True, text=True)
     r = subprocess.run(["latexmk", "-xelatex", "-interaction=nonstopmode", "-halt-on-error", "artigo.tex"],
                        cwd=DIR, capture_output=True, text=True)
     log = (DIR / "artigo.log").read_text(encoding="utf-8", errors="replace")

@@ -1,0 +1,681 @@
+% !TEX program = xelatex
+% Gerado por artigo/gerar_uso_ia.py a partir de artigo/declaracao-uso-ia.md e artigo/relatorio-uso-ia.md.
+% Não edite à mão: altere os .md e rode `python artigo/gerar_uso_ia.py --pdf`.
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=3cm,bottom=2cm,left=3cm,right=2cm,headsep=0.8cm]{geometry}
+\usepackage{iftex}
+\usepackage{amsmath}
+\usepackage[brazilian]{babel}
+\ifPDFTeX
+  % pdfLaTeX: Times pelo newtx (ou pelo mathptmx, se o newtx não estiver instalado)
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{newtxtext.sty}{\usepackage{newtxtext,newtxmath}}{\usepackage{mathptmx}}
+\else
+  % XeLaTeX/LuaLaTeX: Times New Roman 12, como pedem as instruções da disciplina. Onde ela não
+  % estiver instalada (Overleaf, Linux), usa a TeX Gyre Termes, clone métrico da Times do TeX Live.
+  \usepackage{unicode-math}
+  \IfFontExistsTF{Times New Roman}
+    {\setmainfont{Times New Roman}}
+    {\setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+       ItalicFont=*-italic, BoldItalicFont=*-bolditalic]}
+  \setmathfont{texgyretermes-math.otf}
+\fi
+\usepackage{microtype}
+\usepackage{indentfirst}  % recua também o primeiro parágrafo de cada seção (uso brasileiro)
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage{xcolor}
+\definecolor{azul}{RGB}{25,70,140}
+\usepackage[colorlinks=true, linkcolor=azul, urlcolor=azul, citecolor=azul, bookmarksnumbered=true,
+  bookmarksopen=true, pdfdisplaydoctitle=true]{hyperref}
+\urlstyle{same}
+
+% Espaçamento simples; recuo de 1,25 cm na primeira linha (ABNT), sem espaço extra entre parágrafos
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt plus 1pt}
+\setlength{\emergencystretch}{1.5em}
+\frenchspacing  % espaço simples depois do ponto, como no português
+% sem linhas órfãs (primeira linha do parágrafo no pé da página) nem viúvas (última no topo)
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setcounter{secnumdepth}{2}
+\titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{12pt}{0pt}
+\titlespacing*{\subsection}{0pt}{12pt}{0pt}
+\setlist[itemize]{leftmargin=1.2em, topsep=0pt, itemsep=1.5pt, parsep=0pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{1.5pt}\setlength{\parskip}{0pt}}
+
+% Número da página no canto superior direito (ABNT)
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\footnotesize\thepage}}
+
+% A Figura 1 ocupa uma página; floats grandes vão para a página seguinte à menção
+\renewcommand{\floatpagefraction}{0.9}
+\renewcommand{\topfraction}{0.86}
+\renewcommand{\textfraction}{0.1}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{0pt}
+
+% Referências (ABNT NBR 6023): alinhadas à esquerda, espaço simples, separadas por meia linha em branco (a linha
+% inteira da norma levaria o artigo a 16 páginas, acima do limite de 15)
+\newenvironment{referencias}{\raggedright\setlength{\parindent}{0pt}\setlength{\parskip}{0.5\baselineskip}}{\par}
+\usepackage[section]{placeins}
+\hypersetup{pdftitle={Declaração de uso de inteligência artificial}, pdfauthor={Felipe Carvalho Souza Santos}, pdfsubject={Avaliação de Políticas Públicas (PECO 5046-6046), PPGEco/UFES}, pdflang={pt-BR}}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+{\bfseries UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO\par}
+{\bfseries CENTRO DE CIÊNCIAS JURÍDICAS E ECONÔMICAS\par}
+{\bfseries PROGRAMA DE PÓS-GRADUAÇÃO EM ECONOMIA\par}
+\vspace{12pt}
+{\bfseries DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL\par}
+\end{center}
+\vspace{6pt}
+\begingroup\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\setlist[itemize]{itemsep=2pt, topsep=3pt}
+Declaro, para os devidos fins, que ferramentas de Inteligência Artificial Generativa (IAG)
+\textbf{\emph{foram}} utilizadas na elaboração deste trabalho nas seguintes etapas:
+
+\begin{itemize}
+\item
+  A ferramenta Claude (Anthropic), operada pelo Claude Code com acesso ao repositório do trabalho,
+  foi utilizada para ler e resumir o material da disciplina, as normas da LICC e a literatura, e
+  para buscar e conferir as referências em bases bibliográficas (Crossref, OpenAlex) e páginas
+  oficiais, na etapa de revisão da literatura e levantamento de fontes.
+\item
+  A ferramenta Claude (Anthropic) foi utilizada para escrever os programas de coleta, padronização e
+  cruzamento dos dados públicos da LICC (anexos da SECULT, Portal da Transparência, Diário Oficial,
+  Mapa Cultural e SALIC), inclusive uma automação de coleta no GitHub Actions e buscas com o serviço
+  de raspagem Firecrawl, na etapa de coleta e tratamento dos dados.
+\item
+  A ferramenta Claude (Anthropic) foi utilizada para programar as estatísticas descritivas, as
+  tabelas, a figura da teoria da mudança e o cálculo do poder estatístico, na etapa de análise dos
+  dados.
+\item
+  A ferramenta Claude (Anthropic) foi utilizada para propor e discutir hipóteses e alternativas de
+  desenho da avaliação de impacto, das quais o autor definiu o escopo e o desenho final, na etapa de
+  desenho da avaliação.
+\item
+  A ferramenta Claude (Anthropic) foi utilizada para redigir versões preliminares das seções do
+  artigo, que o autor editou, e para revisar gramática, concordância e estilo, na etapa de redação.
+\item
+  A ferramenta Claude (Anthropic), com os protocolos Academic Research Skills, foi utilizada para
+  simular pareceres de revisão por pares e conferir cada número e referência do texto com as fontes,
+  na etapa de revisão.
+\item
+  A ferramenta Claude (Anthropic) foi utilizada para gerar as versões em Word e LaTeX, a diagramação
+  e os hiperlinks, na etapa de formatação.
+\end{itemize}
+
+Declaro ainda que todas as informações foram revisadas pelo autor. O autor assume integral
+responsabilidade pela originalidade, veracidade e integridade do trabalho, inclusive por eventuais
+imprecisões, inconsistências ou plágios provenientes do uso de tais ferramentas, em conformidade com
+a Política de Integridade na Atividade Científica do CNPq estabelecida na Portaria CNPq n° 2.664, de
+março de 2026.
+
+O registro detalhado desse uso, extraído do histórico do repositório do trabalho, segue em anexo.
+\par\endgroup
+\vspace{14pt}
+\begin{center}
+Vitória, 28 de setembro de 2026.\par
+\textbf{Felipe Carvalho Souza Santos}\par
+{\small Mini artigo ``Avaliação do desenho da Lei de Incentivo à Cultura Capixaba e proposta de avaliação de impacto''\par}
+{\small Avaliação de Políticas Públicas (PECO 5046-6046), PPGEco/UFES\par}
+\end{center}
+
+\newpage
+
+\begin{center}{\bfseries ANEXO – REGISTRO DO USO DE INTELIGÊNCIA ARTIFICIAL NO REPOSITÓRIO DO TRABALHO\par}\end{center}
+\vspace{6pt}
+Este anexo detalha a declaração a partir do histórico do repositório público do trabalho
+(\href{https://github.com/fcarva/aval-pol}{github.com/fcarva/aval-pol}), onde ficaram os dados, os
+scripts, as notas, o texto do artigo e as auditorias. O objetivo é permitir que o leitor veja o que
+a ferramenta de IA fez, o que o autor decidiu e como o resultado foi conferido, com cada afirmação
+ligada ao commit ou ao arquivo que a registra.
+
+\section{Fonte e método}\label{secao-1}
+
+A fonte é o \path{git log} dos ramos \path{claude/fervent-shannon-jq7142}, onde o trabalho foi
+feito, e \path{main}, que recebeu o trabalho por pull request, até o commit
+\href{https://github.com/fcarva/aval-pol/commit/28b5413468770552f9bdddcffd965d7dce814893}{28b5413}
+(28/09/2026, 13h30). Cada commit registra autoria, data, mensagem e arquivos alterados, e se
+classifica pela autoria registrada:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{autor:} commits feitos pelo próprio autor;
+\item
+  \textbf{agente de IA:} commits feitos pelo Claude Code em sessão aberta e conduzida pelo autor; os
+  101 commits do agente trazem o marcador de coautoria da Anthropic na mensagem;
+\item
+  \textbf{relé de coleta:} commits automáticos do GitHub Actions, que baixam as fontes pedidas e as
+  devolvem ao repositório, sem IA (\hyperref[secao-2]{seção~2});
+\item
+  \textbf{mesclagens:} junções de ramos, sem conteúdo próprio.
+\end{itemize}
+
+As contagens, as Tabelas 1 a 3 e a cronologia do \hyperref[quadro-5]{Quadro~5} são geradas por
+\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_uso_ia.py}{\nolinkurl{artigo/gerar_uso_ia.py}}
+a partir do \path{git log}, com horários de Brasília (UTC−3). O restante do texto foi redigido a
+partir das mensagens dos commits e dos relatórios de auditoria que eles criaram. O histórico
+registra o que entrou no repositório, não as conversas: as instruções do autor aparecem nas regras
+do projeto
+(\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}}),
+nas decisões registradas nele, nas mensagens dos commits e nos relatórios de auditoria. As obras
+citadas de passagem, como Gertler \emph{et al.} (2018), estão nas referências do artigo.
+
+\section{Ferramentas}\label{secao-2}
+
+O \hyperref[quadro-1]{Quadro~1} separa a ferramenta de IA generativa das automações e programas que ela escreveu ou
+acionou. Na sessão em nuvem, a rede alcançava só o GitHub e os registros de pacotes; por isso as
+fontes da web vieram pelo relé de coleta e, na última fase, pelo Firecrawl, com URL, data e sha256
+de cada arquivo coletado.
+
+\begin{table}[!htbp]
+\phantomsection\label{quadro-1}
+\footnotesize\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1778}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4889}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1333}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2000}}@{}}
+\multicolumn{4}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Quadro 1} -- Ferramentas usadas no trabalho e papel de cada uma} \\[4pt]
+\toprule
+Ferramenta & O que fez & IA generativa? & Registro \\
+\midrule
+Claude (Anthropic), pelo Claude Code em sessão na nuvem (ANTHROPIC, \hyperref[ref-anthropic-1]{2026}) & Leu e escreveu arquivos do repositório, rodou scripts e fez commits, sempre por instrução do autor: notas, scripts, tabelas, figura, texto, pareceres simulados e geradores do Word e do LaTeX & Sim & commits de autoria ``Claude'' (\hyperref[quadro-5]{Quadro~5}) \\ \addlinespace[3pt]
+Academic Research Skills, versão 3.22.1 (WU, \hyperref[ref-wu-2]{2026}) & Protocolos escritos que o agente seguiu para a checagem de integridade e o painel simulado de cinco pareceristas & Conduz o agente & \href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria}{\nolinkurl{artigo/auditoria}} \\ \addlinespace[3pt]
+Relé de coleta (GitHub Actions) & Baixa DOIs, buscas bibliográficas, páginas, PDFs, legendas e consultas públicas pedidos em listas e devolve o texto por commit & Não (código escrito pelo agente) & \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/.github/workflows/buscar-fontes.yml}{\nolinkurl{.github/workflows/buscar-fontes.yml}}, \href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/dados/fontes_web}{\nolinkurl{dados/fontes_web}} \\ \addlinespace[3pt]
+Firecrawl & Busca na web e raspagem de páginas HTML na Fase A (28/09), acionado pelo agente & Não gera o texto usado & \href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/dados/fontes_web/firecrawl}{\nolinkurl{dados/fontes_web/firecrawl}} \\ \addlinespace[3pt]
+Python (pandas), pandoc e XeLaTeX & Análise dos dados, conversão para Word e LaTeX e compilação & Não & \href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/analise}{\nolinkurl{analise}}, \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_docx.py}{\nolinkurl{artigo/gerar_docx.py}}, \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_tex.py}{\nolinkurl{artigo/gerar_tex.py}} \\
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{4}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: mensagens dos commits e arquivos citados; Anthropic (\hyperref[ref-anthropic-1]{2026}); Wu (\hyperref[ref-wu-2]{2026}).} \\
+\end{tabular}
+\end{table}
+
+\section{O registro em números}\label{secao-3}
+
+Até
+\href{https://github.com/fcarva/aval-pol/commit/28b5413468770552f9bdddcffd965d7dce814893}{28b5413},
+o repositório tem 240 commits (\hyperref[tabela-1]{Tabela~1}): 101 do agente, 129 do relé, 1 commit direto do autor e 9
+mesclagens, das quais 1 feita pelo autor. O commit do autor
+(\href{https://github.com/fcarva/aval-pol/commit/82f7a41ce688ab6cc189c2df738e162078614635}{82f7a41})
+é o ponto de partida: trouxe 791 arquivos preparados antes, fora deste histórico (\hyperref[secao-4]{seção~4}). Os
+commits do agente alteraram 305 arquivos distintos, com 35.897 linhas incluídas e 7.278 excluídas
+(\hyperref[tabela-2]{Tabela~2}); o relé devolveu 1.030 arquivos em 7 etapas (\hyperref[tabela-3]{Tabela~3}). As linhas incluem tabelas de
+dados e arquivos gerados; medem volume de alteração, não autoria do texto.
+
+\begin{table}[!htbp]
+\phantomsection\label{tabela-1}
+\footnotesize\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.3235}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0735}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1176}}>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1176}}@{}}
+\multicolumn{9}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Tabela 1} -- Commits por origem e dia (horário de Brasília)} \\[4pt]
+\toprule
+Origem & 23/09 & 24/09 & 26/09 & 27/09 & 28/09 & Total & Linhas incluídas & Linhas excluídas \\
+\midrule
+Autor & 1 & -- & -- & -- & -- & 1 & 250.060 & 0 \\
+Agente de IA (Claude Code) & 34 & 13 & 5 & 41 & 8 & 101 & 35.897 & 7.278 \\
+Relé de coleta (GitHub Actions) & 26 & 15 & 6 & 72 & 10 & 129 & 390.451 & 4.221 \\
+Mesclagens de ramos & -- & 1 & 2 & 4 & 2 & 9 & 0 & 0 \\
+\textbf{Total} & \textbf{61} & \textbf{29} & \textbf{13} & \textbf{117} & \textbf{20} & \textbf{240} & \textbf{676.408} & \textbf{11.499} \\
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{9}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: \path{git log} dos ramos \path{claude/fervent-shannon-jq7142} e \path{main} até \path{28b5413}; mesclagens não alteram linhas por conta própria; gerado por \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_uso_ia.py}{\nolinkurl{artigo/gerar_uso_ia.py}}.} \\
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\phantomsection\label{tabela-2}
+\footnotesize\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2078}}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.4416}}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1169}}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1169}}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1169}}@{}}
+\multicolumn{5}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Tabela 2} -- Arquivos alterados pelos commits do agente, por pasta} \\[4pt]
+\toprule
+Pasta & Conteúdo & Arquivos distintos & Linhas incluídas & Linhas excluídas \\
+\midrule
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria}{\nolinkurl{artigo/auditoria}} & checagens de números e referências, pareceres das revisões & 73 & 12.590 & 1.001 \\
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/artigo/latex}{\nolinkurl{artigo/latex}} & .tex gerados e figura & 4 & 3.145 & 2.216 \\
+artigo (demais) & texto-fonte, geradores do Word e do LaTeX, roteiros & 9 & 3.062 & 1.127 \\
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/analise}{\nolinkurl{analise}} & scripts, tabelas e figuras & 150 & 10.391 & 925 \\
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/dados/fontes_web}{\nolinkurl{dados/fontes_web}} & pedidos ao relé e coletas do Firecrawl & 24 & 930 & 1.043 \\
+dados (demais) & bases tratadas & 21 & 1.964 & 427 \\
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/notas}{\nolinkurl{notas}} & sínteses de normas, literatura, dados e desenho & 21 & 3.637 & 499 \\
+\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/.github}{\nolinkurl{.github}} & automação do relé & 1 & 141 & 26 \\
+\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}} & regras e decisões de escopo do projeto & 1 & 29 & 14 \\
+\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/.gitignore}{\nolinkurl{.gitignore}} & o que fica fora do controle de versão & 1 & 8 & 0 \\
+\textbf{Total} &  & \textbf{305} & \textbf{35.897} & \textbf{7.278} \\
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{5}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: \path{git log} dos ramos \path{claude/fervent-shannon-jq7142} e \path{main} até \path{28b5413}; só commits do agente, sem mesclagens; gerado por \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_uso_ia.py}{\nolinkurl{artigo/gerar_uso_ia.py}}.} \\
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\phantomsection\label{tabela-3}
+\footnotesize\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4444}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1481}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1852}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}@{}}
+\multicolumn{4}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Tabela 3} -- Coletas devolvidas pelo relé, por etapa} \\[4pt]
+\toprule
+Etapa do relé & Commits & Arquivos distintos & Período \\
+\midrule
+DOIs e buscas & 40 & 180 & 23/09 a 28/09 \\
+Páginas & 37 & 216 & 23/09 a 28/09 \\
+Índices seguidos & 17 & 265 & 27/09 a 28/09 \\
+Legendas de vídeos & 14 & 1 & 27/09 a 28/09 \\
+SALIC & 9 & 358 & 23/09 a 24/09 \\
+Consultas públicas & 9 & 12 & 27/09 a 28/09 \\
+Vídeos dos canais & 3 & 1 & 27/09 \\
+\textbf{Total} & \textbf{129} & \textbf{1.030} &  \\
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{4}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: \path{git log} dos ramos \path{claude/fervent-shannon-jq7142} e \path{main} até \path{28b5413}; commits de \path{github-actions[bot]}; gerado por \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_uso_ia.py}{\nolinkurl{artigo/gerar_uso_ia.py}}.} \\
+\end{tabular}
+\end{table}
+
+\section{O que a IA fez, etapa por etapa}\label{secao-4}
+
+\textbf{Ponto de partida (até 23/09).} O commit inicial do autor
+(\href{https://github.com/fcarva/aval-pol/commit/82f7a41ce688ab6cc189c2df738e162078614635}{82f7a41})
+já trazia os dados herdados do repositório licc.gov, o texto extraído do material da disciplina,
+notas de leitura, scripts iniciais, a cópia dos protocolos Academic Research Skills e o
+\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}},
+arquivo de instruções do Claude Code com as regras do projeto. O histórico não mostra como esse
+material foi produzido; ao menos uma nota traz a marca de que foi gerada por agente de IA e exige
+revisão humana
+(\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/notas/disciplina/04-itau-magenta-adb.md}{\nolinkurl{notas/disciplina/04-itau-magenta-adb.md}}).
+
+\textbf{Base e primeiro rascunho (23/09).} O agente gerou as tabelas descritivas, completou as notas
+sobre o desenho legal, o contexto, a literatura e os métodos, desenhou a figura e escreveu o
+primeiro rascunho completo do artigo, com 13 páginas
+(\href{https://github.com/fcarva/aval-pol/commit/f2e40ea756de0e27a524d28d8f6031e98200ea8a}{f2e40ea}).
+
+\textbf{Relé, auditoria e teoria da mudança (23/09 a 24/09).} O agente escreveu o relé de coleta
+(\href{https://github.com/fcarva/aval-pol/commit/0b3cde13ecdaddd3f18ca7167cabebe1153a72ec}{0b3cde1})
+e a checagem automática dos números do artigo
+(\href{https://github.com/fcarva/aval-pol/commit/b0323e4169f486ed8b3bf4699acbd6d81dac9f63}{b0323e4}).
+A primeira checagem de integridade falhou
+(\href{https://github.com/fcarva/aval-pol/commit/3b4a01e5c26675c101692045cb87b19305a21ec1}{3b4a01e}):
+havia estudo citado com resultado oposto ao seu e concentração do valor habilitado atribuída à
+captação; depois das correções, passou com ressalvas
+(\href{https://github.com/fcarva/aval-pol/commit/85a488d56382e32eb2510f2edf2e8194d63b798d}{85a488d}).
+Seguiram-se o primeiro painel simulado, com decisão de revisão maior
+(\href{https://github.com/fcarva/aval-pol/commit/0108f5ea295d79a329f4ed802fc2d19b6a9c932f}{0108f5e}),
+o desenho causal e a teoria da mudança
+(\href{https://github.com/fcarva/aval-pol/commit/120c65291285a3ee27aa001a2cc49647387442c3}{120c652},
+\href{https://github.com/fcarva/aval-pol/commit/a246c4ef48b3d412dd1763e75c0d361f408b8619}{a246c4e}),
+a reestruturação do artigo
+(\href{https://github.com/fcarva/aval-pol/commit/49ae7aee8aa737ccac576c86a133535271c40a7f}{49ae7ae}),
+a versão em LaTeX
+(\href{https://github.com/fcarva/aval-pol/commit/c8ed005d4de30ffff38c10f346c5a2c2d1debfa1}{c8ed005}),
+o segundo painel
+(\href{https://github.com/fcarva/aval-pol/commit/7e601d605eedd13dfd8c44611945354e5c14b87c}{7e601d6}),
+as correções
+(\href{https://github.com/fcarva/aval-pol/commit/2550a748e2e9b05137d7cfe3b8a5759b423d5586}{2550a74}),
+a checagem final de integridade
+(\href{https://github.com/fcarva/aval-pol/commit/923c8d9ad1f3c99c52ba99b6abe7dc22a4219586}{923c8d9})
+e a auditoria da captação termo a termo, com a máscara dos CPFs
+(\href{https://github.com/fcarva/aval-pol/commit/a3575784918fefae3350d40177037eed3f3287d8}{a357578}).
+
+\textbf{Mesclagem pelo autor (26/09).} O autor mesclou o trabalho no ramo principal pelo pull
+request nº 1
+(\href{https://github.com/fcarva/aval-pol/commit/28b7ccc454315c2a5c2841ee682a5c0035546f32}{28b7ccc}).
+
+\textbf{Nova moldura, dados públicos e revisões (26/09 a 27/09).} Por decisão do autor, as hipóteses
+foram reorientadas para a moldura de bens públicos
+(\href{https://github.com/fcarva/aval-pol/commit/b236335ba0091a1bcf6de0a5435d0a4b19fff1f2}{b236335},
+\href{https://github.com/fcarva/aval-pol/commit/b4184cd6dab421061eb22977ea3e337b8a09e967}{b4184cd}),
+e o terceiro painel as examinou
+(\href{https://github.com/fcarva/aval-pol/commit/810b06639c574961d1e27da954b7c60484dbe990}{810b066}).
+O agente leu as atas da Comissão de Avaliação Permanente
+(\href{https://github.com/fcarva/aval-pol/commit/6b0b5483072c630af7d01d63c7d382719bed8b39}{6b0b548}),
+testou rotas alternativas de dados, como cópias arquivadas, legendas de vídeos e minutas de pedidos
+por LAI
+(\href{https://github.com/fcarva/aval-pol/commit/c2397a8e5e963924e86befc7b9bac4ad3e009cce}{c2397a8}
+a
+\href{https://github.com/fcarva/aval-pol/commit/af518773c1436966819050b53d3baa93eb32a3cd}{af51877}),
+e cruzou a LICC com o Portal da Transparência
+(\href{https://github.com/fcarva/aval-pol/commit/31670a0940bdde656f5ce198ca0e9d1658f8197d}{31670a0},
+\href{https://github.com/fcarva/aval-pol/commit/609de691b066e7b42e590b6821323c6162e8cca5}{609de69}).
+Revisou os trechos que o autor grifou no PDF
+(\href{https://github.com/fcarva/aval-pol/commit/494399a87ded6fafbaa79e0c7bb2db0a15478182}{494399a})
+e passou o texto à voz impessoal
+(\href{https://github.com/fcarva/aval-pol/commit/73f91c4aa380eb3cd168d0c08e6388f1960ba4a8}{73f91c4}).
+Vieram então o quarto painel
+(\href{https://github.com/fcarva/aval-pol/commit/bca72a5427931bf0ecff76a04fcfacee220ecdf0}{bca72a5},
+\href{https://github.com/fcarva/aval-pol/commit/4e11aa7f9eb5b310783ac4dc82a0e5d6e6619a76}{4e11aa7}),
+o roteiro frase a frase para a revisão do autor
+(\href{https://github.com/fcarva/aval-pol/commit/a254775800339fb8584ffda6839eebb634dd8622}{a254775}),
+as edições que o autor fez no \path{.tex}, trazidas ao texto-fonte
+(\href{https://github.com/fcarva/aval-pol/commit/0210713f9418cf40de786c2cc5abe2a349b0c755}{0210713}),
+e um novo desenho de avaliação
+(\href{https://github.com/fcarva/aval-pol/commit/bbfabfa037267b4dbd9331f66d9fb15798509eee}{bbfabfa}).
+
+\textbf{Revisões finais e parecer externo (27/09 a 28/09).} Uma revisão metodológica
+(\href{https://github.com/fcarva/aval-pol/commit/d01657f1aad092f014f31eef022adfbc177663b3}{d01657f})
+e o quinto painel
+(\href{https://github.com/fcarva/aval-pol/commit/ed5f32f031c73ec6ddcf5370ab409d4a8cdc759d}{ed5f32f})
+reorganizaram a §5 do artigo. Na Fase A, o agente usou o Firecrawl e o relé para fechar lacunas de
+contexto: a avaliação oficial da LICC contratada pelo Estado, o PPA sem metas para a lei e as etapas
+da captação
+(\href{https://github.com/fcarva/aval-pol/commit/d58c3c0f5ac03144cfe050f78494ef461bc41b4c}{d58c3c0},
+\href{https://github.com/fcarva/aval-pol/commit/9980131225a51bac25eda2b68934e0082871cdc7}{9980131},
+\href{https://github.com/fcarva/aval-pol/commit/ab8cb18811283f36a688c5968953800ed85ac439}{ab8cb18}).
+Na Fase B, a §5 do artigo foi refeita em torno de uma única pergunta, com o desenho que o autor
+trouxe de outra sessão de trabalho, e o parecer externo enviado pelo autor foi respondido ponto a
+ponto
+(\href{https://github.com/fcarva/aval-pol/commit/cd272da48a41b341ab8de641374e48514b3f51fa}{cd272da}).
+A versão final incorporou as edições do autor e os links
+(\href{https://github.com/fcarva/aval-pol/commit/086671d829e2db4a2f4980c87108a6ed5e34bb36}{086671d}).
+
+\section{O que o autor decidiu}\label{secao-5}
+
+O agente propôs, redigiu e conferiu; as escolhas de escopo, de desenho e de texto ficaram com o
+autor. O \hyperref[quadro-2]{Quadro~2} lista as decisões que o repositório registra. O desenho da avaliação de impacto
+mudou três vezes
+(\href{https://github.com/fcarva/aval-pol/commit/bbfabfa037267b4dbd9331f66d9fb15798509eee}{bbfabfa},
+\href{https://github.com/fcarva/aval-pol/commit/ed5f32f031c73ec6ddcf5370ab409d4a8cdc759d}{ed5f32f},
+\href{https://github.com/fcarva/aval-pol/commit/cd272da48a41b341ab8de641374e48514b3f51fa}{cd272da}):
+a versão final segue o desenho trazido pelo autor e descarta os experimentos propostos antes pelo
+agente.
+
+\begingroup\footnotesize\renewcommand{\arraystretch}{1.15}
+\phantomsection\label{quadro-2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.0750}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.7500}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1750}}@{}}
+\multicolumn{3}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Quadro 2} -- Decisões do autor registradas no repositório} \\[4pt]
+\toprule
+Data & Decisão & Registro \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\normalsize\textit{Quadro 2 -- Decisões do autor registradas no repositório (continuação)}} \\[4pt]
+\toprule
+Data & Decisão & Registro \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{3}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: mensagens dos commits, \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}} e relatórios de auditoria citados.} \\
+\endlastfoot
+23/09 & Regras do projeto: ausência de dado não é zero; todo número com fonte e script; não afirmar descumprimento que o dado não permite apurar; toda referência conferida; uso de IA conforme a Portaria CNPq nº 2.664/2026 & \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}} (\href{https://github.com/fcarva/aval-pol/commit/82f7a41ce688ab6cc189c2df738e162078614635}{82f7a41}) \\ \addlinespace[3pt]
+24/09 & Autoria individual; declaração de IA separada do artigo & \href{https://github.com/fcarva/aval-pol/commit/923c8d9ad1f3c99c52ba99b6abe7dc22a4219586}{923c8d9} \\ \addlinespace[3pt]
+26/09 & Mesclagem do trabalho no ramo principal (pull request nº 1) & \href{https://github.com/fcarva/aval-pol/commit/28b7ccc454315c2a5c2841ee682a5c0035546f32}{28b7ccc} \\ \addlinespace[3pt]
+26/09 & Escopo revisto: avaliar a política como ela está, na moldura de bens públicos, sem nomear nem propor mecanismos alternativos & \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}} (\href{https://github.com/fcarva/aval-pol/commit/b236335ba0091a1bcf6de0a5435d0a4b19fff1f2}{b236335}) \\ \addlinespace[3pt]
+27/09 & Comentários nos trechos grifados do PDF; Buterin, Hitzig e Weyl (2019) e Hitzig (2021) como literatura; página indicada pelo autor & \href{https://github.com/fcarva/aval-pol/commit/494399a87ded6fafbaa79e0c7bb2db0a15478182}{494399a}, \href{https://github.com/fcarva/aval-pol/commit/fb161bb281e12b7b1b2f5c9ed6f07cafef003beb}{fb161bb} \\ \addlinespace[3pt]
+27/09 & Voz impessoal, por ser trabalho individual & \href{https://github.com/fcarva/aval-pol/commit/73f91c4aa380eb3cd168d0c08e6388f1960ba4a8}{73f91c4} \\ \addlinespace[3pt]
+27/09 & Edições diretas no \path{artigo.tex}, trazidas ao texto-fonte & \href{https://github.com/fcarva/aval-pol/commit/0210713f9418cf40de786c2cc5abe2a349b0c755}{0210713} \\ \addlinespace[3pt]
+27/09 & §5 do artigo organizada pela pergunta central sobre o financiamento centralizado & \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/CLAUDE.md}{\nolinkurl{CLAUDE.md}} (\href{https://github.com/fcarva/aval-pol/commit/ed5f32f031c73ec6ddcf5370ab409d4a8cdc759d}{ed5f32f}) \\ \addlinespace[3pt]
+28/09 & §5 do artigo com uma só pergunta (``a renúncia vai para os projetos que dependem dela?''), com os grupos que a regra já produz; nenhum piloto nem regra futura no texto; resposta ao parecer externo & \href{https://github.com/fcarva/aval-pol/commit/cd272da48a41b341ab8de641374e48514b3f51fa}{cd272da}, \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria/revisao-stage3-r6/01-resposta-ao-parecer.md}{\nolinkurl{artigo/auditoria/revisao-stage3-r6/01-resposta-ao-parecer.md}} \\ \addlinespace[3pt]
+28/09 & Versão final: edições no \path{.tex}, ``tradução nossa'' na citação traduzida, ``27 unidades da federação'' e citação de Buterin, Hitzig e Weyl (2019) movida para a afirmação conceitual & \href{https://github.com/fcarva/aval-pol/commit/086671d829e2db4a2f4980c87108a6ed5e34bb36}{086671d} \\
+\end{longtable}
+\endgroup
+
+\section{Verificação e salvaguardas}\label{secao-6}
+
+O conteúdo gerado passou por conferência automática e por revisão. As salvaguardas, todas no
+repositório, são:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Números:}
+  \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria/checar_dados.py}{\nolinkurl{artigo/auditoria/checar_dados.py}}
+  recalcula cada número do artigo a partir da tabela de origem e confere o trecho do texto; na
+  versão final, 63 de 63 checagens conferem. A soma da captação é refeita termo a termo a partir dos
+  PDFs oficiais por
+  \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria/auditar_captacao.py}{\nolinkurl{artigo/auditoria/auditar_captacao.py}}
+  (75 de 75 conferem).
+\item
+  \textbf{Referências:} das 48 referências do artigo, as 13 com DOI são conferidas item a item nos
+  metadados da Crossref por
+  \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria/checar_referencias.py}{\nolinkurl{artigo/auditoria/checar_referencias.py}};
+  as 35 sem DOI (normas, documentos oficiais e livros) são conferidas à mão, nas páginas oficiais,
+  nas normas transcritas e nas buscas do relé, conforme os relatórios de integridade. Pela regra do
+  projeto, referência não conferida não entra no texto.
+\item
+  \textbf{Fontes:} todo arquivo coletado pelo relé ou pelo Firecrawl fica com URL, data e sha256 em
+  manifesto
+  (\href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/dados/fontes_web}{\nolinkurl{dados/fontes_web}}).
+\item
+  \textbf{Dados pessoais:} CPFs de proponentes pessoas físicas são mascarados antes de gravar
+  (\href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/analise/rede/mascarar_cpf.py}{\nolinkurl{analise/rede/mascarar_cpf.py}},
+  com conferência), e a regra do projeto é não guardar nomes de pessoas privadas.
+\item
+  \textbf{Revisão:} as rodadas de checagem e de revisão estão no \hyperref[quadro-3]{Quadro~3}. Os painéis simulados
+  foram redigidos pelo mesmo modelo que redigiu o texto, em papéis separados, como registra o
+  primeiro painel
+  (\href{https://github.com/fcarva/aval-pol/commit/0108f5ea295d79a329f4ed802fc2d19b6a9c932f}{0108f5e});
+  a separação de papéis não elimina erros correlacionados e não substitui a revisão por pares
+  humana. Os pareceres serviram como lista de verificação, e o autor decidiu o que aplicar.
+\end{itemize}
+
+\begingroup\footnotesize\renewcommand{\arraystretch}{1.15}
+\phantomsection\label{quadro-3}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0652}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4565}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3696}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1087}}@{}}
+\multicolumn{4}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Quadro 3} -- Rodadas de checagem e de revisão} \\[4pt]
+\toprule
+Data & Rodada & Resultado & Registro \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\normalsize\textit{Quadro 3 -- Rodadas de checagem e de revisão (continuação)}} \\[4pt]
+\toprule
+Data & Rodada & Resultado & Registro \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{4}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: mensagens dos commits e \href{https://github.com/fcarva/aval-pol/tree/28b5413468770552f9bdddcffd965d7dce814893/artigo/auditoria}{\nolinkurl{artigo/auditoria}}.} \\
+\endlastfoot
+23/09 & Checagem de integridade (números e referências), 1ª rodada & Reprovada; correções aplicadas & \href{https://github.com/fcarva/aval-pol/commit/3b4a01e5c26675c101692045cb87b19305a21ec1}{3b4a01e} \\ \addlinespace[3pt]
+23/09 & Checagem de integridade, 2ª rodada & Aprovada com ressalvas & \href{https://github.com/fcarva/aval-pol/commit/85a488d56382e32eb2510f2edf2e8194d63b798d}{85a488d} \\ \addlinespace[3pt]
+23/09 & Painel simulado de cinco pareceres, rodada 1 & Revisão maior (7 itens obrigatórios) & \href{https://github.com/fcarva/aval-pol/commit/0108f5ea295d79a329f4ed802fc2d19b6a9c932f}{0108f5e} \\ \addlinespace[3pt]
+24/09 & Painel simulado, rodada 2 & Revisão menor (10 itens) & \href{https://github.com/fcarva/aval-pol/commit/7e601d605eedd13dfd8c44611945354e5c14b87c}{7e601d6} \\ \addlinespace[3pt]
+24/09 & Verificação das correções e checagem final de integridade & Aceito, com a declaração de IA pendente & \href{https://github.com/fcarva/aval-pol/commit/923c8d9ad1f3c99c52ba99b6abe7dc22a4219586}{923c8d9} \\ \addlinespace[3pt]
+27/09 & Painel simulado, rodada 3 (novas hipóteses) & Revisão menor (6 itens) & \href{https://github.com/fcarva/aval-pol/commit/810b06639c574961d1e27da954b7c60484dbe990}{810b066} \\ \addlinespace[3pt]
+27/09 & Painel simulado, rodada 4 & Revisão menor (4 itens), aplicada em \href{https://github.com/fcarva/aval-pol/commit/4e11aa7f9eb5b310783ac4dc82a0e5d6e6619a76}{4e11aa7} & \href{https://github.com/fcarva/aval-pol/commit/bca72a5427931bf0ecff76a04fcfacee220ecdf0}{bca72a5} \\ \addlinespace[3pt]
+27/09 & Revisão metodológica do desenho & Aplicada & \href{https://github.com/fcarva/aval-pol/commit/d01657f1aad092f014f31eef022adfbc177663b3}{d01657f} \\ \addlinespace[3pt]
+27/09 & Painel simulado, rodada 5 & Revisão menor (4 itens), aplicada & \href{https://github.com/fcarva/aval-pol/commit/ed5f32f031c73ec6ddcf5370ab409d4a8cdc759d}{ed5f32f} \\ \addlinespace[3pt]
+28/09 & Parecer externo enviado pelo autor & Respondido ponto a ponto & \href{https://github.com/fcarva/aval-pol/commit/cd272da48a41b341ab8de641374e48514b3f51fa}{cd272da} \\
+\end{longtable}
+\endgroup
+
+A verificação encontrou erros do próprio agente, corrigidos antes da versão final. O \hyperref[quadro-4]{Quadro~4} lista
+os que o histórico registra; eles mostram por que o texto gerado não pode ser aceito sem
+conferência.
+
+\begin{table}[!htbp]
+\phantomsection\label{quadro-4}
+\footnotesize\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5556}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1111}}@{}}
+\multicolumn{3}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Quadro 4} -- Erros do agente encontrados na verificação e corrigidos} \\[4pt]
+\toprule
+Erro & Como foi encontrado & Correção \\
+\midrule
+Estudo citado com resultado oposto ao que ele encontra, e concentração do valor habilitado atribuída à captação & Checagem de integridade & \href{https://github.com/fcarva/aval-pol/commit/3b4a01e5c26675c101692045cb87b19305a21ec1}{3b4a01e} \\ \addlinespace[3pt]
+DOI de Williams (2020) que pertencia a outro artigo & Conferência na Crossref & \href{https://github.com/fcarva/aval-pol/commit/089398269447e3347721b25e3f0f86d7c221ea9d}{0893982} \\ \addlinespace[3pt]
+``Cerca de 100 proponentes por ciclo'', quando os dados dão de 53 a 95 & Checagem final dos números & \href{https://github.com/fcarva/aval-pol/commit/923c8d9ad1f3c99c52ba99b6abe7dc22a4219586}{923c8d9} \\ \addlinespace[3pt]
+A máscara de CPF quebrava a chave do proponente e mascarou valores de capital social de 11 dígitos & Nova execução do pipeline inteiro & \href{https://github.com/fcarva/aval-pol/commit/c3cd882cbf87cd7d6637c44df2d3ff6a47774b4d}{c3cd882} \\ \addlinespace[3pt]
+CPF de titular de MEI exposto na razão social vinda da Receita e do Mapa Cultural & Conferência de CPF estendida aos dados externos & \href{https://github.com/fcarva/aval-pol/commit/0778be8b06388133d941f246531f4060c21eb9d8}{0778be8} \\ \addlinespace[3pt]
+O cabeçalho da página do Diário Oficial cortava avisos e escondia dois depósitos & Nova execução do pipeline (Fase A) & \href{https://github.com/fcarva/aval-pol/commit/9980131225a51bac25eda2b68934e0082871cdc7}{9980131} \\ \addlinespace[3pt]
+Página de Gertler \emph{et al.} (2018) citada como 75, quando o trecho está na 74 & Leitura do texto coletado pelo relé & \href{https://github.com/fcarva/aval-pol/commit/d668105786a38d62744d3eeee1ed902cd4a4d107}{d668105} \\ \addlinespace[3pt]
+Links para o ramo principal sem as tabelas novas (erro 404) & Conferência dos links & \href{https://github.com/fcarva/aval-pol/commit/086671d829e2db4a2f4980c87108a6ed5e34bb36}{086671d} \\
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{3}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: mensagens dos commits citados.} \\
+\end{tabular}
+\end{table}
+
+\section{Limitações do registro}\label{secao-7}
+
+\begin{itemize}
+\tightlist
+\item
+  O histórico não contém as conversas com a ferramenta; as instruções do autor aparecem só
+  indiretamente (\hyperref[secao-1]{seção~1}).
+\item
+  O material do commit inicial foi preparado antes e fora deste histórico, assim como o repositório
+  licc.gov, de onde vieram os dados; o que se sabe de seu preparo está na \hyperref[secao-4]{seção~4}.
+\item
+  O desenho final da §5 do artigo veio de outra sessão de trabalho do autor, cujo registro não está
+  neste repositório.
+\item
+  A autoria de um commit indica quem o gravou, não quem escreveu cada linha: commits do agente
+  carregam edições do autor
+  (\href{https://github.com/fcarva/aval-pol/commit/0210713f9418cf40de786c2cc5abe2a349b0c755}{0210713},
+  \href{https://github.com/fcarva/aval-pol/commit/086671d829e2db4a2f4980c87108a6ed5e34bb36}{086671d}),
+  e o commit do autor carrega material preparado, ao menos em parte, com apoio de IA (\hyperref[secao-4]{seção~4}).
+\end{itemize}
+
+\section*{Referências}
+\begin{referencias}
+\protect\phantomsection\label{ref-anthropic-1}{}ANTHROPIC. \textbf{Claude Code}: documentação.
+{[}\emph{S. l.}{]}: Anthropic, 2026. Disponível em:
+\url{https://code.claude.com/docs/en/claude-code-on-the-web}. Acesso em: 28 set. 2026.
+
+\protect\phantomsection\label{ref-wu-2}{}WU, Cheng-I. \textbf{Academic Research Skills for Claude
+Code}. Versão 3.22.1. {[}\emph{S. l.}{]}, 2026. Disponível em:
+\url{https://github.com/Imbad0202/academic-research-skills}. Acesso em: 28 set. 2026.
+\end{referencias}
+
+
+\section*{Apêndice – Cronologia dos commits}
+\begingroup\footnotesize\renewcommand{\arraystretch}{1.15}
+\phantomsection\label{quadro-5}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1310}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0952}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0833}}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.6905}}@{}}
+\multicolumn{4}{@{}p{\linewidth}@{}}{\normalsize\raggedright \textbf{Quadro 5} -- Cronologia dos commits do autor e do agente} \\[4pt]
+\toprule
+Data e hora & Commit & Origem & Mensagem do commit \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\normalsize\textit{Quadro 5 -- Cronologia dos commits do autor e do agente (continuação)}} \\[4pt]
+\toprule
+Data e hora & Commit & Origem & Mensagem do commit \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\addlinespace[2pt]
+\multicolumn{4}{@{}p{\linewidth}@{}}{\raggedright \textit{Fonte}: \path{git log} dos ramos \path{claude/fervent-shannon-jq7142} e \path{main} até \path{28b5413}; sem as coletas do relé (\hyperref[tabela-3]{Tabela~3}) e sem as mesclagens feitas pelo agente; gerado por \href{https://github.com/fcarva/aval-pol/blob/28b5413468770552f9bdddcffd965d7dce814893/artigo/gerar_uso_ia.py}{\nolinkurl{artigo/gerar_uso_ia.py}}.} \\
+\endlastfoot
+23/09 19:58 & \href{https://github.com/fcarva/aval-pol/commit/82f7a41ce688ab6cc189c2df738e162078614635}{82f7a41} & Autor & Estado atual do aval-pol \\ \addlinespace[3pt]
+23/09 20:04 & \href{https://github.com/fcarva/aval-pol/commit/c5e2f389f53661a1b22abb0b800b21b5a664d4d1}{c5e2f38} & Agente & Tabelas geradas pelos scripts 03\_descritivas, 05\_poder\_mde e 03d \\ \addlinespace[3pt]
+23/09 20:05 & \href{https://github.com/fcarva/aval-pol/commit/6b87a7ed227cc911b5e2c460b062ffdbf526c73a}{6b87a7e} & Agente & Igualdade monetária ao centavo nas contagens de teto \\ \addlinespace[3pt]
+23/09 20:07 & \href{https://github.com/fcarva/aval-pol/commit/e732239540772d2728a8868bb3644bd99650f011}{e732239} & Agente & Conversão habilitado\(\rightarrow\)executado por faixa de valor dentro do ciclo e RMGV×interior \\ \addlinespace[3pt]
+23/09 20:09 & \href{https://github.com/fcarva/aval-pol/commit/5238a929a947135082ec67b8643a81a0e70064c9}{5238a92} & Agente & Resultados descritivos da LICC: seções 1 a 10 \\ \addlinespace[3pt]
+23/09 20:11 & \href{https://github.com/fcarva/aval-pol/commit/39a30195ba10ca390a9effe8242bf84882634c8e}{39a3019} & Agente & Tetos anuais conferidos no DIO (2026 = R\$ 31 mi) e 03d sobre a base padronizada \\ \addlinespace[3pt]
+23/09 20:15 & \href{https://github.com/fcarva/aval-pol/commit/242c5b020b0587413e305cc0c61b07959839e2c2}{242c5b0} & Agente & Desenho legal da LICC: seções 0 a 16 \\ \addlinespace[3pt]
+23/09 20:16 & \href{https://github.com/fcarva/aval-pol/commit/31a9c2dbe8995f91ef73baf54f9f2643b9af3dcd}{31a9c2d} & Agente & Contexto: Rouanet no ES 2019-2022 e gasto com cultura por região \\ \addlinespace[3pt]
+23/09 20:18 & \href{https://github.com/fcarva/aval-pol/commit/916af2b1432395a6f15d84b53cac51b4086ced99}{916af2b} & Agente & Contexto e problema da LICC: seções 0 e 2 a 9 \\ \addlinespace[3pt]
+23/09 20:21 & \href{https://github.com/fcarva/aval-pol/commit/22eef7b9df96ebf94b24401dbd0693eb01458564}{22eef7b} & Agente & Literatura internacional: seções 0 a 11 \\ \addlinespace[3pt]
+23/09 20:23 & \href{https://github.com/fcarva/aval-pol/commit/743fc7ceca3fc8f5f0c10c9ef904d27c7b6444b7}{743fc7c} & Agente & Literatura brasileira §§ 3-10 e métodos §§ 2-5 \\ \addlinespace[3pt]
+23/09 20:25 & \href{https://github.com/fcarva/aval-pol/commit/e3af8071f6996877e4c6d258f1149e9995ca8779}{e3af807} & Agente & Figura 1 do artigo: execução por valor autorizado e parcela da RMGV \\ \addlinespace[3pt]
+23/09 20:26 & \href{https://github.com/fcarva/aval-pol/commit/3324f134bd756a5ffbde86aece4ae0218f745d0b}{3324f13} & Agente & Cenários de EMD do desenho principal (D1) com covariadas e CCI \\ \addlinespace[3pt]
+23/09 20:32 & \href{https://github.com/fcarva/aval-pol/commit/f2e40ea756de0e27a524d28d8f6031e98200ea8a}{f2e40ea} & Agente & Rascunho completo do mini artigo (13 páginas no modelo ABNT) \\ \addlinespace[3pt]
+23/09 21:13 & \href{https://github.com/fcarva/aval-pol/commit/0b3cde13ecdaddd3f18ca7167cabebe1153a72ec}{0b3cde1} & Agente & Relé de rede via GitHub Actions para recuperar fontes bloqueadas \\ \addlinespace[3pt]
+23/09 21:22 & \href{https://github.com/fcarva/aval-pol/commit/b0323e4169f486ed8b3bf4699acbd6d81dac9f63}{b0323e4} & Agente & Auditoria: checagem dos números do artigo e relé em etapas \\ \addlinespace[3pt]
+23/09 21:24 & \href{https://github.com/fcarva/aval-pol/commit/065a9c1363bfb7009b022952805c77e3565e0eaf}{065a9c1} & Agente & Relé: etapas DOIs, páginas e SALIC com commit próprio; run novo cancela o anterior \\ \addlinespace[3pt]
+23/09 21:38 & \href{https://github.com/fcarva/aval-pol/commit/3b4a01e5c26675c101692045cb87b19305a21ec1}{3b4a01e} & Agente & Auditoria ARS Stage 2.5, rodada 1: FAIL e correções no artigo \\ \addlinespace[3pt]
+23/09 21:41 & \href{https://github.com/fcarva/aval-pol/commit/4e49a757878bcdd4b50b3065e8f3131b649442e6}{4e49a75} & Agente & Relé: página /licc da SECULT, onde licc.gov acha os anexos \\ \addlinespace[3pt]
+23/09 21:43 & \href{https://github.com/fcarva/aval-pol/commit/ce6242745d85e876e26d83a4df4f7102d0999994}{ce62427} & Agente & Artigo: data de acesso da lista, definição de empresa; relatório registra o que veio do licc.gov \\ \addlinespace[3pt]
+23/09 21:45 & \href{https://github.com/fcarva/aval-pol/commit/6d95671a34ecdd5993dde64ee01444c81d21ae2c}{6d95671} & Agente & Relé: instruções 2023-2024, lista vigente, cartilha de 2022 e anexos de captação por cota \\ \addlinespace[3pt]
+23/09 21:49 & \href{https://github.com/fcarva/aval-pol/commit/f555f77f52a3133980fcf10fa41e3a51797dae57}{f555f77} & Agente & Artigo: fluxo de habilitação conferido nas instruções de 2023 e 2024; estudo de MG; Eldridge et al. \\ \addlinespace[3pt]
+23/09 21:59 & \href{https://github.com/fcarva/aval-pol/commit/85a488d56382e32eb2510f2edf2e8194d63b798d}{85a488d} & Agente & Auditoria ARS Stage 2.5, rodada 2: PASS WITH NOTES \\ \addlinespace[3pt]
+23/09 22:12 & \href{https://github.com/fcarva/aval-pol/commit/0108f5ea295d79a329f4ed802fc2d19b6a9c932f}{0108f5e} & Agente & Auditoria ARS Stage 3: cinco pareceres e decisão editorial (Major Revision) \\ \addlinespace[3pt]
+23/09 22:20 & \href{https://github.com/fcarva/aval-pol/commit/877a9d826e143becd4e9e3a4475f1186659f1ff0}{877a9d8} & Agente & Relé: referências de alocação de bens públicos e teste da API de eventos do Mapa Cultural \\ \addlinespace[3pt]
+23/09 22:23 & \href{https://github.com/fcarva/aval-pol/commit/120c65291285a3ee27aa001a2cc49647387442c3}{120c652} & Agente & Desenho causal da alocação de bens públicos culturais pela LICC \\ \addlinespace[3pt]
+23/09 22:34 & \href{https://github.com/fcarva/aval-pol/commit/d3c17b833353aeded925fb61e66894303cf4e6bd}{d3c17b8} & Agente & Relé: dados para as hipóteses de marketing, funil e atrito (SALIC, Mapa Cultural, lotes 2025, apresentações) \\ \addlinespace[3pt]
+23/09 22:39 & \href{https://github.com/fcarva/aval-pol/commit/fc225da73a24fbd62a976589c6cb558ebf7e3a3f}{fc225da} & Agente & pedidos: patrocinadores LICC 2025 no SALIC (H1), oportunidades e universo de agentes no Mapa Cultural (H3) \\ \addlinespace[3pt]
+23/09 22:41 & \href{https://github.com/fcarva/aval-pol/commit/1d5d483778f93e165f5d9aa5039f90868ef2cb0f}{1d5d483} & Agente & dois: atrito administrativo, experimentos de mecanismo, patrocínio como marketing (notas H1-H3) \\ \addlinespace[3pt]
+23/09 22:45 & \href{https://github.com/fcarva/aval-pol/commit/59d926a8ce88dea8629e86d4849dacbff9b178d9}{59d926a} & Agente & Hipóteses H1-H3: funil, mudança de regime, estimandos e poder (nota 03 e script 07) \\ \addlinespace[3pt]
+23/09 23:03 & \href{https://github.com/fcarva/aval-pol/commit/a246c4ef48b3d412dd1763e75c0d361f408b8619}{a246c4e} & Agente & Teoria da mudança com H1-H3 como premissas; figura em árvore; nada estimado \\ \addlinespace[3pt]
+23/09 23:15 & \href{https://github.com/fcarva/aval-pol/commit/a758e9c8c0384a88b22932b913638812c31fb932}{a758e9c} & Agente & dois: Mayne (2015) e Mayne e Johnson (2015), formatos de teoria da mudança \\ \addlinespace[3pt]
+23/09 23:21 & \href{https://github.com/fcarva/aval-pol/commit/66f2942a63678372feb953689cf1b5ffb877b796}{66f2942} & Agente & Figura da teoria da mudança redesenhada: Flexoki, Inter, premissas nos elos \\ \addlinespace[3pt]
+23/09 23:24 & \href{https://github.com/fcarva/aval-pol/commit/9574e9c707d1bb9ea8509029c03c67fc108ff217}{9574e9c} & Agente & pedidos: edital de pareceristas e configuração de avaliação da LICC (auditoria de H2a: há nota?) \\ \addlinespace[3pt]
+23/09 23:25 & \href{https://github.com/fcarva/aval-pol/commit/836d65de387ba50484f9a229da1a5b1036dc887d}{836d65d} & Agente & dois: Williams (2020), validade externa e mecanismo de mapeamento \\ \addlinespace[3pt]
+24/09 00:29 & \href{https://github.com/fcarva/aval-pol/commit/49ae7aee8aa737ccac576c86a133535271c40a7f}{49ae7ae} & Agente & Artigo reestruturado pela teoria da mudança; auditoria de H2a; relé lê .docx \\ \addlinespace[3pt]
+24/09 00:31 & \href{https://github.com/fcarva/aval-pol/commit/113436f8ee87c5d8de394064b9f5c3d561295406}{113436f} & Agente & Notas: auditoria de H2a no desenho legal (fases de avaliação no Mapa Cultural); relé lê .docx (CLAUDE.md) \\ \addlinespace[3pt]
+24/09 00:31 & \href{https://github.com/fcarva/aval-pol/commit/089398269447e3347721b25e3f0f86d7c221ea9d}{0893982} & Agente & buscas: DOI de Williams (2020); o DOI suposto (10.1093/wbro/lkaa004) é de outro artigo \\ \addlinespace[3pt]
+24/09 00:36 & \href{https://github.com/fcarva/aval-pol/commit/f5130ba8c76b87002161b98b71285c70c7984d03}{f5130ba} & Agente & H2a auditada: o modelo de parecer não atribui nota (atende ou não por critério) \\ \addlinespace[3pt]
+24/09 11:34 & \href{https://github.com/fcarva/aval-pol/commit/d24e0f3481334b562241e91da33b8f5c25da5dce}{d24e0f3} & Agente & Relé: conferir 19 DOIs da lista externa de bibliografia brasileira \\ \addlinespace[3pt]
+24/09 11:44 & \href{https://github.com/fcarva/aval-pol/commit/9efe485dcde34e7712b5054eaf45932594b27035}{9efe485} & Agente & Literatura brasileira: lista externa conferida; entram Alcântara et al.~(2019) e Colombo e Cruz (2023) \\ \addlinespace[3pt]
+24/09 11:56 & \href{https://github.com/fcarva/aval-pol/commit/c8ed005d4de30ffff38c10f346c5a2c2d1debfa1}{c8ed005} & Agente & Versão LaTeX do artigo: gerar\_tex.py e artigo/latex/artigo.tex \\ \addlinespace[3pt]
+24/09 12:01 & \href{https://github.com/fcarva/aval-pol/commit/9e688c070e096c160a163e56d99aa3f76e04087f}{9e688c0} & Agente & LaTeX: preâmbulo também compila com pdfLaTeX (newtx ou mathptmx) \\ \addlinespace[3pt]
+24/09 12:12 & \href{https://github.com/fcarva/aval-pol/commit/7e601d605eedd13dfd8c44611945354e5c14b87c}{7e601d6} & Agente & Stage 3, rodada 2: painel de cinco pareceres, decisão (Minor Revision) e roteiro \\ \addlinespace[3pt]
+24/09 12:18 & \href{https://github.com/fcarva/aval-pol/commit/2181314538c1bcaf1da7629d739aa4e9884a7510}{2181314} & Agente & Relé: agentes do Mapa Cultural por município e tipo (RV-5, poder de H3) \\ \addlinespace[3pt]
+24/09 12:42 & \href{https://github.com/fcarva/aval-pol/commit/2550a748e2e9b05137d7cfe3b8a5759b423d5586}{2550a74} & Agente & Stage 4 (rodada 2): correções da revisão, racionamento 2023-2026, tabelas abertas e hiperlinks \\ \addlinespace[3pt]
+24/09 12:51 & \href{https://github.com/fcarva/aval-pol/commit/923c8d9ad1f3c99c52ba99b6abe7dc22a4219586}{923c8d9} & Agente & Stages 3', 4.5 e 5: autoria, Funcultura, verificação das correções e integridade final \\ \addlinespace[3pt]
+24/09 16:50 & \href{https://github.com/fcarva/aval-pol/commit/a3575784918fefae3350d40177037eed3f3287d8}{a357578} & Agente & Auditoria da captação 2023-2025 termo a termo; CPFs mascarados; pedidos ao relé \\ \addlinespace[3pt]
+26/09 22:58 & \href{https://github.com/fcarva/aval-pol/commit/44dda6e2824355bd4682e34bf4ef3111ff6477fd}{44dda6e} & Agente & Artigo: frase de 2025 só com validados, H2a pelo rodízio de pareceristas, porte e bem público, pontas abertas para a 2ª parte \\ \addlinespace[3pt]
+26/09 23:03 & \href{https://github.com/fcarva/aval-pol/commit/28b7ccc454315c2a5c2841ee682a5c0035546f32}{28b7ccc} & Autor & Merge pull request \#1 from fcarva/claude/fervent-shannon-jq7142 \\ \addlinespace[3pt]
+26/09 23:03 & \href{https://github.com/fcarva/aval-pol/commit/aa27656eca0f370d8dddf2b4d2478418ed05b685}{aa27656} & Agente & Integridade: campos do CNPJ do \hyperref[quadro-4]{Quadro~4} conferidos no layout oficial da Receita \\ \addlinespace[3pt]
+26/09 23:38 & \href{https://github.com/fcarva/aval-pol/commit/92984f29b5b041c1ebed650c4f7b38411fffb730}{92984f2} & Agente & Relé: pareceristas credenciados e relatório da Enap sobre a Rouanet \\ \addlinespace[3pt]
+26/09 23:41 & \href{https://github.com/fcarva/aval-pol/commit/b236335ba0091a1bcf6de0a5435d0a4b19fff1f2}{b236335} & Agente & Nova moldura das hipóteses: poder de mercado, centralização, apropriação e exclusão \\ \addlinespace[3pt]
+26/09 23:52 & \href{https://github.com/fcarva/aval-pol/commit/b4184cd6dab421061eb22977ea3e337b8a09e967}{b4184cd} & Agente & Artigo: hipóteses reorientadas para marketing, centralização, taxa de serviço, exclusão e entrega \\ \addlinespace[3pt]
+27/09 00:00 & \href{https://github.com/fcarva/aval-pol/commit/810b06639c574961d1e27da954b7c60484dbe990}{810b066} & Agente & Stage 3 rodada 3: painel de cinco pareceres sobre as novas hipóteses \\ \addlinespace[3pt]
+27/09 00:21 & \href{https://github.com/fcarva/aval-pol/commit/3850d06d03c3912916b327aff68c7520b6d5b835}{3850d06} & Agente & Relé: segue índices (extratos da CAP, atas do Funcultura), legendas do YouTube e canais \\ \addlinespace[3pt]
+27/09 00:29 & \href{https://github.com/fcarva/aval-pol/commit/951455e919ac5a5d993804ba4fb026909dbdeb42}{951455e} & Agente & Artigo: correções obrigatórias da rodada 3 (RV-1 a RV-6) e teto por projeto por ano \\ \addlinespace[3pt]
+27/09 00:33 & \href{https://github.com/fcarva/aval-pol/commit/b827c484bf056eab0e3e5626aa3a114d81a5e85a}{b827c48} & Agente & Notas: atas, teto por projeto, linhas inferidas e reuniões públicas; leitor dos extratos da CAP \\ \addlinespace[3pt]
+27/09 00:44 & \href{https://github.com/fcarva/aval-pol/commit/6b0b5483072c630af7d01d63c7d382719bed8b39}{6b0b548} & Agente & Atas da CAP, contraste Funcultura e análogo do RS no artigo; 15 páginas \\ \addlinespace[3pt]
+27/09 03:56 & \href{https://github.com/fcarva/aval-pol/commit/c2397a8e5e963924e86befc7b9bac4ad3e009cce}{c2397a8} & Agente & Relé: rotas alternativas para dados da CAP e da LICC \\ \addlinespace[3pt]
+27/09 04:05 & \href{https://github.com/fcarva/aval-pol/commit/2a974f0b823681cb638f627cb46451ca868ac4b9}{2a974f0} & Agente & Rotas: leitor das versões antigas dos anexos e pedidos por LAI \\ \addlinespace[3pt]
+27/09 04:09 & \href{https://github.com/fcarva/aval-pol/commit/4312a0ca372d60f0ca54a6b6fa6d10c1e4908a39}{4312a0c} & Agente & Rotas: cópias arquivadas (Wayback) de atas, listas datadas de habilitados e planilhas de controle; versões dos anexos lidas \\ \addlinespace[3pt]
+27/09 04:17 & \href{https://github.com/fcarva/aval-pol/commit/c0a71a4c6d7648206a41f36fb3ab28dd9314e501}{c0a71a4} & Agente & Relé: legendas em português dos vídeos da LICC pelo espelho Invidious \\ \addlinespace[3pt]
+27/09 04:18 & \href{https://github.com/fcarva/aval-pol/commit/4db6f9238ea7fda225a5f81fc50f717d29f0d37a}{4db6f92} & Agente & Notas: resultado das rotas alternativas (versões dos anexos, Wayback, Mapa, dados abertos, LAI, espelho do YouTube) \\ \addlinespace[3pt]
+27/09 04:25 & \href{https://github.com/fcarva/aval-pol/commit/d5cfc8cec40b5d92a7d8a6db915e5573d2169aaa}{d5cfc8c} & Agente & Relé: última tentativa de legenda em português por espelhos do YouTube \\ \addlinespace[3pt]
+27/09 04:32 & \href{https://github.com/fcarva/aval-pol/commit/af518773c1436966819050b53d3baa93eb32a3cd}{af51877} & Agente & Notas: rota do YouTube esgotada; a linha de fomento é a categoria da inscrição no Mapa (não pública) \\ \addlinespace[3pt]
+27/09 11:27 & \href{https://github.com/fcarva/aval-pol/commit/eb58596e0ae213e9cba4965723f1354f82d3ff68}{eb58596} & Agente & Relé: consultas públicas sem LAI (CNPJ dos patrocinadores, Mapa cruzado com a LICC), DIO, transparência, LDO \\ \addlinespace[3pt]
+27/09 11:40 & \href{https://github.com/fcarva/aval-pol/commit/b9151f83ec1c8bbdb2a50c79a1209e30155f6ffc}{b9151f8} & Agente & Relé: Portal da Transparência (projetos beneficiados pela LICC; renúncia) e busca do DIO \\ \addlinespace[3pt]
+27/09 11:54 & \href{https://github.com/fcarva/aval-pol/commit/1f0b079f9aeb1c8052705fc6102f1d922f76497d}{1f0b079} & Agente & Relé converte planilhas (ODS/XLSX) em texto; perfil público dos patrocinadores e proponentes \\ \addlinespace[3pt]
+27/09 11:55 & \href{https://github.com/fcarva/aval-pol/commit/ee755f717316c43b4b57405d84cd5b6cac40ac63}{ee755f7} & Agente & Relé: script da busca do DIO (endpoint da API) \\ \addlinespace[3pt]
+27/09 11:58 & \href{https://github.com/fcarva/aval-pol/commit/d3735b7b3560b5c9d11f0eed597d5361aea70880}{d3735b7} & Agente & Proponentes da LICC na Rouanet (SALIC); relé: CNPJ dos proponentes e pareceres prévios do TCE-ES \\ \addlinespace[3pt]
+27/09 11:58 & \href{https://github.com/fcarva/aval-pol/commit/8d512dea67ae741927e1b64401c0b87a410b6d81}{8d512de} & Agente & Mapa: casar proponentes pela chave canônica (a recalculada mantinha o CPF mascarado dos MEIs) \\ \addlinespace[3pt]
+27/09 12:00 & \href{https://github.com/fcarva/aval-pol/commit/9327b43aca88a6603b08c027ad495d4d98ea0a6d}{9327b43} & Agente & Nota: inventário dos dados públicos sem LAI (patrocinadores, Rouanet, Mapa, LDO) \\ \addlinespace[3pt]
+27/09 12:10 & \href{https://github.com/fcarva/aval-pol/commit/31670a0940bdde656f5ce198ca0e9d1658f8197d}{31670a0} & Agente & Termos da LICC no Portal da Transparência (2022-2025): proponente com CNPJ, data e patrocinador; só LICC \\ \addlinespace[3pt]
+27/09 12:13 & \href{https://github.com/fcarva/aval-pol/commit/771f9f192fab95f9282ecc784e65138e300bd24b}{771f9f1} & Agente & LICC: renúncia realizada (SEFAZ), fila pela data do processo, concentração por CNPJ do proponente; nota 03 só LICC \\ \addlinespace[3pt]
+27/09 12:16 & \href{https://github.com/fcarva/aval-pol/commit/1a3509b65a827e180683dbb727aed9346b974d4c}{1a3509b} & Agente & Relé: beneficiários e valores renunciados (Portal da Transparência), só as linhas da LICC; dicionário de dados \\ \addlinespace[3pt]
+27/09 12:17 & \href{https://github.com/fcarva/aval-pol/commit/e982322a615fad98c4e1b4fb5df611d7758d4d7e}{e982322} & Agente & Nota 03: a diferença de 2022 entre Portal e anexo é um termo de R\$ 150 mil e três digitações \\ \addlinespace[3pt]
+27/09 12:25 & \href{https://github.com/fcarva/aval-pol/commit/609de691b066e7b42e590b6821323c6162e8cca5}{609de69} & Agente & Artigo: Quadros 2 e 4 atualizados com o Portal da Transparência (só LICC); 15 páginas \\ \addlinespace[3pt]
+27/09 12:30 & \href{https://github.com/fcarva/aval-pol/commit/fb161bb281e12b7b1b2f5c9ed6f07cafef003beb}{fb161bb} & Agente & Relé: Buterin, Hitzig e Weyl (2019) para conferir; página indicada pelo autor sobre bens públicos; boletim de economia criativa \\ \addlinespace[3pt]
+27/09 12:36 & \href{https://github.com/fcarva/aval-pol/commit/494399a87ded6fafbaa79e0c7bb2db0a15478182}{494399a} & Agente & Artigo: revisão dos trechos grifados pelo autor (versão de 27/09, madrugada); Hitzig como literatura \\ \addlinespace[3pt]
+27/09 12:37 & \href{https://github.com/fcarva/aval-pol/commit/0778be8b06388133d941f246531f4060c21eb9d8}{0778be8} & Agente & CPF do titular de MEI mascarado na razão social vinda da Receita e do Mapa (7 casos) \\ \addlinespace[3pt]
+27/09 12:44 & \href{https://github.com/fcarva/aval-pol/commit/cd81a3874b42bbfbe763fd9af6a13e9a2d7b4a30}{cd81a38} & Agente & Artigo: economia criativa (Boletim SECULT 2T2020) e Hitzig (2021) citados; referências reordenadas; 15 páginas \\ \addlinespace[3pt]
+27/09 12:46 & \href{https://github.com/fcarva/aval-pol/commit/73f91c4aa380eb3cd168d0c08e6388f1960ba4a8}{73f91c4} & Agente & Artigo: revisão final do português, voz impessoal (autor único) \\ \addlinespace[3pt]
+27/09 12:47 & \href{https://github.com/fcarva/aval-pol/commit/9a1061bb1562f6b969a0bb80a563792e0686d36d}{9a1061b} & Agente & Word regenerado; relé: CPF mascarado na razão social da Receita, dados/externos na conferência de CPF, beneficiários só dos patrocinadores da LICC (sem falso positivo do 11.246 dentro de CNPJ) \\ \addlinespace[3pt]
+27/09 12:52 & \href{https://github.com/fcarva/aval-pol/commit/a41ba4c007a899ec00a26303a2356accffa3129c}{a41ba4c} & Agente & Registro do trabalho: o que foi feito no repositório e o que se buscou na pesquisa de dados (encontrado, negativo, LAI) \\ \addlinespace[3pt]
+27/09 16:32 & \href{https://github.com/fcarva/aval-pol/commit/898ac9c33b936164f2e875dbafef5df03c478e71}{898ac9c} & Agente & Artigo: introdução auditada, separando teto, captação e demanda habilitada \\ \addlinespace[3pt]
+27/09 16:57 & \href{https://github.com/fcarva/aval-pol/commit/bca72a5427931bf0ecff76a04fcfacee220ecdf0}{bca72a5} & Agente & Revisão r4: avisos do Diário Oficial (CNPJ e depósitos), poder refeito e painel ARS completo \\ \addlinespace[3pt]
+27/09 17:04 & \href{https://github.com/fcarva/aval-pol/commit/c3cd882cbf87cd7d6637c44df2d3ff6a47774b4d}{c3cd882} & Agente & Pipeline reprodutível: chave do proponente e natureza ignoram a máscara de CPF; capital social restaurado \\ \addlinespace[3pt]
+27/09 17:13 & \href{https://github.com/fcarva/aval-pol/commit/4e11aa7f9eb5b310783ac4dc82a0e5d6e6619a76}{4e11aa7} & Agente & Artigo: revisão r4 aplicada (poder de H4 e H5, CNPJ pelo Diário Oficial, indicadores e riscos); auditoria de lacunas \\ \addlinespace[3pt]
+27/09 17:20 & \href{https://github.com/fcarva/aval-pol/commit/a254775800339fb8584ffda6839eebb634dd8622}{a254775} & Agente & Revisão final frase a frase: roteiro para o autor revisar, editar e auditar a última versão \\ \addlinespace[3pt]
+27/09 17:23 & \href{https://github.com/fcarva/aval-pol/commit/db94a70172a289fa484eba8b7f9b8c5c9ebd2418}{db94a70} & Agente & Teto de 2022 determinado: Portaria SEFAZ nº 83-R/2022 ampliou o montante para R\$ 15 milhões \\ \addlinespace[3pt]
+27/09 19:06 & \href{https://github.com/fcarva/aval-pol/commit/0210713f9418cf40de786c2cc5abe2a349b0c755}{0210713} & Agente & Edições do autor no artigo.tex trazidas ao texto-fonte; recuo ABNT; auditoria do desenho das hipóteses \\ \addlinespace[3pt]
+27/09 19:17 & \href{https://github.com/fcarva/aval-pol/commit/bbfabfa037267b4dbd9331f66d9fb15798509eee}{bbfabfa} & Agente & Desenho de avaliação refeito para testar as cinco hipóteses, sem mudá-las; diagramação em 15 páginas \\ \addlinespace[3pt]
+27/09 21:35 & \href{https://github.com/fcarva/aval-pol/commit/d01657f1aad092f014f31eef022adfbc177663b3}{d01657f} & Agente & Revisão metodológica do desenho refeito (ARS methodology-focus), aplicada \\ \addlinespace[3pt]
+27/09 22:07 & \href{https://github.com/fcarva/aval-pol/commit/ed5f32f031c73ec6ddcf5370ab409d4a8cdc759d}{ed5f32f} & Agente & Revisão final r5 (ARS full): §5 organizada pela pergunta central do financiamento centralizado \\ \addlinespace[3pt]
+28/09 00:05 & \href{https://github.com/fcarva/aval-pol/commit/d58c3c0f5ac03144cfe050f78494ef461bc41b4c}{d58c3c0} & Agente & Fase A: coleta Firecrawl com manifesto e pedidos do PPA ao relé \\ \addlinespace[3pt]
+28/09 00:14 & \href{https://github.com/fcarva/aval-pol/commit/9980131225a51bac25eda2b68934e0082871cdc7}{9980131} & Agente & Fase A: etapas da captação (21), recusados em outras fontes (22) e correção do parser do DIO \\ \addlinespace[3pt]
+28/09 00:17 & \href{https://github.com/fcarva/aval-pol/commit/ab8cb18811283f36a688c5968953800ed85ac439}{ab8cb18} & Agente & Fase A: relatório de lacunas (r6), avaliação oficial da LICC e PPA sem metas \\ \addlinespace[3pt]
+28/09 02:42 & \href{https://github.com/fcarva/aval-pol/commit/0dec71c84f8b1bd4f7762924034be1748531777b}{0dec71c} & Agente & Relé: Gertler et al.~(2018) em português, para conferir a p.~75 citada na nova §5 \\ \addlinespace[3pt]
+28/09 02:46 & \href{https://github.com/fcarva/aval-pol/commit/cd272da48a41b341ab8de641374e48514b3f51fa}{cd272da} & Agente & Fase B (r6): §5 refeita em torno de uma pergunta e resposta ao parecer externo \\ \addlinespace[3pt]
+28/09 02:56 & \href{https://github.com/fcarva/aval-pol/commit/d668105786a38d62744d3eeee1ed902cd4a4d107}{d668105} & Agente & Gertler et al.~(2018): página do racionamento corrigida para 74, conferida no texto do relé \\ \addlinespace[3pt]
+28/09 13:29 & \href{https://github.com/fcarva/aval-pol/commit/086671d829e2db4a2f4980c87108a6ed5e34bb36}{086671d} & Agente & Versão final: edições do autor, citações clicáveis e links permanentes \\ \addlinespace[3pt]
+28/09 13:30 & \href{https://github.com/fcarva/aval-pol/commit/28b5413468770552f9bdddcffd965d7dce814893}{28b5413} & Agente & Declaração de IA regenerada com o preâmbulo novo (mesmo texto) \\
+\end{longtable}
+\endgroup
+
+\end{document}
