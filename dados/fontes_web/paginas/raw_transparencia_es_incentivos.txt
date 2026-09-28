@@ -1,5 +1,5 @@
 # Fonte: https://transparencia.es.gov.br/comum/incentivosfiscais
-# Coletado (UTC): 2026-09-28T03:11:39Z
+# Coletado (UTC): 2026-09-28T05:47:42Z
 # sha256 do original: aa09ff5eec51f93eaaac4048e26bfaecb42106f62f6185d01ae969ca4859bb98
 
 <!DOCTYPE html>

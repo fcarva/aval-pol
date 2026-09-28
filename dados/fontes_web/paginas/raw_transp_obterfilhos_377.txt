@@ -1,5 +1,5 @@
 # Fonte: https://transparencia.es.gov.br/Comum/incentivosfiscais/ObterFilhos/377?NivelAnterior=0
-# Coletado (UTC): 2026-09-28T03:11:41Z
+# Coletado (UTC): 2026-09-28T05:47:44Z
 # sha256 do original: 3ac5fd02279b26ffeb83733f8b8e848863d019806595e27f29a90bf267dd342e
 
         <li>

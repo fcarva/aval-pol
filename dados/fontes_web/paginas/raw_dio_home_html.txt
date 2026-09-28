@@ -1,5 +1,5 @@
 # Fonte: https://ioes.dio.es.gov.br/
-# Coletado (UTC): 2026-09-28T03:11:37Z
+# Coletado (UTC): 2026-09-28T05:47:39Z
 # sha256 do original: e04664e1867276c0e94674e634c27066e20cd0d6294a28a1295fcde32726412a
 
 
