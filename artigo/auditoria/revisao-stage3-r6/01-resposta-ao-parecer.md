@@ -36,6 +36,4 @@
   - entram Foguel (2017) e IJSN (2026);
   - saem Angrist, Imbens e Rubin (1996), Baird *et al.* (2018), Eldridge, Ashby e Kerry (2006), Hainmueller, Hopkins
     e Yamamoto (2014) e Maestas, Mullen e Strand (2013), que ficaram sem citação.
-- **Pendente de conferência:** a lista de Gertler *et al.* (2018, p. 75), com os quatro modos de racionar, veio da
-  leitura do livro na outra sessão e entrou palavra por palavra. O PDF foi pedido ao relé (`gertler_2018_pt`) para
-  conferir a página.
+- **Conferido depois (28/09):** a lista dos modos de racionar (ordem de chegada, características observadas, características não observadas, sorteio) está em Gertler *et al.* (2018), na **p. 74**, e não na p. 75 do rascunho herdado. A citação foi corrigida. Fonte: `dados/fontes_web/paginas/gertler_2018_pt.txt` (relé, pedido `gertler_2018_pt`), entre os cabeçalhos das páginas 74 e 75.

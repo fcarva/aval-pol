@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `9bd349035841425f…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `82625184ce5c4728…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -337,8 +337,8 @@
 ### 5.1 Pergunta e parâmetros
 
 - **5.1.1** — *Passo:* (a definir)
-  - ☐ **[5.1.1.1]** Todo programa com mais demanda que recurso precisa de uma regra de racionamento: ordem de chegada, características observadas pelo gestor, características que só o candidato conhece ou sorteio (GERTLER *et al.*, 2018, p. 75).
-    - citações: GERTLER *et al.*, 2018, p. 75
+  - ☐ **[5.1.1.1]** Todo programa com mais demanda que recurso precisa de uma regra de racionamento: ordem de chegada, características observadas pelo gestor, características que só o candidato conhece ou sorteio (GERTLER *et al.*, 2018, p. 74).
+    - citações: GERTLER *et al.*, 2018, p. 74
   - ☐ **[5.1.1.2]** A LICC combina duas.
   - ☐ **[5.1.1.3]** A primeira é a preferência de quem recolhe o imposto, que o Estado não observa; a segunda é a ordem de chegada dos termos à SEFAZ.
   - ☐ **[5.1.1.4]** A CAP qualifica, mas não ordena (seção 4.2).
