@@ -1,6 +1,6 @@
 # Revisão final frase a frase
 
-- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `f28a6c4bb688810a…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
+- **Texto revisado:** `artigo/rascunho-artigo.md`, sha256 `c0a23e5da3e030d9…`, gerado por `artigo/revisao-final/gerar_frase_a_frase.py`.
 - **Como usar:** cada parágrafo abre com o **passo** que ele cumpre no argumento. Cada frase vem literal, numerada como seção.parágrafo.frase, com uma caixa ☐ para marcar (☒ ok; ✎ editar). As edições vão para o `rascunho-artigo.md`; depois, rodar de novo `checar_dados.py`, `checar_referencias.py`, `gerar_tex.py --pdf` e este script.
 - **Base de cada frase:**
   - *citações*: as referências que a frase cita;
@@ -21,7 +21,7 @@
   - ☐ **[0.1.4]** A decisão se concentra em poucos atores: a habilitação qualifica sem priorizar, e o que excede o teto é racionado pela ordem de recebimento e validação dos termos de patrocínio.
   - ☐ **[0.1.5]** Até 13% do valor captado em 2025 poderia remunerar captação e elaboração, projetos pequenos captam cada vez menos, e só pessoas jurídicas contribuintes patrocinam.
     - checagem de dados: N51 ✔ (`analise/tabelas/10_taxa_servico_permitida_2025.csv`)
-  - ☐ **[0.1.6]** Propõem-se quatro perguntas de avaliação, com estratégias, dados e poder estatístico, entre elas um experimento conjunto com decisores de empresas.
+  - ☐ **[0.1.6]** Para cada premissa, propõe-se um teste com regra de decisão, dados e poder estatístico, entre eles um experimento conjunto com decisores de empresas e residentes e uma avaliação cega dos projetos.
 
 - **0.2** — *Passo:* Palavras-chave
   - ☐ **[0.2.1]** **Palavras-chave:** incentivo fiscal à cultura; gasto tributário; patrocínio; bens públicos; teoria da mudança; avaliação de impacto.
@@ -328,7 +328,7 @@
 - **4.2.11** — *Passo:* Sintetiza a avaliação do desenho e liga à proposta
   - ☐ **[4.2.11.1]** Em síntese, o desenho entrega a escolha a quem recolhe mais imposto e raciona pela ordem de chegada: nenhum elo agrega a preferência de quem usa o bem cultural.
   - ☐ **[4.2.11.2]** O critério público na decisão (H2) não é assegurado pelo desenho, o que não implica que as escolhas sejam ruins; marketing (H1) e exclusão (H4) não se sustentam, com evidência mista; taxa de serviço (H3) e entrega (H5) ficam indeterminadas por falta de dado.
-  - ☐ **[4.2.11.3]** A seção 5 trata de H1, H2, H4 e H5 e deixa H3 em aberto.
+  - ☐ **[4.2.11.3]** A seção 5 propõe um teste para cada premissa.
 
 
 ## 5 Proposta de avaliação de impacto
@@ -336,77 +336,89 @@
 
 ### 5.1 Perguntas e parâmetros
 
-- **5.1.1** — *Passo:* Converte as premissas em perguntas e define a notação e o viés da comparação simples
-  - ☐ **[5.1.1.1]** As premissas do Quadro 2 convertem-se em perguntas de pesquisa: quatro perguntas de avaliação (Quadro 3), na notação de resultados potenciais.
-  - ☐ **[5.1.1.2]** Seja *i* a unidade, *T* o tratamento e *Y*(1) e *Y*(0) os resultados com e sem ele.
-  - ☐ **[5.1.1.3]** O Quadro 3 mostra também por que a comparação simples entre grupos não responde a nenhuma delas.
-  - ☐ **[5.1.1.4]** A diferença simples de médias soma ao efeito médio o viés de seleção, $E[Y(0)\mid T=1]-E[Y(0)\mid T=0]$, e o de efeitos heterogêneos.
+- **5.1.1** — *Passo:* Converte cada premissa em pergunta com regra de decisão; fio comum; notação, viés e alcance (avaliação de elos)
+  - ☐ **[5.1.1.1]** Cada premissa do Quadro 2 vira uma pergunta de avaliação com uma regra de decisão, o resultado que a derruba (Quadro 3).
+  - ☐ **[5.1.1.2]** O fio comum é saber se a escolha concentrada deixa de fora bens que muitos valorizariam e projetos pequenos que sinalizariam necessidades reais de financiamento: H1 compara os pesos das empresas com os da população, H2 compara a decisão com uma nota pública, e H4 mostra quem aparece quando o custo de entrada cai.
+  - ☐ **[5.1.1.3]** Seja *i* a unidade, *T* o tratamento e *Y*(1) e *Y*(0) os resultados com e sem ele.
+  - ☐ **[5.1.1.4]** Em todas as perguntas há autosseleção (o proponente se inscreve, a empresa escolhe), e a diferença simples de médias soma ao efeito médio o viés de seleção, $E[Y(0)\mid T=1]-E[Y(0)\mid T=0]$, e o de efeitos heterogêneos.
+  - ☐ **[5.1.1.5]** As perguntas testam elos da cadeia, como uma avaliação de mecanismo (GERTLER *et al.*, 2018), e não o efeito da LICC sobre o resultado final, que não tem grupo de comparação: a política vale para todo o estado desde 2022.
+    - citações: GERTLER *et al.*, 2018
 
-### Quadro 3 – Perguntas de avaliação
+### Quadro 3 – Perguntas de avaliação e regras de decisão
 
-- **Colunas:** Hipótese · Pergunta · Unidade, tratamento e resultado · Parâmetro · Viés da comparação simples
-  - ☐ **H5** — Receber pela LICC muda a realização e o alcance do projeto? — Projeto na margem do teto; *T* = termo validado; *Y* = acontece em janela fixa após o protocolo (agenda, Diário Oficial); público — Efeito de receber agora, na margem; fora dela, efeito médio sobre os tratados (EMPT) — *Y*(0) maior entre os escolhidos pela empresa: viés de seleção positivo
-  - ☐ **H1** — O que pesa na escolha da empresa: marca ou valor público? — Decisor de empresa; *T* = atributos sorteados de perfis de projeto; *Y* = escolhe o perfil — Efeito marginal médio de cada atributo — Visibilidade e valor público andam juntos: confundimento
-  - ☐ **H4** — Reduzir o custo de entrada muda quem entra? — Agente sem inscrição prévia; *T* = oferta de apoio à inscrição e à busca de patrocínio; *Y* = inscreveu-se, foi habilitado, captou — Efeito da oferta (intenção de tratar) e efeito local para quem responde a ela — Quem se inscreve por conta própria tem mais capacidade: viés de seleção
-  - ☐ **H2** — O parecer favorável muda o destino do projeto? — Projeto inscrito; *T* = parecer favorável; *Y* = captou, realizou — Efeito local, se a designação do parecerista for como sorteio; senão, descritivo — Sem nota não há corte; a designação por ordem e área é a variação candidata
+- **Colunas:** Hipótese · Pergunta · Unidade, tratamento e resultado · Parâmetro · A premissa cai se
+  - ☐ **H1** — O que pesa na escolha da empresa, e pesaria o mesmo para a população? — Decisor de empresa e residente; *T* = atributos sorteados de perfis de projeto; *Y* = escolhe o perfil — Efeito marginal médio de cada atributo, por grupo, e a diferença — O peso da gratuidade, do interior ou da escala difere entre empresas e população
+  - ☐ **H2** — A habilitação e a captação seguem critério público? — Projeto inscrito; nota cega nos critérios do decreto; *Y* = habilitado, captou — Diferença de nota entre habilitados e inabilitados e entre quem capta e quem não capta — A nota não separa os grupos, ou o par patrocinador–proponente recorrente explica mais que ela
+  - ☐ **H3** — O recurso chega ao bem cultural, e não à intermediação? — Projeto com planilha de custos; *Y* = parcela de captação e elaboração — Acúmulo no teto de 10%, antes e depois da regra de 2026 — As taxas se acumulam no teto e sobem quando podem ir ao proponente
+    - ⚠ números sem checagem automática (conferir na fonte citada): 10%
+  - ☐ **H4** — Reduzir o custo de entrada muda quem entra? — Agente sem inscrição prévia; *T* = oferta de apoio à inscrição e à busca de patrocínio; *Y* = inscreveu-se, foi habilitado, captou — Efeito da oferta (intenção de tratar) e efeito local — A oferta aumenta a entrada no interior
+  - ☐ **H5** — Receber pela LICC muda a realização e o alcance do projeto? — Termo na margem do esgotamento da cota; *T* = termo validado; *Y* = realizado em janela fixa após o protocolo; público — Efeito de receber agora, na margem; fora dela, EMPT — Os recusados realizam o projeto na mesma proporção que os validados
 
 - **5.1.2** (fonte do quadro, tabela ou figura)
   - ☐ **[5.1.2.1]** Fonte: elaboração própria, com base em Gertler *et al.* (2018).
     - citações: Gertler *et al.* (2018)
 
 
-### 5.2 Estratégias de identificação candidatas
+### 5.2 Estratégias de identificação
 
 - **5.2.1** — *Passo:* Justifica a escolha dos métodos pelas regras de operação
   - ☐ **[5.2.1.1]** As regras de operação determinam o método (GERTLER *et al.*, 2018).
     - citações: GERTLER *et al.*, 2018
-  - ☐ **[5.2.1.2]** Com excesso de demanda, ciclos anuais e nenhum índice publicado com ponto de corte, cabem promoção aleatória, experimento com decisores, variáveis instrumentais e diferenças em diferenças.
+  - ☐ **[5.2.1.2]** Com excesso de demanda, ciclos anuais e nenhum índice publicado com ponto de corte, cabem experimentos de escolha, avaliação cega, promoção aleatória, regressão descontínua no tempo e variáveis instrumentais.
   - ☐ **[5.2.1.3]** O sorteio mudaria a regra de alocação e fica fora do escopo.
 
-- **5.2.2** — *Passo:* Estratégia para H5: margem do racionamento, reentrada e instrumento
-  - ☐ **[5.2.2.1]** **H5.** Os termos validados pouco antes do esgotamento do teto e os de 32 projetos recusados em 2023 e 2024 tinham, todos, patrocinador disposto.
-    - checagem de dados: N31 ✔ (`dados/processados/indeferidos_2023_2024.csv`)
-  - ☐ **[5.2.2.2]** Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte: com resultado datado (realização em janela fixa após o protocolo), a comparação estima o efeito de receber agora; para o de receber em algum momento, o indeferimento serve de instrumento, com primeiro estágio de 41% (13 dos 32 recusados não captaram depois).
-    - checagem de dados: N30 ✔ (`analise/tabelas/09_reentrada_resumo.csv`); N42 ✔ (`analise/tabelas/09_reentrada_resumo.csv`)
-  - ☐ **[5.2.2.3]** As duas leituras valem se a ordem de validação não se ligar ao projeto, o que as datas de protocolo permitem testar.
-
-- **5.2.3** — *Passo:* Estratégia para H1: experimento conjunto com decisores
-  - ☐ **[5.2.3.1]** **H1.** Um experimento conjunto separa marca e valor público: decisores de empresas contribuintes escolhem entre pares de perfis de projeto com atributos sorteados (escala, visibilidade, local, gratuidade, público estimado), e o sorteio identifica o efeito marginal médio de cada atributo sobre a escolha (HAINMUELLER; HOPKINS; YAMAMOTO, 2014).
+- **5.2.2** — *Passo:* Estratégia para H1: experimento conjunto com decisores de empresas e residentes
+  - ☐ **[5.2.2.1]** **H1.** Um experimento conjunto separa marca e valor público: decisores de empresas contribuintes escolhem entre pares de perfis de projeto com atributos sorteados (escala, visibilidade, local, gratuidade, público estimado), e o sorteio identifica o efeito marginal médio de cada atributo sobre a escolha (HAINMUELLER; HOPKINS; YAMAMOTO, 2014).
     - citações: HAINMUELLER; HOPKINS; YAMAMOTO, 2014
-  - ☐ **[5.2.3.2]** É uma pergunta de mecanismo: aplicados aos habilitados, os pesos estimados indicam o que fica sem patrocínio (o pequeno, o gratuito, o do interior), a confrontar com H4 e H5.
+  - ☐ **[5.2.2.2]** Os mesmos perfis vão a uma amostra de residentes do estado, e os grupos se comparam pelas médias marginais de escolha de cada atributo; aplicados aos projetos habilitados, os dois conjuntos de pesos indicam o que cada um financiaria, e a diferença, o bem público que a escolha privada deixa de fora.
 
-- **5.2.4** — *Passo:* Estratégia para H4: promoção aleatória por município e braços entre agentes
-  - ☐ **[5.2.4.1]** **H4.** Uma promoção aleatória de apoio à inscrição e à busca de patrocínio, sorteada entre os 71 municípios do interior, não altera nenhuma regra de alocação; nos municípios sorteados, dois braços, sorteados entre os agentes, separam o atrito documental do de patrocínio.
+- **5.2.3** — *Passo:* Estratégia para H2: avaliação cega da regra de decisão; severidade do parecerista como extensão
+  - ☐ **[5.2.3.1]** **H2.** Sem nota, não há corte para regressão descontínua.
+  - ☐ **[5.2.3.2]** O teste, descritivo, é uma avaliação cega da regra de decisão: avaliadores independentes dão nota, nos critérios de interesse público do decreto, a uma amostra de inscritos, habilitados e inabilitados, sem saber o destino de cada projeto.
+  - ☐ **[5.2.3.3]** Se a decisão segue critério público, a nota separa habilitados de inabilitados e, entre os habilitados, quem capta.
+  - ☐ **[5.2.3.4]** A severidade do parecerista, designado por ordem de inscrição e área (SECULT, 2025c), seria instrumento para o efeito do parecer, como em Maestas, Mullen e Strand (2013), mas é fraca com 41 pareceristas e fica como extensão.
+    - citações: SECULT, 2025c; Mullen e Strand (2013)
+    - checagem de dados: N56 ✔ (`analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026)`)
+
+- **5.2.4** — *Passo:* Estratégia para H3: acúmulo das taxas no teto e diferenças em diferenças com a regra de 2026
+  - ☐ **[5.2.4.1]** **H3.** As planilhas de custos, pedidas pela Lei de Acesso à Informação (LAI), dão a parcela de captação e elaboração de cada projeto.
+  - ☐ **[5.2.4.2]** Se as taxas se acumulam no teto de 10%, o preço é fixado pela regra, e não pelo custo do serviço; a regra de 2026, que permite pagá-las ao proponente, compara-se à de 2025 por diferenças em diferenças, entre projetos que contratavam captador e os demais.
+    - ⚠ números sem checagem automática (conferir na fonte citada): 10%
+
+- **5.2.5** — *Passo:* Estratégia para H4: promoção aleatória por município e braços entre agentes
+  - ☐ **[5.2.5.1]** **H4.** Uma promoção aleatória de apoio à inscrição e à busca de patrocínio, sorteada entre os 71 municípios do interior, não altera nenhuma regra de alocação; nos municípios sorteados, dois braços, sorteados entre os agentes, separam o atrito documental do de patrocínio.
     - checagem de dados: N72 ✔ (`analise/tabelas/07_mapa_quadro_h3.csv`)
-  - ☐ **[5.2.4.2]** A promoção estima o efeito da oferta e, para quem responde a ela, o efeito local (ANGRIST; IMBENS; RUBIN, 1996).
+  - ☐ **[5.2.5.2]** A promoção estima o efeito da oferta e, para quem responde a ela, o efeito local (ANGRIST; IMBENS; RUBIN, 1996).
     - citações: ANGRIST; IMBENS; RUBIN, 1996
-  - ☐ **[5.2.4.3]** Como o teto é fixo, sortear também a intensidade da oferta mede o deslocamento de outros proponentes (BAIRD *et al.*, 2018), mas, com 71 municípios, só em caráter exploratório.
+  - ☐ **[5.2.5.3]** Como o teto é fixo, sortear também a intensidade da oferta mede o deslocamento de outros proponentes (BAIRD *et al.*, 2018), mas, com 71 municípios, só em caráter exploratório.
     - citações: BAIRD *et al.*, 2018
     - ⚠ números sem checagem automática (conferir na fonte citada): 71
 
-- **5.2.5** — *Passo:* Estratégia para H2: severidade do parecerista como instrumento (exploratória)
-  - ☐ **[5.2.5.1]** **H2.** Sem nota, não há corte para regressão descontínua, mas os projetos são distribuídos aos pareceristas por ordem de inscrição e área (SECULT, 2025c).
-    - citações: SECULT, 2025c
-  - ☐ **[5.2.5.2]** Se essa designação se comportar como sorteio dentro de área e período, a severidade do parecerista (a parcela de pareceres favoráveis nos seus outros projetos) é instrumento para o parecer, como o examinador designado em Maestas, Mullen e Strand (2013), sob exclusão e monotonicidade testáveis e com o parecerista de cada inscrição obtido pela Lei de Acesso à Informação (LAI).
-    - citações: Mullen e Strand (2013)
-  - ☐ **[5.2.5.3]** Como são 41 pareceristas credenciados, de 4 a 20 por área, o instrumento por área é fraco, e o desenho fica exploratório, com áreas afins agrupadas.
-    - checagem de dados: N56 ✔ (`analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026)`)
-
-- **5.2.6** — *Passo:* Lista os métodos que ficam para depois
-  - ☐ **[5.2.6.1]** **O que fica aberto.** Regressão descontínua no tempo (protocolo em torno do esgotamento de cada cota), variáveis instrumentais (recusa pelo teto; severidade do parecerista) e, para H3, diferenças em diferenças com as regras de custo de 2025 e 2026.
+- **5.2.6** — *Passo:* Estratégia para H5: margem do racionamento, validação tardia de 2024 e desenho prospectivo (regressão descontínua no tempo)
+  - ☐ **[5.2.6.1]** **H5.** Os termos validados pouco antes do esgotamento do teto e os de 32 projetos recusados em 2023 e 2024 tinham, todos, patrocinador disposto.
+    - checagem de dados: N31 ✔ (`dados/processados/indeferidos_2023_2024.csv`)
+  - ☐ **[5.2.6.2]** Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte: com resultado datado, a comparação estima o efeito de receber agora; para o de receber em algum momento, o indeferimento serve de instrumento, com primeiro estágio de 41% (13 dos 32 recusados não captaram depois).
+    - checagem de dados: N30 ✔ (`analise/tabelas/09_reentrada_resumo.csv`); N42 ✔ (`analise/tabelas/09_reentrada_resumo.csv`)
+  - ☐ **[5.2.6.3]** Em 2024, das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior, no ano em que o teto passou de R\$ 15 para R\$ 25 milhões: a comparação com as 20 que não viraram mede o efeito de receber mais tarde.
+    - checagem de dados: N81 ✔ (`analise/tabelas/13_versoes_captados_fila.csv (2024)`); N82 ✔ (`analise/tabelas/13_versoes_captados_fila.csv (2024)`)
+    - ⚠ números sem checagem automática (conferir na fonte citada): 25
+  - ☐ **[5.2.6.4]** Para decidir, o desenho precisa ser prospectivo: a SEFAZ registra a hora de protocolo e a recusa de cada termo, a SECULT padroniza no relatório de execução a realização e o público, e a comparação vira regressão descontínua no tempo em torno do esgotamento de cada cota, acumulada ano a ano.
+  - ☐ **[5.2.6.5]** Como o momento do esgotamento não é conhecido de antemão, é difícil manipular a posição na fila, e a ordem de validação não deve se ligar ao projeto, o que as datas de protocolo permitem testar.
 
 
 ### 5.3 Desenho da amostra e fontes de dados
 
 - **5.3.1** — *Passo:* Define populações, listagens e a chave de ligação por CNPJ
-  - ☐ **[5.3.1.1]** Para H5 e H2, trabalha-se com o universo, e a listagem vem dos anexos oficiais: 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes, e os termos de 2023 e 2024 na margem do racionamento.
-    - checagem de dados: N22 ✔ (`analise/tabelas/07_poder_hipoteses.csv (nota)`)
-  - ☐ **[5.3.1.2]** Para H1, a população principal é quem decide o patrocínio (marketing, diretoria ou relações institucionais): a listagem parte das 26 patrocinadoras de 2025, e os maiores contribuintes fora do Simples Nacional, listados com a SEFAZ, formam uma extensão, com parâmetro possivelmente diferente.
+  - ☐ **[5.3.1.1]** Para H5, a listagem são os termos de 2023 e 2024 na margem do racionamento e, no desenho prospectivo, todos os protocolados a partir de 2027.
+  - ☐ **[5.3.1.2]** Para H2, o universo são os 293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes, e os 86 inabilitados das atas da CAP, de onde se sorteia a amostra da avaliação cega; para H3, as planilhas de 2025 e 2026.
+    - checagem de dados: N22 ✔ (`analise/tabelas/07_poder_hipoteses.csv (nota)`); N80 ✔ (`analise/tabelas/12_cap_deliberacoes.csv`)
+  - ☐ **[5.3.1.3]** Para H1, a população principal é quem decide o patrocínio (marketing, diretoria ou relações institucionais): a listagem parte das 26 patrocinadoras de 2025, e os maiores contribuintes fora do Simples Nacional, listados com a SEFAZ, formam uma extensão; o braço da população é uma amostra de residentes por cotas de região.
     - checagem de dados: N55 ✔ (`analise/tabelas/03_patrocinadores_concentracao.csv`)
-  - ☐ **[5.3.1.3]** Para H4, a listagem é o cadastro de agentes do Mapa Cultural, em que 79% dos coletivos e 78% dos individuais não informam município; com município no interior, há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71.
+  - ☐ **[5.3.1.4]** Para H4, a listagem é o cadastro de agentes do Mapa Cultural, em que 79% dos coletivos e 78% dos individuais não informam município; com município no interior, há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71.
     - checagem de dados: N38 ✔ (`analise/tabelas/07_mapa_agentes_cobertura.csv`); N39 ✔ (`analise/tabelas/07_mapa_quadro_h3.csv`)
-  - ☐ **[5.3.1.4]** A oferta é sorteada entre municípios do interior e chega a todos os agentes cadastrados sem inscrição anterior; quem não está no Mapa fica de fora, um viés de cobertura.
-  - ☐ **[5.3.1.5]** A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
+  - ☐ **[5.3.1.5]** A oferta é sorteada entre municípios do interior e chega a todos os agentes cadastrados sem inscrição anterior; quem não está no Mapa fica de fora, um viés de cobertura.
+  - ☐ **[5.3.1.6]** O Mapa serve, assim, de retrato da demanda: agentes e eventos que nunca aparecem nos anexos da LICC são os projetos pequenos que a escolha concentrada não alcança.
+  - ☐ **[5.3.1.7]** A chave de ligação é o CNPJ do proponente: o Portal da Transparência o traz para quem captou (ESPÍRITO SANTO, 2026), e os avisos de habilitação no Diário Oficial, para a maior parte dos demais (DIO-ES, 2026); juntas, cobrem 385 dos 463 habilitados (83%), e o restante e os inabilitados ficam para a LAI (Quadro 4).
     - citações: ESPÍRITO SANTO, 2026; DIO-ES, 2026
     - checagem de dados: N65 ✔ (`analise/tabelas/18_cobertura_cnpj.csv`)
 
@@ -418,8 +430,9 @@
   - ☐ **Anexos de habilitados e captados; avisos do Diário Oficial; extratos das atas da CAP** — Status, valores e patrocinador; CNPJ e data da habilitação; data de cada depósito (82% dos termos de 2022-2025); inabilitados — H5 (tratamento e intensidade); H2 — Público
     - checagem de dados: N66 ✔ (`analise/tabelas/18_deposito_x_portal.csv`)
   - ☐ **Portal da Transparência (SEFAZ); Receita Federal** — Termos de 2022-2025: data, patrocinador e proponente (CNPJ); pelo CNPJ, porte, idade e sede — Fila (H5); pares e porte (H1, H4) — Público
-  - ☐ **SEFAZ** — Hora de protocolo (pública só nos validados de 2025) e de validação dos termos, cota e indeferidos — H5 (racionamento) — Pedido por LAI
-  - ☐ **Relatórios de execução** — Lista de presença e estimativa de público (IN 001/2025, art. 66), gratuidade, locais, contrapartidas — *Y* de H5 — Interno
+  - ☐ **SEFAZ** — Hora de protocolo (pública só nos validados de 2025) e de validação dos termos, cota e indeferidos — H5 (margem; desenho prospectivo) — Pedido por LAI
+  - ☐ **Pesquisa própria** — Escolhas de decisores e residentes entre perfis de projeto; nota cega dos projetos inscritos — H1, H2 — Coleta
+  - ☐ **Relatórios de execução** — Lista de presença e estimativa de público (IN 001/2025, art. 66), gratuidade, locais, contrapartidas — *Y* de H5 (a padronizar) — Interno
   - ☐ **Mapa Cultural (API)** — Agentes, espaços e agenda de eventos por município — Listagem de H4; eventos datados de 18 projetos (*Y* de H5) — Público
     - checagem de dados: N67 ✔ (`dados/externos/mapa_eventos_licc.csv`)
 
@@ -441,11 +454,17 @@
   - ☐ **[5.4.2.2]** Nela, $p_0$ é a proporção no grupo de comparação, $T$ a fração tratada, $n$ o número de unidades, e o último termo é o efeito do desenho com unidades em grupos (agentes de um município, perfis de um decisor), com tamanho médio $\bar m$, coeficiente de variação $cv$ e correlação intragrupo $\rho$ (ELDRIDGE; ASHBY; KERRY, 2006); $p_0$ e $\rho$ são hipóteses a calibrar.
     - citações: ELDRIDGE; ASHBY; KERRY, 2006
 
-### Tabela 2 – Efeito mínimo detectável por pergunta (pontos percentuais)
+### Tabela 2 – Efeito mínimo detectável por pergunta (pontos percentuais, salvo indicação)
 
 - **Colunas:** Pergunta e comparação · Unidades · Cenários · EMD
   - ☐ **H1: experimento conjunto** — 30 a 60 decisores × 12 tarefas — $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor — 7,4 a 19,0
     - checagem de dados: N48 ✔ (`analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12)`)
+  - ☐ **H1: diferença empresas − população** — e 500 residentes × 6 tarefas — idem — 8,2 a 19,7
+    - checagem de dados: N76 ✔ (`analise/tabelas/19_poder_revisao.csv`)
+  - ☐ **H2: nota cega, habilitados × inabilitados** — 86 × 86 projetos — nota padronizada — 0,43 DP
+    - checagem de dados: N77 ✔ (`analise/tabelas/19_poder_revisao.csv`)
+  - ☐ **H2: nota cega, captou × não captou** — 198 × 95 habilitados — nota padronizada — 0,35 DP
+    - checagem de dados: N78 ✔ (`analise/tabelas/19_poder_revisao.csv`)
   - ☐ **H5: margem do racionamento, 2023-2024** — 32 recusados × 32 validados — $p_0$ de 0,2 a 0,6 — 28 a 34
     - checagem de dados: N24 ✔ (`analise/tabelas/07_poder_hipoteses.csv`)
   - ☐ **H4: oferta por município, só coletivos** — 52 municípios, 257 coletivos ($\bar m$ = 4,9; *cv* = 1,32) — $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 — 5,5 a 13,4
@@ -456,21 +475,24 @@
 - **5.4.3** (fonte do quadro, tabela ou figura)
   - ☐ **[5.4.3.1]** Fonte: elaboração própria; `analise/tabelas/07_poder_hipoteses.csv`, `07_mapa_quadro_h3.csv`, `10_poder_conjoint.csv` e `19_poder_revisao.csv` (scripts `analise/07_hipoteses_h1_h3.py`, `10_poder_mercado_rubricas.py` e `19_poder_revisao.py`).
 
-- **5.4.4** — *Passo:* Interpreta o poder de cada desenho: margem, VI, conjunto, conglomerados e adesão
-  - ☐ **[5.4.4.1]** A comparação na margem do racionamento só detecta efeitos muito grandes e serve como verificação de robustez; para o efeito de receber em algum momento, o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos.
+- **5.4.4** — *Passo:* Interpreta o poder de cada desenho: margem, prospectivo, conjunto, avaliação cega, conglomerados e adesão
+  - ☐ **[5.4.4.1]** A comparação na margem do racionamento só detecta efeitos muito grandes; para o efeito de receber em algum momento, o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos.
     - checagem de dados: N68 ✔ (`analise/tabelas/19_poder_revisao.csv`)
-  - ☐ **[5.4.4.2]** Com os recusados de 2025 e 2026 (LAI), se dobrarem a margem, o EMD de receber agora cai para 20 a 24 pontos.
-    - checagem de dados: N69 ✔ (`analise/tabelas/19_poder_revisao.csv`)
-  - ☐ **[5.4.4.3]** O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30.
-    - checagem de dados: N49 ✔ (`analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12)`)
-  - ☐ **[5.4.4.4]** O desenho de H4 detecta efeitos de poucos pontos se incluir os agentes individuais, que precisariam de CNPJ (MEI) para se inscrever, e só assim atende à regra de 30 a 50 conglomerados por grupo (GERTLER *et al.*, 2018): são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos.
+  - ☐ **[5.4.4.2]** Para detectar 15 pontos, o desenho prospectivo precisa de 112 a 168 recusados por braço: no ritmo de 2023 e 2024, de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos, e H5 só decide no longo prazo ou com esgotamentos mais frequentes.
+    - checagem de dados: N69 ✔ (`analise/tabelas/19_poder_revisao.csv`); N83 ✔ (`analise/tabelas/09_reentrada_resumo.csv`)
+    - ⚠ números sem checagem automática (conferir na fonte citada): 15
+  - ☐ **[5.4.4.3]** O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30; o braço da população pouco acrescenta ao erro, e a diferença entre empresas e população fica entre 8 e 20 pontos.
+    - checagem de dados: N49 ✔ (`analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12)`); N75 ✔ (`analise/tabelas/19_poder_revisao.csv`)
+  - ☐ **[5.4.4.4]** A avaliação cega detecta diferença de nota de 0,43 desvio-padrão (DP) entre habilitados e inabilitados.
+    - checagem de dados: N79 ✔ (`analise/tabelas/19_poder_revisao.csv`)
+  - ☐ **[5.4.4.5]** O desenho de H4 detecta efeitos de poucos pontos se incluir os agentes individuais, que precisariam de CNPJ (MEI) para se inscrever, e só assim atende à regra de 30 a 50 conglomerados por grupo (GERTLER *et al.*, 2018): são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos.
     - citações: GERTLER *et al.*, 2018
     - checagem de dados: N70 ✔ (`analise/tabelas/19_poder_revisao.csv`)
     - ⚠ números sem checagem automática (conferir na fonte citada): 30, 50
-  - ☐ **[5.4.4.5]** Só com os coletivos, são 26 por grupo, e o efeito mínimo passa de 5 pontos.
+  - ☐ **[5.4.4.6]** Só com os coletivos, são 26 por grupo, e o efeito mínimo passa de 5 pontos.
     - checagem de dados: N40 ✔ (`analise/tabelas/07_poder_hipoteses.csv`); N71 ✔ (`analise/tabelas/07_mapa_quadro_h3.csv`)
-  - ☐ **[5.4.4.6]** Para quem adere à oferta, o EMD é o da Tabela 2 dividido pela adesão.
-  - ☐ **[5.4.4.7]** Com poder baixo, uma estimativa "significativa" tende a exagerar o efeito verdadeiro (GELMAN; CARLIN, 2014), o que recomenda pré-registrar a análise e corrigir comparações múltiplas.
+  - ☐ **[5.4.4.7]** Para quem adere à oferta, o EMD é o da Tabela 2 dividido pela adesão.
+  - ☐ **[5.4.4.8]** Com poder baixo, uma estimativa "significativa" tende a exagerar o efeito verdadeiro (GELMAN; CARLIN, 2014), o que recomenda pré-registrar a análise e corrigir comparações múltiplas.
     - citações: GELMAN; CARLIN, 2014
 
 
@@ -480,10 +502,11 @@
   - ☐ **[5.5.1.1]** A primeira ameaça à validade interna é a violação da hipótese de ausência de interferência entre unidades (SUTVA): com o teto fixo, o que um projeto capta falta a outro.
   - ☐ **[5.5.1.2]** Seguem-se a substituição de fonte (a captação pela Lei Rouanet entra como resultado), os eventos externos do período (Lei Paulo Gustavo e Política Nacional Aldir Blanc) e o atrito dos dados.
   - ☐ **[5.5.1.3]** No experimento conjunto, a escolha declarada pode pender para o socialmente desejável; a escolha forçada entre perfis reduz o viés, e os patrocínios observados servem de validação.
-  - ☐ **[5.5.1.4]** A validade externa é limitada: as comparações de H5 valem para o regime de 2022-2024, em que a habilitação precedia a busca por patrocinador, e desde 2025 os expirados quase desapareceram (3 em 56 resolvidos no ciclo 2025).
+  - ☐ **[5.5.1.4]** Na avaliação cega, dois avaliadores por projeto medem a confiabilidade da nota.
+  - ☐ **[5.5.1.5]** A validade externa é limitada: as comparações retrospectivas de H5 valem para o regime de 2022-2024, em que a habilitação precedia a busca por patrocinador, e desde 2025 os expirados quase desapareceram (3 em 56 resolvidos no ciclo 2025).
     - checagem de dados: N27 ✔ (`analise/tabelas/07_funil_por_ciclo.csv`)
-  - ☐ **[5.5.1.5]** No plano ético, nenhum desenho nega acesso a elegíveis: o apoio chega aos controles ao fim, e o deslocamento pelo teto é medido pela saturação.
-  - ☐ **[5.5.1.6]** Dados identificados exigem anonimização (LGPD), e pesquisas com pessoas, aprovação de comitê de ética.
+  - ☐ **[5.5.1.6]** No plano ético, nenhum desenho nega acesso a elegíveis: o apoio chega aos controles ao fim, e o deslocamento pelo teto é medido pela saturação.
+  - ☐ **[5.5.1.7]** Dados identificados exigem anonimização (LGPD), e pesquisas com pessoas, aprovação de comitê de ética.
 
 
 ## 6 Conclusão
@@ -497,7 +520,7 @@
   - ☐ **[6.2.1]** Sem alterar o mecanismo, a gestão pode declarar objetivos, metas e indicadores e publicar, em formato aberto, os inscritos, com CNPJ, sede e motivo de inabilitação; a captação por cota; a fila de termos, com datas de protocolo e validação, também dos recusados; e custos, contrapartidas e público alcançado.
 
 - **6.3** — *Passo:* Retoma a pergunta central (H5), a implicação para o teto e as limitações
-  - ☐ **[6.3.1]** Das quatro perguntas, a da entrega (H5) é a mais importante e a mais difícil: mais da metade dos recusados por falta de teto captou no ano seguinte, e comparar quem recebe com quem não recebe exige resultado datado e a fila de termos com as datas.
+  - ☐ **[6.3.1]** Das cinco perguntas, a da entrega (H5) é a mais importante e a mais difícil: mais da metade dos recusados por falta de teto captou no ano seguinte, e comparar quem recebe com quem não recebe exige resultado datado e a fila de termos com as datas.
   - ☐ **[6.3.2]** Se a adicionalidade na margem for baixa, ampliar o teto financia sobretudo o que ocorreria de todo modo, e as decisões que importam passam a ser quem entra e o que se entrega.
   - ☐ **[6.3.3]** Limitações dos dados: a situação publicada aproxima a captação, a estreia é medida por nome de proponente, e o retrato territorial cobre 74% do valor.
     - checagem de dados: D33 ✔ (`analise/tabelas/03_territorio_indicadores.csv`); N28 ✔ (`analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741)`)
@@ -610,9 +633,9 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
 
 ## Números a conferir à mão
 
-182 frases e linhas de tabela; 50 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
+196 frases e linhas de tabela; 55 com checagem automática de dados. Abaixo, as que têm números sem checagem automática (a maioria é regra de norma; conferir na fonte citada):
 
-### Dado ou literatura (13)
+### Dado ou literatura (17)
 
 - ☐ [1.1.3]: 25, 63
 - ☐ [1.2.1]: 27
@@ -624,9 +647,13 @@ Status da última conferência (`artigo/auditoria/checagem_referencias.csv`): VE
 - ☐ [4.2.6.4]: 400
 - ☐ [4.2.10.1]: 30%
 - ☐ [4.2.10.3]: 10%
-- ☐ [5.2.4.3]: 71
+- ☐ linha «H3»: 10%
+- ☐ [5.2.4.2]: 10%
+- ☐ [5.2.5.3]: 71
+- ☐ [5.2.6.3]: 25
 - ☐ [5.4.2.1]: 5%, 80%
-- ☐ [5.4.4.4]: 30, 50
+- ☐ [5.4.4.2]: 15
+- ☐ [5.4.4.5]: 30, 50
 
 ### Regra de norma (11)
 

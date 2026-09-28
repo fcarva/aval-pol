@@ -70,6 +70,9 @@ N76,CONFERE,"| 8,2 a 19,7 |",analise/tabelas/19_poder_revisao.csv,"| H1: diferen
 N77,CONFERE,"| 86 × 86 projetos | nota padronizada | 0,43 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, habilitados × inabilitados | 86 × 86 projetos | nota padronizada | 0,43 DP |"
 N78,CONFERE,"| 198 × 95 habilitados | nota padronizada | 0,35 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, captou × não captou | 198 × 95 habilitados | nota padronizada | 0,35 DP |"
 N79,CONFERE,"diferença de nota de 0,43 desvio-padrão",analise/tabelas/19_poder_revisao.csv,"A avaliação cega detecta diferença de nota de 0,43 desvio-padrão"
+N81,CONFERE,"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior",analise/tabelas/13_versoes_captados_fila.csv (2024),"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior"
+N82,CONFERE,com as 20 que não viraram,analise/tabelas/13_versoes_captados_fila.csv (2024),a comparação com as 20 que não viraram
+N83,CONFERE,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos",analise/tabelas/09_reentrada_resumo.csv; 19_poder_revisao.csv,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos"
 N80,CONFERE,os 86 inabilitados,analise/tabelas/12_cap_deliberacoes.csv,os 86 inabilitados das atas da CAP
 N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
 N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"

@@ -588,6 +588,19 @@ CHECAGENS += [
     ("N79", "A avaliação cega detecta diferença de nota de 0,43 desvio-padrão",
      f"diferença de nota de {num(_p19.loc[_p19['desenho'].str.contains('habilitados × inabilitados'), 'emd_pontos'].iloc[0], 2)} desvio-padrão",
      T + "19_poder_revisao.csv"),
+    ("N81", "das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior",
+     (lambda f: f"das {int((f['versoes_indeferido'] > 0).sum())} recusas registradas nas versões sucessivas do anexo, "
+                f"{int(f['indeferido_depois_validado'].sum())} viraram validação em versão posterior")(
+         ler(TAB / "13_versoes_captados_fila.csv").query("ano == 2024")), T + "13_versoes_captados_fila.csv (2024)"),
+    ("N82", "a comparação com as 20 que não viraram",
+     (lambda f: f"com as {int((f['versoes_indeferido'] > 0).sum() - f['indeferido_depois_validado'].sum())} que não viraram")(
+         ler(TAB / "13_versoes_captados_fila.csv").query("ano == 2024")), T + "13_versoes_captados_fila.csv (2024)"),
+    ("N83", "de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos",
+     (lambda r, n: f"de {int(r.min())} a {int(r.max())} projetos recusados por ano, são de "
+                   f"{int(-(-n.min() // r.max()))} a {int(-(-n.max() // r.min()))} ciclos")(
+         ler(TAB / "09_reentrada_resumo.csv")["projetos_recusados"],
+         _p19.loc[_p19["desenho"].str.contains("recusados necessários"), "recusados_por_braco"]),
+     T + "09_reentrada_resumo.csv; 19_poder_revisao.csv"),
     ("N80", "os 86 inabilitados das atas da CAP",
      (lambda c: f"os {c.loc[c['situacao'] == 'inabilitado', 'processo'].nunique()} inabilitados")(ler(TAB / "12_cap_deliberacoes.csv")),
      T + "12_cap_deliberacoes.csv"),
