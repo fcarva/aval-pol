@@ -507,7 +507,7 @@ CHECAGENS += [
     # revisão de 27/09/2026 (atas e teto por projeto)
     ("N58", "36% dos habilitados do ciclo 2025 pediram exatamente R\\$ 500 mil",
      f"{pct(bunch.loc['2025', 'pct_exatamente_500mil'])} dos habilitados do ciclo 2025", T + "03_bunching_teto.csv"),
-    ("N60", "Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",
+    ("N60", "As atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",
      f"de {cap_reunioes_delib} reuniões com deliberação, de {cap_anos[0]} a {cap_anos[1]}, listam {len(_inab)} projetos inabilitados, "
      f"{pct(len(_inab - _hab) / len(_hab | _inab))} dos deliberados", T + "12_cap_deliberacoes.csv; 12_cap_reunioes.csv"),
     ("N59", "até 2023, 5% do montante anual; desde 2024, R\\$ 500 mil",
@@ -622,6 +622,73 @@ CHECAGENS += [
     ("N74", "pedidos até R\\$ 400 mil captaram 79% em 2022 e 27% em 2024",
      f"captaram {pct(fx(2022, 'até 400 mil'))} em 2022 e {pct(fx(2024, 'até 400 mil'))} em 2024",
      T + "03_status_conversao_por_faixa_valor_e_ciclo.csv"),
+]
+
+
+# revisão r6 (28/09/2026): §5 refeita em torno de uma pergunta (analise/23) e Fase A (analise/21, 22; Firecrawl).
+# Saem as checagens do desenho anterior (experimento conjunto, nota cega, sorteio entre municípios, instrumento,
+# diferenças em diferenças por porte) e as de trechos que o autor retirou (Gini/Theil, cobertura territorial).
+_FORA_R6 = {"D33", "N20", "N21", "N22", "N24", "N26", "N28", "N30", "N31", "N38", "N39", "N40", "N42", "N48", "N49", "N55", "N56", "N66", "N67", "N68",
+            "N69", "N70", "N71", "N72", "N75", "N76", "N77", "N78", "N79", "N81", "N83", "N85", "N86"}
+CHECAGENS = [c for c in CHECAGENS if c[0] not in _FORA_R6]
+_et21 = ler(TAB / "21_etapas_captacao.csv").set_index("ano_captacao")
+_r22 = ler(TAB / "22_recusados_outras_fontes.csv")
+_f23 = ler(TAB / "23_captacao_por_faixa.csv").set_index(["ciclo", "faixa"])
+_p23 = ler(TAB / "23_poder_secao5.csv")
+_rr09 = ler(TAB / "09_reentrada_resumo.csv")
+_fun07 = ler(TAB / "07_funil_por_ciclo.csv").query("ciclo <= 2024")
+
+
+def _emd23(contraste: str) -> str:
+    v = _p23.loc[_p23["contraste"] == contraste, "emd_pontos"]
+    return f"{num(v.min())} a {num(v.max())}"
+
+
+def _linha23(contraste: str) -> str:
+    r = _p23[_p23["contraste"] == contraste].iloc[0]
+    return f"| {num(r['n1'])} × {num(r['n0'])} | {_emd23(contraste)} |"
+
+
+CHECAGENS += [
+    ("N87", "e a soma coincide com a dos termos no Portal da Transparência e com a renúncia realizada informada pela SEFAZ",
+     "coincide" if all(bool(_et21.loc[a, "anexo_portal_renuncia_conferem"]) for a in (2023, 2024, 2025)) else "?",
+     T + "21_etapas_captacao.csv (anexo = Portal = renúncia realizada, 2023-2025)"),
+    ("N88", "só 2 dos 32 recusados têm registro público do projeto",
+     f"só {int(((_r22['rouanet_mesmo_titulo'] > 0) | (_r22['mapa_eventos_datados_desde_recusa'] > 0)).sum())} dos {len(_r22)} recusados",
+     T + "22_recusados_outras_fontes.csv (PRONAC de mesmo título ou evento datado no Mapa)"),
+    ("N89", "a captação dos pedidos até R\\$ 400 mil caiu de 79% para 27%, e a dos maiores, de 90% para 73%",
+     f"caiu de {pct(_f23.loc[('2022', 'até 400 mil'), 'taxa_captacao'])} para {pct(_f23.loc[('2024', 'até 400 mil'), 'taxa_captacao'])}, "
+     f"e a dos maiores, de {pct(_f23.loc[('2022', 'acima de 400 mil'), 'taxa_captacao'])} para "
+     f"{pct(_f23.loc[('2024', 'acima de 400 mil'), 'taxa_captacao'])}", T + "23_captacao_por_faixa.csv"),
+    ("N90", "das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação",
+     (lambda f: f"das {int((f['versoes_indeferido'] > 0).sum())} recusas registradas nas versões sucessivas do anexo, "
+                f"{int(f['indeferido_depois_validado'].sum())} viraram validação")(
+         ler(TAB / "13_versoes_captados_fila.csv").query("ano == 2024")), T + "13_versoes_captados_fila.csv (2024)"),
+    ("N91", "os 32 projetos recusados em 2023 e 2024, os 95 habilitados de 2022-2024 cuja captação expirou",
+     f"os {int(_rr09['projetos_recusados'].sum())} projetos recusados em 2023 e 2024, os {int(_fun07['expirou'].sum())} habilitados",
+     T + "09_reentrada_resumo.csv; 07_funil_por_ciclo.csv"),
+    ("N92", "| recusados de 2023-2024; expirados de 2022-2024 | 32 × 95 | 26 a 29 |", _linha23("V = theta1 - theta0"),
+     T + "23_poder_secao5.csv"),
+    ("N93", "| expirados até R\\$ 400 mil × acima | 58 × 37 | 27 a 29 |", _linha23("theta0 até 400 mil - theta0 acima"),
+     T + "23_poder_secao5.csv"),
+    ("N94", "| expirados × inabilitados | 95 × 86 | 19 a 21 |", _linha23("filtro da CAP"), T + "23_poder_secao5.csv"),
+    ("N95", "| últimos validados × recusados | 32 × 32 | 32 a 35 |", _linha23("EMPT na margem"), T + "23_poder_secao5.csv"),
+    ("N96", "| recusas convertidas × mantidas | 27 × 20 | 38 a 41 |", _linha23("EMPT na margem, ampliação de 2024"),
+     T + "23_poder_secao5.csv"),
+    ("N97", "| recusados × expirados acumulados | 96 × 222 | 16 a 17 |", _linha23("V, com mais 4 ciclos"),
+     T + "23_poder_secao5.csv"),
+    ("N98", "o contraste principal só detecta diferenças de 26 a 29 pontos",
+     f"diferenças de {_emd23('V = theta1 - theta0')} pontos", T + "23_poder_secao5.csv"),
+    ("N99", "o EMD cai para 16 a 17 pontos", f"cai para {_emd23('V, com mais 4 ciclos')} pontos", T + "23_poder_secao5.csv"),
+    ("N100", "com mais quatro ciclos, detecta só 28 a 30 pontos",
+     f"detecta só {_emd23('theta1 até 400 mil - acima, com mais 4 ciclos')} pontos", T + "23_poder_secao5.csv"),
+    ("N101", "Mais da metade dos recusados por falta de teto captou no ano seguinte",
+     "Mais da metade" if _rr09["captaram_no_ano_seguinte"].sum() / _rr09["projetos_recusados"].sum() > 0.5 else "?",
+     T + "09_reentrada_resumo.csv"),
+    ("N102", "\"efeito multiplicador de 1,74\"",
+     "efeito multiplicador de 1,74" if "efeito multiplicador de 1,74" in (RAIZ / "dados" / "fontes_web" / "firecrawl" /
+                                                                        "ijsn_cultura_em_dados_2026.md").read_text(encoding="utf-8") else "?",
+     "dados/fontes_web/firecrawl/ijsn_cultura_em_dados_2026.md (IJSN, notícia de 01/07/2026)"),
 ]
 
 

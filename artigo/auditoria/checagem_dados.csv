@@ -12,7 +12,6 @@ D11,CONFERE,14% a 21%,"analise/tabelas/03f_captacao_anual_secult.csv (validado_s
 D65,CONFERE,"fixou R\$ 10 milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, ampliou o montante em R\$ 5 milhões (DIO-ES, 2026): o teto de 2022 foi de R\$ 15 milhões","dados/externos/dio_teto_trechos.csv (DIO-ES, 27/09/2022, p. 18-19: Portaria SEFAZ nº 83-R); dados/externos/licc_teto_vs_icms.csv","a Portaria SEFAZ nº 09-R fixou R\$ 10 milhões, e a Portaria SEFAZ nº 83-R, de 26 de setembro, ampliou o montante em R\$ 5 milhões (DIO-ES, 2026): o teto de 2022 foi de R\$ 15 milhões"
 D65c,CONFERE,"R\$ 11,5 milhões foram validados",analise/tabelas/03f_captacao_anual_secult.csv,"dos quais R\$ 11,5 milhões foram validados"
 D22,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor
-D33,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv,o retrato territorial cobre 74% do valor
 N02,CONFERE,25.441,analise/tabelas/07_mapa_cultural_universo.csv,entre os 25.441 agentes cadastrados no Mapa Cultural
 N03,CONFERE,25.441 (2.592),analise/tabelas/07_mapa_cultural_universo.csv,| Agentes culturais cadastrados no Mapa Cultural (coletivos) | 25.441 (2.592) |
 N04,CONFERE,68%,analise/tabelas/07_funil_por_ciclo.csv,68% dos habilitados de 2022-2024 com situação resolvida captaram
@@ -25,57 +24,41 @@ N14,CONFERE,71% contra 57%,analise/tabelas/03_status_conversao_recorrencia_2023_
 N15,CONFERE,28% e 35%,analise/tabelas/03f_captacao_anual_secult.csv,Termos com patrocinador de 28% e 35% do montante recusados em 2023 e 2024
 N16,CONFERE,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo",analise/tabelas/03_coortes_primeira_presenca_canonico.csv,"39 municípios tiveram o primeiro projeto habilitado em 2022, 16 em 2023 e 3 por ciclo desde então"
 N19,CONFERE,49% da população e fica com 67%,analise/tabelas/03_territorio_rmgv_interior.csv,A RMGV tem 49% da população e fica com 67% do valor atribuível a um município em 2022-2026
-N20,CONFERE,"0,88",analise/tabelas/03_territorio_indicadores.csv,"O Gini do valor entre os 78 municípios é 0,88"
-N21,CONFERE,7%,analise/tabelas/03_territorio_indicadores.csv,explica só 7% do índice de Theil
-N22,CONFERE,"293 projetos habilitados em 2022-2024 com situação resolvida, de 172",analise/tabelas/07_poder_hipoteses.csv (nota),"293 projetos habilitados em 2022-2024 com situação resolvida, de 172 proponentes"
-N24,CONFERE,"32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34",analise/tabelas/07_poder_hipoteses.csv; dados/processados/indeferidos_2023_2024.csv,"| H5: margem do racionamento, 2023-2024 | 32 recusados × 32 validados | $p_0$ de 0,2 a 0,6 | 28 a 34 |"
-N26,CONFERE,"71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5",analise/tabelas/07_poder_hipoteses.csv; 07_mapa_quadro_h3.csv,"| H4: oferta por município, todos os agentes | 71 municípios, 2.389 agentes ($\bar m$ = 33,6; *cv* = 1,43) | $p_0$ de 2% a 10%; ρ de 0,02 a 0,05 | 2,8 a 8,5 |"
 N27,CONFERE,(3 em 56,analise/tabelas/07_funil_por_ciclo.csv,(3 em 56 resolvidos no ciclo 2025)
-N30,CONFERE,6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024,analise/tabelas/09_reentrada_resumo.csv,Mas 6 dos 11 recusados em 2023 e 12 dos 21 recusados em 2024 captaram no ano seguinte
-N31,CONFERE,os de 32 projetos,dados/processados/indeferidos_2023_2024.csv,os de 32 projetos recusados em 2023 e 2024
 N34,CONFERE,até 28/01,analise/tabelas/09_cotas_2025_2026.csv,"em 2025, a cota de 50% se completou com termos recebidos até 28/01"
 N36,CONFERE,restam 14 municípios,analise/tabelas/03_coortes_primeira_presenca_canonico.csv,e restam 14 municípios do interior sem projeto
-N38,CONFERE,79% dos coletivos e 78% dos individuais,analise/tabelas/07_mapa_agentes_cobertura.csv,79% dos coletivos e 78% dos individuais não informam município
-N39,CONFERE,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71",analise/tabelas/07_mapa_quadro_h3.csv,"há 257 coletivos em 52 municípios e 2.389 agentes, somados os individuais, nos 71"
-N40,CONFERE,passa de 5 pontos,analise/tabelas/07_poder_hipoteses.csv,"são 26 por grupo, e o efeito mínimo passa de 5 pontos"
-N42,CONFERE,de 41% (13 dos 32 recusados,analise/tabelas/09_reentrada_resumo.csv,com primeiro estágio de 41% (13 dos 32 recusados não captaram depois)
 N44,CONFERE,os 53 a 95 proponentes,analise/tabelas/07_composicao_por_ciclo.csv (2022-2026),e os 53 a 95 proponentes habilitados por ciclo
-N28,CONFERE,74%,analise/tabelas/03_territorio_indicadores.csv (cobertura_valor_atribuivel = 0.741),o retrato territorial cobre 74% do valor
 N45,CONFERE,somam exatamente,artigo/auditoria/auditoria_captacao_anual.csv (2023-2025),os termos de patrocínio listados pela SECULT somam exatamente o montante de cada ano
 N46,CONFERE,"caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%",analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv (taxa_execucao),"a captação caiu de 79% no ciclo 2022 para 27% em 2024, enquanto no teto ficou entre 78% e 89%"
-N48,CONFERE,"30 a 60 decisores × 12 tarefas | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"| H1: experimento conjunto | 30 a 60 decisores × 12 tarefas | $p_0$ = 0,5; ρ = 0 ou 0,1 no decisor | 7,4 a 19,0 |"
-N49,CONFERE,"diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30",analise/tabelas/10_poder_conjoint.csv (30 e 60 × 12),"O experimento conjunto detecta diferenças de 7 a 13 pontos na probabilidade de escolha com 60 decisores, e de 10 a 19 com 30"
 N50,CONFERE,"somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões",analise/tabelas/10_taxa_servico_permitida_2025.csv,"os dois primeiros limites somam R\$ 3,36 milhões, 13% dos R\$ 25 milhões"
 N51,CONFERE,Até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Até 13% do valor captado em 2025 poderia remunerar captação e elaboração
 N52,CONFERE,até 13%,analise/tabelas/10_taxa_servico_permitida_2025.csv,Captação e elaboração poderiam levar até 13% do valor captado em 2025
 N53,CONFERE,até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mil),analise/tabelas/10_rubricas_teto_in.csv (2025),A captação pode custar até 10% (R\$ 50 mil) e a elaboração do projeto até 5% (R\$ 15 mil)
 N54,CONFERE,até 25%,analise/tabelas/10_rubricas_teto_in.csv (2025),a divulgação pode consumir até 25% dos recursos
-N56,CONFERE,fraca com 41 pareceristas,analise/tabelas/10_pareceristas_por_area.csv (lista da SECULT de 18/09/2026),mas é fraca com 41 pareceristas
-N55,CONFERE,das 26 patrocinadoras,analise/tabelas/03_patrocinadores_concentracao.csv,a listagem parte das 26 patrocinadoras de 2025
 N58,CONFERE,36% dos habilitados do ciclo 2025,analise/tabelas/03_bunching_teto.csv,36% dos habilitados do ciclo 2025 pediram exatamente R\$ 500 mil
-N60,CONFERE,"de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",analise/tabelas/12_cap_deliberacoes.csv; 12_cap_reunioes.csv,"Os extratos das atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados"
+N60,CONFERE,"de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados",analise/tabelas/12_cap_deliberacoes.csv; 12_cap_reunioes.csv,"As atas de 158 reuniões com deliberação, de 2022 a 2026, listam 86 projetos inabilitados, 15% dos deliberados"
 N59,CONFERE,"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil",analise/tabelas/11_teto_projeto_por_ano.csv (trechos das INs 2023 e 2024 conferidos),"até 2023, 5% do montante anual; desde 2024, R\$ 500 mil"
 N64,CONFERE,"8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição","dados/fontes_web/paginas/boletim_ec_boletim_economia_criativa_02t_2020.txt (SECULT, Boletim 2T2020)","8,2% dos ocupados no 2º trimestre de 2020, contra 8,5% no país, a 8ª posição"
 N61,CONFERE,48 pares patrocinador–proponente se repetem (44% do valor),analise/tabelas/16_pares_recorrentes.csv; dados/processados/transparencia_licc_termos.csv,48 pares patrocinador–proponente se repetem (44% do valor)
 N62,CONFERE,44 de 107 proponentes voltaram a captar (68% do valor),analise/tabelas/16_concentracao_proponentes.csv,44 de 107 proponentes voltaram a captar (68% do valor)
 N65,CONFERE,cobrem 385 dos 463 habilitados (83%),analise/tabelas/18_cobertura_cnpj.csv,"juntas, cobrem 385 dos 463 habilitados (83%)"
-N66,CONFERE,(82% dos termos de 2022-2025),analise/tabelas/18_deposito_x_portal.csv,data de cada depósito (82% dos termos de 2022-2025)
-N67,CONFERE,eventos datados de 18 projetos,dados/externos/mapa_eventos_licc.csv,eventos datados de 18 projetos
-N68,CONFERE,"primeiro estágio (0,41) e vai a 69 a 84 pontos",analise/tabelas/19_poder_revisao.csv,"o EMD divide-se pelo primeiro estágio (0,41) e vai a 69 a 84 pontos"
-N69,CONFERE,precisa de 112 a 168 recusados por braço,analise/tabelas/19_poder_revisao.csv,o desenho prospectivo precisa de 112 a 168 recusados por braço
-N75,CONFERE,fica entre 8 e 20 pontos,analise/tabelas/19_poder_revisao.csv,a diferença entre empresas e população fica entre 8 e 20 pontos
-N76,CONFERE,"| 8,2 a 19,7 |",analise/tabelas/19_poder_revisao.csv,"| H1: diferença empresas − população | e 500 residentes × 6 tarefas | idem | 8,2 a 19,7 |"
-N77,CONFERE,"| 86 × 86 projetos | nota padronizada | 0,43 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, habilitados × inabilitados | 86 × 86 projetos | nota padronizada | 0,43 DP |"
-N78,CONFERE,"| 198 × 95 habilitados | nota padronizada | 0,35 DP |",analise/tabelas/19_poder_revisao.csv,"| H2: nota cega, captou × não captou | 198 × 95 habilitados | nota padronizada | 0,35 DP |"
-N79,CONFERE,"diferença de nota de 0,43 desvio-padrão",analise/tabelas/19_poder_revisao.csv,"A avaliação cega detecta diferença de nota de 0,43 desvio-padrão"
-N81,CONFERE,"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior",analise/tabelas/13_versoes_captados_fila.csv (2024),"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação em versão posterior"
 N82,CONFERE,com as 20 que não viraram,analise/tabelas/13_versoes_captados_fila.csv (2024),a comparação com as 20 que não viraram
-N83,CONFERE,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos",analise/tabelas/09_reentrada_resumo.csv; 19_poder_revisao.csv,"de 11 a 21 projetos recusados por ano, são de 6 a 16 ciclos"
 N84,CONFERE,"152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor",analise/tabelas/20_patrocinadores_por_projeto.csv,"152 dos 213 projetos com termo em 2022-2025 (71%), com 68% do valor"
-N85,CONFERE,de R\$ 23 milhões no ciclo 2022 para R\$ 47 milhões em 2024,"analise/tabelas/20_desenho_retroativo.csv (valor autorizado por ciclo, 03_anual.csv)",de R\$ 23 milhões no ciclo 2022 para R\$ 47 milhões em 2024
-N86,CONFERE,com os 64 validados sem recusa,analise/tabelas/20_desenho_retroativo.csv,com os 64 validados sem recusa
 N80,CONFERE,os 86 inabilitados,analise/tabelas/12_cap_deliberacoes.csv,os 86 inabilitados das atas da CAP
-N70,CONFERE,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos",analise/tabelas/19_poder_revisao.csv; 07_mapa_quadro_h3.csv,"são 35 ou 36 municípios em cada, e a diferença entre os braços tem EMD de 2,3 a 4,9 pontos"
-N71,CONFERE,são 26 por grupo,analise/tabelas/07_mapa_quadro_h3.csv,"Só com os coletivos, são 26 por grupo"
-N72,CONFERE,entre os 71 municípios,analise/tabelas/07_mapa_quadro_h3.csv,sorteada entre os 71 municípios do interior
 N74,CONFERE,captaram 79% em 2022 e 27% em 2024,analise/tabelas/03_status_conversao_por_faixa_valor_e_ciclo.csv,pedidos até R\$ 400 mil captaram 79% em 2022 e 27% em 2024
+N87,CONFERE,coincide,"analise/tabelas/21_etapas_captacao.csv (anexo = Portal = renúncia realizada, 2023-2025)",e a soma coincide com a dos termos no Portal da Transparência e com a renúncia realizada informada pela SEFAZ
+N88,CONFERE,só 2 dos 32 recusados,analise/tabelas/22_recusados_outras_fontes.csv (PRONAC de mesmo título ou evento datado no Mapa),só 2 dos 32 recusados têm registro público do projeto
+N89,CONFERE,"caiu de 79% para 27%, e a dos maiores, de 90% para 73%",analise/tabelas/23_captacao_por_faixa.csv,"a captação dos pedidos até R\$ 400 mil caiu de 79% para 27%, e a dos maiores, de 90% para 73%"
+N90,CONFERE,"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação",analise/tabelas/13_versoes_captados_fila.csv (2024),"das 47 recusas registradas nas versões sucessivas do anexo, 27 viraram validação"
+N91,CONFERE,"os 32 projetos recusados em 2023 e 2024, os 95 habilitados",analise/tabelas/09_reentrada_resumo.csv; 07_funil_por_ciclo.csv,"os 32 projetos recusados em 2023 e 2024, os 95 habilitados de 2022-2024 cuja captação expirou"
+N92,CONFERE,| 32 × 95 | 26 a 29 |,analise/tabelas/23_poder_secao5.csv,| recusados de 2023-2024; expirados de 2022-2024 | 32 × 95 | 26 a 29 |
+N93,CONFERE,| 58 × 37 | 27 a 29 |,analise/tabelas/23_poder_secao5.csv,| expirados até R\$ 400 mil × acima | 58 × 37 | 27 a 29 |
+N94,CONFERE,| 95 × 86 | 19 a 21 |,analise/tabelas/23_poder_secao5.csv,| expirados × inabilitados | 95 × 86 | 19 a 21 |
+N95,CONFERE,| 32 × 32 | 32 a 35 |,analise/tabelas/23_poder_secao5.csv,| últimos validados × recusados | 32 × 32 | 32 a 35 |
+N96,CONFERE,| 27 × 20 | 38 a 41 |,analise/tabelas/23_poder_secao5.csv,| recusas convertidas × mantidas | 27 × 20 | 38 a 41 |
+N97,CONFERE,| 96 × 222 | 16 a 17 |,analise/tabelas/23_poder_secao5.csv,| recusados × expirados acumulados | 96 × 222 | 16 a 17 |
+N98,CONFERE,diferenças de 26 a 29 pontos,analise/tabelas/23_poder_secao5.csv,o contraste principal só detecta diferenças de 26 a 29 pontos
+N99,CONFERE,cai para 16 a 17 pontos,analise/tabelas/23_poder_secao5.csv,o EMD cai para 16 a 17 pontos
+N100,CONFERE,detecta só 28 a 30 pontos,analise/tabelas/23_poder_secao5.csv,"com mais quatro ciclos, detecta só 28 a 30 pontos"
+N101,CONFERE,Mais da metade,analise/tabelas/09_reentrada_resumo.csv,Mais da metade dos recusados por falta de teto captou no ano seguinte
+N102,CONFERE,"efeito multiplicador de 1,74","dados/fontes_web/firecrawl/ijsn_cultura_em_dados_2026.md (IJSN, notícia de 01/07/2026)","""efeito multiplicador de 1,74"""

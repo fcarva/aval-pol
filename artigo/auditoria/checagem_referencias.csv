@@ -1,6 +1,4 @@
 status,doi,referencia,problemas,titulo_fonte,periodico_fonte,ano_fonte,fonte
-VERIFIED,10.1080/01621459.1996.10476902,"ANGRIST, Joshua D.; IMBENS, Guido W.; RUBIN, Donald B. Identification of causal effects us",,Identification of Causal Effects Using Instrumental Variables,Journal of the American Statistical Association,1996,Crossref
-VERIFIED,10.1162/rest_a_00716,"BAIRD, Sarah; BOHREN, J. Aislinn; McINTOSH, Craig; ÖZLER, Berk. Optimal design of experime",,Optimal Design of Experiments in the Presence of Interference,The Review of Economics and Statistics,2018,Crossref
 sem_doi,,"BARROS, Ricardo Paes de; LIMA, Lycia. Avaliação de impacto de programas sociais: por que, ",,,,,
 sem_doi,,"BELEM, Marcela Purini; DONADONE, Julio Cesar. A Lei Rouanet e a construção do ""mercado de ",,,,,
 VERIFIED,10.1257/aer.20180615,"BERTRAND, Marianne; BOMBARDINI, Matilde; FISMAN, Raymond; TREBBI, Francesco. Tax-exempt lo",,Tax-Exempt Lobbying: Corporate Philanthropy as a Tool for Political Influence,American Economic Review,2020,Crossref
@@ -12,19 +10,19 @@ VERIFIED,10.1590/0034-7612162254,"COSTA, Camila Furlan da; MEDEIROS, Igor Baptis
 VERIFIED,10.1332/251569119X15675896589688,"DEKKER, Erwin; RODRIGUES, Ana Carolina. The political economy of Brazilian cultural policy",,The political economy of Brazilian cultural policy: a case study of the Rouanet Law,Journal of Public Finance and Public Choice,2019,Crossref
 sem_doi,,DIO-ES – DEPARTAMENTO DE IMPRENSA OFICIAL DO ESPÍRITO SANTO. **Diário Oficial dos Poderes ,,,,,
 VERIFIED,10.1080/19439342.2016.1244555,"DJIMEU, Eric W.; HOUNDOLO, Deo-Gracias. Power calculation for causal inference in social s",,Power calculation for causal inference in social science: sample size and minimum detectable effect determination,Journal of Development Effectiveness,2016,Crossref
-VERIFIED,10.1093/ije/dyl129,"ELDRIDGE, Sandra M.; ASHBY, Deborah; KERRY, Sally. Sample size for cluster randomized tria",,Sample size for cluster randomized trials: effect of coefficient of variation of cluster size and analysis method,International Journal of Epidemiology,2006,Crossref
 sem_doi,,"ESPÍRITO SANTO (Estado). Lei nº 11.246, de 7 de abril de 2021. Introduz alterações na Lei ",,,,,
 sem_doi,,"ESPÍRITO SANTO (Estado). Decreto nº 5.035-R, de 15 de dezembro de 2021. Dispõe sobre a reg",,,,,
 sem_doi,,"ESPÍRITO SANTO (Estado). **Portal da Transparência**: incentivos, isenções e beneficiários",,,,,
+sem_doi,,ESPÍRITO SANTO (Estado). Secretaria de Estado de Economia e Planejamento. **Relatório de a,,,,,
 sem_doi,,"FELD, Alan L.; O'HARE, Michael; SCHUSTER, J. Mark Davidson. **Patrons despite themselves**",,,,,
 VERIFIED,10.1093/qje/qjz013,"FINKELSTEIN, Amy; NOTOWIDIGDO, Matthew J. Take-up and targeting: experimental evidence fro",,Take-Up and Targeting: Experimental Evidence from SNAP,The Quarterly Journal of Economics,2019,Crossref
+sem_doi,,"FOGUEL, Miguel Nathan. Modelo de resultados potenciais. *In*: MENEZES FILHO, Naercio Aquin",,,,,
 VERIFIED,10.1177/1745691614551642,"GELMAN, Andrew; CARLIN, John. Beyond power calculations: assessing type S (sign) and type ",,Beyond Power Calculations,Perspectives on Psychological Science,2014,Crossref
 sem_doi,,"GERTLER, Paul J.; MARTÍNEZ, Sebastián; PREMAND, Patrick; RAWLINGS, Laura B.; VERMEERSCH, C",,,,,
-VERIFIED,10.1093/pan/mpt024,"HAINMUELLER, Jens; HOPKINS, Daniel J.; YAMAMOTO, Teppei. Causal inference in conjoint anal",,Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments,Political Analysis,2014,Crossref
 sem_doi,,"HITZIG, Zoë. What are public goods and how do they link people in a society? **EXPeditions",,,,,
 sem_doi,,"IBGE. **Sistema de Informações e Indicadores Culturais**. Rio de Janeiro: IBGE, 2025. Base",,,,,
 sem_doi,,"IBGE. **Pesquisa de Informações Básicas Municipais – MUNIC 2021**. Rio de Janeiro: IBGE, 2",,,,,
-VERIFIED,10.1257/aer.103.5.1797,"MAESTAS, Nicole; MULLEN, Kathleen J.; STRAND, Alexander. Does disability insurance receipt",,Does Disability Insurance Receipt Discourage Work? Using Examiner Assignment to Estimate Causal Effects of SSDI Receipt,American Economic Review,2013,Crossref
+sem_doi,,IJSN – INSTITUTO JONES DOS SANTOS NEVES. **Secult e IJSN divulgam estudo sobre impactos da,,,,,
 VERIFIED,10.3138/cjpe.230,"MAYNE, John. Useful theory of change models. **Canadian Journal of Program Evaluation**, v",,Useful Theory of Change Models,Canadian Journal of Program Evaluation,2015,Crossref
 VERIFIED,10.1093/jopart/muu009,"MOYNIHAN, Donald; HERD, Pamela; HARVEY, Hope. Administrative burden: learning, psychologic",,"Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions",Journal of Public Administration Research and Theory,2015,Crossref
 sem_doi,,"OGAVA, Bruno; GALVÃO, César Augusto; ADAMCZYK, Willian. **Financiamento quadrático para os",,,,,

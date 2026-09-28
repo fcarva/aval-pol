@@ -24,7 +24,7 @@ público não passa pelo mecanismo da LICC), conferidos na Crossref, sem nomear 
 como medida da **ausência do sinal** (71% dos projetos com termo em 2022-2025 têm um só patrocinador, `analise/20_*`),
 sem simular regra alternativa; a §5 do artigo organiza-se pela pergunta central (o financiamento centralizado nas
 empresas desfavorece projetos pequenos e bens de valor público?), com desenho retrospectivo e estimador nomeado por
-hipótese e desenho experimental ou prospectivo de confirmação; o artigo não reporta estimativas de efeito.
+hipótese e desenho experimental ou prospectivo de confirmação; o artigo não reporta estimativas de efeito. **Decisão de 28/09/2026 (r6, parecer externo e sessão do autor):** a §5 passa a ter **uma** pergunta, "a renúncia vai para os projetos que dependem dela?", na decomposição do viés de seleção de Foguel (2017, cap. 2): *V* = E₁₀ − E₀₀ é o objeto, medido com os grupos que a regra já produz (recusados por esgotamento da cota, expirados, inabilitados; `analise/23_secao5_poder.py`). Saem o experimento conjunto, a nota cega, os sorteios e o instrumento; H1 fica "indeterminada" no Quadro 2; H3 é auditoria normativa; nenhum piloto ou regra futura no texto. Ver `artigo/auditoria/revisao-stage3-r6/`.
 
 ## Onde ficam as coisas
 

@@ -1,0 +1,9 @@
+ciclo,faixa,registros_resolvidos,executados,expirados,taxa_captacao,fonte
+2022,acima de 400 mil,31,28,3,0.9032258064516129,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2022,até 400 mil,38,30,8,0.7894736842105263,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2023,acima de 400 mil,71,54,17,0.7605633802816901,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2023,até 400 mil,41,24,17,0.5853658536585366,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2024,acima de 400 mil,63,46,17,0.7301587301587301,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2024,até 400 mil,45,12,33,0.26666666666666666,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2022-2024,acima de 400 mil,165,128,37,0.7757575757575758,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
+2022-2024,até 400 mil,124,66,58,0.532258064516129,"03_status_conversao_por_faixa_valor_e_ciclo.csv (acima de 400 mil = 400-500 mil, 500 mil e acima)"
